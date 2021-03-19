@@ -1,2 +1,0 @@
-User-agent: *
-Sitemap: https://phoenixminer.org/sitemap_index.xml
