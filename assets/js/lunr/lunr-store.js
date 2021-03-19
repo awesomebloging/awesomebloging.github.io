@@ -6,7 +6,7 @@ var store = [{
         "teaser": "https://miningsoft.org/assets/images/thumbs/500x300.png"
       },{
         "title": "Srbpolaris Bios Editor 3.5a&#58; Скачать, Настройка и Команды [2021]",
-        "excerpt":"               Все о SRBPolaris: Как пользоваться, Как запустить.          На этой странице описано, как начать майнинг с помощью srbpolaris 1.24a и новее.   Скачать для Windows/Linux   Скачать релизы с GitHub   Скачать с BitcoinTalk   ","categories": ["miners"],
+        "excerpt":"               Все о SRBPolaris: Как пользоваться, Как запустить.          На этой странице описано, как прошивать BIOs с помощью srbpolaris 3.5a и новее.   Скачать для Windows/Linux   Скачать релизы с GitHub   Скачать с BitcoinTalk   ","categories": ["miners"],
         "tags": [],
         "url": "https://miningsoft.org/miners/srbpolaris/",
         "teaser": "https://miningsoft.org/assets/images/thumbs/500x300.png"
