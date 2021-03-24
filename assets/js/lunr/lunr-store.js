@@ -6,7 +6,7 @@ var store = [{
         "teaser": "https://miningsoft.org/assets/images/thumbs/500x300.png"
       },{
         "title": "Srbpolaris Bios Editor 3.5a&#58; Скачать, Настройка и Команды [2021]",
-        "excerpt":"               Все о SRBPolaris: Как пользоваться, Как запустить.          На этой странице описано, как прошивать BIOs с помощью srbpolaris 3.5a и новее.   Скачать для Windows/Linux   Скачать релизы с GitHub   Скачать с BitcoinTalk   ","categories": ["miners"],
+        "excerpt":"               Все о SRBPolaris: Как пользоваться, Как запустить.          На этой странице описано, как прошивать BIOs с помощью srbpolaris 3.5a и новее.   Скачать для Windows/Linux   Скачать релизы с GitHub   Скачать с BitcoinTalk    Как настроить Gminer  \t \t \t \t\tШаг 1 - Скачайте майнер  \t\t \t\t \t\tВыберите себе релиз для загрузки: официальный GitHub репозиторий или воспользуйтесь форумом BitcoinTalk. \t\t  \t\t \t \t \t \t \t\tШаг 2 - Настройте батник  \t\t \t\t \t\tНа примере binance pool батник будет выглядеть вот так: \t \t\t \t\t\tminer.exe --algo ethash --server ethash.poolbinance.com:8888 --user username1          \t \t\t \t\t \t \t \t \t \tШаг 3 - Запустите майнер  \t \t \t \tТеперь сохраните этот файл с расширением .bat и запустите его двойным щелчком мыши. \t  \t \t  \t \t \tВидео Гид  \t \t \t \t \t \t \t \t \t \t подписывайтесь \t     ","categories": ["miners"],
         "tags": [],
         "url": "https://miningsoft.org/ru/miners/srbpolaris/",
         "teaser": "https://miningsoft.org/assets/images/thumbs/500x300.png"
