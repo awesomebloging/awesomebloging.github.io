@@ -387,11 +387,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <i class="fas fa-file-alt"></i> On this page</h4></header>
               <ul class="toc__menu">
   <li><a href="#download-for-windowslinux">Download for Windows/Linux</a></li>
-  <li><a href="#">Шаг 1 - Download the program</a></li>
-  <li><a href="#">Шаг 2 - Configure the program</a></li>
-  <li><a href="#">Шаг 3 - Start flashing Bios</a></li>
+  <li><a href="#">Step 1 - Download the program</a></li>
+  <li><a href="#">Step 2 - Configure the program</a></li>
+  <li><a href="#">Step 3 - Start flashing Bios</a></li>
   <li><a href="#">Video Guide</a></li>
   <li><a href="#program-description">Program description</a></li>
+  <li><a href="#srbpolaris-wont-start">SRBPolaris Won’t Start?</a></li>
 </ul>
             </nav>
           </aside>
@@ -418,7 +419,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="panel panel-default" id="step1" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
 	<link itemprop="url" href="#step1">
 	<meta itemprop="image" content="/assets/images/og.png">
-		<h2 class="panel-title">Шаг 1 - Download the program</h2>
+		<h2 class="panel-title">Step 1 - Download the program</h2>
 		<meta itemprop="name" content="Download the program">
 		<div class="panel-body" itemprop="text">
 		<p>Official sources for download only: <a href="https://github.com/develsoftware/GMinerRelease/releases" rel="nofollow noopener" target="_blank">GitHub</a> and the forum of the author of the program - <a href="https://bitcointalk.org/index.php?topic=5034735.0" rel="nofollow noopener" target="_blank">BitcoinTalk</a>.
@@ -428,27 +429,26 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="panel panel-default" id="step2" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
 	<link itemprop="url" href="/buy/eth/#step2">
 	<meta itemprop="image" content="/assets/images/og.png">
-		<h2 class="panel-title">Шаг 2 - Configure the program</h2>
+		<h2 class="panel-title">Step 2 - Configure the program</h2>
 		<meta itemprop="name" content="Configure the program">
 		<div class="panel-body" itemprop="text">
-		<div>На примере binance pool батник будет выглядеть вот так:
-	<div class="language-batch highlighter-rouge">
-		<div class="highlight">
-			<pre class="highlight"><code><span class="kd">miner</span><span class="err">.exe</span> <span class="na">--algo </span><span class="kd">ethash</span> <span class="na">--server </span><span class="kd">ethash</span>.poolbinance.com:8888 <span class="na">--user </span><span class="kd">username1</span>
-</code></pre>
-</div>        
-	</div>
+		<div>Open the BIOS file of your video card.
+
+<a href="/assets/images/miners/srbpolaris/4.png" class="image-popup"> <img src="/assets/images/miners/srbpolaris/4.png" alt="srbpolaris Voltages" width="515" height="137" loading="lazy" decoding="async"> </a>
+
+<a href="/assets/images/miners/srbpolaris/5.png" class="image-popup"> <img src="/assets/images/miners/srbpolaris/5.png" alt="srbpolaris save" width="515" height="137" loading="lazy" decoding="async"> </a>
+
 		</div>
 		</div>
 	</div>
 	<div class="panel panel-default" id="step3" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
 	<link itemprop="url" href="/buy/eth/#step3">
 	<meta itemprop="image" content="/assets/images/og.jpg">
-	<h2 class="panel-title">Шаг 3 - Start flashing Bios</h2>
+	<h2 class="panel-title">Step 3 - Start flashing Bios</h2>
 	<meta itemprop="name" content="Start flashing Bios">
 	<div class="panel-body" itemprop="text">
 	<p>
-	Теперь сохраните этот файл с расширением <code>.bat</code> и запустите его двойным щелчком мыши.
+	You have now successfully completely modified your Polaris graphics card and reduced the voltage.
 	</p>
 	</div>
 	</div>
@@ -498,6 +498,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <p>After flashing, it is extremely simple and convenient to monitor and control the characteristics of the video card using the GPU-Z and HWinfo programs, the main task of which is to demonstrate the voltage, frequencies, load on the video card and many other information that will be extremely useful.</p>
 
 <p>Overclocking can be easily checked in HWinfo by monitoring video memory errors. With a large number of these errors, it is necessary to reduce overclocking by decreasing the operating frequency of the video memory or flashing less aggressive timings.</p>
+
+<h2 id="srbpolaris-wont-start">SRBPolaris Won’t Start?</h2>
+
+<p>The program requires <a href="https://www.microsoft.com/ru-ru/download/details.aspx?id=22" rel="nofollow noopener" target="_blank">.NET Framework 3.5 (includes .NET 2.0 and 3.0)</a></p>
+
+<p>Install it:</p>
+
+<p><a href="/assets/images/miners/srbpolaris/1.png" class="image-popup"> <img src="/assets/images/miners/srbpolaris/1.png" alt="NET Framework" width="515" height="137" loading="lazy" decoding="async"> </a></p>
+
+<p>You will see the Windows Installer:</p>
+
+<p><a href="/assets/images/miners/srbpolaris/2.png" class="image-popup"> <img src="/assets/images/miners/srbpolaris/2.png" alt="NET Framework installation" width="515" height="137" loading="lazy" decoding="async"> </a></p>
+
+<p>You need to wait about 5-10 minutes. From where you will see the following window:</p>
+
+<p><a href="/assets/images/miners/srbpolaris/3.png" class="image-popup"> <img src="/assets/images/miners/srbpolaris/3.png" alt="NET Framework installed successfully" width="515" height="137" loading="lazy" decoding="async"> </a></p>
 
 
         

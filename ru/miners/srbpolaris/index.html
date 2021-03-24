@@ -372,7 +372,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
-  менее 1 мин на чтение
+  1 мин на чтение
 </p>
           
 		  
@@ -388,10 +388,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               <ul class="toc__menu">
   <li><a href="#%D1%81%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-%D0%B4%D0%BB%D1%8F-windowslinux">Скачать для Windows/Linux</a></li>
   <li><a href="#">Шаг 1 - Скачайте программу</a></li>
-  <li><a href="#">Шаг 2 - Настройте батник</a></li>
-  <li><a href="#">Шаг 3 - Запустите майнер</a></li>
+  <li><a href="#">Шаг 2 - Настройте вольтаж</a></li>
+  <li><a href="#">Шаг 3 - Сохраните BIOS</a></li>
   <li><a href="#">Видео Гид</a></li>
-  <li><a href="#srbpolaris-%D0%BD%D0%B5-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D0%B0%D0%B5%D1%82%D1%81%D1%8F">srbpolaris не запускается?</a></li>
+  <li><a href="#srbpolaris-%D0%BD%D0%B5-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D0%B0%D0%B5%D1%82%D1%81%D1%8F">SRBPolaris не запускается?</a></li>
 </ul>
             </nav>
           </aside>
@@ -428,27 +428,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="panel panel-default" id="step2" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
 	<link itemprop="url" href="/buy/eth/#step2">
 	<meta itemprop="image" content="/assets/images/og.png">
-		<h2 class="panel-title">Шаг 2 - Настройте батник</h2>
-		<meta itemprop="name" content="Настройте батник">
+		<h2 class="panel-title">Шаг 2 - Настройте вольтаж</h2>
+		<meta itemprop="name" content="Настройте вольтаж">
 		<div class="panel-body" itemprop="text">
-		<div>На примере binance pool батник будет выглядеть вот так:
-	<div class="language-batch highlighter-rouge">
-		<div class="highlight">
-			<pre class="highlight"><code><span class="kd">miner</span><span class="err">.exe</span> <span class="na">--algo </span><span class="kd">ethash</span> <span class="na">--server </span><span class="kd">ethash</span>.poolbinance.com:8888 <span class="na">--user </span><span class="kd">username1</span>
-</code></pre>
-</div>        
-	</div>
-		</div>
+<p>Если вы хотите понизить напряжение вашей карты или добавить дополнительную коррекцию  парамтера vdroop, вам нужно сделать еще одну вещь, и это изменить offset (смещение). Самый простой способ сделать это - открыть SRB Polaris v3.5, загрузить в него образ прошивки и щелкнуть вкладку «Напряжения» («Voltages»). </p>
+
+<p>В левом нижнем углу вы увидите раскрывающееся окно, в котором вы можете выбрать offset. После выбора просто сохраните образ вашего БИОСа. Имейте в виду, что SRB Polaris имеет неприятную привычку автоматически вмешиваться в скорость и напряжение видеокарты, особенно с измененными образами прошивки, поэтому сохраните копию своей прошивки  и сравните их с PBE, чтобы «исправить» все, что SRB Polaris испортил.</p>
+
+<a href="/assets/images/miners/srbpolaris/4.png" class="image-popup"> <img src="/assets/images/miners/srbpolaris/4.png" alt="srbpolaris Voltages" width="515" height="137" loading="lazy" decoding="async"> </a>
+
+<a href="/assets/images/miners/srbpolaris/5.png" class="image-popup"> <img src="/assets/images/miners/srbpolaris/5.png" alt="srbpolaris save" width="515" height="137" loading="lazy" decoding="async"> </a>
+
 		</div>
 	</div>
 	<div class="panel panel-default" id="step3" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
 	<link itemprop="url" href="/buy/eth/#step3">
 	<meta itemprop="image" content="/assets/images/og.jpg">
-	<h2 class="panel-title">Шаг 3 - Запустите майнер</h2>
-	<meta itemprop="name" content="Запустите майнер">
+	<h2 class="panel-title">Шаг 3 - Сохраните BIOS</h2>
+	<meta itemprop="name" content="Сохраните BIOS">
 	<div class="panel-body" itemprop="text">
 	<p>
-	Теперь сохраните этот файл с расширением <code>.bat</code> и запустите его двойным щелчком мыши.
+	Теперь Вы успешно полностью модифицировали видеокарту Polaris и снизили напряжение.
 	</p>
 	</div>
 	</div>
@@ -471,7 +471,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div>
 </section>
 
-<h2 id="srbpolaris-не-запускается">srbpolaris не запускается?</h2>
+<h2 id="srbpolaris-не-запускается">SRBPolaris не запускается?</h2>
+
+<p>Для работы программы нужен <a href="https://www.microsoft.com/ru-ru/download/details.aspx?id=22" rel="nofollow noopener" target="_blank">.NET Framework 3.5 (включает .NET 2.0 и 3.0)</a></p>
+
+<p>Установите его:</p>
+
+<p><a href="/assets/images/miners/srbpolaris/1.png" class="image-popup"> <img src="/assets/images/miners/srbpolaris/1.png" alt="NET Framework" width="515" height="137" loading="lazy" decoding="async"> </a></p>
+
+<p>Вы увидите установщик Windows:</p>
+
+<p><a href="/assets/images/miners/srbpolaris/2.png" class="image-popup"> <img src="/assets/images/miners/srbpolaris/2.png" alt="NET Framework установка" width="515" height="137" loading="lazy" decoding="async"> </a></p>
+
+<p>Нужно подождать около 5-10 мин. Плсде чего вы увидите следующее окно:</p>
+
+<p><a href="/assets/images/miners/srbpolaris/3.png" class="image-popup"> <img src="/assets/images/miners/srbpolaris/3.png" alt="NET Framework успешно установлен" width="515" height="137" loading="lazy" decoding="async"> </a></p>
 
 
         
