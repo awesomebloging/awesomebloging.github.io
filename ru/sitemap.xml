@@ -70,7 +70,9 @@
   
   <url>
     <loc>https://miningsoft.org/ru/about/</loc>
-    <lastmod></lastmod>
+      
+        <lastmod>2021-03-30T20:53:46+00:00</lastmod>
+       
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -80,7 +82,9 @@
   
   <url>
     <loc>https://miningsoft.org/ru/cookie/</loc>
-    <lastmod></lastmod>
+      
+        <lastmod>2021-03-30T20:53:46+00:00</lastmod>
+       
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -90,7 +94,9 @@
   
   <url>
     <loc>https://miningsoft.org/ru/</loc>
-    <lastmod></lastmod>
+      
+        <lastmod>2021-03-30T20:53:46+00:00</lastmod>
+       
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -114,7 +120,9 @@
   
   <url>
     <loc>https://miningsoft.org/ru/legal/terms/</loc>
-    <lastmod></lastmod>
+      
+        <lastmod>2021-03-30T20:53:46+00:00</lastmod>
+       
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -124,7 +132,9 @@
   
   <url>
     <loc>https://miningsoft.org/ru/categories/miners/</loc>
-    <lastmod></lastmod>
+      
+        <lastmod>2021-03-30T20:53:46+00:00</lastmod>
+       
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -134,7 +144,9 @@
   
   <url>
     <loc>https://miningsoft.org/ru/blog/</loc>
-    <lastmod></lastmod>
+      
+        <lastmod>2021-03-30T20:53:46+00:00</lastmod>
+       
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -144,7 +156,9 @@
   
   <url>
     <loc>https://miningsoft.org/ru/miners/</loc>
-    <lastmod></lastmod>
+      
+        <lastmod>2021-03-30T20:53:46+00:00</lastmod>
+       
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -154,7 +168,9 @@
   
   <url>
     <loc>https://miningsoft.org/ru/wallets/</loc>
-    <lastmod></lastmod>
+      
+        <lastmod>2021-03-30T20:53:46+00:00</lastmod>
+       
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
