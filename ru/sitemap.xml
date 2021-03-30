@@ -66,8 +66,30 @@
   
   
   
+  
+  
   <url>
-    <loc>https://miningsoft.org/ru/404.html</loc>
+    <loc>https://miningsoft.org/ru/about/</loc>
+    <lastmod></lastmod>
+    <changefreq></changefreq>
+    <priority></priority>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://miningsoft.org/ru/cookie/</loc>
+    <lastmod></lastmod>
+    <changefreq></changefreq>
+    <priority></priority>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://miningsoft.org/ru/</loc>
     <lastmod></lastmod>
     <changefreq></changefreq>
     <priority></priority>
@@ -90,12 +112,52 @@
   
   
   
+  <url>
+    <loc>https://miningsoft.org/ru/legal/terms/</loc>
+    <lastmod></lastmod>
+    <changefreq></changefreq>
+    <priority></priority>
+  </url>
   
   
   
   
+  <url>
+    <loc>https://miningsoft.org/ru/categories/miners/</loc>
+    <lastmod></lastmod>
+    <changefreq></changefreq>
+    <priority></priority>
+  </url>
   
   
+  
+  
+  <url>
+    <loc>https://miningsoft.org/ru/blog/</loc>
+    <lastmod></lastmod>
+    <changefreq></changefreq>
+    <priority></priority>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://miningsoft.org/ru/miners/</loc>
+    <lastmod></lastmod>
+    <changefreq></changefreq>
+    <priority></priority>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://miningsoft.org/ru/wallets/</loc>
+    <lastmod></lastmod>
+    <changefreq></changefreq>
+    <priority></priority>
+  </url>
   
   
   
