@@ -1,64 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>https://miningsoft.org/ru/miners/lolminer/</loc>
-<lastmod>2021-03-24T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://miningsoft.org/ru/miners/srbpolaris/</loc>
-<lastmod>2021-03-24T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://miningsoft.org/ru/miners/gminer/</loc>
-<lastmod>2021-03-24T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://miningsoft.org/ru/miners/teamredminer/</loc>
-<lastmod>2021-03-25T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://miningsoft.org/ru/miners/ccminer/</loc>
-<lastmod>2021-03-25T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://miningsoft.org/ru/miners/nbminer/</loc>
-<lastmod>2021-03-29T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://miningsoft.org/ru/miners/wildrig/</loc>
-<lastmod>2021-03-29T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://miningsoft.org/ru/about/</loc>
-</url>
-<url>
-<loc>https://miningsoft.org/ru/cookie/</loc>
-</url>
-<url>
-<loc>https://miningsoft.org/ru/</loc>
-<lastmod>2021-03-24T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://miningsoft.org/ru/legal/terms/</loc>
-<lastmod>2019-06-11T16:42:38+00:00</lastmod>
-</url>
-<url>
-<loc>https://miningsoft.org/ru/categories/miners/</loc>
-</url>
-<url>
-<loc>https://miningsoft.org/ru/blog/</loc>
-</url>
-<url>
-<loc>https://miningsoft.org/ru/_pages/home/</loc>
-</url>
-<url>
-<loc>https://miningsoft.org/ru/miners/</loc>
-</url>
-<url>
-<loc>https://miningsoft.org/ru/wallets/</loc>
-</url>
-<url>
-<loc>https://miningsoft.org/ru/_pages/eth-network-difficulty.html</loc>
-<lastmod>2021-01-19T14:22:29+00:00</lastmod>
-</url>
+<urlset xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9 https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://miningsoft.org/ru/miners/wildrig/</loc>
+    
+    <lastmod>2021-03-27T00:00:00+00:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://miningsoft.org/ru/miners/nbminer/</loc>
+    
+    <lastmod>2021-03-25T00:00:00+00:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://miningsoft.org/ru/miners/ccminer/</loc>
+    
+    <lastmod>2021-03-25T00:00:00+00:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://miningsoft.org/ru/miners/teamredminer/</loc>
+    
+    <lastmod>2021-03-24T00:00:00+00:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://miningsoft.org/ru/miners/gminer/</loc>
+    
+    <lastmod>2021-03-20T00:00:00+00:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://miningsoft.org/ru/miners/srbpolaris/</loc>
+    
+    <lastmod>2021-03-19T00:00:00+00:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://miningsoft.org/ru/miners/lolminer/</loc>
+    
+    <lastmod>2021-03-18T00:00:00+00:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://miningsoft.org/ru/404.html</loc>
+    <lastmod></lastmod>
+    <changefreq></changefreq>
+    <priority></priority>
+  </url>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 </urlset>
