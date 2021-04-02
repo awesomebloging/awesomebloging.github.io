@@ -2,6 +2,15 @@
 <urlset xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9 https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://miningsoft.org/en/miners/trexminer/</loc>
+    
+    <lastmod>2021-04-02T00:00:00+00:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
     <loc>https://miningsoft.org/en/miners/wildrig/</loc>
     
     <lastmod>2021-03-31T00:00:00+00:00</lastmod>
@@ -71,7 +80,7 @@
   <url>
     <loc>https://miningsoft.org/en/about/</loc>
       
-        <lastmod>2021-04-01T00:51:48+00:00</lastmod>
+        <lastmod>2021-04-02T13:47:09+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -83,7 +92,7 @@
   <url>
     <loc>https://miningsoft.org/en/cookie/</loc>
       
-        <lastmod>2021-04-01T00:51:48+00:00</lastmod>
+        <lastmod>2021-04-02T13:47:09+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -95,7 +104,7 @@
   <url>
     <loc>https://miningsoft.org/en/</loc>
       
-        <lastmod>2021-04-01T00:51:48+00:00</lastmod>
+        <lastmod>2021-04-02T13:47:09+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -121,7 +130,7 @@
   <url>
     <loc>https://miningsoft.org/en/legal/terms/</loc>
       
-        <lastmod>2021-04-01T00:51:48+00:00</lastmod>
+        <lastmod>2021-04-02T13:47:09+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -133,7 +142,7 @@
   <url>
     <loc>https://miningsoft.org/en/blog/</loc>
       
-        <lastmod>2021-04-01T00:51:48+00:00</lastmod>
+        <lastmod>2021-04-02T13:47:09+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -145,7 +154,7 @@
   <url>
     <loc>https://miningsoft.org/en/miners/</loc>
       
-        <lastmod>2021-04-01T00:51:48+00:00</lastmod>
+        <lastmod>2021-04-02T13:47:09+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -157,7 +166,7 @@
   <url>
     <loc>https://miningsoft.org/en/wallets/</loc>
       
-        <lastmod>2021-04-01T00:51:48+00:00</lastmod>
+        <lastmod>2021-04-02T13:47:09+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
