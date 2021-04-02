@@ -1,6 +1,6 @@
 if ($(window).width() >= 1210) {
       $('body').prepend("<a name='top' />");
-      $('body').append("<div id='go-top'><div id='go-top-text'>Наверх</div></div>")
+      $('body').append("<div id='go-top'><div id='go-top-text'></div></div>")
       $(window).scroll(function(){
         if ($(document).scrollTop() > 200) {
           $('#go-top').fadeIn();
