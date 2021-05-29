@@ -19,7 +19,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://miningsoft.org/assets/images/site-logo.png">
 <meta property="article:published_time" content="2021-03-25T00:00:00+00:00">
-<meta property="article:modified_time" content="2021-03-25T00:00:00+00:00">
+<meta property="article:modified_time" content="2021-05-29T00:00:00+00:00">
 <link rel="canonical" href="https://miningsoft.org/ru/miners/ccminer/"> <script type="application/ld+json"> { "@context": "https://schema.org", "@type": "Person", "name": "MiningSoft", "url": "https://miningsoft.org/ru/", "sameAs": ["https://www.facebook.com/matthew.wood.5682"] } </script><meta name="google-site-verification" content="lzkzzEBSl4ZcrOj5sxD0Ao0R1sXdFSczY9bQcLVWHMY">
 <meta name="yandex-verification" content="da0cda22b6e4f5d0"> <!-- end _includes/seo.html --><meta name="description" content="CCMiner: Настройка для FIRO, Команды, примеры для (MTP, XZC) и многое другое. В этом руководстве вы узнаете, как настроить и использовать CCMiner для майнинга Firo">
 <meta name="author" content="Matthew Wood">
@@ -72,10 +72,10 @@
 <article class="page" itemscope itemtype="https://schema.org/CreativeWork"><meta itemprop="headline" content="Xzc Mtp Ccminer (x64 2.2): Скачать, Настройка, Запуск (2021)">
 <meta itemprop="description" content=" CCMiner: Настройка для FIRO, Команды, примеры для (MTP, XZC) и многое другое. В этом руководстве вы узнаете, как настроить и использовать CCMiner для майнинга Firo">
 <meta itemprop="datePublished" content="March 25, 2021">
-<meta itemprop="dateModified" content="March 25, 2021">
+<meta itemprop="dateModified" content="May 29, 2021">
 <div class="page__inner-wrap">
 <header><h1 id="page-title" class="page__title" itemprop="headline">XZC MTP - Ccminer (x64 2.2): Скачать, Настройка, Запуск</h1>
-<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 1 мин на чтение</p></header><section class="page__content" itemprop="text"><aside class="sidebar__right sticky"><nav class="toc"><header><h4 class="nav__title"> <i class="fas fa-file-alt"></i> Содержание</h4></header><ul class="toc__menu">
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 2 мин на чтение</p></header><section class="page__content" itemprop="text"><aside class="sidebar__right sticky"><nav class="toc"><header><h4 class="nav__title"> <i class="fas fa-file-alt"></i> Содержание</h4></header><ul class="toc__menu">
 <li><a href="#%D1%81%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-%D0%B4%D0%BB%D1%8F-windowslinux">Скачать для Windows/Linux</a></li>
 <li><a href="#ccminer">Что такое CCMiner</a></li>
 <li><a href="#%D0%A8%D0%B0%D0%B3%201%20-%20%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D0%B9%D1%82%D0%B5%20%D0%BC%D0%B0%D0%B9%D0%BD%D0%B5%D1%80">Шаг 1 - Скачайте майнер</a></li>
@@ -84,12 +84,18 @@
 <li><a href="#%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%93%D0%B8%D0%B4">Видео Гид</a></li>
 <li> <a href="#%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-ccminer-%D0%B4%D0%BB%D1%8F-mtp-zcoin">Пример CCMiner для mtp zcoin</a><ul><li><a href="#ccminer-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-%D0%B4%D0%BB%D1%8F-nicehash">CCMiner настройка для NiceHash</a></li></ul>
 </li>
-<li> <a href="#%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B">Алгоритмы</a><ul><li><a href="#%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B">Команды</a></li></ul>
+<li><a href="#%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B">Алгоритмы</a></li>
+<li> <a href="#%D0%BE%D1%81%D0%BE%D0%B1%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D0%BC%D0%B0%D0%B9%D0%BD%D0%B8%D0%BD%D0%B3%D0%B0-mtp-firo">Особенности майнинга MTP (FIRO)</a><ul>
+<li><a href="#%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F-%D0%BF%D0%BE-%D0%BC%D0%B0%D0%B9%D0%BD%D0%B8%D0%BD%D0%B3%D1%83-%D0%BD%D0%B0-%D0%BA%D0%BE%D1%88%D0%B5%D0%BB%D1%8C%D0%BA%D0%B5-firo-%D1%81%D0%BE%D0%BB%D0%BE-%D0%BC%D0%B0%D0%B9%D0%BD%D0%B8%D0%BD%D0%B3">Инструкция по майнингу на кошельке FIRO (соло-майнинг)</a></li>
+<li><a href="#%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F-%D0%BF%D0%BE-%D0%BC%D0%B0%D0%B9%D0%BD%D0%B8%D0%BD%D0%B3%D1%83-%D0%BD%D0%B0-%D0%BF%D1%83%D0%BB%D0%B5">Инструкция по майнингу на пуле</a></li>
+<li><a href="#%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B">Команды</a></li>
+</ul>
 </li>
 </ul></nav></aside><div id="paper" class="nvidia"><div id="pattern"><div id="note-cont"> CCMiner: Настройка для FIRO, Команды, примеры для (MTP, XZC) и многое другое.</div></div></div>
 <p><em>В этом руководстве вы узнаете, как настроить и использовать CCMiner для майнинга Firo</em></p>
 <h2 id="скачать-для-windowslinux">Скачать для Windows/Linux</h2>
-<p><a href="https://github.com/firoorg/ccminer/releases" class="btn btn--success btn--x-large" rel="nofollow noopener" target="_blank">Скачать релизы с GitHub</a></p>
+<script async="" src="https://coinzillatag.com/lib/display.js"></script><div class="coinzilla" data-zone="C-26960aca952082b4725"></div>
+<script> window.coinzilla_display = window.coinzilla_display || []; var c_display_preferences = {}; c_display_preferences.zone = "26960aca952082b4725"; c_display_preferences.width = "300"; c_display_preferences.height = "250"; coinzilla_display.push(c_display_preferences); </script><p><a href="https://github.com/firoorg/ccminer/releases" class="btn btn--success btn--x-large" rel="nofollow noopener" target="_blank">Скачать релизы с GitHub</a></p>
 <p><a href="https://bitcointalk.org/index.php?topic=826901.0" class="btn btn--yandex btn--x-large" rel="nofollow noopener" target="_blank"><strong>Скачать с BitcoinTalk</strong></a></p>
 <section><h2 id="ccminer">Что такое CCMiner</h2>
 <p><b>CCMiner</b> - это программа для майнинга FIRO (MTP) и других криптовалют. Программа работает в Windows и Linux.</p></section><section id="how-to-start" itemscope="itemscope" itemtype="http://schema.org/HowTo"><h1 itemprop="name">Как настроить CCMiner</h1>
@@ -193,10 +199,23 @@
 </tr>
 </tbody>
 </table>
-<!-- -a, --algo=ALGO specify the hash algorithm to use blake Blake 256 (SFR) blake2s Blake2-S 256 (NEVA) blakecoin Fast Blake 256 (8 rounds) bmw BMW 256 c11/flax X11 variant decred Decred Blake256 deep Deepcoin dmd-gr Diamond-Groestl fresh Freshcoin (shavite 80) fugue256 Fuguecoin groestl Groestlcoin heavy Heavycoin jackpot Jackpot keccak Keccak-256 (Maxcoin) lbry LBRY Credits (Sha/Ripemd) luffa Joincoin lyra2 CryptoCoin lyra2v2 VertCoin lyra2Z ZCoin m7 m7 (crytonite) hash mjollnir Mjollnircoin myr-gr Myriad-Groestl neoscrypt FeatherCoin, Phoenix, UFO... nist5 NIST5 (TalkCoin) penta Pentablake hash (5x Blake 512) quark Quark qubit Qubit sia SIA (Blake2B) sib Sibcoin (X11+Streebog) scrypt Scrypt scrypt-jane Scrypt-jane Chacha skein Skein SHA2 (Skeincoin) skein2 Double Skein (Woodcoin) s3 S3 (1Coin) vanilla Blake256-8 (VNL) veltor Thorsriddle streebog whirlcoin Old Whirlcoin (Whirlpool algo) whirlpool Whirlpool algo x11evo Permuted x11 (Revolver) x11 X11 (DarkCoin) x13 X13 (MaruCoin) x14 X14 x15 X15 x17 X17 zr5 ZR5 (ZiftrCoin) --><h3 id="команды">Команды</h3>
+<!-- -a, --algo=ALGO specify the hash algorithm to use blake Blake 256 (SFR) blake2s Blake2-S 256 (NEVA) blakecoin Fast Blake 256 (8 rounds) bmw BMW 256 c11/flax X11 variant decred Decred Blake256 deep Deepcoin dmd-gr Diamond-Groestl fresh Freshcoin (shavite 80) fugue256 Fuguecoin groestl Groestlcoin heavy Heavycoin jackpot Jackpot keccak Keccak-256 (Maxcoin) lbry LBRY Credits (Sha/Ripemd) luffa Joincoin lyra2 CryptoCoin lyra2v2 VertCoin lyra2Z ZCoin m7 m7 (crytonite) hash mjollnir Mjollnircoin myr-gr Myriad-Groestl neoscrypt FeatherCoin, Phoenix, UFO... nist5 NIST5 (TalkCoin) penta Pentablake hash (5x Blake 512) quark Quark qubit Qubit sia SIA (Blake2B) sib Sibcoin (X11+Streebog) scrypt Scrypt scrypt-jane Scrypt-jane Chacha skein Skein SHA2 (Skeincoin) skein2 Double Skein (Woodcoin) s3 S3 (1Coin) vanilla Blake256-8 (VNL) veltor Thorsriddle streebog whirlcoin Old Whirlcoin (Whirlpool algo) whirlpool Whirlpool algo x11evo Permuted x11 (Revolver) x11 X11 (DarkCoin) x13 X13 (MaruCoin) x14 X14 x15 X15 x17 X17 zr5 ZR5 (ZiftrCoin) --><h2 id="особенности-майнинга-mtp-firo">Особенности майнинга MTP (FIRO)</h2>
+<p>Для mtp требуется 4,4 ГБ виртуальной памяти, поэтому карты с менее чем 4,5 ГБ виртуальной памяти работать не будут.</p>
+<p>Программа также использует около 500Мб и 4,4xCard Количество подкачки / виртуальной памяти.</p>
+<h3 id="инструкция-по-майнингу-на-кошельке-firo-соло-майнинг">Инструкция по майнингу на кошельке FIRO (соло-майнинг)</h3>
+<p>Структура командной строки:</p>
+<p class="notice--ya"><code class="language-plaintext highlighter-rouge">ccminer -a mtp -o http://127.0.0.1:rpcport -u rpcuser -p rpcpassword --coinbase-addr zcoin-address -d listofcards --no-getwork</code></p>
+<p>В примере выше мы указали СОЛО адрес - <code class="language-plaintext highlighter-rouge">http://127.0.0.1</code></p>
+<p>Пример (RUN-ZCOIN-MTP.cmd)</p>
+<p class="notice--ya"><code class="language-plaintext highlighter-rouge">ccminer -a mtp -o http://127.0.0.1:8382 -u djm34 -p password --coinbase-addr aMLjCeLBmBGEJP6dYtWEMdZZuPH4w6uFsK --no-getwork -d 0,1,2 -i 22</code></p>
+<p>В примере выше мы указали интенсивность майнинга. Команда <code class="language-plaintext highlighter-rouge">-i 22</code> установит интенсивность 22.</p>
+<h3 id="инструкция-по-майнингу-на-пуле">Инструкция по майнингу на пуле</h3>
+<p class="notice--ya"><code class="language-plaintext highlighter-rouge">ccminer -a mtp -o stratum + tcp: //zcoin.mintpond.com: 3000 -u aMLjCeLBmBGEJP6dYtWEMdZZuPH4w6uFsK.worker -p 0, strict, verbose, d = 500 -i 20</code></p>
+<p>В примере выше мы указали пул (НЕ СОЛО) и интенсивность майнинга. Команда <code class="language-plaintext highlighter-rouge">-i 20</code> установит интенсивность 20.</p>
+<h3 id="команды">Команды</h3>
 <p><code class="language-plaintext highlighter-rouge">--algo</code> или короткий синоним этой команды <code class="language-plaintext highlighter-rouge">-a</code> - указывает алгоритм для майнинга (для примера: ‘mtp’, ‘lyra2Z’, ‘scrypt’, ‘myr-gr’)</p>
 <p><span class="red">Важно! Используйте либо длинный синоним <code class="language-plaintext highlighter-rouge">--algo</code> либо короткий <code class="language-plaintext highlighter-rouge">-a</code>. Вместе и то и то использовать не нужно.</span></p></section><footer class="page__meta"><p class="page__taxonomy"> <i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Разделы: <span itemprop="keywords"> <a href="/ru/miners" class="page__taxonomy-item" rel="tag">miners</a> </span></p>
-<p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Дата изменения: <time datetime="2021-03-25T00:00:00+00:00">25.03.2021</time></p></footer>
+<p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Дата изменения: <time datetime="2021-05-29T00:00:00+00:00">29.05.2021</time></p></footer>
 </div></article>
 </div>
 <!-- download --><div class="mar"> <!--<section class="so-down"><div class="so-title whitez1"><a id="download">Getting Started With Ethereum Mining</a></div><div class="so-download"><div class="so-flex"><div class="so-ver"> Latest version is 5.5c<br> File: *<code></code>, SHA256: 599393e258d8ba7b8f8633e20c651868258827d3a43a4d0712125bc487eabf92<br> <span class="nev2">(<a href="https://bit.ly/3bujasD">Download for Linux</a>)</span></div><div class="so-get"> <span class="so-password">Password: phoenix</span><div class="so-button down"><i class="far fa-arrow-alt-circle-down"></i> <a href="https://cutt.ly/NzVAJor" target="_blank">Download Now (Windows x64)</a></div><span class="so-mirror">(<a href="https://bit.ly/2MeIrhX" target="_blank" rel="nofollow">mirror</a>)</span></div></div></div></section>-->
@@ -206,13 +225,13 @@
 <div class="grid__wrapper">
 <div class="grid__item"><article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"><div class="archive__item-teaser"> <img src="/assets/images/thumbs/500x300.webp" alt="" loading="lazy" decoding="async">
 </div>
-<h2 class="archive__item-title" itemprop="headline"> <a href="/ru/miners/cpuminer/" rel="permalink">Cpuminer-Opt 3.16.1 (Multi) Скачать, Настройка [rx2, sse2] </a>
+<h2 class="archive__item-title" itemprop="headline"> <a href="/ru/miners/cpuminer/" rel="permalink">Cpuminer-Opt 3.16.3 (Multi) Скачать, Настройка [rx2, sse2] </a>
 </h2>
 <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 3 мин на чтение</p>
 <p class="archive__item-excerpt" itemprop="description"> Cpuminer-Opt: Настройка для майнинга на процессоре. В этом руководстве вы узнаете, как настроить и использовать программное обеспечен...</p></article></div>
 <div class="grid__item"><article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"><div class="archive__item-teaser"> <img src="/assets/images/thumbs/500x300.webp" alt="" loading="lazy" decoding="async">
 </div>
-<h2 class="archive__item-title" itemprop="headline"> <a href="/ru/miners/trexminer/" rel="permalink">T Rex Miner 0.19.14 Скачать, Настройка для ETH и Binance Pool </a>
+<h2 class="archive__item-title" itemprop="headline"> <a href="/ru/miners/trexminer/" rel="permalink">T Rex Miner 0.20.4 Скачать, Настройка для ETH и Binance Pool </a>
 </h2>
 <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 3 мин на чтение</p>
 <p class="archive__item-excerpt" itemprop="description"> TrexMiner: Настройка для Binance Pool, Комиссия, Сравнение с Phoenix. В этом руководстве вы узнаете, как настроить и использовать про...</p></article></div>
