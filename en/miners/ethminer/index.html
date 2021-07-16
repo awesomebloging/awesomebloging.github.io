@@ -85,13 +85,9 @@
 <li><a href="#Step%202%20-%20Set%20up%20a%20batch%20file%20for%20Ethereum%20on%20Binance%20Pool">Step 2 - Set up a batch file for Ethereum on Binance Pool</a></li>
 <li><a href="#Step%203%20-%20Launch%20ETHMiner">Step 3 - Launch ETHMiner</a></li>
 <li><a href="#%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%93%D0%B8%D0%B4">Video Guide</a></li>
-<li><a href="#nicehash-miner-legacy-setting-up-the-program">Nicehash miner legacy: setting up the program</a></li>
-<li><a href="#program-installation">Program installation</a></li>
-<li><a href="#Comparison%20ETHMiner%20vs%20TeamRedMiner">Nicehash Miner Vs. Quick Miner-Which To Use in 2021 (Cryptomining Tutorial)</a></li>
-<li><a href="#mining-statistics-in-nicehash">Mining statistics in Nicehash</a></li>
-<li><a href="#nicehash-graphics-card-error">Nicehash graphics card error</a></li>
-<li><a href="#nicehash-is-safe">Nicehash is safe?</a></li>
-<li><a href="#Comparison%20ETHMiner%20vs%20TeamRedMiner">How to add ETHMiner Miner to Windows Defender exclusion? - User Guide</a></li>
+<li><a href="#command-line-arguments">Command line arguments</a></li>
+<li><a href="#Comparison%20PhoenixMiner%20vs%20TeamRedMiner">Ethereum Mining How to create your Ethminer Batch File &amp; Config Setup</a></li>
+<li><a href="#frequent-problems">Frequent problems</a></li>
 </ul></nav></aside><div id="paper" class="nvidia"><div id="pattern"><div id="note-cont"> ETHMiner: Setting for maximum profit, Commission, Comparison with PhoenixMiner.</div></div></div>
 <p><em>In this guide, you will learn how to set up and use ETHMiner to mine Ethereum.</em></p>
 <h2 id="download-for-windows--linux">Download for Windows / Linux</h2>
@@ -134,73 +130,49 @@
 <div class="panel-body">
 <meta itemprop="text" content="Phoenix Miner Setup [Easy Tutorial 2021] | Ethereum Mining">
 <div class="youtubevideowrap" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/YkG9TStbhVo">
-<link itemprop="contentUrl" content="https://www.youtube.com/embed/YkG9TStbhVo">
+<link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/hF3JmiJAS20">
+<link itemprop="contentUrl" content="https://www.youtube.com/embed/hF3JmiJAS20">
 <meta itemprop="name" content="Video Guide">
-<meta itemprop="description" content="How To Start Mining with ETHMiner - Official Guide">
-<meta itemprop="uploadDate" content="2020-02-05T08:00:00+08:00">
-<meta itemprop="duration" content="PT6M06S">
-<div class="youtube-player" data-id="YkG9TStbhVo"></div>
+<meta itemprop="description" content="Ethereum Pool Mining - Setup Tutorial (Windows)">
+<meta itemprop="uploadDate" content="2017-09-17T08:00:00+08:00">
+<meta itemprop="duration" content="PT3M32S">
+<div class="youtube-player" data-id="hF3JmiJAS20"></div>
 <div class="ytb-but"><a href="https://cutt.ly/pxlaiCA" rel="nofollow noopener" target="_blank">subscribe</a></div>
 </div>
 </div>
-</div></section><h2 id="nicehash-miner-legacy-setting-up-the-program">Nicehash miner legacy: setting up the program</h2>
-<p>First of all, you need to register on the official Nicehash QuickMiner website . She won’t notice much time. You need to provide your email and password. Confirm the creation of a new profile and go to it.</p>
-<p>We recommend that you go through two-factor authentication right away to improve your protection against system hacking. After passing through the account, you are given access to personal crypto wallets. You can also look at the list of tokens supported by the service on their website.</p>
-<h2 id="program-installation">Program installation</h2>
-<p>The setting is done as follows:</p>
+</div></section><h2 id="command-line-arguments">Command line arguments</h2>
+<p>To use the miner to the maximum, it is worth understanding the commands that set the parameters. Some of them are paired. Then you need to enter a specific: abbreviated or full version:</p>
 <ul>
-<li>We are waiting for the loading of all components after testing.</li>
-<li>We select the location that is as close as possible to our location. This will reduce ping.</li>
-<li>Enter the address of the cryptocurrency wallet.</li>
-<li>We indicate the name of the worker.</li>
-<li>Below we select the equipment that will be used to extract the desired tokens. Click the “benchmark” button. The window that opens shows the settings for testing the system. There is a fast, standard and accurate benchmark. You can choose specific algorithms or absolutely everything.</li>
+<li> <code class="language-plaintext highlighter-rouge">help</code> <code class="language-plaintext highlighter-rouge">(h)</code> - help on working with the program. Here are all the commands and how to work with it.</li>
+<li> <code class="language-plaintext highlighter-rouge">api-bind</code> - using the API.</li>
+<li> <code class="language-plaintext highlighter-rouge">opencl</code> <code class="language-plaintext highlighter-rouge">(G)</code> - Application of OpenCL for AMD.</li>
+<li> <code class="language-plaintext highlighter-rouge">cuda</code> <code class="language-plaintext highlighter-rouge">(u)</code> - application of CUDA-technology for NVidia.</li>
+<li> <code class="language-plaintext highlighter-rouge">pool</code> <code class="language-plaintext highlighter-rouge">(P)</code> - pool connection.</li>
+<li> <code class="language-plaintext highlighter-rouge">help-ext</code> - help for con (connection), test (testing), cl (OpenCL properties), api (API), misc (other) and env (environment variables).</li>
+<li> <code class="language-plaintext highlighter-rouge">Version</code> - the current version and exit the program.</li>
 </ul>
 <link itemprop="url" href="/#videoguide">
 <meta itemprop="image" content="/assets/images/og.png">
-<h2 class="panel-title" itemprop="name" id="Comparison ETHMiner vs TeamRedMiner">Nicehash Miner Vs. Quick Miner-Which To Use in 2021 (Cryptomining Tutorial)</h2>
+<h2 class="panel-title" itemprop="name" id="Comparison PhoenixMiner vs TeamRedMiner">Ethereum Mining How to create your Ethminer Batch File &amp; Config Setup</h2>
 <div class="youtubevideowrap" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/S3EsAk6XZw8">
-<link itemprop="contentUrl" content="https://www.youtube.com/embed/S3EsAk6XZw8">
-<meta itemprop="name" content="Nicehash Miner Vs. Quick Miner-Which To Use in 2021 (Cryptomining Tutorial)">
-<meta itemprop="description" content="For ETHMiner Miner to fully work, it relies on 3rd party plugins and miners. In most cases, these are programs of unverified and unknown origin. Their real names do not know the authors of these programs, or no company stands behind the software. Why developers of these programs keep their identity so private is unknown to us. There could be various reasons. The reasons are most likely not to harm miners because they charge developer fees for using their miners. But we cannot be entirely sure that they have no intention of ever putting anything harmful inside their programs. Trusting them blindly would be a big mistake.">
-<meta itemprop="uploadDate" content="2021-03-16T08:00:00+08:00">
-<meta itemprop="duration" content="PT21M29S">
-<div class="youtube-player" data-id="S3EsAk6XZw8"></div>
+<link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/vkFQlz_ZXTA">
+<link itemprop="contentUrl" content="https://www.youtube.com/embed/vkFQlz_ZXTA">
+<meta itemprop="name" content="Ethereum Mining How to create your Ethminer Batch File &amp; Config Setup">
+<meta itemprop="description" content="Ethereum Mining How to create your Ethminer Batch File &amp; Config Setup">
+<meta itemprop="uploadDate" content="2017-02-25T08:00:00+08:00">
+<meta itemprop="duration" content="PT18M17S">
+<div class="youtube-player" data-id="vkFQlz_ZXTA"></div>
 <div class="ytb-but"><a href="https://cutt.ly/pxlaiCA" rel="nofollow noopener" target="_blank">subscribe</a></div>
 </div>
-<p>We start the process. If desired, check the box to start mining after testing. After the procedure, the system itself selects the most beneficial algorithm for you. It focuses on the current rates of digital tokens and ordering power on the service.</p>
-<h2 id="mining-statistics-in-nicehash">Mining statistics in Nicehash</h2>
-<p>For information on mining. You need to go to the service website and log into your account. In the profile, you will find the “mining” tab, which shows:</p>
-<h2 id="nicehash-graphics-card-error">Nicehash graphics card error</h2>
-<p>Sometimes Nicehash miner doesn’t see the video card. What to do in this situation? First of all, check for errors in software or hardware. Sometimes the video card was simply not connected well enough. With regard to the software, it is necessary to update the operating system and drivers. It is also important that x64 OS is installed for the latest versions of nice hash.</p>
-<p>If you have built-in video cards, it’s better to disable it. Also, the cause of the error is possible in a weak power supply. Its power may not be enough for the software to work. If you have overclocking software running, disable it.</p>
-<p>If all else fails, then:</p>
+<p>To increase performance, use the cl-local-work setting in Ethminer NVidia. Set the value to 128 if, in addition to mining on devices, you perform additional work, or 256 if you have a mining farm. The cl-global-work command is used with the default parameter 8192. It is possible to increase the metric by 2 or 4 times to increase the impact.</p>
+<p>Applying these settings will increase the mining power by a couple of megahashes. Make sure you have a good cooling system when using, as the GPUs will run at higher operating temperatures. Transfer the batch file to the basic settings, or the hash began to sag or the cards overheat.</p>
+<h2 id="frequent-problems">Frequent problems</h2>
+<p>As with other software, miners give errors. Rarely are they critical. Here are the most common ones:</p>
 <ul>
-<li>Download program 4.0.1, not newer.</li>
-<li>Download and install the latest version to a different folder.</li>
-<li>Go to the bin folder of the old version. Find the ccminer-xx-xx-xx-xx.exe file. Copy to the new software folder.</li>
-<li>Find the installation file here and delete it.</li>
-<li>Rename the copied file to ccminer_tpruvot.exe.</li>
-<li>Start a new program. In the testing window, do not use the blake256r8vnl algorithm.</li>
-<li>Test the equipment.</li>
-</ul>
-<h2 id="nicehash-is-safe">Nicehash is safe?</h2>
-<p>ETHMiner is one of the safest platforms, according to CER. live. Mining through ETHMiner is completely anonymous and quite safe. The software does not pose a threat to miners.</p>
-<link itemprop="url" href="/#videoguide">
-<meta itemprop="image" content="/assets/images/og.png">
-<h2 class="panel-title" itemprop="name" id="Comparison ETHMiner vs TeamRedMiner">How to add ETHMiner Miner to Windows Defender exclusion? - User Guide</h2>
-<div class="youtubevideowrap" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/AY1U0bg777w">
-<link itemprop="contentUrl" content="https://www.youtube.com/embed/AY1U0bg777w">
-<meta itemprop="name" content="How to add ETHMiner Miner to Windows Defender exclusion? - User Guide">
-<meta itemprop="description" content="ETHMiner Miner will not work without a Windows Defender exception! In this guide we show you hot to exclude ETHMiner Miner from Windows Defender.">
-<meta itemprop="uploadDate" content="2021-01-15T08:00:00+08:00">
-<meta itemprop="duration" content="PT01M41S">
-<div class="youtube-player" data-id="AY1U0bg777w"></div>
-<div class="ytb-but"><a href="https://cutt.ly/pxlaiCA" rel="nofollow noopener" target="_blank">subscribe</a></div>
-</div>
-<p>This completes the process. After it has been completed, all equipment should be discoverable. If you have an error in passing the benchmark in Nicehash, try to select certain algorithms, not all. It is also possible incorrect installation of the program or an error as a result of using a PC during testing.</p></section><footer class="page__meta"><p class="page__taxonomy"> <i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: <span itemprop="keywords"> <a href="/en/miners" class="page__taxonomy-item" rel="tag">miners</a> </span></p>
+<li><p><code class="language-plaintext highlighter-rouge">Ethminer no openCl platform found</code> - the error appears if you use graphics processors from NVidia. Here, use the –u command to enable CUDA technology. If you are using AMD cards, roll back the drivers to 18.6.1. uninstall the current version through safe mode.</p></li>
+<li><p>Closing the program after launch. If you run the utility, it closes immediately, add the pause command to the batch file. Then you will see the error occurring and solve the problem.</p></li>
+<li><p><code class="language-plaintext highlighter-rouge">Exited waiting to cooldown a bit</code>… Incorrectly configured cryptocurrency wallet. Enter the address according to the instructions. In conclusion, let’s say that the program is quite simple. At the same time, it is completely free (no commission). The latest version 0.19.0 was released literally in May of this year. Developers are constantly improving and adapting it for new GPUs.</p></li>
+</ul></section><footer class="page__meta"><p class="page__taxonomy"> <i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: <span itemprop="keywords"> <a href="/en/miners" class="page__taxonomy-item" rel="tag">miners</a> </span></p>
 <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2021-07-16T00:00:00+00:00">16.07.2021</time></p></footer>
 </div></article>
 </div>
@@ -209,6 +181,12 @@
 <div id="main" class="phe-vi2"> <!-- related_posts --><div class="page__related">
 <h4 class="page__related-title">You may also enjoy</h4>
 <div class="grid__wrapper">
+<div class="grid__item"><article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"><div class="archive__item-teaser"> <img src="/assets/images/thumbs/500x300.webp" alt="" loading="lazy" decoding="async">
+</div>
+<h2 class="archive__item-title" itemprop="headline"> <a href="/en/tools/polaris-bios-editor/" rel="permalink">PolarisBiosEditor 1.7.5 (и PRO): Download How To Use (Setting Up) [2021] </a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 2 minute read</p>
+<p class="archive__item-excerpt" itemprop="description"> PolarisBiosEditor: Download from the official website (Techpowerup), GitHub, flash the gpu. In this tutorial, you will learn how to s...</p></article></div>
 <div class="grid__item"><article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"><div class="archive__item-teaser"> <img src="/assets/images/thumbs/500x300.webp" alt="" loading="lazy" decoding="async">
 </div>
 <h2 class="archive__item-title" itemprop="headline"> <a href="/en/tools/nvidia-inspector/" rel="permalink">Nvidia Inspector: Download How To Use (Setting Up) [2021] </a>
@@ -227,16 +205,10 @@
 </h2>
 <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 4 minute read</p>
 <p class="archive__item-excerpt" itemprop="description"> PhoenixMiner: Setting for Binance Pool, Commission, Comparison with TeamRedMiner. This post will show you how to get started mining w...</p></article></div>
-<div class="grid__item"><article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"><div class="archive__item-teaser"> <img src="/assets/images/thumbs/500x300.webp" alt="" loading="lazy" decoding="async">
-</div>
-<h2 class="archive__item-title" itemprop="headline"> <a href="/en/miners/cpuminer/" rel="permalink">CpuMiner 3.16.1: (Multi) Download, Config, Commands, Setup </a>
-</h2>
-<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 4 minute read</p>
-<p class="archive__item-excerpt" itemprop="description"> CpuMiner: Setting for Dogecoin, algorithms and bat file example. In this guide, you will learn how to set up and use the Cpuminer-Opt...</p></article></div>
 </div>
 </div>
 <!-- post navigation footer --><section class="page__share"><h4 class="page__share-title">Share on</h4>
-<a href="https://twitter.com/intent/tweet?via=mza&amp;text=ETHMiner+0.19.0%26%2358%3B+Download%2C+Setup+for+ETH%2C+Review%20https%3A%2F%2Fminingsoft.org%2Fru%2Fminers%2Fethminer%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a> <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fminingsoft.org%2Fru%2Fminers%2Fethminer%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a> <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fminingsoft.org%2Fru%2Fminers%2Fethminer%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a></section><nav class="pagination"> <a href="/en/tools/nvidia-inspector/" class="pagination--pager" title="Nvidia Inspector: Download How To Use (Setting Up) [2021] ">Previous</a> <a href="#" class="pagination--pager disabled">Next</a></nav><!-- comments --> <!-- -->
+<a href="https://twitter.com/intent/tweet?via=mza&amp;text=ETHMiner+0.19.0%26%2358%3B+Download%2C+Setup+for+ETH%2C+Review%20https%3A%2F%2Fminingsoft.org%2Fru%2Fminers%2Fethminer%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a> <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fminingsoft.org%2Fru%2Fminers%2Fethminer%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a> <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fminingsoft.org%2Fru%2Fminers%2Fethminer%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a></section><nav class="pagination"> <a href="/en/tools/nvidia-inspector/" class="pagination--pager" title="Nvidia Inspector: Download How To Use (Setting Up) [2021] ">Previous</a> <a href="/en/tools/polaris-bios-editor/" class="pagination--pager" title="PolarisBiosEditor 1.7.5 (и PRO): Download How To Use (Setting Up) [2021] ">Next</a></nav><!-- comments --> <!-- -->
 </div>
 </div>
 <div class="search-content"><div class="search-content__inner-wrap">
