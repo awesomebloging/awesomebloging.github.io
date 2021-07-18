@@ -19,7 +19,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://miningsoft.org/assets/images/site-logo.png">
 <meta property="article:published_time" content="2021-03-25T00:00:00+00:00">
-<meta property="article:modified_time" content="2021-07-17T00:00:00+00:00">
+<meta property="article:modified_time" content="2021-07-18T00:00:00+00:00">
 <link rel="canonical" href="https://miningsoft.org/en/miners/ccminer/"> <script type="application/ld+json"> { "@context": "https://schema.org", "@type": "Person", "name": "MiningSoft", "url": "https://miningsoft.org/ru/", "sameAs": ["https://www.facebook.com/matthew.wood.5682"] } </script><meta name="google-site-verification" content="lzkzzEBSl4ZcrOj5sxD0Ao0R1sXdFSczY9bQcLVWHMY">
 <meta name="yandex-verification" content="da0cda22b6e4f5d0"> <!-- end _includes/seo.html --><meta name="description" content="Everything about CCMiner: Setup for MTP, algorithms, commands, GitHubs. This article describes how to get started mining with CCMiner 2.2 and newer.">
 <meta name="author" content="Matthew Wood">
@@ -39,6 +39,8 @@
 <body class="layout--single"> <!--[if lt IE 9]><div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please upgrade your browser to improve your experience.</div><![endif]--><div class="masthead"><div class="masthead__inner-wrap"><div class="masthead__menu"><nav id="site-nav" class="greedy-nav"> <a class="site-title" href="/en"> MiningSoft </a><ul class="visible-links">
 <li class="masthead__menu-item">
 <li> <a href="/en/miners">Miners</a>
+</li>
+<li> <a href="/en/wallets">Wallets</a>
 </li>
 <li> <a href="/en/tools">Tools</a>
 </li>
@@ -75,19 +77,19 @@
 <article class="page" itemscope itemtype="https://schema.org/CreativeWork"><meta itemprop="headline" content="XZC MTP CCMiner (x64 2.2): Download, Setup for Firo">
 <meta itemprop="description" content=" Everything about CCMiner: Setup for MTP, algorithms, commands, GitHubs. This article describes how to get started mining with CCMiner 2.2 and newer.">
 <meta itemprop="datePublished" content="March 25, 2021">
-<meta itemprop="dateModified" content="July 17, 2021">
+<meta itemprop="dateModified" content="July 18, 2021">
 <div class="page__inner-wrap">
 <header><h1 id="page-title" class="page__title" itemprop="headline">CC Miner 0.8.0: Download, Setup and Commands, Algorithms</h1>
 <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 2 minute read</p></header><section class="page__content" itemprop="text"><aside class="sidebar__right sticky"><nav class="toc"><header><h4 class="nav__title"> <i class="fas fa-file-alt"></i> On this page</h4></header><ul class="toc__menu">
 <li><a href="#download-for-windows--linux">Download for Windows / Linux</a></li>
-<li><a href="#ccminer-review">CCMiner review</a></li>
+<li><a href="#review">Review</a></li>
 <li><a href="#Step%201%20-%20Download%20the%20miner">Step 1 - Download the miner</a></li>
 <li><a href="#Step%202%20-%20Configure%20a%20batch%20file%20for%20Firo">Step 2 - Configure a batch file for Firo</a></li>
 <li><a href="#Step%203%20-%20Launch%20CCMiner">Step 3 - Launch CCMiner</a></li>
 <li><a href="#Video%20Guide">Video Guide</a></li>
-<li> <a href="#ccminer-example-for-mtp-zcoin">CCMiner example for mtp zcoin</a><ul><li><a href="#ccminer-setup-for-nicehash">CCMiner setup for NiceHash</a></li></ul>
+<li> <a href="#config-example-for-mtp-zcoin">Config example for mtp zcoin</a><ul><li><a href="#how-to-mine-with-nicehash">How to Mine with NiceHash</a></li></ul>
 </li>
-<li> <a href="#algorithms">Algorithms</a><ul><li><a href="#commandspermalink">CommandsPermalink</a></li></ul>
+<li> <a href="#algorithms">Algorithms</a><ul><li><a href="#commands">Commands</a></li></ul>
 </li>
 <li><a href="#mining-features-mtp-firo">Mining Features MTP (FIRO)</a></li>
 </ul></nav></aside><div id="paper" class="nvidia"><div id="pattern"><div id="note-cont"> Everything about CCMiner: Setup for MTP, algorithms, commands, GitHubs.</div></div></div>
@@ -96,7 +98,7 @@
 <script async="" src="https://coinzillatag.com/lib/display.js"></script><div class="coinzilla" data-zone="C-26960aca952082b4725"></div>
 <script> window.coinzilla_display = window.coinzilla_display || []; var c_display_preferences = {}; c_display_preferences.zone = "26960aca952082b4725"; c_display_preferences.width = "300"; c_display_preferences.height = "250"; coinzilla_display.push(c_display_preferences); </script><p><a href="https://github.com/firoorg/ccminer/releases" class="btn btn--success btn--x-large" rel="nofollow noopener" target="_blank">Download releases from GitHub</a></p>
 <p><a href="https://bitcointalk.org/index.php?topic=826901.0" class="btn btn--yandex btn--x-large" rel="nofollow noopener" target="_blank">Download releases from BitcoinTalk</a></p>
-<section><h2 id="ccminer-review">CCMiner review</h2>
+<section><h2 id="review">Review</h2>
 <p><b>CCMiner</b> - is a program for mining FIRO (MTP) and other cryptocurrencies. The program works on Windows and Linux.</p></section><section id="how-to-start" itemscope="itemscope" itemtype="http://schema.org/HowTo"><h1 itemprop="name">How to mine with CCMiner</h1>
 <div class="panel panel-default" id="step1" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
 <link itemprop="url" href="#step1">
@@ -142,7 +144,7 @@
 <div class="ytb-but"><a href="https://cutt.ly/pxlaiCA" rel="nofollow noopener" target="_blank">subscribe</a></div>
 </div>
 </div>
-</div></section><h2 id="ccminer-example-for-mtp-zcoin">CCMiner example for mtp zcoin</h2>
+</div></section><h2 id="config-example-for-mtp-zcoin">Config example for mtp zcoin</h2>
 <table><tbody>
 <tr>
 <td>STRATUM:</td>
@@ -176,7 +178,7 @@
 
 <span class="nb">pause</span>
 </code></pre></div></div>
-<h3 id="ccminer-setup-for-nicehash">CCMiner setup for NiceHash</h3>
+<h3 id="how-to-mine-with-nicehash">How to Mine with NiceHash</h3>
 <p>Here is a batch file for NiceHesh:</p>
 <div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">ccminer</span> <span class="na">-a </span><span class="kd">lyra2z</span> <span class="na">-o </span><span class="kd">stratum</span><span class="na">+tcp</span>://lyra2z.eu<span class="na">-west</span>.nicehash.com:3365 <span class="na">-u </span><span class="m">3</span><span class="kd">LZhp4g3m7YWqR4hAPrZsKWbyo7hRBmqvy</span> <span class="na">-p </span><span class="m">0</span> 
 <span class="nb">pause</span>
@@ -198,13 +200,13 @@
 </tr>
 </tbody>
 </table>
-<!-- -a, --algo=ALGO specify the hash algorithm to use blake Blake 256 (SFR) blake2s Blake2-S 256 (NEVA) blakecoin Fast Blake 256 (8 rounds) bmw BMW 256 c11/flax X11 variant decred Decred Blake256 deep Deepcoin dmd-gr Diamond-Groestl fresh Freshcoin (shavite 80) fugue256 Fuguecoin groestl Groestlcoin heavy Heavycoin jackpot Jackpot keccak Keccak-256 (Maxcoin) lbry LBRY Credits (Sha/Ripemd) luffa Joincoin lyra2 CryptoCoin lyra2v2 VertCoin lyra2Z ZCoin m7 m7 (crytonite) hash mjollnir Mjollnircoin myr-gr Myriad-Groestl neoscrypt FeatherCoin, Phoenix, UFO... nist5 NIST5 (TalkCoin) penta Pentablake hash (5x Blake 512) quark Quark qubit Qubit sia SIA (Blake2B) sib Sibcoin (X11+Streebog) scrypt Scrypt scrypt-jane Scrypt-jane Chacha skein Skein SHA2 (Skeincoin) skein2 Double Skein (Woodcoin) s3 S3 (1Coin) vanilla Blake256-8 (VNL) veltor Thorsriddle streebog whirlcoin Old Whirlcoin (Whirlpool algo) whirlpool Whirlpool algo x11evo Permuted x11 (Revolver) x11 X11 (DarkCoin) x13 X13 (MaruCoin) x14 X14 x15 X15 x17 X17 zr5 ZR5 (ZiftrCoin) --><h3 id="commandspermalink">CommandsPermalink</h3>
+<!-- -a, --algo=ALGO specify the hash algorithm to use blake Blake 256 (SFR) blake2s Blake2-S 256 (NEVA) blakecoin Fast Blake 256 (8 rounds) bmw BMW 256 c11/flax X11 variant decred Decred Blake256 deep Deepcoin dmd-gr Diamond-Groestl fresh Freshcoin (shavite 80) fugue256 Fuguecoin groestl Groestlcoin heavy Heavycoin jackpot Jackpot keccak Keccak-256 (Maxcoin) lbry LBRY Credits (Sha/Ripemd) luffa Joincoin lyra2 CryptoCoin lyra2v2 VertCoin lyra2Z ZCoin m7 m7 (crytonite) hash mjollnir Mjollnircoin myr-gr Myriad-Groestl neoscrypt FeatherCoin, Phoenix, UFO... nist5 NIST5 (TalkCoin) penta Pentablake hash (5x Blake 512) quark Quark qubit Qubit sia SIA (Blake2B) sib Sibcoin (X11+Streebog) scrypt Scrypt scrypt-jane Scrypt-jane Chacha skein Skein SHA2 (Skeincoin) skein2 Double Skein (Woodcoin) s3 S3 (1Coin) vanilla Blake256-8 (VNL) veltor Thorsriddle streebog whirlcoin Old Whirlcoin (Whirlpool algo) whirlpool Whirlpool algo x11evo Permuted x11 (Revolver) x11 X11 (DarkCoin) x13 X13 (MaruCoin) x14 X14 x15 X15 x17 X17 zr5 ZR5 (ZiftrCoin) --><h3 id="commands">Commands</h3>
 <p><code class="language-plaintext highlighter-rouge">--algo</code> or a short synonym for this command <code class="language-plaintext highlighter-rouge">-a</code> - indicates the mining algorithm (for example: ‘mtp’, ‘lyra2Z’, ‘scrypt’, ‘myr-gr’)</p>
 <p><span class="red">Important! Use either a long synonym <code class="language-plaintext highlighter-rouge">--algo</code> or a short one <code class="language-plaintext highlighter-rouge">-a</code>. You do not need to use this and that together.</span></p>
 <h2 id="mining-features-mtp-firo">Mining Features MTP (FIRO)</h2>
 <p>mtp requires 4.4 GB of virtual memory, so cards with less than 4.5 GB of virtual memory will not work.</p>
 <p>The program also uses about 500MB and 4.4xCard Swap amount.</p></section><footer class="page__meta"><p class="page__taxonomy"> <i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: <span itemprop="keywords"> <a href="/en/miners" class="page__taxonomy-item" rel="tag">miners</a> </span></p>
-<p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2021-07-17T00:00:00+00:00">17.07.2021</time></p></footer>
+<p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2021-07-18T00:00:00+00:00">18.07.2021</time></p></footer>
 </div></article>
 </div>
 <!-- download --><div class="mar"> <!--<section class="so-down"><div class="so-title whitez1"><a id="download">Getting Started With Ethereum Mining</a></div><div class="so-download"><div class="so-flex"><div class="so-ver"> Latest version is 5.5c<br> File: *<code></code>, SHA256: 599393e258d8ba7b8f8633e20c651868258827d3a43a4d0712125bc487eabf92<br> <span class="nev2">(<a href="https://bit.ly/3bujasD">Download for Linux</a>)</span></div><div class="so-get"> <span class="so-password">Password: phoenix</span><div class="so-button down"><i class="far fa-arrow-alt-circle-down"></i> <a href="https://cutt.ly/NzVAJor" target="_blank">Download Now (Windows x64)</a></div><span class="so-mirror">(<a href="https://bit.ly/2MeIrhX" target="_blank" rel="nofollow">mirror</a>)</span></div></div></div></section>-->
@@ -239,7 +241,7 @@
 </div>
 </div>
 <!-- post navigation footer --><section class="page__share"><h4 class="page__share-title">Share on</h4>
-<a href="https://twitter.com/intent/tweet?via=mza&amp;text=XZC+MTP+CCMiner+%28x64+2.2%29%26%2358%3B+Download%2C+Setup+for+Firo%20https%3A%2F%2Fminingsoft.org%2Fru%2Fminers%2Fccminer%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a> <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fminingsoft.org%2Fru%2Fminers%2Fccminer%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a> <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fminingsoft.org%2Fru%2Fminers%2Fccminer%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a></section><nav class="pagination"> <a href="/en/miners/teamredminer/" class="pagination--pager" title="TeamRedMiner 0.8.3: Download, Setup for ETH, Algorithms, Nvidia ">Previous</a> <a href="/en/miners/nbminer/" class="pagination--pager" title="NBMiner 38.1: Download, Setup for ETH, Commands (Guide) ">Next</a></nav><!-- comments --> <!-- -->
+<a href="https://twitter.com/intent/tweet?via=mza&amp;text=XZC+MTP+CCMiner+%28x64+2.2%29%26%2358%3B+Download%2C+Setup+for+Firo%20https%3A%2F%2Fminingsoft.org%2Fru%2Fminers%2Fccminer%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a> <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fminingsoft.org%2Fru%2Fminers%2Fccminer%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a> <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fminingsoft.org%2Fru%2Fminers%2Fccminer%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a></section><nav class="pagination"> <a href="/en/miners/teamredminer/" class="pagination--pager" title="TeamRedMiner 0.8.3: Download, Setup for ETH, Algorithms, Nvidia ">Previous</a> <a href="/en/miners/nbminer/" class="pagination--pager" title="NBMiner 38.1: Download, Setup for Binance, Commands ">Next</a></nav><!-- comments --> <!-- -->
 </div>
 </div>
 <div class="search-content"><div class="search-content__inner-wrap">

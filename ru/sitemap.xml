@@ -2,6 +2,24 @@
 <urlset xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9 https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://miningsoft.org/ru/wallets/myetherwallet/</loc>
+    
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://miningsoft.org/ru/wallets/mycrypto/</loc>
+    
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
     <loc>https://miningsoft.org/ru/wallets/trust/</loc>
     
     <lastmod>2021-07-17T00:00:00+00:00</lastmod>
@@ -143,7 +161,7 @@
   <url>
     <loc>https://miningsoft.org/ru/about/</loc>
       
-        <lastmod>2021-07-17T14:22:42+00:00</lastmod>
+        <lastmod>2021-07-18T13:51:26+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -155,7 +173,7 @@
   <url>
     <loc>https://miningsoft.org/ru/advertising/</loc>
       
-        <lastmod>2021-07-17T14:22:42+00:00</lastmod>
+        <lastmod>2021-07-18T13:51:26+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -167,7 +185,7 @@
   <url>
     <loc>https://miningsoft.org/ru/contact/</loc>
       
-        <lastmod>2021-07-17T14:22:42+00:00</lastmod>
+        <lastmod>2021-07-18T13:51:26+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -179,7 +197,7 @@
   <url>
     <loc>https://miningsoft.org/ru/legal/cookie/</loc>
       
-        <lastmod>2021-07-17T14:22:42+00:00</lastmod>
+        <lastmod>2021-07-18T13:51:26+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -191,7 +209,7 @@
   <url>
     <loc>https://miningsoft.org/ru/legal/disclaimer/</loc>
       
-        <lastmod>2021-07-17T14:22:42+00:00</lastmod>
+        <lastmod>2021-07-18T13:51:26+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -203,7 +221,7 @@
   <url>
     <loc>https://miningsoft.org/ru/</loc>
       
-        <lastmod>2021-07-17T14:22:42+00:00</lastmod>
+        <lastmod>2021-07-18T13:51:26+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -227,7 +245,7 @@
   <url>
     <loc>https://miningsoft.org/ru/legal/privacy/</loc>
       
-        <lastmod>2021-07-17T14:22:42+00:00</lastmod>
+        <lastmod>2021-07-18T13:51:26+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -241,7 +259,7 @@
   <url>
     <loc>https://miningsoft.org/ru/legal/terms/</loc>
       
-        <lastmod>2021-07-17T14:22:42+00:00</lastmod>
+        <lastmod>2021-07-18T13:51:26+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -253,7 +271,7 @@
   <url>
     <loc>https://miningsoft.org/ru/blog/</loc>
       
-        <lastmod>2021-07-17T14:22:42+00:00</lastmod>
+        <lastmod>2021-07-18T13:51:26+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -265,7 +283,7 @@
   <url>
     <loc>https://miningsoft.org/ru/miners/</loc>
       
-        <lastmod>2021-07-17T14:22:42+00:00</lastmod>
+        <lastmod>2021-07-18T13:51:26+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -277,7 +295,7 @@
   <url>
     <loc>https://miningsoft.org/ru/miners/page2/</loc>
       
-        <lastmod>2021-07-17T14:22:42+00:00</lastmod>
+        <lastmod>2021-07-18T13:51:26+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -289,7 +307,7 @@
   <url>
     <loc>https://miningsoft.org/ru/tools/</loc>
       
-        <lastmod>2021-07-17T14:22:42+00:00</lastmod>
+        <lastmod>2021-07-18T13:51:26+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -301,7 +319,7 @@
   <url>
     <loc>https://miningsoft.org/ru/wallets/</loc>
       
-        <lastmod>2021-07-17T14:22:42+00:00</lastmod>
+        <lastmod>2021-07-18T13:51:26+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
