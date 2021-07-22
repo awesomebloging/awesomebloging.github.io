@@ -46,123 +46,6 @@
     <priority>1.0</priority>
   </url>
   
-  <url>
-    <loc>https://miningsoft.org/ru/tools/nvidia-inspector/</loc>
-    
-    <lastmod>2021-07-15T00:00:00+00:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/ru/miners/ethminer/</loc>
-    
-    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/ru/miners/nicehash/</loc>
-    
-    <lastmod>2021-07-13T00:00:00+00:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/ru/miners/phoenixminer/</loc>
-    
-    <lastmod>2021-06-11T00:00:00+00:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/ru/miners/cpuminer/</loc>
-    
-    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/ru/miners/trexminer/</loc>
-    
-    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/ru/miners/wildrig/</loc>
-    
-    <lastmod>2021-03-27T00:00:00+00:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/ru/miners/nbminer/</loc>
-    
-    <lastmod>2021-03-25T00:00:00+00:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/ru/miners/ccminer/</loc>
-    
-    <lastmod>2021-03-25T00:00:00+00:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/ru/miners/teamredminer/</loc>
-    
-    <lastmod>2021-03-24T00:00:00+00:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/ru/miners/gminer/</loc>
-    
-    <lastmod>2021-03-20T00:00:00+00:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/ru/miners/srbpolaris/</loc>
-    
-    <lastmod>2021-03-19T00:00:00+00:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/ru/miners/lolminer/</loc>
-    
-    <lastmod>2021-03-18T00:00:00+00:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
   
   
   
@@ -170,7 +53,7 @@
   <url>
     <loc>https://miningsoft.org/ru/about/</loc>
       
-        <lastmod>2021-07-19T15:13:59+00:00</lastmod>
+        <lastmod>2021-07-22T11:46:36+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -182,7 +65,7 @@
   <url>
     <loc>https://miningsoft.org/ru/advertising/</loc>
       
-        <lastmod>2021-07-19T15:13:59+00:00</lastmod>
+        <lastmod>2021-07-22T11:46:36+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -194,7 +77,7 @@
   <url>
     <loc>https://miningsoft.org/ru/contact/</loc>
       
-        <lastmod>2021-07-19T15:13:59+00:00</lastmod>
+        <lastmod>2021-07-22T11:46:36+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -206,7 +89,7 @@
   <url>
     <loc>https://miningsoft.org/ru/legal/cookie/</loc>
       
-        <lastmod>2021-07-19T15:13:59+00:00</lastmod>
+        <lastmod>2021-07-22T11:46:36+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -218,7 +101,7 @@
   <url>
     <loc>https://miningsoft.org/ru/legal/disclaimer/</loc>
       
-        <lastmod>2021-07-19T15:13:59+00:00</lastmod>
+        <lastmod>2021-07-22T11:46:36+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -230,7 +113,7 @@
   <url>
     <loc>https://miningsoft.org/ru/</loc>
       
-        <lastmod>2021-07-19T15:13:59+00:00</lastmod>
+        <lastmod>2021-07-22T11:46:36+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -254,7 +137,7 @@
   <url>
     <loc>https://miningsoft.org/ru/legal/privacy/</loc>
       
-        <lastmod>2021-07-19T15:13:59+00:00</lastmod>
+        <lastmod>2021-07-22T11:46:36+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -268,7 +151,7 @@
   <url>
     <loc>https://miningsoft.org/ru/legal/terms/</loc>
       
-        <lastmod>2021-07-19T15:13:59+00:00</lastmod>
+        <lastmod>2021-07-22T11:46:36+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -280,7 +163,7 @@
   <url>
     <loc>https://miningsoft.org/ru/blog/</loc>
       
-        <lastmod>2021-07-19T15:13:59+00:00</lastmod>
+        <lastmod>2021-07-22T11:46:36+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -292,19 +175,7 @@
   <url>
     <loc>https://miningsoft.org/ru/miners/</loc>
       
-        <lastmod>2021-07-19T15:13:59+00:00</lastmod>
-       
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  
-  
-  
-  <url>
-    <loc>https://miningsoft.org/ru/miners/page2/</loc>
-      
-        <lastmod>2021-07-19T15:13:59+00:00</lastmod>
+        <lastmod>2021-07-22T11:46:36+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -316,7 +187,7 @@
   <url>
     <loc>https://miningsoft.org/ru/tools/</loc>
       
-        <lastmod>2021-07-19T15:13:59+00:00</lastmod>
+        <lastmod>2021-07-22T11:46:36+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -328,7 +199,7 @@
   <url>
     <loc>https://miningsoft.org/ru/wallets/</loc>
       
-        <lastmod>2021-07-19T15:13:59+00:00</lastmod>
+        <lastmod>2021-07-22T11:46:36+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
