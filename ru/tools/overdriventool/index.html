@@ -80,7 +80,7 @@
 <meta itemprop="dateModified" content="August 10, 2021">
 <div class="page__inner-wrap">
 <header><h1 id="page-title" class="page__title" itemprop="headline">OverdriveNTool: Скачать, Как пользоваться и прошить тайминги</h1>
-<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 10 мин на чтение</p></header><section class="page__content" itemprop="text"><aside class="sidebar__right sticky"><nav class="toc"><header><h4 class="nav__title"> <i class="fas fa-file-alt"></i> Содержание</h4></header><ul class="toc__menu">
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 11 мин на чтение</p></header><section class="page__content" itemprop="text"><aside class="sidebar__right sticky"><nav class="toc"><header><h4 class="nav__title"> <i class="fas fa-file-alt"></i> Содержание</h4></header><ul class="toc__menu">
 <li><a href="#%D1%81%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-%D0%B4%D0%BB%D1%8F-windowslinux">Скачать для Windows/Linux</a></li>
 <li><a href="#overdriventool">Что такое OverdriveNTool?</a></li>
 <li><a href="#%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F">Требования</a></li>
@@ -92,6 +92,7 @@
 <li><a href="#%D0%BA%D0%B0%D0%BA-%D0%BF%D0%BE%D0%B4%D0%BE%D0%B1%D1%80%D0%B0%D1%82%D1%8C-%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BD%D0%B0%D0%BF%D1%80%D1%8F%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F">Как подобрать значения напряжения</a></li>
 <li> <a href="#%D0%92%D0%B8%D0%B4%D0%B5%D0%BE:%20%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%D0%BA%D0%B0%D1%80%D1%82%D1%8B%20Vega%20vii%20%D0%B2%20OverdriveNTool">Видео: Настройки видеокарты Vega vii в OverdriveNTool</a><ul>
 <li><a href="#%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C-%D1%81%D0%BA%D0%BE%D1%80%D0%BE%D1%81%D1%82%D0%B8-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B-%D0%BA%D1%83%D0%BB%D0%B5%D1%80%D0%BE%D0%B2">Контроль скорости работы кулеров</a></li>
+<li><a href="#%D0%BA%D0%B0%D0%BA-%D0%BD%D0%B0%D0%B9%D1%82%D0%B8-power-target">Как найти power target</a></li>
 <li><a href="#%D0%BF%D1%80%D0%BE%D1%84%D0%B8%D0%BB%D0%B8">Профили</a></li>
 </ul>
 </li>
@@ -200,6 +201,10 @@
 <p><a href="/assets/images/tools/overdriventool/overdriventool_fan.png" class="image-popup"> <img src="/assets/images/tools/overdriventool/overdriventool_fan.png" alt="overdriventool_fan" loading="lazy" decoding="async"> </a></p>
 <p>Также указывается желательная и предельно допустимая температура. Ставится ограничение на потребление электроэнергии.</p>
 <p><dfn>Zero RPM</dfn> - это нулевое число оборотов в минуту. Этот показатель обеспечивает бесшумную работу при небольшой нагрузке на графический процессор и включено по умолчанию. Вентиляторы должны раскручиваться в тот момент, когда графический процессор находится под нагрузкой и повышается температура. Zero RPM автоматически отключаются, если в Radeon ™ WattMan вносятся какие-либо изменения.</p>
+<h3 id="как-найти-power-target">Как найти power target</h3>
+<p>Оставьте <code class="language-plaintext highlighter-rouge">0</code> %, чтобы получить нормальные значения TDP. Установите отрицательный <code class="language-plaintext highlighter-rouge">%</code>, чтобы снизить энергопотребление.</p>
+<p>Большинство людей используют от <code class="language-plaintext highlighter-rouge">-10</code> до <code class="language-plaintext highlighter-rouge">-30</code> со стандартным BIOS. Максимальная температура - это когда карта начнет дросселировать.</p>
+<p>Целевая мощность на самом деле представляет собой смещение в процентах, поэтому теоретически, если вы введете 70, вы на самом деле скажете программе, что хотите максимальную потребляемую мощность ~ 240 Вт.</p>
 <h3 id="профили">Профили</h3>
 <p>Нажав кнопку “сохранить” система автоматически создает файл с расширением <code class="language-plaintext highlighter-rouge">.ini</code>, где указываются внесенные показатели разгона и остальные настройки графического процессора. Чтобы просмотреть все профили, нужно раскрыть список соответствующего названия. Чтобы отредактировать настройки, достаточно запустить <code class="language-plaintext highlighter-rouge">.ini</code> через текстовый редактор или Word.</p>
 <p>Загрузка с проверкой функционирования выбранного профиля не займет много времени. Нужно его выбрать и нажать “Load” (“загрузить”).</p>
@@ -322,6 +327,7 @@
 <p>В данной ситуации требуется указать необходимый номер показателя <code class="language-plaintext highlighter-rouge">pstate</code> (num). При этом, первое <code class="language-plaintext highlighter-rouge">value</code> указывается как частота ядра. Второе значение отображает напряжение. Учтите, что единицей измерения здесь являются милливольты.</p>
 <p>В строке <code class="language-plaintext highlighter-rouge">[;0]</code> обозначает отключение показателя <code class="language-plaintext highlighter-rouge">Pstate</code>.</p>
 <p>Если указывать <code class="language-plaintext highlighter-rouge">*</code> в качестве частоты или вольтажа видеопамяти или ядра, то утилита проигнорирует данный показатель.</p>
+<p>Параметр <code class="language-plaintext highlighter-rouge">timing level</code> оптимизирует настройки задержки памяти, чтобы разблокировать некоторую дополнительную производительность при определенных (неигровых) рабочих нагрузках.</p>
 <h2 id="команды">Команды</h2>
 <p><code class="language-plaintext highlighter-rouge">[gpu_id]</code> - это id устройства - первое число, взятое из описания графического процессора, для первой видеокарты это 0.</p>
 <p><code class="language-plaintext highlighter-rouge">"Name"</code> - это имя профиля, которое было сохранено ранее, <span class="bold">должно быть заключено в кавычки, если внутри есть пробелы</span>.</p>
@@ -394,6 +400,7 @@
 <p>Перезапустите графический процессор с помощью <code class="language-plaintext highlighter-rouge">id=[gpu_id]</code>. Это похоже на включение/отключение видеокарты в диспетчере устройств. Полезно для немедленного применения изменений реестра, внесенных в ключи AMD, такие как таблица <code class="language-plaintext highlighter-rouge">SoftPowerPlay</code>. Для работы требуются права администратора.</p>
 <h2 id="решение-проблем">Решение проблем</h2>
 <p>Driver is detected as not installed/loaded - Программа обнаружила несовместимый драйвер. Убедитесь, что вы выбрали видеокарту AMD в верхнем поле программы.</p>
+<p>Если программа пишет: “gpu not supported” - попробуйте удалить драйвера полностью через display deiver unistaller и перестуановить их.</p>
 <ul>
 <li>Обойти ошибку в драйвере 17.7.2. которая появляется при использовании напряжения по умолчанию вместо программируемых. При возникновении сбросьте все и повторно примените профиль.</li>
 <li>Можно откл./вкл. любое состояние Р. Здесь нужно нажать на Р0, Р1 и т.п. Если это состояние отключено, то видеокарта не будет его использовать.</li>
