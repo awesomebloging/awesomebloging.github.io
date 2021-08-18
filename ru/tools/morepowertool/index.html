@@ -119,7 +119,7 @@
 <h2 class="panel-title" id="Шаг 1 - Скачайте программу">Шаг 1 - Скачайте программу</h2>
 <meta itemprop="name" content="Скачайте программу">
 <div class="panel-body" itemprop="text">
-<p><a href="https://www.igorslab.de/installer/MorePowerTool_Setup_1_3_5.exe" rel="nofollow noopener" target="_blank">Скачайте программу с официального источника 0 igorslab.de</a>. <a href="/assets/images/tools/morepowertool/mpt_download.png" class="image-popup"> <img src="/assets/images/tools/morepowertool/mpt_download.png" alt="mpt_download" loading="lazy" decoding="async"> </a></p>
+<p><a href="https://www.igorslab.de/installer/MorePowerTool_Setup_1_3_5.exe" rel="nofollow noopener" target="_blank">Скачайте программу с официального источника - igorslab.de</a>. <a href="/assets/images/tools/morepowertool/mpt_download.png" class="image-popup"> <img src="/assets/images/tools/morepowertool/mpt_download.png" alt="mpt_download" loading="lazy" decoding="async"> </a></p>
 <p>Установите программу следуя стандартным инструкциям. Нажимайте везде "Далее".</p>
 <p><a href="/assets/images/tools/morepowertool/mpt_install.png" class="image-popup"> <img src="/assets/images/tools/morepowertool/mpt_install.png" alt="mpt_install" loading="lazy" decoding="async"> </a></p>
 <p>Во время установки утилита сообщит, что ее необходимо будет запускать с правами администратора!</p>
@@ -156,9 +156,9 @@
 <p><a href="/assets/images/tools/morepowertool/mpt_power.png" class="image-popup"> <img src="/assets/images/tools/morepowertool/mpt_power.png" alt="mpt_power" loading="lazy" decoding="async"> </a></p>
 <p>Далее мы настроим "Frequencies" ("Частоты"). Это также влияет на характеристики значений в Wattman для комбинированного ползунка "Frequency/Voltage" ("частоты/напряжения") изменим эти параметры.</p>
 <p><a href="/assets/images/tools/morepowertool/mpt_frequency_voltage.png" class="image-popup"> <img src="/assets/images/tools/morepowertool/mpt_frequency_voltage.png" alt="mpt_frequency_voltage" loading="lazy" decoding="async"> </a></p>
-<p>Наконец, мы можем изменить необходимые "кривые вентилятора" (fan curves). Но гораздо важнее сохранение БИОС с помощью кнопки "Save" в <span class="red">ПУСТОЙ</span> файл настроек с измененными таблицами Power Play. Не используйте кнопку "Write SPPT" или "Delete SPPT"! Эти параметры нам нужны.</p>
+<p>Наконец, мы можем изменить необходимые "кривые вентилятора" (fan curves). Но гораздо важнее сохранение БИОС с помощью кнопки "Save" в файл настроек с измененными таблицами Power Play. Не используйте кнопку "Write SPPT" или "Delete SPPT"! Эти параметры нам пока не нужны.</p>
 <p><a href="/assets/images/tools/morepowertool/mpt_sppt.png" class="image-popup"> <img src="/assets/images/tools/morepowertool/mpt_sppt.png" alt="mpt_sppt" loading="lazy" decoding="async"> </a></p>
-<p>Мы перезагрузим сохраненный BIOS, потому что он будет служить шаблоном для нового BIOS. Для этого используем связку программ: <a href="/ru/tools/rbe/">Red Bios Editor (RBE)</a> + MorePowerTool</p>
+<p>Мы перезагрузим сохраненный BIOS, потому что он будет служить шаблоном для нового BIOS. Для этого используем связку программ: <a href="/ru/tools/rbe/">Red Bios Editor (RBE)</a> + MorePowerTool.</p>
 <p>Запустите <code>Red BIOS Editor.exe</code>. Откройте БИОС кнопкой "Load". Хотите выводить новое загрузочное сообщение? Почему бы не персонализировать его? Измените суб-поставщика и идентификатор графического процессора!</p>
 <p><a href="/assets/images/tools/morepowertool/mpt_rbe_messege.png" class="image-popup"> <img src="/assets/images/tools/morepowertool/mpt_rbe_messege.png" alt="mpt_rbe_messege" loading="lazy" decoding="async"> </a></p>
 <p>Теперь мы можем загрузить "PowerPlayTables" из инструмента "MorePowerTool" в новый BIOS.</p>
@@ -174,7 +174,7 @@
 <ol>
 <li>Более высокая тактовая частота GFX.</li>
 <li>Большее напряжение GFX.</li>
-<li>Увеличен предел мощности.</li>
+<li>Увеличен Power limit (предел мощности).</li>
 <li>и многое другое за графическим интерфейсом.</li>
 </ol>
 <p><a href="/assets/images/tools/morepowertool/mpt_wattman.png" class="image-popup"> <img src="/assets/images/tools/morepowertool/mpt_wattman.png" alt="mpt_wattman" loading="lazy" decoding="async"> </a></p>
@@ -300,6 +300,7 @@
 <ul>
 <li><a href="/ru/tools/atiflash/">ATI WinFlash</a></li>
 <li><a href="/ru/tools/overdriventool/">OverdriveNTool</a></li>
+<li><a href="/ru/tools/polaris-bios-editor/">PolarisBiosEditor</a></li>
 </ul>
 <p>Существует ли версия для Nvidia? Нет, но есть альтернативы:</p>
 <ul>
