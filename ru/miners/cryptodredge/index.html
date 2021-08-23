@@ -80,7 +80,7 @@
 <meta itemprop="dateModified" content="August 23, 2021">
 <div class="page__inner-wrap">
 <header><h1 id="page-title" class="page__title" itemprop="headline">CryptoDredge Miner: Скачать и настроить для майнинга</h1>
-<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 3 мин на чтение</p></header><section class="page__content" itemprop="text"><aside class="sidebar__right sticky"><nav class="toc"><header><h4 class="nav__title"> <i class="fas fa-file-alt"></i> Содержание</h4></header><ul class="toc__menu">
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 4 мин на чтение</p></header><section class="page__content" itemprop="text"><aside class="sidebar__right sticky"><nav class="toc"><header><h4 class="nav__title"> <i class="fas fa-file-alt"></i> Содержание</h4></header><ul class="toc__menu">
 <li><a href="#%D1%81%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-%D0%B4%D0%BB%D1%8F-windowslinux">Скачать для Windows/Linux</a></li>
 <li><a href="#cryptodredge">Что такое CryptoDredge?</a></li>
 <li> <a href="#%D0%9A%D0%B0%D0%BA%20%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D1%8C%20CryptoDredge">Как настроить CryptoDredge</a><ul>
@@ -90,12 +90,13 @@
 <li><a href="#%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%93%D0%B8%D0%B4">Видео Гид</a></li>
 </ul>
 </li>
-<li><a href="#%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-%D0%B4%D0%BB%D1%8F-nicehash">Настройка для Nicehash</a></li>
-<li><a href="#%D0%9A%D0%B0%D0%BA%20%D0%BF%D0%BE%D0%B2%D1%8B%D1%81%D0%B8%D1%82%D1%8C%20%D1%85%D0%B5%D1%88%D1%80%D0%B5%D0%B9%D1%82%20%D0%BC%D0%B0%D0%B9%D0%BD%D0%B8%D0%BD%D0%B3%D0%B0%20Ethereum">Как повысить хешрейт майнинга Ethereum:</a></li>
-<li><a href="#%D0%9A%D0%B0%D0%BA%20%D0%BC%D0%B0%D0%B9%D0%BD%D0%B8%D1%82%D1%8C%20Monero%20-%20RandomX">Как майнить Monero - RandomX</a></li>
+<li><a href="#%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-%D0%B4%D0%BB%D1%8F-ravencoin">Настройка для Ravencoin</a></li>
+<li><a href="#%D0%92%D0%B8%D0%B4%D0%B5%D0%BE:%20%D0%91%D0%B8%D1%82%D0%B2%D0%B0%20%D0%BC%D0%B0%D0%B9%D0%BD%D0%B5%D1%80%D0%BE%D0%B2:%20+20%%20T-rex%20vs%20Cryptodredge%20%D0%BD%D0%B0%20SUQA%20(X22i)%20%D0%B8%20Hdac(skunkhash)%20NVIDIA.">Видео: Битва майнеров: +20% T-rex vs Cryptodredge на SUQA (X22i) и Hdac(skunkhash) NVIDIA.</a></li>
 <li><a href="#%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B">Алгоритмы</a></li>
+<li><a href="#%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-configjson">Настройка через Config.json</a></li>
 <li><a href="#%D0%B0%D1%80%D0%B3%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%BE%D0%B9-%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B8">Аргументы командной строки</a></li>
-<li><a href="#%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%D1%8B">Выводы</a></li>
+<li> <a href="#%D0%B8%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC">Исправление проблем</a><ul><li><a href="#no-cuda">No CUDA!</a></li></ul>
+</li>
 </ul></nav></aside><div id="paper" class="nvidia"><div id="pattern"><div id="note-cont"> Crypto Dredge: Настройка команд для максимальной прибыли, Config и интенсивность.</div></div></div>
 <p><em>В этом руководстве рассмотрено как запустить и как пользоваться программой CryptoDredge последней версии 0.26.0 и выше.</em></p>
 <h2 id="скачать-для-windowslinux">Скачать для Windows/Linux</h2>
@@ -117,7 +118,7 @@
 </ol>
 <p>В релизах GitHub прокрутите страницу до "Assets" и загрузите последнюю доступную версию.</p>
 <p><a href="/assets/images/miners/cryptodredge/cryptodredge_download.png" class="image-popup"> <img src="/assets/images/miners/cryptodredge/cryptodredge_download.png" alt="cryptodredge_download" loading="lazy" decoding="async"> </a></p>
-<p>Проведите разархивацию загруженного файла в удобное для вас место.</p>
+<p>Разархивируйте файл и извлеките файлы в новую папку (убедитесь, что ваш антивирус не удаляет файлы).</p>
 <p><a href="/assets/images/miners/cryptodredge/cryptodredge_extract.png" class="image-popup"> <img src="/assets/images/miners/cryptodredge/cryptodredge_extract.png" alt="cryptodredge_extract" loading="lazy" decoding="async"> </a></p>
 </div>
 </div>
@@ -126,11 +127,13 @@
 <meta itemprop="image" content="/assets/images/og.png">
 <h3 class="panel-title" itemprop="name" id="Шаг 2 - Настройте майнер">Шаг 2 - Настройте майнер</h3>
 <div class="panel-body" itemprop="text"><div>
-<p>После извлечения, в той же папке, что и <code>cryptodredge.exe</code>, нужно создать файл, имеющий расширение <code>.bat</code> или отредактировать готовый. При этом, нужно внести следующие команды:</p>
-<div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">CryptoDredge</span><span class="na">-MULTI</span>.exe <span class="na">--disable-cpu --algorithm </span><span class="kd">autolykos2</span> <span class="na">--pool </span><span class="kd">ergo</span>.herominers.com:10250<span class="err">!</span><span class="kd">ergo</span><span class="na">-eu</span>.leafpool.com:1111<span class="err">!</span><span class="kd">pool</span>.coinfoundry.org:3036<span class="err">!</span><span class="kd">pool</span>.woolypooly.com:3100 <span class="na">--wallet </span><span class="m">9</span><span class="kd">gj5rYtg1sGwdvoXGJswrSfPBXiXJgmyjZVEQ9p5fvZrCAfu6zT</span> <span class="na">--gpu-boost </span><span class="m">3</span>
+<p>После извлечения, в той же папке, что и <code>cryptodredge.exe</code>, нужно создать файл, имеющий расширение <code>.bat</code> или отредактировать готовый. Откройте .bat файл с помощью Блокнота. Ниже представлен пример настройки для NiceHash. Нужно внести в него следующие команды:</p>
+<div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@echo <span class="na">off</span>
+<span class="nb">title</span> <span class="o">(</span><span class="kd">rvn</span><span class="o">)</span> <span class="o">-</span> <span class="kd">nicehash</span>
+<span class="kd">cryptodredge</span> <span class="na">-a </span><span class="kd">kawpow</span> <span class="na">-o </span><span class="kd">stratum</span><span class="na">+tcp</span>://kawpow.eu<span class="na">-west</span>.nicehash.com:3385 <span class="na">-u </span><span class="m">3</span><span class="kd">P7qADz69quhfyK5e9kvfno6Jyjq4Rcocx</span> <span class="na">-p </span><span class="kd">x</span> <span class="na">--log </span><span class="m">1</span>.txt
 <span class="nb">pause</span>
 </code></pre></div></div>
-<p>Просто замените <code>gj5rYtg1sGwdvoXGJswrSfPBXiXJgmyjZVEQ9p5fvZrCAfu6zT</code> на ваш адрес кошелька Ergo.</p>
+<p>Вместо <code>P7qADz69quhfyK5e9kvfno6Jyjq4Rcocx</code> просто вставьте адрес вашего кошелька от <a href="/ru/miners/nicehash/">аккаунта NiceHash</a>.</p>
 <p>Файл с расширением <code>.bat</code> создается в любом текстовом редакторе.</p>
 </div></div>
 </div>
@@ -140,131 +143,139 @@
 <h3 class="panel-title" itemprop="name" id="Шаг 3 - Запустите майнер">Шаг 3 - Запустите майнер</h3>
 <div class="panel-body" itemprop="text">
 <p>Запуск программы выполняется стандартно: два раза кликните левой кнопкой мыши по файлу с расширением <code>.bat</code>. После запуска открывается окно с указанием всех внесенных параметров. Их хватит, чтобы запустить добычу токенов. Просто дважды щелкните его, появится окно терминала, и вы начнете майнить!</p>
-<a href="/assets/images/miners/cryptodredge/cryptodredge_hashrate.png" class="image-popup"> <img src="/assets/images/miners/cryptodredge/cryptodredge_hashrate.png" alt="cryptodredge_hashrate" loading="lazy" decoding="async"> </a><p>Нижняя строчка отображает хешрейт.</p>
+<a href="/assets/images/miners/cryptodredge/cryptodredge_hashrate.png" class="image-popup"> <img src="/assets/images/miners/cryptodredge/cryptodredge_hashrate.png" alt="cryptodredge_hashrate" loading="lazy" decoding="async"> </a>
 </div>
 </div>
 <div class="panel panel-default" id="videoguide" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
 <link itemprop="url" href="/#videoguide">
 <meta itemprop="image" content="/assets/images/og.png">
 <div class="panel-body">
-<meta itemprop="text" content="Криптовалюта на Процессоре: настройка CryptoDredge-MULTI CPU">
+<meta itemprop="text" content="Как майнить Conceal (CCX) с CryptoDredge">
 <div class="youtubevideowrap" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/KOdo57tVTR4">
-<link itemprop="contentUrl" content="https://www.youtube.com/embed/KOdo57tVTR4">
+<link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/seiPQBFIsE0">
+<link itemprop="contentUrl" content="https://www.youtube.com/embed/seiPQBFIsE0">
 <h3 class="panel-title" itemprop="name" id="Видео Гид">Видео Гид</h3>
-<meta itemprop="description" content="Настройка батника, настройки температур и запуск майнера.">
-<meta itemprop="uploadDate" content="2019-11-29">
-<meta itemprop="duration" content="PT22M23S">
-<div class="youtube-player" data-id="KOdo57tVTR4"></div>
+<meta itemprop="description" content="Это видео о том, как использовать CryptoDredge для майнинга Conceal ($ CCX)">
+<meta itemprop="uploadDate" content="2021-05-28">
+<meta itemprop="duration" content="PT6M15S">
+<div class="youtube-player" data-id="seiPQBFIsE0"></div>
 <div class="ytb-but"><a href="https://cutt.ly/pxlaiCA" rel="nofollow noopener" target="_blank">подписывайтесь</a></div>
 </div>
 </div>
-</div></section><p>Майните на процессоре? Читайте про <a href="/ru/miners/xmrig/">настройку Xmrig майнера</a> и <a href="/ru/miners/cpuminer/">Cpuminer-Opt</a>.</p>
-<h2 id="настройка-для-nicehash">Настройка для Nicehash</h2>
+</div></section><p>Майните на Nvidia? Читайте про <a href="/ru/miners/nbminer/">настройку NBminer</a> и <a href="/ru/miners/lolminer/">LolMiner</a>.</p>
+<h2 id="настройка-для-ravencoin">Настройка для Ravencoin</h2>
 <p>Вот готовый пример настройки:</p>
-<p><a href="/assets/images/miners/cryptodredge/cryptodredge_nicehash.png" class="image-popup"> <img src="/assets/images/miners/cryptodredge/cryptodredge_nicehash.png" alt="cryptodredge_nicehash" loading="lazy" decoding="async"> </a></p>
+<p><a href="/assets/images/miners/cryptodredge/cryptodredge_ravencoin.png" class="image-popup"> <img src="/assets/images/miners/cryptodredge/cryptodredge_ravencoin.png" alt="cryptodredge_ravencoin" loading="lazy" decoding="async"> </a></p>
 <ol>
-<li> <code class="language-plaintext highlighter-rouge">CryptoDredge-MULTI.exe</code> - запускает программу.</li>
-<li> <code class="language-plaintext highlighter-rouge">autolykos2</code> - указываем алгоритм добычи криптовалюты.</li>
-<li> <code class="language-plaintext highlighter-rouge">autolykos.eu-west.nicehash.com:3390</code> - указываем адрес и порт пула.</li>
-<li> <code class="language-plaintext highlighter-rouge">3P7qADz69quhfyK5e9kvfno6Jyjq4Rcocx</code> - указываем криптокошелек токена. Вы можете использовать биржевой или холодный кошелек на собственное усмотрение.</li>
-<li> <code class="language-plaintext highlighter-rouge">--gpu-boost 3</code> - указываем твик для GPU. Чтобы он сработал, программа должна быть запущена от имени администратора!</li>
+<li> <code class="language-plaintext highlighter-rouge">CryptoDredge</code> - запускает программу.</li>
+<li> <code class="language-plaintext highlighter-rouge">kawpow</code> - указываем алгоритм добычи криптовалюты.</li>
+<li> <code class="language-plaintext highlighter-rouge">rvn.2miners.com:3390</code> - указываем адрес пула.</li>
+<li> <code class="language-plaintext highlighter-rouge">6060</code> - указываем порт пула.</li>
+<li> <code class="language-plaintext highlighter-rouge">RKAeArXkWLNERjWo5YF3R1xFnYCwKf11sX</code> - указываем криптокошелек токена. Вы можете использовать биржевой или холодный кошелек на собственное усмотрение.</li>
 </ol>
-<p class="notice--success"><code>CryptoDredge-MULTI.exe --algorithm autolykos2 --pool autolykos.eu-west.nicehash.com:3390 --wallet 3P7qADz69quhfyK5e9kvfno6Jyjq4Rcocx --gpu-boost 3 pause</code></p>
-<link itemprop="url" href="/#videoguide">
-<meta itemprop="image" content="/assets/images/og.png">
-<div class="youtubevideowrap" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/uC3E-l1gsyg">
-<link itemprop="contentUrl" content="https://www.youtube.com/embed/uC3E-l1gsyg"> <span class="panel-title" itemprop="name" id="Видео: Майнинг Ergo на NiceHash. Разгон для Ergo. Для каких карт подходит Ergo.">Видео: Майнинг Ergo на NiceHash. Разгон для Ergo. Для каких карт подходит Ergo.</span><meta itemprop="description" content="В этом видео поговорим про монету Эрго, как основного конкурента Эфира на текущий момент. Про ее доходность на разных картах, как ее правильно разгонять, про майнинг Ergo на NiceHash. ">
-<meta itemprop="uploadDate" content="2021-08-17">
-<meta itemprop="duration" content="PT11M08S">
-<div class="youtube-player" data-id="uC3E-l1gsyg"></div>
-<div class="ytb-but"><a href="https://cutt.ly/pxlaiCA" rel="nofollow noopener" target="_blank">подписывайтесь</a></div>
-</div>
+<p>Пример:</p>
+<p class="notice--success"><code>@echo off<br> title KawPow (RVN) - 2miners pool<br> CryptoDredge -a kawpow -o stratum+tcp://rvn.2miners.com:6060 -u RKAeArXkWLNERjWo5YF3R1xFnYCwKf11sX -p x<br> pause </code></p>
 <p> </p>
 <link itemprop="url" href="/#videoguide">
 <meta itemprop="image" content="/assets/images/og.png">
 <div class="youtubevideowrap" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/vMxKNauDfKU">
-<link itemprop="contentUrl" content="https://www.youtube.com/embed/vMxKNauDfKU">
-<h2 class="panel-title" itemprop="name" id="Как повысить хешрейт майнинга Ethereum">Как повысить хешрейт майнинга Ethereum:</h2>
-<div itemprop="description">Следуйте этим шагам и легко увеличьте хешрейт майнинга Ethereum!<ol>
-<li>Загрузите CryptoDredge-MULTI.</li>
-<li>Разархивируйте куда-нибудь архив.</li>
-<li>Вы можете найти файл с именем <code>start-mining-ethereum.bat</code> в папке майнера. Это простой пример для начала.</li>
-<li>Отредактируйте этот файл и найдите эту строку: <code>CryptoDredge-MULTI.exe --disable-cpu --algorithm ethash --pool ethereum.herominers.com:10200 --wallet 0x74fb183Dfa951A9dC8C6de5ae4E1A8587fa6f371 --gpu-boost 5</code>
-</li>
-<li>Часть <code>--gpu-boost 5</code> используется для увеличения хешрейта вашего графического процессора. Активируется только в том случае, если майнер запущен с правами администратора.</li>
-<li>Посмотрите разницу. 29,2 mh/s без GPU Tweak. 30.29 mh/s с gpu-boost!</li>
-<li>Чтобы найти значение для <code>--gpu-boost</code>, которое подходит вам, удалите часть <code> --gpu-boost 5</code> из файла .bat, запустите майнер с правами администратора и при запуске майнинга увеличьте/уменьшите ускорение с помощью + - на клавиатуре. Если хешрейт вас устраивает, введите найденное значение.</li>
-</ol>
-</div>
-<meta itemprop="uploadDate" content="2021-03-02">
-<meta itemprop="duration" content="PT9M49S">
-<div class="youtube-player" data-id="vMxKNauDfKU"></div>
-<div class="ytb-but"><a href="https://cutt.ly/pxlaiCA" rel="nofollow noopener" target="_blank">подписывайтесь</a></div>
-</div>
-<p>Готвоый батник:</p>
-<p class="notice--info"><code>CryptoDredge-MULTI.exe --disable-cpu --algorithm ethash --pool ethereum.herominers.com:10200 --wallet 0x74fb183Dfa951A9dC8C6de5ae4E1A8587fa6f371 --gpu-boost 8</code></p>
-<p>Вот и все. Этот метод повышения активен для каждого алгоритма майнинга GPU в CryptoDredge. Не каждый алгоритм даст вам одинаковое увеличение хешрейта. Удачного майнинга :)</p>
-<p> </p>
-<link itemprop="url" href="/#videoguide">
-<meta itemprop="image" content="/assets/images/og.png">
-<div class="youtubevideowrap" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/WHaHXJl97hI">
-<link itemprop="contentUrl" content="https://www.youtube.com/embed/WHaHXJl97hI">
-<h2 class="panel-title" itemprop="name" id="Как майнить Monero - RandomX">Как майнить Monero - RandomX</h2>
-<div itemprop="description"><ol>
-<li>Сначала вам нужно создать новый кошелек или использовать существующий (без Payment ID (идентификатора платежа!)).</li>
-<li>Распаковать куда-нибудь архив.</li>
-<li>Перейдите в папку майнера и дважды щелкните <code>guided-setup.bat.</code> Запустится интерактивный создатель конфигурации. <a href="/assets/images/miners/cryptodredge/cryptodredge_config.png" class="image-popup"> <img src="/assets/images/miners/cryptodredge/cryptodredge_config.png" alt="cryptodredge_config" loading="lazy" decoding="async"> </a>
-</li>
-<li>Посмотрим на вопросы и ответы:<ul>
-<li> <code>Configuration name </code> - Название монеты должно быть названием монеты, для которой вы создаете конфигурацию. В этом примере это будет monero.</li>
-<li> <code>Algorithm</code> - Алгоритм для Monero - randomx. Вам нужно ввести это без кавычек.</li>
-<li> <code>Address and port</code> - Адрес и порт майнинг-пула - это то, что мы получили с сайта пула.</li>
-<li> <code>Address </code> - Адрес вашего кошелька</li>
-<li> <code>Password</code> - Пароль может быть любым.</li>
-<li> <code>Do you want to use your CPU for mining?</code> - Вы хотите использовать свой процессор для майнинга? Ответьте "y"</li>
-<li> <code>How many CPU threads to use for mining?</code> - Сколько потоков ЦП использовать для майнинга? Ответьте 0, что автоматически установит количество потоков.</li>
-<li> <code>Logging</code> - Ведение журнала может быть полезно, когда у вас есть проблемы и вы хотите их отследить. Давайте установим это сейчас на нет - 'n'</li>
-<li> <code>Do you want to run miner in the background, without a window ?</code> - Хотите запустить майнер в фоновом режиме, без окна консоли? Мы хотим увидеть окно майнера, поэтому ответьте "n".</li>
-</ul>
-</li>
-<li>Теперь все, что вам нужно сделать, чтобы начать майнинг, - это дважды щелкнуть <code>start-monero.bat</code>.</li>
-</ol></div>
-<meta itemprop="uploadDate" content="2019-10-03">
-<meta itemprop="duration" content="PT2M59S">
-<div class="youtube-player" data-id="WHaHXJl97hI"></div>
+<link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/THMsguC8IM0">
+<link itemprop="contentUrl" content="https://www.youtube.com/embed/THMsguC8IM0">
+<h2 class="panel-title" itemprop="name" id="Видео: Битва майнеров: +20% T-rex vs Cryptodredge на SUQA (X22i) и Hdac(skunkhash) NVIDIA.">Видео: Битва майнеров: +20% T-rex vs Cryptodredge на SUQA (X22i) и Hdac(skunkhash) NVIDIA.</h2>
+<meta itemprop="description" content="В этом видео поговорим про Битву майнеров: +20% T-rex 0.8.1 vs Cryptodredge 0.11.0! на SUQA (X22i) и Hdac(skunkhash) NVIDIA ">
+<meta itemprop="uploadDate" content="2018-11-25">
+<meta itemprop="duration" content="PT6M17S">
+<div class="youtube-player" data-id="THMsguC8IM0"></div>
 <div class="ytb-but"><a href="https://cutt.ly/pxlaiCA" rel="nofollow noopener" target="_blank">подписывайтесь</a></div>
 </div>
 <p> </p>
-<p><span class="bold">Смотрите видео:</span></p>
-<link itemprop="url" href="/#videoguide">
-<meta itemprop="image" content="/assets/images/og.png">
-<div class="youtubevideowrap" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/m8sBphWNXcM">
-<link itemprop="contentUrl" content="https://www.youtube.com/embed/m8sBphWNXcM"> <span class="panel-title" itemprop="name" id="Видео: Как настроить любую монету в CryptoDredge Cryptonight">Видео: Как настроить любую монету в CryptoDredge Cryptonight</span><meta itemprop="description" content=" Температура защиты графического процессора также является настройкой безопасности, она не позволит вашему графическому процессору перегреться, и если графический процессор достигнет этой температуры, он будет выключен, пока не остынет на 15С, затем снова включится. ">
-<meta itemprop="uploadDate" content="2018-10-30">
-<meta itemprop="duration" content="PT5M42S">
-<div class="youtube-player" data-id="m8sBphWNXcM"></div>
-<div class="ytb-but"><a href="https://cutt.ly/pxlaiCA" rel="nofollow noopener" target="_blank">подписывайтесь</a></div>
-</div>
-<p> </p>
-<link itemprop="url" href="/#videoguide">
-<meta itemprop="image" content="/assets/images/og.png">
-<div class="youtubevideowrap" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/qac7Q9KJMzU">
-<link itemprop="contentUrl" content="https://www.youtube.com/embed/qac7Q9KJMzU"> <span class="panel-title" itemprop="name" id="Видео: Как настроить ZIL + Ergo на HiveOS (Ethash + Autolykos2):">Видео: Как настроить ZIL + Ergo на HiveOS (Ethash + Autolykos2):</span><meta itemprop="description" content="Как настроить ZIL + Ergo на HiveOS (Ethash + Autolykos2).">
-<meta itemprop="uploadDate" content="2021-04-19">
-<meta itemprop="duration" content="PT1M45S">
-<div class="youtube-player" data-id="qac7Q9KJMzU"></div>
-<div class="ytb-but"><a href="https://cutt.ly/pxlaiCA" rel="nofollow noopener" target="_blank">подписывайтесь</a></div>
-</div>
 <h2 id="алгоритмы">Алгоритмы</h2>
+<ul>
+<li>argon2d-dyn,</li>
+<li>argon2d-nim,</li>
+<li>argon2d250,</li>
+<li>argon2d4096,</li>
+<li>chukwa,</li>
+<li>chukwa2,</li>
+<li>cnconceal,</li>
+<li>cnfast2,</li>
+<li>cngpu,</li>
+<li>cnhaven,</li>
+<li>cnheavy,</li>
+<li>cntlo,</li>
+<li>cnturtle,</li>
+<li>cnupx2,</li>
+<li>cnzls,</li>
+<li>kawpow,</li>
+<li>mtp,</li>
+<li>mtp-tcr</li>
+</ul>
+<h2 id="настройка-через-configjson">Настройка через Config.json</h2>
+<ol>
+<li>Откройте <code class="language-plaintext highlighter-rouge">config.json</code> файл с помощью Блокнота</li>
+<li>Найдите и измените следующие строки:<br> <code class="language-plaintext highlighter-rouge">"url: "[pool address]"</code><br> <code class="language-plaintext highlighter-rouge">"user: "[wallet address]"</code><br> Вместо [wallet address] просто вставьте адрес своего кошелька. Обязательно сохраните цитаты знак кавычек. Если у вас его еще нет кошелька, вы можете узнать, <a href="https://bytwork.com/articles/goryachie-koshelki" target="_blank">как создать кошелек здесь</a>. Вместо [pool address] вам нужно будет выбрать пул для майнинга. Вы можете узнать <a href="https://bytwork.com/pools" target="_blank">о пулах больше здесь</a>. Опять же обязательно сохраните знак кавычек.!</li>
+<li>Сохраните файл и и запустите <code class="language-plaintext highlighter-rouge">CryptoDredge.exe</code> для Windows.<br> или <code class="language-plaintext highlighter-rouge">./CryptoDredge</code> для Linux</li>
+</ol>
 <h2 id="аргументы-командной-строки">Аргументы командной строки</h2>
-<h2 id="выводы">Выводы</h2>
-<p>Добывать криптовалюту без специальных программ невозможно. Поэтому мы рекомендуем обратить внимание на одну из лучших программ и скачать CryptoDredge multi. Софт работает с видеокартами от AMD Radeon, поддерживая большую часть версий, выпущенных данным производителем: начиная от VEGA, заканчивая RX и R9. Программа поддерживает разные алгоритмы добычи криптовалют. Особенно популярностью она пользуется у майнеров Ethereum.</p></section><footer class="page__meta"><p class="page__taxonomy"> <i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Разделы: <span itemprop="keywords"> <a href="/ru/miners" class="page__taxonomy-item" rel="tag">miners</a> </span></p>
+<div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+  <span class="na">-h</span><span class="o">,</span> <span class="na">--help                   </span><span class="kd">Print</span> <span class="nb">help</span> <span class="kd">information</span>
+  <span class="na">-v</span><span class="o">,</span> <span class="na">--version                </span><span class="kd">Print</span> <span class="kd">version</span> <span class="kd">information</span>
+  <span class="na">-a</span><span class="o">,</span> <span class="na">--algo </span><span class="kd">arg</span>               <span class="kd">Specify</span> <span class="kd">algorithm</span> <span class="kd">to</span> <span class="kd">use</span>: <span class="kd">argon2d</span><span class="na">-dyn</span><span class="o">,</span>
+                               <span class="kd">argon2d</span><span class="na">-nim</span><span class="o">,</span> <span class="kd">argon2d250</span><span class="o">,</span> <span class="kd">argon2d4096</span><span class="o">,</span> <span class="kd">chukwa</span><span class="o">,</span> <span class="kd">chukwa2</span><span class="o">,</span>
+                               <span class="kd">cnconceal</span><span class="o">,</span> <span class="kd">cnfast2</span><span class="o">,</span> <span class="kd">cngpu</span><span class="o">,</span> <span class="kd">cnhaven</span><span class="o">,</span> <span class="kd">cnheavy</span><span class="o">,</span>
+                               <span class="kd">cntlo</span><span class="o">,</span> <span class="kd">cnturtle</span><span class="o">,</span> <span class="kd">cnupx2</span><span class="o">,</span> <span class="kd">cnzls</span><span class="o">,</span> <span class="kd">kawpow</span><span class="o">,</span> <span class="kd">mtp</span><span class="o">,</span>
+                               <span class="kd">mtp</span><span class="na">-tcr
+							   
+</span></code></pre></div></div>
+<div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="na">-o</span><span class="o">,</span> <span class="na">--url </span><span class="kd">arg</span>                <span class="kd">URL</span> <span class="kd">of</span> <span class="kd">mining</span> <span class="kd">pool</span>
+  <span class="na">-x</span><span class="o">,</span> <span class="na">--proxy </span><span class="kd">arg</span>              <span class="kd">Connecting</span> <span class="kd">through</span> <span class="kd">a</span> <span class="kd">proxy</span>. <span class="kd">Syntax</span>:
+                               <span class="kd">protocol</span>://<span class="o">[</span><span class="kd">user</span><span class="nl">:password</span>@<span class="o">]</span><span class="kd">proxyhost</span><span class="o">[</span><span class="nl">:port</span><span class="o">]</span>. <span class="kd">For</span> <span class="kd">example</span>:
+                               <span class="na">-x </span><span class="kd">socks5</span>://proxyuser:12345@127.0.0.1:1080.
+                               <span class="kd">Only</span> <span class="kd">Socks5</span> <span class="kd">is</span> <span class="kd">currently</span> <span class="kd">supported</span>.
+      <span class="na">--cert </span><span class="kd">arg</span>               <span class="kd">Mining</span> <span class="kd">pool</span> <span class="kd">server</span> <span class="kd">certificate</span> <span class="nb">path</span>
+      <span class="na">--sni                    </span><span class="kd">Enable</span> <span class="kd">SNI</span> <span class="o">(</span><span class="kd">Server</span> <span class="kd">Name</span> <span class="kd">Indication</span><span class="o">)</span> <span class="k">for</span> <span class="kd">the</span>
+                               <span class="kd">pool</span> <span class="kd">connection</span>
+  <span class="na">-u</span><span class="o">,</span> <span class="na">--user </span><span class="kd">arg</span>               <span class="kd">Username</span> <span class="k">for</span> <span class="kd">mining</span> <span class="kd">pool</span>
+  <span class="na">-p</span><span class="o">,</span> <span class="na">--pass </span><span class="kd">arg</span>               <span class="kd">Password</span><span class="na">/Options </span><span class="k">for</span> <span class="kd">mining</span> <span class="kd">pool</span>
+  <span class="na">-i</span><span class="o">,</span> <span class="na">--intensity </span><span class="kd">arg</span>          <span class="kd">Mining</span> <span class="kd">intensity</span> <span class="o">(</span><span class="m">0</span>.0 <span class="o">-</span> <span class="m">8</span>.0<span class="o">)</span>. <span class="kd">For</span> <span class="kd">example</span>: <span class="na">-i
+                               </span><span class="kd">N</span><span class="o">[,</span><span class="kd">N</span><span class="o">]</span> <span class="o">(</span><span class="kd">default</span>: <span class="m">6</span><span class="o">)</span>
+  <span class="na">-q</span><span class="o">,</span> <span class="na">--recompute </span><span class="kd">arg</span>          <span class="kd">Memory</span> <span class="kd">reduction</span> <span class="kd">factor</span> <span class="o">(</span><span class="m">1</span> <span class="o">-</span> <span class="m">32</span><span class="o">)</span> <span class="o">(</span><span class="kd">argon2d</span><span class="na">-nim
+                               </span><span class="kd">only</span><span class="o">)</span>. <span class="kd">For</span> <span class="kd">example</span>: <span class="na">-q </span><span class="kd">N</span><span class="o">[,</span><span class="kd">N</span><span class="o">]</span> <span class="o">(</span><span class="kd">default</span>: <span class="m">368</span><span class="o">)</span>
+  <span class="na">-d</span><span class="o">,</span> <span class="na">--device </span><span class="kd">arg</span>             <span class="kd">List</span> <span class="kd">of</span> <span class="kd">comma</span><span class="na">-separated </span><span class="kd">device</span> <span class="kd">IDs</span> <span class="kd">to</span> <span class="kd">use</span> <span class="k">for</span>
+                               <span class="kd">mining</span>. <span class="kd">IDs</span> <span class="kd">are</span> <span class="kd">numbered</span> <span class="m">0</span><span class="o">,</span><span class="m">1</span>...<span class="o">,</span><span class="kd">N</span> <span class="o">-</span> <span class="m">1</span>
+      <span class="na">--log </span><span class="kd">arg</span>                <span class="kd">Log</span> <span class="kd">output</span> <span class="kd">to</span> <span class="kd">file</span>
+      <span class="na">--no-color               </span><span class="kd">Force</span> <span class="nb">color</span> <span class="na">off</span>
+      <span class="na">--no-nvml                </span><span class="kd">Force</span> <span class="kd">nvml</span> <span class="na">off</span>
+      <span class="na">--no-watchdog            </span><span class="kd">Force</span> <span class="kd">watchdog</span> <span class="na">off</span>
+      <span class="na">--no-crashreport         </span><span class="kd">Force</span> <span class="kd">crash</span> <span class="kd">reporting</span> <span class="na">off</span>
+  <span class="na">-r</span><span class="o">,</span> <span class="na">--retries </span><span class="kd">arg</span>            <span class="kd">N</span> <span class="kd">number</span> <span class="kd">of</span> <span class="kd">times</span> <span class="kd">to</span> <span class="kd">retry</span> <span class="k">if</span> <span class="kd">a</span> <span class="kd">network</span> <span class="k">call</span>
+                               <span class="kd">fails</span><span class="o">,</span> <span class="o">-</span><span class="m">1</span> <span class="kd">retry</span> <span class="kd">indefinitely</span> <span class="o">(</span><span class="kd">default</span>: <span class="o">-</span><span class="m">1</span><span class="o">)</span>
+  <span class="na">-R</span><span class="o">,</span> <span class="na">--retry-pause </span><span class="kd">arg</span>        <span class="kd">N</span> <span class="nb">time</span> <span class="kd">to</span> <span class="nb">pause</span> <span class="kd">between</span> <span class="kd">retries</span><span class="o">,</span> <span class="k">in</span> <span class="kd">seconds</span>
+                               <span class="o">(</span><span class="kd">default</span>: <span class="m">15</span><span class="o">)</span>
+      <span class="na">--timeout </span><span class="kd">arg</span>            <span class="kd">N</span> <span class="kd">network</span> <span class="nb">timeout</span><span class="o">,</span> <span class="k">in</span> <span class="kd">seconds</span> <span class="o">(</span><span class="kd">default</span>: <span class="m">300</span><span class="o">)</span>
+      <span class="na">--cpu-priority </span><span class="kd">arg</span>       <span class="kd">Set</span> <span class="kd">process</span> <span class="kd">priority</span> <span class="k">in</span> <span class="kd">the</span> <span class="kd">range</span> <span class="m">0</span> <span class="o">(</span><span class="kd">low</span><span class="o">)</span> <span class="kd">to</span> <span class="m">5</span>
+                               <span class="o">(</span><span class="kd">high</span><span class="o">)</span> <span class="o">(</span><span class="kd">default</span>: <span class="m">3</span><span class="o">)</span>
+      <span class="na">--api-type </span><span class="kd">arg</span>           <span class="kd">API</span> <span class="nb">type</span>: <span class="kd">ccminer</span><span class="na">-tcp </span><span class="o">(</span><span class="kd">ccminer</span> <span class="m">2</span>.3 <span class="kd">TCP</span><span class="o">),</span>
+                               <span class="kd">ccminer</span><span class="na">-ws </span><span class="o">(</span><span class="kd">ccminer</span> <span class="m">2</span>.3 <span class="kd">WebSocket</span><span class="o">),</span> <span class="na">off</span> <span class="o">(</span><span class="kd">default</span>:
+                               <span class="kd">ccminer</span><span class="na">-tcp</span><span class="o">)</span>
+  <span class="na">-b</span><span class="o">,</span> <span class="na">--api-bind </span><span class="kd">arg</span>           <span class="kd">IP</span><span class="nl">:port</span> <span class="k">for</span> <span class="kd">the</span> <span class="kd">miner</span> <span class="kd">API</span><span class="o">,</span> <span class="m">0</span> <span class="kd">disabled</span>
+                               <span class="o">(</span><span class="kd">default</span>: <span class="m">127</span>.0.0.1:4068<span class="o">)</span>
+      <span class="na">--hashrate </span><span class="kd">arg</span>           <span class="kd">Expected</span> <span class="kd">hashrate</span> <span class="k">in</span> <span class="kd">kH</span><span class="na">/s </span><span class="o">(</span><span class="kd">argon2d</span><span class="na">-nim </span><span class="kd">only</span><span class="o">)</span>
+                               <span class="o">(</span><span class="kd">default</span>: <span class="m">0</span><span class="o">)</span>
+  <span class="na">-c</span><span class="o">,</span> <span class="na">--config </span><span class="kd">arg</span>             <span class="kd">JSON</span> <span class="kd">configuration</span> <span class="kd">file</span> <span class="kd">to</span> <span class="kd">use</span> <span class="o">(</span><span class="kd">default</span>:
+                               <span class="kd">config</span>.json<span class="o">)</span>
+      <span class="na">--optimizer </span><span class="kd">arg</span>          <span class="kd">Run</span> <span class="kd">optimizer</span><span class="o">,</span> <span class="kd">currently</span> <span class="k">for</span> <span class="kd">argon2d</span><span class="na">-nim </span><span class="kd">only</span>:
+                               <span class="kd">auto</span> <span class="o">(</span><span class="kd">Run</span> <span class="k">if</span> <span class="kd">gpu</span>.json <span class="kd">does</span> <span class="ow">not</span> <span class="ow">exist</span><span class="o">),</span> <span class="kd">force</span>
+                               <span class="o">(</span><span class="kd">Run</span> <span class="kd">always</span><span class="o">),</span> <span class="na">off</span> <span class="o">(</span><span class="kd">default</span>: <span class="kd">auto</span><span class="o">)</span>
+      <span class="na">--temperature-limit </span><span class="kd">arg</span>  <span class="kd">GPU</span> <span class="kd">limit</span> <span class="kd">temperature</span><span class="o">,</span> <span class="m">0</span> <span class="kd">disabled</span> <span class="o">(</span><span class="kd">default</span>: <span class="m">0</span><span class="o">)</span>
+      <span class="na">--temperature-start </span><span class="kd">arg</span>  <span class="kd">GPU</span> <span class="kd">resume</span> <span class="kd">temperature</span><span class="o">,</span> <span class="m">0</span> <span class="kd">disabled</span> <span class="o">(</span><span class="kd">default</span>:
+                               <span class="m">0</span><span class="o">)</span>
+
+</code></pre></div></div>
+<h2 id="исправление-проблем">Исправление проблем</h2>
+<p>Большинство проблем обычно возникает из-за устаревших драйверов графического процессора. Если майнер не работает или не может обнаружить ваш графический процессор, попробуйте обновить драйверы до последних версий!</p>
+<h3 id="no-cuda">No CUDA!</h3>
+<p>Многие майнеры Nvidia требуют правильной работы CUDA. Вам следует загрузить и установить последнюю версию инструментария CUDA для вашей карты Nvidia.</p></section><footer class="page__meta"><p class="page__taxonomy"> <i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Разделы: <span itemprop="keywords"> <a href="/ru/miners" class="page__taxonomy-item" rel="tag">miners</a> </span></p>
 <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Дата изменения: <time datetime="2021-08-23T00:00:00+00:00">23.08.2021</time></p></footer>
 </div></article>
 </div>
