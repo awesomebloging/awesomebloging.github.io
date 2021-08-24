@@ -80,7 +80,7 @@
 <meta itemprop="dateModified" content="August 24, 2021">
 <div class="page__inner-wrap">
 <header><h1 id="page-title" class="page__title" itemprop="headline">NBMiner 39.1: Download, Setup and Commands (Guide)</h1>
-<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 2 minute read</p></header><section class="page__content" itemprop="text"><aside class="sidebar__right sticky"><nav class="toc"><header><h4 class="nav__title"> <i class="fas fa-file-alt"></i> Contents</h4></header><ul class="toc__menu">
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 6 minute read</p></header><section class="page__content" itemprop="text"><aside class="sidebar__right sticky"><nav class="toc"><header><h4 class="nav__title"> <i class="fas fa-file-alt"></i> Contents</h4></header><ul class="toc__menu">
 <li><a href="#download-for-windows--linux">Download for Windows / Linux</a></li>
 <li><a href="#review">Review</a></li>
 <li><a href="#Step%201%20-%20Download%20the%20miner">Step 1 - Download the miner</a></li>
@@ -89,10 +89,21 @@
 <li><a href="#Video%20Guide">Video Guide</a></li>
 <li> <a href="#example-for-binance-pool">Example for Binance Pool</a><ul><li><a href="#setup-for-nicehash">Setup for NiceHash</a></li></ul>
 </li>
+<li><a href="#Unlock%20LHR%20Cards%20in%20Nicehash%20using%20NBMiner%20-%20Step-by-Step%20(3070%20TI%20Tested)">Unlock LHR Cards in Nicehash using NBMiner - Step-by-Step (3070 TI Tested)</a></li>
+<li><a href="#Rtx%20lhr%20nbminer%20unlock%20in%20hiveos%20-%20new%20nbminer%20hack">Rtx lhr nbminer unlock in hiveos - new nbminer hack</a></li>
 <li><a href="#monitoring-and-profit">Monitoring and profit</a></li>
 <li><a href="#algorithms-and-hashrate">Algorithms and hashrate</a></li>
 <li><a href="#NBMiner%20vs%20Phoenixminer">NBMiner vs Phoenixminer</a></li>
-<li><a href="#commands">Commands</a></li>
+<li> <a href="#commands">Commands</a><ul>
+<li><a href="#config">Config</a></li>
+<li><a href="#gpu-selectdisable">GPU select/disable</a></li>
+<li><a href="#algorithms">Algorithms</a></li>
+<li><a href="#pools">Pools</a></li>
+<li><a href="#intensity">Intensity</a></li>
+<li><a href="#temperatures">Temperatures</a></li>
+<li><a href="#options">Options</a></li>
+</ul>
+</li>
 <li><a href="#versions">Versions</a></li>
 </ul></nav></aside><div id="paper" class="yel"><div id="pattern"><div id="note-cont"> NBMiner: Setup for ETH, algorithms, commands, NiceHash.</div></div></div>
 <p><em>This post will show you how to get started mining with the latest version of NBMiner (39.1).</em></p>
@@ -102,13 +113,13 @@
 <p><a href="https://github.com/NebuTech/NBMiner/releases" class="btn btn--success btn--x-large" rel="nofollow noopener" target="_blank">Download releases from GitHub</a></p>
 <p><a href="https://bitcointalk.org/index.php?topic=5099379.0" class="btn btn--yandex btn--x-large" rel="nofollow noopener" target="_blank">Download releases from BitcoinTalk</a></p>
 <section><h2 id="review">Review</h2>
-<p><b>NBMiner</b> - is a graphics card (GPU) mining software. Works only with NVIDIA and AMD cards.</p></section><section id="how-to-start" itemscope="itemscope" itemtype="http://schema.org/HowTo"><h1 itemprop="name">How to use NBMiner</h1>
+<p><dfn>NBMiner</dfn> - is a graphics card (GPU) mining software. Works only with NVIDIA and AMD cards.</p></section><section id="how-to-start" itemscope="itemscope" itemtype="http://schema.org/HowTo"><h1 itemprop="name">How to use NBMiner</h1>
 <div class="panel panel-default" id="step1" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
 <link itemprop="url" href="#step1">
 <meta itemprop="image" content="/assets/images/miners/nbminer/download.png">
 <h2 class="panel-title" id="Step 1 - Download the miner">Step 1 - Download the miner</h2>
 <meta itemprop="name" content="Download the miner">
-<div class="panel-body" itemprop="text"><p><a href="https://github.com/NebuTech/NBMiner/releases" rel="nofollow noopener" target="_blank">Download NBminer</a> , unpack it into a separate folder and find <code>start.bat</code>. <a href="/assets/images/miners/nbminer/download.png" class="image-popup"> <img src="/assets/images/miners/nbminer/download.png" alt="NBMiner download" loading="lazy" decoding="async"> </a></p></div>
+<div class="panel-body" itemprop="text"><p><a href="https://github.com/NebuTech/NBMiner/releases" rel="nofollow noopener" target="_blank">Download NBminer</a>, unpack it into a separate folder and find <code>start.bat</code>. <a href="/assets/images/miners/nbminer/download.png" class="image-popup"> <img src="/assets/images/miners/nbminer/download.png" alt="NBMiner download" loading="lazy" decoding="async"> </a></p></div>
 </div>
 <div class="panel panel-default" id="step2" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
 <link itemprop="url" href="/#step2">
@@ -185,6 +196,50 @@
 <div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">nbminer</span> <span class="na">-a </span><span class="kd">kawpow</span> <span class="na">-o </span><span class="kd">stratum</span><span class="na">+tcp</span>://kawpow.eu.nicehash.com:3385 <span class="na">-u </span><span class="m">3</span><span class="kd">LZhp4g3m7YWqR4hAPrZsKWbyo7hRBmqvy</span>.nbminer <span class="na">-log
 </span><span class="nb">pause</span>
 </code></pre></div></div>
+<link itemprop="url" href="/#videoguide">
+<meta itemprop="image" content="/assets/images/og.png">
+<h2 class="panel-title" itemprop="name" id="Unlock LHR Cards in Nicehash using NBMiner - Step-by-Step (3070 TI Tested)">Unlock LHR Cards in Nicehash using NBMiner - Step-by-Step (3070 TI Tested)</h2>
+<div class="youtubevideowrap" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+<link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/NCaQi6olhac">
+<link itemprop="contentUrl" content="https://www.youtube.com/embed/NCaQi6olhac">
+<meta itemprop="name" content="NBMiner vs Phoenixminer">
+<div itemprop="description">In this video I will show how to improve Ethereum mining performance on LHR cards within Nicehash using NBMiner's new logic to improving hashrate on LHR cards [STEP by STEP].</div>
+<meta itemprop="uploadDate" content="2021-08-22">
+<meta itemprop="duration" content="PT11M12S">
+<div class="youtube-player" data-id="NCaQi6olhac"></div>
+<div class="ytb-but"><a href="https://cutt.ly/pxlaiCA" rel="nofollow noopener" target="_blank">subscribe</a></div>
+</div>
+<p> </p>
+<link itemprop="url" href="/#videoguide">
+<meta itemprop="image" content="/assets/images/og.png">
+<div class="youtubevideowrap" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+<link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/JgW054sWUEA">
+<link itemprop="contentUrl" content="https://www.youtube.com/embed/JgW054sWUEA">
+<h2 class="panel-title" itemprop="name" id="Rtx lhr nbminer unlock in hiveos - new nbminer hack">Rtx lhr nbminer unlock in hiveos - new nbminer hack</h2>
+<div itemprop="description">
+<p>We are going to try out the 70% unlock for the LHR cards INSIDE HIVEOS! Clocks are below that I am using in this video! This will NOT work with the 471.11 Driver or Higher.</p>
+<p class="bold">RTX 3070Ti AMP HOLO BLACK Overclocks:</p>
+<ol>
+<li>Stable over night (51+ MH in HiveOS).</li>
+<li>Power Limit: 200.</li>
+<li>Core: -200.</li>
+<li>Memory: +2100.</li>
+<li>Fan 80%.</li>
+</ol>
+<p class="bold">RTX 3060Ti AMP HOLO BLACK Overclocks:</p>
+<ol>
+<li>Stable over night (40+ MH in HiveOS).</li>
+<li>Power Limit: 130.</li>
+<li>Core: -200.</li>
+<li>Memory: +2200.</li>
+<li>Fan 80%.</li>
+</ol>
+</div>
+<meta itemprop="uploadDate" content="2021-08-17">
+<meta itemprop="duration" content="PT11M51S">
+<div class="youtube-player" data-id="JgW054sWUEA"></div>
+<div class="ytb-but"><a href="https://cutt.ly/pxlaiCA" rel="nofollow noopener" target="_blank">subscribe</a></div>
+</div>
 <h2 id="monitoring-and-profit">Monitoring and profit</h2>
 <p>After the miner stabilizes for about 10-15 minutes, you can check the status of work and profit on the “Income” page in your account on the exchange or on the pool that you have chosen.</p>
 <h2 id="algorithms-and-hashrate">Algorithms and hashrate</h2>
@@ -312,6 +367,115 @@
 <p><code class="language-plaintext highlighter-rouge">-h, --help</code> - display help information and exit</p>
 <p><code class="language-plaintext highlighter-rouge">-v, --version</code> - Display version and exit.</p>
 <p><code class="language-plaintext highlighter-rouge">-c, --config \&lt;config file path&gt;</code> - Use config in JSON format instead of batch file (CMD file).</p>
+<p>Help:</p>
+<div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">-?,</span> <span class="na">-h</span><span class="o">,</span> <span class="na">--help </span><span class="o">-</span> <span class="kd">Displays</span> <span class="nb">help</span> <span class="na">on</span> <span class="kd">commandline</span> <span class="kd">options</span>.
+<span class="na">--help-all </span><span class="o">-</span> <span class="kd">Displays</span> <span class="nb">help</span> <span class="kd">including</span> <span class="kd">Qt</span> <span class="kd">specific</span> <span class="kd">options</span>.
+<span class="na">-v</span><span class="o">,</span> <span class="na">--version </span><span class="o">-</span> <span class="kd">Displays</span> <span class="kd">version</span> <span class="kd">information</span>.
+</code></pre></div></div>
+<h3 id="config">Config</h3>
+<div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="na">-c</span><span class="o">,</span> <span class="na">--config </span><span class="o">&lt;</span><span class="kd">config</span> <span class="kd">file</span> <span class="nb">path</span><span class="o">&gt;</span> <span class="o">-</span> <span class="kd">Use</span> <span class="kd">config</span> <span class="kd">file</span> <span class="kd">rather</span> <span class="kd">than</span> <span class="nb">cmd</span> <span class="kd">line</span> <span class="kd">options</span>.
+  <span class="na">--generate-config </span><span class="o">&lt;</span><span class="kd">filename</span><span class="o">&gt;</span> <span class="o">-</span> <span class="kd">Generate</span> <span class="kd">a</span> <span class="kd">sample</span> <span class="kd">config</span> <span class="kd">file</span>.
+  <span class="na">--api </span><span class="o">&lt;</span><span class="kd">host</span><span class="nl">:port</span><span class="o">&gt;</span> <span class="o">-</span> <span class="kd">The</span> <span class="kd">endpoint</span> <span class="k">for</span> <span class="kd">serving</span> <span class="kd">REST</span> <span class="kd">API</span>.
+</code></pre></div></div>
+<h3 id="gpu-selectdisable">GPU select/disable</h3>
+<div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="na">-d</span><span class="o">,</span> <span class="na">--devices </span><span class="o">&lt;</span><span class="kd">devices</span><span class="o">&gt;</span> <span class="o">-</span> <span class="kd">Specify</span> <span class="kd">GPU</span> <span class="kd">list</span> <span class="kd">to</span> <span class="kd">use</span>. 
+<span class="kd">Example</span>:   <span class="s2">"-d 0,1,2,3"</span> <span class="kd">to</span> <span class="kd">use</span> <span class="kd">first</span> <span class="m">4</span> <span class="kd">GPU</span>.
+</code></pre></div></div>
+<h3 id="algorithms">Algorithms</h3>
+<div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="na">-a</span><span class="o">,</span> <span class="na">--algo </span><span class="o">&lt;</span><span class="kd">algo</span><span class="o">&gt;</span>  <span class="o">-</span> <span class="kd">Algorithm</span> <span class="kd">to</span> <span class="kd">mining</span>. <span class="kd">Supported</span> <span class="kd">algos</span>:
+  <span class="o">*</span> <span class="kd">ethash</span><span class="o">,</span> <span class="kd">eth</span>
+  <span class="o">*</span> <span class="kd">etchash</span><span class="o">,</span> <span class="kd">etc</span>
+  <span class="o">*</span> <span class="kd">cuckatoo</span><span class="o">,</span> <span class="kd">cuckatoo31</span>
+  <span class="o">*</span> <span class="kd">cuckatoo32</span><span class="o">,</span> <span class="kd">grin32</span>
+  <span class="o">*</span> <span class="kd">cuckoo_ae</span>
+  <span class="o">*</span> <span class="kd">progpow_sero</span>
+  <span class="o">*</span> <span class="kd">kawpow</span>
+  <span class="o">*</span> <span class="kd">beamv3</span><span class="o">,</span> <span class="kd">beam</span>
+  <span class="o">*</span> <span class="kd">octopus</span><span class="o">,</span> <span class="kd">cfx</span>
+  <span class="o">*</span> <span class="kd">autolykos2</span><span class="o">,</span> <span class="kd">ergo</span>
+</code></pre></div></div>
+<h3 id="pools">Pools</h3>
+<div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">-o</span><span class="o">,</span> <span class="na">--url </span><span class="o">&lt;</span><span class="kd">url</span><span class="o">&gt;</span>  <span class="o">-</span> <span class="kd">Mining</span> <span class="kd">pool</span> <span class="kd">url</span>. <span class="kd">Example</span>:
+<span class="kd">stratum</span><span class="na">+tcp</span>://eth.f2pool.com:8008
+<span class="kd">nicehash</span><span class="na">+tcp</span>://daggerhashimoto.eu.nicehash.com:3353
+<span class="na">--o</span><span class="m">1</span><span class="o">,</span> <span class="na">--url</span><span class="m">1</span> <span class="o">&lt;</span><span class="kd">url</span><span class="o">&gt;</span> <span class="o">-</span> <span class="kd">Backup</span> <span class="kd">url</span> <span class="m">1</span>.
+<span class="na">--o</span><span class="m">2</span><span class="o">,</span> <span class="na">--url</span><span class="m">2</span> <span class="o">&lt;</span><span class="kd">url</span><span class="o">&gt;</span> <span class="o">-</span> <span class="kd">Backup</span> <span class="kd">url</span> <span class="m">2</span>.
+<span class="na">-u</span><span class="o">,</span> <span class="na">--user </span><span class="o">&lt;</span><span class="kd">user</span><span class="o">&gt;</span>  <span class="o">-</span> <span class="kd">User</span> <span class="kd">used</span> <span class="k">in</span> <span class="kd">mining</span> <span class="kd">pool</span>. <span class="kd">Example</span>:
+<span class="o">[</span><span class="kd">wallet</span><span class="o">]</span>
+<span class="mh">0x123456789</span><span class="kd">xxxxxxxxxxx</span>.rigName
+<span class="o">[</span><span class="kd">username</span><span class="o">]</span> <span class="kd">miner_test</span>.rigName
+<span class="na">--u</span><span class="m">1</span><span class="o">,</span> <span class="na">--user</span><span class="m">1</span> <span class="o">&lt;</span><span class="kd">user</span><span class="o">&gt;</span> <span class="o">-</span> <span class="kd">Backup</span> <span class="kd">user</span> <span class="m">1</span>.
+<span class="na">--u</span><span class="m">2</span><span class="o">,</span> <span class="na">--user</span><span class="m">2</span> <span class="o">&lt;</span><span class="kd">user</span><span class="o">&gt;</span> <span class="o">-</span> <span class="kd">Backup</span> <span class="kd">user</span> <span class="m">2</span>.
+<span class="na">-p</span><span class="o">,</span> <span class="na">--password </span><span class="o">&lt;</span><span class="kd">password</span><span class="o">&gt;</span> <span class="o">-</span> <span class="kd">Password</span> <span class="kd">used</span> <span class="k">in</span> <span class="kd">mining</span> <span class="kd">pool</span>.
+<span class="na">--p</span><span class="m">1</span><span class="o">,</span> <span class="na">--password</span><span class="m">1</span> <span class="o">&lt;</span><span class="kd">password</span><span class="o">&gt;</span> <span class="o">-</span> <span class="kd">Backup</span> <span class="kd">password</span> <span class="m">1</span><span class="o">,</span>
+<span class="na">--p</span><span class="m">2</span><span class="o">,</span> <span class="na">--password</span><span class="m">2</span> <span class="o">&lt;</span><span class="kd">password</span><span class="o">&gt;</span> <span class="o">-</span> <span class="kd">Backup</span> <span class="kd">password</span> <span class="m">2</span><span class="o">,</span>
+</code></pre></div></div>
+<h3 id="intensity">Intensity</h3>
+<ul>
+<li> <code class="language-plaintext highlighter-rouge">-i</code>, <code class="language-plaintext highlighter-rouge">--intensity &lt;intensities&gt;</code> - Comma-seperated list of intensities [1-100].</li>
+<li> <code class="language-plaintext highlighter-rouge">--mt</code>, <code class="language-plaintext highlighter-rouge">--memory-tweak &lt;mode&gt;</code> - Enable memory tweaking to boost performance. comma-seperated list, range [1,6].</li>
+<li> <code class="language-plaintext highlighter-rouge">--driver &lt;install/uninstall&gt;</code> - Install / Uninstall driver for <code class="language-plaintext highlighter-rouge">--memory-tweak</code>. Run with admin privilege.</li>
+<li> <code class="language-plaintext highlighter-rouge">--gpu-tune</code>, <code class="language-plaintext highlighter-rouge">--gt &lt;value&gt;</code> - GPU tuning value for algo ‘ethash’ on AMD RX &amp; Vega GPUs.</li>
+<li> <code class="language-plaintext highlighter-rouge">--lhr &lt;modes&gt;</code> - Partial unlock hashrate for Nvidia LHR GPUs. [-1, 100]. 0: auto, -1: off. Others: set to 60 means tryiung to reach 60% of nonlocked max hashrate.</li>
+</ul>
+<h3 id="temperatures">Temperatures</h3>
+<div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">--temperature-limit</span><span class="o">,</span> <span class="na">--tl </span><span class="o">&lt;</span><span class="kd">temp</span><span class="na">-limit</span><span class="o">&gt;</span> <span class="o">-</span> <span class="kd">Set</span> <span class="kd">temperature</span> <span class="kd">limit</span> <span class="kd">of</span> <span class="kd">GPU</span><span class="o">,</span> <span class="k">if</span>
+<span class="kd">exceeds</span><span class="o">,</span> <span class="kd">stop</span> <span class="kd">GPU</span>.
+<span class="na">--temperature-start</span><span class="o">,</span> <span class="na">--ts </span><span class="o">&lt;</span><span class="kd">temp</span><span class="na">-start</span><span class="o">&gt;</span> <span class="o">-</span> <span class="kd">Set</span> <span class="kd">cool</span><span class="na">-down </span><span class="kd">temperature</span> <span class="kd">target</span> <span class="k">if</span>
+<span class="kd">GPU</span> <span class="kd">is</span> <span class="kd">stopped</span> <span class="kd">by</span> <span class="sb">`temperature-limit`</span><span class="o">,</span>
+<span class="kd">default</span> <span class="kd">to</span> <span class="o">&lt;</span><span class="kd">temp</span><span class="na">-limit</span><span class="o">&gt;</span> <span class="o">-</span> <span class="m">5</span>.
+</code></pre></div></div>
+<h3 id="options">Options</h3>
+<div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">--log </span><span class="o">-</span> <span class="kd">Generate</span> <span class="kd">log</span> <span class="kd">file</span> <span class="kd">named</span>
+<span class="s1">'log_&lt;timestamp&gt;.txt'</span>.
+<span class="na">--log-file </span><span class="o">&lt;</span><span class="kd">logfile</span><span class="o">&gt;</span> <span class="o">-</span> <span class="kd">Generate</span> <span class="kd">custom</span> <span class="kd">log</span> <span class="kd">file</span>. <span class="kd">Note</span>: <span class="kd">This</span>
+<span class="kd">option</span> <span class="kd">will</span> <span class="kd">override</span> <span class="s1">'--log'</span>.
+<span class="na">--verbose </span><span class="o">-</span> <span class="kd">Print</span> <span class="kd">communication</span> <span class="kd">data</span> <span class="kd">between</span>
+<span class="kd">miner</span> <span class="o">&amp;</span> <span class="kd">pool</span>.
+<span class="na">--long-format </span><span class="o">-</span> <span class="kd">Use</span> <span class="s1">'yyyy-MM-dd HH:mm:ss,zzz'</span> <span class="k">for</span> <span class="kd">log</span>
+<span class="nb">time</span> <span class="nb">format</span>.
+<span class="na">--no-color </span><span class="o">-</span> <span class="kd">Do</span> <span class="ow">not</span> <span class="kd">use</span> <span class="kd">colorful</span> <span class="kd">output</span> <span class="kd">log</span> <span class="k">in</span> <span class="nb">cmd</span>
+<span class="kd">line</span>.
+<span class="na">--no-health </span><span class="o">-</span> <span class="kd">Do</span> <span class="ow">not</span> <span class="nb">query</span> <span class="kd">device</span> <span class="kd">health</span> <span class="kd">status</span>.
+<span class="na">--strict-ssl </span><span class="o">-</span> <span class="kd">Use</span> <span class="kd">strict</span> <span class="kd">SSL</span> <span class="kd">certificate</span> <span class="kd">check</span> <span class="kd">when</span>
+<span class="kd">use</span> <span class="kd">ssl</span> <span class="kd">connections</span>.
+<span class="na">--proxy </span><span class="o">&lt;</span><span class="kd">host</span><span class="nl">:port</span><span class="o">&gt;</span> <span class="o">-</span> <span class="kd">Socks5</span> <span class="kd">proxy</span>.
+<span class="na">--platform </span><span class="o">&lt;</span><span class="kd">platform</span><span class="o">&gt;</span>                   <span class="kd">Choose</span> <span class="kd">platform</span><span class="o">,</span> <span class="m">0</span>: <span class="kd">Both</span> <span class="o">(</span><span class="kd">default</span><span class="o">),</span>
+<span class="m">1</span>: <span class="kd">Nvidia</span> <span class="kd">Only</span><span class="o">,</span> <span class="m">2</span>: <span class="kd">AMD</span> <span class="kd">only</span>.
+
+<span class="na">--device-info                           </span><span class="kd">Print</span> <span class="kd">out</span> <span class="kd">detailed</span> <span class="kd">information</span> <span class="k">for</span>
+<span class="kd">every</span> <span class="kd">device</span>.
+<span class="na">--device-info-json                      </span><span class="kd">Print</span> <span class="kd">out</span> <span class="kd">detailed</span> <span class="kd">information</span> <span class="k">for</span>
+<span class="kd">every</span> <span class="kd">device</span> <span class="k">in</span> <span class="kd">json</span> <span class="nb">format</span>.
+<span class="na">--RUN</span><span class="o">,</span> <span class="na">--no-watchdog                    </span><span class="kd">Disable</span> <span class="kd">watchdog</span> <span class="kd">process</span>.
+<span class="na">--fee </span><span class="o">&lt;</span><span class="kd">fee</span><span class="o">&gt;</span>                             <span class="kd">Change</span> <span class="kd">devfee</span> <span class="k">in</span> <span class="kd">percentage</span><span class="o">,</span> <span class="o">[</span><span class="m">0</span><span class="o">-</span><span class="m">5</span><span class="o">]</span>.
+<span class="kd">Set</span> <span class="kd">to</span> <span class="s1">'0'</span> <span class="kd">to</span> <span class="kd">turn</span> <span class="na">off</span> <span class="kd">devfee</span> <span class="kd">with</span>
+<span class="kd">lower</span> <span class="kd">hashrate</span>. <span class="kd">Otherwise</span><span class="o">,</span> <span class="kd">devfee</span> <span class="o">=</span>
+<span class="kd">max</span><span class="o">(</span><span class="kd">set_value</span><span class="o">,</span> <span class="kd">def_value</span><span class="o">)</span>.
+<span class="na">--reboot-times </span><span class="o">&lt;</span><span class="kd">reboot</span><span class="na">-times</span><span class="o">&gt;</span>           <span class="kd">Passed</span> <span class="kd">by</span> <span class="kd">watchdog</span> <span class="kd">process</span> <span class="kd">to</span> <span class="kd">count</span>
+<span class="kd">the</span> <span class="kd">miner</span> <span class="kd">reboot</span> <span class="kd">times</span>.
+<span class="na">--enable-dag-cache                      </span><span class="kd">Set</span> <span class="kd">this</span> <span class="kd">option</span> <span class="kd">to</span> <span class="kd">enable</span> <span class="kd">an</span> <span class="kd">extra</span>
+<span class="kd">dag</span> <span class="kd">cache</span> <span class="kd">when</span> <span class="kd">mining</span> <span class="sb">`ethash`</span> <span class="kd">algo</span><span class="o">,</span>
+<span class="kd">which</span> <span class="kd">is</span> <span class="kd">useful</span> <span class="k">for</span> <span class="kd">mining</span> <span class="kd">ZIL</span><span class="na">+ETH </span><span class="kd">or</span>
+<span class="kd">mining</span> <span class="na">on</span> <span class="kd">NiceHash</span>.
+<span class="na">--cuckoo-intensity </span><span class="o">&lt;</span><span class="kd">intensity</span><span class="o">&gt;</span>          <span class="kd">Set</span> <span class="kd">intensity</span> <span class="kd">of</span> <span class="kd">cuckoo</span><span class="o">,</span> <span class="kd">cuckaroo</span><span class="o">,</span>
+<span class="kd">cuckatoo</span><span class="o">,</span> <span class="o">[</span><span class="m">1</span><span class="o">,</span> <span class="m">12</span><span class="o">]</span>. <span class="kd">Set</span> <span class="kd">to</span> <span class="m">0</span> <span class="kd">means</span>
+<span class="kd">autumatically</span> <span class="kd">adapt</span>. <span class="kd">Default</span>: <span class="m">4</span>.
+<span class="na">--cuckatoo-power-optimize               </span><span class="kd">Set</span> <span class="kd">this</span> <span class="kd">option</span> <span class="kd">to</span> <span class="kd">reduce</span> <span class="kd">the</span> <span class="kd">range</span>
+<span class="kd">of</span> <span class="kd">power</span> <span class="kd">consumed</span> <span class="kd">by</span> <span class="kd">rig</span> <span class="kd">when</span> <span class="kd">minining</span>
+<span class="kd">with</span> <span class="kd">algo</span> <span class="kd">cuckatoo</span>.
+<span class="kd">Warning</span>: <span class="kd">Setting</span> <span class="kd">this</span> <span class="kd">option</span> <span class="kd">may</span> <span class="kd">cause</span>
+<span class="kd">drop</span> <span class="na">on</span> <span class="kd">minining</span> <span class="kd">performance</span>.
+<span class="na">--share-check </span><span class="o">&lt;</span><span class="kd">value</span><span class="o">&gt;</span>                   <span class="kd">If</span> <span class="o">&lt;</span><span class="kd">value</span><span class="o">&gt;</span> <span class="kd">minutes</span> <span class="kd">without</span> <span class="nb">share</span><span class="o">,</span>
+<span class="kd">reboot</span> <span class="kd">miner</span><span class="o">,</span> <span class="kd">set</span> <span class="m">0</span> <span class="kd">to</span> <span class="na">disable</span>.
+<span class="kd">Default</span>: <span class="m">30</span>
+<span class="na">--no-interrupt                          </span><span class="kd">Set</span> <span class="kd">this</span> <span class="kd">option</span> <span class="kd">will</span> <span class="na">disable</span> <span class="kd">miner</span>
+<span class="kd">interrupting</span> <span class="kd">current</span> <span class="kd">GPU</span> <span class="kd">jobs</span> <span class="kd">when</span> <span class="kd">a</span>
+<span class="kd">new</span> <span class="kd">job</span> <span class="kd">coming</span> <span class="kd">from</span> <span class="kd">pool</span><span class="o">,</span> <span class="kd">good</span> <span class="k">for</span>
+<span class="kd">power</span> <span class="kd">supply</span><span class="o">,</span> <span class="kd">but</span> <span class="kd">will</span> <span class="kd">cause</span> <span class="kd">higher</span>
+<span class="kd">stale</span> <span class="kd">ratio</span> <span class="kd">and</span> <span class="kd">reject</span> <span class="kd">shares</span>.
+<span class="na">--enable-igpu                           </span><span class="kd">Set</span> <span class="kd">to</span> <span class="kd">enable</span> <span class="kd">AMD</span> <span class="kd">iGPU</span>.
+</code></pre></div></div>
 <h2 id="versions">Versions</h2>
 <p>39.1</p>
 <ul>
