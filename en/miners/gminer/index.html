@@ -19,8 +19,8 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://miningsoft.org/assets/images/site-logo.png">
 <meta property="article:published_time" content="2021-03-20T00:00:00+00:00">
-<meta property="article:modified_time" content="2021-08-26T00:00:00+00:00">
-<link rel="canonical" href="https://miningsoft.org/en/miners/gminer/"> <script type="application/ld+json"> { "@context": "https://schema.org", "@type": "Article", "headline": "Gminer 2.66&#58; Download, Setup for ETH, Github, Binance", "image": "", "author": { "@type": "Person", "name": "Matthew Wood", "url": "https://miningsoft.org/en/about", "sameAs": "https://www.facebook.com/ltcbtc" }, "publisher": { "@type": "Organization", "name": "MiningSoft", "logo": { "@type": "ImageObject", "url": "https://miningsoft.org/assets/images/logo2.png" } }, "dateModified": "2021-08-26T00:00:00+00:00" } </script><meta name="google-site-verification" content="lzkzzEBSl4ZcrOj5sxD0Ao0R1sXdFSczY9bQcLVWHMY">
+<meta property="article:modified_time" content="2021-08-28T00:00:00+00:00">
+<link rel="canonical" href="https://miningsoft.org/en/miners/gminer/"> <script type="application/ld+json"> { "@context": "https://schema.org", "@type": "Article", "headline": "Gminer 2.66&#58; Download, Setup for ETH, Github, Binance", "image": "", "author": { "@type": "Person", "name": "Matthew Wood", "url": "https://miningsoft.org/en/about", "sameAs": "https://www.facebook.com/ltcbtc" }, "publisher": { "@type": "Organization", "name": "MiningSoft", "logo": { "@type": "ImageObject", "url": "https://miningsoft.org/assets/images/logo2.png" } }, "dateModified": "2021-08-28T00:00:00+00:00" } </script><meta name="google-site-verification" content="lzkzzEBSl4ZcrOj5sxD0Ao0R1sXdFSczY9bQcLVWHMY">
 <meta name="yandex-verification" content="da0cda22b6e4f5d0"> <!-- end _includes/seo.html --><meta name="description" content="Everything about Gminer: Set up for ETH, Binance pool and more. This article describes how to get started mining with Gminer 2.66 and newer.">
 <meta name="author" content="Matthew Wood">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="MiningSoft Feed">
@@ -77,15 +77,15 @@
 <article class="page" itemscope itemtype="https://schema.org/CreativeWork"><meta itemprop="headline" content="Gminer 2.66: Download, Setup for ETH, Github, Binance">
 <meta itemprop="description" content=" Everything about Gminer: Set up for ETH, Binance pool and more. This article describes how to get started mining with Gminer 2.66 and newer.">
 <meta itemprop="datePublished" content="March 20, 2021">
-<meta itemprop="dateModified" content="August 26, 2021">
+<meta itemprop="dateModified" content="August 28, 2021">
 <div class="page__inner-wrap">
 <header><h1 id="page-title" class="page__title" itemprop="headline">Gminer: Download, Setup and Commands</h1>
 <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 2 minute read</p></header><section class="page__content" itemprop="text"><aside class="sidebar__right sticky"><nav class="toc"><header><h4 class="nav__title"> <i class="fas fa-file-alt"></i> Contents</h4></header><ul class="toc__menu">
 <li><a href="#download-for-windows--linux">Download for Windows / Linux</a></li>
-<li><a href="#">Step 1 - Download the miner</a></li>
-<li><a href="#">Step 2 - Configure the bat file</a></li>
-<li><a href="#">Step 3 - Run the miner</a></li>
-<li><a href="#">Video Guide</a></li>
+<li><a href="#Step%201%20-%20Download%20the%20miner">Step 1 - Download the miner</a></li>
+<li><a href="#Step%202%20-%20Configure%20the%20bat%20file">Step 2 - Configure the bat file</a></li>
+<li><a href="#Step%203%20-%20Run%20the%20miner">Step 3 - Run the miner</a></li>
+<li><a href="#Video%20Guide">Video Guide</a></li>
 <li> <a href="#setup-for-ethereum">Setup for Ethereum</a><ul>
 <li><a href="#config-for-nicehash">Config for NiceHash</a></li>
 <li><a href="#commands">Commands</a></li>
@@ -102,30 +102,30 @@
 <div class="panel panel-default" id="step1" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
 <link itemprop="url" href="#step1">
 <meta itemprop="image" content="/assets/images/og.png">
-<h2 class="panel-title">Step 1 - Download the miner</h2>
+<h2 class="panel-title" id="Step 1 - Download the miner">Step 1 - Download the miner</h2>
 <meta itemprop="name" content="Download the miner">
 <div class="panel-body" itemprop="text"><p>Choose your release to download: the <a href="https://github.com/develsoftware/GMinerRelease/releases" rel="nofollow noopener" target="_blank">official GitHub</a> repository or use the <a href="https://bitcointalk.org/index.php?topic=5034735.0" rel="nofollow noopener" target="_blank">BitcoinTalk forum</a>.</p></div>
 </div>
 <div class="panel panel-default" id="step2" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
-<link itemprop="url" href="/buy/eth/#step2">
+<link itemprop="url" href="#step2">
 <meta itemprop="image" content="/assets/images/og.png">
-<h2 class="panel-title">Step 2 - Configure the bat file</h2>
+<h2 class="panel-title" id="Step 2 - Configure the bat file">Step 2 - Configure the bat file</h2>
 <meta itemprop="name" content="Configure the bat file">
 <div class="panel-body" itemprop="text"><div>Using the binance pool example, the ,bat file will look like this:<div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">miner</span><span class="err">.exe</span> <span class="na">--algo </span><span class="kd">ethash</span> <span class="na">--server </span><span class="kd">ethash</span>.poolbinance.com:8888 <span class="na">--user </span><span class="kd">username1</span>
 </code></pre></div></div>
 </div></div>
 </div>
 <div class="panel panel-default" id="step3" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
-<link itemprop="url" href="/buy/eth/#step3">
+<link itemprop="url" href="#step3">
 <meta itemprop="image" content="/assets/images/og.jpg">
-<h2 class="panel-title">Step 3 - Run the miner</h2>
+<h2 class="panel-title" id="Step 3 - Run the miner">Step 3 - Run the miner</h2>
 <meta itemprop="name" content="Run the miner">
 <div class="panel-body" itemprop="text"><p> Now save this file with the extension <code>.bat</code> and double-click it to run it.</p></div>
 </div>
 <div class="panel panel-default" id="videoguide" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
-<link itemprop="url" href="/buy/eth/#videoguide">
+<link itemprop="url" href="#videoguide">
 <meta itemprop="image" content="/assets/images/og.png">
-<h2 class="panel-title" itemprop="name">Video Guide</h2>
+<h2 class="panel-title" itemprop="name" id="Video Guide">Video Guide</h2>
 <div class="panel-body">
 <meta itemprop="text" content="Mining Guide Updated For 2021 - Kawpow Mining Algo">
 <div class="youtubevideowrap" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
@@ -265,7 +265,7 @@
 <ul><li><a href="/en/miners/cpuminer/">cpuminer</a></li></ul>
 <p>Flash bios program:</p>
 <ul><li><a href="/en/miners/srbpolaris/">srbpolaris</a></li></ul></section><footer class="page__meta"><p class="page__taxonomy"> <i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: <span itemprop="keywords"> <a href="/en/miners" class="page__taxonomy-item" rel="tag">miners</a> </span></p>
-<p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2021-08-26T00:00:00+00:00">26.08.2021</time></p></footer>
+<p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2021-08-28T00:00:00+00:00">28.08.2021</time></p></footer>
 </div></article>
 </div>
 <!-- download --><div class="mar"> <!--<section class="so-down"><div class="so-title whitez1"><a id="download">Getting Started With Ethereum Mining</a></div><div class="so-download"><div class="so-flex"><div class="so-ver"> Latest version is 5.5c<br> File: *<code></code>, SHA256: 599393e258d8ba7b8f8633e20c651868258827d3a43a4d0712125bc487eabf92<br> <span class="nev2">(<a href="https://bit.ly/3bujasD">Download for Linux</a>)</span></div><div class="so-get"> <span class="so-password">Password: phoenix</span><div class="so-button down"><i class="far fa-arrow-alt-circle-down"></i> <a href="https://cutt.ly/NzVAJor" target="_blank">Download Now (Windows x64)</a></div><span class="so-mirror">(<a href="https://bit.ly/2MeIrhX" target="_blank" rel="nofollow">mirror</a>)</span></div></div></div></section>-->
