@@ -294,32 +294,32 @@
 <p>См .: <a href="http://www.remnabor.net/google-chrome-blokiruet-zagruzku-fajlov" rel="nofollow noopener" target="_blank">Как запретить Chrome блокировать загрузки</a></p>
 <p><a href="/assets/images/mining/mining_rig_1902.jpg" class="image-popup"> <img src="/assets/images/mining/mining_rig_1902.jpg" alt="майнинг ферма" loading="lazy" decoding="async"> </a></p>
 <h2 id="версии">Версии</h2>
-<p><a href="https://github.com/spark-pool/PhoenixMiner/releases/download/5.8c/PhoenixMiner_5.8c_Windows.zip" rel="nofollow noopener" target="_blank">5.8c</a></p>
+<p><a href="https://cutt.ly/QR0ldK0" rel="nofollow noopener" target="_blank">5.8c</a></p>
 <ul>
-<li>Fixed a crash on Linux when mining on RDNA2 AMD cards (RX6x00) with older drivers</li>
-<li>Removed error messages when mining on fanless Nvidia cards</li>
+<li>Исправлен сбой в Linux при майнинге на картах AMD RDNA2 (RX6x00) со старыми драйверами.</li>
+<li>Убраны сообщения об ошибках при майнинге на безвентиляторных картах Nvidia.</li>
 </ul>
-<p><a href="https://github.com/spark-pool/PhoenixMiner/releases/download/5.8b/PhoenixMiner_5.8b_Windows.zip" rel="nofollow noopener" target="_blank">5.8b</a></p>
+<p><a href="https://cutt.ly/TR0lscl" rel="nofollow noopener" target="_blank">5.8b</a></p>
 <ul>
-<li>Implemented optimized kernels for AMD RX6600XT cards;</li>
-<li>Added support for the latest AMD Windows drivers (21.10.2, 21.10.1, 21.9.2, and 21.9.1). Note that any AMD cards older than Polaris (RX470/480/570/580/590) won’t work with the latest AMD drivers;</li>
-<li>Added support for the latest AMD Linux drivers 21.30;</li>
-<li>The latest AMD drivers (21.9.1 and later for Windows, and 21.30 and later for Linux) dropped support for the older kernels, so we changed the kernels for AMD Polaris cards to support these new drivers. There is a very small speed improvement (less than 0.1% on average) with the new kernels and the new drivers on Polaris cards;</li>
-<li>Other fixes and small improvements.</li>
+<li>Реализованы оптимизированные ядра для карт AMD RX6600XT;</li>
+<li>Добавлена ​​поддержка последних версий драйверов AMD для Windows (21.10.2, 21.10.1, 21.9.2 и 21.9.1). Обратите внимание, что любые карты AMD старше Polaris (RX470 / 480/570/580/590) не будут работать с последними драйверами AMD;</li>
+<li>Добавлена ​​поддержка последних версий драйверов AMD Linux 21.30;</li>
+<li>Последние драйверы AMD (21.9.1 и новее для Windows и 21.30 и новее для Linux) отказались от поддержки старых ядер, поэтому мы изменили ядра для карт AMD Polaris для поддержки этих новых драйверов. С новыми ядрами и новыми драйверами на картах Polaris наблюдается очень небольшое улучшение скорости (в среднем менее 0,1%);</li>
+<li>Прочие исправления и небольшие улучшения.</li>
 </ul>
-<p><a href="https://github.com/spark-pool/PhoenixMiner/releases/download/5.7b/PhoenixMiner_5.7b_Windows.zip" rel="nofollow noopener" target="_blank">5.7b</a></p>
+<p><a href="https://cutt.ly/PR0luvu" rel="nofollow noopener" target="_blank">5.7b</a></p>
 <ul>
-<li>Implemented new “turbo” kernels (-clkernel 3) for AMD Polaris cards that can work with the current DAG sizes over 4 GB. Note that -clkernel 3 uses double the VRAM and will provide slightly faster hashrate with slightly higher power consumption. You can use the -rvram command-line parameter to specify how much VRAM to be left unused;</li>
-<li>Increased the maximum supported DAG epoch to 600 (i.e. until about Sep 2023);</li>
-<li>Implemented full hardware control for AMD RX6900/6800/6700 cards under Linux. Note that with these cards under Linux you need to specify relative core voltage: e.g. -cclock -50 will set the core voltage to be 50 mV under the default value;</li>
-<li>Added ROCr kernels for Vega, Radeon VII and Navi cards. With these kernels you will be able to run these cards with Linux drivers 20.45 and later but the performance will be lower than with the older PAL drivers and kernels. We recommend using AMD Linux driver 20.30 for all cards except RX6900/6800/6700;</li>
-<li>Fixed an issue causing crashing with some RX6900/6800/6700 cards under Linux (there is no need to run these cards with -clkernel 0 anymore);</li>
-<li>Added support for AMD Windows drivers up to 21.7.2. Note that Radeon VII cards will not work with drivers 21.6.1 or higher - you need to use older drivers for proper operation of these cards;</li>
-<li>Added support for AMD Linux drivers up to 21.20 (use older drivers for Vega or Radeon VII cards as they will not work with 21.20)</li>
-<li>Numerous other fixes and small improvements.</li>
+<li>Реализованы новые «турбо» ядра (-clkernel 3) для карт AMD Polaris, которые могут работать с текущими размерами DAG более 4 ГБ. Обратите внимание, что -clkernel 3 использует вдвое больше VRAM и обеспечивает немного более высокую скорость хеширования при немного более высоком энергопотреблении. Вы можете использовать параметр командной строки -rvram, чтобы указать, какой объем VRAM следует оставить неиспользованным;</li>
+<li>Увеличена максимальная поддерживаемая эпоха DAG до 600 (т.е. примерно до сентября 2023 г.);</li>
+<li>Реализован полный аппаратный контроль для карт AMD RX6900 / 6800/6700 под Linux. Обратите внимание, что для этих карт под Linux вам необходимо указать относительное напряжение ядра: например, -cclock -50 установит напряжение ядра на 50 мВ ниже значения по умолчанию;</li>
+<li>Добавлены ядра ROCr для карт Vega, Radeon VII и Navi. С этими ядрами вы сможете запускать эти карты с драйверами Linux версии 20.45 и новее, но производительность будет ниже, чем со старыми драйверами и ядрами PAL. Мы рекомендуем использовать драйвер AMD Linux 20.30 для всех карт, кроме RX6900 / 6800/6700;</li>
+<li>Исправлена ​​проблема, приводившая к сбою с некоторыми картами RX6900 / 6800/6700 под Linux (больше нет необходимости запускать эти карты с -clkernel 0);</li>
+<li>Добавлена ​​поддержка драйверов AMD для Windows до 21.7.2. Обратите внимание, что карты Radeon VII не будут работать с драйверами 21.6.1 и выше - для правильной работы этих карт необходимо использовать более старые драйверы;</li>
+<li>Добавлена ​​поддержка драйверов AMD Linux до 21.20 (используйте старые драйверы для карт Vega или Radeon VII, так как они не будут работать с 21.20)</li>
+<li>Множество других исправлений и небольших улучшений.</li>
 </ul>
-<p><a href="https://github.com/spark-pool/PhoenixMiner/releases/download/5.6d/PhoenixMiner_5.6d_Windows.zip" rel="nofollow noopener" target="_blank">5.6d</a></p>
-<ul><li>Fixed problem with displaying GPU temperatures of some Nvidia GPUs.</li></ul></section><footer class="page__meta"><p class="page__taxonomy"> <i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Разделы: <span itemprop="keywords"> <a href="/ru/miners" class="page__taxonomy-item" rel="tag">miners</a> </span></p>
+<p><a href="https://cutt.ly/AR0lteJ" rel="nofollow noopener" target="_blank">5.6d</a></p>
+<ul><li>Исправлена ​​проблема с отображением температуры графического процессора некоторых графических процессоров Nvidia.</li></ul></section><footer class="page__meta"><p class="page__taxonomy"> <i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Разделы: <span itemprop="keywords"> <a href="/ru/miners" class="page__taxonomy-item" rel="tag">miners</a> </span></p>
 <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Дата изменения: <time datetime="2021-11-02T00:00:00+00:00">02.11.2021</time></p></footer>
 </div></article>
 </div>
