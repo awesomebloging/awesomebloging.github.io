@@ -19,8 +19,8 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://miningsoft.org/assets/images/site-logo.png">
 <meta property="article:published_time" content="2021-06-11T00:00:00+00:00">
-<meta property="article:modified_time" content="2021-11-02T00:00:00+00:00">
-<link rel="canonical" href="https://miningsoft.org/en/miners/phoenixminer/"> <script type="application/ld+json"> { "@context": "https://schema.org", "@type": "Article", "headline": "PhoenixMiner 5.8c&#58; Download, Setup for ETH, Commands", "image": "", "author": { "@type": "Person", "name": "Matthew Wood", "url": "https://miningsoft.org/en/about", "sameAs": "https://www.facebook.com/ltcbtc" }, "publisher": { "@type": "Organization", "name": "MiningSoft", "logo": { "@type": "ImageObject", "url": "https://miningsoft.org/assets/images/logo2.png" } }, "dateModified": "2021-11-02T00:00:00+00:00" } </script><meta name="google-site-verification" content="lzkzzEBSl4ZcrOj5sxD0Ao0R1sXdFSczY9bQcLVWHMY">
+<meta property="article:modified_time" content="2021-11-03T00:00:00+00:00">
+<link rel="canonical" href="https://miningsoft.org/en/miners/phoenixminer/"> <script type="application/ld+json"> { "@context": "https://schema.org", "@type": "Article", "headline": "PhoenixMiner 5.8c&#58; Download, Setup for ETH, Commands", "image": "", "author": { "@type": "Person", "name": "Matthew Wood", "url": "https://miningsoft.org/en/about", "sameAs": "https://www.facebook.com/ltcbtc" }, "publisher": { "@type": "Organization", "name": "MiningSoft", "logo": { "@type": "ImageObject", "url": "https://miningsoft.org/assets/images/logo2.png" } }, "dateModified": "2021-11-03T00:00:00+00:00" } </script><meta name="google-site-verification" content="lzkzzEBSl4ZcrOj5sxD0Ao0R1sXdFSczY9bQcLVWHMY">
 <meta name="yandex-verification" content="da0cda22b6e4f5d0"> <!-- end _includes/seo.html --><meta name="description" content="PhoenixMiner: Setting for Binance Pool, Commission, Comparison with TeamRedMiner. In this guide, you will learn how to configure and use Phoenix Miner version 5.8c and later for Ethereum mining">
 <meta name="author" content="Matthew Wood">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="MiningSoft Feed">
@@ -77,7 +77,7 @@
 <article class="page" itemscope itemtype="https://schema.org/CreativeWork"><meta itemprop="headline" content="PhoenixMiner 5.8c: Download, Setup for ETH, Commands">
 <meta itemprop="description" content=" PhoenixMiner: Setting for Binance Pool, Commission, Comparison with TeamRedMiner. In this guide, you will learn how to configure and use Phoenix Miner version 5.8c and later for Ethereum mining">
 <meta itemprop="datePublished" content="June 11, 2021">
-<meta itemprop="dateModified" content="November 02, 2021">
+<meta itemprop="dateModified" content="November 03, 2021">
 <div class="page__inner-wrap">
 <header><h1 id="page-title" class="page__title" itemprop="headline">Phoenix Miner 5.8c: Download, Setup and Commands (Guide)</h1>
 <p class="page__meta hide"><i class="far fa-clock" aria-hidden="true"></i> 6 minute read</p></header><section class="page__content" itemprop="text"><aside class="sidebar__right sticky"><nav class="toc"><header><h4 class="nav__title"> <i class="fas fa-file-alt"></i> Contents</h4></header><ul class="toc__menu">
@@ -295,12 +295,12 @@
 <p>See: <a href="https://tencomputer.com/how-to-stop-chrome-from-blocking-downloads/" rel="nofollow noopener" target="_blank">How to Stop Chrome from Blocking Downloads</a></p>
 <p><a href="/assets/images/mining/mining_rig_1902.jpg" class="image-popup"> <img src="/assets/images/mining/mining_rig_1902.jpg" alt="mining rig" loading="lazy" decoding="async"> </a></p>
 <h2 id="changelog">Changelog</h2>
-<p><a href="https://cutt.ly/QR0ldK0" rel="nofollow noopener" target="_blank">5.8c</a></p>
+<p><a href="https://cutt.ly/7R94JC9" rel="nofollow noopener" target="_blank">5.8c</a></p>
 <ul>
 <li>Fixed a crash on Linux when mining on RDNA2 AMD cards (RX6x00) with older drivers</li>
 <li>Removed error messages when mining on fanless Nvidia cards</li>
 </ul>
-<p><a href="https://cutt.ly/TR0lscl" rel="nofollow noopener" target="_blank">5.8b</a></p>
+<p><a href="https://cutt.ly/RR97rF7" rel="nofollow noopener" target="_blank">5.8b</a></p>
 <ul>
 <li>Implemented optimized kernels for AMD RX6600XT cards;</li>
 <li>Added support for the latest AMD Windows drivers (21.10.2, 21.10.1, 21.9.2, and 21.9.1). Note that any AMD cards older than Polaris (RX470/480/570/580/590) won’t work with the latest AMD drivers;</li>
@@ -308,7 +308,7 @@
 <li>The latest AMD drivers (21.9.1 and later for Windows, and 21.30 and later for Linux) dropped support for the older kernels, so we changed the kernels for AMD Polaris cards to support these new drivers. There is a very small speed improvement (less than 0.1% on average) with the new kernels and the new drivers on Polaris cards;</li>
 <li>Other fixes and small improvements.</li>
 </ul>
-<p><a href="https://cutt.ly/PR0luvu" rel="nofollow noopener" target="_blank">5.7b</a></p>
+<p><a href="https://cutt.ly/AR97keI" rel="nofollow noopener" target="_blank">5.7b</a></p>
 <ul>
 <li>Implemented new “turbo” kernels (-clkernel 3) for AMD Polaris cards that can work with the current DAG sizes over 4 GB. Note that -clkernel 3 uses double the VRAM and will provide slightly faster hashrate with slightly higher power consumption. You can use the -rvram command-line parameter to specify how much VRAM to be left unused;</li>
 <li>Increased the maximum supported DAG epoch to 600 (i.e. until about Sep 2023);</li>
@@ -319,9 +319,9 @@
 <li>Added support for AMD Linux drivers up to 21.20 (use older drivers for Vega or Radeon VII cards as they will not work with 21.20)</li>
 <li>Numerous other fixes and small improvements.</li>
 </ul>
-<p><a href="https://cutt.ly/AR0lteJ" rel="nofollow noopener" target="_blank">5.6d</a></p>
+<p><a href="https://cutt.ly/5R97fnu" rel="nofollow noopener" target="_blank">5.6d</a></p>
 <ul><li>Fixed problem with displaying GPU temperatures of some Nvidia GPUs.</li></ul></section><footer class="page__meta"><p class="page__taxonomy"> <i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: <span itemprop="keywords"> <a href="/en/miners" class="page__taxonomy-item" rel="tag">miners</a> </span></p>
-<p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2021-11-02T00:00:00+00:00">02.11.2021</time></p></footer>
+<p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2021-11-03T00:00:00+00:00">03.11.2021</time></p></footer>
 </div></article>
 </div>
 <!-- download --><div class="mar"> <!--<section class="so-down"><div class="so-title whitez1"><a id="download">Getting Started With Ethereum Mining</a></div><div class="so-download"><div class="so-flex"><div class="so-ver"> Latest version is 5.5c<br> File: *<code></code>, SHA256: 599393e258d8ba7b8f8633e20c651868258827d3a43a4d0712125bc487eabf92<br> <span class="nev2">(<a href="https://bit.ly/3bujasD">Download for Linux</a>)</span></div><div class="so-get"> <span class="so-password">Password: phoenix</span><div class="so-button down"><i class="far fa-arrow-alt-circle-down"></i> <a href="https://cutt.ly/NzVAJor" target="_blank">Download Now (Windows x64)</a></div><span class="so-mirror">(<a href="https://bit.ly/2MeIrhX" target="_blank" rel="nofollow">mirror</a>)</span></div></div></div></section>-->
