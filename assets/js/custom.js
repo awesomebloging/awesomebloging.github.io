@@ -1,5 +1,5 @@
 if ($(window).width() >= 1210) {
-      $('body').prepend("<a name='top' />");
+      $('body').prepend("<a name='top' class='top2' />");
       $('body').append("<div id='go-top'><div id='go-top-text'></div></div>")
       $(window).scroll(function(){
         if ($(document).scrollTop() > 200) {
