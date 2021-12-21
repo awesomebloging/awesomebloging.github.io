@@ -19,8 +19,8 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://miningsoft.org/assets/images/site-logo.png">
 <meta property="article:published_time" content="2021-04-02T00:00:00+00:00">
-<meta property="article:modified_time" content="2021-12-10T00:00:00+00:00">
-<link rel="canonical" href="https://miningsoft.org/en/miners/trexminer/"> <script type="application/ld+json"> { "@context": "https://schema.org", "@type": "Article", "headline": "T-Rex 0.24.8&#58; Download, Setting for ETH & Binance Pool [2021]", "image": "", "author": { "@type": "Person", "name": "Matthew Wood", "url": "https://miningsoft.org/en/about", "sameAs": "https://www.facebook.com/ltcbtc" }, "publisher": { "@type": "Organization", "name": "MiningSoft", "logo": { "@type": "ImageObject", "url": "https://miningsoft.org/assets/images/logo2.png" } }, "dateModified": "2021-12-10T00:00:00+00:00" } </script><meta name="google-site-verification" content="lzkzzEBSl4ZcrOj5sxD0Ao0R1sXdFSczY9bQcLVWHMY">
+<meta property="article:modified_time" content="2021-12-21T00:00:00+00:00">
+<link rel="canonical" href="https://miningsoft.org/en/miners/trexminer/"> <script type="application/ld+json"> { "@context": "https://schema.org", "@type": "Article", "headline": "T-Rex 0.24.8&#58; Download, Setting for ETH & Binance Pool [2021]", "image": "", "author": { "@type": "Person", "name": "Matthew Wood", "url": "https://miningsoft.org/en/about", "sameAs": "https://www.facebook.com/ltcbtc" }, "publisher": { "@type": "Organization", "name": "MiningSoft", "logo": { "@type": "ImageObject", "url": "https://miningsoft.org/assets/images/logo2.png" } }, "dateModified": "2021-12-21T00:00:00+00:00" } </script><meta name="google-site-verification" content="lzkzzEBSl4ZcrOj5sxD0Ao0R1sXdFSczY9bQcLVWHMY">
 <meta name="yandex-verification" content="da0cda22b6e4f5d0"> <!-- end _includes/seo.html --><meta name="description" content="T-Rex: Setting for Binance Pool, Fee, Comparison with Phoenix. In this guide, you will learn how to set up and use the latest version (0.24.8) of T-Rex to mine Ethereum and other cryptocurrencies.">
 <meta name="author" content="Matthew Wood">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="MiningSoft Feed">
@@ -77,10 +77,10 @@
 <article class="page" itemscope itemtype="https://schema.org/CreativeWork"><meta itemprop="headline" content="T-Rex 0.24.8: Download, Setting for ETH &amp; Binance Pool [2021]">
 <meta itemprop="description" content=" T-Rex: Setting for Binance Pool, Fee, Comparison with Phoenix. In this guide, you will learn how to set up and use the latest version (0.24.8) of T-Rex to mine Ethereum and other cryptocurrencies.">
 <meta itemprop="datePublished" content="April 02, 2021">
-<meta itemprop="dateModified" content="December 10, 2021">
+<meta itemprop="dateModified" content="December 21, 2021">
 <div class="page__inner-wrap">
 <header><h1 id="page-title" class="page__title" itemprop="headline">TRex Miner 0.24.8: Download, Setting for ETH &amp; Binance Pool</h1>
-<p class="page__meta hide"><i class="far fa-clock" aria-hidden="true"></i> 8 minute read</p></header><section class="page__content" itemprop="text"><aside class="sidebar__right sticky"><nav class="toc"><header><h4 class="nav__title"> <i class="fas fa-file-alt"></i> Contents</h4></header><ul class="toc__menu">
+<p class="page__meta hide"><i class="far fa-clock" aria-hidden="true"></i> 11 minute read</p></header><section class="page__content" itemprop="text"><aside class="sidebar__right sticky"><nav class="toc"><header><h4 class="nav__title"> <i class="fas fa-file-alt"></i> Contents</h4></header><ul class="toc__menu">
 <li><a href="#download-for-windows--linux">Download for Windows / Linux</a></li>
 <li><a href="#review">Review</a></li>
 <li><a href="#Step%201%20-%20Download%20the%20miner&lt;">Step 1 - Download the miner</a></li>
@@ -94,7 +94,15 @@
 <li><a href="#Phoenix%20Miner%20VS%20T%20Rex%20-%20%D0%9A%D0%B0%D0%BA%D0%BE%D0%B9%20%D0%BC%D0%B0%D0%B9%D0%BD%D0%B5%D1%80%20ETHEREUM%20%D0%B4%D0%B0%D0%B5%D1%82%20%D0%BB%D1%83%D1%87%D1%88%D1%83%D1%8E%20%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D1%83?">Phoenix Miner VS T Rex - Which ETHEREUM miner gives the best stats?</a></li>
 <li><a href="#algorithms">Algorithms</a></li>
 <li><a href="#commands">Commands</a></li>
+<li><a href="#log-file">Log File</a></li>
+<li><a href="#intensity-mt">Intensity (–mt)</a></li>
+<li><a href="#how-to-set-up-lhr-unlock">How to set up LHR unlock</a></li>
 <li><a href="#alternatives">Alternatives</a></li>
+<li> <a href="#troubleshooting">Troubleshooting</a><ul>
+<li><a href="#gpu-idle">GPU idle</a></li>
+<li><a href="#api-read-only-mode">API read only mode</a></li>
+</ul>
+</li>
 <li><a href="#versions">Versions</a></li>
 </ul></nav></aside><div id="paper" class="nvidia"><div id="pattern"><div id="note-cont"> T-Rex: Setting for Binance Pool, Fee, Comparison with Phoenix.</div></div></div>
 <p><em>In this guide, you will learn how to set up and use the latest version (0.24.8) of T-Rex to mine Ethereum and other cryptocurrencies.</em></p>
@@ -285,6 +293,58 @@ goto start</pre>
 <p><code class="language-plaintext highlighter-rouge">-c, --config \&lt;config file path&gt;</code> - Use config in JSON format instead of batch file (CMD file).</p>
 <p>To launch T-Rex from the config.txt configuration file, enter in the console: <code class="language-plaintext highlighter-rouge">t-rex -c config.txt</code></p>
 <p>Use the file <code class="language-plaintext highlighter-rouge">config_example</code> as a starting point to create your own configuration.</p>
+<h2 id="log-file">Log File</h2>
+<p>To start saving logs for T-Rex, add the parameter <code class="language-plaintext highlighter-rouge">--log-path trex.txt</code> to your mining configuration.</p>
+<p><code class="language-plaintext highlighter-rouge">-l</code>, <code class="language-plaintext highlighter-rouge">--log-path</code> - Full path of the log file.</p>
+<p><code class="language-plaintext highlighter-rouge">--log-path c:\trex.log</code> or wherever you want it really depend where you want it to be save you can create a folder then type in the full location.</p>
+<h2 id="intensity-mt">Intensity (–mt)</h2>
+<p>Memory tweak mode. Range from 0 to 6. General recommendation is to start with 1, and then increase only if the GPU is stable.</p>
+<p>Ddefault value: 0 - disabled.</p>
+<p>The effect is similar to that of <a href="/en/tools/ohgodanethlargementpill/">ETHlargementPill</a>. Supported on Pascal GPUs with GDDR5 or GDDR5X memory only. Requires running the miner with administrative privileges. Can be set to a comma separated list to apply different values to different cards.</p>
+<p>Example:</p>
+<p><code class="language-plaintext highlighter-rouge">--mt 4</code> (applies tweak mode #4 to all cards that support this functionality) .</p>
+<p><code class="language-plaintext highlighter-rouge">--mt 3,3,3,0</code> (applies tweak mode #3 to all cards except the last one).</p>
+<h2 id="how-to-set-up-lhr-unlock">How to set up LHR unlock</h2>
+<p>The software supports LHR unlocking. Follow these steps to enable LHR unlock:</p>
+<ol>
+<li>Open bat file (or command line in HiveOs).</li>
+<li>Select the device to which you want to apply LHR unlock.</li>
+<li>Enter <code class="language-plaintext highlighter-rouge">--lhr-tune 68</code> or any other supported value in the text box.</li>
+<li>Save your changes.</li>
+<li>Close the settings window.</li>
+<li>Repeat the process for other devices.</li>
+</ol>
+<p>Available commands to unlock LHR:</p>
+<p><code class="language-plaintext highlighter-rouge">--lhr-algo</code> - Specify the second algorithm to use in LHR unlock dual mining mode.</p>
+<p><code class="language-plaintext highlighter-rouge">--lhr-coin</code> - Set coin name for <code class="language-plaintext highlighter-rouge">--lhr-algo</code>.</p>
+<div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">--lhr-tune  </span><span class="o">[</span><span class="kd">Ethash</span><span class="o">,</span> <span class="kd">Autolykos2</span><span class="o">]</span> <span class="kd">LHR</span> <span class="kd">tuning</span> <span class="kd">value</span> <span class="kd">that</span> <span class="kd">indicates</span> <span class="kd">the</span> <span class="kd">percentage</span> <span class="kd">of</span> <span class="kd">the</span> <span class="kd">full</span> <span class="kd">speed</span> <span class="kd">the</span> <span class="kd">miner</span> <span class="kd">tries</span> <span class="kd">to</span> <span class="kd">achieve</span> <span class="k">for</span> <span class="kd">LHR</span> <span class="kd">cards</span> 
+
+<span class="o">(</span><span class="kd">default</span>: <span class="o">-</span><span class="m">1</span><span class="o">)</span>. <span class="kd">Range</span> <span class="kd">from</span> <span class="m">10</span> <span class="kd">to</span> <span class="m">95</span>.
+
+<span class="kd">Available</span> <span class="kd">values</span>:
+<span class="o">-</span><span class="m">1</span> <span class="o">-</span> <span class="kd">auto</span><span class="na">-mode </span><span class="o">(</span><span class="kd">LHR</span> <span class="kd">tune</span> <span class="kd">is</span> <span class="kd">set</span> <span class="kd">to</span> <span class="m">74</span> <span class="o">(</span><span class="kd">or</span> <span class="m">68</span> <span class="k">in</span> <span class="kd">low</span> <span class="kd">power</span> <span class="nb">mode</span><span class="o">)</span> <span class="k">for</span> <span class="kd">LHR</span> <span class="kd">cards</span> <span class="kd">and</span> <span class="m">0</span> <span class="k">for</span> <span class="kd">non</span><span class="na">-LHR</span><span class="o">)</span>
+<span class="m">0</span> <span class="o">-</span> <span class="kd">disabled</span> <span class="o">(</span><span class="kd">use</span> <span class="k">for</span> <span class="kd">non</span><span class="na">-LHR </span><span class="kd">cards</span><span class="o">)</span>
+<span class="m">30</span> <span class="o">-</span> <span class="kd">recommended</span> <span class="kd">starting</span> <span class="kd">value</span> <span class="k">for</span> <span class="kd">most</span> <span class="kd">LHR</span> <span class="kd">cards</span> <span class="k">in</span> <span class="kd">LHR</span> <span class="kd">unlock</span> <span class="kd">dual</span> <span class="kd">mining</span> <span class="nb">mode</span> <span class="o">(</span><span class="kd">see</span> <span class="na">--lhr-algo</span><span class="o">)</span>
+<span class="m">68</span> <span class="o">-</span> <span class="kd">recommended</span> <span class="kd">starting</span> <span class="kd">value</span> <span class="k">for</span> <span class="kd">most</span> <span class="kd">LHR</span> <span class="kd">cards</span> <span class="k">in</span> <span class="kd">low</span> <span class="kd">power</span> <span class="nb">mode</span> <span class="o">(</span><span class="kd">see</span> <span class="na">--lhr-low-power</span><span class="o">)</span>
+<span class="m">74</span> <span class="o">-</span> <span class="kd">recommended</span> <span class="kd">starting</span> <span class="kd">value</span> <span class="k">for</span> <span class="kd">most</span> <span class="kd">LHR</span> <span class="kd">cards</span>
+<span class="kd">Can</span> <span class="kd">be</span> <span class="kd">set</span> <span class="k">for</span> <span class="kd">each</span> <span class="kd">GPU</span> <span class="kd">separately</span><span class="o">,</span> <span class="kd">e</span>.g.
+<span class="s2">"lhr-tune"</span>: <span class="s2">"0,0,74.5,0"</span> <span class="o">-</span> <span class="kd">this</span> <span class="kd">will</span> <span class="kd">set</span> <span class="kd">LHR</span> <span class="kd">tuning</span> <span class="kd">value</span> <span class="kd">to</span> <span class="m">74</span>.5 <span class="k">for</span> <span class="kd">the</span> <span class="kd">third</span> <span class="kd">GPU</span>.
+</code></pre></div></div>
+<div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">--lhr-autotune-mode        </span><span class="o">[</span><span class="kd">Ethash</span><span class="o">,</span> <span class="kd">Autolykos2</span><span class="o">]</span> <span class="kd">LHR</span> <span class="kd">auto</span><span class="na">-tune </span><span class="nb">mode</span> <span class="o">(</span><span class="kd">default</span>: <span class="kd">full</span><span class="o">)</span>. <span class="kd">Valid</span> <span class="kd">values</span>:
+<span class="na">off</span>  <span class="o">-</span> <span class="kd">auto</span><span class="na">-tune </span><span class="kd">is</span> <span class="kd">disabled</span>. <span class="kd">LHR</span> <span class="kd">tune</span> <span class="kd">value</span> <span class="kd">is</span> <span class="kd">fixed</span> <span class="kd">during</span> <span class="kd">mining</span><span class="o">,</span> <span class="kd">and</span> <span class="kd">will</span> <span class="ow">not</span> <span class="nb">change</span>
+	  <span class="kd">no</span> <span class="kd">matter</span> <span class="kd">how</span> <span class="kd">often</span> <span class="kd">LHR</span> <span class="kd">lock</span> <span class="kd">is</span> <span class="kd">detected</span>
+<span class="kd">down</span> <span class="o">-</span> <span class="kd">LHR</span> <span class="kd">tune</span> <span class="kd">value</span> <span class="kd">will</span> <span class="kd">decrease</span> <span class="k">if</span> <span class="kd">the</span> <span class="kd">miner</span> <span class="kd">detects</span> <span class="kd">LHR</span> <span class="kd">lock</span>
+<span class="kd">full</span> <span class="o">-</span> <span class="kd">same</span> <span class="kd">as</span> <span class="s2">"down"</span> <span class="kd">but</span> <span class="kd">additionally</span> <span class="kd">miner</span> <span class="kd">will</span> <span class="kd">be</span> <span class="kd">trying</span> <span class="kd">to</span> <span class="kd">increase</span> <span class="kd">LHR</span> <span class="kd">tune</span>
+<span class="kd">value</span> <span class="k">if</span> <span class="kd">its</span> <span class="kd">stable</span> <span class="na">on</span> <span class="kd">the</span> <span class="kd">current</span> <span class="kd">LHR</span> <span class="kd">tune</span> <span class="kd">level</span>
+
+<span class="na">--lhr-autotune-step-size   </span><span class="kd">LHR</span> <span class="kd">auto</span><span class="na">-tune </span><span class="kd">step</span> <span class="kd">size</span> <span class="o">(</span><span class="kd">default</span>: <span class="m">0</span>.5<span class="o">)</span>.
+<span class="kd">Indicates</span> <span class="kd">by</span> <span class="kd">how</span> <span class="kd">much</span> <span class="kd">LHR</span> <span class="kd">tune</span> <span class="kd">value</span> <span class="kd">is</span> <span class="kd">changed</span> <span class="kd">by</span> <span class="kd">the</span> <span class="kd">LHR</span> <span class="kd">auto</span><span class="na">-tuner</span>.
+
+<span class="na">--lhr-autotune-interval    </span><span class="kd">LHR</span> <span class="kd">auto</span><span class="na">-tune </span><span class="nb">time</span> <span class="kd">interval</span> <span class="k">in</span> <span class="kd">minutes</span> <span class="o">(</span><span class="kd">default</span>: <span class="m">20</span><span class="o">)</span>.
+<span class="kd">Amount</span> <span class="kd">of</span> <span class="nb">time</span> <span class="kd">the</span> <span class="kd">GPU</span> <span class="kd">must</span> <span class="kd">be</span> <span class="kd">mining</span> <span class="kd">without</span> <span class="kd">hitting</span> <span class="kd">LHR</span> <span class="kd">locks</span> <span class="kd">before</span> <span class="kd">the</span> <span class="kd">miner</span> <span class="kd">increases</span> <span class="kd">LHR</span> <span class="kd">tune</span> <span class="kd">value</span>.
+</code></pre></div></div>
+<p>Also, if the GPU has triggered an LHR lock, LHR tune value will not decrease if the previous LHR lock was detected more than <code class="language-plaintext highlighter-rouge">--lhr-autotune-interval</code> minutes ago.</p>
+<p><code class="language-plaintext highlighter-rouge">--lhr-low-power</code> - [Ethash, Autolykos2] Reduces power consumption in LHR mode at a cost of a slightly lower hashrate.</p>
 <h2 id="alternatives">Alternatives</h2>
 <ul>
 <li><a href="/en/miners/nbminer/">Nbminer</a></li>
@@ -299,6 +359,15 @@ goto start</pre>
 <ul><li><a href="/en/miners/cpuminer/">CPUminer</a></li></ul>
 <p>Flash bios program:</p>
 <ul><li><a href="/en/miners/srbpolaris/">SRBpolaris</a></li></ul>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<h3 id="gpu-idle">GPU idle</h3>
+<p>Setting Windows virtual memory to 21000 MB should resolve this “GPU idle” error. It can also be a problem of overclocking the video card.</p>
+<h3 id="api-read-only-mode">API read only mode</h3>
+<p>To solve this error, you have to use the command line:</p>
+<div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">t</span><span class="na">-rex</span>.exe <span class="na">--api-generate-key </span><span class="o">&lt;&lt;</span><span class="kd">chooseapassword</span><span class="o">&gt;&gt;</span>
+</code></pre></div></div>
+<p>That will generate a Key, that you can pasted into your <code class="language-plaintext highlighter-rouge">--api-key</code> config file entry.</p>
+<p>Then you enter <code class="language-plaintext highlighter-rouge">&lt;&lt;chooseapassword&gt;&gt;</code> when you are prompted on the web interface.</p>
 <h2 id="versions">Versions</h2>
 <p><a href="https://github.com/trexminer/T-Rex/releases/tag/0.24.8" rel="nofollow noopener" target="_blank">0.24.8</a></p>
 <ul>
@@ -377,7 +446,7 @@ goto start</pre>
 <li> <code class="language-plaintext highlighter-rouge">--fork-at</code> functionality is broken</li>
 <li>Cosmetic UI fixes</li>
 </ul></section><footer class="page__meta"><p class="page__taxonomy"> <i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: <span itemprop="keywords"> <a href="/en/miners" class="page__taxonomy-item" rel="tag">miners</a> </span></p>
-<p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2021-12-10T00:00:00+00:00">10.12.2021</time></p></footer>
+<p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2021-12-21T00:00:00+00:00">21.12.2021</time></p></footer>
 </div></article>
 </div>
 <!-- download --><div class="mar"> <!--<section class="so-down"><div class="so-title whitez1"><a id="download">Getting Started With Ethereum Mining</a></div><div class="so-download"><div class="so-flex"><div class="so-ver"> Latest version is 5.5c<br> File: *<code></code>, SHA256: 599393e258d8ba7b8f8633e20c651868258827d3a43a4d0712125bc487eabf92<br> <span class="nev2">(<a href="https://bit.ly/3bujasD">Download for Linux</a>)</span></div><div class="so-get"> <span class="so-password">Password: phoenix</span><div class="so-button down"><i class="far fa-arrow-alt-circle-down"></i> <a href="https://cutt.ly/NzVAJor" target="_blank">Download Now (Windows x64)</a></div><span class="so-mirror">(<a href="https://bit.ly/2MeIrhX" target="_blank" rel="nofollow">mirror</a>)</span></div></div></div></section>-->
@@ -387,7 +456,7 @@ goto start</pre>
 <div class="grid__wrapper">
 <div class="grid__item"><article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"><div class="archive__item-teaser"> <img src="/assets/images/thumbs/500x300.webp" alt="" loading="lazy" decoding="async">
 </div>
-<h2 class="archive__item-title" itemprop="headline"> <a href="/en/miners/teamblackminer/" rel="permalink">Team Black Miner 1.33: Download and Configure (LHR) </a>
+<h2 class="archive__item-title" itemprop="headline"> <a href="/en/miners/teamblackminer/" rel="permalink">Team Black Miner 1.35: Download and Configure (LHR) </a>
 </h2>
 <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 12 minute read</p>
 <p class="archive__item-excerpt" itemprop="description"> Team Black Miner: how to set up and run. LHR unlock. This guide describes how to start and how to use the latest version of TeamBlack...</p></article></div>
