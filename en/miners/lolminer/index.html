@@ -80,7 +80,7 @@
 <meta itemprop="dateModified" content="February 04, 2022">
 <div class="page__inner-wrap">
 <header><h1 id="page-title" class="page__title" itemprop="headline">Lol Miner 1.44: Setup, Commands &amp; algorithms</h1>
-<p class="page__meta hide"><i class="far fa-clock" aria-hidden="true"></i> 19 minute read</p></header><section class="page__content" itemprop="text"><aside class="sidebar__right sticky"><nav class="toc"><header><h4 class="nav__title"> <i class="fas fa-file-alt"></i> Contents</h4></header><ul class="toc__menu">
+<p class="page__meta hide"><i class="far fa-clock" aria-hidden="true"></i> 21 minute read</p></header><section class="page__content" itemprop="text"><aside class="sidebar__right sticky"><nav class="toc"><header><h4 class="nav__title"> <i class="fas fa-file-alt"></i> Contents</h4></header><ul class="toc__menu">
 <li><a href="#download-for-windows--linux">Download for Windows / Linux</a></li>
 <li><a href="#review-and-devfee">Review and DevFee</a></li>
 <li><a href="#setting-up">Setting up</a></li>
@@ -90,6 +90,14 @@
 <li><a href="#Lolminer%20-%20ETH%20unlock%20on%20RTX%203060%20LHR%20v2,%20RTX%203070%20LHR%20and%20RTX%203080%20ti">Lolminer - ETH unlock on RTX 3060 LHR v2, RTX 3070 LHR and RTX 3080 ti</a></li>
 <li> <a href="#commands">Commands</a><ul><li><a href="#configure-the-algorithm-for-mining">Configure the algorithm for mining</a></li></ul>
 </li>
+<li> <a href="#dual-mining">Dual mining</a><ul>
+<li><a href="#for-hiveos">For HiveOS</a></li>
+<li><a href="#for-raveos">For RaveOS</a></li>
+<li><a href="#Windows:%20Lolminer%20vs%20t-rex%20dual%20mining%20-%20eth+ton%20vs%20eth+alph%20-%20maximum%20profit">Windows: Lolminer vs t-rex dual mining - eth+ton vs eth+alph - maximum profit</a></li>
+<li><a href="#for-mmpos">For MMPOS</a></li>
+</ul>
+</li>
+<li><a href="#complete-list-of-commands">Complete list of commands</a></li>
 <li><a href="#algorithms-and-devfee">Algorithms and DevFee</a></li>
 <li><a href="#driver-requirements">Driver requirements</a></li>
 <li><a href="#alternatives">Alternatives</a></li>
@@ -203,59 +211,204 @@
 <h3 id="configure-the-algorithm-for-mining">Configure the algorithm for mining</h3>
 <p>LolMiner has two ways to specify the algorithm you want to mine. You need to choose one of them to start mining.</p>
 <p>The first option is <code>--algo (-a)</code> followed by one of the following algorithm names:</p>
-<table><tbody>
+<table>
+<thead><tr>
+<th>Parameter</th>
+<th>Algorithm</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>AUTOLYKOS2</td>
+<td>Autolykos</td>
+</tr>
 <tr>
 <td>BEAM-I</td>
-<td>BeamHash I</td>
+<td>BeamHash</td>
 </tr>
 <tr>
 <td>BEAM-II</td>
-<td>BeamHash II</td>
+<td>BeamHash</td>
 </tr>
 <tr>
 <td>BEAM-III</td>
-<td>BeamHash III</td>
+<td>BeamHash</td>
+</tr>
+<tr>
+<td>C29AE</td>
+<td>Cuckoo</td>
 </tr>
 <tr>
 <td>C29D</td>
-<td>CuckarooD 29</td>
+<td>CuckarooD</td>
 </tr>
 <tr>
-<td>C29Z</td>
-<td>CuckarooZ 29</td>
+<td>C29M</td>
+<td>CuckarooM</td>
 </tr>
 <tr>
 <td>C30CTX</td>
-<td>Cuckaroo 30 Cortex</td>
+<td>Cuckaroo</td>
 </tr>
 <tr>
 <td>C31</td>
-<td>Cuckatoo 31</td>
+<td>Cuckatoo</td>
 </tr>
 <tr>
 <td>C32</td>
-<td>Cuckatoo 32</td>
+<td>Cuckatoo</td>
+</tr>
+<tr>
+<td>CR29-32</td>
+<td>Cuckaroo</td>
+</tr>
+<tr>
+<td>CR29-40</td>
+<td>Cuckaroo</td>
 </tr>
 <tr>
 <td>EQUI144_5</td>
-<td>Equihash 144/5</td>
+<td>Equihash</td>
 </tr>
 <tr>
 <td>EQUI192_7</td>
-<td>Equihash 192/7</td>
+<td>Equihash</td>
 </tr>
 <tr>
 <td>EQUI210_9</td>
-<td>Equihash 210/9</td>
+<td>Equihash</td>
+</tr>
+<tr>
+<td>ETCHASH</td>
+<td>Etchash</td>
+</tr>
+<tr>
+<td>ETHASH</td>
+<td>Ethash</td>
+</tr>
+<tr>
+<td>TON</td>
+<td>SHA256-TON</td>
+</tr>
+<tr>
+<td>UBQHASH</td>
+<td>Ubqhash</td>
 </tr>
 <tr>
 <td>ZEL</td>
 <td>ZelHash</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <p>Note that you can always find out the supported algorithms with the command: lolMiner –list-algos. The size of the commission will also be shown. This list will inform you if the program supports the algorithm / requires the personalization parameter (<code>--pers</code>), which is needed for some Equihash-based algorithms.</p>
 <p>The second way to configure lolMiner is through the <code>--coin (-c)</code> parameter. This option sets more detailed settings for the selected profiles and allows you to use special features such as algorithm switches or a combination of an algorithm with the correct personalization.</p>
 <p>You can check the detailed list of additional parameters for lolMiner using the <code>lolMiner -h</code> command.</p>
+<h2 id="dual-mining">Dual mining</h2>
+<p>Dual mining is the process of mining two specific coins on the same video card (or mining farm). Thanks to dual mining, you can increase your profit. You can mine ETH/ETC/UBQHASH and TON at the same time.</p>
+<p>You need to make sure that on Windows or Linux (HiveOs, RaveOS) you update the program to the latest version.</p>
+<p class="notice--danger">We must also take into account that the power supply may require a few extra watts. This is because during dual mining, the power consumption of video cards increases, the temperature increases accordingly, as well as the cost of electricity.</p>
+<p>Here is what we get after setting up.</p>
+<p><a href="/assets/images/miners/lolminer/dual/dual_console.webp" class="image-popup"> <img src="/assets/images/miners/lolminer/dual/dual_console.webp" alt="dual mining" loading="lazy" decoding="async"></a></p>
+<p>Just set up your batch file or flightsheet/profile/wallet ETH/ETC/UBQHASH and go to settings:</p>
+<h3 id="for-hiveos">For HiveOS</h3>
+<p>Enter <code class="language-plaintext highlighter-rouge">Setup Miner Config</code> and write <code class="language-plaintext highlighter-rouge">Extra config arguments</code>.</p>
+<p><a href="/assets/images/miners/lolminer/dual/settings.webp" class="image-popup"> <img src="/assets/images/miners/lolminer/dual/settings.webp" alt="settings" loading="lazy" decoding="async"> </a></p>
+<p><a href="/assets/images/miners/lolminer/dual/hiveos_setup_miner_config.webp" class="image-popup"> <img src="/assets/images/miners/lolminer/dual/hiveos_setup_miner_config.webp" alt="Setup Miner Config" loading="lazy" decoding="async"> </a></p>
+<p>or:</p>
+<p><a href="/assets/images/miners/lolminer/dual/hiveos_setup_miner_config.webp" class="image-popup"> <img src="/assets/images/miners/lolminer/dual/hiveos_setup_miner_config.webp" alt="Setup Miner Config" loading="lazy" decoding="async"> </a></p>
+<p>Select <code class="language-plaintext highlighter-rouge">TONDUAL</code>, then you must complete:</p>
+<ul>
+<li>For Tonwhales.com Pool : <code class="language-plaintext highlighter-rouge">https://pool.services.tonwhales.com Wallet: Your_Ton_Wallet</code>
+</li>
+<li>For Ton-pool.com: <code class="language-plaintext highlighter-rouge">https://next.ton-pool.com Wallet: Your_Ton_Wallet</code>
+</li>
+<li>For Toncoinpool.io pool: <code class="language-plaintext highlighter-rouge">wss://pplns.toncoinpool.io/stratum Wallet: Your_Ton_Wallet</code>
+</li>
+</ul>
+<p> </p>
+<link itemprop="url" href="/#videoguide">
+<meta itemprop="image" content="/assets/images/og.png">
+<div class="youtubevideowrap" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+<link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/jA_ayYi-FS4">
+<link itemprop="contentUrl" content="https://www.youtube.com/embed/jA_ayYi-FS4"> <span class="panel-title" itemprop="name" id="ETH + TON Dual Mining Definitive Guide. Overclocking, Profitability, Setup for HiveOS">ETH + TON Dual Mining Definitive Guide. Overclocking, Profitability, Setup for HiveOS</span><div itemprop="description">
+<p>3070s non lhr. Try:</p>
+<ol>
+<li>1350 Core clock</li>
+<li>2400 Mem clock</li>
+<li>Power Limit 150W</li>
+</ol>
+<p>i get 60mhs on ETH and 1.4ghz on TON each. Some work at 145pl, some need 155w.</p>
+</div>
+<meta itemprop="uploadDate" content="2022-02-08">
+<meta itemprop="duration" content="PT1M03S">
+<div class="youtube-player" data-id="jA_ayYi-FS4"></div>
+<div class="ytb-but"><a href="https://cutt.ly/pxlaiCA" rel="nofollow noopener" target="_blank">Subscribe</a></div>
+</div>
+<h3 id="for-raveos">For RaveOS</h3>
+<p>Just select a pool and click on the pencil icon.</p>
+<p><a href="/assets/images/miners/lolminer/dual/raveos_pool_and_miner.webp" class="image-popup"> <img src="/assets/images/miners/lolminer/dual/raveos_pool_and_miner.webp" alt="raveos_pool_and_miner" loading="lazy" decoding="async"> </a></p>
+<p>There we must add the command:</p>
+<ul>
+<li>For Tonwhales.com <code class="language-plaintext highlighter-rouge">--dualmode TONDUAL --dualpool https://pool.services.tonwhales.com --dualuser Your_Ton_Wallet</code>
+</li>
+<li>For Ton-pool.com <code class="language-plaintext highlighter-rouge">--dualmode TONDUAL --dualpool https://next.ton-pool.com --dualuser Your_Ton_Wallet</code>
+</li>
+<li>For Toncoinpool.io <code class="language-plaintext highlighter-rouge">--dualmode TONDUAL --dualpool wss://pplns.toncoinpool.io/stratum --dualuser Your_Ton_Wallet</code>
+</li>
+</ul>
+<p><a href="/assets/images/miners/lolminer/dual/raveos_additional_commands_arguments.webp" class="image-popup"> <img src="/assets/images/miners/lolminer/dual/raveos_additional_commands_arguments.webp" alt="raveos_additional_commands_arguments" loading="lazy" decoding="async"> </a></p>
+<p> </p>
+<link itemprop="url" href="/#videoguide">
+<meta itemprop="image" content="/assets/images/og.png">
+<div class="youtubevideowrap" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+<link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/yg5RF_XgcuA">
+<link itemprop="contentUrl" content="https://www.youtube.com/embed/yg5RF_XgcuA"> <span class="panel-title" itemprop="name" id="RaveOS Dual Mining Ethereum (ETH) and Zilliqa (ZIL) - ETH+ZIL with lolMiner or Ethereum Classic (ETC)">RaveOS Dual Mining Ethereum (ETH) and Zilliqa (ZIL) - ETH+ZIL with lolMiner or Ethereum Classic (ETC)</span><div itemprop="description">
+<p>Command for RaveOS: <code>--enablezilcache --dualmode zil --dualpool eu.ezil.me:5555 --dualuser %WAL%.your_zil_wallet</code></p>
+<p>Please note that in dual mode, the hashrate on Ethereum may drop, and the cards will become very hot, and power consumption will increase.</p>
+</div>
+<meta itemprop="uploadDate" content="2021-12-06">
+<meta itemprop="duration" content="PT2M21S">
+<div class="youtube-player" data-id="yg5RF_XgcuA"></div>
+<div class="ytb-but"><a href="https://cutt.ly/pxlaiCA" rel="nofollow noopener" target="_blank">Subscribe</a></div>
+</div>
+<p> </p>
+<link itemprop="url" href="/#videoguide">
+<meta itemprop="image" content="/assets/images/og.png">
+<div class="youtubevideowrap" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+<link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/Z8fFnPmf4tE">
+<link itemprop="contentUrl" content="https://www.youtube.com/embed/Z8fFnPmf4tE">
+<h3 class="panel-title" itemprop="name" id="Windows: Lolminer vs t-rex dual mining - eth+ton vs eth+alph - maximum profit">Windows: Lolminer vs t-rex dual mining - eth+ton vs eth+alph - maximum profit</h3>
+<div itemprop="description">
+<p>I think ERGO has a very good future. TON however, is also very nice, but with the current rate will go POS.</p>
+<p>So it's kind of a race to get the max of both ERG+TON lol. Best way is to convert ETH to ERG, while mining ETH+TON. I am almost done reaching my ALPH hold goal and then will trade ETH for ERG.</p>
+</div>
+<meta itemprop="uploadDate" content="2022-02-04">
+<meta itemprop="duration" content="PT20M07S">
+<div class="youtube-player" data-id="Z8fFnPmf4tE"></div>
+<div class="ytb-but"><a href="https://cutt.ly/pxlaiCA" rel="nofollow noopener" target="_blank">subscribe</a></div>
+</div>
+<p>Batch file:</p>
+<div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">set</span> <span class="s2">"POOL=eth.hiveon.com:4444"</span> 
+<span class="kd">set</span> <span class="s2">"WALLET=0x5576999cc34c1c0030f28939444d6ba9cd6919c2.lolMinerWorker"</span> 
+
+<span class="kd">set</span> <span class="s2">"TONPOOL=https://server1.whalestonpool.com"</span> 
+<span class="kd">set</span> <span class="s2">"TONWALLET=EQDk8olXYxBsrxiKvZSQMO1-Jjmx9_e-yNjvePJ3dxHlnAwf"</span>
+</code></pre></div></div>
+<p> </p>
+<h3 id="for-mmpos">For MMPOS</h3>
+<p>Go to Miner Profiles, Manage Profile and Advanced and select your secondary coin. And in the arguments, specify:</p>
+<p><a href="/assets/images/miners/lolminer/dual/mmpos_manage_profile.webp" class="image-popup"> <img src="/assets/images/miners/lolminer/dual/mmpos_manage_profile.webp" alt="mmpos_manage_profile" loading="lazy" decoding="async"></a></p>
+<p><a href="/assets/images/miners/lolminer/dual/mmpos_manage_profile2.webp" class="image-popup"> <img src="/assets/images/miners/lolminer/dual/mmpos_manage_profile2.webp" alt="mmpos_manage_profile" loading="lazy" decoding="async"></a></p>
+<ul>
+<li>For Tonwhales.com <code class="language-plaintext highlighter-rouge">--algo ETHASH --pool %pool_server%:%pool_port% --user %user% --apiport %api_port% --worker %rig_name% --log off --dualmode TONDUAL --dualpool https :// pool.services.tonwhales.com --dualuser Your_Ton_Wallet</code>
+</li>
+<li>For Ton-pool.com <code class="language-plaintext highlighter-rouge">--algo ETHASH --pool %pool_server%:%pool_port% --user %user% --apiport %api_port% --worker %rig_name% --log off --dualmode TONDUAL -- dualpool https://next.ton-pool.com --dualuser Your_Ton_Wallet</code>
+</li>
+<li>For Toncoinpool.io <code class="language-plaintext highlighter-rouge">--algo ETHASH --pool %pool_server%:%pool_port% --user %user% --apiport %api_port% --worker %rig_name% --log off --dualmode TONDUAL --dualpool wss :// pplns.toncoinpool.io/stratum --dualuser Your_Ton_Wallet</code>
+</li>
+</ul>
+<p><a href="/assets/images/miners/lolminer/dual/mmpos_dual.webp" class="image-popup"> <img src="/assets/images/miners/lolminer/dual/mmpos_dual.webp" alt="mmpos_dual" loading="lazy" decoding="async"> </a></p>
+<p> </p>
+<h2 id="complete-list-of-commands">Complete list of commands</h2>
 <p>Allowed options:</p>
 <p>General:</p>
 <div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">-h </span><span class="o">[</span> <span class="na">--help </span><span class="o">]</span>                         <span class="kd">Help</span> <span class="kd">screen</span>

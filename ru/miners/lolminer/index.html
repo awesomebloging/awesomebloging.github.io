@@ -183,56 +183,94 @@
 <h3 id="настройте-алгоритм-для-майнинга">Настройте алгоритм для майнинга</h3>
 <p>В lolMiner есть два способа указать алгоритм, который вы хотите майнить. Вам нужно выбрать один из них, чтобы начать майнинг.</p>
 <p>Первый вариант - <code>--algo (-a)</code>, за которым следует одно из следующих имен алгоритмов:</p>
-<table><tbody>
+<table>
+<thead><tr>
+<th>Параметр</th>
+<th>Алгоритм</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>AUTOLYKOS2</td>
+<td>Autolykos</td>
+</tr>
 <tr>
 <td>BEAM-I</td>
-<td>BeamHash I</td>
+<td>BeamHash</td>
 </tr>
 <tr>
 <td>BEAM-II</td>
-<td>BeamHash II</td>
+<td>BeamHash</td>
 </tr>
 <tr>
 <td>BEAM-III</td>
-<td>BeamHash III</td>
+<td>BeamHash</td>
+</tr>
+<tr>
+<td>C29AE</td>
+<td>Cuckoo</td>
 </tr>
 <tr>
 <td>C29D</td>
-<td>CuckarooD 29</td>
+<td>CuckarooD</td>
 </tr>
 <tr>
-<td>C29Z</td>
-<td>CuckarooZ 29</td>
+<td>C29M</td>
+<td>CuckarooM</td>
 </tr>
 <tr>
 <td>C30CTX</td>
-<td>Cuckaroo 30 Cortex</td>
+<td>Cuckaroo</td>
 </tr>
 <tr>
 <td>C31</td>
-<td>Cuckatoo 31</td>
+<td>Cuckatoo</td>
 </tr>
 <tr>
 <td>C32</td>
-<td>Cuckatoo 32</td>
+<td>Cuckatoo</td>
+</tr>
+<tr>
+<td>CR29-32</td>
+<td>Cuckaroo</td>
+</tr>
+<tr>
+<td>CR29-40</td>
+<td>Cuckaroo</td>
 </tr>
 <tr>
 <td>EQUI144_5</td>
-<td>Equihash 144/5</td>
+<td>Equihash</td>
 </tr>
 <tr>
 <td>EQUI192_7</td>
-<td>Equihash 192/7</td>
+<td>Equihash</td>
 </tr>
 <tr>
 <td>EQUI210_9</td>
-<td>Equihash 210/9</td>
+<td>Equihash</td>
+</tr>
+<tr>
+<td>ETCHASH</td>
+<td>Etchash</td>
+</tr>
+<tr>
+<td>ETHASH</td>
+<td>Ethash</td>
+</tr>
+<tr>
+<td>TON</td>
+<td>SHA256-TON</td>
+</tr>
+<tr>
+<td>UBQHASH</td>
+<td>Ubqhash</td>
 </tr>
 <tr>
 <td>ZEL</td>
 <td>ZelHash</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <p>Обратите внимание, что вы всегда можете узнать поддерживаемые алгоритмы с помощью команды: <code>lolMiner --list-algos</code>. Также будет показан размер комиссии. Этот список проинформирует вас, поддерживает ли программа алгоритм / требуется ли параметр персонализации (<code>--pers</code>), который нужен для некоторых алгоритмов на основе Equihash.</p>
 <p>Второй способ настройки lolMiner - через параметр <code>--coin (-c)</code> . Этот параметр устанавливает более подробные настройки для выбранных профилей и позволяет использовать специальные функции, например переключатели алгоритмов или комбинацию алгоритма с правильной персонализацией.</p>
 <p>Подробный список дополнительных параметров lolMiner вы можете проверить с помощью команды<code>lolMiner -h</code>.</p>
@@ -241,14 +279,14 @@
 <p>Нужно убедиться, чтобы в Windows или Linux (HiveOs, RaveOS) вы обновили программу до последней версии.</p>
 <p class="notice--danger">Мы также должны учитывать, что блок питания может потребовать несколько дополнительных ватт. Все потому, что при дуал-майнинге увеличивается энергопотребление видеокарт, соответственно увеличивается температура, как и затраты на электроэнергию.</p>
 <p>Вот что мы получим после настройки.</p>
-<p><a href="/assets/images/miners/lolminer/dual/dual_console.png" class="image-popup"> <img src="/assets/images/miners/lolminer/dual/dual_console.png" alt="dual_console" loading="lazy" decoding="async"> </a></p>
+<p><a href="/assets/images/miners/lolminer/dual/dual_console.webp" class="image-popup"> <img src="/assets/images/miners/lolminer/dual/dual_console.webp" alt="dual_console" loading="lazy" decoding="async"> </a></p>
 <p>Просто настройте свой батник или полетный лист/профиль/кошелек ETH/ETC/UBQHASH и перейдите к настройкам:</p>
 <h3 id="для-hiveos">Для HiveOS</h3>
 <p>Войдите в <code class="language-plaintext highlighter-rouge">Setup Miner Config</code> и напишите “Дополнительные аргументы конфигурации” - <code class="language-plaintext highlighter-rouge">Extra config arguments</code>.</p>
-<p><a href="/assets/images/miners/lolminer/dual/settings.png" class="image-popup"> <img src="/assets/images/miners/lolminer/dual/settings.png" alt="settings" loading="lazy" decoding="async"> </a></p>
-<p><a href="/assets/images/miners/lolminer/dual/hiveos_setup_miner_config.png" class="image-popup"> <img src="/assets/images/miners/lolminer/dual/hiveos_setup_miner_config.png" alt="Setup Miner Config" loading="lazy" decoding="async"> </a></p>
+<p><a href="/assets/images/miners/lolminer/dual/settings.webp" class="image-popup"> <img src="/assets/images/miners/lolminer/dual/settings.webp" alt="settings" loading="lazy" decoding="async"> </a></p>
+<p><a href="/assets/images/miners/lolminer/dual/hiveos_setup_miner_config.webp" class="image-popup"> <img src="/assets/images/miners/lolminer/dual/hiveos_setup_miner_config.webp" alt="Setup Miner Config" loading="lazy" decoding="async"> </a></p>
 <p>или:</p>
-<p><a href="/assets/images/miners/lolminer/dual/hiveos_setup_miner_config.jpg" class="image-popup"> <img src="/assets/images/miners/lolminer/dual/hiveos_setup_miner_config.jpg" alt="Setup Miner Config" loading="lazy" decoding="async"> </a></p>
+<p><a href="/assets/images/miners/lolminer/dual/hiveos_setup_miner_config.webp" class="image-popup"> <img src="/assets/images/miners/lolminer/dual/hiveos_setup_miner_config.webp" alt="Setup Miner Config" loading="lazy" decoding="async"> </a></p>
 <p>Выберите <code class="language-plaintext highlighter-rouge">TONDUAL</code>, затем вы должны заполнить:</p>
 <ul>
 <li>Для пула Tonwhales.com Pool : <code class="language-plaintext highlighter-rouge">https://pool.services.tonwhales.com Wallet: Your_Ton_Wallet</code>
@@ -272,7 +310,7 @@
 </div>
 <h3 id="для-raveos">Для RaveOS</h3>
 <p>Просто выберите пул и нажмите на иконку карандаша.</p>
-<p><a href="/assets/images/miners/lolminer/dual/raveos_pool_and_miner.png" class="image-popup"> <img src="/assets/images/miners/lolminer/dual/raveos_pool_and_miner.png" alt="raveos_pool_and_miner" loading="lazy" decoding="async"> </a></p>
+<p><a href="/assets/images/miners/lolminer/dual/raveos_pool_and_miner.webp" class="image-popup"> <img src="/assets/images/miners/lolminer/dual/raveos_pool_and_miner.webp" alt="raveos_pool_and_miner" loading="lazy" decoding="async"> </a></p>
 <p>Там мы должны добавить команду:</p>
 <ul>
 <li>Для Tonwhales.com <code class="language-plaintext highlighter-rouge">--dualmode TONDUAL --dualpool https://pool.services.tonwhales.com --dualuser Your_Ton_Wallet</code>
@@ -282,7 +320,7 @@
 <li>Для Toncoinpool.io <code class="language-plaintext highlighter-rouge">--dualmode TONDUAL --dualpool wss://pplns.toncoinpool.io/stratum --dualuser Your_Ton_Wallet</code>
 </li>
 </ul>
-<p><a href="/assets/images/miners/lolminer/dual/raveos_additional_commands_arguments.png" class="image-popup"> <img src="/assets/images/miners/lolminer/dual/raveos_additional_commands_arguments.png" alt="raveos_additional_commands_arguments" loading="lazy" decoding="async"> </a></p>
+<p><a href="/assets/images/miners/lolminer/dual/raveos_additional_commands_arguments.webp" class="image-popup"> <img src="/assets/images/miners/lolminer/dual/raveos_additional_commands_arguments.webp" alt="raveos_additional_commands_arguments" loading="lazy" decoding="async"> </a></p>
 <p> </p>
 <p>Посмотрите видео:</p>
 <link itemprop="url" href="/#videoguide">
@@ -314,11 +352,18 @@
 <div class="youtube-player" data-id="Q69Xlf0PHcQ"></div>
 <div class="ytb-but"><a href="https://cutt.ly/pxlaiCA" rel="nofollow noopener" target="_blank">подписывайтесь</a></div>
 </div>
+<p>Батник:</p>
+<div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">set</span> <span class="s2">"POOL=eth.hiveon.com:4444"</span> 
+<span class="kd">set</span> <span class="s2">"WALLET=0x5576999cc34c1c0030f28939444d6ba9cd6919c2.lolMinerWorker"</span> 
+
+<span class="kd">set</span> <span class="s2">"TONPOOL=https://server1.whalestonpool.com"</span> 
+<span class="kd">set</span> <span class="s2">"TONWALLET=EQDk8olXYxBsrxiKvZSQMO1-Jjmx9_e-yNjvePJ3dxHlnAwf"</span>
+</code></pre></div></div>
 <p> </p>
 <h3 id="для-mmpos">Для MMPOS</h3>
 <p>Перейдите в Miner Profiles (Профили майнеров), «Управление профилями» (manage Profile) и «Дополнительно» (Advanced) и выберите вторичную монету. А в аргументах укажите:</p>
-<p><a href="/assets/images/miners/lolminer/dual/mmpos_manage_profile.png" class="image-popup"> <img src="/assets/images/miners/lolminer/dual/mmpos_manage_profile.png" alt="mmpos_manage_profile" loading="lazy" decoding="async"> </a></p>
-<p><a href="/assets/images/miners/lolminer/dual/mmpos_manage_profile2.png" class="image-popup"> <img src="/assets/images/miners/lolminer/dual/mmpos_manage_profile2.png" alt="mmpos_manage_profile" loading="lazy" decoding="async"> </a></p>
+<p><a href="/assets/images/miners/lolminer/dual/mmpos_manage_profile.webp" class="image-popup"> <img src="/assets/images/miners/lolminer/dual/mmpos_manage_profile.webp" alt="mmpos_manage_profile" loading="lazy" decoding="async"> </a></p>
+<p><a href="/assets/images/miners/lolminer/dual/mmpos_manage_profile2.webp" class="image-popup"> <img src="/assets/images/miners/lolminer/dual/mmpos_manage_profile2.webp" alt="mmpos_manage_profile" loading="lazy" decoding="async"> </a></p>
 <ul>
 <li>Для Tonwhales.com <code class="language-plaintext highlighter-rouge">--algo ETHASH --pool %pool_server%:%pool_port% --user %user% --apiport %api_port% --worker %rig_name% --log off --dualmode TONDUAL --dualpool https:// pool.services.tonwhales.com --dualuser Your_Ton_Wallet</code>
 </li>
@@ -327,7 +372,7 @@
 <li>Для Toncoinpool.io <code class="language-plaintext highlighter-rouge">--algo ETHASH --pool %pool_server%:%pool_port% --user %user% --apiport %api_port% --worker %rig_name% --log off --dualmode TONDUAL --dualpool wss:// pplns.toncoinpool.io/stratum --dualuser Ваш_Ton_Кошелек</code>
 </li>
 </ul>
-<p><a href="/assets/images/miners/lolminer/dual/mmpos_dual.png" class="image-popup"> <img src="/assets/images/miners/lolminer/dual/mmpos_dual.png" alt="mmpos_dual" loading="lazy" decoding="async"> </a></p>
+<p><a href="/assets/images/miners/lolminer/dual/mmpos_dual.webp" class="image-popup"> <img src="/assets/images/miners/lolminer/dual/mmpos_dual.webp" alt="mmpos_dual" loading="lazy" decoding="async"> </a></p>
 <p> </p>
 <h2 id="полный-список-команд">Полный список команд</h2>
 <p>Общие:</p>
