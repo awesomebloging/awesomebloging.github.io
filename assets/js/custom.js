@@ -22,3 +22,42 @@ if ($(window).width() >= 1210) {
         });
       }
     });
+	
+	var $images = $('.single-post__full-image');
+
+var imagePosition = function ($image, $placeholder) {
+  var height = $image.outerHeight();
+  $placeholder.height(height);
+};
+
+$images.each(function(index, image) {
+  var $image = $(image);
+
+  var $placeholder = $('<div></div>');
+
+  $placeholder
+    .addClass('single-post__full-image--placeholder')
+    .insertAfter($image);
+
+  imagePosition($image, $placeholder);
+
+  var t = new Tether({
+    element: $image,
+    target: $placeholder,
+    attachment: 'middle center',
+    targetAttachment: 'middle center'
+  });
+
+  imagePosition($image, $placeholder);
+
+  $('.single-post').imagesLoaded()
+    .done( function( instance ) {
+      $(window).trigger('fit-image');
+    });
+
+  // Resize placeholder to same size as the image
+  $(window).on('resize fit-image', function () {
+    t.position();
+    imagePosition($image, $placeholder);
+  });
+});
