@@ -2,26 +2,26 @@
 <html lang="en" class="no-js">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta charset="utf-8"> <!-- begin _includes/seo.html --><title>Nanominer: Download, Config for Ethereum, Ergo &amp; Ravencoin</title>
-<meta name="description" content="Nano miner: how to set up and how to run dual mining. LHR unlock. This guide describes how to start and how to use the latest version of Nanominer 3.7.0 and higher.">
+<meta charset="utf-8"> <!-- begin _includes/seo.html --><title>MultiDoge: solving Java Not Found &amp; Synchronization problem</title>
+<meta name="description" content="Troubleshooting: the application does not see Java, does not start In this guide, you will learn how to solve MultiDoge opening and slow sync errors of the latest version 1.7.7, and newer.">
 <meta name="author" content="Matthew Wood">
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en">
 <meta property="og:site_name" content="MiningSoft">
-<meta property="og:title" content="Nanominer: Download, Config for Ethereum, Ergo &amp; Ravencoin">
-<meta property="og:url" content="https://miningsoft.org/en/miners/nanominer/">
-<meta property="og:description" content="Nano miner: how to set up and how to run dual mining. LHR unlock. This guide describes how to start and how to use the latest version of Nanominer 3.7.0 and higher.">
+<meta property="og:title" content="MultiDoge: solving Java Not Found &amp; Synchronization problem">
+<meta property="og:url" content="https://miningsoft.org/en/guide/multidoge/">
+<meta property="og:description" content="Troubleshooting: the application does not see Java, does not start In this guide, you will learn how to solve MultiDoge opening and slow sync errors of the latest version 1.7.7, and newer.">
 <meta property="og:image" content="https://miningsoft.org/assets/images/site-logo.png">
 <meta name="twitter:site" content="@mza">
-<meta name="twitter:title" content="Nanominer: Download, Config for Ethereum, Ergo &amp; Ravencoin">
-<meta name="twitter:description" content="Nano miner: how to set up and how to run dual mining. LHR unlock. This guide describes how to start and how to use the latest version of Nanominer 3.7.0 and higher.">
-<meta name="twitter:url" content="https://miningsoft.org/ru/miners/nanominer/">
+<meta name="twitter:title" content="MultiDoge: solving Java Not Found &amp; Synchronization problem">
+<meta name="twitter:description" content="Troubleshooting: the application does not see Java, does not start In this guide, you will learn how to solve MultiDoge opening and slow sync errors of the latest version 1.7.7, and newer.">
+<meta name="twitter:url" content="https://miningsoft.org/ru/guide/multidoge/">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://miningsoft.org/assets/images/site-logo.png">
-<meta property="article:published_time" content="2021-08-27T00:00:00+00:00">
-<meta property="article:modified_time" content="2022-08-27T00:00:00+00:00">
-<link rel="canonical" href="https://miningsoft.org/en/miners/nanominer/"> <script type="application/ld+json"> { "@context": "https://schema.org", "@type": "Article", "headline": "Nanominer&#58; Download, Config for Ethereum, Ergo & Ravencoin", "image": "", "author": { "@type": "Person", "name": "Matthew Wood", "url": "https://miningsoft.org/en/about", "sameAs": "https://www.facebook.com/ltcbtc" }, "publisher": { "@type": "Organization", "name": "MiningSoft", "logo": { "@type": "ImageObject", "url": "https://miningsoft.org/assets/images/logo2.png" } }, "dateModified": "2022-08-27T00:00:00+00:00" } </script><meta name="google-site-verification" content="lzkzzEBSl4ZcrOj5sxD0Ao0R1sXdFSczY9bQcLVWHMY">
-<meta name="yandex-verification" content="da0cda22b6e4f5d0"> <!-- end _includes/seo.html --><meta name="description" content="Nano miner: how to set up and how to run dual mining. LHR unlock. This guide describes how to start and how to use the latest version of Nanominer 3.7.0 and higher.">
+<meta property="article:published_time" content="2022-08-30T00:00:00+00:00">
+<meta property="article:modified_time" content="2022-08-30T00:00:00+00:00">
+<link rel="canonical" href="https://miningsoft.org/en/guide/multidoge/"> <script type="application/ld+json"> { "@context": "https://schema.org", "@type": "Article", "headline": "MultiDoge&#58; solving Java Not Found & Synchronization problem", "image": "", "author": { "@type": "Person", "name": "Matthew Wood", "url": "https://miningsoft.org/en/about", "sameAs": "https://www.facebook.com/ltcbtc" }, "publisher": { "@type": "Organization", "name": "MiningSoft", "logo": { "@type": "ImageObject", "url": "https://miningsoft.org/assets/images/logo2.png" } }, "dateModified": "2022-08-30T00:00:00+00:00" } </script><meta name="google-site-verification" content="lzkzzEBSl4ZcrOj5sxD0Ao0R1sXdFSczY9bQcLVWHMY">
+<meta name="yandex-verification" content="da0cda22b6e4f5d0"> <!-- end _includes/seo.html --><meta name="description" content="Troubleshooting: the application does not see Java, does not start In this guide, you will learn how to solve MultiDoge opening and slow sync errors of the latest version 1.7.7, and newer.">
 <meta name="author" content="Matthew Wood">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="MiningSoft Feed">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> <script> document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js '; </script> <!-- For all browsers --><link rel="stylesheet" href="/assets/css/main.css">
@@ -33,8 +33,8 @@
 <link rel="manifest" href="/assets/images/site.webmanifest">
 <link rel="mask-icon" href="/assets/images/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff"> <!-- end custom head snippets --> <!--<script data-ad-client="ca-pub-6877281234114538" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> --><meta name="coinzilla" content="02f8d116823a54b9ca884e45f302e933"> <!-- link alternate --><link rel="alternate" hreflang="ru" href="https://miningsoft.org/ru/miners/nanominer/">
-<link rel="alternate" hreflang="en" href="https://miningsoft.org/en/miners/nanominer/">
+<meta name="theme-color" content="#ffffff"> <!-- end custom head snippets --> <!--<script data-ad-client="ca-pub-6877281234114538" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> --><meta name="coinzilla" content="02f8d116823a54b9ca884e45f302e933"> <!-- link alternate --><link rel="alternate" hreflang="ru" href="https://miningsoft.org/ru/guide/multidoge/">
+<link rel="alternate" hreflang="en" href="https://miningsoft.org/en/guide/multidoge/">
 </head>
 <body class="layout--single"> <!--[if lt IE 9]><div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please upgrade your browser to improve your experience.</div><![endif]--><div class="masthead"><div class="masthead__inner-wrap"><div class="masthead__menu"><nav id="site-nav" class="greedy-nav"> <a class="site-title" href="/en"> MiningSoft </a><ul class="visible-links">
 <li class="masthead__menu-item">
@@ -48,7 +48,7 @@
 </li>
 </ul>
 <button class="search__toggle" type="button"> <span class="visually-hidden">Toggle search</span> <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 15.99 16"><path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path> </svg> </button> <button class="greedy-nav__toggle hidden" type="button"> <span class="visually-hidden">Toggle menu</span><div class="navicon"></div></button><ul class="hidden-links hidden"></ul></nav></div></div></div>
-<div class="lang-nav"><nav id="lang-sel"> <a href="/ru/miners/nanominer/" class="ru lang_link">ru</a> <a href="/en/miners/nanominer/" class="en lang_link">en</a></nav></div>
+<div class="lang-nav"><nav id="lang-sel"> <a href="/ru/guide/multidoge/" class="ru lang_link">ru</a> <a href="/en/guide/multidoge/" class="en lang_link">en</a></nav></div>
 <div class="lang-mar imgcen"> <script async src="https://coinzillatag.com/lib/display.js"></script><div class="coinzilla" data-zone="C-32660aca95208f5f481"></div>
 <script> window.coinzilla_display = window.coinzilla_display || []; var c_display_preferences = {}; c_display_preferences.zone = "32660aca95208f5f481"; c_display_preferences.width = "728"; c_display_preferences.height = "90"; coinzilla_display.push(c_display_preferences); </script>
 </div>
@@ -56,9 +56,9 @@
 <nav class="breadcrumbs"><ol itemscope itemtype="https://schema.org/BreadcrumbList">
 <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"> <a href="https://miningsoft.org/en/" itemprop="item" rel="nofollow noopener" target="_blank"><span itemprop="name">Home</span></a><meta itemprop="position" content="1"> <span class="sep">/</span>
 </li>
-<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"> <a href="/en/miners" itemprop="item"><span itemprop="name">Miners</span></a><meta itemprop="position" content="2"> <span class="sep">/</span>
+<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"> <a href="/en/guide" itemprop="item"><span itemprop="name">Guide</span></a><meta itemprop="position" content="2"> <span class="sep">/</span>
 </li>
-<li class="current">Nanominer: Download, Config for Ethereum, Ergo &amp; Ravencoin</li>
+<li class="current">MultiDoge: solving Java Not Found &amp; Synchronization problem</li>
 </ol></nav><div id="main" role="main">
 <div class="sidebar nosticky"><div itemscope itemtype="https://schema.org/Person">
 <div class="author__avatar"> <img width="97" height="97" src="/assets/images/matthewwood.webp" alt="Matthew Wood" itemprop="image" loading="lazy" decoding="async">
@@ -76,542 +76,182 @@
 </ul>
 </div>
 </div></div>
-<article class="page" itemscope itemtype="https://schema.org/CreativeWork"><meta itemprop="headline" content="Nanominer: Download, Config for Ethereum, Ergo &amp; Ravencoin">
-<meta itemprop="description" content=" Nano miner: how to set up and how to run dual mining. LHR unlock. This guide describes how to start and how to use the latest version of Nanominer 3.7.0 and higher.">
-<meta itemprop="datePublished" content="August 27, 2021">
-<meta itemprop="dateModified" content="August 27, 2022">
-<div class="page__inner-wrap"><section class="page__content" itemprop="text"><header><h1 id="page-title" class="page__title" itemprop="headline">Nanominer 3.7.0: Download, Config for Ethereum, Ergo &amp; Ravencoin</h1></header><aside class="sidebar__right sticky"><nav class="toc"><header><h4 class="nav__title"> <i class="fas fa-file-alt"></i> Contents</h4></header><ul class="toc__menu">
-<li><a href="#download-for-windows--linux">Download for Windows / Linux</a></li>
-<li> <a href="#what-is-nanominer">What is Nanominer?</a><ul>
-<li><a href="#algorithms-and-fees">Algorithms and fees</a></li>
-<li><a href="#requirements">Requirements</a></li>
+<article class="page" itemscope itemtype="https://schema.org/CreativeWork"><meta itemprop="headline" content="MultiDoge: solving Java Not Found &amp; Synchronization problem">
+<meta itemprop="description" content=" Troubleshooting: the application does not see Java, does not start In this guide, you will learn how to solve MultiDoge opening and slow sync errors of the latest version 1.7.7, and newer.">
+<meta itemprop="datePublished" content="August 30, 2022">
+<meta itemprop="dateModified" content="August 30, 2022">
+<div class="page__inner-wrap"><section class="page__content" itemprop="text"><header><h1 id="page-title" class="page__title" itemprop="headline">MultiDoge - solving errors: Java Not Found, not Syncing and not opening</h1></header><aside class="sidebar__right sticky"><nav class="toc"><header><h4 class="nav__title"> <i class="fas fa-file-alt"></i> Contents</h4></header><ul class="toc__menu">
+<li> <a href="#How%20to%20fix%20java%20not%20found%20error%20in%20MultiDoge">How to fix java not found error in MultiDoge</a><ul>
+<li><a href="#Step%201%20-%20Download%20and%20Install%20Java">Step 1 - Download and Install Java</a></li>
+<li><a href="#Step%202%20-%20Specify%20Java%20Environment%20Variables">Step 2 - Specify Java Environment Variables</a></li>
+<li><a href="#Step%203%20-%20Start%20the%20wallet%20again">Step 3 - Start the wallet again</a></li>
+<li><a href="#Video%20Guide">Video Guide</a></li>
 </ul>
 </li>
-<li> <a href="#How%20to%20run%20Nanominer%20through%20a%20bat%20file">How to run Nanominer through a bat file</a><ul>
-<li><a href="#Step%201%20-%20Download%20Nanominer">Step 1 - Download Nanominer</a></li>
-<li><a href="#Step%202%20-%20Configure%20Nanominer">Step 2 - Configure Nanominer</a></li>
-<li><a href="#Step%203%20-%20start%20Nanominer">Step 3 - start Nanominer</a></li>
-<li><a href="#Video%20guide">Video guide</a></li>
+<li><a href="#an-issue-with-javamultidoge-not-opening-on-mac">An issue with java/MultiDoge not opening on Mac</a></li>
+<li><a href="#multidoge-still-wont-open-what-should-i-do">MultiDoge still won’t open, what should I do?</a></li>
+<li> <a href="#wallet-synchronization-not-working">Wallet synchronization not working</a><ul>
+<li><a href="#method-1-transfer-wallet-to-another-application">Method 1: transfer wallet to another application</a></li>
+<li><a href="#method-2-update-checkpoints">Method 2: Update checkpoints</a></li>
+<li><a href="#method-3-add-peers-to-the-config-file-if-sync-gets-stuck-and-takes-forever">Method 3: Add peers to the config file if sync gets stuck and takes forever</a></li>
 </ul>
 </li>
-<li><a href="#setting-up-via-config-using-ravencoin-as-an-example">Setting up via Config using Ravencoin as an example</a></li>
-<li><a href="#settings-for-ergo">Settings for Ergo</a></li>
-<li><a href="#setting-up-a-batch-file-for-nicehash">Setting up a batch file for Nicehash</a></li>
-<li><a href="#Ergo%20Mining%20Setup%20Windows%20Smos%20Hive%20Amd%20Nvidia">Ergo Mining Setup Windows Smos Hive Amd Nvidia</a></li>
-<li><a href="#Mining%20Software%20Comparison%20-%20PhoenixMiner%20-%20NbMiner%20-%20T-Rex%20Miner%20-%20Nanominer">Mining Software Comparison - PhoenixMiner - NbMiner - T-Rex Miner - Nanominer</a></li>
-<li><a href="#algorithms">Algorithms</a></li>
-<li> <a href="#commands-and-options">Commands and options</a><ul><li><a href="#reboot">Reboot</a></li></ul>
-</li>
-<li><a href="#troubleshooting">Troubleshooting</a></li>
-<li><a href="#dual-mining">Dual mining</a></li>
+<li><a href="#stuck-on-connecting-or-does-not-connect-to-the-network">Stuck on connecting or does not connect to the network</a></li>
 <li><a href="#alternatives">Alternatives</a></li>
-<li><a href="#releases">Releases</a></li>
-<li><a href="#conclusions">Conclusions</a></li>
 </ul></nav></aside><div class="inner">
-<div id="paper" class="yel"><div id="pattern"><div id="note-cont"> Nano miner: how to set up and how to run dual mining. LHR unlock.</div></div></div>
-<p><em>This guide describes how to start and how to use the latest version of Nanominer 3.7.0 and higher.</em></p>
-<h2 id="download-for-windows--linux">Download for Windows / Linux</h2>
+<div id="paper" class="btc"><div id="pattern"><div id="note-cont"> Troubleshooting: the application does not see Java, does not start</div></div></div>
+<p><em>In this guide, you will learn how to solve MultiDoge opening and slow sync errors of the latest version 1.7.7, and newer.</em></p>
 <script async="" src="https://coinzillatag.com/lib/display.js"></script><div class="coinzilla" data-zone="C-26960aca952082b4725"></div>
-<script> window.coinzilla_display = window.coinzilla_display || []; var c_display_preferences = {}; c_display_preferences.zone = "26960aca952082b4725"; c_display_preferences.width = "300"; c_display_preferences.height = "250"; coinzilla_display.push(c_display_preferences); </script><p><a href="https://nanominer.info/" class="btn btn--success btn--x-large" rel="nofollow noopener" target="_blank">Download from site</a> <a href="https://github.com/nanopool/nanominer/releases" class="btn btn--info btn--x-large" rel="nofollow noopener" target="_blank">Download from Github</a> <a href="https://bitcointalk.org/index.php?topic=5089248" class="btn btn--yandex btn--x-large" rel="nofollow noopener" target="_blank">Download from BitcoinTalk</a></p>
-<section><h2 id="what-is-nanominer">What is Nanominer?</h2>
-<p><dfn>Nanominer</dfn> – is a cryptocurrency miner that runs on AMD, NVIDIA graphics cards and on a processor. Supports dual mining mode, overclocking control and power consumption limit. There is a convenient web interface for tracking statistics. It is mainly used to mine cryptocurrencies such as Ethereum, Zilliqa and Ergo.</p></section><h3 id="algorithms-and-fees">Algorithms and fees</h3>
-<table>
-<thead><tr>
-<th style="text-align: center">Algorithm</th>
-<th style="text-align: center">Cryptocurrency</th>
-<th style="text-align: center">Dev Fee</th>
-<th style="text-align: center">AMD</th>
-<th style="text-align: center">Nvidia</th>
-<th style="text-align: center">CPU</th>
-</tr></thead>
-<tbody>
-<tr>
-<td style="text-align: center">Ethash</td>
-<td style="text-align: center">ETH &amp; other</td>
-<td style="text-align: center">1%</td>
-<td style="text-align: center">✓</td>
-<td style="text-align: center">✓</td>
-<td style="text-align: center"> </td>
-</tr>
-<tr>
-<td style="text-align: center">Etchash</td>
-<td style="text-align: center">ETC</td>
-<td style="text-align: center">1%</td>
-<td style="text-align: center">✓</td>
-<td style="text-align: center">✓</td>
-<td style="text-align: center"> </td>
-</tr>
-<tr>
-<td style="text-align: center">Ubqhash</td>
-<td style="text-align: center">UBQ</td>
-<td style="text-align: center">1%</td>
-<td style="text-align: center">✓</td>
-<td style="text-align: center">✓</td>
-<td style="text-align: center"> </td>
-</tr>
-<tr>
-<td style="text-align: center">KawPow</td>
-<td style="text-align: center">RVN</td>
-<td style="text-align: center">2%</td>
-<td style="text-align: center">✓</td>
-<td style="text-align: center">✓</td>
-<td style="text-align: center"> </td>
-</tr>
-<tr>
-<td style="text-align: center">Octopus</td>
-<td style="text-align: center">CFX</td>
-<td style="text-align: center">2%</td>
-<td style="text-align: center"> </td>
-<td style="text-align: center">✓</td>
-<td style="text-align: center"> </td>
-</tr>
-<tr>
-<td style="text-align: center">Autolykos</td>
-<td style="text-align: center">ERG</td>
-<td style="text-align: center">2.5%</td>
-<td style="text-align: center">✓</td>
-<td style="text-align: center">✓</td>
-<td style="text-align: center"> </td>
-</tr>
-<tr>
-<td style="text-align: center">RandomX</td>
-<td style="text-align: center">XMR</td>
-<td style="text-align: center">2%</td>
-<td style="text-align: center"> </td>
-<td style="text-align: center"> </td>
-<td style="text-align: center">✓</td>
-</tr>
-<tr>
-<td style="text-align: center">Verushash</td>
-<td style="text-align: center">VRSC</td>
-<td style="text-align: center">2%</td>
-<td style="text-align: center"> </td>
-<td style="text-align: center"> </td>
-<td style="text-align: center">✓</td>
-</tr>
-</tbody>
-</table>
-<h3 id="requirements">Requirements</h3>
-<p>To work with NVIDIA video cards, you need:</p>
-<ul>
-<li>driver 411.31 and higher on Windows,</li>
-<li>Nvidia driver 410.48 and newer on Linux.</li>
-</ul>
-<p>Version <code class="language-plaintext highlighter-rouge">cuda11</code> requires driver 456.38 or later on Windows or Nvidia 455.23 or later on Linux. Nvidia 30xx series graphics cards will only work with <code class="language-plaintext highlighter-rouge">cuda11</code> the miner version.</p>
-<p>To start mining Ethereum using a Nanominer, you just need to enter your wallet into the configuration or batch file.</p>
-<section id="how-to-start" itemscope="itemscope" itemtype="http://schema.org/HowTo"><h2 itemprop="name" id="How to run Nanominer through a bat file">How to run Nanominer through a bat file</h2>
+<script> window.coinzilla_display = window.coinzilla_display || []; var c_display_preferences = {}; c_display_preferences.zone = "26960aca952082b4725"; c_display_preferences.width = "300"; c_display_preferences.height = "250"; coinzilla_display.push(c_display_preferences); </script><section id="how-to-start" itemscope="itemscope" itemtype="http://schema.org/HowTo"><h2 itemprop="name" id="How to fix java not found error in MultiDoge">How to fix java not found error in MultiDoge</h2>
 <div class="panel panel-default" id="step1" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
 <link itemprop="url" href="#step1">
-<meta itemprop="image" content="/assets/images/miners/nanominer/nanominer_download.png">
-<h3 class="panel-title" itemprop="name" id="Step 1 - Download Nanominer">Step 1 - Download Nanominer</h3>
+<meta itemprop="image" content="/assets/images/og.png">
+<h3 class="panel-title" itemprop="name" id="Step 1 - Download and Install Java">Step 1 - Download and Install Java</h3>
 <div class="panel-body" itemprop="text">
-<p>Nanopool provides a link to download Nanominer:</p>
-<ul>
-<li> <a href="https://github.com/nanopool/nanominer/releases" rel="nofollow noopener" target="_blank">on GitHub</a>
-</li>
-<li> <a href="https://nanominer.info/" rel="nofollow noopener" target="_blank">and on the official website</a>.</li>
-</ul>
-<p></p>
-<ol>
-<li>Go to the GitHub repository. Find "Assets":<p><a href="/assets/images/miners/nanominer/nanominer_download.png" class="image-popup"> <img src="/assets/images/miners/nanominer/nanominer_download.png" alt="nanominer_download" loading="lazy" decoding="async"> </a></p>
-</li>
-<li>Download the most recent ZIP archive for Windows 10 or your other operating system.</li>
-<li>Unpack the downloaded archive to a convenient place (for example, on the Desktop).<p><a href="/assets/images/miners/nanominer/nanominer_extract.png" class="image-popup"> <img src="/assets/images/miners/nanominer/nanominer_extract.png" alt="nanominer_extract" loading="lazy" decoding="async"> </a></p>
-</li>
-</ol>
+<p class="notice--info">Skip this step if you already have Java installed.</p>
+<p>When this error occurs, you see "Java has not been found on your computer. Do you want to download it?" <a href="/assets/images/guide/multidoge/java_not_found.png" class="image-popup"> <img src="/assets/images/guide/multidoge/java_not_found.png" alt="multidoge java_not_found" loading="lazy" decoding="async"> </a></p>
+<p>Download the latest version of the application from <a href="https://www.java.com/en/" rel="nofollow noopener" target="_blank">the official Java website</a>. <a href="/assets/images/guide/multidoge/download_java.png" class="image-popup"> <img src="/assets/images/guide/multidoge/download_java.png" alt="multidoge download_java" loading="lazy" decoding="async"> </a></p>
+<p>After downloading the software, proceed with the installation. Click "Yes": <a href="/assets/images/guide/multidoge/install_java.png" class="image-popup small"> <img src="/assets/images/guide/multidoge/install_java.png" alt="multidoge install_java " loading="lazy" decoding="async"> </a></p>
+<p>Click "Install": <a href="/assets/images/guide/multidoge/install_java2.png" class="image-popup"> <img src="/assets/images/guide/multidoge/install_java2.png" alt="multidoge install_java2" loading="lazy" decoding="async"> </a></p>
+<p>Wait for the installation to complete: <a href="/assets/images/guide/multidoge/install_java3.png" class="image-popup"> <img src="/assets/images/guide/multidoge/install_java3.png" alt="multidoge install_java3" loading="lazy" decoding="async"> </a></p>
+<p>Click "Close": <a href="/assets/images/guide/multidoge/install_java4.png" class="image-popup"> <img src="/assets/images/guide/multidoge/install_java4.png" alt="multidoge install_java4" loading="lazy" decoding="async"> </a></p>
 </div>
 </div>
 <div class="panel panel-default" id="step2" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
-<link itemprop="url" href="#step2">
+<link itemprop="url" href="/buy/eth/#step2">
 <meta itemprop="image" content="/assets/images/og.png">
-<h3 class="panel-title" itemprop="name" id="Step 2 - Configure Nanominer">Step 2 - Configure Nanominer</h3>
+<h3 class="panel-title" itemprop="name" id="Step 2 - Specify Java Environment Variables">Step 2 - Specify Java Environment Variables</h3>
 <div class="panel-body" itemprop="text"><div>
-<p>After you have unpacked the archive, you will see the configuration files <code>.ini</code>. You need to edit these default config files or create a <code>.bat</code> file.</p>
-<p><a href="/assets/images/miners/nanominer/nanominer_files.png" class="image-popup"> <img src="/assets/images/miners/nanominer/nanominer_files.png" alt="nanominer_files" loading="lazy" decoding="async"> </a></p>
-<p>Let's start with the <code>.bat </code>file. In the same folder as <code>nanominer.exe</code>, you need to create a file with the extension <code>.bat</code>.</p>
-<p>Just copy any <code>.ini</code> file and give it the extension <code>.bat</code>.</p>
-<p>Open the <code>.bat</code> file with Notepad. Below is an example of a setup for Ethereum. You need to add the following commands to it:</p>
-<div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">helper_scripts</span><span class="na">/cmdline</span>_launcher <span class="na">-algo </span><span class="kd">ethash</span> <span class="na">-coin </span><span class="kd">eth</span> <span class="na">-pool</span><span class="m">1</span> <span class="kd">ethash</span>.poolbinance.com:8888 <span class="na">-wallet </span><span class="kd">username1</span> <span class="na">-rigName </span><span class="kd">RIG_ID</span>
-<span class="nb">pause</span>
-</code></pre></div></div>
-<p>Instead, <code>username1</code> just insert your username from the Binance Pool.</p>
+<p>MultiDoge cannot open because <a href="https://docs.oracle.com/javase/tutorial/essential/environment/env.html" rel="nofollow noopener" target="_blank">Java environment variables</a> are not set on the system. Namely, the variable <code>Path</code> is not set. Although Java is already on your system, the application will say "java not installed" until you make the following changes:</p>
+<ol>
+<li>Open environment variable settings. The easiest way to open them is to type "path" in the Windows settings search and select "Edit environment variables for your account" <a href="/assets/images/guide/multidoge/path.png" class="image-popup"> <img src="/assets/images/guide/multidoge/path.png" alt="multidoge path" loading="lazy" decoding="async"> </a><ul><li>The second way is to open the System applet and then select Advanced system settings -&gt; Environment Variables. <a href="/assets/images/guide/multidoge/env.png" class="image-popup"> <img src="/assets/images/guide/multidoge/env.png" alt="multidoge env" loading="lazy" decoding="async"> </a>
+</li></ul>
+</li>
+<li>In the window that opens, click "New..." <a href="/assets/images/guide/multidoge/env2.png" class="image-popup"> <img src="/assets/images/guide%20/multidoge/env2.png" alt="multidoge env2" loading="lazy" decoding="async"> </a>
+</li>
+<li>Enter the environment variables <span class="red">your version</span> of Java. You can find out the version by going to the folder with Java installed. Example: <code>C:\Program Files\Java</code><a href="/assets/images/guide/multidoge/env3.png" class="image-popup"> <img src="/assets/images/guide/multidoge/env3.png" alt="multidoge env3" loading="lazy" decoding="async"> </a><br><p>In the Variable name field, enter: <code>JAVA_HOME</code></p>
+<p>In Variable value:<code>C:\Program Files\Java\jre1.8.0_341\bin</code></p>
+<p>If you have a different version, then instead of <code>jre1.8.0_341</code>, enter the name of your folder.</p>
+</li>
+<li>System variables should look like this: <a href="/assets/images/guide/multidoge/env4.png" class="image-popup"> <img src="/assets/images/guide/multidoge/env4.png" alt="multidoge env4" loading="lazy" decoding="async"> </a><br> Click "Ok".</li>
+</ol>
 </div></div>
 </div>
 <div class="panel panel-default" id="step3" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
 <link itemprop="url" href="/#step3">
 <meta itemprop="image" content="/assets/images/og.jpg">
-<h3 class="panel-title" itemprop="name" id="Step 3 - start Nanominer">Step 3 - start Nanominer</h3>
-<div class="panel-body" itemprop="text">
-<p>After everything is done in step 2, you are ready to mine. All that's left to do is launch the miner and then go to the Binance Pool, where you can track your mining progress.</p>
-<p>The program is launched in a standard way: double-click the left mouse button on the file with the extension <code>.bat</code>. After starting, a window opens indicating all the entered parameters.</p>
-<a href="/assets/images/miners/nanominer/nanominer_hashrate.png" class="image-popup"> <img src="/assets/images/miners/nanominer/nanominer_hashrate.png" alt="nanominer_hashrate" loading="lazy" decoding="async"> </a>
-</div>
+<h3 class="panel-title" itemprop="name" id="Step 3 - Start the wallet again">Step 3 - Start the wallet again</h3>
+<div class="panel-body" itemprop="text"><p>After setting the environment variables, you will be able to open the <code>multidoge.exe</code> wallet or the <code>multidoge-0.1.7-windows-setup</code> installer. The application requires any version of Java. The main thing was to specify the path to the installed version of Java in the system environment variables.</p></div>
 </div>
 <div class="panel panel-default" id="videoguide" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
 <link itemprop="url" href="/#videoguide">
 <meta itemprop="image" content="/assets/images/og.png">
 <div class="panel-body">
-<meta itemprop="text" content="How to mine ethereum with nanominer - nanopool - easy setup 10 mins - eth (updated 2021).">
+<meta itemprop="text" content="solve problem java not found">
 <div class="youtubevideowrap" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/TwKzv7rAKnY">
-<link itemprop="contentUrl" content="https://www.youtube.com/embed/TwKzv7rAKnY">
-<h3 class="panel-title" itemprop="name" id="Video guide">Video guide</h3>
-<meta itemprop="description" content="Start to finish setup of nanominer, mining Ethereum (ETH) on nanopool. Learn how to start mining with your PC GPU and/or CPU using nanominer. Setting up a mining rig to mine on Ethereum nanopool. ">
-<meta itemprop="uploadDate" content="2021-06-24">
-<meta itemprop="duration" content="PT20M35S">
-<div class="youtube-player" data-id="TwKzv7rAKnY"></div>
+<link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/XPISwpLtFNs">
+<link itemprop="contentUrl" content="https://www.youtube.com/embed/XPISwpLtFNs">
+<h3 class="panel-title" itemprop="name" id="Video Guide">Video Guide</h3>
+<meta itemprop="description" content="how to install multidoge in windows 10 with solve problem java not found">
+<meta itemprop="uploadDate" content="2022-08-18">
+<meta itemprop="duration" content="PT11M28S">
+<div class="youtube-player" data-id="XPISwpLtFNs"></div>
 <div class="ytb-but"><a href="https://cutt.ly/pxlaiCA" rel="nofollow noopener" target="_blank">subscribe</a></div>
 </div>
 </div>
-</div></section><h2 id="setting-up-via-config-using-ravencoin-as-an-example">Setting up via Config using Ravencoin as an example</h2>
-<p>An alternative launch option would be setting instead of a batch file through a configuration file. It has the extension <code class="language-plaintext highlighter-rouge">.ini</code></p>
-<p>By default, the program reads the settings from a file <code class="language-plaintext highlighter-rouge">config.ini</code> and runs through <code class="language-plaintext highlighter-rouge">nanominer.exe</code>.</p>
-<p>Listing of the configured file for Ravencoin:</p>
-<div class="language-ini highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">; Address to send funds to. Change this address to yours!
-</span><span class="py">wallet</span> <span class="p">=</span> <span class="s">RAXCRKF2JdYwYLn2RiMxDPNgvKMwfVrjY9</span>
+</div></section><h2 id="an-issue-with-javamultidoge-not-opening-on-mac">An issue with java/MultiDoge not opening on Mac</h2>
+<p>To run view/change environment variables on macOS<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>% nan
+o ~/.zshenv
+</code></pre></div></div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">export </span><span class="nv">JAVA_HOME</span><span class="o">=</span><span class="si">$(</span>/usr/libexec/java_home<span class="si">)</span>
+</code></pre></div></div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>% <span class="nb">source</span> ~/.zshenv
 
-<span class="c">; Coin to mine.
-</span><span class="py">coin</span> <span class="p">=</span> <span class="s">RVN</span>
-
-<span class="c">; (Optional) Rig (worker) name.
-</span><span class="py">rigName</span> <span class="p">=</span> <span class="s">speed_test</span>
+% <span class="nb">echo</span> <span class="nv">$JAVA_HOME</span>
+/Library/Java/JavaVirtualMachines/jdk-16.jdk/Contents/Home 
 </code></pre></div></div>
-<p>In the config file, you need to change three things:</p>
+<p><a href="https://mkyong.com/java/how-to-set-java_home-environment-variable-on-mac-os-x/" rel="nofollow noopener" target="_blank">Learn more about setting Java variables on macOS</a></p>
+<p>Watch the video:</p>
+<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject" class="classyschema-videoobject"> <span itemprop="name" class="classyschema-videoobject-name">how to solve Multidoge java has not been found on your computer</span><div class="youtube-player" data-id="ZNS_xcQDDBA"></div>
+<div itemprop="description" class="classyschema-videoobject-description">Replace jdk1.8.0_131 with your ver you can find name at C:\Program Files\Java\</div>
+<link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/ZNS_xcQDDBA"> <span itemprop="uploadDate" content="2021-05-14" class="classyschema-videoobject-uploaddate" data-content="2021-05-14"></span> <span itemprop="duration" content="PT1M47S" class="classyschema-videoobject-duration" data-content="PT1M47S"></span> <span class="classyschema-videoobject-embedurl" data-content="https://www.youtube.com/embed/ZNS_xcQDDBA" style="display: none;" itemprop="embedUrl" content="https://www.youtube.com/embed/ZNS_xcQDDBA">https://www.youtube.com/embed/ZNS_xcQDDBA</span><div itemprop="potentialAction" itemscope="" itemtype="http://schema.org/SeekToAction">
+<meta itemprop="target" content="https://youtu.be/ZNS_xcQDDBA?t={seek_to_second_number}">
+<meta itemprop="startOffset-input" content="required name=seek_to_second_number">
+</div>
+<span class="classyschema-videoobject-seektoaction" data-content="https://youtu.be/ZNS_xcQDDBA?t={seek_to_second_number}" style="display: none;">https://youtu.be/ZNS_xcQDDBA?t={seek_to_second_number}</span>
+</div>
+<h2 id="multidoge-still-wont-open-what-should-i-do">MultiDoge still won’t open, what should I do?</h2>
 <ol>
-<li> <code class="language-plaintext highlighter-rouge">wallet</code> - insert here the address of your wallet from the mined cryptocurrency.</li>
-<li> <code class="language-plaintext highlighter-rouge">coin</code> - indicate the ticker of the coin (usually it is displayed on the exchange). Leave RVN for Ravencoin.</li>
-<li> <code class="language-plaintext highlighter-rouge">rigName</code> - specify the name of the worker (your mining rig).</li>
+<li>Go to <code class="language-plaintext highlighter-rouge">.config/MultiDoge</code> or <code class="language-plaintext highlighter-rouge">%appdata%\MultiDoge</code> depending on your OS. <a href="/assets/images/guide/multidoge/appdata.png" class="image-popup"> <img src="/assets/images/guide/multidoge/appdata.png" alt="multidoge appdata" loading="lazy" decoding="async"> </a>
+</li>
+<li> <span class="red">Back up your wallet</span>. The file has a <code class="language-plaintext highlighter-rouge">.wallet</code> extension. Copy it to a safe place. You can put it in DropBox or OneDrive and encrypt it with a password. Better yet, copy the entire folder before deleting it.</li>
+<li>Delete the <code class="language-plaintext highlighter-rouge">MultiDoge</code> folder in <code class="language-plaintext highlighter-rouge">.config/</code> or <code class="language-plaintext highlighter-rouge">%appdata%</code>
+</li>
+<li>If the folder cannot be deleted because “the file is already open by another program”, open the task manager and end the <code class="language-plaintext highlighter-rouge">javaw.exe</code> and <code class="language-plaintext highlighter-rouge">MultiDoge.exe</code> processes.</li>
+<li>Launch MultiDoge.</li>
+<li>Open your <code class="language-plaintext highlighter-rouge">.wallet</code> using <code class="language-plaintext highlighter-rouge">File</code> &gt; <code class="language-plaintext highlighter-rouge">Open Wallet</code>.</li>
+<li>Set your preferences using <code class="language-plaintext highlighter-rouge">View</code> &gt; <code class="language-plaintext highlighter-rouge">Preferences</code>.</li>
 </ol>
-<p>Here’s what we should get:</p>
-<p><a href="/assets/images/miners/nanominer/nanominer_config_rvn.png" class="image-popup"> <img src="/assets/images/miners/nanominer/nanominer_config_rvn.png" alt="nanominer_config_rvn" loading="lazy" decoding="async"> </a></p>
+<p>If you have any shortcuts for your addresses, they are stored in your <code class="language-plaintext highlighter-rouge">.info</code> files, so save those files as well.</p>
+<h2 id="wallet-synchronization-not-working">Wallet synchronization not working</h2>
+<h3 id="method-1-transfer-wallet-to-another-application">Method 1: transfer wallet to another application</h3>
+<p>You will need your wallet passwords in order to export the private key. If you have a private key, use the <a href="/en/wallets/exodus/">Exodus wallet</a>, and in the DOGE wallet in exodus, there is a Move Funds section in the 3-dot drop-down menu. Enter your private key there and it will transfer all funds to your Exodus wallet.</p>
+<h3 id="method-2-update-checkpoints">Method 2: Update checkpoints</h3>
+<p>If you are far behind in sync, then this guide is for you. Even if you are currently already synced, it’s worth following this guide to be prepared for future resyncs. These new checkpoints contain blocks until January 30, 2021. If you are trying to sync a wallet that was created before the summer of 2016, then unfortunately this will not help you.</p>
+<p>How to quickly sync MultiDoge?<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></p>
 <ol>
-<li>Double click the file <code class="language-plaintext highlighter-rouge">nanominer.exe</code> in the Nanominer folder.</li>
-<li>A window will appear showing the progress of the miner as he connects to the pool, adjusts a few more parameters and starts mining. On Windows it will look something like the window below. <a href="/assets/images/miners/nanominer/nanominer_console2.png" class="image-popup"> <img src="/assets/images/miners/nanominer/nanominer_console2.png" alt="nanominer_console" loading="lazy" decoding="async"> </a>
+<li>Completely close MultiDoge.</li>
+<li>Download this file: <a href="https://gist.github.com/langerhans/499137ec2434d4a527a4b90890736824/raw/multidoge.checkpoints" rel="nofollow noopener" target="_blank">multidoge.checkpoints</a>
 </li>
-<li>That’s it, you mine RVN from Nanopool with Nanominer!</li>
-<li>Now let’s check our Nanopool progress. Visit <a href="https://nanopool.org/" rel="nofollow noopener" target="_blank">nanopool.org</a> in a web browser.</li>
-<li>Click RavenCoin on the main page.</li>
-<li>In the upper right corner of the page, paste your wallet address and click Search.<a href="/assets/images/miners/nanominer/address_search.png" class="image-popup"> <img src="/assets/images/miners/nanominer/address_search.png" alt="address_search" loading="lazy" decoding="async"> </a>
-</li>
-<li>You will receive either a page with statistics for your mining farm, or a page where no account was found, which (assuming your wallet was configured correctly) means that you have to wait until your farm finds a few shares (solutions). <a href="/assets/images/miners/nanominer/nanopool_not_found.png" class="image-popup"> <img src="/assets/images/miners/nanominer/nanopool_not_found.png" alt="nanopool_not_found" loading="lazy" decoding="async"> </a>
-</li>
-<li>We are waiting for the cannon to report <code class="language-plaintext highlighter-rouge">Total shares</code> at least 1. <a href="/assets/images/miners/nanominer/nanominer_shares.png" class="image-popup"> <img src="/assets/images/miners/nanominer/nanominer_shares.png" alt="nanominer_shares" loading="lazy" decoding="async"> </a>
-</li>
-<li>We update the page that reported “Account Not Found” and see that the statistics have appeared: <a href="/assets/images/miners/nanominer/nanopool_rvn_stats.png" class="image-popup"> <img src="/assets/images/miners/nanominer/nanopool_rvn_stats.png" alt="nanopool_rvn_stats" loading="lazy" decoding="async"> </a>
-</li>
+<li>Copy this file to the MultiDoge data directory. See the path below. Overwrite the existing file. If you have already synced to this step, then you are all set. If not, continue.</li>
+<li>Launch MultiDoge.</li>
+<li>From the MultiDoge menu, select <code class="language-plaintext highlighter-rouge">Tools</code>, then <code class="language-plaintext highlighter-rouge">Reset Blockchain and Transactions</code>.</li>
+<li>On the tab that appears, click <code class="language-plaintext highlighter-rouge">Reset blockchain and transactions</code> (Reset blockchain and transactions).</li>
 </ol>
-<p>After mining another ten minutes, a graph with a hash rate will appear.</p>
-<p class="notice--success">Mine on Nvidia? Read about <a href="/en/miners/phoenixminer/">configuring PhoenixMiner</a>and <a href="/en/miners/nbminer/">NBMiner</a>.Perhaps they are more profitable.</p>
-<h2 id="settings-for-ergo">Settings for Ergo</h2>
-<table><tbody>
-<tr>
-<td>STRATUM:</td>
-<td>stratum+ergo-eu1.nanopool.org</td>
-</tr>
-<tr>
-<td>PORT:</td>
-<td>11111</td>
-</tr>
-<tr>
-<td>Username:</td>
-<td>9hEq42Jrr21uHJehvUNZ7uuo9429EEKb6WPSG9y7SargP3wF9rp</td>
-</tr>
-</tbody></table>
-<p>Here is a finished example of a setup for Ergo:</p>
-<p><a href="/assets/images/miners/nanominer/nanominer_ergo.png" class="image-popup"> <img src="/assets/images/miners/nanominer/nanominer_ergo.png" alt="nanominer_ergo" loading="lazy" decoding="async"> </a></p>
-<ol>
-<li> <code class="language-plaintext highlighter-rouge">helper_scripts/cmdline_launcher</code> - starts the program. The file cmdline_launchermust be in a folder helper_scripts.</li>
-<li> <code class="language-plaintext highlighter-rouge">autolykos</code> - indicate the cryptocurrency mining algorithm.</li>
-<li> <code class="language-plaintext highlighter-rouge">ergo-eu2.nanopool.org</code> - we indicate the address of the pool.</li>
-<li> <code class="language-plaintext highlighter-rouge">11111</code> - we specify the port of the pool.</li>
-<li> <code class="language-plaintext highlighter-rouge">9hEq42Jrr21uHJehvUNZ7uuo9429EEKb6WPSG9y7SargP3wF9rp</code> - we indicate the crypto wallet of the token. You can use an exchange or cold wallet at your own discretion.</li>
-</ol>
-<p>Example:</p>
-<p class="notice--success"><code>helper_scripts/cmdline_launcher -algo autolykos -coin erg -pool1 ergo-eu2.nanopool.org:11111 -wallet 9hEq42Jrr21uHJehvUNZ7uuo9429EEKb6WPSG9y7SargP3wF9rp -rigName MSI<br> pause </code></p>
-<h2 id="setting-up-a-batch-file-for-nicehash">Setting up a batch file for Nicehash</h2>
-<p><a href="/assets/images/miners/nanominer/nanominer_nicehash.png" class="image-popup"> <img src="/assets/images/miners/nanominer/nanominer_nicehash.png" alt="nanominer_nicehash" loading="lazy" decoding="async"> </a></p>
-<ol>
-<li> <code class="language-plaintext highlighter-rouge">helper_scripts/cmdline_launcher</code> - starts the program.</li>
-<li> <code class="language-plaintext highlighter-rouge">ethash</code> - indicate the cryptocurrency mining algorithm.</li>
-<li> <code class="language-plaintext highlighter-rouge">daggerhashimoto.eu.nicehash.com:3353</code> - we specify the address of the pool and its port</li>
-<li> <code class="language-plaintext highlighter-rouge">3P7qADz69quhfyK5e9kvfno6Jyjq4Rcocx</code> - we indicate the crypto wallet from the <a href="/en/miners/nicehash/">NiceHash</a> account.</li>
-</ol>
-<p>Example:</p>
-<p class="notice--info"><code> helper_scripts/cmdline_launcher -algo ethash -pool1 stratum+tcp://daggerhashimoto.eu.nicehash.com:3353 -wallet 16p3MvQB7Va2cAPBahvkBePxqQtwTd77sP<br> pause </code></p>
-<p>Source: <a href="https://bytwork.com/en/soft/nanominer" target="_blank">bytwork.com - Nanominer setup</a>.</p>
-<p> </p>
-<link itemprop="url" href="/#videoguide">
-<meta itemprop="image" content="/assets/images/og.png">
-<div class="youtubevideowrap" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/ZWBA7x8tVE0">
-<link itemprop="contentUrl" content="https://www.youtube.com/embed/ZWBA7x8tVE0"> <span class="panel-title" itemprop="name" id="How To Mine Ethereum with Nanominer - Nanopool - Easy Setup 10 Mins">How To Mine Ethereum with Nanominer - Nanopool - Easy Setup 10 Mins</span><div itemprop="description"><p>Start to finish setup of nanominer, mining Ethereum (ETH) on nanopool. Learn how to start mining with your PC GPU and/or CPU using nanominer. Setting up a mining rig to mine on Ethereum nanopool.</p></div>
-<meta itemprop="uploadDate" content="2020-11-19">
-<meta itemprop="duration" content="PT9M46S">
-<div class="youtube-player" data-id="ZWBA7x8tVE0"></div>
-<div class="ytb-but"><a href="https://cutt.ly/pxlaiCA" rel="nofollow noopener" target="_blank">subscribe</a></div>
-</div>
-<p class="notice--success">Note!<br> You need an Ethereum wallet but can use any Ethereum <a href="/en/wallets">crypto wallet</a> you like.</p>
-<p> </p>
-<link itemprop="url" href="/#videoguide">
-<meta itemprop="image" content="/assets/images/og.png">
-<div class="youtubevideowrap" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/SkomqhZR8E0">
-<link itemprop="contentUrl" content="https://www.youtube.com/embed/SkomqhZR8E0">
-<h2 class="panel-title" itemprop="name" id="Ergo Mining Setup Windows Smos Hive Amd Nvidia">Ergo Mining Setup Windows Smos Hive Amd Nvidia</h2>
-<div itemprop="description"><p>Always check calculator for the latest profitability!</p></div>
-<meta itemprop="uploadDate" content="2021-03-31">
-<meta itemprop="duration" content="PT35M47S">
-<div class="youtube-player" data-id="SkomqhZR8E0"></div>
-<div class="ytb-but"><a href="https://cutt.ly/pxlaiCA" rel="nofollow noopener" target="_blank">subscribe</a></div>
-</div>
-<p> </p>
-<link itemprop="url" href="/#videoguide">
-<meta itemprop="image" content="/assets/images/og.png">
-<div class="youtubevideowrap" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/Fgxazl_Va5U">
-<link itemprop="contentUrl" content="https://www.youtube.com/embed/Fgxazl_Va5U">
-<h2 class="bold" itemprop="name" id="Mining Software Comparison - PhoenixMiner - NbMiner - T-Rex Miner - Nanominer">Mining Software Comparison - PhoenixMiner - NbMiner - T-Rex Miner - Nanominer</h2>
-<div itemprop="description">
-<p>In this two-part video series, we test the Ethereum - ETH and Ergo - ERG performances of different miner programs. We will use the optimum overclock settings and stock values during this comparison.</p>
-<p>In our previous videos, we examined the Ethereum (ETH), Raven (RVN) and Ergo (ERG) mining performances of the Rtx 3080 Ti with different overclock settings. You can access these videos from the links below:</p>
-</div>
-<meta itemprop="uploadDate" content="2021-08-12">
-<meta itemprop="duration" content="PT28M18S">
-<div class="youtube-player" data-id="Fgxazl_Va5U"></div>
-</div>
-<p> </p>
-<link itemprop="url" href="/#videoguide">
-<meta itemprop="image" content="/assets/images/og.png">
-<div class="youtubevideowrap" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/KyHo0EicqnE">
-<link itemprop="contentUrl" content="https://www.youtube.com/embed/KyHo0EicqnE"> <span class="bold" itemprop="name" id="Rtx 3080 Ti - Mining Software Comparison - PhoenixMiner - NbMiner - T-Rex Miner - Nanominer - Part 2">Rtx 3080 Ti - Mining Software Comparison - PhoenixMiner - NbMiner - T-Rex Miner - Nanominer - Part 2</span><div itemprop="description"><p>I wanted to compare Ergo and Eth, but as far as I know, Ergo mining is not done with the latest version of GMiner anyway, I chose popular programs and therefore I did not include GMiner in the test. For example, I would like to include Team Red Miner, but it does not work with Nvidia cards.</p></div>
-<meta itemprop="uploadDate" content="2021-08-12">
-<meta itemprop="duration" content="PT31M04S">
-<div class="youtube-player" data-id="KyHo0EicqnE"></div>
-</div>
-<h2 id="algorithms">Algorithms</h2>
-<ul>
-<li>Ethash</li>
-<li>Etchash</li>
-<li>Ubqhash</li>
-<li>KAWPOW</li>
-<li>octopus</li>
-<li>autolykos2</li>
-<li>RandomX</li>
-<li>Verushash</li>
-</ul>
-<h2 id="commands-and-options">Commands and options</h2>
-<table>
-<thead><tr>
-<td>Command</td>
-<td>What does</td>
-</tr></thead>
-<tbody>
-<tr>
-<td><code>wallet</code></td>
-<td>Cryptocurrency mining wallet</td>
-</tr>
-<tr>
-<td><code>coin</code></td>
-<td>Cryptocurrency that we will mine</td>
-</tr>
-<tr>
-<td><code>rigName</code></td>
-<td>The name we have assigned to our mining rig.</td>
-</tr>
-<tr>
-<td><code>sortPools</code></td>
-<td>We use <code>sortPools=true</code>, to instruct the miner to choose the best pool for us.</td>
-</tr>
-<tr>
-<td><code>pool1</code></td>
-<td>We indicate the address of the pool.</td>
-</tr>
-<tr>
-<td><code>checkForUpdates</code></td>
-<td>Whether to check for updates. <code>checkForUpdates=true</code> to turn on the checker.</td>
-</tr>
-<tr>
-<td><code>autoUpdate</code></td>
-<td>Enable / disable automatic updates. <code>checkForUpdates=false</code> to disable.</td>
-</tr>
-<tr>
-<td><code>memTweak</code></td>
-<td> You can configure on-the-fly AMD timing changes for Ethash/Etchash/Ubqhash algorithms. Example: <code>memTweak=8,9,10</code>
-</td>
-</tr>
-<tr>
-<td><code>rigPassword</code></td>
-<td>Set a password for the farm or worker. This can be useful when working with pools that require registration and setting a rig password.</td>
-</tr>
-</tbody>
-</table>
-<h3 id="reboot">Reboot</h3>
-<p><code class="language-plaintext highlighter-rouge">restarts</code> - the parameter sets the number of miner restarts before restarting the farm. In case of problems with the video card, such as hardware errors or lagging, or if the hash rate drops (if the minhashrate option is used), nanominer will restart. However, some errors cannot be corrected by restarting the program. In such cases, you need to reboot the rig. To reboot, the miner loads the script <code class="language-plaintext highlighter-rouge">reboot.bat</code> from the current directory, if it is running on Windows, or <code class="language-plaintext highlighter-rouge">reboot.sh</code> if on Linux.</p>
-<p>For Windows:</p>
-<div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">shutdown</span> <span class="na">/r /t </span><span class="m">5</span> <span class="na">/f
-</span></code></pre></div></div>
-<p>For Linux:</p>
-<div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">reboot</span>
+<p>Congratulations, you just updated your checkpoints! If after step 6 you no longer see your balance, don’t worry. It will appear after the synchronization is completed.</p>
+<p>You may need to turn on show hidden files and folders to find them.</p>
+<p>Windows:</p>
+<div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">C</span>:\Users\<span class="nv">%username%</span>\AppData\Roaming\MultiDoge
 </code></pre></div></div>
-<h2 id="troubleshooting">Troubleshooting</h2>
-<p>Having problems? There are only a few things that can really go wrong. They include:</p>
-<p>First, give the software ten or fifteen minutes before claiming something went wrong. After we found our first share, our wallet address does not display the statistics page for ten minutes.</p>
-<p>If you have waited more than 15 minutes and still do not see the mining statistics page, check the following:</p>
-<ul>
-<li>One or more values ​​were incorrectly set in the file <code class="language-plaintext highlighter-rouge">.ini</code>.</li>
-<li>You have inserted the wrong wallet address when searching.</li>
-<li>There is something wrong with your mining rig.</li>
-<li>The nanopool does not work.</li>
-</ul>
-<p>Next steps:</p>
-<ul>
-<li>There are many more options available for <a href="/en/miners/trexminer/">T-rex Miner</a>. To find out more, read the setup instructions.</li>
-<li>If you haven’t already, try overclocking your video cards to increase the hashrate.</li>
-</ul>
-<h2 id="dual-mining">Dual mining</h2>
-<p>The following coins can be mined in dual mode:</p>
-<table>
-<thead><tr>
-<th style="text-align: center">Configuration</th>
-<th style="text-align: center">Merged (same pool)</th>
-<th style="text-align: center">Split (different pools)</th>
-</tr></thead>
-<tbody>
-<tr>
-<td style="text-align: center">ETH+ZIL</td>
-<td style="text-align: center">✓</td>
-<td style="text-align: center">✓</td>
-</tr>
-<tr>
-<td style="text-align: center">ETC+ZIL</td>
-<td style="text-align: center">✓</td>
-<td style="text-align: center">✓</td>
-</tr>
-<tr>
-<td style="text-align: center">CFX+ZIL</td>
-<td style="text-align: center"> </td>
-<td style="text-align: center">✓</td>
-</tr>
-<tr>
-<td style="text-align: center">ERG+ZIL</td>
-<td style="text-align: center"> </td>
-<td style="text-align: center">✓</td>
-</tr>
-<tr>
-<td style="text-align: center">RVN+ZIL</td>
-<td style="text-align: center"> </td>
-<td style="text-align: center">✓</td>
-</tr>
-</tbody>
-</table>
-<p>Here is the configuration for dual mining (Ethereum + Monero):</p>
-<div class="language-ini highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">[Ethash]</span>
-<span class="py">wallet</span> <span class="p">=</span> <span class="s">0xada842613541e55e2500478892a334cde74ff653</span>
-<span class="py">rigName</span> <span class="p">=</span> <span class="s">worker1</span>
-<span class="py">email</span> <span class="p">=</span> <span class="s">mail@gmail.com</span>
-<span class="py">pool1</span> <span class="p">=</span> <span class="s">eth-eu1.nanopool.org:9433</span>
-<span class="py">pool2</span> <span class="p">=</span> <span class="s">eth-eu2.nanopool.org:9433</span>
-<span class="py">pool3</span> <span class="p">=</span> <span class="s">eth-us-east1.nanopool.org:9433</span>
-<span class="py">pool4</span> <span class="p">=</span> <span class="s">eth-us-west1.nanopool.org:9433</span>
-<span class="py">pool5</span> <span class="p">=</span> <span class="s">eth-asia1.nanopool.org:9433</span>
-<span class="py">pool6</span> <span class="p">=</span> <span class="s">eth-jp1.nanopool.org:9433</span>
-<span class="py">pool7</span> <span class="p">=</span> <span class="s">eth-au1.nanopool.org:9433</span>
-<span class="nn">[RandomX]</span>
-<span class="py">wallet</span> <span class="p">=</span> <span class="s">84XFxjQVYoJjQBeyfbcYBgJ1tw4cgywGyTp12nQw3mSKZctgMYuPGRH1y2LuBAS8yyT8ZX2NDS3CXbfFAxdXQJwAGMoMDSq</span>
-<span class="py">rigName</span> <span class="p">=</span> <span class="s">worker1</span>
-<span class="py">email</span> <span class="p">=</span> <span class="s">mail@gmail.com</span>
-<span class="py">pool1</span> <span class="p">=</span> <span class="s">xmr-eu1.nanopool.org:14433</span>
-<span class="py">pool2</span> <span class="p">=</span> <span class="s">xmr-eu2.nanopool.org:14433</span>
-<span class="py">pool3</span> <span class="p">=</span> <span class="s">xmr-us-east1.nanopool.org:14433</span>
-<span class="py">pool4</span> <span class="p">=</span> <span class="s">xmr-us-west1.nanopool.org:14433</span>
-<span class="py">pool5</span> <span class="p">=</span> <span class="s">xmr-asia1.nanopool.org:14433</span>
+<p>macOS:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/Users/&lt;your_user_name&gt;/Library/Application Support/MultiDoge
 </code></pre></div></div>
+<p>Linux:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/home/&lt;your_user_name&gt;/MultiDoge or /home/&lt;your_user_name&gt;/.config/MultiDoge
+</code></pre></div></div>
+<h3 id="method-3-add-peers-to-the-config-file-if-sync-gets-stuck-and-takes-forever">Method 3: Add peers to the config file if sync gets stuck and takes forever</h3>
+<p>Synchronization can be speeded up by manually adding connections. All these parameters are set in the main configuration file <code class="language-plaintext highlighter-rouge">multidoge.properties</code><sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup></p>
+<p>Open your <code class="language-plaintext highlighter-rouge">multidoge.properties</code> file. It is located on the following path:</p>
+<div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">C</span>:\Users\<span class="nv">%username%</span>\AppData\Roaming\MultiDoge
+</code></pre></div></div>
+<p>See above for paths for other operating systems.</p>
+<p>Add peers from this list:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">peers</span><span class="o">=</span>173.255.204.124,107.150.52.74,136.244.101.227,167.172.211.76:22557,2001:19f0:6001:229b:5400:2ff:feeb:1f9e,2607:fb90:ce2d:7847:48ba:3763:6173:435f,45.32.66.136,50.220.121.211:6003,52.204.182.74,64.227.97.247:22557,68.108.211.35,68.195.18.155,73.168.22.226,73.253.117.17,73.61.6.1,76.102.39.163,97.77.231.85:9004,216.108.236.43,35.224.144.175,98.11.225.192,23.239.31.246,64.227.46.205,144.91.77.126,47.186.87.162,159.65.98.117
+</code></pre></div></div>
+<h2 id="stuck-on-connecting-or-does-not-connect-to-the-network">Stuck on connecting or does not connect to the network</h2>
+<p>Follow the advice from the creator of Multidoge:</p>
+<ol>
+<li><p>After resetting the blockchain, repeatedly opening and closing Multidoge sometimes helps to solve the problem. After each re-opening, sync progresses a bit until it stops again. After 5-6 re-openings, we eventually saw the DOGE we had.</p></li>
+<li><p>Immediately go to Tools -&gt; Export Private Keys -&gt; Do not password encrypt.</p></li>
+<li><p>Then find <code class="language-plaintext highlighter-rouge">multidoge.key</code> in <code class="language-plaintext highlighter-rouge">C:\Users\%username%\AppData\Roaming\MultiDoge</code> and open it in a text editor. Create a new wallet at <a href="https://dogechain.info/" rel="nofollow noopener" target="_blank">Dogechain.info</a> and then use the ‘Import Wallet’ option to paste it into separate keys from the <code class="language-plaintext highlighter-rouge">multidoge.key</code> file.</p></li>
+<li><p>Get rid of Multidoge. it has been unsupported since 2017 and hangs. Use alternatives.</p></li>
+</ol>
 <h2 id="alternatives">Alternatives</h2>
-<ol>
-<li><a href="/en/miners/phoenixminer/">Phoenixminer</a></li>
-<li><a href="/en/miners/trexminer/">T-rex miner</a></li>
-<li><a href="/en/miners/lolminer/">Lolminer</a></li>
-<li><a href="/en/miners/gminer/">Gminer</a></li>
-<li><a href="/en/miners/teamredminer/">TeamRedMiner</a></li>
-<li><a href="/en/miners/wildrig/">Wildrig</a></li>
-<li><a href="/en/miners/ccminer/">Ccminer</a></li>
-</ol>
-<h2 id="releases">Releases</h2>
-<p><a href="https://github.com/nanopool/nanominer/releases/tag/v3.7.0" rel="nofollow noopener" target="_blank">3.7.0</a></p>
-<p><a href="https://github.com/nanopool/nanominer/releases/tag/v3.6.8" rel="nofollow noopener" target="_blank">3.6.8</a></p>
-<p><a href="https://github.com/nanopool/nanominer/releases/tag/v3.6.7" rel="nofollow noopener" target="_blank">3.6.7</a></p>
-<p><a href="https://github.com/nanopool/nanominer/releases/tag/v3.6.6" rel="nofollow noopener" target="_blank">3.6.6</a></p>
-<p><a href="https://github.com/nanopool/nanominer/releases/tag/v3.6.5" rel="nofollow noopener" target="_blank">3.6.5</a></p>
-<p><a href="https://github.com/nanopool/nanominer/releases/tag/v3.6.4" rel="nofollow noopener" target="_blank">3.6.4</a></p>
-<p><a href="https://github.com/nanopool/nanominer/releases/tag/v3.6.2" rel="nofollow noopener" target="_blank">3.6.2</a></p>
-<ul><li>Significantly reduced stale Ethash shares on Nvidia GPUs.</li></ul>
-<p><a href="https://github.com/nanopool/nanominer/releases/tag/v3.6.0" rel="nofollow noopener" target="_blank">3.6.0</a></p>
 <ul>
-<li>Significantly improved Ergo (Autolykos2) performace on AMD Vega GPUs (up to 15%);</li>
-<li>Improved performance for ethash algorithms family (ETH, ETC, UBQ, etc) on Nvidia Turing family (up to 0.4%);</li>
-<li>Added functionality: showing share difficulty for ethash algorithms family.</li>
+<li><a href="/en/wallets/dogecoin-core/">Dogecoin Core</a></li>
+<li><a href="/en/wallets/exodus/">Exodus</a></li>
+<li><a href="/en/wallets/trust/">Trust Wallet</a></li>
 </ul>
-<p><a href="https://github.com/nanopool/nanominer/releases/tag/v3.5.2" rel="nofollow noopener" target="_blank">3.5.2</a></p>
-<p>Fixed issue: Could not make binaries for gfx103x (AMD RX 6xxx series GPUs) on 2020 drivers (20.40 and similar on Linux; 20.11.2 and similar on Windows).</p>
-<p><a href="https://github.com/nanopool/nanominer/releases/tag/v3.5.1" rel="nofollow noopener" target="_blank">3.5.1</a></p>
-<ul><li>Fixed crashes and restarts on Nvidia 10xx series and 20xx series.</li></ul>
-<p><a href="https://github.com/nanopool/nanominer/releases/tag/v3.5.0" rel="nofollow noopener" target="_blank">3.5.0</a></p>
-<p>Added Ethash LHR unlock.</p>
-<ul>
-<li>Automatic LHR detection by default;</li>
-<li>Configuration parameter lhr for manual unlock percentage selection. Example. Set LHR unlock percentage on device 0 to 71.5%, switch off LHR unlock on device 1 and automatic selection on device 2:</li>
-</ul>
-<div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">lhr</span><span class="o">=</span><span class="m">71</span>.5<span class="o">,-</span><span class="m">1</span><span class="o">,</span><span class="m">0</span>
-</code></pre></div></div>
-<ul><li>Fixed GPU temperature, power consumption and fan speed display for several Nvidia drivers.</li></ul>
-<p><a href="https://github.com/nanopool/nanominer/releases/tag/v3.4.6" rel="nofollow noopener" target="_blank">3.4.6</a></p>
-<ul><li>Hotfix: fixed VerusCoin (VerusHash) mining on CUDA 11 version.</li></ul>
-<p><a href="https://github.com/nanopool/nanominer/releases/download/v3.4.5/nanominer-windows-3.4.5.zip" rel="nofollow noopener" target="_blank">3.4.5</a></p>
-<ul>
-<li>Significantly improved FIRO (Firopow) zombie mode on 4Gb AMD GPUs;</li>
-<li>Fixed VerusCoin (VerusHash) mining.</li>
-</ul>
-<p><a href="https://github.com/nanopool/nanominer/releases/download/v3.4.4/nanominer-windows-3.4.4.zip" rel="nofollow noopener" target="_blank">3.4.4</a></p>
-<ul><li>Improved performance of <code class="language-plaintext highlighter-rouge">RandomX</code> (Monero).</li></ul>
-<p><a href="https://github.com/nanopool/nanominer/releases/download/v3.4.3/nanominer-windows-3.4.3.zip" rel="nofollow noopener" target="_blank">3.4.3</a></p>
-<ul><li>Improved performance <code class="language-plaintext highlighter-rouge">KawPow</code> (Raven) and <code class="language-plaintext highlighter-rouge">FiroPow</code> (FIRO) on Nvidia GPUs (up to 3% depends on GPU model).</li></ul>
-<p><a href="https://github.com/nanopool/nanominer/releases/download/v3.4.2/nanominer-windows-3.4.2.zip" rel="nofollow noopener" target="_blank">3.4.2</a></p>
-<ul>
-<li>Significantly improved Ergo (<code class="language-plaintext highlighter-rouge">Autolykos2</code>) performance (up to 60%) on AMD Vega family (RX Vega 56, RX Vega 64, Radeon VII).</li>
-<li>Slightly improved Ergo (<code class="language-plaintext highlighter-rouge">Autolykos2</code>) performance on AMD polaris family (RX 5xx).</li>
-</ul>
-<p><a href="https://github.com/nanopool/nanominer/releases/download/v3.3.14/nanominer-windows-3.3.14.zip" rel="nofollow noopener" target="_blank">3.3.14</a></p>
-<ul><li>Update to fulfill Nicehash requirements. If you are not using Nicahash, You can ignore it.</li></ul>
-<p><a href="https://github.com/nanopool/nanominer/releases/download/v3.3.13/nanominer-windows-3.3.13.zip" rel="nofollow noopener" target="_blank">3.3.13</a></p>
-<ul>
-<li>Significantly improved Ergo (Autolykos2) performance (~10%) on Nvidia Turing GPUs (RTX 16xx, RTX 20xx, CMP 30HX);</li>
-<li>Reduced Ergo (Autolykos2) power consumption on Nvidia GPUs.</li>
-</ul>
-<p><a href="https://github.com/nanopool/nanominer/releases/download/v3.3.12/nanominer-windows-3.3.12.zip" rel="nofollow noopener" target="_blank">3.3.12</a></p>
-<ul>
-<li>Added Verthash for AMD GPUs;</li>
-<li>Warn user if hardware accelerated GPU scheduling is not enabled;</li>
-<li>Reduced stale shares on Raven;</li>
-<li>Fixed crash when nanominer started with some AMD GCN3 and elder GPUs;</li>
-</ul>
-<p><a href="https://github.com/nanopool/nanominer/releases/download/v3.3.11/nanominer-windows-3.3.11.zip" rel="nofollow noopener" target="_blank">3.3.11</a></p>
-<ul>
-<li>Fixed Raven invalid shares issue for some Nvidia RTX 30xx GPUs;</li>
-<li>Fixed ETH performance tuning issue for some Nvidia RTX 30xx GPUs;</li>
-<li>Returned launch with command line arguments. Config files still working.</li>
-</ul>
-<p><a href="https://github.com/nanopool/nanominer/releases/download/v3.3.9/nanominer-windows-3.3.9.zip" rel="nofollow noopener" target="_blank">3.3.9</a></p>
-<ul>
-<li> <code class="language-plaintext highlighter-rouge">Kawpow</code> performance improvements for Nvidia Pascal, Turing and Ampere GPUs.</li>
-<li>Improved connection stability for China users.</li>
-</ul>
-<h2 id="conclusions">Conclusions</h2>
-<p>This guide will help you get started mining Conflux (CFX), Ergo and Ethereum using a Windows based mining farm. The miner we will be using in this tutorial is the Nanominer.</p>
+<div class="footnotes" role="doc-endnotes"><ol>
+<li id="fn:1" role="doc-endnote"><p><a href="https://www.java.com/en/download/help/path.html" rel="nofollow noopener" target="_blank">How to set or configure the PATH system variable?</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p></li>
+<li id="fn:2" role="doc-endnote"><p><a href="https://gist.github.com/langerhans/499137ec2434d4a527a4b90890736824" rel="nofollow noopener" target="_blank">Updating MutliDoge checkpoints</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">↩</a></p></li>
+<li id="fn:3" role="doc-endnote"><p><a href="https://github.com/langerhans/multidoge/blob/master/configuration.md" rel="nofollow noopener" target="_blank">MultiBit configuration options</a> <a href="#fnref:3" class="reversefootnote" role="doc-backlink">↩</a></p></li>
+</ol></div>
 </div>
-<footer class="page__meta"><p class="page__taxonomy"> <i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: <span itemprop="keywords"> <a href="/en/miners" class="page__taxonomy-item" rel="tag">miners</a> </span></p>
-<p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2022-08-27T00:00:00+00:00">27.08.2022</time></p>
-<p class="hide"><i class="far fa-clock" aria-hidden="true"></i> 10 minute read</p></footer></section></div></article>
+<footer class="page__meta"><p class="page__taxonomy"> <i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: <span itemprop="keywords"> <a href="/en/guide" class="page__taxonomy-item" rel="tag">guide</a> </span></p>
+<p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2022-08-30T00:00:00+00:00">30.08.2022</time></p>
+<p class="hide"><i class="far fa-clock" aria-hidden="true"></i> 4 minute read</p></footer></section></div></article>
 </div>
 <!-- download --><div class="mar"> <!--<section class="so-down"><div class="so-title whitez1"><a id="download">Getting Started With Ethereum Mining</a></div><div class="so-download"><div class="so-flex"><div class="so-ver"> Latest version is 5.5c<br> File: *<code></code>, SHA256: 599393e258d8ba7b8f8633e20c651868258827d3a43a4d0712125bc487eabf92<br> <span class="nev2">(<a href="https://bit.ly/3bujasD">Download for Linux</a>)</span></div><div class="so-get"> <span class="so-password">Password: phoenix</span><div class="so-button down"><i class="far fa-arrow-alt-circle-down"></i> <a href="https://cutt.ly/NzVAJor" target="_blank">Download Now (Windows x64)</a></div><span class="so-mirror">(<a href="https://bit.ly/2MeIrhX" target="_blank" rel="nofollow">mirror</a>)</span></div></div></div></section>-->
 </div>
@@ -620,15 +260,9 @@
 <div class="grid__wrapper">
 <div class="grid__item"><article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"><div class="archive__item-teaser"> <img src="/assets/images/thumbs/500x300.webp" alt="related icon" loading="lazy" decoding="async">
 </div>
-<h2 class="archive__item-title" itemprop="headline"> <a href="/en/guide/multidoge/" rel="permalink">MultiDoge: solving Java Not Found &amp; Synchronization problem </a>
-</h2>
-<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 5 minute read</p>
-<p class="archive__item-excerpt" itemprop="description"> Troubleshooting: the application does not see Java, does not start In this guide, you will learn how to solve MultiDoge opening and s...</p></article></div>
-<div class="grid__item"><article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"><div class="archive__item-teaser"> <img src="/assets/images/thumbs/500x300.webp" alt="related icon" loading="lazy" decoding="async">
-</div>
 <h2 class="archive__item-title" itemprop="headline"> <a href="/en/wallets/dogecoin-core/" rel="permalink">Dogecoin Core wallet: Fast Syncing - Guide [2022] </a>
 </h2>
-<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 16 minute read</p>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 15 minute read</p>
 <p class="archive__item-excerpt" itemprop="description"> Sync, Import Private Key, Address, and Passphrase In this manual, you will learn how to download and use the latest Doge Coin wallet versio...</p></article></div>
 <div class="grid__item"><article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"><div class="archive__item-teaser"> <img src="/assets/images/thumbs/500x300.webp" alt="related icon" loading="lazy" decoding="async">
 </div>
@@ -640,12 +274,18 @@
 </div>
 <h2 class="archive__item-title" itemprop="headline"> <a href="/en/miners/teamblackminer/" rel="permalink">Team Black Miner 1.66: Download and Configure (LHR) </a>
 </h2>
-<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 10 minute read</p>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 9 minute read</p>
 <p class="archive__item-excerpt" itemprop="description"> Team Black Miner: how to set up and run. LHR unlock. This guide describes how to start and how to use the latest version of TeamBlack...</p></article></div>
+<div class="grid__item"><article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"><div class="archive__item-teaser"> <img src="/assets/images/thumbs/500x300.webp" alt="related icon" loading="lazy" decoding="async">
+</div>
+<h2 class="archive__item-title" itemprop="headline"> <a href="/en/miners/bzminer/" rel="permalink">BzMiner 10.0.4 - Download and configure (LHR) for mining [2022] </a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 9 minute read</p>
+<p class="archive__item-excerpt" itemprop="description"> BzMiner miner: how to set up and run. This guide describes how to start and how to use the latest version of BzMiner v10.0.4 and high...</p></article></div>
 </div>
 </div>
 <!-- post navigation footer --><section class="page__share"><h4 class="page__share-title">Share on</h4>
-<a href="https://twitter.com/intent/tweet?via=mza&amp;text=Nanominer%26%2358%3B+Download%2C+Config+for+Ethereum%2C+Ergo+%26+Ravencoin%20https%3A%2F%2Fminingsoft.org%2Fru%2Fminers%2Fnanominer%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a> <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fminingsoft.org%2Fru%2Fminers%2Fnanominer%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a> <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fminingsoft.org%2Fru%2Fminers%2Fnanominer%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a></section><nav class="pagination"> <a href="/en/tools/amdmemorytweak/" class="pagination--pager" title="AMD Memory Tweak [v0.2.3]: Download &amp; Settings (Timing Level) ">Previous</a> <a href="/en/miners/miniz/" class="pagination--pager" title="MiniZ Miner 1.8z3: Download, Usage &amp; Documentation (LHR) ">Next</a></nav><!-- comments --> <!-- -->
+<a href="https://twitter.com/intent/tweet?via=mza&amp;text=MultiDoge%26%2358%3B+solving+Java+Not+Found+%26+Synchronization+problem%20https%3A%2F%2Fminingsoft.org%2Fru%2Fguide%2Fmultidoge%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a> <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fminingsoft.org%2Fru%2Fguide%2Fmultidoge%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a> <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fminingsoft.org%2Fru%2Fguide%2Fmultidoge%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a></section><nav class="pagination"> <a href="/en/wallets/dogecoin-core/" class="pagination--pager" title="Dogecoin Core wallet: Fast Syncing - Guide [2022] ">Previous</a> <a href="#" class="pagination--pager disabled">Next</a></nav><!-- comments --> <!-- -->
 </div>
 </div>
 <div class="search-content"><div class="search-content__inner-wrap">
