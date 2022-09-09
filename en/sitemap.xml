@@ -2,6 +2,15 @@
 <urlset xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9 https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://miningsoft.org/en/guide/merge/</loc>
+    
+    <lastmod>2022-09-09T00:00:00+00:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
     <loc>https://miningsoft.org/en/guide/usdt-works/</loc>
     
     <lastmod>2022-09-04T00:00:00+00:00</lastmod>
@@ -440,7 +449,7 @@
   <url>
     <loc>https://miningsoft.org/en/about/</loc>
       
-        <lastmod>2022-09-09T13:07:49+00:00</lastmod>
+        <lastmod>2022-09-09T16:50:23+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -452,7 +461,7 @@
   <url>
     <loc>https://miningsoft.org/en/advertising/</loc>
       
-        <lastmod>2022-09-09T13:07:49+00:00</lastmod>
+        <lastmod>2022-09-09T16:50:23+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -464,7 +473,7 @@
   <url>
     <loc>https://miningsoft.org/en/contact/</loc>
       
-        <lastmod>2022-09-09T13:07:49+00:00</lastmod>
+        <lastmod>2022-09-09T16:50:23+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -476,7 +485,7 @@
   <url>
     <loc>https://miningsoft.org/en/legal/cookie/</loc>
       
-        <lastmod>2022-09-09T13:07:49+00:00</lastmod>
+        <lastmod>2022-09-09T16:50:23+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -488,7 +497,7 @@
   <url>
     <loc>https://miningsoft.org/en/legal/disclaimer/</loc>
       
-        <lastmod>2022-09-09T13:07:49+00:00</lastmod>
+        <lastmod>2022-09-09T16:50:23+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -500,7 +509,7 @@
   <url>
     <loc>https://miningsoft.org/en/</loc>
       
-        <lastmod>2022-09-09T13:07:49+00:00</lastmod>
+        <lastmod>2022-09-09T16:50:23+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -524,7 +533,7 @@
   <url>
     <loc>https://miningsoft.org/en/legal/privacy/</loc>
       
-        <lastmod>2022-09-09T13:07:49+00:00</lastmod>
+        <lastmod>2022-09-09T16:50:23+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -538,7 +547,7 @@
   <url>
     <loc>https://miningsoft.org/en/legal/terms/</loc>
       
-        <lastmod>2022-09-09T13:07:49+00:00</lastmod>
+        <lastmod>2022-09-09T16:50:23+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -550,7 +559,7 @@
   <url>
     <loc>https://miningsoft.org/en/blog/</loc>
       
-        <lastmod>2022-09-09T13:07:49+00:00</lastmod>
+        <lastmod>2022-09-09T16:50:23+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -562,7 +571,7 @@
   <url>
     <loc>https://miningsoft.org/en/guide/</loc>
       
-        <lastmod>2022-09-09T13:07:49+00:00</lastmod>
+        <lastmod>2022-09-09T16:50:23+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -574,7 +583,7 @@
   <url>
     <loc>https://miningsoft.org/en/miners/</loc>
       
-        <lastmod>2022-09-09T13:07:49+00:00</lastmod>
+        <lastmod>2022-09-09T16:50:23+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -586,7 +595,7 @@
   <url>
     <loc>https://miningsoft.org/en/miners/page2/</loc>
       
-        <lastmod>2022-09-09T13:07:49+00:00</lastmod>
+        <lastmod>2022-09-09T16:50:23+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -598,7 +607,7 @@
   <url>
     <loc>https://miningsoft.org/en/miners/page3/</loc>
       
-        <lastmod>2022-09-09T13:07:49+00:00</lastmod>
+        <lastmod>2022-09-09T16:50:23+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -610,7 +619,7 @@
   <url>
     <loc>https://miningsoft.org/en/tools/</loc>
       
-        <lastmod>2022-09-09T13:07:49+00:00</lastmod>
+        <lastmod>2022-09-09T16:50:23+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -622,7 +631,7 @@
   <url>
     <loc>https://miningsoft.org/en/tools/page2/</loc>
       
-        <lastmod>2022-09-09T13:07:49+00:00</lastmod>
+        <lastmod>2022-09-09T16:50:23+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -634,7 +643,7 @@
   <url>
     <loc>https://miningsoft.org/en/wallets/</loc>
       
-        <lastmod>2022-09-09T13:07:49+00:00</lastmod>
+        <lastmod>2022-09-09T16:50:23+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
