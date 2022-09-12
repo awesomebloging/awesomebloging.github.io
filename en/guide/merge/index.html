@@ -19,8 +19,8 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://miningsoft.org/assets/images/site-logo.png">
 <meta property="article:published_time" content="2022-09-09T00:00:00+00:00">
-<meta property="article:modified_time" content="2022-09-11T00:00:00+00:00">
-<link rel="canonical" href="https://miningsoft.org/en/guide/merge/"> <script type="application/ld+json"> { "@context": "https://schema.org", "@type": "Article", "headline": "Ethereum 2.0 Merge Fork Explained&#58; launch Date and Mining", "image": "", "author": { "@type": "Person", "name": "Matthew Wood", "url": "https://miningsoft.org/en/about", "sameAs": "https://www.facebook.com/ltcbtc" }, "publisher": { "@type": "Organization", "name": "MiningSoft", "logo": { "@type": "ImageObject", "url": "https://miningsoft.org/assets/images/logo2.png" } }, "dateModified": "2022-09-11T00:00:00+00:00" } </script><meta name="google-site-verification" content="lzkzzEBSl4ZcrOj5sxD0Ao0R1sXdFSczY9bQcLVWHMY">
+<meta property="article:modified_time" content="2022-09-12T00:00:00+00:00">
+<link rel="canonical" href="https://miningsoft.org/en/guide/merge/"> <script type="application/ld+json"> { "@context": "https://schema.org", "@type": "Article", "headline": "Ethereum 2.0 Merge Fork Explained&#58; launch Date and Mining", "image": "", "author": { "@type": "Person", "name": "Matthew Wood", "url": "https://miningsoft.org/en/about", "sameAs": "https://www.facebook.com/ltcbtc" }, "publisher": { "@type": "Organization", "name": "MiningSoft", "logo": { "@type": "ImageObject", "url": "https://miningsoft.org/assets/images/logo2.png" } }, "dateModified": "2022-09-12T00:00:00+00:00" } </script><meta name="google-site-verification" content="lzkzzEBSl4ZcrOj5sxD0Ao0R1sXdFSczY9bQcLVWHMY">
 <meta name="yandex-verification" content="da0cda22b6e4f5d0"> <!-- end _includes/seo.html --><meta name="description" content="Yes, Ethereum 2.0 kill mining. But there will be new opportunities. What is Ethereum Merge? What are its economic implications? And what are the main risks and misconceptions about ETH 2.0? The answers to these and other questions are fully explained in this guide.">
 <meta name="author" content="Matthew Wood">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="MiningSoft Feed">
@@ -79,7 +79,7 @@
 <article class="page" itemscope itemtype="https://schema.org/CreativeWork"><meta itemprop="headline" content="Ethereum 2.0 Merge Fork Explained: launch Date and Mining">
 <meta itemprop="description" content=" Yes, Ethereum 2.0 kill mining. But there will be new opportunities. What is Ethereum Merge? What are its economic implications? And what are the main risks and misconceptions about ETH 2.0? The answers to these and other questions are fully explained in this guide.">
 <meta itemprop="datePublished" content="September 09, 2022">
-<meta itemprop="dateModified" content="September 11, 2022">
+<meta itemprop="dateModified" content="September 12, 2022">
 <div class="page__inner-wrap"><section class="page__content" itemprop="text"><header><h1 id="page-title" class="page__title" itemprop="headline">ETH 2.0 Merge fork explained: launch date, mining and benefits</h1></header><aside class="sidebar__right sticky"><nav class="toc"><header><h4 class="nav__title"> <i class="fas fa-file-alt"></i> Contents</h4></header><ul class="toc__menu">
 <li><a href="#ethereum-20-update">Ethereum 2.0 update</a></li>
 <li><a href="#ethereum-vs-ethereum-20">Ethereum vs Ethereum 2.0</a></li>
@@ -92,7 +92,8 @@
 </li>
 <li><a href="#what-is-ethereum-20---merge-and-why-is-it-good">What is Ethereum 2.0 - “Merge” and why is it good?</a></li>
 <li><a href="#ethereum-mining-going-away">Ethereum mining going away</a></li>
-<li><a href="#gpu-mining-after-the-merge">GPU Mining after the merge</a></li>
+<li> <a href="#gpu-mining-after-the-merge">GPU Mining after the merge</a><ul><li><a href="#automatic-change-from-eth-to-etc-for-the-merge">Automatic change from ETH to ETC for the Merge</a></li></ul>
+</li>
 <li><a href="#what-should-be-done-during-a-hard-fork">What should be done during a hard fork?</a></li>
 <li> <a href="#frequently-asked-questions">Frequently asked Questions</a><ul>
 <li><a href="#When%20will%20ETH%202.0%20be%20released?">When will ETH 2.0 be released?</a></li>
@@ -250,6 +251,18 @@
 <li>neoxa</li>
 </ul>
 <p class="notice--success">Here you can see the list of <a href="https://bytwork.com/en/articles/ethereum-pos-mayning" target="_blank">coins to mine after the ETH 2.0 merge</a></p>
+<h3 id="automatic-change-from-eth-to-etc-for-the-merge">Automatic change from ETH to ETC for the Merge</h3>
+<p>Just to do automatic change to ETC when the pool of ETH goes down in the Merge, you need to have <a href="/en/miners/lolminer/">lolMiner</a> 1.55+</p>
+<p>It is as easy as add <code class="language-plaintext highlighter-rouge">etc:</code> like this in the Extra Config:</p>
+<div class="language-config highlighter-rouge"><div class="highlight"><pre class="highlight"><code>--<span class="n">pool</span> <span class="n">etc</span>:<span class="n">eu1</span>-<span class="n">etc</span>.<span class="n">ethermine</span>.<span class="n">org</span>:<span class="m">4444</span> --<span class="n">user</span> <span class="m">0</span><span class="n">x85Df244a3C8d6442225360bE681B7F7D803c0e78</span>
+</code></pre></div></div>
+<p><a href="/assets/images/miners/lolminer/etc_hive.png" class="image-popup"> <img src="/assets/images/miners/lolminer/etc_hive.png" alt="etc_hive" loading="lazy" decoding="async"> </a></p>
+<p><a href="/assets/images/miners/lolminer/etc_rave.png" class="image-popup"> <img src="/assets/images/miners/lolminer/etc_rave.png" alt="etc_rave" loading="lazy" decoding="async"> </a></p>
+<p>That will continue Mining in this case KASPA and continue doing ETC.</p>
+<p>It can be used to dual Mine KASPA or ALPH or simple ETC.</p>
+<p>In case you want a SSL just add <code class="language-plaintext highlighter-rouge">ssl://</code> before <code class="language-plaintext highlighter-rouge">etc:</code></p>
+<div class="language-config highlighter-rouge"><div class="highlight"><pre class="highlight"><code>--<span class="n">pool</span> <span class="n">ssl</span>://<span class="n">etc</span>:<span class="n">eu1</span>-<span class="n">etc</span>.<span class="n">ethermine</span>.<span class="n">org</span>:<span class="m">4444</span> --<span class="n">user</span> <span class="m">0</span><span class="n">x85Df244a3C8d6442225360bE681B7F7D803c0e78</span>
+</code></pre></div></div>
 <h2 id="what-should-be-done-during-a-hard-fork">What should be done during a hard fork?</h2>
 <p>The good news is that the developers are paying special attention to the update so as not to create difficulties for Ethereum users. This means that you won’t have to actively do anything until the end of the update.</p>
 <p>There are different scenarios for existing ETH holders:</p>
@@ -321,7 +334,7 @@
 </ol></div>
 </div>
 <footer class="page__meta"><p class="page__taxonomy"> <i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: <span itemprop="keywords"> <a href="/en/guide" class="page__taxonomy-item" rel="tag">guide</a> </span></p>
-<p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2022-09-11T00:00:00+00:00">11.09.2022</time></p>
+<p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2022-09-12T00:00:00+00:00">12.09.2022</time></p>
 <p class="hide"><i class="far fa-clock" aria-hidden="true"></i> 10 minute read</p></footer></section></div></article>
 </div>
 <!-- download --><div class="mar"> <!--<section class="so-down"><div class="so-title whitez1"><a id="download">Getting Started With Ethereum Mining</a></div><div class="so-download"><div class="so-flex"><div class="so-ver"> Latest version is 5.5c<br> File: *<code></code>, SHA256: 599393e258d8ba7b8f8633e20c651868258827d3a43a4d0712125bc487eabf92<br> <span class="nev2">(<a href="https://bit.ly/3bujasD">Download for Linux</a>)</span></div><div class="so-get"> <span class="so-password">Password: phoenix</span><div class="so-button down"><i class="far fa-arrow-alt-circle-down"></i> <a href="https://cutt.ly/NzVAJor" target="_blank">Download Now (Windows x64)</a></div><span class="so-mirror">(<a href="https://bit.ly/2MeIrhX" target="_blank" rel="nofollow">mirror</a>)</span></div></div></div></section>-->
