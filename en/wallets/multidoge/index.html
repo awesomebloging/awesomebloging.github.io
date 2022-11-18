@@ -61,7 +61,7 @@
 <li class="current">MultiDoge wallet: import private key, compare with Dogecoin Core</li>
 </ol></nav><div id="main" role="main">
 <div class="sidebar nosticky"><div itemscope itemtype="https://schema.org/Person">
-<div class="author__avatar"> <img width="97" height="97" src="/assets/images/matthewwood.webp" alt="Matthew Wood" itemprop="image" loading="lazy" decoding="async">
+<div class="author__avatar"> <img width="97" height="97" src="/assets/images/matthewwood.webp" alt="Matthew Wood" itemprop="image" loading="lazy">
 </div>
 <div class="author__content">
 <h3 class="author__name" itemprop="name">Matthew Wood</h3>
@@ -114,7 +114,7 @@
 <script> window.coinzilla_display = window.coinzilla_display || []; var c_display_preferences = {}; c_display_preferences.zone = "26960aca952082b4725"; c_display_preferences.width = "300"; c_display_preferences.height = "250"; coinzilla_display.push(c_display_preferences); </script><p><a href="https://multidoge.org/" class="btn btn--light-outline btn--x-large" rel="nofollow noopener" target="_blank">Official site</a><br> <a href="https://github.com/langerhans/multidoge/releases" class="btn btn--light-outline btn--x-large" rel="nofollow noopener" target="_blank">Official GitHub</a><br> <a href="https://multidoge.org/help/v0.1/help_upgrading.html" class="btn btn--light-outline btn--x-large" rel="nofollow noopener" target="_blank">Download releases</a></p>
 <h2 id="что-такое-multidoge">Что такое MultiDoge?</h2>
 <section><p><dfn>MultiDoge Wallet</dfn> is a desktop client software for storing Dogecoin cryptocurrency. It will create a wallet on your computer, allowing you to receive and send Dogecoin immediately. It was ported from the Multibit client, a very popular bitcoin wallet, but retained the same characteristics: simplicity, convenience, and speed.</p>
-<p class="notice--primary">This wallet is from the core Dogecoin development team.<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> There are open-source versions for Windows, Linux, and OS X. In addition to MultiDoge, there is another client - <a href="/en/wallets/dogecoin-core/">Dogecoin Core</a>.</p></section><p><a href="/assets/images/wallets/multidoge/platforms.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/platforms.png" alt="platforms" loading="lazy" decoding="async"> </a></p>
+<p class="notice--primary">This wallet is from the core Dogecoin development team.<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> There are open-source versions for Windows, Linux, and OS X. In addition to MultiDoge, there is another client - <a href="/en/wallets/dogecoin-core/">Dogecoin Core</a>.</p></section><p><a href="/assets/images/wallets/multidoge/platforms.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/platforms.png" alt="platforms" loading="lazy"> </a></p>
 <div class="notice--success">
 <p><i class="fa fa-check-circle"></i> <b>Pros</b>:</p>
 <ul>
@@ -200,18 +200,18 @@
 <meta itemprop="image" content="/assets/images/og.png">
 <h3 class="panel-title" itemprop="name" id="Step 1 - Create a wallet.key file by exporting">Step 1 - Create a wallet.key file by exporting</h3>
 <div class="panel-body" itemprop="text">
-<p>In order to import private keys into MultiDoge, you must first obtain a file with the <code>.key</code> extension. To do this, you need to create and save a new wallet. Click File -&gt; New Wallet and save. For example, <code>test.wallet</code>: <a href="/assets/images/wallets/multidoge/save.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/save.png" alt="multidoge save" loading="lazy" decoding="async"> </a></p>
-<p>We received a file with the <code>.wallet</code> extension. But we still need the <code>.key</code> file to import. To create it, you must first export the generated empty wallet (<code>test.wallet</code>) without a password. <a href="/assets/images/wallets/multidoge/export.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/export.png" alt="multidoge export" loading="lazy" decoding="async"> </a></p>
+<p>In order to import private keys into MultiDoge, you must first obtain a file with the <code>.key</code> extension. To do this, you need to create and save a new wallet. Click File -&gt; New Wallet and save. For example, <code>test.wallet</code>: <a href="/assets/images/wallets/multidoge/save.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/save.png" alt="multidoge save" loading="lazy"> </a></p>
+<p>We received a file with the <code>.wallet</code> extension. But we still need the <code>.key</code> file to import. To create it, you must first export the generated empty wallet (<code>test.wallet</code>) without a password. <a href="/assets/images/wallets/multidoge/export.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/export.png" alt="multidoge export" loading="lazy"> </a></p>
 <ol>
-<li>Select the Tools -&gt; Export Private Keys tab: <a href="/assets/images/wallets/multidoge/menu.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/menu.png" alt="menu" loading="lazy" decoding="async"> </a>
+<li>Select the Tools -&gt; Export Private Keys tab: <a href="/assets/images/wallets/multidoge/menu.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/menu.png" alt="menu" loading="lazy"> </a>
 </li>
 <li>Click the "Choose export file" button</li>
 <li>Choose where to save our <code>.key</code> backup file</li>
 <li>Be sure to select the "not password protect export file" option</li>
 <li>Finally, click "Export private keys".</li>
 </ol>
-<p>You will see "The private keys were exported": <a href="/assets/images/wallets/multidoge/exported.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/exported.png" alt="multidoge exported" loading="lazy" decoding="async"> </a></p>
-<p>Go to the folder with the exported <code>.key</code> file and open it with a text editor. Better use <a href="https://notepad-plus-plus.org/" rel="nofollow noopener" target="_blank">Notepad++</a>. <a href="/assets/images/wallets/multidoge/keyfile.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/keyfile.png" alt="multidoge keyfile" loading="lazy" decoding="async"> </a></p>
+<p>You will see "The private keys were exported": <a href="/assets/images/wallets/multidoge/exported.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/exported.png" alt="multidoge exported" loading="lazy"> </a></p>
+<p>Go to the folder with the exported <code>.key</code> file and open it with a text editor. Better use <a href="https://notepad-plus-plus.org/" rel="nofollow noopener" target="_blank">Notepad++</a>. <a href="/assets/images/wallets/multidoge/keyfile.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/keyfile.png" alt="multidoge keyfile" loading="lazy"> </a></p>
 </div>
 </div>
 <div class="panel panel-default" id="step2" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
@@ -231,7 +231,7 @@
 <meta itemprop="image" content="/assets/images/og.jpg">
 <h3 class="panel-title" itemprop="name" id="Step 3 - Import the key file">Step 3 - Import the key file</h3>
 <div class="panel-body" itemprop="text">
-<p>Import the edited key file back into the wallet: <a href="/assets/images/wallets/multidoge/import.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/import.png" alt="multidoge import" loading="lazy" decoding="async"> </a></p>
+<p>Import the edited key file back into the wallet: <a href="/assets/images/wallets/multidoge/import.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/import.png" alt="multidoge import" loading="lazy"> </a></p>
 <ol>
 <li>Go to the "Import Private Keys" tab</li>
 <li>Click "Choose import file" and specify the edited <code>.key</code> key file</li>
@@ -268,16 +268,16 @@
 </div>
 <h2 id="installation-for-macos">Installation for macOS</h2>
 <ol>
-<li> <a href="https://multidoge.org/" rel="nofollow noopener" target="_blank">Download the wallet on the official website</a>. You should be on this page: <a href="/assets/images/wallets/multidoge/download.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/download.png" alt="download" loading="lazy" decoding="async"> </a>
+<li> <a href="https://multidoge.org/" rel="nofollow noopener" target="_blank">Download the wallet on the official website</a>. You should be on this page: <a href="/assets/images/wallets/multidoge/download.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/download.png" alt="download" loading="lazy"> </a>
 </li>
 <li>Click “I read and understood the disclaimer. Download now!”</li>
-<li>Transfer the file to “Applications”. <a href="/assets/images/wallets/multidoge/macapp.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/macapp.png" alt="macapp" loading="lazy" decoding="async"> </a>
+<li>Transfer the file to “Applications”. <a href="/assets/images/wallets/multidoge/macapp.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/macapp.png" alt="macapp" loading="lazy"> </a>
 </li>
-<li>At startup, the system may report that the Java Se 6 add-on is required: <a href="/assets/images/wallets/multidoge/javamac.png" class="image-popup small"> <img src="/assets/images/wallets/multidoge/javamac.png" alt="javamac" loading="lazy" decoding="async"> </a>
+<li>At startup, the system may report that the Java Se 6 add-on is required: <a href="/assets/images/wallets/multidoge/javamac.png" class="image-popup small"> <img src="/assets/images/wallets/multidoge/javamac.png" alt="javamac" loading="lazy"> </a>
 </li>
 </ol>
 <p class="notice--success">If at startup you see the inscription “Java not found”, then read about a <a href="/en/guide/multidoge/">solution to the Java Not Found problem</a></p>
-<p><a href="/assets/images/wallets/multidoge/java_not_found.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/java_not_found.png" alt="multidoge java_not_found" loading="lazy" decoding="async"> </a></p>
+<p><a href="/assets/images/wallets/multidoge/java_not_found.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/java_not_found.png" alt="multidoge java_not_found" loading="lazy"> </a></p>
 <p>Click “More info”. Download Java. Install wallet. See the video for more details:</p>
 <div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject"> <span itemprop="name" class="bold">Dogecoin node tutorial: fix for macOS</span><meta itemprop="duration" content="PT2M33S">
 <meta itemprop="uploadDate" content="2021-10-07T00:34:49Z">
@@ -290,33 +290,33 @@
 </div>
 <h2 id="installation-for-windows">Installation for Windows</h2>
 <ol><li> <a href="https://multidoge.org/" rel="nofollow noopener" target="_blank">Download the wallet on the official website</a>. You should be on this page:</li></ol>
-<p><a href="/assets/images/wallets/multidoge/download.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/download.png" alt="download" loading="lazy" decoding="async"> </a></p>
+<p><a href="/assets/images/wallets/multidoge/download.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/download.png" alt="download" loading="lazy"> </a></p>
 <ol>
 <li>Click “I read and understood the disclaimer. Download now!”</li>
-<li>Click “Yes”: <a href="/assets/images/wallets/multidoge/user.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/user.png" alt="user" loading="lazy" decoding="async"> </a>
+<li>Click “Yes”: <a href="/assets/images/wallets/multidoge/user.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/user.png" alt="user" loading="lazy"> </a>
 </li>
-<li>The installation window will open: <a href="/assets/images/wallets/multidoge/welcome.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/welcome.png" alt="welcome" loading="lazy" decoding="async"> </a>
+<li>The installation window will open: <a href="/assets/images/wallets/multidoge/welcome.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/welcome.png" alt="welcome" loading="lazy"> </a>
 </li>
-<li>You will be prompted to backup all your wallets before installing: <a href="/assets/images/wallets/multidoge/tos.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/tos.png" alt="tos" loading="lazy" decoding="async"> </a>
+<li>You will be prompted to backup all your wallets before installing: <a href="/assets/images/wallets/multidoge/tos.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/tos.png" alt="tos" loading="lazy"> </a>
 </li>
-<li>Read the terms and check the box: <a href="/assets/images/wallets/multidoge/terms.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/terms.png" alt="terms" loading="lazy" decoding="async"> </a>
+<li>Read the terms and check the box: <a href="/assets/images/wallets/multidoge/terms.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/terms.png" alt="terms" loading="lazy"> </a>
 </li>
-<li>Specify the installation path: <a href="/assets/images/wallets/multidoge/path.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/path.png" alt="path" loading="lazy" decoding="async"> </a>
+<li>Specify the installation path: <a href="/assets/images/wallets/multidoge/path.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/path.png" alt="path" loading="lazy"> </a>
 </li>
-<li>Specify if you need shortcuts: <a href="/assets/images/wallets/multidoge/shortcuts.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/shortcuts.png" alt="shortcuts" loading="lazy" decoding="async"> </a>
+<li>Specify if you need shortcuts: <a href="/assets/images/wallets/multidoge/shortcuts.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/shortcuts.png" alt="shortcuts" loading="lazy"> </a>
 </li>
-<li>Wait for the installation to complete: <a href="/assets/images/wallets/multidoge/finished.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/finished.png" alt="finished" loading="lazy" decoding="async"> </a>
+<li>Wait for the installation to complete: <a href="/assets/images/wallets/multidoge/finished.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/finished.png" alt="finished" loading="lazy"> </a>
 </li>
-<li>Click “Done”: <a href="/assets/images/wallets/multidoge/complete.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/complete.png" alt="complete" loading="lazy" decoding="async"> </a>
+<li>Click “Done”: <a href="/assets/images/wallets/multidoge/complete.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/complete.png" alt="complete" loading="lazy"> </a>
 </li>
 </ol>
-<p>Launch the application. You will see the following screen: <a href="/assets/images/wallets/multidoge/home.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/home.png" alt="home" loading="lazy" decoding="async"> </a></p>
+<p>Launch the application. You will see the following screen: <a href="/assets/images/wallets/multidoge/home.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/home.png" alt="home" loading="lazy"> </a></p>
 <h3 id="get-the-address">Get the address</h3>
 <p>Create a new wallet or import a private key. You will see your address and QR code in the “Request” tab:</p>
-<p><a href="/assets/images/wallets/multidoge/address.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/address.png" alt="address" loading="lazy" decoding="async"> </a></p>
+<p><a href="/assets/images/wallets/multidoge/address.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/address.png" alt="address" loading="lazy"> </a></p>
 <p>To top up your wallet, use your address.</p>
 <h3 id="how-do-i-send-funds">How do I send funds?</h3>
-<p>To send funds, go to the “Send” tab: <a href="/assets/images/wallets/multidoge/send.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/send.png" alt="send" loading="lazy" decoding="async"> </a></p>
+<p>To send funds, go to the “Send” tab: <a href="/assets/images/wallets/multidoge/send.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/send.png" alt="send" loading="lazy"> </a></p>
 <p>If the button is grayed out and you are unable to send funds, it means:</p>
 <ul>
 <li>Or insufficient funds</li>
@@ -324,16 +324,16 @@
 </ul>
 <h2 id="network-synchronization">Network synchronization</h2>
 <p>When launched, your wallet will have a loading bar in the bottom left corner. You must wait for 1 to 5 minutes for the wallet to sync.</p>
-<p><a href="/assets/images/wallets/multidoge/sync.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/sync.png" alt="sync" loading="lazy" decoding="async"> </a></p>
+<p><a href="/assets/images/wallets/multidoge/sync.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/sync.png" alt="sync" loading="lazy"> </a></p>
 <p>At the bottom, the date of the block is written, and how many blocks are left to download. Since the light wallet does not need to download the entire blockchain since the founding date of the coin, it syncs faster.</p>
-<p><a href="/assets/images/wallets/multidoge/sync2.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/sync2.png" alt="synchronising" loading="lazy" decoding="async"> </a></p>
+<p><a href="/assets/images/wallets/multidoge/sync2.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/sync2.png" alt="synchronising" loading="lazy"> </a></p>
 <p>Requires low network bandwidth, memory, and 150 MB of hard disk space.</p>
 <p class="notice--info">If you have problems with synchronization, read the article <a href="/en/guide/multidoge/">Solving the problem of slow synchronization and wallet opening</a></p>
 <p>After syncing with the network, you can use your wallet.</p>
 <h2 id="recovery">Recovery</h2>
 <p>For recovery, the application uses a file with the <code class="language-plaintext highlighter-rouge">.wallet</code> extension. If you have lost your recovery file, then you need to find a copy of this file. You can search your entire hard drive to find this file. It will take a long time, but hopefully, you will be able to find this recovery file.</p>
 <p>When you find the <code class="language-plaintext highlighter-rouge">.wallet</code> recovery file, go to the application and click File -&gt; Open Wallet:</p>
-<p><a href="/assets/images/wallets/multidoge/open.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/open.png" alt="open" loading="lazy" decoding="async"> </a></p>
+<p><a href="/assets/images/wallets/multidoge/open.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/open.png" alt="open" loading="lazy"> </a></p>
 <p>All you need to access your balance is your private key, which can be exported from this file. To do this, go back to the “Export private keys” section of this tutorial above.</p>
 <p class="notice--danger">Attention! The <code class="language-plaintext highlighter-rouge">wallet.dat</code> file cannot be imported because the application does not support this format.</p>
 <p>If you forgot your password or lost your recovery file, it will be impossible to restore access.</p>
@@ -366,7 +366,7 @@
 <ol>
 <li>Backup support.</li>
 <li>Protecting your wallet with a password.</li>
-<li>Selecting languages and other settings: <a href="/assets/images/wallets/multidoge/pref.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/pref.png" alt="pref" loading="lazy" decoding="async"> </a>
+<li>Selecting languages and other settings: <a href="/assets/images/wallets/multidoge/pref.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/pref.png" alt="pref" loading="lazy"> </a>
 </li>
 </ol>
 <h3 id="fees">Fees</h3>
@@ -374,9 +374,9 @@
 <p><a href="https://bitinfocharts.com/comparison/dogecoin-transactionfees.html#3y" rel="nofollow noopener" target="_blank">Transaction fee depends on the load of the cryptocurrency network</a> and averages 0.05 Doge.</p>
 <h2 id="where-is-the-wallet-located">Where is the wallet located?</h2>
 <p>The installation file is located at <code class="language-plaintext highlighter-rouge">C:\Program Files\MultiDoge-0.1.7</code></p>
-<p><a href="/assets/images/wallets/multidoge/files.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/files.png" alt="files" loading="lazy" decoding="async"> </a></p>
+<p><a href="/assets/images/wallets/multidoge/files.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/files.png" alt="files" loading="lazy"> </a></p>
 <p>Wallet data with the location of <code class="language-plaintext highlighter-rouge">multidoge.wallet</code> file: <code class="language-plaintext highlighter-rouge">%appdata%\MultiDoge</code></p>
-<p><a href="/assets/images/wallets/multidoge/appdata.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/appdata.png" alt="appdata" loading="lazy" decoding="async"> </a></p>
+<p><a href="/assets/images/wallets/multidoge/appdata.png" class="image-popup"> <img src="/assets/images/wallets/multidoge/appdata.png" alt="appdata" loading="lazy"> </a></p>
 <h2 id="alternatives">Alternatives</h2>
 <ul>
 <li><a href="/en/wallets/dogecoin-core/">MyEtherWallet</a></li>
@@ -402,25 +402,25 @@
 <div id="main" class="phe-vi2"> <!-- related_posts --><div class="page__related">
 <h4 class="page__related-title">Related</h4>
 <div class="grid__wrapper">
-<div class="grid__item"><article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"><div class="archive__item-teaser"> <img src="/assets/images/thumbs/500x300.webp" alt="related icon" loading="lazy" decoding="async">
+<div class="grid__item"><article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"><div class="archive__item-teaser"> <img src="/assets/images/thumbs/500x300.webp" alt="related icon" loading="lazy">
 </div>
 <h2 class="archive__item-title" itemprop="headline"> <a href="/en/guide/eth-staking/" rel="permalink">How to stake Ethereum 2.0? How much ETH can you earn? </a>
 </h2>
 <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 11 minute read</p>
 <p class="archive__item-excerpt" itemprop="description"> Is Ethereum Staking Profitable? In this beginner’s guide, you will learn all the details about Ethereum staking and which crypto exch...</p></article></div>
-<div class="grid__item"><article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"><div class="archive__item-teaser"> <img src="/assets/images/thumbs/500x300.webp" alt="related icon" loading="lazy" decoding="async">
+<div class="grid__item"><article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"><div class="archive__item-teaser"> <img src="/assets/images/thumbs/500x300.webp" alt="related icon" loading="lazy">
 </div>
 <h2 class="archive__item-title" itemprop="headline"> <a href="/en/guide/merge/" rel="permalink">Ethereum 2.0 Merge Fork Explained: launch Date and Mining </a>
 </h2>
 <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 12 minute read</p>
 <p class="archive__item-excerpt" itemprop="description"> Yes, Ethereum 2.0 kill mining. But there will be new opportunities. What is Ethereum Merge? What are its economic implications? And w...</p></article></div>
-<div class="grid__item"><article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"><div class="archive__item-teaser"> <img src="/assets/images/thumbs/500x300.webp" alt="related icon" loading="lazy" decoding="async">
+<div class="grid__item"><article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"><div class="archive__item-teaser"> <img src="/assets/images/thumbs/500x300.webp" alt="related icon" loading="lazy">
 </div>
 <h2 class="archive__item-title" itemprop="headline"> <a href="/en/guide/usdt-works/" rel="permalink">Stablecoin USDT: What is it? How does it work? [Explained] </a>
 </h2>
 <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 13 minute read</p>
 <p class="archive__item-excerpt" itemprop="description"> Can USDT goes to zero? History of Tether Limited. In this guide, you will learn everything about the Tether (USDT) cryptocurrency.</p></article></div>
-<div class="grid__item"><article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"><div class="archive__item-teaser"> <img src="/assets/images/thumbs/500x300.webp" alt="related icon" loading="lazy" decoding="async">
+<div class="grid__item"><article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"><div class="archive__item-teaser"> <img src="/assets/images/thumbs/500x300.webp" alt="related icon" loading="lazy">
 </div>
 <h2 class="archive__item-title" itemprop="headline"> <a href="/en/guide/blockchain-life/" rel="permalink">Blockchain Life 2022 Forum Moscow, September </a>
 </h2>
@@ -453,6 +453,6 @@
 <p><a href="/en/legal/disclaimer" class="tim-policy" rel="nofollow">Disclaimer</a> |</p>
 </div>
 <hr class="hrdark"> © 2022 MiningSoft.</footer></div>
-<script src="/assets/js/main.min.js"></script> <script src="/assets/js/lunr/lunr.min.js"></script> <script src="/assets/js/lunr/lunr-store.js"></script> <script src="/assets/js/lunr/lunr-en.js"></script> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-NCDX3T5');</script> <!-- End Google Tag Manager --> <script defer src="/assets/js/youtube-custom-lazy.js"></script> <!-- Google Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NCDX3T5" height="0" width="0" style="display:none;visibility:hidden" loading="lazy" decoding="async"></iframe></noscript> <!-- End Google Tag Manager (noscript) --> <script src="https://coinzillatag.com/lib/sticky.js"></script> <script>window.coinzilla_sticky = window.coinzilla_sticky || [];function czilla(){coinzilla_sticky.push(arguments);}czilla('19660aca9520a28c368');</script>
+<script src="/assets/js/main.min.js"></script> <script src="/assets/js/lunr/lunr.min.js"></script> <script src="/assets/js/lunr/lunr-store.js"></script> <script src="/assets/js/lunr/lunr-en.js"></script> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-NCDX3T5');</script> <!-- End Google Tag Manager --> <script defer src="/assets/js/youtube-custom-lazy.js"></script> <!-- Google Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NCDX3T5" height="0" width="0" style="display:none;visibility:hidden" loading="lazy"></iframe></noscript> <!-- End Google Tag Manager (noscript) --> <script src="https://coinzillatag.com/lib/sticky.js"></script> <script>window.coinzilla_sticky = window.coinzilla_sticky || [];function czilla(){coinzilla_sticky.push(arguments);}czilla('19660aca9520a28c368');</script>
 </body>
 </html>

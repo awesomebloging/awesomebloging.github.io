@@ -61,7 +61,7 @@
 <li class="current">NVFlash Windows 10 x64 [v5.735.0]: Download, Commands</li>
 </ol></nav><div id="main" role="main">
 <div class="sidebar nosticky"><div itemscope itemtype="https://schema.org/Person">
-<div class="author__avatar"> <img width="97" height="97" src="/assets/images/matthewwood.webp" alt="Matthew Wood" itemprop="image" loading="lazy" decoding="async">
+<div class="author__avatar"> <img width="97" height="97" src="/assets/images/matthewwood.webp" alt="Matthew Wood" itemprop="image" loading="lazy">
 </div>
 <div class="author__content">
 <h3 class="author__name" itemprop="name">Matthew Wood</h3>
@@ -127,7 +127,7 @@
 <meta itemprop="image" content="/assets/images/tools/nvflash/download.png">
 <h2 class="panel-title" id="Step 1 - Download the software">Step 1 - Download the software</h2>
 <meta itemprop="name" content="Download the program">
-<div class="panel-body" itemprop="text"><p><a href="https://www.techpowerup.com/download/nvidia-nvflash/" rel="nofollow noopener" target="_blank">Download the program from the official TechPowerUp website</a>. Or download from <a href="https://www.guru3d.com/files-details/nvflash-download-for-windows.html" rel="nofollow noopener" target="_blank">release with guru3d</a>. <a href="/assets/images/tools/nvflash/download.png" class="image-popup"> <img src="/assets/images/tools/nvflash/download.png" alt="nvflash download" loading="lazy" decoding="async"> </a></p></div>
+<div class="panel-body" itemprop="text"><p><a href="https://www.techpowerup.com/download/nvidia-nvflash/" rel="nofollow noopener" target="_blank">Download the program from the official TechPowerUp website</a>. Or download from <a href="https://www.guru3d.com/files-details/nvflash-download-for-windows.html" rel="nofollow noopener" target="_blank">release with guru3d</a>. <a href="/assets/images/tools/nvflash/download.png" class="image-popup"> <img src="/assets/images/tools/nvflash/download.png" alt="nvflash download" loading="lazy"> </a></p></div>
 </div>
 <div class="panel panel-default" id="step2" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
 <link itemprop="url" href="/buy/eth/#step2">
@@ -136,9 +136,9 @@
 <meta itemprop="name" content="backup your BIOS">
 <div class="panel-body" itemprop="text"><div>
 <p>Extract the .zip archive to the root of your system drive <code>C</code>. The file <code>nvflash64.exe</code> must be in the path <code>C:\</code>.</p>
-<p><a href="/assets/images/tools/nvflash/nvflash_folder.png" class="image-popup"> <img src="/assets/images/tools/nvflash/nvflash_folder.png" alt="nvflash folder" loading="lazy" decoding="async"> </a></p>
+<p><a href="/assets/images/tools/nvflash/nvflash_folder.png" class="image-popup"> <img src="/assets/images/tools/nvflash/nvflash_folder.png" alt="nvflash folder" loading="lazy"> </a></p>
 <p>Run <a href="https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/jj717276(v=ws.11)" rel="nofollow noopener" target="_blank">Command Prompt as Administrator</a>.</p>
-<p><a href="/assets/images/tools/nvflash/cmd_administarator.png" class="image-popup"> <img src="/assets/images/tools/nvflash/cmd_administarator.png" alt="cmd_administarator" loading="lazy" decoding="async"> </a></p>
+<p><a href="/assets/images/tools/nvflash/cmd_administarator.png" class="image-popup"> <img src="/assets/images/tools/nvflash/cmd_administarator.png" alt="cmd_administarator" loading="lazy"> </a></p>
 <ol>
 <li>Click on the search icon.</li>
 <li>Type in the bottom search bar <code>CMD</code>.</li>
@@ -146,12 +146,12 @@
 </ol>Change to the directory with the program <code>nvflash64.exe</code>. To do this, enter the command:<div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">cd</span><span class="w"> </span><span class="nx">C:\</span><span class="w">
 </span></code></pre></div></div>
 <p>The result of executing the command:</p>
-<p><a href="/assets/images/tools/nvflash/cd_c_cmd.png" class="image-popup"> <img src="/assets/images/tools/nvflash/cd_c_cmd.png" alt="cd_c_сmd" loading="lazy" decoding="async"> </a></p>
+<p><a href="/assets/images/tools/nvflash/cd_c_cmd.png" class="image-popup"> <img src="/assets/images/tools/nvflash/cd_c_cmd.png" alt="cd_c_сmd" loading="lazy"> </a></p>
 <p>Now, save a copy of the current BIOS of your graphics card. Enter the command:</p>
 <div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">nvflash64</span><span class="w"> </span><span class="nt">-b</span><span class="w"> </span><span class="nx">bios.rom</span><span class="w">
 </span></code></pre></div></div>
 <p>You will see a window like this. A copy will be stored on disk <code>C:</code>.</p>
-<p><a href="/assets/images/tools/nvflash/nvflash_backup.png" class="image-popup"> <img src="/assets/images/tools/nvflash/nvflash_backup.png" alt="nvflash_backup" loading="lazy" decoding="async"> </a></p>
+<p><a href="/assets/images/tools/nvflash/nvflash_backup.png" class="image-popup"> <img src="/assets/images/tools/nvflash/nvflash_backup.png" alt="nvflash_backup" loading="lazy"> </a></p>
 <p>If your program is not called <code>nvflash64.exe</code>, but <code>nvflash.exe</code>, then use this name in commands.</p>
 </div></div>
 </div>
@@ -165,13 +165,13 @@
 <div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">nvflash64</span><span class="w"> </span><span class="nt">-protectoff</span><span class="w">
 </span></code></pre></div></div>
 <p>You will see the inscription <code>Remove EEPROM write protect complete</code>:</p>
-<p><a href="/assets/images/tools/nvflash/protect.png" class="image-popup"> <img src="/assets/images/tools/nvflash/protect.png" alt="protect" loading="lazy" decoding="async"> </a></p>
+<p><a href="/assets/images/tools/nvflash/protect.png" class="image-popup"> <img src="/assets/images/tools/nvflash/protect.png" alt="protect" loading="lazy"> </a></p>
 <p>Flash the video card with the new BIOS. It must be on the disc <code>C:</code> and have a title <code>newbios.rom</code>. Enter the firmware command:</p>
 <div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">nvflash64</span><span class="w"> </span><span class="nt">-6</span><span class="w"> </span><span class="nx">newbios.rom</span><span class="w">
 </span></code></pre></div></div>
 <p>The program will report: <code>Update successful.</code></p>
 <p>And then you need to restart your computer - <code>A reboot is required for the update to take effect</code>.</p>
-<p><a href="/assets/images/tools/nvflash/reboot.png" class="image-popup"> <img src="/assets/images/tools/nvflash/reboot.png" alt="reboot" loading="lazy" decoding="async"> </a></p>
+<p><a href="/assets/images/tools/nvflash/reboot.png" class="image-popup"> <img src="/assets/images/tools/nvflash/reboot.png" alt="reboot" loading="lazy"> </a></p>
 </div>
 </div>
 <div class="panel panel-default" id="videoguide" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
@@ -387,25 +387,25 @@
 <div id="main" class="phe-vi2"> <!-- related_posts --><div class="page__related">
 <h4 class="page__related-title">Related</h4>
 <div class="grid__wrapper">
-<div class="grid__item"><article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"><div class="archive__item-teaser"> <img src="/assets/images/thumbs/500x300.webp" alt="related icon" loading="lazy" decoding="async">
+<div class="grid__item"><article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"><div class="archive__item-teaser"> <img src="/assets/images/thumbs/500x300.webp" alt="related icon" loading="lazy">
 </div>
 <h2 class="archive__item-title" itemprop="headline"> <a href="/en/guide/eth-staking/" rel="permalink">How to stake Ethereum 2.0? How much ETH can you earn? </a>
 </h2>
 <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 11 minute read</p>
 <p class="archive__item-excerpt" itemprop="description"> Is Ethereum Staking Profitable? In this beginner’s guide, you will learn all the details about Ethereum staking and which crypto exch...</p></article></div>
-<div class="grid__item"><article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"><div class="archive__item-teaser"> <img src="/assets/images/thumbs/500x300.webp" alt="related icon" loading="lazy" decoding="async">
+<div class="grid__item"><article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"><div class="archive__item-teaser"> <img src="/assets/images/thumbs/500x300.webp" alt="related icon" loading="lazy">
 </div>
 <h2 class="archive__item-title" itemprop="headline"> <a href="/en/guide/merge/" rel="permalink">Ethereum 2.0 Merge Fork Explained: launch Date and Mining </a>
 </h2>
 <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 12 minute read</p>
 <p class="archive__item-excerpt" itemprop="description"> Yes, Ethereum 2.0 kill mining. But there will be new opportunities. What is Ethereum Merge? What are its economic implications? And w...</p></article></div>
-<div class="grid__item"><article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"><div class="archive__item-teaser"> <img src="/assets/images/thumbs/500x300.webp" alt="related icon" loading="lazy" decoding="async">
+<div class="grid__item"><article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"><div class="archive__item-teaser"> <img src="/assets/images/thumbs/500x300.webp" alt="related icon" loading="lazy">
 </div>
 <h2 class="archive__item-title" itemprop="headline"> <a href="/en/guide/usdt-works/" rel="permalink">Stablecoin USDT: What is it? How does it work? [Explained] </a>
 </h2>
 <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 13 minute read</p>
 <p class="archive__item-excerpt" itemprop="description"> Can USDT goes to zero? History of Tether Limited. In this guide, you will learn everything about the Tether (USDT) cryptocurrency.</p></article></div>
-<div class="grid__item"><article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"><div class="archive__item-teaser"> <img src="/assets/images/thumbs/500x300.webp" alt="related icon" loading="lazy" decoding="async">
+<div class="grid__item"><article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"><div class="archive__item-teaser"> <img src="/assets/images/thumbs/500x300.webp" alt="related icon" loading="lazy">
 </div>
 <h2 class="archive__item-title" itemprop="headline"> <a href="/en/guide/blockchain-life/" rel="permalink">Blockchain Life 2022 Forum Moscow, September </a>
 </h2>
@@ -438,6 +438,6 @@
 <p><a href="/en/legal/disclaimer" class="tim-policy" rel="nofollow">Disclaimer</a> |</p>
 </div>
 <hr class="hrdark"> © 2022 MiningSoft.</footer></div>
-<script src="/assets/js/main.min.js"></script> <script src="/assets/js/lunr/lunr.min.js"></script> <script src="/assets/js/lunr/lunr-store.js"></script> <script src="/assets/js/lunr/lunr-en.js"></script> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-NCDX3T5');</script> <!-- End Google Tag Manager --> <script defer src="/assets/js/youtube-custom-lazy.js"></script> <!-- Google Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NCDX3T5" height="0" width="0" style="display:none;visibility:hidden" loading="lazy" decoding="async"></iframe></noscript> <!-- End Google Tag Manager (noscript) --> <script src="https://coinzillatag.com/lib/sticky.js"></script> <script>window.coinzilla_sticky = window.coinzilla_sticky || [];function czilla(){coinzilla_sticky.push(arguments);}czilla('19660aca9520a28c368');</script>
+<script src="/assets/js/main.min.js"></script> <script src="/assets/js/lunr/lunr.min.js"></script> <script src="/assets/js/lunr/lunr-store.js"></script> <script src="/assets/js/lunr/lunr-en.js"></script> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-NCDX3T5');</script> <!-- End Google Tag Manager --> <script defer src="/assets/js/youtube-custom-lazy.js"></script> <!-- Google Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NCDX3T5" height="0" width="0" style="display:none;visibility:hidden" loading="lazy"></iframe></noscript> <!-- End Google Tag Manager (noscript) --> <script src="https://coinzillatag.com/lib/sticky.js"></script> <script>window.coinzilla_sticky = window.coinzilla_sticky || [];function czilla(){coinzilla_sticky.push(arguments);}czilla('19660aca9520a28c368');</script>
 </body>
 </html>
