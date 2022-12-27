@@ -19,8 +19,8 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://miningsoft.org/assets/images/site-logo.png">
 <meta property="article:published_time" content="2022-12-12T00:00:00-05:00">
-<meta property="article:modified_time" content="2022-12-23T00:00:00-05:00">
-<link rel="canonical" href="https://miningsoft.org/en/guide/specific-domain-linux/"> <script type="application/ld+json"> { "@context": "https://schema.org", "@type": "Article", "headline": "Check Which Route For Specific Domain In Linux", "image": "", "author": { "@type": "Person", "name": "Matthew Wood", "url": "https://miningsoft.org/en/about", "sameAs": "https://www.facebook.com/ltcbtc" }, "publisher": { "@type": "Organization", "name": "MiningSoft", "logo": { "@type": "ImageObject", "url": "https://miningsoft.org/assets/images/logo2.png" } }, "dateModified": "2022-12-23T00:00:00-05:00" } </script><meta name="google-site-verification" content="lzkzzEBSl4ZcrOj5sxD0Ao0R1sXdFSczY9bQcLVWHMY">
+<meta property="article:modified_time" content="2022-12-27T00:00:00-05:00">
+<link rel="canonical" href="https://miningsoft.org/en/guide/specific-domain-linux/"> <script type="application/ld+json"> { "@context": "https://schema.org", "@type": "Article", "headline": "Check Which Route For Specific Domain In Linux", "image": "", "author": { "@type": "Person", "name": "Matthew Wood", "url": "https://miningsoft.org/en/about", "sameAs": "https://www.facebook.com/ltcbtc" }, "publisher": { "@type": "Organization", "name": "MiningSoft", "logo": { "@type": "ImageObject", "url": "https://miningsoft.org/assets/images/logo2.png" } }, "dateModified": "2022-12-27T00:00:00-05:00" } </script><meta name="google-site-verification" content="lzkzzEBSl4ZcrOj5sxD0Ao0R1sXdFSczY9bQcLVWHMY">
 <meta name="yandex-verification" content="da0cda22b6e4f5d0"> <!-- end _includes/seo.html --><meta name="description" content="How to create custom routes for specific domains in Linux. We’ll show you how to use the route command to find the best DNS route for your web server.">
 <meta name="author" content="Matthew Wood">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="MiningSoft Feed">
@@ -79,7 +79,7 @@
 <article class="page" itemscope itemtype="https://schema.org/CreativeWork"><meta itemprop="headline" content="Check Which Route For Specific Domain In Linux">
 <meta itemprop="description" content=" How to create custom routes for specific domains in Linux. We’ll show you how to use the route command to find the best DNS route for your web server.">
 <meta itemprop="datePublished" content="December 12, 2022">
-<meta itemprop="dateModified" content="December 23, 2022">
+<meta itemprop="dateModified" content="December 27, 2022">
 <div class="page__inner-wrap"><section class="page__content" itemprop="text"><header><h1 id="page-title" class="page__title" itemprop="headline">Check Which Route For Specific Domain In Linux</h1></header><aside class="sidebar__right sticky"><nav class="toc"><header><h4 class="nav__title"> <i class="fas fa-file-alt"></i> Contents</h4></header><ul class="toc__menu">
 <li><a href="#stream-hulu-with-a-vpn-keep-your-privacy-intact">Stream Hulu with a VPN: Keep your privacy intact</a></li>
 <li><a href="#how-to-choose-the-right-route-for-a-specific-domain-in-linux">How To Choose The Right Route For A Specific Domain In Linux?</a></li>
@@ -107,6 +107,17 @@
 <li><p><strong>Static Route</strong>: A static route is defined once and never changes. This is the most common route type used in Linux because it is easy to set up and does not require any configuration on routers or firewalls.</p></li>
 <li><p><strong>Dynamic Route</strong>: A dynamic route is created each time a packet is routed through the system. This type of route can be more complicated to set up, but it offers greater flexibility because it can update automatically based on changes in the network.</p></li>
 </ul>
+<p>To display the current routing table in Linux, run the command:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># ip route</span>
+</code></pre></div></div>
+<ul>
+<li> <code class="language-plaintext highlighter-rouge">default via 192.168.1.1 dev enp0s3</code> – default gateway, in this example, working through interface <code class="language-plaintext highlighter-rouge">enp0s3</code>. If there is no route for the <code class="language-plaintext highlighter-rouge">target</code> address in the routing table, then such a packet is sent through this gateway (default route)</li>
+<li> <code class="language-plaintext highlighter-rouge">192.168.1.0/24 dev enp0s3 proto kernel scope link src 192.168.1.201</code> - static route for the network <code class="language-plaintext highlighter-rouge">192.168.1.0/24</code> through the address <code class="language-plaintext highlighter-rouge">192.168.1.201</code>, which is registered on the interface</li>
+<li> <code class="language-plaintext highlighter-rouge">proto kernel</code> - route created by kernel ( proto static - route added by administrator)</li>
+<li> <code class="language-plaintext highlighter-rouge">metric</code> – route priority (the lower the <code class="language-plaintext highlighter-rouge">metric</code> value, the higher the priority). If there are two routes with the same metric (don’t do that!), the kernel starts randomly selecting routes. To find out through which interface (gateway) traffic should be routed to a specific IP address, use the command:</li>
+</ul>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># ip route get 192.168.2.45</span>
+</code></pre></div></div>
 <h2 id="how-to-find-the-best-dns-route-for-your-web-server-in-linux">How To Find The Best Dns Route For Your Web Server In Linux?</h2>
 <p>In this article, we’ll show you how to use the <code class="language-plaintext highlighter-rouge">route</code> command to find the best DNS route for your web server.</p>
 <p class="notice--success">A routed command is a powerful tool that can be used to manipulate network traffic in Linux.</p>
@@ -182,8 +193,8 @@ default         192.168.5.1     0.0.0.0         UG    1024   0        0 eno16777
 <p>It is important to know which route for a specific domain will be the most efficient for your needs. There are many options open to you, so it is important to do your research to find the best option for your needs.</p>
 </div>
 <footer class="page__meta"><p class="page__taxonomy"> <i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: <span itemprop="keywords"> <a href="/en/guide" class="page__taxonomy-item" rel="tag">guide</a> </span></p>
-<p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2022-12-23T00:00:00-05:00">23.12.2022</time></p>
-<p class="hide"><i class="far fa-clock" aria-hidden="true"></i> 5 minute read</p></footer></section></div></article>
+<p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2022-12-27T00:00:00-05:00">27.12.2022</time></p>
+<p class="hide"><i class="far fa-clock" aria-hidden="true"></i> 6 minute read</p></footer></section></div></article>
 </div>
 <!-- download --><div class="mar"> <!--<section class="so-down"><div class="so-title whitez1"><a id="download">Getting Started With Ethereum Mining</a></div><div class="so-download"><div class="so-flex"><div class="so-ver"> Latest version is 5.5c<br> File: *<code></code>, SHA256: 599393e258d8ba7b8f8633e20c651868258827d3a43a4d0712125bc487eabf92<br> <span class="nev2">(<a href="https://bit.ly/3bujasD">Download for Linux</a>)</span></div><div class="so-get"> <span class="so-password">Password: phoenix</span><div class="so-button down"><i class="far fa-arrow-alt-circle-down"></i> <a href="https://cutt.ly/NzVAJor" target="_blank">Download Now (Windows x64)</a></div><span class="so-mirror">(<a href="https://bit.ly/2MeIrhX" target="_blank" rel="nofollow">mirror</a>)</span></div></div></div></section>-->
 </div>
