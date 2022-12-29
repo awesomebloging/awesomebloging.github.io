@@ -19,8 +19,8 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://miningsoft.org/assets/images/site-logo.png">
 <meta property="article:published_time" content="2021-08-10T00:00:00-05:00">
-<meta property="article:modified_time" content="2022-08-27T00:00:00-05:00">
-<link rel="canonical" href="https://miningsoft.org/ru/tools/overdriventool/"> <script type="application/ld+json"> { "@context": "https://schema.org", "@type": "Article", "headline": "OverdriveNTool [v0.2.9]&#58; Скачать, Как Пользоваться", "image": "", "author": { "@type": "Person", "name": "Matthew Wood", "url": "https://miningsoft.org/ru/about", "sameAs": "https://www.facebook.com/ltcbtc" }, "publisher": { "@type": "Organization", "name": "MiningSoft", "logo": { "@type": "ImageObject", "url": "https://miningsoft.org/assets/images/logo2.png" } }, "dateModified": "2022-08-27T00:00:00-05:00" } </script><meta name="google-site-verification" content="lzkzzEBSl4ZcrOj5sxD0Ao0R1sXdFSczY9bQcLVWHMY">
+<meta property="article:modified_time" content="2022-12-29T00:00:00-05:00">
+<link rel="canonical" href="https://miningsoft.org/ru/tools/overdriventool/"> <script type="application/ld+json"> { "@context": "https://schema.org", "@type": "Article", "headline": "OverdriveNTool [v0.2.9]&#58; Скачать, Как Пользоваться", "image": "", "author": { "@type": "Person", "name": "Matthew Wood", "url": "https://miningsoft.org/ru/about", "sameAs": "https://www.facebook.com/ltcbtc" }, "publisher": { "@type": "Organization", "name": "MiningSoft", "logo": { "@type": "ImageObject", "url": "https://miningsoft.org/assets/images/logo2.png" } }, "dateModified": "2022-12-29T00:00:00-05:00" } </script><meta name="google-site-verification" content="lzkzzEBSl4ZcrOj5sxD0Ao0R1sXdFSczY9bQcLVWHMY">
 <meta name="yandex-verification" content="da0cda22b6e4f5d0"> <!-- end _includes/seo.html --><meta name="description" content="Overdrive NTool: Скачать с официального сайта, изменить тайминги на примере AMD 580 и Vega. В этом руководстве вы узнаете, как настроить и использовать OverdriveNTool v0.2.9 и новее.">
 <meta name="author" content="Matthew Wood">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="MiningSoft Feed">
@@ -79,7 +79,7 @@
 <article class="page" itemscope itemtype="https://schema.org/CreativeWork"><meta itemprop="headline" content="OverdriveNTool [v0.2.9]: Скачать, Как Пользоваться">
 <meta itemprop="description" content=" Overdrive NTool: Скачать с официального сайта, изменить тайминги на примере AMD 580 и Vega. В этом руководстве вы узнаете, как настроить и использовать OverdriveNTool v0.2.9 и новее.">
 <meta itemprop="datePublished" content="August 10, 2021">
-<meta itemprop="dateModified" content="August 27, 2022">
+<meta itemprop="dateModified" content="December 29, 2022">
 <div class="page__inner-wrap"><section class="page__content" itemprop="text"><header><h1 id="page-title" class="page__title" itemprop="headline">OverdriveNTool: Скачать, Как пользоваться и прошить тайминги</h1></header><aside class="sidebar__right sticky"><nav class="toc"><header><h4 class="nav__title"> <i class="fas fa-file-alt"></i> Содержание</h4></header><ul class="toc__menu">
 <li><a href="#%D1%81%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-%D0%B4%D0%BB%D1%8F-windowslinux">Скачать для Windows/Linux</a></li>
 <li><a href="#overdriventool">Что такое OverdriveNTool?</a></li>
@@ -116,6 +116,8 @@
 <p><b>OverdriveNTool</b> - это программа для настройки параметров видеокарт AMD. В приложении меняются показатели частоты работы видеокарты. Помимо этого, у пользователя появляется возможность контролировать напряжение. Также можно запрограммировать, чтобы снизить потребляемое напряжение при достижении установленного показателя температуры. Благодаря этому снижается риск перегрева оборудования.</p>
 <p>Поддерживаемые видеокарты:</p>
 <blockquote><p>290, 290x, 380, 380x, 390, 390x, Fury, Fury X, Nano, 4xx, 5xx серия (RX 580, RX 570), Vega 56, Vega 64.</p></blockquote></section><h2 id="требования">Требования</h2>
+<div class="imgcen"> <iframe class="your-ad-position-style" src="https://mat.cryptox-ads.io/cxAdsAssets/banner-basic-v0.11/index.html?size=300*250&amp;app_id=10905748&amp;placement_id=20003615" loading="lazy" style="border:0;width:300px; height:250px" decoding="async"></iframe>
+</div>
 <ul>
 <li>ОС: Windows 7,8,10 и более поздние сборки.</li>
 <li>Видеокарта: в настоящее время поддерживаются 290, 290x, 380, 380x, 390, 390x, Fury, Fury X, Nano, 4xx, 5xx серия, Vega 56, Vega 64).</li>
@@ -389,13 +391,13 @@
 <div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">-ac</span><span class="o">*</span> <span class="kd">Power_Target</span><span class="o">=-</span><span class="m">1</span> <span class="kd">GPU_P7</span><span class="o">=*;*;</span><span class="m">0</span>
 </code></pre></div></div>
 <div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">-wait</span><span class="m">1000</span> <span class="na">-r</span><span class="m">0</span> <span class="na">-ac</span><span class="m">0</span> <span class="kd">GPU_P7</span><span class="o">=</span><span class="m">1200</span><span class="o">;</span><span class="m">800</span> <span class="kd">Mem_P1</span><span class="o">=</span><span class="m">700</span><span class="o">;</span><span class="m">850</span><span class="o">;</span><span class="m">0</span> <span class="kd">Mem_P2</span><span class="o">=</span><span class="m">750</span><span class="o">;</span><span class="m">850</span><span class="o">;</span><span class="m">0</span> <span class="kd">Mem_P3</span><span class="o">=</span><span class="m">800</span><span class="o">;</span><span class="m">850</span><span class="o">;</span><span class="m">0</span> <span class="kd">Mem_P4</span><span class="o">=</span><span class="m">1000</span><span class="o">;</span><span class="m">850</span> <span class="kd">Fan_Min</span><span class="o">=</span><span class="m">1080</span> <span class="kd">Fan_Max</span><span class="o">=</span><span class="m">1700</span> <span class="kd">Fan_Target</span><span class="o">=</span><span class="m">70</span> <span class="kd">Fan_Acoustic</span><span class="o">=</span><span class="m">700</span> <span class="kd">Power_Temp</span><span class="o">=</span><span class="m">90</span> <span class="kd">Power_Target</span><span class="o">=</span><span class="m">50</span>
-
-<span class="sb">```batch
--ac0 Power_Target=50 -ac1 Power_Target=-50 -ac2 Fan_Max=1700 Fan_Min=1080 -ac1 Fan_Acoustic=700
-</span></code></pre></div></div>
+</code></pre></div></div>
+<div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">-ac</span><span class="m">0</span> <span class="kd">Power_Target</span><span class="o">=</span><span class="m">50</span> <span class="na">-ac</span><span class="m">1</span> <span class="kd">Power_Target</span><span class="o">=-</span><span class="m">50</span> <span class="na">-ac</span><span class="m">2</span> <span class="kd">Fan_Max</span><span class="o">=</span><span class="m">1700</span> <span class="kd">Fan_Min</span><span class="o">=</span><span class="m">1080</span> <span class="na">-ac</span><span class="m">1</span> <span class="kd">Fan_Acoustic</span><span class="o">=</span><span class="m">700</span>
+</code></pre></div></div>
 <div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">-getcurrent </span><span class="o">-</span> <span class="kd">prints</span> <span class="kd">current</span> <span class="kd">values</span> <span class="k">for</span> <span class="kd">all</span> <span class="kd">supported</span> <span class="kd">GPUs</span> <span class="k">in</span> <span class="nb">cmd</span> <span class="kd">console</span> <span class="kd">window</span>.
 </code></pre></div></div>
 <div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">-t</span><span class="o">[</span><span class="kd">gpu_id</span><span class="o">]</span>
+
 </code></pre></div></div>
 <p>Перезапустите графический процессор с помощью <code class="language-plaintext highlighter-rouge">id=[gpu_id]</code>. Это похоже на включение/отключение видеокарты в диспетчере устройств. Полезно для немедленного применения изменений реестра, внесенных в ключи AMD, такие как таблица <code class="language-plaintext highlighter-rouge">SoftPowerPlay</code>. Для работы требуются права администратора.</p>
 <h2 id="решение-проблем">Решение проблем</h2>
@@ -409,6 +411,14 @@
 <li>Чтобы открыть настройки или редактор SoftPowerPlayTable, нужно нажать двойным щелчком ЛКМ на иконку программы. Она расположена вверху слева. Также можно нажать ПКМ на заголовок.</li>
 <li>Для изменения «дружественного имени», его нужно включить в настройках. После нажмите ПКМ на перечень видеокарт, чтобы открылось меню.</li>
 </ul>
+<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject"> <span itemprop="name" class="bold">OverDriveNTool autoload</span><meta itemprop="duration" content="PT4M11S">
+<meta itemprop="uploadDate" content="2019-05-24T07:02:00Z">
+<meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/KzQNF7Gijdw/default.jpg">
+<meta itemprop="interactionCount" content="3162">
+<meta itemprop="embedURL" content="https://youtube.googleapis.com/v/KzQNF7Gijdw">
+<div class="youtube-player" data-id="KzQNF7Gijdw"></div>
+<span itemprop="description">OverDriveNTool autoload with RX590</span>
+</div>
 <h2 id="версии">Версии</h2>
 <p>0.2.9 (14.06.2020)</p>
 <ul>
@@ -429,7 +439,7 @@
 <p>Для эффективного майнинга нужно использовать возможности видеокарты на полную мощность. Работать с программой достаточно просто.</p>
 </div>
 <footer class="page__meta"><p class="page__taxonomy"> <i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Разделы: <span itemprop="keywords"> <a href="/ru/tools" class="page__taxonomy-item" rel="tag">tools</a> </span></p>
-<p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Дата изменения: <time datetime="2022-08-27T00:00:00-05:00">27.08.2022</time></p>
+<p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Дата изменения: <time datetime="2022-12-29T00:00:00-05:00">29.12.2022</time></p>
 <p class="hide"><i class="far fa-clock" aria-hidden="true"></i> 11 мин на чтение</p></footer></section></div></article>
 </div>
 <!-- download --><div class="mar"> <!--<section class="so-down"><div class="so-title whitez1"><a id="download">Getting Started With Ethereum Mining</a></div><div class="so-download"><div class="so-flex"><div class="so-ver"> Latest version is 5.5c<br> File: *<code></code>, SHA256: 599393e258d8ba7b8f8633e20c651868258827d3a43a4d0712125bc487eabf92<br> <span class="nev2">(<a href="https://bit.ly/3bujasD">Download for Linux</a>)</span></div><div class="so-get"> <span class="so-password">Password: phoenix</span><div class="so-button down"><i class="far fa-arrow-alt-circle-down"></i> <a href="https://cutt.ly/NzVAJor" target="_blank">Download Now (Windows x64)</a></div><span class="so-mirror">(<a href="https://bit.ly/2MeIrhX" target="_blank" rel="nofollow">mirror</a>)</span></div></div></div></section>-->
