@@ -1,0 +1,4 @@
+"cryptox-ads.io,10905872, DIRECT
+google.com, pub-3380812601932631, DIRECT, f08c47fec0942fa0
+google.com, pub-2394312500644962, DIRECT, f08c47fec0942fa0
+google.com, pub-9564112500094196, DIRECT, f08c47fec0942fa0"
