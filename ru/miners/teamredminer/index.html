@@ -19,8 +19,8 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://miningsoft.org/assets/images/site-logo.png">
 <meta property="article:published_time" content="2021-03-24T00:00:00-05:00">
-<meta property="article:modified_time" content="2023-02-14T00:00:00-05:00">
-<link rel="canonical" href="https://miningsoft.org/ru/miners/teamredminer/"> <script type="application/ld+json"> { "@context": "https://schema.org", "@type": "Article", "headline": "TeamRedMiner 0.10.9&#58; Скачать, Настройка ETC, Команды", "image": "", "author": { "@type": "Person", "name": "Matthew Wood", "url": "https://miningsoft.org/ru/about", "sameAs": "https://www.facebook.com/ltcbtc" }, "publisher": { "@type": "Organization", "name": "MiningSoft", "logo": { "@type": "ImageObject", "url": "https://miningsoft.org/assets/images/logo2.png" } }, "dateModified": "2023-02-14T00:00:00-05:00" } </script><meta name="google-site-verification" content="lzkzzEBSl4ZcrOj5sxD0Ao0R1sXdFSczY9bQcLVWHMY">
+<meta property="article:modified_time" content="2023-02-27T00:00:00-05:00">
+<link rel="canonical" href="https://miningsoft.org/ru/miners/teamredminer/"> <script type="application/ld+json"> { "@context": "https://schema.org", "@type": "Article", "headline": "TeamRedMiner 0.10.9&#58; Скачать, Настройка ETC, Команды", "image": "", "author": { "@type": "Person", "name": "Matthew Wood", "url": "https://miningsoft.org/ru/about", "sameAs": "https://www.facebook.com/ltcbtc" }, "publisher": { "@type": "Organization", "name": "MiningSoft", "logo": { "@type": "ImageObject", "url": "https://miningsoft.org/assets/images/logo2.png" } }, "dateModified": "2023-02-27T00:00:00-05:00" } </script><meta name="google-site-verification" content="lzkzzEBSl4ZcrOj5sxD0Ao0R1sXdFSczY9bQcLVWHMY">
 <meta name="yandex-verification" content="da0cda22b6e4f5d0"> <!-- end _includes/seo.html --><meta name="author" content="Matthew Wood">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="MiningSoft Feed">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> <script> document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js '; </script> <!-- For all browsers --><link rel="stylesheet" href="/assets/css/main.css">
@@ -89,7 +89,7 @@
 <article class="page" itemscope itemtype="https://schema.org/CreativeWork"><meta itemprop="headline" content="TeamRedMiner 0.10.9: Скачать, Настройка ETC, Команды">
 <meta itemprop="description" content=" TeamRedMiner: Настройка для ETC, Команды, примеры для (ETC, RVN) и многое другое. В этом руководстве вы узнаете, как настроить и использовать программное обеспечение ТимРедМайнер 0.10.9 и новее для майнинга криптовалют">
 <meta itemprop="datePublished" content="March 24, 2021">
-<meta itemprop="dateModified" content="February 14, 2023">
+<meta itemprop="dateModified" content="February 27, 2023">
 <div class="page__inner-wrap"><section class="page__content" itemprop="text"><header><h1 id="page-title" class="page__title" itemprop="headline">TeamRedMiner 0.10.9: Скачать, Настройка и Команды</h1></header><aside class="sidebar__right sticky"><nav class="toc"><header><h4 class="nav__title"> <i class="fas fa-file-alt"></i> Содержание</h4></header><ul class="toc__menu">
 <li><a href="#%D1%81%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-%D0%B4%D0%BB%D1%8F-windowslinux">Скачать для Windows/Linux</a></li>
 <li><a href="#teamredminer">Что такое TeamRedMiner</a></li>
@@ -99,7 +99,6 @@
 <li><a href="#%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%93%D0%B8%D0%B4">Видео Гид</a></li>
 <li> <a href="#%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-%D0%B4%D0%BB%D1%8F-%D1%8D%D1%84%D0%B8%D1%80%D0%B0">Настройка для Эфира</a><ul><li><a href="#%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-%D0%B4%D0%BB%D1%8F-nicehash">Настройка для NiceHash</a></li></ul>
 </li>
-<li><a href="#Teamredminer%20v.0.8.0%20vs%20Phoenix%20Miner%205.5b%20vs%20lolMiner%201.19">Teamredminer v.0.8.0 vs Phoenix Miner 5.5b vs lolMiner 1.19</a></li>
 <li><a href="#%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B-%D0%B8-%D0%BA%D0%BE%D0%BC%D0%B8%D1%81%D1%81%D0%B8%D0%B8">Алгоритмы и комиссии</a></li>
 <li> <a href="#%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B">Команды</a><ul><li><a href="#r-mode">R-mode</a></li></ul>
 </li>
@@ -208,18 +207,13 @@
 </ol>
 <p>Готовый пример:</p>
 <p class="notice--success"><code>teamredminer.exe -a kawpow -o stratum+tcp://kawpow.eu.nicehash.com:3385 -u 3LZhp4g3m7YWqR4hAPrZsKWbyo7hRBmqvy.trmtest -p x </code></p>
-<link itemprop="url" href="/#videoguide">
-<meta itemprop="image" content="/assets/images/og.png">
-<h2 class="panel-title" itemprop="name" id="Teamredminer v.0.8.0 vs Phoenix Miner 5.5b vs lolMiner 1.19">Teamredminer v.0.8.0 vs Phoenix Miner 5.5b vs lolMiner 1.19</h2>
-<div class="youtubevideowrap" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/FbENH8YoDL4">
-<link itemprop="contentUrl" content="https://www.youtube.com/embed/FbENH8YoDL4">
-<meta itemprop="name" content="Teamredminer v.0.8.0 vs Phoenix Miner 5.5b vs lolMiner">
-<meta itemprop="description" content="Тест для вас подъехал, новая версия майнера появилась Teamredminer v.0.8.0 интересно действительно у него так хорошо оптимизировано энергопотребление? Давайте сравним с Phoenix Miner 5.5b и lolMiner 1.19, сравнивать будем конечно же в HiveOS">
-<meta itemprop="uploadDate" content="2021-01-22T08:00:00+08:00">
-<meta itemprop="duration" content="PT22M01S">
-<div class="youtube-player" data-id="FbENH8YoDL4"></div>
-<div class="ytb-but"><a href="https://cutt.ly/pxlaiCA" rel="nofollow noopener" target="_blank">подписывайтесь</a></div>
+<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject"> <span itemprop="name" class="bold">Энергопотребление RX 5700, настройки для Майнинга. Про новый TeamRedMiner</span><meta itemprop="duration" content="PT6M34S">
+<meta itemprop="uploadDate" content="2021-01-25T14:28:06Z">
+<meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/2Pjtv7iFs5c/default.jpg">
+<meta itemprop="interactionCount" content="33870">
+<meta itemprop="embedURL" content="https://youtube.googleapis.com/v/2Pjtv7iFs5c">
+<div class="youtube-player" data-id="2Pjtv7iFs5c"></div>
+<span itemprop="description">Температура карт и энергопотребление.</span>
 </div>
 <h2 id="алгоритмы-и-комиссии">Алгоритмы и комиссии</h2>
 <table>
@@ -426,7 +420,7 @@
 </ul>
 </div>
 <footer class="page__meta"><p class="page__taxonomy"> <i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Разделы: <span itemprop="keywords"> <a href="/ru/miners" class="page__taxonomy-item" rel="tag">miners</a> </span></p>
-<p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Дата изменения: <time datetime="2023-02-14T00:00:00-05:00">14.02.2023</time></p>
+<p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Дата изменения: <time datetime="2023-02-27T00:00:00-05:00">27.02.2023</time></p>
 <p class="hide"><i class="far fa-clock" aria-hidden="true"></i> 5 мин на чтение</p></footer><div class="mar author"><div itemscope itemtype="https://schema.org/Person">
 <div class="author__avatar"> <img width="97" height="97" src="/assets/images/matthewwood.webp" alt="Matthew Wood" itemprop="image" loading="lazy" decoding="async">
 </div>

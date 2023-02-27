@@ -105,17 +105,25 @@
 <li><a href="#system-requirements">System requirements</a></li>
 <li> <a href="#%D0%9A%D0%B0%D0%BA%20%D0%BC%D0%B0%D0%B9%D0%BD%D0%B8%D1%82%D1%8C%20ETHW?">How to mine ETHW?</a><ul>
 <li><a href="#1.%20Get%20a%20wallet%20address">1. Get a wallet address</a></li>
-<li><a href="#2.%20Fund%20your%20trading%20account">2. Fund your trading account</a></li>
-<li><a href="#3.%20Transfer%20ETH%20to%20a%20staking%20wallet">3. Transfer ETH to a staking wallet</a></li>
+<li><a href="#2.%20Install%20mining%20software">2. Install mining software</a></li>
+<li><a href="#3.%20Enter%20the%20wallet%20address">3. Enter the wallet address</a></li>
 </ul>
 </li>
-<li><a href="#mining">Mining</a></li>
+<li> <a href="#mining">Mining</a><ul>
+<li><a href="#phoenix-miner">Phoenix Miner</a></li>
+<li><a href="#gminer">Gminer</a></li>
+<li><a href="#nbminer">Nbminer</a></li>
+<li><a href="#t-rex">T-rex</a></li>
+</ul>
+</li>
+<li><a href="#pools-and-fees">Pools and Fees</a></li>
+<li><a href="#difficulty">Difficulty</a></li>
 </ul></nav></aside><div class="inner">
 <div class="paper wallet"><div class="pattern"><div class="note-cont"> What is EthereumPoW and how to mine it?</div></div></div>
 <p><em>In this guide, you will learn about ETHW - a fork of Ethereum for mining on video cards and ASICs</em></p>
 <script async="" src="https://coinzillatag.com/lib/display.js"></script><div class="coinzilla" data-zone="C-26960aca952082b4725"></div>
 <script> window.coinzilla_display = window.coinzilla_display || []; var c_display_preferences = {}; c_display_preferences.zone = "26960aca952082b4725"; c_display_preferences.width = "300"; c_display_preferences.height = "250"; coinzilla_display.push(c_display_preferences); </script><p> </p>
-<p><a href="/en/guide/eth-staking/">Ethereum merger with transition to staking</a> has taken place, and it can no longer be mined using video cards or ASICs. Many people jump from one coin to another, while others look at ETHW as a promising coin for mining.</p>
+<p>ETHPoW is a Proof-of-Work (PoW) blockchain created after the transition of <a href="/en/guide/eth-staking/">Ethereum to staking</a>.</p>
 <p><dfn>EthereumPoW</dfn> (abbreviated ETHW) is a token launched as part of the EthereumPoW program, the purpose of which is to preserve the version of <a href="/en/guide/merge/">Merge-mined Ethereum</a>. The release date of the coin is September 15, 2022. You can get a 1:1 airdrop with ETH lying on the same address with ETHW.</p>
 <h2 id="system-requirements">System requirements</h2>
 <p>The system requirements for mining are the same as for Ethereum:</p>
@@ -134,10 +142,9 @@
 <h3 class="panel-title" itemprop="name" id="1. Get a wallet address">1. Get a wallet address</h3>
 <div class="panel-body" itemprop="text">
 <p>You can get a wallet either at <a href="https://metamask.io/" rel="nofollow noopener" target="_blank">MetaMask</a> or on the exchange. Consider both options.</p>
-<p>You need to register on the exchange using <a href="https://cutt.ly/JCUFdpG" rel="nofollow noopener" target="_blank">registration form</a>. Fill out the form with your email address and a secure password.</p>
-<figure><a href="/assets/images/exchanges/binance/signup.png" class="image-popup"> <img src="/assets/images/exchanges/binance/signup.png" alt=" signup" loading="lazy" decoding="async"><figcaption>Sign up.</figcaption></a></figure><p>You will also need to accept the terms of service and privacy policy. The account will then be activated by verification via the link you will receive in your email.</p>
-<p>Binance requires identity verification. If you don't want to upload your documents, <a href="https://kuna.io?r=kunaid-es60ifagzond" rel="nofollow noopener" target="_blank">sign up for Kuna platform</a>.</p>
-<figure><a href="/assets/images/exchanges/kuna/signup.png" class="image-popup"> <img src="/assets/images/exchanges/kuna/signup.png" alt=" signup" loading="lazy" decoding="async"><figcaption>Sign up.</figcaption></a></figure><p>Second alternative - <span class="bold">get the wallet address in MetaMask</span>.</p>
+<p>You need to register on the exchange using <a href="https://cutt.ly/b8fRKBL" rel="nofollow noopener" target="_blank">registration form</a>. Fill out the form with your email address and a secure password.</p>
+<figure><a href="/assets/images/exchanges/kuna/signup.png" class="image-popup"> <img src="/assets/images/exchanges/kuna/signup.png" alt=" signup" loading="lazy" decoding="async"><figcaption>Sign up.</figcaption></a></figure><p>You will also need to accept the terms of service and privacy policy. The account will then be activated by verification via the link you will receive in your email.</p>
+<p>Second alternative - <span class="bold">get the wallet address in MetaMask</span>.</p>
 <p>To do this, go <a href="https://metamask.io/" rel="nofollow noopener" target="_blank">to the official MetaMask website</a> and install the extension:</p>
 <figure><a href="/assets/images/wallets/metamask/download.png" class="image-popup"> <img src="/assets/images/wallets/metamask/download.png" alt=" Loading" loading="lazy" decoding="async"><figcaption>Loading.</figcaption></a></figure><p>This will open <a href="https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn" rel="nofollow noopener" target="_blank">Chrome Web Store</a> and prompt you to begin installation:</p>
 <figure><a href="/assets/images/wallets/metamask/chrome_install.png" class="image-popup"> <img src="/assets/images/wallets/metamask/chrome_install.png" alt=" Installation" loading="lazy" decoding="async"><figcaption>Installation.</figcaption></a></figure><p>You will see a welcome window:</p>
@@ -155,21 +162,58 @@
 <div class="panel panel-default" id="step2" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
 <link itemprop="url" href="/buy/eth/#step2">
 <meta itemprop="image" content="/assets/images/og.png">
-<h3 class="panel-title" itemprop="name" id="2. Fund your trading account">2. Fund your trading account</h3>
+<h3 class="panel-title" itemprop="name" id="2. Install mining software">2. Install mining software</h3>
 <div class="panel-body" itemprop="text"><div>
-<p>Next, you need to replenish your account. With most of the providers we recommend, deposits are free and can be made using the usual methods - credit cards, SEPA transfers, instant transfers and e-wallets.</p>
-<p>However, before doing this, you need to know how much fiat currency or other cryptocurrencies you will need to purchase the equivalent amount of Ethereum. This way you calculate the amount of the deposit.</p>
-<a href="/assets/images/guide/eth_staking/calc.png" class="image-popup"> <img src="/assets/images/guide/eth_staking/calc.png" alt="calc" loading="lazy" decoding="async"> </a><p class="notice--primary">To do this, we recommend that you use the <a href="https://ethereumprice.org/eth-2-calculator/" rel="nofollow noopener" target="_blank">Ethereum 2.0 rate calculator</a>. It can be used to calculate income depending on the number of staked tokens.</p>
+<p>ETHW is added using the <code>ethash</code> algorithm. Install software that supports the mining of coins of this algorithm.</p>
+<table>
+<caption>ETHW Miners</caption>
+<thead><tr>
+<td>Miner</td>
+<td>Fees</td>
+</tr></thead>
+<tbody>
+<tr>
+<td><a href="/en/miners/phoenixminer">PhoenixMiner</a></td>
+<td>0.65%</td>
+</tr>
+<tr>
+<td><a href="/en/miners/gminer">GMiner</a></td>
+<td>1%</td>
+</tr>
+<tr>
+<td><a href="/en/miners/lolminer">LolMiner</a></td>
+<td>0.7%</td>
+</tr>
+<tr>
+<td><a href="/en/miners/nbminer">NBMiner</a></td>
+<td>1%</td>
+</tr>
+<tr>
+<td><a href="/en/miners/trexminer">T-Rex Miner</a></td>
+<td>1%</td>
+</tr>
+<tr>
+<td><a href="/en/miners/teamredminer">TeamRedMiner</a></td>
+<td>1%</td>
+</tr>
+<tr>
+<td><a href="/en/miners/nicehash">NiceHash</a></td>
+<td>2%</td>
+</tr>
+</tbody>
+</table>
+<p>To install, just download the archive with the program and extract it. Then you need to open the file <code>start.bat</code> and enter your wallet into it.</p>
 </div></div>
 </div>
 <div class="panel panel-default" id="step3" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
 <link itemprop="url" href="/#step3">
 <meta itemprop="image" content="/assets/images/og.jpg">
-<h3 class="panel-title" itemprop="name" id="3. Transfer ETH to a staking wallet">3. Transfer ETH to a staking wallet</h3>
+<h3 class="panel-title" itemprop="name" id="3. Enter the wallet address">3. Enter the wallet address</h3>
 <div class="panel-body" itemprop="text">
-<p>To do this, open the "Earn" tab and select <a href="https://www.binance.com/en/eth2" rel="nofollow noopener" target="_blank">ETH 2.0</a>. After that, click "Stake now" and you will be able to participate.</p>
-<a href="/assets/images/exchanges/binance/staking.png" class="image-popup"> <img src="/assets/images/exchanges/binance/staking.png" alt="staking" loading="lazy" decoding="async"> </a><p>The platform will credit you with BETH, a tokenized asset that represents your ETH in staking at a ratio of 1:1. Binance will credit BETH to your spot account.</p>
-<p>After completing the first stage, you can exchange your BETH for ETH at a ratio of 1:1 and receive an amount equal to the current amount of BETH with interest.</p>
+<p>Open the file <code>start.bat</code> and enter the wallet address obtained in the first step into it.</p>
+<p>Example for PhoenixMiner:</p>
+<p><code>PhoenixMiner.exe -pool eu.ethwmine.com:8008 -wal 0x1DE28FDcfF94656CBaCe3557FF1239CC0F61a3cE -worker phoenix -pass x -log 0 -retrydelay 1 -Rmode 1 -fret 1 -rate 1 -coin ETH pause</code></p>
+<p>After saving the configuration, open and run the "start.bat" batch file to start mining.</p>
 </div>
 </div>
 <div class="panel panel-default" id="videoguide" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
@@ -177,30 +221,312 @@
 <meta itemprop="image" content="/assets/images/og.png">
 <div class="panel-body">
 <meta itemprop="text" content="Как стейкать ETH 2.0 на Binance от 0.1$. Что делать с BETH">
-<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject"> <span itemprop="name" class="bold">How To Mine Ethw (Eth Pow) And Etf - Ipollo V1 Mini Se Asic Miner (Ethw, Etc)</span><meta itemprop="duration" content="PT14M">
+<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject"> <span itemprop="name" class="bold">How to mine the new ETHW coin</span><meta itemprop="duration" content="PT14M13S">
+<meta itemprop="uploadDate" content="2022-09-16T17:00:21Z">
+<meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/ooxQ30wrLi0/default.jpg">
+<meta itemprop="interactionCount" content="22192">
+<meta itemprop="embedURL" content="https://youtube.googleapis.com/v/ooxQ30wrLi0">
+<div class="youtube-player" data-id="ooxQ30wrLi0"></div>
+<span itemprop="description">How to mine the new ETH Fork - EthereumPOW</span>
+</div>
+</div>
+</div></section><div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject"> <span itemprop="name" class="bold">How To Mine Ethw (Eth Pow) And Etf - Ipollo V1 Mini Se Asic Miner (Ethw, Etc)</span><meta itemprop="duration" content="PT14M">
 <meta itemprop="uploadDate" content="2022-09-16T14:29:00Z">
 <meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/xKyx3ENenU0/default.jpg">
-<meta itemprop="interactionCount" content="23283">
+<meta itemprop="interactionCount" content="23575">
 <meta itemprop="embedURL" content="https://youtube.googleapis.com/v/xKyx3ENenU0">
 <div class="youtube-player" data-id="xKyx3ENenU0"></div>
-<span itemprop="description">ETHW DAG size was incorrect at the time you recorded this. Go to minerstat now and it is 5.055GB.</span>
+<span itemprop="description">how much do you make from ethw? like how many tokens? 0.05 a day.</span>
 </div>
-</div>
-</div></section><h2 id="mining">Mining</h2>
+<h2 id="mining">Mining</h2>
 <p>Setting up mining using the <a href="/en/miners/lolminer/">LolMiner</a>.</p>
 <p>EthereumPOW only:</p>
 <div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">lolMiner</span><span class="err">.exe</span> <span class="na">--algo </span><span class="kd">ETHASH</span> <span class="na">--pool </span><span class="kd">pool</span>.woolypooly.com:3096 <span class="na">--user </span><span class="mh">0x0a753EE6989480e6CE633860508269a2CCfaE34A</span>.WORKER_NAME
 </code></pre></div></div>
 <p>EthereumPOW (ETHW) + Alephium Dual Mining:</p>
-<div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">lolMiner</span><span class="err">.exe</span> <span class="na">--algo </span><span class="kd">ETHASH</span> <span class="na">--pool </span><span class="kd">pool</span>.woolypooly.com:3096 <span class="na">--user </span><span class="mh">0x0a753EE6989480e6CE633860508269a2CCfaE34A</span>.WORKER_NAME <span class="na">--dualmode </span><span class="kd">ALEPHDUAL</span> <span class="na">--dualpool </span><span class="kd">pool</span>.woolypooly.com:3106 <span class="na">--dualuser </span><span class="kd">kaspa</span><span class="nl">:qrkqwe</span><span class="m">4</span><span class="kd">kzpd8hv3l4fatgzyzj4l3yygrs2yqx4nvz08lsgzdpqc8zt302prna</span>.WORKER_NAME
+<div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">lolMiner</span><span class="err">.exe</span> <span class="na">--algo </span><span class="kd">ETHASH</span> <span class="na">--pool </span><span class="kd">pool</span>.woolypooly.com:3096 <span class="na">--user </span><span class="mh">0x0a753EE6989480e6CE633860508269a2CCfaE34A</span>.WORKER_NAME <span class="na">--dualmode </span><span class="kd">ALEPHDUAL</span> <span class="na">--dualpool </span><span class="kd">pool</span>.woolypooly.com:3106 <span class="na">--dualuser </span><span class="m">14</span><span class="kd">xchBfD4bwxdti44NyjK5BQWympyHuxAREigL2UkZCgZ</span>.WORKER_NAME
 </code></pre></div></div>
 <p>EthereumPOW (ETHW) + Kaspa Dual Mining:</p>
 <div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">lolMiner</span><span class="err">.exe</span> <span class="na">--algo </span><span class="kd">ETHASH</span> <span class="na">--pool </span><span class="kd">pool</span>.woolypooly.com:3096 <span class="na">--user </span><span class="mh">0x0a753EE6989480e6CE633860508269a2CCfaE34A</span>.WORKER_NAME <span class="na">--dualmode </span><span class="kd">KASPADUAL</span> <span class="na">--dualpool </span><span class="kd">pool</span>.woolypooly.com:3112 <span class="na">--dualuser </span><span class="kd">kaspa</span><span class="nl">:qrkqwe</span><span class="m">4</span><span class="kd">kzpd8hv3l4fatgzyzj4l3yygrs2yqx4nvz08lsgzdpqc8zt302prna</span>.WORKER_NAME
 </code></pre></div></div>
+<h3 id="phoenix-miner">Phoenix Miner</h3>
+<p>Setting up mining using the <a href="/en/miners/phoenixminer/">PhoenixMiner</a>:</p>
+<div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">PhoenixMiner</span><span class="err">.exe</span> <span class="na">-pool </span><span class="kd">ssl</span>://ethw.pool<span class="na">-moscow</span>.ru:9009 <span class="na">-wal </span><span class="mh">0x1DE28FDcfF94656CBaCe3557FF1239CC0F61a3cE</span> <span class="na">-worker </span><span class="kd">phoenix</span> <span class="na">-pass </span><span class="kd">x</span> <span class="na">-log </span><span class="m">0</span> <span class="na">-retrydelay </span><span class="m">1</span> <span class="na">-Rmode </span><span class="m">1</span> <span class="na">-fret </span><span class="m">1</span> <span class="na">-rate </span><span class="m">1</span> <span class="na">-coin </span><span class="kd">ETH</span>
+<span class="nb">pause</span>
+</code></pre></div></div>
+<h3 id="gminer">Gminer</h3>
+<p>Setting up mining using the <a href="/en/miners/gminer/">Gminer</a>:</p>
+<p>Ethw+Kaspa on the pool <a href="https://woolypooly.com/en/coin/ethw" rel="nofollow noopener" target="_blank">woolypooly</a></p>
+<div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">miner</span><span class="err">.exe</span> <span class="na">--algo </span><span class="kd">ethash</span> <span class="na">--server </span><span class="kd">ethw</span>.2miners.com:2020 <span class="na">--user </span><span class="mh">0x0a753EE6989480e6CE633860508269a2CCfaE34A</span> <span class="na">--dalgo </span><span class="kd">kheavyhash</span> <span class="na">--dserver </span><span class="kd">pool</span>.eu.woolypooly.com:3112 <span class="na">--duser </span><span class="kd">kaspa</span><span class="nl">:qrkqwe</span><span class="m">4</span><span class="kd">kzpd8hv3l4fatgzyzj4l3yygrs2yqx4nvz08lsgzdpqc8zt302prna</span>
+<span class="nb">pause</span>
+</code></pre></div></div>
+<h3 id="nbminer">Nbminer</h3>
+<p>An example of a .bat file for <a href="/en/miners/nbminer/">NbMiner</a></p>
+<div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">nbminer</span><span class="err">.exe</span> <span class="na">-a </span><span class="kd">ethash</span> <span class="na">-o </span><span class="kd">ethproxy</span><span class="na">+tcp</span>://pool.woolypooly.com:3096 <span class="na">-u </span><span class="mh">0x0a753EE6989480e6CE633860508269a2CCfaE34A</span>.WORKER_NAME
+</code></pre></div></div>
+<h3 id="t-rex">T-rex</h3>
+<p>Example .bat file for <a href="/en/miners/trexminer/">Trexminer</a></p>
+<div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">t</span><span class="na">-rex -a </span><span class="kd">ethash</span> <span class="na">-o </span><span class="kd">stratum</span><span class="na">+tcp</span>://pool.woolypooly.com:3096 <span class="na">-u </span><span class="mh">0x0a753EE6989480e6CE633860508269a2CCfaE34A</span>.WORKER_NAME <span class="na">-p </span><span class="kd">x</span>
+</code></pre></div></div>
+<h2 id="pools-and-fees">Pools and Fees</h2>
+<table role="grid">
+<colgroup><col span="3"></colgroup>
+<thead><tr>
+<td>#</td>
+<td> Pool  </td>
+<td> Fee</td>
+</tr></thead>
+<tbody>
+<tr>
+<td align="right" rowspan="2">2</td>
+<td rowspan="2"><a href="https://ethw.2miners.com/" target="_blank" rel="nofollow noopener">2miners.com</a></td>
+<td>1 %</td>
+</tr>
+<tr><td>PPLNS</td></tr>
+<tr>
+<td align="right" rowspan="2">3</td>
+<td rowspan="2"><a href="https://www.jingniupool.com/" target="_blank" rel="nofollow noopener">jingniupool.com</a></td>
+<td>0 %</td>
+</tr>
+<tr><td>PPS+</td></tr>
+<tr>
+<td align="right" rowspan="2">4</td>
+<td rowspan="2"><a href="https://www.poolin.com/" target="_blank" rel="nofollow noopener">poolin.com</a></td>
+<td>1 %</td>
+</tr>
+<tr><td>PPLNS</td></tr>
+<tr>
+<td align="right" rowspan="2">5</td>
+<td rowspan="2"><a href="https://ethw.nanopool.org/" target="_blank" rel="nofollow noopener">nanopool.org</a></td>
+<td>1 %</td>
+</tr>
+<tr><td>PPLNS</td></tr>
+<tr>
+<td align="right" rowspan="2">6</td>
+<td rowspan="2"><a href="https://ezil.me/" target="_blank" rel="nofollow noopener">ezil.me +</a></td>
+<td>1 %</td>
+</tr>
+<tr><td>PPLNS</td></tr>
+<tr>
+<td align="right" rowspan="2">7</td>
+<td rowspan="2"><a href="https://www.x-pool.io/" target="_blank" rel="nofollow noopener">x-pool.io</a></td>
+<td>1 %</td>
+</tr>
+<tr><td>PPS+</td></tr>
+<tr>
+<td align="right" rowspan="2">8</td>
+<td rowspan="2"><a href="https://antpool.com/" target="_blank" rel="nofollow noopener">antpool.com</a></td>
+<td>1.5 %</td>
+</tr>
+<tr><td>PPS+</td></tr>
+<tr>
+<td align="right" rowspan="2">9</td>
+<td rowspan="2"><a href="https://richpool.pro/" target="_blank" rel="nofollow noopener">richpool.pro</a></td>
+<td>0.1 %</td>
+</tr>
+<tr><td>PPS+</td></tr>
+<tr>
+<td align="right" rowspan="4">10</td>
+<td rowspan="4"><a href="https://woolypooly.com/" target="_blank" rel="nofollow noopener">woolypooly.com +</a></td>
+<td>0.9 %</td>
+</tr>
+<tr><td>PPLNS</td></tr>
+<tr><td>0.9 %</td></tr>
+<tr><td>SOLO</td></tr>
+<tr>
+<td align="right" rowspan="2">11</td>
+<td rowspan="2"><a href="https://k1pool.com/pool/ethw" target="_blank" rel="nofollow noopener">k1pool.com +</a></td>
+<td>1 %</td>
+</tr>
+<tr><td>RBPPS</td></tr>
+<tr>
+<td align="right" rowspan="2">12</td>
+<td rowspan="2"><a href="https://pool.binance.com/" target="_blank" rel="nofollow noopener">binance.com</a></td>
+<td>1 %</td>
+</tr>
+<tr><td>FPPS</td></tr>
+<tr>
+<td align="right" rowspan="2">13</td>
+<td rowspan="2"><a href="https://ethw.solopool.org/" target="_blank" rel="nofollow noopener">solopool.org[SOLO]</a></td>
+<td>1.5 %</td>
+</tr>
+<tr><td>SOLO</td></tr>
+<tr>
+<td align="right" rowspan="2">14</td>
+<td rowspan="2"><a href="https://solo-ethw.2miners.com/" target="_blank" rel="nofollow noopener">2miners.com[SOLO]</a></td>
+<td>1.5 %</td>
+</tr>
+<tr><td>SOLO</td></tr>
+<tr>
+<td align="right" rowspan="2">15</td>
+<td rowspan="2"><a href="https://gteh.org/" target="_blank" rel="nofollow noopener">gteh.org +</a></td>
+<td>1 %</td>
+</tr>
+<tr><td>PPLNS</td></tr>
+<tr>
+<td align="right" rowspan="4">16</td>
+<td rowspan="4"><a href="https://ethw.herominers.com/" target="_blank" rel="nofollow noopener">herominers.com +</a></td>
+<td>0.9 %</td>
+</tr>
+<tr><td>PROP</td></tr>
+<tr><td>0.9 %</td></tr>
+<tr><td>SOLO</td></tr>
+<tr>
+<td align="right" rowspan="4">17</td>
+<td rowspan="4"><a href="https://www.666pool.com/" target="_blank" rel="nofollow noopener">666pool.com</a></td>
+<td>1 %</td>
+</tr>
+<tr><td>PPLNS</td></tr>
+<tr><td>1 %</td></tr>
+<tr><td>PPS</td></tr>
+<tr>
+<td align="right" rowspan="2">18</td>
+<td rowspan="2"><a href="https://ethwmine.com/" target="_blank" rel="nofollow noopener">ethwmine.com</a></td>
+<td>1 %</td>
+</tr>
+<tr><td>PPLNS</td></tr>
+<tr>
+<td align="right" rowspan="2">19</td>
+<td rowspan="2"><a href="https://pool.kryptex.com/" target="_blank" rel="nofollow noopener">kryptex.com</a></td>
+<td>1 %</td>
+</tr>
+<tr><td>PPS+</td></tr>
+<tr>
+<td align="right" rowspan="2">20</td>
+<td rowspan="2"><a href="https://www.dogpool.one/" target="_blank" rel="nofollow noopener">dogpool.one</a></td>
+<td rowspan="2"> </td>
+</tr>
+<tr></tr>
+<tr>
+<td align="right" rowspan="2">21</td>
+<td rowspan="2"><a href="https://ethw.pool-moscow.ru/" target="_blank" rel="nofollow noopener">pool-moscow.ru</a></td>
+<td>1 %</td>
+</tr>
+<tr><td>PPLNS</td></tr>
+<tr>
+<td align="right" rowspan="2">22</td>
+<td rowspan="2"><a href="https://k1pool.com/pool/ethwsolo" target="_blank" rel="nofollow noopener">k1pool.com + [SOLO]</a></td>
+<td>1 %</td>
+</tr>
+<tr><td>SOLO</td></tr>
+<tr>
+<td align="right" rowspan="2">23</td>
+<td rowspan="2"><a href="https://ethw.crazypool.org/" target="_blank" rel="nofollow noopener">crazypool.org +</a></td>
+<td>1 %</td>
+</tr>
+<tr><td>D-PPLNS</td></tr>
+<tr>
+<td align="right" rowspan="4">24</td>
+<td rowspan="4"><a href="https://baikalmine.com/" target="_blank" rel="nofollow noopener">baikalmine.com</a></td>
+<td>0.5 %</td>
+</tr>
+<tr><td>PPLNS</td></tr>
+<tr><td>0.75 %</td></tr>
+<tr><td>PPS+</td></tr>
+<tr>
+<td align="right" rowspan="2">25</td>
+<td rowspan="2"><a href="https://ethw-pplns.molepool.com/" target="_blank" rel="nofollow noopener">molepool.com</a></td>
+<td>1 %</td>
+</tr>
+<tr><td>PPLNS</td></tr>
+<tr>
+<td align="right" rowspan="2">26</td>
+<td rowspan="2"><a href="https://coolpool.top/pool?coin=ethwSolo&amp;type=solo" target="_blank" rel="nofollow noopener">coolpool.top[SOLO]</a></td>
+<td>1 %</td>
+</tr>
+<tr><td>SOLO</td></tr>
+<tr>
+<td align="right" rowspan="2">27</td>
+<td rowspan="2"><a href="https://zetpool.org/pps-ethw" target="_blank" rel="nofollow noopener">zetpool.org</a></td>
+<td>0.5 %</td>
+</tr>
+<tr><td>PPS</td></tr>
+<tr>
+<td align="right" rowspan="2">28</td>
+<td rowspan="2"><a href="https://miningmadness.com/" target="_blank" rel="nofollow noopener">miningmadness.com</a></td>
+<td>1 %</td>
+</tr>
+<tr><td>PROP</td></tr>
+<tr>
+<td align="right" rowspan="2">29</td>
+<td rowspan="2"><a href="https://ethw.molepool.com/" target="_blank" rel="nofollow noopener">molepool.com[SOLO]</a></td>
+<td>1.5 %</td>
+</tr>
+<tr><td>SOLO</td></tr>
+<tr>
+<td align="right" rowspan="2">30</td>
+<td rowspan="2"><a href="https://ethw.ua-mining.com/" target="_blank" rel="nofollow noopener">ua-mining.com</a></td>
+<td>1 %</td>
+</tr>
+<tr><td>PPLNS</td></tr>
+<tr>
+<td align="right" rowspan="2">31</td>
+<td rowspan="2"><a href="https://cruxpool.com/ethw" target="_blank" rel="nofollow noopener">cruxpool.com</a></td>
+<td>1 %</td>
+</tr>
+<tr><td>PPS+</td></tr>
+<tr>
+<td align="right" rowspan="2">32</td>
+<td rowspan="2"><a href="https://solo-ethw.ua-mining.com/" target="_blank" rel="nofollow noopener">ua-mining.com[SOLO]</a></td>
+<td>1 %</td>
+</tr>
+<tr><td>SOLO</td></tr>
+<tr>
+<td align="right" rowspan="2">33</td>
+<td rowspan="2"><a href="https://ethcore.ru/pool/ethwpool" target="_blank" rel="nofollow noopener">ethcore.ru</a></td>
+<td>0.5 %</td>
+</tr>
+<tr><td>PPLNS</td></tr>
+<tr>
+<td align="right" rowspan="6">34</td>
+<td rowspan="6"><a href="https://prohashing.com/" target="_blank" rel="nofollow noopener">prohashing.com</a></td>
+<td>1.99 %</td>
+</tr>
+<tr><td>FPPS</td></tr>
+<tr><td>1.49 %</td></tr>
+<tr><td>PPLNS</td></tr>
+<tr><td>0.99 %</td></tr>
+<tr><td>SOLO</td></tr>
+<tr>
+<td align="right" rowspan="2">35</td>
+<td rowspan="2"><a href="http://zergpool.com/" target="_blank" rel="nofollow noopener">zergpool.com</a></td>
+<td>0.5 %</td>
+</tr>
+<tr><td>PROP</td></tr>
+<tr>
+<td align="right" rowspan="4">36</td>
+<td rowspan="4"><a href="https://ethw.yu-tam.contact/" target="_blank" rel="nofollow noopener">yu-tam.contact</a></td>
+<td>1 %</td>
+</tr>
+<tr><td>PPLNS</td></tr>
+<tr><td>1 %</td></tr>
+<tr><td>SOLO</td></tr>
+<tr>
+<td align="right" rowspan="2">37</td>
+<td rowspan="2"><a href="https://coolpool.top/pool?coin=ethw&amp;type=pplns" target="_blank" rel="nofollow noopener">coolpool.top</a></td>
+<td>1 %</td>
+</tr>
+<tr><td>PPLNS</td></tr>
+<tr>
+<td align="right" rowspan="2">38</td>
+<td rowspan="2"><a href="https://solo-ethw.poolbe.eu/" target="_blank" rel="nofollow noopener">poolbe.eu[SOLO]</a></td>
+<td>0.4 %</td>
+</tr>
+<tr><td>SOLO</td></tr>
+<tr>
+<td align="right" rowspan="2">39</td>
+<td rowspan="2"><a href="https://pplns-ethw.poolbe.eu/" target="_blank" rel="nofollow noopener">poolbe.eu</a></td>
+<td>0.4 %</td>
+</tr>
+<tr><td>PPLNS</td></tr>
+</tbody>
+</table>
+<h2 id="difficulty">Difficulty</h2>
+<p>The complexity of the Ethereum PoW network is a problem solved in <a href="/en/articles/mining">mining</a> to find a block. The more miners mine Ethereum PoW, the harder it is to find a block to reward. <a href="https://2miners.com/en/ethw-network-difficulty" rel="nofollow noopener" target="_blank">Track difficulty</a> here.</p>
 </div>
 <footer class="page__meta"><p class="page__taxonomy"> <i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: <span itemprop="keywords"> <a href="/en/guide" class="page__taxonomy-item" rel="tag">guide</a> </span></p>
 <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2023-02-27T00:00:00-05:00">27.02.2023</time></p>
-<p class="hide"><i class="far fa-clock" aria-hidden="true"></i> 3 minute read</p></footer><div class="mar author"><div itemscope itemtype="https://schema.org/Person">
+<p class="hide"><i class="far fa-clock" aria-hidden="true"></i> 4 minute read</p></footer><div class="mar author"><div itemscope itemtype="https://schema.org/Person">
 <div class="author__avatar"> <img width="97" height="97" src="/assets/images/matthewwood.webp" alt="Matthew Wood" itemprop="image" loading="lazy" decoding="async">
 </div>
 <div class="author__content"> <a href="/en/about"><h3 class="author__name" itemprop="name">Matthew Wood</h3></a><p class="author__bio" itemprop="description"> Blockchain developer and crypto trader</p>
