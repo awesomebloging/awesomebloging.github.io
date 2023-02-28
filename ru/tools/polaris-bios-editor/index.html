@@ -19,8 +19,8 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://miningsoft.org/assets/images/site-logo.png">
 <meta property="article:published_time" content="2021-07-16T00:00:00-05:00">
-<meta property="article:modified_time" content="2022-12-30T00:00:00-05:00">
-<link rel="canonical" href="https://miningsoft.org/ru/tools/polaris-bios-editor/"> <script type="application/ld+json"> { "@context": "https://schema.org", "@type": "Article", "headline": "PolarisBiosEditor 1.7.5 (и PRO)&#58; Скачать, как Пользоваться", "image": "", "author": { "@type": "Person", "name": "Matthew Wood", "url": "https://miningsoft.org/ru/about", "sameAs": "https://www.facebook.com/ltcbtc" }, "publisher": { "@type": "Organization", "name": "MiningSoft", "logo": { "@type": "ImageObject", "url": "https://miningsoft.org/assets/images/logo2.png" } }, "dateModified": "2022-12-30T00:00:00-05:00" } </script><meta name="google-site-verification" content="lzkzzEBSl4ZcrOj5sxD0Ao0R1sXdFSczY9bQcLVWHMY">
+<meta property="article:modified_time" content="2023-02-28T00:00:00-05:00">
+<link rel="canonical" href="https://miningsoft.org/ru/tools/polaris-bios-editor/"> <script type="application/ld+json"> { "@context": "https://schema.org", "@type": "Article", "headline": "PolarisBiosEditor 1.7.5 (и PRO)&#58; Скачать, как Пользоваться", "image": "", "author": { "@type": "Person", "name": "Matthew Wood", "url": "https://miningsoft.org/ru/about", "sameAs": "https://www.facebook.com/ltcbtc" }, "publisher": { "@type": "Organization", "name": "MiningSoft", "logo": { "@type": "ImageObject", "url": "https://miningsoft.org/assets/images/logo2.png" } }, "dateModified": "2023-02-28T00:00:00-05:00" } </script><meta name="google-site-verification" content="lzkzzEBSl4ZcrOj5sxD0Ao0R1sXdFSczY9bQcLVWHMY">
 <meta name="yandex-verification" content="da0cda22b6e4f5d0"> <!-- end _includes/seo.html --><meta name="author" content="Matthew Wood">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="MiningSoft Feed">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> <script> document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js '; </script> <!-- For all browsers --><link rel="stylesheet" href="/assets/css/main.css">
@@ -70,6 +70,7 @@
 <li><a href="/ru/articles/blockchain" class="">Блокчейн</a></li>
 <li><a href="/ru/articles/mining" class="">Майнинг</a></li>
 <li><a href="/ru/articles/bitcoin" class="">Биткоин</a></li>
+<li><a href="/ru/guide/eth-staking" class="">Стейкинг Эфириума</a></li>
 <li><a href="/ru/guide/merge" class="">ETH 2.0</a></li>
 </ul>
 </li>
@@ -87,11 +88,11 @@
 </ul>
 </li>
 <li> <span class="nav__sub-title">Кошельки</span><ul>
-<li><a href="/ru/wallets/myetherwallet" class="">MyEtherWallet</a></li>
-<li><a href="/ru/wallets/trust" class="">Trust</a></li>
-<li><a href="/ru/wallets/exodus" class="">Exodus</a></li>
-<li><a href="/ru/wallets/mycrypto" class="">MyCrypto</a></li>
 <li><a href="/ru/wallets/electrum" class="">Electrum</a></li>
+<li><a href="/ru/wallets/mycrypto" class="">MyCrypto</a></li>
+<li><a href="/ru/wallets/exodus" class="">Exodus</a></li>
+<li><a href="/ru/wallets/myetherwallet" class="">MyEtherWallet</a></li>
+<li><a href="/ru/wallets/trust/" class="">Trust</a></li>
 <li><a href="/ru/wallets/dogecoin-core" class="">Dogecoin Core</a></li>
 <li><a href="/ru/wallets/multidoge" class="">MultiDoge</a></li>
 </ul>
@@ -100,15 +101,17 @@
 <article class="page" itemscope itemtype="https://schema.org/CreativeWork"><meta itemprop="headline" content="PolarisBiosEditor 1.7.5 (и PRO): Скачать, как Пользоваться">
 <meta itemprop="description" content=" PolarisBiosEditor: Скачать с официального сайта, GitHub, прошить видеокарту. В этом руководстве вы узнаете, как настроить и использовать PolarisBiosEditor.">
 <meta itemprop="datePublished" content="July 16, 2021">
-<meta itemprop="dateModified" content="December 30, 2022">
+<meta itemprop="dateModified" content="February 28, 2023">
 <div class="page__inner-wrap"><section class="page__content" itemprop="text"><header><h1 id="page-title" class="page__title" itemprop="headline">Polaris Bios Editor (PBE) 1.7.5: Скачать, как пользоваться (Настройка)</h1></header><aside class="sidebar__right sticky"><nav class="toc"><header><h4 class="nav__title"> <i class="fas fa-file-alt"></i> Содержание</h4></header><ul class="toc__menu">
 <li><a href="#%D1%81%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-%D0%B4%D0%BB%D1%8F-windowslinux">Скачать для Windows/Linux</a></li>
 <li><a href="#polarisbioseditor">Что такое PolarisBiosEditor</a></li>
-<li><a href="#%D0%9A%D0%B0%D0%BA%20%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20PolarisBiosEditor">Как пользоваться PolarisBiosEditor</a></li>
+<li> <a href="#%D0%9A%D0%B0%D0%BA%20%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20PolarisBiosEditor">Как пользоваться PolarisBiosEditor</a><ul>
 <li><a href="#%D0%A8%D0%B0%D0%B3%201%20-%20%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D0%B9%D1%82%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%83">Шаг 1 - Скачайте программу</a></li>
 <li><a href="#">Шаг 2 - Установите программу</a></li>
 <li><a href="#%D0%A8%D0%B0%D0%B3%203%20-%20%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D0%B5%20BIOS">Шаг 3 - Сохраните BIOS</a></li>
 <li><a href="#%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%93%D0%B8%D0%B4">Видео Гид</a></li>
+</ul>
+</li>
 <li><a href="#%D0%BF%D0%BE%D1%87%D0%B5%D0%BC%D1%83-%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%D0%BA%D0%B0%D1%80%D1%82%D1%83-%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE-%D1%80%D0%B0%D0%B7%D0%B3%D0%BE%D0%BD%D1%8F%D1%82%D1%8C">Почему видеокарту можно разгонять?</a></li>
 <li><a href="#%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D0%B8-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B">Возможности и функции программы</a></li>
 <li><a href="#%D1%80%D0%B5%D0%BB%D0%B8%D0%B7%D1%8B">Релизы</a></li>
@@ -128,14 +131,14 @@
 <div class="panel panel-default" id="step1" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
 <link itemprop="url" href="#step1">
 <meta itemprop="image" content="/assets/images/tools/polarisbioseditor/download.png">
-<h2 class="panel-title" id="Шаг 1 - Скачайте программу">Шаг 1 - Скачайте программу</h2>
+<h3 class="panel-title" id="Шаг 1 - Скачайте программу">Шаг 1 - Скачайте программу</h3>
 <meta itemprop="name" content="Скачайте программу">
 <div class="panel-body" itemprop="text"><p>В первую очередь, заходим на официальный сайт и нажимаем <a href="http://polaris-bios-editor.eu/" rel="nofollow noopener" target="_blank">скачать PolarisBiosEditor</a>. Либо загрузите архив <a href="https://github.com/IndeedMiners/PolarisBiosEditor/releases" rel="nofollow noopener" target="_blank">с официального GitHub репозитория</a>. Извлеките архив в любую удобную папку. <a href="/assets/images/tools/polarisbioseditor/download.png" class="image-popup"> <img src="/assets/images/tools/polarisbioseditor/download.png" alt="polarisbioseditor download" loading="lazy" decoding="async"> </a></p></div>
 </div>
 <div class="panel panel-default" id="step2" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
 <link itemprop="url" href="#step2">
 <meta itemprop="image" content="/assets/images/og.png">
-<h2 class="panel-title">Шаг 2 - Установите программу</h2>
+<h3 class="panel-title">Шаг 2 - Установите программу</h3>
 <meta itemprop="name" content="Установите программу">
 <div class="panel-body" itemprop="text"><div>Мы настоятельно рекомендуем <a href="https://itigic.com/ru/how-to-backup-bios-of-an-nvidia-or-amd-graphics-card/#:~:text=%D0%9A%D0%B0%D0%BA%20%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C%20%D1%80%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D0%BD%D1%83%D1%8E%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8E%20BIOS%20%D0%BB%D1%8E%D0%B1%D0%BE%D0%B9%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%D0%BA%D0%B0%D1%80%D1%82%D1%8B" rel="nofollow noopener" target="_blank">сохранить оригинальный БИОС в программе GPU-Z</a> от разработчиков прежде, чем рискнете вносить изменения. Они могут привести к нестабильной работе видеокарты, а потому жизненно важно иметь первоначальную конфигурацию, чтобы была возможность вернуть все к первоначальному виду.<br> <a href="/assets/images/tools/polarisbioseditor/Backup-BIOS-GPU-Z.webp" class="image-popup"> <img src="/assets/images/tools/polarisbioseditor/Backup-BIOS-GPU-Z.webp" alt="polarisbioseditor Backup-BIOS-GPU-Z" loading="lazy" decoding="async"> </a><p></p>
 <ol>
@@ -154,14 +157,14 @@
 <div class="panel panel-default" id="step3" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
 <link itemprop="url" href="/#step3">
 <meta itemprop="image" content="/assets/images/og.jpg">
-<h2 class="panel-title" id="Шаг 3 - Сохраните BIOS">Шаг 3 - Сохраните BIOS</h2>
+<h3 class="panel-title" id="Шаг 3 - Сохраните BIOS">Шаг 3 - Сохраните BIOS</h3>
 <meta itemprop="name" content="Сохраните BIOS">
 <div class="panel-body" itemprop="text"><p> После выполнения этих процедур можно сохранить измененный файл БИОСа. Однако, делайте сохранение как нового документа. В противном случае изначальный BIOS будет перезаписан. Мы же рекомендуем всегда иметь его в запасе. Лучше про запас сохраните несколько файлов, распределив их по разным папкам. <a href="/assets/images/tools/polarisbioseditor/save.png" class="image-popup"> <img src="/assets/images/tools/polarisbioseditor/save.png" alt="polarisbioseditor save" loading="lazy" decoding="async"> </a></p></div>
 </div>
 <div class="panel panel-default" id="videoguide" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
 <link itemprop="url" href="/#videoguide">
 <meta itemprop="image" content="/assets/images/og.png">
-<h2 class="panel-title" itemprop="name" id="Видео Гид">Видео Гид</h2>
+<h3 class="panel-title" itemprop="name" id="Видео Гид">Видео Гид</h3>
 <div class="panel-body">
 <meta itemprop="text" content="Polaris Bios Editor как им пользоваться чтобы прошивать видеокарты">
 <div class="youtubevideowrap" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
@@ -206,7 +209,7 @@
 <p><a href="https://github.com/IndeedMiners/PolarisBiosEditor/releases/tag/1.7.5" rel="nofollow noopener" target="_blank">1.7.5</a></p>
 </div>
 <footer class="page__meta"><p class="page__taxonomy"> <i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Разделы: <span itemprop="keywords"> <a href="/ru/tools" class="page__taxonomy-item" rel="tag">tools</a> </span></p>
-<p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Дата изменения: <time datetime="2022-12-30T00:00:00-05:00">30.12.2022</time></p>
+<p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Дата изменения: <time datetime="2023-02-28T00:00:00-05:00">28.02.2023</time></p>
 <p class="hide"><i class="far fa-clock" aria-hidden="true"></i> 2 мин на чтение</p></footer><div class="mar author"><div itemscope itemtype="https://schema.org/Person">
 <div class="author__avatar"> <img width="97" height="97" src="/assets/images/matthewwood.webp" alt="Matthew Wood" itemprop="image" loading="lazy" decoding="async">
 </div>
