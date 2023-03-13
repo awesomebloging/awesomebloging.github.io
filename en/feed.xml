@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-03-10T11:28:22-05:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="en"><title type="html">Cryptocurrency Explained - What is It, Types, Pros &amp;amp; Cons [2023]</title><link href="https://miningsoft.org/ru/articles/cryptocurrency/" rel="alternate" type="text/html" title="Cryptocurrency Explained - What is It, Types, Pros &amp;amp; Cons [2023]" /><published>2023-02-22T00:00:00-05:00</published><updated>2023-02-22T00:00:00-05:00</updated><id>https://miningsoft.org/ru/articles/cryptocurrency</id><content type="html" xml:base="https://miningsoft.org/ru/articles/cryptocurrency/"><![CDATA[<div class="paper btc">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-03-13T13:48:10-04:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="en"><title type="html">Cryptocurrency Explained - What is It, Types, Pros &amp;amp; Cons [2023]</title><link href="https://miningsoft.org/ru/articles/cryptocurrency/" rel="alternate" type="text/html" title="Cryptocurrency Explained - What is It, Types, Pros &amp;amp; Cons [2023]" /><published>2023-02-22T00:00:00-04:00</published><updated>2023-02-22T00:00:00-04:00</updated><id>https://miningsoft.org/ru/articles/cryptocurrency</id><content type="html" xml:base="https://miningsoft.org/ru/articles/cryptocurrency/"><![CDATA[<div class="paper btc">
   <div class="pattern">
     <div class="note-cont">
       Learn all about the potential of cryptocurrency and what it means for the future.
@@ -366,7 +366,7 @@ Think of cryptocurrency like owning a piece of land. You may not physically own 
 <figure><a href="/assets/images/articles/cryptocurrency/en/cryptocurrency_risks.webp" class="image-popup"> <img src="/assets/images/articles/cryptocurrency/en/cryptocurrency_risks.webp" alt="Cryptocurrency risks" />
 <figcaption>Risks</figcaption></a></figure>
 
-<p>Therefore, it is extremely important to beware of unlicensed platforms and only buy cryptocurrency from a regulated exchange or broker, of which there are not many. If you want to store your <a href="/en/wallets">cryptocurrencies in your own wallet</a>, there are fewer risks.</p>
+<p>Therefore, it is extremely important to beware of unlicensed platforms and only buy cryptocurrency from a regulated exchange or broker, of which there are not many. If you want to store your <a href="/en/wallets/">cryptocurrencies in your own wallet</a>, there are fewer risks.</p>
 
 <p>It is possible to unequivocally answer the question: is cryptocurrency good or bad by summing up the advantages and risks.</p>
 
@@ -567,7 +567,7 @@ Think of cryptocurrency like owning a piece of land. You may not physically own 
       <p><a href="https://bitcoin.org/en/how-it-works">How does Bitcoin work?</a> <a href="#fnref:11" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Learn all about the potential of cryptocurrency and what it means for the future. This article breaks down what it is, how it works, what types of cryptocurrency exist, the pros and cons, and use cases. Learn the basics and understand cryptocurrency simply!]]></summary></entry><entry xml:lang="en"><title type="html">What is banned content in Russia? (Censorship)</title><link href="https://miningsoft.org/ru/blog/rkn/" rel="alternate" type="text/html" title="What is banned content in Russia? (Censorship)" /><published>2023-02-17T00:00:00-05:00</published><updated>2023-02-17T00:00:00-05:00</updated><id>https://miningsoft.org/ru/blog/rkn</id><content type="html" xml:base="https://miningsoft.org/ru/blog/rkn/"><![CDATA[<div class="paper wallet">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Learn all about the potential of cryptocurrency and what it means for the future. This article breaks down what it is, how it works, what types of cryptocurrency exist, the pros and cons, and use cases. Learn the basics and understand cryptocurrency simply!]]></summary></entry><entry xml:lang="en"><title type="html">What is banned content in Russia? (Censorship)</title><link href="https://miningsoft.org/ru/blog/rkn/" rel="alternate" type="text/html" title="What is banned content in Russia? (Censorship)" /><published>2023-02-17T00:00:00-04:00</published><updated>2023-02-17T00:00:00-04:00</updated><id>https://miningsoft.org/ru/blog/rkn</id><content type="html" xml:base="https://miningsoft.org/ru/blog/rkn/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
      Roskomnadzor censorship on the example of bitcoin.
@@ -771,7 +771,7 @@ Think of cryptocurrency like owning a piece of land. You may not physically own 
       <p><a href="https://drc.law/uslugi/obzhalovanie-sudebnogo-resheniya-o-priznanii-informatsii-nezakonnoy/">Appeal against a court decision on declaring information illegal</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Roskomnadzor censorship on the example of bitcoin. In this article, you will learn about government blocking and how to solve this problem.]]></summary></entry><entry xml:lang="en"><title type="html">What is Blockchain technology? In Simple Words (2023)</title><link href="https://miningsoft.org/ru/articles/blockchain/" rel="alternate" type="text/html" title="What is Blockchain technology? In Simple Words (2023)" /><published>2023-02-10T00:00:00-05:00</published><updated>2023-02-14T00:00:00-05:00</updated><id>https://miningsoft.org/ru/articles/blockchain</id><content type="html" xml:base="https://miningsoft.org/ru/articles/blockchain/"><![CDATA[<div class="paper btc">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Roskomnadzor censorship on the example of bitcoin. In this article, you will learn about government blocking and how to solve this problem.]]></summary></entry><entry xml:lang="en"><title type="html">What is Blockchain technology? In Simple Words (2023)</title><link href="https://miningsoft.org/ru/articles/blockchain/" rel="alternate" type="text/html" title="What is Blockchain technology? In Simple Words (2023)" /><published>2023-02-10T00:00:00-04:00</published><updated>2023-02-14T00:00:00-04:00</updated><id>https://miningsoft.org/ru/articles/blockchain</id><content type="html" xml:base="https://miningsoft.org/ru/articles/blockchain/"><![CDATA[<div class="paper btc">
   <div class="pattern">
     <div class="note-cont">
       Blockchain: what is it, how does it work and why is it needed?
@@ -1158,7 +1158,7 @@ It uses encryption. This is done using the <a href="/en/articles/mining/#calcula
       <p><a href="https://www.forbes.com/sites/forbestechcouncil/2022/10/20/advantages-and-disadvantages-of-blockchain-technology/">Advantages And Disadvantages Of Blockchain Technology</a> <a href="#fnref:6" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Blockchain: what is it, how does it work and why is it needed? A Simple Guide for the Newest of Beginners.]]></summary></entry><entry xml:lang="en"><title type="html">Decoding the Decade Ahead: A Peek into the Potential Future of Bitcoin</title><link href="https://miningsoft.org/ru/blog/btc-potencial/" rel="alternate" type="text/html" title="Decoding the Decade Ahead: A Peek into the Potential Future of Bitcoin" /><published>2023-02-09T00:00:00-05:00</published><updated>2023-02-28T00:00:00-05:00</updated><id>https://miningsoft.org/ru/blog/btc-potencial</id><content type="html" xml:base="https://miningsoft.org/ru/blog/btc-potencial/"><![CDATA[<div class="paper btc">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Blockchain: what is it, how does it work and why is it needed? A Simple Guide for the Newest of Beginners.]]></summary></entry><entry xml:lang="en"><title type="html">Decoding the Decade Ahead: A Peek into the Potential Future of Bitcoin</title><link href="https://miningsoft.org/ru/blog/btc-potencial/" rel="alternate" type="text/html" title="Decoding the Decade Ahead: A Peek into the Potential Future of Bitcoin" /><published>2023-02-09T00:00:00-04:00</published><updated>2023-02-28T00:00:00-04:00</updated><id>https://miningsoft.org/ru/blog/btc-potencial</id><content type="html" xml:base="https://miningsoft.org/ru/blog/btc-potencial/"><![CDATA[<div class="paper btc">
   <div class="pattern">
     <div class="note-cont">
       The future of Bitcoin
@@ -1288,7 +1288,7 @@ It uses encryption. This is done using the <a href="/en/articles/mining/#calcula
       <p><a href="https://www.econstor.eu/bitstream/10419/103022/1/791932281.pdf">Competition in the cryptocurrency market - EconStor</a> <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[The future of Bitcoin In this article, you will learn about the prospects of bitcoin.]]></summary></entry><entry xml:lang="en"><title type="html">What is Crypto Mining? How Does It Work [explained simply]</title><link href="https://miningsoft.org/ru/articles/mining/" rel="alternate" type="text/html" title="What is Crypto Mining? How Does It Work [explained simply]" /><published>2023-02-07T00:00:00-05:00</published><updated>2023-02-14T00:00:00-05:00</updated><id>https://miningsoft.org/ru/articles/mining</id><content type="html" xml:base="https://miningsoft.org/ru/articles/mining/"><![CDATA[<div class="paper btc">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[The future of Bitcoin In this article, you will learn about the prospects of bitcoin.]]></summary></entry><entry xml:lang="en"><title type="html">What is Crypto Mining? How Does It Work [explained simply]</title><link href="https://miningsoft.org/ru/articles/mining/" rel="alternate" type="text/html" title="What is Crypto Mining? How Does It Work [explained simply]" /><published>2023-02-07T00:00:00-04:00</published><updated>2023-02-14T00:00:00-04:00</updated><id>https://miningsoft.org/ru/articles/mining</id><content type="html" xml:base="https://miningsoft.org/ru/articles/mining/"><![CDATA[<div class="paper btc">
   <div class="pattern">
     <div class="note-cont">
       What do mining farms calculate?
@@ -1624,7 +1624,7 @@ A promising historical coin rate and low mining difficulty are the most importan
       <p><a href="https://coinmarketcap.com/en/currencies/bitcoin/">Data from the analytical company Coinmarketcap</a> <a href="#fnref:8" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[What do mining farms calculate? In this article, you will learn what cryptocurrency mining means.]]></summary></entry><entry xml:lang="en"><title type="html">Bitcoin: what is it and how does it work (in simple terms)</title><link href="https://miningsoft.org/ru/articles/bitcoin/" rel="alternate" type="text/html" title="Bitcoin: what is it and how does it work (in simple terms)" /><published>2023-02-01T00:00:00-05:00</published><updated>2023-02-14T00:00:00-05:00</updated><id>https://miningsoft.org/ru/articles/bitcoin</id><content type="html" xml:base="https://miningsoft.org/ru/articles/bitcoin/"><![CDATA[<div class="paper btc">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[What do mining farms calculate? In this article, you will learn what cryptocurrency mining means.]]></summary></entry><entry xml:lang="en"><title type="html">Bitcoin: what is it and how does it work (in simple terms)</title><link href="https://miningsoft.org/ru/articles/bitcoin/" rel="alternate" type="text/html" title="Bitcoin: what is it and how does it work (in simple terms)" /><published>2023-02-01T00:00:00-04:00</published><updated>2023-03-13T00:00:00-04:00</updated><id>https://miningsoft.org/ru/articles/bitcoin</id><content type="html" xml:base="https://miningsoft.org/ru/articles/bitcoin/"><![CDATA[<div class="paper btc">
   <div class="pattern">
     <div class="note-cont">
       What is Bitcoin and why is it needed?
@@ -1681,7 +1681,7 @@ A promising historical coin rate and low mining difficulty are the most importan
   <dt>Miner</dt>
   <dd>A member of the Bitcoin network that validates payments and computes new blocks on its hardware.</dd>
   <dt>Mining</dt>
-  <dd>The English <a href="/en/articles/mining/">term “mining” means</a> to dig, mine. When miners confirm payments, they receive new bitcoins as a reward. To add a new block to the blockchain, they need to transfer information from the old blocks to the new one with the appropriate ciphers. This requires computing power and huge amounts of electricity.</dd>
+  <dd>The English <a href="/en/articles/mining/">term “mining” means</a> to dig, mine. When miners confirm payments, they receive new bitcoins as a reward. To add a new block to the blockchain, they need to transfer information from the old blocks to the new one with the appropriate ciphers. This requires computing power and huge amounts of electricity.[21].</dd>
 </dl>
 
 <figure><a href="/assets/images/articles/bitcoin/en/how-mining.webp" class="image-popup"> <img src="/assets/images/articles/bitcoin/en/how-mining.webp" alt="Mining Bitcoin" />
@@ -1827,7 +1827,7 @@ May 2022 - only $27,000.September 2022 - below $19,000.</p>
 
 <dl>
   <dt>Bitcoin wallet</dt>
-  <dd>The software is a <a href="/en/wallets">digital wallet</a>. This is where bitcoins are stored.</dd>
+  <dd>The software is a <a href="/en/wallets/">digital wallet</a>. This is where bitcoins are stored.</dd>
 </dl>
 
 <p class="notice--success">In practice, BTC is in the so-called wallet on a PC or mobile phone. They are protected by a very long password. Storing cryptocurrencies on your own device is called “cold storage”. This is the most secure storage method.</p>
@@ -1868,7 +1868,7 @@ This was also the goal of the inventor Satoshi Nakamoto (pseudonym for an unknow
 
 <h3 id="volatility">Volatility</h3>
 
-<p>The price of bitcoin is considered unstable, volatile<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>. This means that it is subject to strong fluctuations.</p>
+<p>The price of bitcoin is considered unstable, volatile<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">2</a></sup>. This means that it is subject to strong fluctuations.</p>
 
 <p>The price of bitcoin fluctuates much more than stock prices. In November 2021, one bitcoin was worth $69,000, in May 2022 it dropped to $27,000. This is a difference of more than 50 percent.</p>
 
@@ -1913,11 +1913,11 @@ This was also the goal of the inventor Satoshi Nakamoto (pseudonym for an unknow
     <li id="fn:1" role="doc-endnote">
       <p><a href="https://learn.bybit.com/en/crypto/21-million-bitcoin-limit-mined/">21 million bitcoin limit</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:2" role="doc-endnote">
-      <p><a href="https://www.investopedia.com/articles/investing/052014/why-bitcoins-value-so-volatile.asp">What is volatility in Bitcoin and cryptocurrencies</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    <li id="fn:3" role="doc-endnote">
+      <p><a href="https://www.investopedia.com/articles/investing/052014/why-bitcoins-value-so-volatile.asp">What is volatility in Bitcoin and cryptocurrencies</a> <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[What is Bitcoin and why is it needed? In this article, you will learn everything about BTC. Let’s explain how virtual money works?]]></summary></entry><entry xml:lang="en"><title type="html">Check Which Route For Specific Domain In Linux</title><link href="https://miningsoft.org/ru/guide/specific-domain-linux/" rel="alternate" type="text/html" title="Check Which Route For Specific Domain In Linux" /><published>2022-12-12T00:00:00-05:00</published><updated>2022-12-31T00:00:00-05:00</updated><id>https://miningsoft.org/ru/guide/specific-domain-linux</id><content type="html" xml:base="https://miningsoft.org/ru/guide/specific-domain-linux/"><![CDATA[<div class="paper wallet">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[What is Bitcoin and why is it needed? In this article, you will learn everything about BTC. Let’s explain how virtual money works?]]></summary></entry><entry xml:lang="en"><title type="html">Check Which Route For Specific Domain In Linux</title><link href="https://miningsoft.org/ru/guide/specific-domain-linux/" rel="alternate" type="text/html" title="Check Which Route For Specific Domain In Linux" /><published>2022-12-12T00:00:00-04:00</published><updated>2022-12-31T00:00:00-04:00</updated><id>https://miningsoft.org/ru/guide/specific-domain-linux</id><content type="html" xml:base="https://miningsoft.org/ru/guide/specific-domain-linux/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
 	How to create custom routes for specific domains in Linux.    
@@ -2089,7 +2089,7 @@ default         192.168.5.1     0.0.0.0         UG    1024   0        0 eno16777
 
 <h2 id="final-words">Final Words</h2>
 
-<p>It is important to know which route for a specific domain will be the most efficient for your needs. There are many options open to you, so it is important to do your research to find the best option for your needs.</p>]]></content><author><name>Matthew Wood</name></author><category term="guide" /><summary type="html"><![CDATA[How to create custom routes for specific domains in Linux. We’ll show you how to use the route command to find the best DNS route for your web server.]]></summary></entry><entry xml:lang="en"><title type="html">EthPow: How to mine, Pools, Miners, Exchanges, Get a wallet</title><link href="https://miningsoft.org/ru/guide/ethw/" rel="alternate" type="text/html" title="EthPow: How to mine, Pools, Miners, Exchanges, Get a wallet" /><published>2022-09-20T00:00:00-05:00</published><updated>2023-03-10T00:00:00-05:00</updated><id>https://miningsoft.org/ru/guide/ethw</id><content type="html" xml:base="https://miningsoft.org/ru/guide/ethw/"><![CDATA[<div class="paper wallet">
+<p>It is important to know which route for a specific domain will be the most efficient for your needs. There are many options open to you, so it is important to do your research to find the best option for your needs.</p>]]></content><author><name>Matthew Wood</name></author><category term="guide" /><summary type="html"><![CDATA[How to create custom routes for specific domains in Linux. We’ll show you how to use the route command to find the best DNS route for your web server.]]></summary></entry><entry xml:lang="en"><title type="html">EthPow: How to mine, Pools, Miners, Exchanges, Get a wallet</title><link href="https://miningsoft.org/ru/guide/ethw/" rel="alternate" type="text/html" title="EthPow: How to mine, Pools, Miners, Exchanges, Get a wallet" /><published>2022-09-20T00:00:00-04:00</published><updated>2023-03-10T00:00:00-04:00</updated><id>https://miningsoft.org/ru/guide/ethw</id><content type="html" xml:base="https://miningsoft.org/ru/guide/ethw/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       What is EthereumPoW and how to mine it?
@@ -2687,7 +2687,7 @@ pause</code></p>
 
 <h2 id="difficulty">Difficulty</h2>
 
-<p>The complexity of the Ethereum PoW network is a problem solved in <a href="/en/articles/mining">mining</a> to find a block. The more miners mine Ethereum PoW, the harder it is to find a block to reward. <a href="https://2miners.com/en/ethw-network-difficulty">Track difficulty</a> here.</p>]]></content><author><name>Matthew Wood</name></author><category term="guide" /><summary type="html"><![CDATA[What is EthereumPoW and how to mine it? In this guide, you will learn about ETHW - a fork of Ethereum for mining on video cards and ASICs]]></summary></entry><entry xml:lang="en"><title type="html">How to stake Ethereum 2.0? How much ETH can you earn?</title><link href="https://miningsoft.org/ru/guide/eth-staking/" rel="alternate" type="text/html" title="How to stake Ethereum 2.0? How much ETH can you earn?" /><published>2022-09-11T00:00:00-05:00</published><updated>2023-03-10T00:00:00-05:00</updated><id>https://miningsoft.org/ru/guide/eth-staking</id><content type="html" xml:base="https://miningsoft.org/ru/guide/eth-staking/"><![CDATA[<div class="paper wallet">
+<p>The complexity of the Ethereum PoW network is a problem solved in <a href="/en/articles/mining">mining</a> to find a block. The more miners mine Ethereum PoW, the harder it is to find a block to reward. <a href="https://2miners.com/en/ethw-network-difficulty">Track difficulty</a> here.</p>]]></content><author><name>Matthew Wood</name></author><category term="guide" /><summary type="html"><![CDATA[What is EthereumPoW and how to mine it? In this guide, you will learn about ETHW - a fork of Ethereum for mining on video cards and ASICs]]></summary></entry><entry xml:lang="en"><title type="html">How to stake Ethereum 2.0? How much ETH can you earn?</title><link href="https://miningsoft.org/ru/guide/eth-staking/" rel="alternate" type="text/html" title="How to stake Ethereum 2.0? How much ETH can you earn?" /><published>2022-09-11T00:00:00-04:00</published><updated>2023-03-10T00:00:00-04:00</updated><id>https://miningsoft.org/ru/guide/eth-staking</id><content type="html" xml:base="https://miningsoft.org/ru/guide/eth-staking/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       Is Ethereum Staking Profitable?
@@ -3101,7 +3101,7 @@ You will not be able to withdraw and exchange the rewards you earn through staki
       <p><a href="https://www.coindesk.com/tech/2020/11/06/to-stake-or-no-thats-the-eth-20-question/">To Stake or No? That’s the Eth 2.0 Question</a> <a href="#fnref:10" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="guide" /><summary type="html"><![CDATA[Is Ethereum Staking Profitable? In this beginner’s guide, you will learn all the details about Ethereum staking and which crypto exchanges and pools support it.]]></summary></entry><entry xml:lang="en"><title type="html">Ethereum 2.0 Merge Fork Explained: launch Date and Mining</title><link href="https://miningsoft.org/ru/guide/merge/" rel="alternate" type="text/html" title="Ethereum 2.0 Merge Fork Explained: launch Date and Mining" /><published>2022-09-09T00:00:00-05:00</published><updated>2023-03-10T00:00:00-05:00</updated><id>https://miningsoft.org/ru/guide/merge</id><content type="html" xml:base="https://miningsoft.org/ru/guide/merge/"><![CDATA[<div class="paper amd">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="guide" /><summary type="html"><![CDATA[Is Ethereum Staking Profitable? In this beginner’s guide, you will learn all the details about Ethereum staking and which crypto exchanges and pools support it.]]></summary></entry><entry xml:lang="en"><title type="html">Ethereum 2.0 Merge Fork Explained: launch Date and Mining</title><link href="https://miningsoft.org/ru/guide/merge/" rel="alternate" type="text/html" title="Ethereum 2.0 Merge Fork Explained: launch Date and Mining" /><published>2022-09-09T00:00:00-04:00</published><updated>2023-03-10T00:00:00-04:00</updated><id>https://miningsoft.org/ru/guide/merge</id><content type="html" xml:base="https://miningsoft.org/ru/guide/merge/"><![CDATA[<div class="paper amd">
   <div class="pattern">
     <div class="note-cont">
       Yes, Ethereum 2.0 kill mining. But there will be new opportunities.

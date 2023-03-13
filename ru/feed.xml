@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="ru" /><updated>2023-03-10T11:28:00-05:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="ru"><title type="html">Что такое криптовалюта? Простыми словами (2023)</title><link href="https://miningsoft.org/ru/articles/cryptocurrency/" rel="alternate" type="text/html" title="Что такое криптовалюта? Простыми словами (2023)" /><published>2023-02-22T00:00:00-05:00</published><updated>2023-02-22T00:00:00-05:00</updated><id>https://miningsoft.org/ru/articles/cryptocurrency</id><content type="html" xml:base="https://miningsoft.org/ru/articles/cryptocurrency/"><![CDATA[<div class="paper btc">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="ru" /><updated>2023-03-13T13:47:37-04:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="ru"><title type="html">Что такое криптовалюта? Простыми словами (2023)</title><link href="https://miningsoft.org/ru/articles/cryptocurrency/" rel="alternate" type="text/html" title="Что такое криптовалюта? Простыми словами (2023)" /><published>2023-02-22T00:00:00-04:00</published><updated>2023-02-22T00:00:00-04:00</updated><id>https://miningsoft.org/ru/articles/cryptocurrency</id><content type="html" xml:base="https://miningsoft.org/ru/articles/cryptocurrency/"><![CDATA[<div class="paper btc">
   <div class="pattern">
     <div class="note-cont">
       Криптовалюта: что такое, как работает и зачем нужна?
@@ -366,7 +366,7 @@
 <figure><a href="/assets/images/articles/cryptocurrency/ru/cryptocurrency_risks.webp" class="image-popup"> <img src="/assets/images/articles/cryptocurrency/ru/cryptocurrency_risks.webp" alt="Риски криптовалют" />
 <figcaption>Риски</figcaption></a></figure>
 
-<p>Поэтому крайне важно остерегаться нелицензированных платформ и покупать криптовалюту только у регулируемой биржи или брокера, которых не так много. Если вы хотите хранить свои токены <a href="/ru/wallets">криптовалюты в собственном кошельке</a>, существует меньше рисков.</p>
+<p>Поэтому крайне важно остерегаться нелицензированных платформ и покупать криптовалюту только у регулируемой биржи или брокера, которых не так много. Если вы хотите хранить свои токены <a href="/ru/wallets/">криптовалюты в собственном кошельке</a>, существует меньше рисков.</p>
 
 <p>Однозначно ответить на вопрос: криптовалюта это хорошо или плохо можно суммировав преимущества и риски.</p>
 
@@ -553,7 +553,7 @@
       <p><a href="https://bitcoin.org/ru/how-it-works">Как работает Биткойн?</a> <a href="#fnref:11" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Криптовалюта: что такое, как работает и зачем нужна? Простое объяснение криптовалюты для новичков и продвинутых пользователей.]]></summary></entry><entry xml:lang="ru"><title type="html">Разблокировка сайта юристом - основания для Роскомнадзора</title><link href="https://miningsoft.org/ru/blog/rkn/" rel="alternate" type="text/html" title="Разблокировка сайта юристом - основания для Роскомнадзора" /><published>2023-02-17T00:00:00-05:00</published><updated>2023-02-17T00:00:00-05:00</updated><id>https://miningsoft.org/ru/blog/rkn</id><content type="html" xml:base="https://miningsoft.org/ru/blog/rkn/"><![CDATA[<div class="paper wallet">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Криптовалюта: что такое, как работает и зачем нужна? Простое объяснение криптовалюты для новичков и продвинутых пользователей.]]></summary></entry><entry xml:lang="ru"><title type="html">Разблокировка сайта юристом - основания для Роскомнадзора</title><link href="https://miningsoft.org/ru/blog/rkn/" rel="alternate" type="text/html" title="Разблокировка сайта юристом - основания для Роскомнадзора" /><published>2023-02-17T00:00:00-04:00</published><updated>2023-02-17T00:00:00-04:00</updated><id>https://miningsoft.org/ru/blog/rkn</id><content type="html" xml:base="https://miningsoft.org/ru/blog/rkn/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       Роскомнадзор, разблокируй! Как отстоять свой сайт?
@@ -758,7 +758,7 @@
       <p><a href="https://drc.law/uslugi/obzhalovanie-sudebnogo-resheniya-o-priznanii-informatsii-nezakonnoy/">Обжалование судебного решения о признании информации незаконной</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Роскомнадзор, разблокируй! Как отстоять свой сайт? В этой статье вы узнаете о блокировках РКН и как решить эту проблему.]]></summary></entry><entry xml:lang="ru"><title type="html">Что такое технология Блокчейн? Простыми словами (2023)</title><link href="https://miningsoft.org/ru/articles/blockchain/" rel="alternate" type="text/html" title="Что такое технология Блокчейн? Простыми словами (2023)" /><published>2023-02-10T00:00:00-05:00</published><updated>2023-02-14T00:00:00-05:00</updated><id>https://miningsoft.org/ru/articles/blockchain</id><content type="html" xml:base="https://miningsoft.org/ru/articles/blockchain/"><![CDATA[<div class="paper btc">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Роскомнадзор, разблокируй! Как отстоять свой сайт? В этой статье вы узнаете о блокировках РКН и как решить эту проблему.]]></summary></entry><entry xml:lang="ru"><title type="html">Что такое технология Блокчейн? Простыми словами (2023)</title><link href="https://miningsoft.org/ru/articles/blockchain/" rel="alternate" type="text/html" title="Что такое технология Блокчейн? Простыми словами (2023)" /><published>2023-02-10T00:00:00-04:00</published><updated>2023-02-14T00:00:00-04:00</updated><id>https://miningsoft.org/ru/articles/blockchain</id><content type="html" xml:base="https://miningsoft.org/ru/articles/blockchain/"><![CDATA[<div class="paper btc">
   <div class="pattern">
     <div class="note-cont">
       Блокчейн: что такое, как работает и зачем нужен?
@@ -1121,7 +1121,7 @@
       <p><a href="https://www.forbes.com/sites/forbestechcouncil/2022/10/20/advantages-and-disadvantages-of-blockchain-technology/">Advantages And Disadvantages Of Blockchain Technology</a> <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Блокчейн: что такое, как работает и зачем нужен? Простое объяснение блокчейн технологии для новичков и продвинутых пользователей.]]></summary></entry><entry xml:lang="ru"><title type="html">Взгляд в будущее Биткойна: что будет с криптой через 10 лет?</title><link href="https://miningsoft.org/ru/blog/btc-potencial/" rel="alternate" type="text/html" title="Взгляд в будущее Биткойна: что будет с криптой через 10 лет?" /><published>2023-02-09T00:00:00-05:00</published><updated>2023-02-28T00:00:00-05:00</updated><id>https://miningsoft.org/ru/blog/btc-potencial</id><content type="html" xml:base="https://miningsoft.org/ru/blog/btc-potencial/"><![CDATA[<div class="paper btc">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Блокчейн: что такое, как работает и зачем нужен? Простое объяснение блокчейн технологии для новичков и продвинутых пользователей.]]></summary></entry><entry xml:lang="ru"><title type="html">Взгляд в будущее Биткойна: что будет с криптой через 10 лет?</title><link href="https://miningsoft.org/ru/blog/btc-potencial/" rel="alternate" type="text/html" title="Взгляд в будущее Биткойна: что будет с криптой через 10 лет?" /><published>2023-02-09T00:00:00-04:00</published><updated>2023-02-28T00:00:00-04:00</updated><id>https://miningsoft.org/ru/blog/btc-potencial</id><content type="html" xml:base="https://miningsoft.org/ru/blog/btc-potencial/"><![CDATA[<div class="paper btc">
   <div class="pattern">
     <div class="note-cont">
       Будущее Биткойна
@@ -1251,7 +1251,7 @@
       <p><a href="https://www.econstor.eu/bitstream/10419/103022/1/791932281.pdf">Конкуренция на рынке криптовалют - EconStor</a> <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Будущее Биткойна В этой статье вы узнаете о перспективах биткойна.]]></summary></entry><entry xml:lang="ru"><title type="html">Майнинг - что это такое простыми словами? Кратко и понятно</title><link href="https://miningsoft.org/ru/articles/mining/" rel="alternate" type="text/html" title="Майнинг - что это такое простыми словами? Кратко и понятно" /><published>2023-02-07T00:00:00-05:00</published><updated>2023-02-14T00:00:00-05:00</updated><id>https://miningsoft.org/ru/articles/mining</id><content type="html" xml:base="https://miningsoft.org/ru/articles/mining/"><![CDATA[<div class="paper btc">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Будущее Биткойна В этой статье вы узнаете о перспективах биткойна.]]></summary></entry><entry xml:lang="ru"><title type="html">Майнинг - что это такое простыми словами? Кратко и понятно</title><link href="https://miningsoft.org/ru/articles/mining/" rel="alternate" type="text/html" title="Майнинг - что это такое простыми словами? Кратко и понятно" /><published>2023-02-07T00:00:00-04:00</published><updated>2023-02-14T00:00:00-04:00</updated><id>https://miningsoft.org/ru/articles/mining</id><content type="html" xml:base="https://miningsoft.org/ru/articles/mining/"><![CDATA[<div class="paper btc">
   <div class="pattern">
     <div class="note-cont">
       Что вычисляют майнинг фермы?
@@ -1587,7 +1587,7 @@
       <p><a href="https://coinmarketcap.com/ru/currencies/bitcoin/">Данные аналитической компании Coinmarketcap</a> <a href="#fnref:8" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Что вычисляют майнинг фермы? В этой статье вы узнаете, что означает майнинг криптовалюты.]]></summary></entry><entry xml:lang="ru"><title type="html">Биткоин: что это и как работает (простым языком) - 2023</title><link href="https://miningsoft.org/ru/articles/bitcoin/" rel="alternate" type="text/html" title="Биткоин: что это и как работает (простым языком) - 2023" /><published>2023-02-01T00:00:00-05:00</published><updated>2023-02-14T00:00:00-05:00</updated><id>https://miningsoft.org/ru/articles/bitcoin</id><content type="html" xml:base="https://miningsoft.org/ru/articles/bitcoin/"><![CDATA[<div class="paper btc">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Что вычисляют майнинг фермы? В этой статье вы узнаете, что означает майнинг криптовалюты.]]></summary></entry><entry xml:lang="ru"><title type="html">Биткоин: что это и как работает (простым языком) - 2023</title><link href="https://miningsoft.org/ru/articles/bitcoin/" rel="alternate" type="text/html" title="Биткоин: что это и как работает (простым языком) - 2023" /><published>2023-02-01T00:00:00-04:00</published><updated>2023-03-13T00:00:00-04:00</updated><id>https://miningsoft.org/ru/articles/bitcoin</id><content type="html" xml:base="https://miningsoft.org/ru/articles/bitcoin/"><![CDATA[<div class="paper btc">
   <div class="pattern">
     <div class="note-cont">
       Что такое Биткоин и зачем он нужен?
@@ -1644,7 +1644,7 @@
   <dt>Майнер</dt>
   <dd>Участник сети Биткойн, проверяющий платежи и вычисляющий новые блоки на своем оборудовании.</dd>
   <dt>Майнинг</dt>
-  <dd>Английский <a href="/ru/articles/mining/">термин «майнинг» означает</a> копать, добывать. Когда майнеры, подтверждают платежи, они получают новые биткойны в качестве вознаграждения. Чтобы добавить новый блок в <a href="/ru/articles/blockchain/">блокчейн</a>, им необходимо передать информацию из старых блоков в новый с соответствующими шифрами. Это требует вычислительной мощности и огромного количества электроэнергии.</dd>
+  <dd>Английский <a href="/ru/articles/mining/">термин «майнинг» означает</a> копать, добывать. Когда майнеры, подтверждают платежи, они получают новые биткойны в качестве вознаграждения. Чтобы добавить новый блок в <a href="/ru/articles/blockchain/">блокчейн</a>, им необходимо передать информацию из старых блоков в новый с соответствующими шифрами. Это требует вычислительной мощности и огромного количества электроэнергии.<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>.</dd>
 </dl>
 
 <figure><a href="/assets/images/articles/bitcoin/ru/how-mining.webp" class="image-popup"> <img src="/assets/images/articles/bitcoin/ru/how-mining.webp" alt="Майнинг Биткоина" /> 
@@ -1789,7 +1789,7 @@
 
 <dl>
   <dt>Биткоин-кошелек</dt>
-  <dd>Программное обеспечение представляет собой <a href="/ru/wallets">цифровой кошелек</a>. Здесь хранятся биткойны.</dd>
+  <dd>Программное обеспечение представляет собой <a href="/ru/wallets/">цифровой кошелек</a>. Здесь хранятся биткойны.</dd>
 </dl>
 
 <p class="notice--success">На практике BTC находится в так называемом кошельке на ПК или мобильном телефоне. Они защищены очень длинным паролем. Хранение криптовалюты на собственном устройстве называют “холодным хранением”. Это наиболее безопасный способ хранения.</p>
@@ -1830,7 +1830,7 @@
 
 <h3 id="волатильность">Волатильность</h3>
 
-<p>Цена биткоина считается неустойчивой, волатильной<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>. Это означает, что она подвержена сильным колебаниям.</p>
+<p>Цена биткоина считается неустойчивой, волатильной<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>. Это означает, что она подвержена сильным колебаниям.</p>
 
 <p>Цена биткоина колеблется гораздо больше, чем курсы акций. В ноябре 2021 года один биткоин стоил 69 000 долларов, в мае 2022 года он упал до 27 000 долларов. Это разница более 50 процентов.</p>
 
@@ -1876,10 +1876,13 @@
       <p><a href="https://learn.bybit.com/ru/crypto/21-million-bitcoin-limit-mined/">Лимит в 21 миллион биткоинов</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
     <li id="fn:2" role="doc-endnote">
-      <p><a href="https://bytwork.com/articles/volatility">Что такое волатильность в Биткоине и криптовалют</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+      <p><a href="https://bitcoin.org/ru/how-it-works">Как работает Биткойн?</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p><a href="https://bytwork.com/articles/volatility">Что такое волатильность в Биткоине и криптовалют</a> <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Что такое Биткоин и зачем он нужен? В этой статье вы узнаете все про BTC. Объясним, как работают виртуальные деньги?]]></summary></entry><entry xml:lang="ru"><title type="html">Как установить / Добавить статические маршруты в Linux? (static routes)</title><link href="https://miningsoft.org/ru/guide/specific-domain-linux/" rel="alternate" type="text/html" title="Как установить / Добавить статические маршруты в Linux? (static routes)" /><published>2022-12-12T00:00:00-05:00</published><updated>2022-12-27T00:00:00-05:00</updated><id>https://miningsoft.org/ru/guide/specific-domain-linux</id><content type="html" xml:base="https://miningsoft.org/ru/guide/specific-domain-linux/"><![CDATA[<div class="paper wallet">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Что такое Биткоин и зачем он нужен? В этой статье вы узнаете все про BTC. Объясним, как работают виртуальные деньги?]]></summary></entry><entry xml:lang="ru"><title type="html">Как установить / Добавить статические маршруты в Linux? (static routes)</title><link href="https://miningsoft.org/ru/guide/specific-domain-linux/" rel="alternate" type="text/html" title="Как установить / Добавить статические маршруты в Linux? (static routes)" /><published>2022-12-12T00:00:00-04:00</published><updated>2022-12-27T00:00:00-04:00</updated><id>https://miningsoft.org/ru/guide/specific-domain-linux</id><content type="html" xml:base="https://miningsoft.org/ru/guide/specific-domain-linux/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       Как создавать собственные маршруты для доменов в Linux.
@@ -2049,7 +2052,7 @@ default         192.168.5.1     0.0.0.0         UG    1024   0        0 eno16777
 
 <h2 id="заключительные-слова">Заключительные слова</h2>
 
-<p>Важно знать, какой маршрут для конкретного домена будет наиболее эффективным для ваших нужд. У вас есть много вариантов, поэтому важно провести исследование, чтобы найти лучший вариант для ваших нужд.</p>]]></content><author><name>Matthew Wood</name></author><category term="guide" /><summary type="html"><![CDATA[Как создавать собственные маршруты для доменов в Linux. Мы покажем вам, как использовать команду route, чтобы найти лучший DNS-маршрут для вашего веб-сервера.]]></summary></entry><entry xml:lang="ru"><title type="html">EthPow: Как майнить форк, Пулы, Биржи, Получить кошелек</title><link href="https://miningsoft.org/ru/guide/ethw/" rel="alternate" type="text/html" title="EthPow: Как майнить форк, Пулы, Биржи, Получить кошелек" /><published>2022-09-20T00:00:00-05:00</published><updated>2023-03-10T00:00:00-05:00</updated><id>https://miningsoft.org/ru/guide/ethw</id><content type="html" xml:base="https://miningsoft.org/ru/guide/ethw/"><![CDATA[<div class="paper wallet">
+<p>Важно знать, какой маршрут для конкретного домена будет наиболее эффективным для ваших нужд. У вас есть много вариантов, поэтому важно провести исследование, чтобы найти лучший вариант для ваших нужд.</p>]]></content><author><name>Matthew Wood</name></author><category term="guide" /><summary type="html"><![CDATA[Как создавать собственные маршруты для доменов в Linux. Мы покажем вам, как использовать команду route, чтобы найти лучший DNS-маршрут для вашего веб-сервера.]]></summary></entry><entry xml:lang="ru"><title type="html">EthPow: Как майнить форк, Пулы, Биржи, Получить кошелек</title><link href="https://miningsoft.org/ru/guide/ethw/" rel="alternate" type="text/html" title="EthPow: Как майнить форк, Пулы, Биржи, Получить кошелек" /><published>2022-09-20T00:00:00-04:00</published><updated>2023-03-10T00:00:00-04:00</updated><id>https://miningsoft.org/ru/guide/ethw</id><content type="html" xml:base="https://miningsoft.org/ru/guide/ethw/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       Что такое EthereumPoW и как его майнить?
@@ -2641,7 +2644,7 @@ pause</code></p>
 
 <h2 id="сложность">Сложность</h2>
 
-<p>Сложность сети Ethereum PoW — задача, решаемая в <a href="/ru/articles/mining">майнинге</a>, для нахождения блока. Чем больше майнеров добывают Ethereum PoW, тем сложнее найти блок для вознаграждения. <a href="https://2miners.com/ru/ethw-network-difficulty">Отслеживать сложность</a> можно здесь.</p>]]></content><author><name>Matthew Wood</name></author><category term="guide" /><summary type="html"><![CDATA[Что такое EthereumPoW и как его майнить? В этом руководстве вы узнайте про ETHW - форк Ethereum для майнинга на видеокартах и асиках]]></summary></entry><entry xml:lang="ru"><title type="html">Как делать стейкинг Ethereum 2.0? Сколько можно заработать</title><link href="https://miningsoft.org/ru/guide/eth-staking/" rel="alternate" type="text/html" title="Как делать стейкинг Ethereum 2.0? Сколько можно заработать" /><published>2022-09-11T00:00:00-05:00</published><updated>2023-03-10T00:00:00-05:00</updated><id>https://miningsoft.org/ru/guide/eth-staking</id><content type="html" xml:base="https://miningsoft.org/ru/guide/eth-staking/"><![CDATA[<div class="paper wallet">
+<p>Сложность сети Ethereum PoW — задача, решаемая в <a href="/ru/articles/mining">майнинге</a>, для нахождения блока. Чем больше майнеров добывают Ethereum PoW, тем сложнее найти блок для вознаграждения. <a href="https://2miners.com/ru/ethw-network-difficulty">Отслеживать сложность</a> можно здесь.</p>]]></content><author><name>Matthew Wood</name></author><category term="guide" /><summary type="html"><![CDATA[Что такое EthereumPoW и как его майнить? В этом руководстве вы узнайте про ETHW - форк Ethereum для майнинга на видеокартах и асиках]]></summary></entry><entry xml:lang="ru"><title type="html">Как делать стейкинг Ethereum 2.0? Сколько можно заработать</title><link href="https://miningsoft.org/ru/guide/eth-staking/" rel="alternate" type="text/html" title="Как делать стейкинг Ethereum 2.0? Сколько можно заработать" /><published>2022-09-11T00:00:00-04:00</published><updated>2023-03-10T00:00:00-04:00</updated><id>https://miningsoft.org/ru/guide/eth-staking</id><content type="html" xml:base="https://miningsoft.org/ru/guide/eth-staking/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       Выгодно ли заниматься стейкингом и какова его доходность?
@@ -3052,7 +3055,7 @@ pause</code></p>
       <p><a href="https://www.coindesk.com/tech/2020/11/06/to-stake-or-no-thats-the-eth-20-question/">To Stake or No? That’s the Eth 2.0 Question</a> <a href="#fnref:10" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="guide" /><summary type="html"><![CDATA[Выгодно ли заниматься стейкингом и какова его доходность? В этом руководстве вы узнайте все подробности о стейкинге Ethereum и о том, какие криптобиржи и пулы его поддерживают.]]></summary></entry><entry xml:lang="ru"><title type="html">ETH 2.0 - хардфорк и переход на POS: что это такое?</title><link href="https://miningsoft.org/ru/guide/merge/" rel="alternate" type="text/html" title="ETH 2.0 - хардфорк и переход на POS: что это такое?" /><published>2022-09-09T00:00:00-05:00</published><updated>2023-03-10T00:00:00-05:00</updated><id>https://miningsoft.org/ru/guide/merge</id><content type="html" xml:base="https://miningsoft.org/ru/guide/merge/"><![CDATA[<div class="paper amd">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="guide" /><summary type="html"><![CDATA[Выгодно ли заниматься стейкингом и какова его доходность? В этом руководстве вы узнайте все подробности о стейкинге Ethereum и о том, какие криптобиржи и пулы его поддерживают.]]></summary></entry><entry xml:lang="ru"><title type="html">ETH 2.0 - хардфорк и переход на POS: что это такое?</title><link href="https://miningsoft.org/ru/guide/merge/" rel="alternate" type="text/html" title="ETH 2.0 - хардфорк и переход на POS: что это такое?" /><published>2022-09-09T00:00:00-04:00</published><updated>2023-03-10T00:00:00-04:00</updated><id>https://miningsoft.org/ru/guide/merge</id><content type="html" xml:base="https://miningsoft.org/ru/guide/merge/"><![CDATA[<div class="paper amd">
   <div class="pattern">
     <div class="note-cont">
       Как ETH 2.0 влияет на майнинг? Он останется?
