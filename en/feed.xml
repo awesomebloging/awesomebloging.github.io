@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-03-13T13:48:10-04:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="en"><title type="html">Cryptocurrency Explained - What is It, Types, Pros &amp;amp; Cons [2023]</title><link href="https://miningsoft.org/ru/articles/cryptocurrency/" rel="alternate" type="text/html" title="Cryptocurrency Explained - What is It, Types, Pros &amp;amp; Cons [2023]" /><published>2023-02-22T00:00:00-04:00</published><updated>2023-02-22T00:00:00-04:00</updated><id>https://miningsoft.org/ru/articles/cryptocurrency</id><content type="html" xml:base="https://miningsoft.org/ru/articles/cryptocurrency/"><![CDATA[<div class="paper btc">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-03-16T05:41:35-04:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="en"><title type="html">Cryptocurrency Explained - What is It, Types, Pros &amp;amp; Cons [2023]</title><link href="https://miningsoft.org/ru/articles/cryptocurrency/" rel="alternate" type="text/html" title="Cryptocurrency Explained - What is It, Types, Pros &amp;amp; Cons [2023]" /><published>2023-02-22T00:00:00-04:00</published><updated>2023-02-22T00:00:00-04:00</updated><id>https://miningsoft.org/ru/articles/cryptocurrency</id><content type="html" xml:base="https://miningsoft.org/ru/articles/cryptocurrency/"><![CDATA[<div class="paper btc">
   <div class="pattern">
     <div class="note-cont">
       Learn all about the potential of cryptocurrency and what it means for the future.
@@ -12,6 +12,44 @@
 <p>Cryptocurrencies are encrypted digital currencies that are created and stored electronically. They can be spent like regular money, but can also be used to buy and sell other digital currencies.</p>
 
 <p>Virtual money has no material equivalent and is a record in a special <a href="/en/articles/blockchain/">database (blockchain)</a>. The base is very reliable, and the technology built on it, perhaps, gives humanity even more value than the coin itself.</p>
+
+<!-- adunit 1 -->
+
+<div id="cryptox-ad-20003805-10905748"></div>
+
+<!-- adunit 2 -->
+<div id="cryptox-ad-20003718-10905748"></div>
+
+<!-- adunit 3 -->
+<div id="cryptox-ad-20003615-10905748"></div>
+
+<script>
+	const cxjs = new CryptoX_SDK();
+	const adUnits = [
+		{
+			slot: 'cryptox-ad-20003805-10905748',
+			placementId: '20003805',
+			appId: '10905748',
+			size: [728, 90]
+		},
+		{
+			slot: 'cryptox-ad-20003718-10905748',
+			placementId: '20003718',
+			appId: '10905748',
+			size: [300, 250]
+		},
+		{
+			slot: 'cryptox-ad-20003615-10905748',
+			placementId: '20003615',
+			appId: '10905748',
+			size: [300, 250]
+		},
+		// other ad unit...
+	];
+	if ('display' in cxjs) {
+		cxjs.display(adUnits);
+	}
+</script>
 
 <figure><a href="/assets/images/articles/cryptocurrency/en/what_is_crypto_simple.webp" class="image-popup"> <img src="/assets/images/articles/cryptocurrency/en/what_is_crypto_simple.webp" alt="cryptocurrency in simple terms" />
 <figcaption>How do you explain cryptocurrency to a beginner?</figcaption></a></figure>
