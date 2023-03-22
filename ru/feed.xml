@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="ru" /><updated>2023-03-21T13:41:05-04:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="ru"><title type="html">Что такое криптовалюта? Простыми словами (2023)</title><link href="https://miningsoft.org/ru/articles/cryptocurrency/" rel="alternate" type="text/html" title="Что такое криптовалюта? Простыми словами (2023)" /><published>2023-02-22T00:00:00-04:00</published><updated>2023-02-22T00:00:00-04:00</updated><id>https://miningsoft.org/ru/articles/cryptocurrency</id><content type="html" xml:base="https://miningsoft.org/ru/articles/cryptocurrency/"><![CDATA[<div class="paper btc">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="ru" /><updated>2023-03-22T13:32:56-04:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="ru"><title type="html">Что такое криптовалюта? Простыми словами (2023)</title><link href="https://miningsoft.org/ru/articles/cryptocurrency/" rel="alternate" type="text/html" title="Что такое криптовалюта? Простыми словами (2023)" /><published>2023-02-22T00:00:00-04:00</published><updated>2023-02-22T00:00:00-04:00</updated><id>https://miningsoft.org/ru/articles/cryptocurrency</id><content type="html" xml:base="https://miningsoft.org/ru/articles/cryptocurrency/"><![CDATA[<div class="paper btc">
   <div class="pattern">
     <div class="note-cont">
       Криптовалюта: что такое, как работает и зачем нужна?
@@ -553,7 +553,100 @@
       <p><a href="https://bitcoin.org/ru/how-it-works">Как работает Биткойн?</a> <a href="#fnref:11" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Криптовалюта: что такое, как работает и зачем нужна? Простое объяснение криптовалюты для новичков и продвинутых пользователей.]]></summary></entry><entry xml:lang="ru"><title type="html">Разблокировка сайта юристом - основания для Роскомнадзора</title><link href="https://miningsoft.org/ru/blog/rkn/" rel="alternate" type="text/html" title="Разблокировка сайта юристом - основания для Роскомнадзора" /><published>2023-02-17T00:00:00-04:00</published><updated>2023-02-17T00:00:00-04:00</updated><id>https://miningsoft.org/ru/blog/rkn</id><content type="html" xml:base="https://miningsoft.org/ru/blog/rkn/"><![CDATA[<div class="paper wallet">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Криптовалюта: что такое, как работает и зачем нужна? Простое объяснение криптовалюты для новичков и продвинутых пользователей.]]></summary></entry><entry xml:lang="ru"><title type="html">Дизайн Blockchain проектов: принципы, концепция и архитектура</title><link href="https://miningsoft.org/ru/blog/cex-design/" rel="alternate" type="text/html" title="Дизайн Blockchain проектов: принципы, концепция и архитектура" /><published>2023-02-22T00:00:00-04:00</published><updated>2023-02-17T00:00:00-04:00</updated><id>https://miningsoft.org/ru/blog/cex-design</id><content type="html" xml:base="https://miningsoft.org/ru/blog/cex-design/"><![CDATA[<div class="paper wallet">
+  <div class="pattern">
+    <div class="note-cont">
+      Ui дизайн, ориентированный на человека, доверие и простота
+    </div>
+  </div>
+</div>
+<p><em>Существует несколько вещей, о которых следует помнить при разработке блокчейна: простота, безопасность, прозрачность и др.</em></p>
+
+<h2 id="введение">Введение</h2>
+
+<p>Блокчейн. Даже простое его название вызывает в воображении картины математики, криптографии и узлов, цифровой валюты, обеспечивающие плавные, быстрые и безопасные транзакции.</p>
+
+<p class="notice--success">Но какое отношение все это имеет к дизайну? Вы должны сначала понять основные идеи блокчейна, чтобы проектировать его. Здесь мы перечисляем четыре основных принципа проектирования блокчейна.</p>
+
+<h2 id="что-такое-блокчейн">Что такое блокчейн?</h2>
+
+<p>Вы должны <a href="/ru/articles/blockchain/">понимать блокчейн</a>, чтобы хорошо проектировать его. Существование <a href="/ru/articles/cryptocurrency">криптовалют</a>, таких как Биткойн и Эфириум, стало возможным благодаря технологии блокчейн.</p>
+
+<p class="notice--info">По сути, это распределенный реестр, в котором транзакции записываются открыто и в хронологическом порядке. Затем каждая транзакция сохраняется в блоке данных, который трудно подделать после криптографического подтверждения сетевыми узлами.</p>
+
+<p>Несмотря на то, что <a href="/ru/articles/bitcoin">Биткойн</a> и Эфириум используют разные формы технологии блокчейна, у них есть несколько общих черт.</p>
+
+<p>Децентрализованная природа блокчейна — самое яркое сравнение. Он хранит информацию о транзакциях независимо от какого-либо центрального органа. Группа взаимосвязанных компьютеров образует сеть блокчейна, которая получает копии блокчейна и проверяет транзакции для сохранения целостности реестра.</p>
+
+<p class="notice--ya">В результате не может быть единой точки отказа, и система не может быть изменена или управляема одним лицом.</p>
+
+<p>Технология Blockchain чаще всего используется в криптографии, и, вероятно, именно так вы впервые услышали этот термин. Однако эту технологию можно использовать для всего: от финансовых транзакций до отслеживания медицинской информации и многого другого.</p>
+
+<p class="notice--primary">Название «блокчейн» относится к системе, в которой хранятся данные, которые нельзя изменить.</p>
+
+<p>Способность технологии блокчейн поддерживать децентрализацию — это другая ее сторона, помимо того, что она делает возможным существования криптовалюты.</p>
+
+<p>Децентрализация блокчейна отодвигает принятие решений от централизованного места или органа.</p>
+
+<p class="notice--ya"><a href="https://en.wikipedia.org/wiki/Децентрализация">Децентрализация</a> повышает эффективность и результативность организации за счет избавления от бесполезных компонентов, сокращения дублирования и предотвращения единых точек отказа. Члены децентрализованных сетей должны действовать независимо, не запрашивая одобрения централизованной сети.</p>
+
+<p>Три основные сетевые структуры — централизованная, децентрализованная и распределенная — часто используются при рассмотрении технологической установки.</p>
+
+<p>Хотя децентрализованные сети обычно используются блокчейн-технологией, приложение блокчейна может быть, а может и не быть децентрализованным. Поэтому децентрализацию следует осуществлять дальше по сети, как на технологическом, так и на административном уровнях.</p>
+
+<p class="notice--warning">Поэтому крайне важно помнить о принципах проектирования при работе над продуктом, поддерживающим децентрализацию.</p>
+
+<h2 id="принципы-проектирования-блокчейна-которым-нужно-следовать">Принципы проектирования блокчейна, которым нужно следовать</h2>
+
+<p>Дизайн и разработка финтех-приложений быстро набирают популярность. Вот три принципа дизайна блокчейна, которые вы должны соблюдать. Мы ограничили их тремя, потому что проектирование проектов блокчейна и криптовалюты больше связано с пониманием технологии, ее целевой аудитории и будущего блокчейна, чем с соблюдением правил.</p>
+
+<h3 id="дизайн-ориентированный-на-человека">Дизайн, ориентированный на человека</h3>
+
+<p>Наиболее важным аспектом блокчейна является то, что пользователи должны верить в него. Блокчейн должен быть создан таким образом, чтобы он был понятен всем пользователям, чтобы завоевать их доверие. Таким образом, одним из наиболее важных аспектов дизайна блокчейна является то, насколько он удобен для пользователя.</p>
+
+<p class="notice--success">Предоставление людям, которые могут быть не очень технически подкованными, базовых, интуитивно понятных пользовательских интерфейсов, является одним из способов сделать это. Если вы ищете пример, <a href="https://cex.io/mobile">вы можете скачать приложение для торговли биткойнами для iPhone</a>, созданное CEX.iO.</p>
+
+<h3 id="доверие">Доверие</h3>
+
+<p>Проектирование для блокчейна предполагает планирование создания услуги или приложения, на которое можно положиться, которое невозможно изменить и которое (почти) полностью прозрачно для всех пользователей и заинтересованных сторон.</p>
+
+<p class="notice--danger">Фундаментальной функцией блокчейна является обработка личных данных. Поэтому крайне важно сохранить доверие пользователя, когда дело доходит до этой информации.<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+
+<p>Это доверие в некоторой степени влияет на надежность и стабильность платформы. Чтобы сохранить доверие пользователей к вашему дизайну и продукту, обращайте внимание на отзывы клиентов и поддерживайте последовательность.</p>
+
+<h3 id="простота">Простота</h3>
+
+<p>Сделайте ваше приложение максимально простым и удобным в использовании. Блокчейн создает почти бесконечный поток данных и информации, поэтому простой интерфейс облегчит работу людей. Это также помогает уменьшить входные барьеры на вашу платформу. Чем меньше пользователю нужно разобраться, тем легче начать его использовать.</p>
+
+<p>С учетом сказанного, есть несколько принципов, о которых следует помнить при разработке для блокчейна, сохраняя при этом простоту.</p>
+
+<ul>
+  <li><strong>Безопасность</strong> – Даже с <a href="https://www.investopedia.com/terms/t/twofactor-authentication-2fa.asp">2FA</a>, у пользователей не должно возникнуть проблем с вводом данных для входа (безопасный пароль или биометрические данные). Что еще более важно, каждая страница, файл и транзакция должны обеспечивать чувство безопасности, сохраняя при этом простоту дизайна и удобство навигации.</li>
+</ul>
+
+<p>Кроме того, безопасность не следует приравнивать к сопротивлению. Вам нужна платформа, которая делает каждое взаимодействие надежным и безопасным.</p>
+
+<ul>
+  <li>
+    <p><strong>Конфиденциальность</strong> – Некоторая степень конфиденциальности необходима для приватной информации. Пользователи хотят конфиденциальности своей личности, а также своей деятельности на вашей платформе. Независимо от того, что делает ваш продукт, псевдонимы и закрытые ключи являются двумя краеугольными камнями технологии блокчейна, которые вы должны использовать.</p>
+  </li>
+  <li>
+    <p><strong>Прозрачность</strong> — для завершения транзакции в блокчейне требуется время, но мы редко знаем точно, сколько этого времени нужно в загруженной сети. Пользователи должны видеть о своих транзакциях, потому что данные конфиденциальны. Держите пользователей в курсе при разработке и помните о прозрачности.</p>
+  </li>
+</ul>
+
+<p class="notice">Чтобы люди понимали, как работает ваш продукт и чем он отличается от продуктов ваших конкурентов, также крайне важен прозрачный подход к управлению.</p>
+
+<ul>
+  <li><strong>Согласованность</strong>. Установите один язык дизайна и используйте его как можно чаще. Это позволяет потребителям легко перемещаться по вашему продукту, определять свое местоположение в любой момент и решать, какие шаги делать дальше. Если пользовательский интерфейс вашего блокчейн-проекта ясен, лаконичен и придерживается единого языка дизайна, он будет более успешным.</li>
+</ul>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p><a href="https://uxplanet.org/blockchain-and-its-applications-for-service-designers-7b6bfd9fec39">Blockchain and Its Applications for Service Designers</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Ui дизайн, ориентированный на человека, доверие и простота Существует несколько вещей, о которых следует помнить при разработке блокчейна: простота, безопасность, прозрачность и др.]]></summary></entry><entry xml:lang="ru"><title type="html">Разблокировка сайта юристом - основания для Роскомнадзора</title><link href="https://miningsoft.org/ru/blog/rkn/" rel="alternate" type="text/html" title="Разблокировка сайта юристом - основания для Роскомнадзора" /><published>2023-02-17T00:00:00-04:00</published><updated>2023-02-17T00:00:00-04:00</updated><id>https://miningsoft.org/ru/blog/rkn</id><content type="html" xml:base="https://miningsoft.org/ru/blog/rkn/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       Роскомнадзор, разблокируй! Как отстоять свой сайт?
@@ -3055,447 +3148,4 @@ pause</code></p>
       <p><a href="https://www.coindesk.com/tech/2020/11/06/to-stake-or-no-thats-the-eth-20-question/">To Stake or No? That’s the Eth 2.0 Question</a> <a href="#fnref:10" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="guide" /><summary type="html"><![CDATA[Выгодно ли заниматься стейкингом и какова его доходность? В этом руководстве вы узнайте все подробности о стейкинге Ethereum и о том, какие криптобиржи и пулы его поддерживают.]]></summary></entry><entry xml:lang="ru"><title type="html">ETH 2.0 - хардфорк и переход на POS: что это такое?</title><link href="https://miningsoft.org/ru/guide/merge/" rel="alternate" type="text/html" title="ETH 2.0 - хардфорк и переход на POS: что это такое?" /><published>2022-09-09T00:00:00-04:00</published><updated>2023-03-10T00:00:00-04:00</updated><id>https://miningsoft.org/ru/guide/merge</id><content type="html" xml:base="https://miningsoft.org/ru/guide/merge/"><![CDATA[<div class="paper amd">
-  <div class="pattern">
-    <div class="note-cont">
-      Как ETH 2.0 влияет на майнинг? Он останется?
-    </div>
-  </div>
-</div>
-<p><em>Узнайте степень влияния хардфорка как на сеть Ethereum, так и на индустрию криптовалют.</em></p>
-
-<script async="" src="https://coinzillatag.com/lib/display.js"></script>
-
-<div class="coinzilla" data-zone="C-26960aca952082b4725"></div>
-<script>
-    window.coinzilla_display = window.coinzilla_display || [];
-    var c_display_preferences = {};
-    c_display_preferences.zone = "26960aca952082b4725";
-    c_display_preferences.width = "300";
-    c_display_preferences.height = "250";
-    coinzilla_display.push(c_display_preferences);
-</script>
-
-<h2 id="обновление-ethereum-20">Обновление Ethereum 2.0</h2>
-
-<p class="notice--danger">Когда мы говорим об Ethereum 2.0 или ETH2, есть ключевой элемент, характеризующий это обновление. Блокчейн попрощался с майнингом ETH и реализовал на <a href="/ru/guide/eth-staking">стейкинг ETH</a>.</p>
-
-<p>Ethereum 2.0 претерпел изменения — теперь он называется Ethereum Merge (слияние). Процесс перехода от старого алгоритма к новому называют “слиянием”, форком криптовалюты. Существует два независимых блокчейна Ethereum:</p>
-
-<ol>
-  <li>Proof of Work (PoW) - использовался <em>до</em> форка</li>
-  <li>Proof of Stake (PoS) - используется <em>после</em> форка</li>
-</ol>
-
-<div class="imgcen">
-<iframe class="your-ad-position-style" src="https://mat.cryptox-ads.io/cxAdsAssets/banner-basic-v0.11/index.html?size=300*250&amp;app_id=10905748&amp;placement_id=20003615" loading="lazy" style="border:0;width:300px; height:250px"></iframe>
-</div>
-
-<p>Давайте кратко резюмируем основные понятия, чтобы двигаться дальше:</p>
-
-<dl>
-  <dt>Proof of Work<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></dt>
-  <dd>Алгоритм, позволяющий заниматься майнингом, т.е. обеспечивать работу сети криптовалюты с помощью оборудования (видеокарты, асики и т.д.). Этот алгоритм подвергся критике - он использует много электроэнергии, загрязняет окружающую среду и т.д. Дословно: “доказательство работы”. Т.е. доказательство работы оборудования.</dd>
-  <dt>Proof of Stake<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></dt>
-  <dd>Алгоритм, позволяющий <a href="/ru/guide/eth-staking">заниматься стейкингом</a> - получением вознаграждения за владение криптовалютой. При стейкинге криптовалют вы зарабатываете средства, храня монеты или токены в своем кошельке. Нужно делать взнос на фиксированный период времени. Дословно: “доказательство владения”.</dd>
-  <dt>The Merge</dt>
-  <dd>Процесс объединения текущей основной сети Ethereum с системой Proof of Stake (<a href="https://bytwork.com/articles/beacon">Beacon Chain</a>).<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup></dd>
-</dl>
-
-<p>&nbsp;</p>
-
-<figure><a href="/assets/images/guide/merge/pow_vs_pos2.png" class="image-popup"> <img src="/assets/images/guide/merge/pow_vs_pos2.png" alt="pow_vs_pos" /><figcaption>1.0 против 2.0.</figcaption></a></figure>
-
-<p>Резюмируя, Proof of Work (система 1.0) - это устаревший механизм консенсуса, позволяющий добывать Ethereum на видеокартах. Proof of Stake - новый механизм, который позволит <a href="/ru/guide/eth-staking">“майнить” Эфириум с помощью стейкинга</a> - получения пассивного дохода от размещения своих активов.</p>
-
-<h2 id="ethereum-vs-ethereum-20">Ethereum vs Ethereum 2.0</h2>
-
-<figure><a href="/assets/images/guide/merge/consumption.png" class="image-popup"> <img src="/assets/images/guide/merge/consumption.png" alt="consumption" /> <figcaption>Индекс энергопотребления Эфириума.</figcaption></a></figure>
-
-<p>Существуют следующие отличия двух сетей:</p>
-
-<ol>
-  <li>Эффективность — Эфириум станет на 99,95% более энергоэффективным. Предполагается, что для защиты сети с помощью Proof of Stake больше не потребуется 77,53 ТВтч. Это мощность потребления целой страны - Чили.<sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote" rel="footnote">4</a></sup><sup id="fnref:5" role="doc-noteref"><a href="#fn:5" class="footnote" rel="footnote">5</a></sup></li>
-  <li>Sharding<sup id="fnref:6" role="doc-noteref"><a href="#fn:6" class="footnote" rel="footnote">6</a></sup> — сеть будет разбита на 18 «шардов» (осколков), работающих одновременно. Это резко повысит скорость работы.</li>
-  <li>Стейкинг<sup id="fnref:7" role="doc-noteref"><a href="#fn:7" class="footnote" rel="footnote">7</a></sup> — Ethereum перейдет на консенсус Proof-of-Stake, где каждый сможет размещать активы и помогать защищать сеть, зарабатывая на этом.</li>
-  <li>Безопасность. Дискредитация сети станет намного дороже при использовании Proof-of-Stake. Это снизит шанс проведения <a href="https://bytwork.com/articles/ataka-51">атаки 51%</a></li>
-</ol>
-
-<p><a href="/assets/images/guide/merge/pos.png" class="image-popup"> <img src="/assets/images/guide/merge/pos.png" alt="pos" /> </a></p>
-
-<p>Ethereum 2.0 — это обновление протокола блокчейна Ethereum, которое уже частично реализовано. Эфириум 2.0, который теперь называется «уровнем консенсуса», находится в разработке уже несколько лет.</p>
-
-<p class="notice--danger">В блокчейне 2.0 ресурсоемкий метод майнинга должен уступить место так называемому <a href="/ru/guide/eth-staking">методу стейкинга</a>.</p>
-
-<ul>
-  <li>В Ethereum 1.0 транзакции проверяются путем решения криптографических арифметических задач. Например, чем выше цена за Эфириум, тем больше стимул участвовать в процессе майнинга. И чем больше задействовано майнеров, тем выше энергопотребление.</li>
-  <li>В Ethereum 2.0 реализован «Proof of Stake». Это означает, что те, у кого самые большие мощности, больше не определяют будущее сети. Вас будут чаще выбирать в качестве “валидатора” из-за случайного механизма.</li>
-</ul>
-
-<figure><a href="/assets/images/guide/merge/btc_vs_eth.png" class="image-popup"> <img src="/assets/images/guide/merge/btc_vs_eth.png" alt="btc_vs_eth" /> <figcaption>BTC против ETH.</figcaption></a></figure>
-
-<p>В отличие от Биткоина, при использовании подхода Proof of Stake сеть соответственно использует меньше ресурсов, но также менее децентрализована.</p>
-
-<h2 id="даты">Даты</h2>
-
-<p>Ethereum 2.0 будет запущен в 3 этапа со следующими датами:</p>
-
-<ol>
-  <li>Этап 0 — запуск сети Beacon Chain (запущена 01.12.2020)</li>
-  <li>Этап 1 - Слияние  (завершено 15.09.2022 в 9:42)</li>
-  <li>Этап 2 – Шардинг (последует после первого этапа).</li>
-</ol>
-
-<p><a href="https://bytwork.com/articles/beacon">Beacon Chain</a> (ранее известный как «Eth2») уже работает. Этот слой консенсуса уже существует как отдельная цепочка от существующей основной сети (то есть «уровень выполнения», ранее известный как «Eth1»).</p>
-
-<p><a href="/assets/images/guide/merge/history.png" class="image-popup"> <img src="/assets/images/guide/merge/history.png" alt="history" /> </a></p>
-
-<p class="notice--danger">Слияние — это следующий шаг. Текущий POW алгоритм заменен консенсусным POS протоколом в сети Beacon Chain. Поэтому этот этап известен как «Слияние». Это также остановило использование майнинга Ethereum.</p>
-
-<figure><a href="/assets/images/guide/merge/nomining.png" class="image-popup"> <img src="/assets/images/guide/merge/nomining.png" alt="nomining" /> <figcaption>Конец эпохи майнинга ETH.</figcaption></a></figure>
-
-<p>Слияние Ethereum завершилось 15.09.2022 в 9:42.</p>
-
-<p class="notice--ya">Однако такое всеобъемлющее изменение не может произойти в одну контрольную дату. Соответственно, разработчики решили разделить это изменение на несколько этапов.</p>
-
-<p>Ожидается, что переход продолжится до 2023 года. Тем не менее с обновлением разработчики решают две фундаментальные проблемы блокчейна:</p>
-<ul>
-  <li>Высокие энергозатраты на майнинг</li>
-  <li>Проблемы с масштабированием из-за малого количества транзакций</li>
-</ul>
-
-<section id="how-to-start" itemscope="itemscope" itemtype="http://schema.org/HowTo">
-<h2 itemprop="name" id="Ethereum 2.0: Как работает и почему это важно?">Ethereum 2.0: Как работает и почему это важно?</h2>
-	<div class="panel panel-default" id="step1" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
-	<link itemprop="url" href="#step1" />
-	<meta itemprop="image" content="/assets/images/og.png" />
-		<h3 class="panel-title" itemprop="name" id="1. Внесите депозит в 32 ETH для запуска стейкинга">1. Внесите депозит в 32 ETH для запуска стейкинга</h3>
-		<div class="panel-body" itemprop="text">
-<p>Для поддержания работы сети и получения дохода требуется покупка определенного количества криптовалюты, необходимого для стейкинга.</p>
-<p class="notice--ya">Основная статья: <a href="/ru/guide/eth-staking">Стейкинг Ethereum 2.0</a></p>
-		</div>
-	</div>
-	
-	<div class="panel panel-default" id="step2" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
-	<link itemprop="url" href="#step2" />
-	<meta itemprop="image" content="/assets/images/og.png" />
-		<h3 class="panel-title" itemprop="name" id="2. Станьте валидатором сети">2. Станьте валидатором сети</h3>
-		<div class="panel-body" itemprop="text">
-		<div>
-<p>Стейкинг замораживает ваши криптоактивы и выдает проценты за поддержку безопасности сети. Вы становитесь валидатором.</p>
-<p class="notice--success">Сеть ETH 2.0 выбирает того участника, который проверяет следующий блок, исходя из того, сколько монет поставлено валидатором.
-</p>
-<figure><a href="/assets/images/guide/merge/pos_2.png" class="image-popup"> <img src="/assets/images/guide/merge/pos_2.png" alt="pos_2" /> <figcaption>Упрощенный процесс работы ETH 2.0.</figcaption></a></figure>
-
-		</div>
-		</div>
-	</div>
-	<div class="panel panel-default" id="step3" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
-	<link itemprop="url" href="/#step3" />
-	<meta itemprop="image" content="/assets/images/og.jpg" />
-	<h3 class="panel-title" itemprop="name" id="3. Получайте доход, защищая сеть">3. Получайте доход, защищая сеть</h3>
-	<div class="panel-body" itemprop="text">
-<p>Для поддержания работы сети в Ethereum 2.0 придуман стимул - выплата процентов за размещение своих активов. Стейкеры размещают активы для проверки нового блока в сети блокчейн. Если блок является ошибочным, то сумма стейкинга будет "урезана".
-Если блок выступает валидным (верным), то стейкер получит обратно поставленные активы и дополнительное вознаграждение.</p>
-
-	</div>
-	</div>
-<div class="panel panel-default" id="videoguide" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
-	<link itemprop="url" href="/#videoguide" />
-	<meta itemprop="image" content="/assets/images/og.png" />
-	<div class="panel-body">
-	<meta itemprop="text" content="Видео инструкция" />
-<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<span itemprop="name" class="bold">Смотрите видео: Обновление Ethereum ETH 2.0 Минусы Proof-of-Stake, Что Такое Хардфорки простыми словами</span>
-	<meta itemprop="duration" content="PT12M6S" />
-	<meta itemprop="uploadDate" content="2022-08-15T12:52:54Z" />
-	<meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/-5IB7iQ38Vg/default.jpg" />
-	<meta itemprop="interactionCount" content="1054" />
-	<meta itemprop="embedURL" content="https://youtube.googleapis.com/v/-5IB7iQ38Vg" />
-<div class="youtube-player" data-id="-5IB7iQ38Vg"></div>
-	<p itemprop="description">Вознаграждение за стейкинг будет зависеть от суммы монет — чем она выше, тем ниже процент. Основываясь на текущем объеме застейканного ETH, доходность стейкинга после слияния оценивается примерно в 10%.<br />
-	
-	Но вполне вероятно, что после успешного слияния объемы застейканных монет радикально возрастут, что приведет к снижению вознаграждения. По прогнозам, в долгосрочной перспективе доходы за стейкинг снизятся до 4-5%.</p>
-  </div>
-</div>
-</div>
-</section>
-
-<h2 id="что-такое-ethereum-20--слияние-и-зачем-оно-нужно">Что такое Ethereum 2.0 — «Слияние» и зачем оно нужно?</h2>
-
-<p>ETH 2.0 ни в коем случае не является новой криптовалютой. Технически говоря, это даже не хардфорк, как это было, когда в результате появились две разные криптовалюты - Ethereum и Ethereum Classic (ETC).</p>
-
-<p>Поскольку термин Ethereum 2.0 или Eth2/Eth 2.0 превалирует, в этой статье мы будем придерживаться этой терминологии.</p>
-
-<p>Вместо новой монеты, Eth 2.0 описывает серию обновлений предыдущей версии Ethereum.</p>
-
-<p class="notice--primary"><i class="fab fa-ethereum"></i> Официальное название Ethereum 2 — Serenity<sup id="fnref:8" role="doc-noteref"><a href="#fn:8" class="footnote" rel="footnote">8</a></sup>.</p>
-
-<figure><a href="/assets/images/guide/merge/update.png" class="image-popup"> <img src="/assets/images/guide/merge/update.png" alt="update" /> <figcaption>Обновления сети.</figcaption></a></figure>
-
-<p>Это обновление полезно, потому что оно приносит 3 ключевые функции:</p>
-<ol>
-  <li>Повышение эффективности сети</li>
-  <li>Увеличение пропускной способности</li>
-  <li>Повышение безопасности сети</li>
-</ol>
-
-<p>Таким образом, Eth 2.0 представляет собой описание многочисленных обновлений. Поэтому важно, чтобы мы взглянули на классический Ethereum, с которым мы знакомы. Тогда мы сможем понять, почему это обновление вообще происходит.</p>
-
-<p class="notice--info">Ethereum был создан как платформа для <a href="https://bytwork.com/articles/dapps">децентрализованных приложений (dApps)</a>. Используя <a href="https://bytwork.com/articles/smart-contracts">смарт-контракты</a>, разработчики могут создавать приложения на блокчейне Ethereum.</p>
-
-<p>Поскольку эти приложения зависят от функционирующей и эффективного блокчейна используемой платформы, уязвимости Ethereum могут привести к тому, что разработчики перенесут свои децентрализованные приложения на другие платформы.</p>
-
-<p>Далее расскажем о том, какие именно уязвимости задействованы и почему обновление до Ethereum 2 так важно. А так же про отказ от майнинга.</p>
-
-<h2 id="почему-майнинг-больше-не-актуален">Почему майнинг больше не актуален?</h2>
-
-<p>Биткойн и Эфириум, два крупнейших блокчейна на рынке, имеют одну общую черту — алгоритм с доказательством работы (Proof of Work). Проще говоря, майнинг. И у этого алгоритма есть принципиальный недостаток - майнинг требует вычислительных мощностей.</p>
-
-<p>Высокий уровень производительности требует соответствующей энергии.</p>
-
-<figure><a href="/assets/images/guide/merge/footprints_1.png" class="image-popup"> <img src="/assets/images/guide/merge/footprints_1.png" alt="footprints_1" /> <figcaption>Ежегодные выбросы CO₂ по данным @digiconomist.ne</figcaption></a></figure>
-
-<p>Данные показывают, что только ежегодные выбросы CO₂ составляют 45 мегатонн, что эквивалентно всем ежегодным выбросам Гонконга.</p>
-
-<figure><a href="/assets/images/guide/merge/footprints_2.png" class="image-popup"> <img src="/assets/images/guide/merge/footprints_2.png" alt="footprints_2" /> <figcaption>Затраты на транзакции по данным @digiconomist.ne</figcaption></a></figure>
-
-<p class="notice--danger">Годовая потребность сети в  энергии составляет 80,95 ТВтч. Это соответствует электроэнергии, нужной домашнему хозяйству США за 7,03 дня.</p>
-
-<p>Но на этом воздействие на окружающую среду не заканчивается, ведь ежегодно образуются  килотонны электронных отходов (платы видеокарт, электронные компоненты).</p>
-
-<p>PoW чрезвычайно энерго затратен и больше не соответствует нынешнему духу времени. Решение - конец майнинга и начало POS эпохи.</p>
-
-<p>Соответственно, энергоемкий алгоритм proof-of-work заменяется энергоэффективным алгоритмом proof-of-stake.</p>
-
-<figure><a href="/assets/images/guide/merge/2.0.png" class="image-popup"> <img src="/assets/images/guide/merge/2.0.png" alt="2.0" /> <figcaption>Блокчейн остановит майнинг на GPU.</figcaption></a></figure>
-
-<p class="notice--primary">С другой стороны, шардинг также считается одним из актуальных обновлений. Можно предположить, что блокчейн Ethereum в том виде, в каком он существует сегодня, впоследствии перестанет существовать.</p>
-
-<h2 id="майнинг-после-слияния">Майнинг после слияния</h2>
-
-<p>Существует проект, претендующий быть сетью Ethereum для майнинга. <a href="https://github.com/ethereumpow">EthereumPow</a> - это оригинальная сеть Ethereum на основе PoW. Ее разрабатывает анонимные разработчики. Похоже, они из Китая.</p>
-
-<figure><a href="/assets/images/guide/merge/ethw.png" class="image-popup"> <img src="/assets/images/guide/merge/ethw.png" alt="ethw" /> <figcaption>Сообщество @ETHW на сайте medium.</figcaption></a></figure>
-
-<p>Старт майнинга начнется со следующих блоков:</p>
-
-<div class="language-config highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">eth</span>.<span class="n">blockNumber</span>: <span class="m">15471668</span> <span class="n">networkid</span>: <span class="m">0</span><span class="n">x1</span>
-<span class="n">eth</span>.<span class="n">blockNumber</span>: <span class="m">15471669</span> <span class="n">networkid</span>: <span class="m">0</span><span class="n">x2711</span>
-<span class="n">eth</span>.<span class="n">blockNumber</span>: <span class="m">15471669</span> <span class="n">networkid</span>: <span class="m">0</span><span class="n">x2711</span>
-</code></pre></div></div>
-
-<p class="notice--info">Читайте подробнее <a href="/ru/guide/ethw/">что такое ETHPoW (Ethereum PoW) и как его майнить?</a></p>
-
-<p>Доверять ли проекту EthereumPow (ETHW) решать вам. Это выходит за рамки нашего исследования.</p>
-
-<p class="notice--info">Узнайте больше:<br />
-<i class="fab fa-medium"></i> <a href="https://medium.com/@ETHW">https://medium.com/@ETHW</a><br />
-<i class="fab fa-github"></i> <a href="https://github.com/ethereumpow">https://github.com/ethereumpow</a><br />
-<i class="fa fa-globe"></i> <a href="https://ethereumpow.org/">https://ethereumpow.org/</a></p>
-
-<p>There are alternatives to Ethereum mining:</p>
-<ul>
-  <li><a href="https://bytwork.com/articles/mining-etc">Ethereum Classic</a></li>
-  <li>Ergo</li>
-  <li>Ravencoin</li>
-  <li>neoxa</li>
-</ul>
-
-<p class="notice--success">Здесь вы можете ознакомиться со <a href="https://bytwork.com/articles/ethereum-pos-mayning">списком монет для майнинга после слияния ETH 2.0</a></p>
-
-<h3 id="автоматический-переход-с-eth-на-майнинг-etc-до-обновления">Автоматический переход с ETH на майнинг ETC до обновления</h3>
-
-<p>Чтобы сделать автоматический переход на ETC, когда отключится ETH пул, вам нужно установить <a href="/ru/miners/lolminer/">lolMiner</a> 1.57+.</p>
-
-<p>Добавьте <code class="language-plaintext highlighter-rouge">etc:</code> в Extra Config HiveOs:</p>
-
-<div class="language-config highlighter-rouge"><div class="highlight"><pre class="highlight"><code>--<span class="n">pool</span> <span class="n">etc</span>:<span class="n">eu1</span>-<span class="n">etc</span>.<span class="n">ethermine</span>.<span class="n">org</span>:<span class="m">4444</span> --<span class="n">user</span> <span class="m">0</span><span class="n">x85Df244a3C8d6442225360bE681B7F7D803c0e78</span>
-</code></pre></div></div>
-
-<p><a href="/assets/images/miners/lolminer/etc_hive.png" class="image-popup"> <img src="/assets/images/miners/lolminer/etc_hive.png" alt="etc_hive" /> </a></p>
-
-<p>Для RaveOS:</p>
-
-<p><a href="/assets/images/miners/lolminer/etc_rave.png" class="image-popup"> <img src="/assets/images/miners/lolminer/etc_rave.png" alt="etc_rave" /> </a></p>
-
-<p>Это позволит продолжить майнинг KASPA и ETC.</p>
-
-<p>Это можно использовать для дуал майнинга KASPA или ALPH или простого ETC.</p>
-
-<p>Если вам нужен SSL, просто добавьте <code class="language-plaintext highlighter-rouge">ssl://</code> перед <code class="language-plaintext highlighter-rouge">etc:</code></p>
-
-<div class="language-config highlighter-rouge"><div class="highlight"><pre class="highlight"><code>--<span class="n">pool</span> <span class="n">ssl</span>://<span class="n">etc</span>:<span class="n">eu1</span>-<span class="n">etc</span>.<span class="n">ethermine</span>.<span class="n">org</span>:<span class="m">4444</span> --<span class="n">user</span> <span class="m">0</span><span class="n">x85Df244a3C8d6442225360bE681B7F7D803c0e78</span>
-</code></pre></div></div>
-
-<h2 id="что-нужно-делать-при-хардфорке">Что нужно делать при хардфорке?</h2>
-
-<p>Хорошая новость заключается в том, что разработчики уделяют обновлению особое внимание, чтобы не создавать трудностей для пользователей Ethereum. Это означает, что вам не придется ничего активно делать до конца обновления.</p>
-
-<p>Существуют разные сценарии для существующих держателей ETH:</p>
-
-<p><i class="fa fa-check-circle"></i> Пока вы просто держите, торгуете или используете ETH в своих приложениях, вам нечего делать не нужно. В этом случае ваши депозиты будут автоматически переведены на Eth2.</p>
-
-<p><i class="fa fa-check-circle"></i> Если вы хотите <a href="/ru/guide/eth-staking">начать делать стейкинг в Ethereum 2.0</a>, вы уже можете участвовать. Можно присоединиться к сети в качестве валидатора в любое время, если у вас есть 32 ETH для депозита.</p>
-
-<p><span class="bold">Что делать, если нет 32 ETH?</span></p>
-
-<p class="notice--info">Можно начать стейкинг на <a href="https://cutt.ly/JCUFdpG">бирже Binance</a> от 0,1 ETH.</p>
-
-<figure><a href="/assets/images/guide/merge/pos_3.png" class="image-popup"> <img src="/assets/images/guide/merge/pos_3.png" alt="pos_3" /> <figcaption>2.0</figcaption></a></figure>
-
-<h2 id="часто-задаваемые-вопросы">Часто задаваемые вопросы</h2>
-
-<p>В этом разделе вы найдете ответы на самые важные вопросы об обновлении Ethereum 2.0.</p>
-
-<div class="schema-faq-code" itemscope="" itemtype="https://schema.org/FAQPage">
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <h3 itemprop="name" class="faq-q" id="Когда выйдет ETH 2.0?">Когда выйдет ETH 2.0?</h3>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">Релиз версии 2.0 состоялся 15 сентября 2022 года в 9:42 утра (GMT+3).</p>
-        </div>
-    </div>
-
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <h3 itemprop="name" class="faq-q" id="Сколько будет стоить Ethereum 2.0?">Сколько будет стоить Ethereum 2.0?</h3>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">По мнению аналитиков DigitalCoinPrice, к 2023 ETH может стоить в среднем 2274,64 доллара. </p>
-        </div>
-    </div>
-
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <h3 itemprop="name" class="faq-q" id="Что такое Эфириум 2.0?">Что такое Эфириум 2.0?</h3>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">ETH2 описывает серию обновлений платформы Ethereum и связанной с ней криптовалюты Ether (ETH). В нее входит стейкинг, шардинг и proof of stake.</p>
-        </div>
-    </div>
-
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <h3 itemprop="name" class="faq-q" id="Что изменилось с Eth 2.0?">Что изменилось с Eth 2.0?</h3>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">Ethereum 2.0 изменил способ обработки транзакций и создания новых монет. Проект изменил алгоритм с "доказательства работы" на "доказательство доли".</p>
-        </div>
-    </div>
-
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <h3 itemprop="name" class="faq-q" id="Зачем нужен Эфириум 2.0?">Зачем нужен Эфириум 2.0?</h3>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">Сеть Ethereum больше не может эффективно справляться с нагрузкой транзакций. Это приводит к чудовищно высоким комиссиям. Разработчики надеются, что это изменение приведет к более быстрым транзакциям, более низким комиссиям и лучшему экологическому балансу.</p>
-        </div>
-    </div>
-
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <h3 itemprop="name" class="faq-q" id="Где купить Эфириум 2.0?">Где купить Эфириум 2.0?</h3>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">Поскольку это не новая криптовалюта, вы можете «купить» Eth 2.0 везде, где можно купить Ethereum. Однако, пока обновление еще не завершено, некоторые криптобиржи предлагают возможность получить выгоду от размещения Eth 2.0 прямо сейчас. Поэтому некоторые биржи будут показывать вам Ethereum и Ethereum 2.0. На биржах ваши монеты будут заблокированы до завершения обновления. Конечно, вы также можете переместить свой ETH в ETH 2.0, сделав стейкинг самостоятельно.</p>
-        </div>
-    </div>
-
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <h3 itemprop="name" class="faq-q" id="Является ли Ethereum 2.0 новой монетой?">Является ли Ethereum 2.0 новой монетой?</h3>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">Ethereum 2.0 не является новой монетой и не изменит количество оригинального ETH, которым вы владеете.</p>
-        </div>
-    </div>
-
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <h3 itemprop="name" class="faq-q" id="Получу ли я аирдроп при форке?">Получу ли я аирдроп при форке?</h3>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">Анонсирован форк, который останется на Proof of Work. Этот форк создает еще одну монету (ETHW). Любой адрес, который ранее имел ETH, впоследствии будет иметь ETHW. </p>
-        </div>
-    </div>
-
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <h3 itemprop="name" class="faq-q" id="Сколько стоят монеты ETHW?">Сколько стоят монеты ETHW?</h3>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">В настоящее время на эту новую монету торгуются фьючерсы. Посмотреть текущую цену можно на <a href="https://www.coingecko.com/en/coins/ethereum-pow-on-poloniex">бирже Poloniex</a>.</p>
-        </div>
-    </div>
-
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <h3 itemprop="name" class="faq-q" id="Получу ли я монеты автоматически в Ledger?">Получу ли я монеты автоматически в Ledger?</h3>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">Да. Однако новые монеты также должны поддерживаться программным обеспечением кошелька, чтобы иметь к ним доступ. Но скорее всего с помощью нескольких настроек будет легко получить доступ к этим монетам</p>
-        </div>
-    </div>
-
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <h3 itemprop="name" class="faq-q" id="А если монеты на бирже?">А если монеты на бирже?</h3>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">Дальше все зависит от того, поддерживает ли биржа новые монеты ETHW или нет. Почти все крупные биржи объявили, что будут раздавать форк-койны.</p>
-        </div>
-    </div>    
-	
-	<div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <h3 itemprop="name" class="faq-q" id="Получу ли я форк, если сделаю стейкинг?">Получу ли я форк, если сделаю стейкинг?</h3>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">Нет. Монеты стейкинга не имеют значения в цепочке PoW.</p>
-        </div>
-    </div>
-	    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <h3 itemprop="name" class="faq-q" id="Что будет с майнингом?">Что будет с майнингом?</h3>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">Мы верим в майнинг и будем продолжать искать новые возможности. Уже анонсировано несколько хардфорков для майнинга. Майнинг доказал свою жизнеспособность годами. </p>
-        </div>
-    </div>
-
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <h3 itemprop="name" class="faq-q" id="Как подготовиться к POS?">Как подготовиться к POS?</h3>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">Обновите прошивку аппаратных кошельков заранее. 
-Если вы храните средства на биржах, то ничего делать не нужно.
-</p>
-        </div>
-    </div>
-
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <h3 itemprop="name" class="faq-q" id="Что будет с выплатами ETH из пулов?">Что будет с выплатами ETH из пулов?</h3>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">Каждый майнинг пул предоставляет информацию о выплатах на своем сайте. Убедитесь, что вы успеете вывести средства на свой кошелек.</p>
-        </div>
-    </div>
-
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <h3 itemprop="name" class="faq-q" id="Что майнить после POS?">Что майнить после POS?</h3>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">Криптовалют для майнинга после перехода Эфириума на новый алгоритм консенсуса более чем достаточно. 
-Все они указаны в <a href="https://bytwork.com/articles/ethereum-pos-mayning">подробном материале портала bytwork.com</a></p>
-        </div>
-    </div>
-
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <h3 itemprop="name" class="faq-q" id="Где хранить Ethereum после перехода на POS?">Где хранить Ethereum после перехода на POS?</h3>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">Используйте только официальные кошельки для хранения. Со <a href="https://ethereum.org/ru/wallets/">списком кошельков</a> можно ознакомиться на сайте.</p>
-        </div>
-    </div>
-</div>
-
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p><a href="https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE_%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F_%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B">Proof of work</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:2" role="doc-endnote">
-      <p><a href="https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE_%D0%B4%D0%BE%D0%BB%D0%B8_%D0%B2%D0%BB%D0%B0%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F">Proof of Stake</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:3" role="doc-endnote">
-      <p><a href="https://ethereum.org/ru/upgrades/merge/">The Merge</a> <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:4" role="doc-endnote">
-      <p><a href="https://ethereum.org/ru/energy-consumption/#introduction">Энергопотребление Ethereum</a> <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:5" role="doc-endnote">
-      <p><a href="https://digiconomist.net/ethereum-energy-consumption/">Ethereum Energy Consumption Index</a> <a href="#fnref:5" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:6" role="doc-endnote">
-      <p><a href="https://ethereum.org/ru/upgrades/sharding/#what-is-sharding">о шардинге</a> <a href="#fnref:6" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:7" role="doc-endnote">
-      <p><a href="https://ethereum.org/ru/staking/">о Стейкинге</a> <a href="#fnref:7" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:8" role="doc-endnote">
-      <p><a href="https://consensys.net/blog/blockchain-explained/the-roadmap-to-serenity-2/">The Roadmap to Serenity</a> <a href="#fnref:8" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="guide" /><summary type="html"><![CDATA[Как ETH 2.0 влияет на майнинг? Он останется? Узнайте степень влияния хардфорка как на сеть Ethereum, так и на индустрию криптовалют.]]></summary></entry></feed>
+</div>]]></content><author><name>Matthew Wood</name></author><category term="guide" /><summary type="html"><![CDATA[Выгодно ли заниматься стейкингом и какова его доходность? В этом руководстве вы узнайте все подробности о стейкинге Ethereum и о том, какие криптобиржи и пулы его поддерживают.]]></summary></entry></feed>
