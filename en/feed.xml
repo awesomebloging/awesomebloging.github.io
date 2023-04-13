@@ -1,4 +1,491 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-04-13T07:00:32-04:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="en"><title type="html">Cryptocurrency Explained - What is It, Types, Pros &amp;amp; Cons [2023]</title><link href="https://miningsoft.org/ru/articles/cryptocurrency/" rel="alternate" type="text/html" title="Cryptocurrency Explained - What is It, Types, Pros &amp;amp; Cons [2023]" /><published>2023-02-22T00:00:00-04:00</published><updated>2023-02-22T00:00:00-04:00</updated><id>https://miningsoft.org/ru/articles/cryptocurrency</id><content type="html" xml:base="https://miningsoft.org/ru/articles/cryptocurrency/"><![CDATA[<div class="paper btc">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-04-13T12:03:32-04:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="en"><title type="html">Download Whatsminer Tool Software and find Asic Miner IP</title><link href="https://miningsoft.org/ru/tools/whatsminertool/" rel="alternate" type="text/html" title="Download Whatsminer Tool Software and find Asic Miner IP" /><published>2023-04-13T00:00:00-04:00</published><updated>2023-04-13T00:00:00-04:00</updated><id>https://miningsoft.org/ru/tools/whatsminertool</id><content type="html" xml:base="https://miningsoft.org/ru/tools/whatsminertool/"><![CDATA[<div class="paper wallet">
+  <div class="pattern">
+    <div class="note-cont">
+      WhatsMiner Tools: Download the latest version and access the full manual
+    </div>
+  </div>
+</div>
+<p><em>Explore the many features of Whatsminer Tools 8.1.34 and learn how to use them for MicroBT Whatsminer.</em></p>
+
+<h2 id="download-for-windows--linux">Download for Windows / Linux</h2>
+
+<script async="" src="https://coinzillatag.com/lib/display.js"></script>
+
+<div class="coinzilla" data-zone="C-26960aca952082b4725"></div>
+<script>
+    window.coinzilla_display = window.coinzilla_display || [];
+    var c_display_preferences = {};
+    c_display_preferences.zone = "26960aca952082b4725";
+    c_display_preferences.width = "300";
+    c_display_preferences.height = "250";
+    coinzilla_display.push(c_display_preferences);
+</script>
+
+<p><a href="https://microbt-whatsminer.com/tools-download/" class="btn btn--info btn--x-large">Download from the official site</a>
+<a href="https://thanosmining.com/blog/whatsminer-tools-and-firmware-80" class="btn btn--facebook btn--x-large">Download from support center</a></p>
+
+<section>
+
+  <div class="imgcen">
+<iframe class="your-ad-position-style" src="https://mat.cryptox-ads.io/cxAdsAssets/banner-basic-v0.11/index.html?size=300*250&amp;app_id=10905748&amp;placement_id=20003615" loading="lazy" style="border:0;width:300px; height:250px"></iframe>
+</div>
+
+  <h2 id="what-is-whatsminer-tool-wmt">What is WhatsMiner tool (WMT)?</h2>
+
+  <p><dfn>WhatsMiner tool</dfn> is a useful free tool for setting up ASIC miners. The utility allows you to scan, monitor and manage ASIC WhatsMiner devices.</p>
+</section>
+
+<p><b>Whatsminertool</b> is a utility similar to <a href="/en/tools/btc-tool/">BTC Tools</a>. Used to look up the IP address, change the configuration (including pools, network, ntp servers, etc.), update the firmware and determine the information/status of your ASIC miner. The software is developed by Shenzhen MicroBT Electronics.<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
+
+<p>&nbsp;</p>
+
+<h3 id="overview-of-features-and-options">Overview of features and options</h3>
+
+<section class="imp">
+  <p>List of remote control options:
+<span class="par"><i class="fa fa-cog"></i> <span class="yel bold"><code class="language-plaintext highlighter-rouge">Mining Control</code></span>: “Pause” or “Resume” miners.<br /></span>
+<span class="par"><i class="fa fa-cog"></i> <span class="yel bold"><code class="language-plaintext highlighter-rouge">Reboot</code></span>: Reboots the selected devices.<br /></span>
+<span class="par"><i class="fa fa-cog"></i> <span class="yel bold"><code class="language-plaintext highlighter-rouge">Performance Mode</code></span>: toggles the hashrate mode to “High”, “ Normal or Low.<br /></span>
+<span class="par"><i class="fa fa-cog"></i> <span class="yel bold"><code class="language-plaintext highlighter-rouge">Fastboot</code></span>: speeds up ASIC startup.<br /></span>
+<span class="par"><i class="fa fa-cog"></i> <span class="yel bold"><code class="language-plaintext highlighter-rouge">Miner API Switch</code></span>: Connect to API products like Foreman .<br /></span>
+<span class="par"><i class="fa fa-cog"></i> <span class="yel bold"><code class="language-plaintext highlighter-rouge">Restore DHCP</code></span>: reverts miner to use <code class="language-plaintext highlighter-rouge">DHCP</code> (dynamic IP). It can automatically get an IP address.<br /></span>
+<span class="par"><i class="fa fa-cog"></i> <span class="yel bold"><code class="language-plaintext highlighter-rouge">Control LED Lights</code></span>: turns the LED on or off to locate miner.<br /></span>
+<span class="par"><i class="fa fa-cog"></i> <span class="yel bold"><code class="language-plaintext highlighter-rouge">Protection Mode</code></span>: enable/disable <code class="language-plaintext highlighter-rouge">SSH</code>.<br /></span>
+<span class="par"><i class="fa fa-cog"></i> <span class="yel bold"><code class="language-plaintext highlighter-rouge">Adjust Freq</code></span>: adjusts the voltage and frequency of the miner (overclocking or underclocking).<br /></span>
+<span class="par"><i class="fa fa-cog"></i> <span class="yel bold"><code class="language-plaintext highlighter-rouge">Export Log</code></span>: export power logs, miner logs, API logs , system logs and miner time.<br /></span>
+<span class="par"><i class="fa fa-cog"></i> <span class="yel bold">Web pool switcher</span>: Enables or disables the ability to configure pools via the web miner page.<br /></span></p>
+</section>
+
+<p>To use the utility, you first need to prepare the ASIC Miner itself and plug it into the network.</p>
+
+<h2 id="asic-setup">ASIC setup</h2>
+
+<p>The machine is supplied with American and Chinese standard power cords. Connect your device to the network.</p>
+
+<figure><a href="/assets/images/tools/whatsminertool/whatsminer_cables.webp" class="image-popup"> <img src="/assets/images/tools/whatsminertool/whatsminer_cables.webp" alt="power cables whatsminer_cables" />
+<figcaption>Power cables.</figcaption></a></figure>
+
+<p><i class="fab fa-windows"></i> System requirements:</p>
+
+<ul>
+  <li>WhatsMinerTool can be run in 64-bit system on Windows 7-8-10-11 PC.</li>
+  <li>Suitable for WhatsMiner M3, M1, M10 and D1 series, M20, M21, M30, D1, M50 series.</li>
+</ul>
+
+<p>Before setting up, make sure you have prepared everything you need:</p>
+<ol>
+  <li>WhatsMiner is the device itself.</li>
+  <li>Power supply (socket): 220-240 V.</li>
+  <li>Adapted plug and power supply cable (16A, 250V).</li>
+  <li>Network cables (Ethernet) and Internet speed &gt; 10 Kbps.</li>
+  <li>Computer with WhatsMiner Tool software.</li>
+  <li>Mining pool accounts.</li>
+</ol>
+
+<p>Connect the network cable and turn on the power. You will hear a very loud sound for the first few seconds. The fans will start the test by running at maximum speed.</p>
+
+<figure><a href="/assets/images/tools/whatsminertool/en/plug.webp" class="image-popup"> <img src="/assets/images/tools/whatsminertool/en/plug.webp" alt="Asic connection" />
+<figcaption>Connecting the ASIC.</figcaption></a></figure>
+
+<p>Let’s move on to setting up WhatsMiner Tool.</p>
+
+<section id="how-to-start" itemscope="itemscope" itemtype="http://schema.org/HowTo">
+<h2 itemprop="name" id="How to use Whats Miner Tool?">How to use Whats Miner Tool?</h2>
+	<div class="panel panel-default" id="step1" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
+	<link itemprop="url" href="#step1" />
+	<meta itemprop="image" content="/assets/images/tools/whatsminertool/whatsminertool_download.webp" />
+		<h3 class="panel-title" id="Step 1 - download">Step 1 - download</h3>
+		<meta itemprop="name" content="Step 1 - download" />
+		<div class="panel-body" itemprop="text">
+		<p><a href="https://microbt-whatsminer.com/tools-download/">Download the program from whatsminer official website</a>. Or from the site Support center - <a href="https://thanosmining.com/blog/whatsminer-tools-and-firmware-80">WhatsMiner tools and firmware</a>.
+		<a href="/assets/images/tools/whatsminertool/whatsminertool_download.webp" class="image-popup"> <img src="/assets/images/tools/whatsminertool/whatsminertool_download.webp" alt="whatsminertool download" /> </a>
+		</p>
+		<p>Extract the WhatsMinerTool.zip archive and run the Windows executable. It's called <code>WhatsMinerTool.exe</code>.</p>
+		<a href="/assets/images/tools/whatsminertool/whatsminertool_files.webp" class="image-popup"> <img src="/assets/images/tools/whatsminertool/whatsminertool_files.webp" alt="whatsminertool files" /> </a>
+		</div>
+	</div>
+
+	<div class="panel panel-default" id="step2" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
+	<link itemprop="url" href="#step2" />
+	<meta itemprop="image" content="/assets/images/og.webp" />
+		<h3 class="panel-title" id="Step 2 - Start an ASIC IP search">Step 2 - Start an ASIC IP search</h3>
+		<meta itemprop="name" content="Step 2 - Start an ASIC IP search" />
+		<div class="panel-body" itemprop="text">
+		<div>
+<p>Open WhatsMiner Tool, click <code>IP Monitor</code>, click <code>Start</code>.</p>
+
+<a href="/assets/images/tools/whatsminertool/en/ip_monitor.webp" class="image-popup"> <img src="/assets/images/tools/whatsminertool/en/ip_monitor.webp" alt="ASIC IP search" /> </a>
+
+<p>Press the button <code>IP-found</code> <b>on the ASIC</b> and hold it for two to three seconds. You will see the device IP in the program window.</p>
+
+<a href="/assets/images/tools/whatsminertool/en/ip_found.webp" class="image-popup"> <img src="/assets/images/tools/whatsminertool/en/ip_found.webp" alt="ip found" /> </a>
+
+<p>In the window <code>Detect and Bind IP</code> you will see the found IP address:</p>
+
+<a href="/assets/images/tools/whatsminertool/en/ip_asic.webp" class="image-popup"> <img src="/assets/images/tools/whatsminertool/en/ip_asic.webp" alt="Detect and Bind IP" /> </a>
+
+<p>Pay attention to the Source IP column (for example, 192.168.88.96) - this address must be copied.</p>
+<p>By default, the software is in the IP address range from 192.168.2.1 to 255.</p>
+<p>Then click <code>Miner IP</code>. You can add a specific address to monitor this machine, or a range of ip addresses to monitor a group of machines.</p>
+
+
+<a href="/assets/images/tools/whatsminertool/en/miner_ip.webp" class="image-popup"> <img src="/assets/images/tools/whatsminertool/en/miner_ip.webp" alt="asic miner ip" /> </a>
+
+<p>In the <code>Miner IP Management</code> tab, you can add an IP range, import addresses, specify a comment, and tick the desired addresses.</p>
+		</div>
+		</div>
+	</div>
+
+
+	<div class="panel panel-default" id="step3" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
+	<link itemprop="url" href="/#step3" />
+	<meta itemprop="image" content="/assets/images/og.jpg" />
+	<h3 class="panel-title" id="Step 3 - Add Pools">Step 3 - Add Pools</h3>
+	<meta itemprop="name" content="Step 3 - Add Pools" />
+	<div class="panel-body" itemprop="text">
+	
+<p>Click the <code>Pools</code> button to add mining pools. Here <code>worker</code> means your pool account. It's better to add at least two pools:</p>
+
+<a href="/assets/images/tools/whatsminertool/en/pools.webp" class="image-popup"> <img src="/assets/images/tools/whatsminertool/en/pools.webp" alt="asic miner add pools" /> </a>
+
+<p>Press the "Start" button. The <code>Monitoring</code> tab appears. The hashrate of all found devices is displayed here:</p>
+
+<a href="/assets/images/tools/whatsminertool/en/hashrate.webp" class="image-popup"> <img src="/assets/images/tools/whatsminertool/en/hashrate.webp" alt="asic hashrate" /> </a>
+
+<p>The hash rate may fluctuate, but it will become stable after working for about 30 minutes.</p>
+
+<p>Watch the video guide:</p>
+
+
+	</div>
+	</div>
+<div class="panel panel-default" id="videoguide" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
+	<link itemprop="url" href="/#videoguide" />
+	<meta itemprop="image" content="/assets/images/og.webp" />
+	<div class="panel-body">
+	<meta itemprop="text" content="How to setup a WhatsMiner" />
+<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+<span itemprop="name" class="bold">How to setup a WhatsMiner</span>
+<meta itemprop="duration" content="PT1M46S" />
+<meta itemprop="uploadDate" content="2022-07-18T06:49:21Z" />
+<meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/OFxVp4wF-vs/default.jpg" />
+<meta itemprop="interactionCount" content="2778" />
+<meta itemprop="embedURL" content="https://youtube.googleapis.com/v/OFxVp4wF-vs" />
+<div class="youtube-player" data-id="OFxVp4wF-vs"></div>
+<span itemprop="description">This video is to show you how to set up an asicminer.</span>
+</div>
+</div>
+</div>
+</section>
+
+<p>&nbsp;</p>
+
+<p class="notice--success">Bookmark MiningSoft.org for up-to-date information!</p>
+
+<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+<span itemprop="name" class="bold">WhatsMiner Tool - additional manual for quick setup</span>
+<meta itemprop="duration" content="PT6M10S" />
+<meta itemprop="uploadDate" content="2020-09-11T06:56:09Z" />
+<meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/LfdASoCgVCU/default.jpg" />
+<meta itemprop="interactionCount" content="11230" />
+<meta itemprop="embedURL" content="https://youtube.googleapis.com/v/LfdASoCgVCU" />
+<div class="youtube-player" data-id="LfdASoCgVCU"></div>
+<span itemprop="description">Miner IP setup, configuration and updates.</span>
+</div>
+
+<p>&nbsp;</p>
+
+<p>After you find the IP address of the miner, you can start the device setup phase.</p>
+
+<h2 id="firmware">Firmware</h2>
+
+<p>WhatsMiner firmware can be updated with both WhatsMiner Tool (WMT) and SD card.</p>
+
+<p>Before downloading and updating device software, be sure to check the type of control board (main board) of your device.</p>
+
+<p class="notice--danger"><strong>Warning!</strong> If there is a bug in the firmware, the update may fail or your control board may have problems that are extremely difficult to fix in some cases.</p>
+
+<p>How to determine the type of miner control board:</p>
+
+<p>To find out the type of board management through the WMT software or the miner device panel - enter the IP of the device in the browser. From the “Status” drop-down menu, enter the “OverView” section. This will display complete information about your device.</p>
+
+<figure><a href="/assets/images/tools/whatsminertool/control_board_type.webp" class="image-popup"> <img src="/assets/images/tools/whatsminertool/control_board_type.webp" alt=" Overview" />
+<figcaption>OverView tab and board control type.</figcaption></a></figure>
+
+<p>As you can see in the screenshot, the miner panel displays the phrase <code class="language-plaintext highlighter-rouge">M21S.HB70.H3.</code> Here is what this phrase means:</p>
+
+<p class="notice--ya">Asic M21s version 7.0 with H3 control board</p>
+
+<p>If this phrase for your miner would look like this, <code class="language-plaintext highlighter-rouge">M21S.HB220.H6</code> then it would mean that:</p>
+
+<p class="notice--ya">Asic M21s version 2.2 with H6 control board</p>
+
+<p>Also, the version of the board is indicated in the WhatsMinerTool utility, in the <code class="language-plaintext highlighter-rouge">Version Info</code> column.</p>
+
+<p>If you want to update your miner, you must first <a href="https://microbt-whatsminer.com/firmwares-download/">download miner firmware update file from WhatsMiner website</a> and then refer to “WhatsMiner Tools” software. The firmware file has the extension <code class="language-plaintext highlighter-rouge">.bin</code>.</p>
+
+<p>To update the firmware, first click the “Upgrade” button.</p>
+
+<figure><a href="/assets/images/tools/whatsminertool/en/upgrade.webp" class="image-popup"> <img src="/assets/images/tools/whatsminertool/en/upgrade.webp" alt="upgrade" />
+<figcaption>Upgrade tab for ASIC firmware.</figcaption></a></figure>
+
+<ol>
+  <li>At this stage, you must select the ip of the devices you want to update.</li>
+  <li>Select the update file by pressing the <code class="language-plaintext highlighter-rouge">Select File</code> button.</li>
+  <li>Press the <code class="language-plaintext highlighter-rouge">Start Upgrade</code> button.</li>
+</ol>
+
+<p>You can also click on the “Firmware Download Link” button in the utility to go to the official website for downloading firmware versions.</p>
+
+<p>After selecting the update file, you do not need to do anything. You need to wait for the miner update process to complete. These steps take several minutes.</p>
+
+<p class="notice--danger">Do not turn off the device during the firmware process, otherwise the miner may fail!
+During the update, the device may reboot!</p>
+
+<p class="notice--success">Once the upgrade process is complete, you can start <a href="/en/articles/mining/">mining</a> of your desired <a href="/en/articles/cryptocurrency/">digital currency</a> again.</p>
+
+<p>In the line with the selected miner in the “Status” column, the progress of the operation will be displayed:</p>
+<ul>
+  <li>Transferring,</li>
+  <li>Upgrading</li>
+  <li>Success</li>
+</ul>
+
+<p>After a while, the status will change to <code class="language-plaintext highlighter-rouge">Running</code> (normal operation).</p>
+
+<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+<span itemprop="name" class="bold">How to flash the WhatsMiner control board with SD-card</span>
+<meta itemprop="duration" content="PT3M23S" />
+<meta itemprop="uploadDate" content="2022-12-29T11:21:46Z" />
+<meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/WxqchyZvQkA/default.jpg" />
+<meta itemprop="interactionCount" content="1684" />
+<meta itemprop="embedURL" content="https://youtube.googleapis.com/v/WxqchyZvQkA" />
+<div id="schema-videoobject" class="video-container">
+<iframe src="https://drive.google.com/file/d/1Lw4lGlhbuBhWaQwb85xbs5t1822HwyuQ/preview" width="640" height="480" allow="autoplay"></iframe></div>
+<span itemprop="description">Flashing the WhatsMiner control board with SD-card, to fix the software of the control board.</span>
+</div>
+
+<p>&nbsp;</p>
+
+<p>Here you will find the manual <a href="https://aws-microbt-com-bucket.s3.us-west-2.amazonaws.com/WhatsMinerTool%20Operating%20GuideV8.1.34.pdf">WhatsMinerTool OperationGuide</a></p>
+
+<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+<span itemprop="name" class="bold">WhatsMinerTool User Manual：Firmware Update</span>
+<meta itemprop="duration" content="PT1M33S" />
+<meta itemprop="uploadDate" content="2023-04-06T06:49:21Z" />
+<meta itemprop="thumbnailURL" content="https://drive.google.com/file/d/17zQKYnwzMLW8frZel0lXXZbgx7fOPJIS/view?usp=share_link" />
+<meta itemprop="embedURL" content="https://drive.google.com/file/d/1olnULXcKpZj_ORyaeeOj6sSd110Y0pPM/preview" />
+<div id="schema-videoobject" class="video-container">
+<iframe class="video" width="853" height="480" src="https://drive.google.com/file/d/1olnULXcKpZj_ORyaeeOj6sSd110Y0pPM/preview" frameborder="0" allowfullscreen=""></iframe></div>
+<span itemprop="description">See WhatsMinerTool manual： Firmware Update.</span>
+</div>
+
+<h2 id="settings">Settings</h2>
+
+<h3 id="ip-import">IP import</h3>
+
+<p>You can also import an IP address from a text file by clicking the “IP Import” button.
+The format of the <code class="language-plaintext highlighter-rouge">.txt</code> file is such that one IP address is placed on each line.</p>
+
+<figure><a href="/assets/images/tools/whatsminertool/ip_import.webp" class="image-popup"> <img src="/assets/images/tools/whatsminertool/ip_import.webp" alt=" ip import" />
+<figcaption>Importing an IP list.</figcaption></a></figure>
+
+<p>Example <code class="language-plaintext highlighter-rouge">IP.txt</code> file:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>192.168.1.1
+192.168.1.2
+192.168.1.3
+</code></pre></div></div>
+
+<h3 id="export">Export</h3>
+
+<p>It is possible to save the data of the current page as a <code class="language-plaintext highlighter-rouge">.csv</code> file, where each column is separated by a character (‘;’). You can transfer data to Excel and edit it.</p>
+
+<figure><a href="/assets/images/tools/whatsminertool/export.webp" class="image-popup"> <img src="/assets/images/tools/whatsminertool/export.webp" alt=" export" />
+<figcaption>Export data.</figcaption></a></figure>
+
+<h3 id="remote-control">Remote control</h3>
+
+<p>Enabling “Remote Control” allows you to fully control the miners remotely. To do this, select your miner in the list, press the “Remote Ctrl” button and enable the API. You will also need to enable “Power Fast Boot” in order for the miner to start up quickly (important if you are into mining).</p>
+
+<figure><a href="/assets/images/tools/whatsminertool/remote.webp" class="image-popup"> <img src="/assets/images/tools/whatsminertool/remote.webp" alt=" remote control" />
+<figcaption>Remote control.</figcaption></a></figure>
+
+<p>The following options are available here:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Reboot</code> - reboot the device.</li>
+  <li><code class="language-plaintext highlighter-rouge">Mining Control</code> - start/stop mining.</li>
+  <li><code class="language-plaintext highlighter-rouge">Performance Mode</code> - select hashrate mode:</li>
+  <li><code class="language-plaintext highlighter-rouge">High</code> <code class="language-plaintext highlighter-rouge">Normal</code> and <code class="language-plaintext highlighter-rouge">Low</code>.</li>
+  <li><code class="language-plaintext highlighter-rouge">Fast Boot Switch</code> - speed up startup.</li>
+  <li><code class="language-plaintext highlighter-rouge">Miner API Switch</code> - use the API interface to get different states of the miner and change parameters.</li>
+  <li><code class="language-plaintext highlighter-rouge">Restore DHCP</code> - restore dynamic IP (DHCP) settings.</li>
+  <li><code class="language-plaintext highlighter-rouge">Leds Control</code> - determine the location of the miner by giving a light signal.</li>
+  <li><code class="language-plaintext highlighter-rouge">Protection Mode</code> - SSH mode.</li>
+  <li><code class="language-plaintext highlighter-rouge">Restore Factory Setting</code> - restore factory settings.</li>
+  <li><code class="language-plaintext highlighter-rouge">Adjust Freq</code> - miner overclocking control.</li>
+  <li><code class="language-plaintext highlighter-rouge">Export Log</code> - export the device operation log. The log includes files: <code class="language-plaintext highlighter-rouge">upfreq_test.log</code>, <code class="language-plaintext highlighter-rouge">power.log</code>, <code class="language-plaintext highlighter-rouge">Miner.log</code>, <code class="language-plaintext highlighter-rouge">system.log</code> and <code class="language-plaintext highlighter-rouge">api.log</code>.</li>
+  <li><code class="language-plaintext highlighter-rouge">Web Pools Switch</code> - configure pools through a web interface.</li>
+</ul>
+
+<h2 id="troubleshooting">Troubleshooting</h2>
+
+<h3 id="cant-see-asic">Can’t see ASIC</h3>
+
+<p>Try the following steps:</p>
+
+<ul>
+  <li>Switch the Internet port on which the asic is from 100 megabits to 10.</li>
+  <li>Try a different version of the app.</li>
+  <li>Change your router.</li>
+  <li>If you connect the device directly to a computer, the Internet Sharing service must be enabled. Then the ASIC will receive an IP address from the computer via DHCP.</li>
+</ul>
+
+<p>Also do the following steps:</p>
+
+<ol>
+  <li>Check if the running computer is on the same network as the miners.</li>
+  <li>Check the status with the alarm LED.
+    <ul>
+      <li>Network port signal: yellow always on, green flashing.</li>
+      <li>Restart the miner and find the IP address again.</li>
+      <li>Reset the miner (press the “RESET” button for 3 seconds until the red-green light flashes). Then find the IP address again.</li>
+      <li>Replace the miner control board to determine if another control board is working.</li>
+    </ul>
+  </li>
+  <li>Check if the router’s DHCP function is enabled.</li>
+  <li>Allow the device to automatically obtain an IP.</li>
+</ol>
+
+<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+<span itemprop="name" class="bold">WhatsMiner Common Error Code and Solutions</span>
+<meta itemprop="duration" content="PT2M5S" />
+<meta itemprop="uploadDate" content="2020-12-25T06:58:35Z" />
+<meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/D7oL1qAMK-c/default.jpg" />
+<meta itemprop="interactionCount" content="14950" />
+<meta itemprop="embedURL" content="https://youtube.googleapis.com/v/D7oL1qAMK-c" />
+<div class="video-container">
+<iframe src="https://drive.google.com/file/d/1qD698cdmePp1LpDcHhfWykNTNrnLTo6K/preview" width="640" height="480" allow="autoplay"></iframe>
+</div>
+<span itemprop="description">For example, when you get error code 540 on one device, it means that the SM0 hash board cannot work properly. You can do this: turn off the power, swap SM0 and SM2 hash boards, then reboot the miner to check if the board is really bad, if the error code has changed to 542, it means the hash board has a problem, if the error code is not changed, it means that the adapter plate has a problem.
+The best result is that the error code is gone, this means only a connection problem.</span>
+</div>
+
+<p>&nbsp;</p>
+
+<p>If all else fails, use an alternativeactive programs.</p>
+
+<h2 id="alternatives">Alternatives</h2>
+
+<p><a href="/en/tools/btc-tool/">BTC Tools</a>
+<a href="/en/tools/ip-reporter/">IP Reporter</a></p>
+
+<p>For MAC devices, use the ASIC Hub.</p>
+
+<p><a href="https://foreman.mn/">Foreman</a> has all the features of WhatsminerTool and also allows you to manage each miner.</p>
+
+<p>Fing is a powerful network scanner with good functionality.</p>
+
+<h3 id="web-version-in-browser">Web version in browser</h3>
+
+<p>You can make settings in the web version directly in the browser.</p>
+
+<p>For the initial setup, simply launch an Internet browser (for example, Chrome) and enter the IP address of the miner.</p>
+
+<p>If you enter the address correctly, you will be shown a page similar to the one below and you will be prompted for a username and password. The username and password on Whatsminer devices is “root” by default.</p>
+
+<figure><a href="/assets/images/tools/whatsminertool/authorization.webp" class="image-popup"> <img src="/assets/images/tools/whatsminertool/authorization.webp" alt=" web authorization" />
+<figcaption>Chrome login.</figcaption></a></figure>
+
+<p>First, enter the miner settings page and go to the “CGMiner” section from the “Configuration” tab.</p>
+
+<p>In this step, enter information about the pool you want to connect to. To get information about a pool, you should visit the website of the desired pool.</p>
+
+<figure><a href="/assets/images/tools/whatsminertool/configuration.webp" class="image-popup"> <img src="/assets/images/tools/whatsminertool/configuration.webp" alt=" Configuration" />
+<figcaption>Configuration.</figcaption></a></figure>
+
+<h2 id="ssh">SSH</h2>
+
+<p>To enable SSH, you need to enable Protection Mode in the <code class="language-plaintext highlighter-rouge">Remote Ctrl</code> window.</p>
+
+<p>In earlier versions of the utility there was an <code class="language-plaintext highlighter-rouge">Enable SSH</code> setting. It is missing in the newer versions. The fact is that new ASIC models come with SSH disabled by default, so it is unlikely that you will get SSH access to them.</p>
+
+<p class="notice--danger">When SSH is enabled, there is a security issue.</p>
+
+<p>Most viruses and hacks happen over SSH, so most vendors have started disabling SSH in order to provide less support to their customers/victims of SSH hacks.</p>
+
+<p><a href="/assets/images/mining/mining_rig_1934.jpg" class="image-popup"> <img src="/assets/images/mining/mining_rig_1934.jpg" alt="asik farm" /> </a></p>
+
+<h2 id="conclusions">Conclusions</h2>
+
+<p>WMT has the following features:</p>
+<ol>
+  <li>Ability to view the list of Whatsminer devices in real time.</li>
+  <li>Ability to set the IP range to view miners.</li>
+  <li>Ability to update the firmware (software) of devices.</li>
+  <li>Ability to change groups of miners.</li>
+  <li>The ability to group change the password of all miners at the same time for greater security.</li>
+</ol>
+
+<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+<span itemprop="name" class="bold">Whatsminer overclocking gain up to 40% hashrate with one simple upgrade</span>
+<meta itemprop="duration" content="PT15M32S" />
+<meta itemprop="uploadDate" content="2022-08-30T00:03:08Z" />
+<meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/0KNmsLJMpG8/default.jpg" />
+<meta itemprop="interactionCount" content="1662" />
+<meta itemprop="embedURL" content="https://youtube.googleapis.com/v/0KNmsLJMpG8" />
+<div class="youtube-player" data-id="0KNmsLJMpG8"></div>
+<span itemprop="description">In this video we introduce a new power supply kit for the Whatsminer asic  the kit works with all #whatsminer M2X M3X and M5X series.</span>
+</div>
+
+<h2 id="releases-and-versions">Releases and versions</h2>
+
+<p><a href="https://www.whatsminerm50.com/wp-content/uploads/2023/01/WhatsMinerTool-8.1.34.zip">WhatsMinerTool-8.1.34.zip</a></p>
+
+<ul>
+  <li>The new WhatsMiner requires this version of the tool to monitor and update the firmware.</li>
+  <li>The M5x and M3x series are the only ones that can support High mode and require an input voltage of more than 230V. Some features may only be supported by the new firmware.</li>
+  <li>The tool has a power limit function that can be set manually.</li>
+  <li>Multiple DNS proxy servers are supported.</li>
+  <li>Compatibility and stability of the tool have been improved, and the problem found by the antivirus software has been resolved.</li>
+</ul>
+
+<p>Old versions of the program:<br />
+<a href="https://aws-microbt-com-bucket.s3.us-west-2.amazonaws.com/WhatsMinerTool-8.1.30.zip">8.1.30</a></p>
+
+<p><a href="https://petahash.ru/uploads/asic/tools/microbt/WhatsMinerTool-8.0.7-EN.zip">8.0.7</a></p>
+
+<p><a href="http://whatsminertool-factory.whatsminer.com:8880/whatsminertool/WhatsMinerTool-Factory-8.1.17.exe">8.1.17</a></p>
+
+<p><a href="http://whatsminertool-factory.whatsminer.com:8880/whatsminertool/WhatsMinerTool-Factory-8.1.16.exe">8.1.16</a></p>
+
+<p><a href="http://whatsminertool-factory.whatsminer.com:8880/whatsminertool/WhatsMinerTool-Factory-8.1.9.exe">8.1.9</a></p>
+
+<p><a href="http://whatsminertool-factory.whatsminer.com:8880/whatsminertool/WhatsMinerTool-Factory-8.1.18.exe">8.1.18</a></p>
+
+<p><a href="http://whatsminertool-factory.whatsminer.com:8880/whatsminertool/WhatsMinerTool-Factory-8.1.19.exe">8.1.19</a></p>
+
+<p><a href="http://whatsminertool-factory.whatsminer.com:8880/whatsminertool/WhatsMinerTool-Factory-8.1.20.exe">8.1.20</a></p>
+
+<p><a href="http://whatsminertool-factory.whatsminer.com:8880/whatsminertool/WhatsMinerTool-Factory-8.1.21.exe">8.1.21</a></p>
+
+<p><a href="http://whatsminertool-factory.whatsminer.com:8880/whatsminertool/WhatsMinerTool-Factory-8.1.22.exe">8.1.22</a></p>
+
+<p><a href="http://whatsminertool-factory.whatsminer.com:8880/whatsminertool/WhatsMinerTool-Factory-8.1.23.exe">8.1.23</a></p>
+
+<p><a href="http://whatsminertool-factory.whatsminer.com:8880/whatsminertool/WhatsMinerTool-Factory-8.1.24.exe">8.1.24</a></p>
+
+<p><a href="http://whatsminertool-factory.whatsminer.com:8880/whatsminertool/WhatsMinerTool-Factory-8.1.25.exe">8.1.25</a></p>
+
+<p><a href="http://whatsminertool-factory.whatsminer.com:8880/whatsminertool/WhatsMinerTool-Factory-8.1.28.exe">8.1.28</a></p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p><a href="https://microbt-whatsminer.com/">WhatsMiner - Official Website</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Matthew Wood</name></author><category term="tools" /><summary type="html"><![CDATA[WhatsMiner Tools: Download the latest version and access the full manual Explore the many features of Whatsminer Tools 8.1.34 and learn how to use them for MicroBT Whatsminer.]]></summary></entry><entry xml:lang="en"><title type="html">Cryptocurrency Explained - What is It, Types, Pros &amp;amp; Cons [2023]</title><link href="https://miningsoft.org/ru/articles/cryptocurrency/" rel="alternate" type="text/html" title="Cryptocurrency Explained - What is It, Types, Pros &amp;amp; Cons [2023]" /><published>2023-02-22T00:00:00-04:00</published><updated>2023-02-22T00:00:00-04:00</updated><id>https://miningsoft.org/ru/articles/cryptocurrency</id><content type="html" xml:base="https://miningsoft.org/ru/articles/cryptocurrency/"><![CDATA[<div class="paper btc">
   <div class="pattern">
     <div class="note-cont">
       Learn all about the potential of cryptocurrency and what it means for the future.
@@ -2807,418 +3294,4 @@ pause</code></p>
 
 <h2 id="difficulty">Difficulty</h2>
 
-<p>The complexity of the Ethereum PoW network is a problem solved in <a href="/en/articles/mining">mining</a> to find a block. The more miners mine Ethereum PoW, the harder it is to find a block to reward. <a href="https://2miners.com/en/ethw-network-difficulty">Track difficulty</a> here.</p>]]></content><author><name>Matthew Wood</name></author><category term="guide" /><summary type="html"><![CDATA[What is EthereumPoW and how to mine it? In this guide, you will learn about ETHW - a fork of Ethereum for mining on video cards and ASICs]]></summary></entry><entry xml:lang="en"><title type="html">How to stake Ethereum 2.0? How much ETH can you earn?</title><link href="https://miningsoft.org/ru/guide/eth-staking/" rel="alternate" type="text/html" title="How to stake Ethereum 2.0? How much ETH can you earn?" /><published>2022-09-11T00:00:00-04:00</published><updated>2023-03-10T00:00:00-04:00</updated><id>https://miningsoft.org/en/guide/eth-staking</id><content type="html" xml:base="https://miningsoft.org/ru/guide/eth-staking/"><![CDATA[<div class="paper wallet">
-  <div class="pattern">
-    <div class="note-cont">
-      Is Ethereum Staking Profitable?
-    </div>
-  </div>
-</div>
-<p><em>In this beginner’s guide, you will learn all the details about Ethereum staking and which crypto exchanges and pools support it.</em></p>
-
-<script async="" src="https://coinzillatag.com/lib/display.js"></script>
-
-<div class="coinzilla" data-zone="C-26960aca952082b4725"></div>
-<script>
-    window.coinzilla_display = window.coinzilla_display || [];
-    var c_display_preferences = {};
-    c_display_preferences.zone = "26960aca952082b4725";
-    c_display_preferences.width = "300";
-    c_display_preferences.height = "250";
-    coinzilla_display.push(c_display_preferences);
-</script>
-
-<p>&nbsp;</p>
-
-<p class="notice--info">The process <a href="/en/guide/merge/">updating Ethereum Merge or Ethereum 2.0</a> describes the transition of ETH to a new algorithm. New blockchain blocks can no longer be mined. They are created under a special staking contract.</p>
-
-<p>Simply put, staking is a bank deposit with interest. The user transfers funds to the account, stores them and receives passive income for this. The more funds in the account, the higher the earnings. However, the more participants, the less income.</p>
-
-<p><a href="/assets/images/guide/eth_staking/eth_21.png" class="image-popup"> <img src="/assets/images/guide/eth_staking/eth_21.png" alt="eth_staking" /> </a></p>
-
-<div class="imgcen">
-<iframe class="your-ad-position-style" src="https://mat.cryptox-ads.io/cxAdsAssets/banner-basic-v0.11/index.html?size=300*250&amp;app_id=10905748&amp;placement_id=20003615" loading="lazy" style="border:0;width:300px; height:250px"></iframe>
-</div>
-
-<p>Let’s briefly summarize the main definitions in order to become an expert in this and choose the least risky way to stake:</p>
-
-<dl>
-  <dt>Staking<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></dt>
-  <dd>this is the placement of crypto-tokens used in the process of mining new coins. As a user, you keep your crypto tokens but assign them to a staking node that takes part in verifying transactions on the network. You become a validator.</dd>
-  <dt>Validators<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></dt>
-  <dd>these are the nodes of the blockchain that support its operation. They are responsible for confirming and verifying transactions, registering them, and adding new blocks. Simply put, validators are cryptocurrency holders with special software installed on a computer (node).</dd>
-  <dt>Nodes (nodes)<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup></dt>
-  <dd>These are the computers running the program (e.g. Ethereum wallet). Nodes are connected to other computers (with the same software installed) to create a cryptocurrency network.</dd>
-</dl>
-
-<h2 id="good-and-bad-ways-risks">Good and bad ways, risks</h2>
-
-<p><a href="/assets/images/guide/eth_staking/en/methods.png" class="image-popup"> <img src="/assets/images/guide/eth_staking/en/methods.png" alt="methods" /> </a></p>
-
-<p>There are 4 ways to start staking:</p>
-<ol>
-  <li>Solo staking (on your PC). <span class="green">Safe</span> because you are in control of your funds. But <span class="red">it’s not easy</span> to set up your own node. You do not share rewards with other services.</li>
-  <li>Staking as a service. <span class="yel">Relatively safe</span>. You need to trust the third-party node operator and pay a percentage for the service. The average difficulty of setting up is because the node is already set up by the service operator.</li>
-  <li>Staking in the pool. <span class="yel">Relatively safe</span>. You need to trust the owners of a third-party pool and give a percentage to the pool operator. However, you can place less than 32 coins.</li>
-  <li>Staking on exchanges. <span class="red">Not safe</span>. Exchanges are often hacked. Also, exchanges can freeze funds. You can place less than 32 coins. Extremely easy to set up.</li>
-</ol>
-
-<p>When we have dealt with the main theses, we can move on to practice. But first, let’s look at profitability.</p>
-
-<h2 id="yield">Yield</h2>
-
-<p>Profitability can be found on the official website of Ethereum<sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote" rel="footnote">4</a></sup>. The <code class="language-plaintext highlighter-rouge">CURRENT APR</code> means annual income as a percentage.</p>
-
-<p><a href="/assets/images/guide/eth_staking/rewards.png" class="image-popup"> <img src="/assets/images/guide/eth_staking/rewards.png" alt="rewards" /> </a></p>
-
-<p>It is profitable to engage in staking or not is determined by the number of coins participating in the validation - the <code class="language-plaintext highlighter-rouge">TOTAL ETH STAKED</code> indicator. In simple terms, income depends on how many stakers deposit 32 ETH. This determines the possible commission that the validator receives.</p>
-
-<h3 id="calculation-example">Calculation example</h3>
-
-<p>Let’s calculate how much profit staking brings in ETH 2.0.</p>
-
-<p class="notice--ya">If only 1 million ETH is staked, then you will be rewarded with approximately 5.76 ETH per year (corresponding to a yield of 18.1%).
-But if 30 million ETH participate in the validation, then the income will be about 1 ETH (3.3%) per year.</p>
-
-<p>In total, if about one million ETH users confirm the validation, the annual income will be about 18.1%, and with 30 million ETH - only 3.3%.</p>
-
-<p><a href="/assets/images/guide/eth_staking/stakefish.png" class="image-popup"> <img src="/assets/images/guide/eth_staking/stakefish.png" alt="stakefish" /> </a></p>
-
-<p>Since actual returns depend on the factors mentioned above, they will also vary greatly in the coming months. However, profits of 3 to 7 percent of ETH can be expected.</p>
-
-<p class="notice--danger">It is also important to know that it is not yet possible to withdraw your deposits or profits. This will only be possible after the <a href="/en/guide/merge/">full implementation of Ethereum 2.0</a>, which is not expected before the end of 2022.</p>
-
-<h3 id="calculators">Calculators</h3>
-
-<p>There are various calculators on the Internet that show the possible profitability.</p>
-
-<p class="notice--success">List of online calculators:<br />
-<i class="fa fa-calculator"></i> <a href="https://www.stakingrewards.com/earn/ethereum-2-0/">stakingrewards.com</a><br />
-<i class="fa fa-calculator"></i> <a href="https://beaconscan.com/staking-calculator">beaconscan.com</a><br />
-<i class="fa fa-calculator"></i> <a href="https://ethereumprice.org/eth-2-calculator/">ethereumprice.org</a><br />
-<i class="fa fa-calculator"></i> <a href="https://ethscan.org/calculator">ethscan.org</a><br />
-<i class="fa fa-calculator"></i> <a href="https://walletburst.com/tools/ethereum-staking-calculator/">walletburst.com</a></p>
-
-<p>Calculate how much you can earn. The results vary depending on the selected amount, term and type of bets.</p>
-
-<p><a href="/assets/images/guide/eth_staking/en/stakingrewards.png" class="image-popup"> <img src="/assets/images/guide/eth_staking/en/stakingrewards.png" alt="stakingrewards" /> </a></p>
-
-<h2 id="hardware-requirements">Hardware requirements</h2>
-
-<p>A basic PC with low energy costs is all you need to cut costs and maximize revenue. No need to buy expensive hardware.</p>
-
-<p>According to Prysmatic Labs<sup id="fnref:5" role="doc-noteref"><a href="#fn:5" class="footnote" rel="footnote">5</a></sup>, the minimum requirements are:</p>
-
-<p class="notice--primary">Memory: 4GB RAM.<br />
-Storage: 20 GB free space on SSD.<br />
-OS: Linux, Mac OS X 10.14+ or Windows. 64 bit.<br />
-Processor: Intel Core i5-760, AMD FX-8100 or better.</p>
-
-<ul>
-  <li>Stable internet connection. Your computer must be online 24/7<sup id="fnref:6" role="doc-noteref"><a href="#fn:6" class="footnote" rel="footnote">6</a></sup>.</li>
-  <li>Ethereum validator requires 32 Ethereum. However, there are other ways that require less ETH to participate in the staking process.</li>
-</ul>
-
-<p>Above we wrote about 4 possible ways of staking. Let’s consider them all. Let’s start with the simplest - staking on the exchange.</p>
-
-<section id="how-to-start" itemscope="itemscope" itemtype="http://schema.org/HowTo">
-<h2 itemprop="name" id="How to stake Ethereum 2.0?">How to stake Ethereum 2.0?</h2>
-	<div class="panel panel-default" id="step1" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
-	<link itemprop="url" href="#step1" />
-	<meta itemprop="image" content="/assets/images/og.png" />
-		<h3 class="panel-title" itemprop="name" id="1. Register on the exchange or any other service">1. Register on the exchange or any other service</h3>
-		<div class="panel-body" itemprop="text">
-
-<p>In order to stake, you must first register with an Ethereum trading platform. This can be done using <a href="https://cutt.ly/ECSoMux">website registration form</a>. Fill out the registration form with your email address and a secure password.</p>
-<figure><a href="/assets/images/exchanges/binance/signup.png" class="image-popup"> <img src="/assets/images/exchanges/binance/signup.png" alt=" signup" /> <figcaption>Sign up.</figcaption></a></figure>
-<p>You will also need to agree to the terms of service and privacy policy. The account will then be activated by verifying the link you receive in your email.</p>
-<p>The platform requires identity verification. If you don't want to upload your documents then <a href="https://cutt.ly/YCD68yn">register on the AAX platform</a>.</p>
-<figure><a href="/assets/images/exchanges/aax/signup.png" class="image-popup"> <img src="/assets/images/exchanges/aax/signup.png" alt=" signup" /> <figcaption>Sign up.</figcaption></a></figure>
-
-		</div>
-	</div>
-	
-	<div class="panel panel-default" id="step2" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
-	<link itemprop="url" href="#step2" />
-	<meta itemprop="image" content="/assets/images/og.png" />
-		<h3 class="panel-title" itemprop="name" id="2. Fund your trading account">2. Fund your trading account</h3>
-		<div class="panel-body" itemprop="text">
-		<div>
-<p>Next, you need to replenish your account. With most of the providers we recommend, deposits are free and can be made using the usual methods - credit cards, SEPA transfers, instant transfers and e-wallets.</p>
-
-<p>However, before doing this, you need to know how much fiat currency or other cryptocurrencies you will need to purchase the equivalent amount of Ethereum. This way you calculate the amount of the deposit.</p>
-<a href="/assets/images/guide/eth_staking/calc.png" class="image-popup"> <img src="/assets/images/guide/eth_staking/calc.png" alt="calc" /> </a>
-<p class="notice--primary">To do this, we recommend that you use the <a href="https://ethereumprice.org/eth-2-calculator/">Ethereum 2.0 rate calculator</a>. It can be used to calculate income depending on the number of staked tokens.</p>
-	
-</div>
-</div>
-	</div>
-	<div class="panel panel-default" id="step3" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
-	<link itemprop="url" href="/#step3" />
-	<meta itemprop="image" content="/assets/images/og.jpg" />
-	<h3 class="panel-title" itemprop="name" id="3. Transfer ETH to a staking wallet">3. Transfer ETH to a staking wallet</h3>
-	<div class="panel-body" itemprop="text">
-<p>To do this, open the "Earn" tab and select <a href="https://www.binance.com/en/eth2">ETH 2.0</a>. After that, click "Stake now" and you will be able to participate.</p>
-<a href="/assets/images/exchanges/binance/en/staking.png" class="image-popup"> <img src="/assets/images/exchanges/binance/en/staking.png" alt="staking" /> </a>
-<p>The platform will credit you with BETH, a tokenized asset that represents your ETH in staking at a ratio of 1:1. Binance will credit BETH to your spot account.</p>
-<p>After completing the first stage, you can exchange your BETH for ETH at a ratio of 1:1 and receive an amount equal to the current amount of BETH with interest.</p>
-
-	</div>
-	</div>
-<div class="panel panel-default" id="videoguide" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
-	<link itemprop="url" href="/#videoguide" />
-	<meta itemprop="image" content="/assets/images/og.png" />
-	<div class="panel-body">
-	<meta itemprop="text" content="How to Staking on Binance. ETH 2.0 - Beginner's Guide" />
-<meta itemprop="duration" content="PT13M11S" />
-<meta itemprop="uploadDate" content="2022-08-12T15:34:32Z" />
-<meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/XJzDZWJYhlQ/default.jpg" />
-<meta itemprop="interactionCount" content="2798" />
-<meta itemprop="embedURL" content="https://youtube.googleapis.com/v/XJzDZWJYhlQ" />
-<div class="youtube-player" data-id="XJzDZWJYhlQ"></div>
-<div itemprop="description">
-<p>Staking is extremely simple. It's just 2 steps:</p>
-<ol>
-<li>Step 1: You stake Ethereum on Binance</li>
-<li>Step 2: You'll earn more ETH every day automatically. And as you've seen on my previous videos, I've made a lot of money by staking on Binance and you have been absolutely loving it.</li>
-</ol>
-<p>in this video I'll give you the pros &amp; cons of staking Ethereum on Binance and cryptocurrency staking in general. Some people only give you the benefits. Some people give you only about the risks. I'll show you both.</p>
-<p class="notice--success">You'll also learn about the <a href="/en/guide/merge/">ETH 2.0 Merge</a> that is about to happen soon and what does it mean for Ethereum.</p>
-</div>
-</div>
-</div>
-</section>
-
-<p>Other staking methods include services such as DeFi.</p>
-
-<h2 id="defi-and-services">DeFi and services</h2>
-
-<p><dfn>DeFi</dfn> are traditional financial instruments built on the blockchain, in particular on Ethereum<sup id="fnref:7" role="doc-noteref"><a href="#fn:7" class="footnote" rel="footnote">7</a></sup>.</p>
-
-<p>If you already have your own wallet and store some of your coins on MetaMask, for example, then you have the option of staking Ethereum through DeFi providers.</p>
-
-<p class="notice--warning">The most famous example is <a href="https://lido.fi/">Lido Finance</a>.</p>
-
-<p>The DeFi provider allows you to stake Ethereum as easily as possible without neglecting the idea of ​​decentralization.</p>
-
-<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<span itemprop="name" class="bold">Where to stake ETH? Ethereum Crypto Passive Income (Coinbase, Kucoin, Binance)</span>
-<meta itemprop="duration" content="PT19M12S" />
-<meta itemprop="uploadDate" content="2021-09-16T18:30:15Z" />
-<meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/SdwtOes8LDQ/default.jpg" />
-<meta itemprop="interactionCount" content="40265" />
-<meta itemprop="embedURL" content="https://youtube.googleapis.com/v/SdwtOes8LDQ" />
-<div class="youtube-player" data-id="SdwtOes8LDQ"></div>
-<div itemprop="description"><p>How to get crypto dividends by just owning any amount of Ethereum. In this video I show you how to stake your ethereum 2.0 to make crypto passive income.</p>
-</div>
-</div>
-
-<h2 id="pools">Pools</h2>
-
-<p>Pooling involves staking through centralized online brokers.</p>
-
-<p><a href="/assets/images/guide/eth_staking/pools.png" class="image-popup"> <img src="/assets/images/guide/eth_staking/pools.png" alt="pools" /> </a></p>
-
-<p>The largest pools include the following list:</p>
-
-<ul>
-  <li>Lido</li>
-  <li>Coinbase</li>
-  <li>Kraken</li>
-  <li>Binance</li>
-  <li>Staked.us</li>
-  <li>Whale 0x5d7</li>
-  <li>Bitcoin suisse</li>
-  <li>Stakefish</li>
-</ul>
-
-<p><a href="/assets/images/guide/eth_staking/en/pools_1.png" class="image-popup"> <img src="/assets/images/guide/eth_staking/en/pools_1.png" alt="pools_1" /> </a></p>
-
-<p>However, to work in some pools, you will need to deposit 32 ETH. Others work with a deposit of 0.01 ETH</p>
-
-<p><a href="/assets/images/guide/eth_staking/en/pools_2.png" class="image-popup"> <img src="/assets/images/guide/eth_staking/en/pools_2.png" alt="pools_2" /> </a></p>
-
-<p class="notice--primary">For a complete list of pools, visit <a href="https://beaconcha.in/pools">beaconcha.in</a>.</p>
-
-<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<span itemprop="name" class="bold">Lido Staking Tutorial (ETH, Solana, Matic) - For Beginners</span>
-<meta itemprop="duration" content="PT13M24S" />
-<meta itemprop="uploadDate" content="2022-03-21T18:28:17Z" />
-<meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/bGLyFXXvCWI/default.jpg" />
-<meta itemprop="interactionCount" content="12246" />
-<meta itemprop="embedURL" content="https://youtube.googleapis.com/v/bGLyFXXvCWI" />
-<div class="youtube-player" data-id="bGLyFXXvCWI"></div>
-<span itemprop="description">In this video, we cover what Lido Finance is, how to stake ETH, SOL, MATIC etc.</span>
-</div>
-
-<h2 id="launching-a-node-on-its-own">Launching a node on its own</h2>
-
-<p>If you have 32 ETH, you can also participate in block validation yourself. However, for this you need a special “<a href="https://academy.binance.com/en/articles/custodial-vs-non-custodial-wallets-what-s-the-difference">non-custodial wallet</a>”.</p>
-
-<p class="notice--danger">Such a system is too complicated for beginners, and investments become too risky. Also, unless you hold a significant amount of ETH, the chances of finding a block to validate are extremely low. Given all these nuances, in the following articles, we will look at running a node on its own.</p>
-
-<p>So don’t forget to bookmark miningsoft.org!</p>
-
-<h2 id="risks">Risks</h2>
-
-<p><a href="/assets/images/guide/eth_staking/eth_9.jpg" class="image-popup"> <img src="/assets/images/guide/eth_staking/eth_9.jpg" alt="eth_9" /> </a></p>
-
-<p>As mentioned earlier, the validator requires unrestricted network availability to work. On exchanges and some services, ETH must be stored in a <a href="https://bytwork.com/articles/kholodnyy-goryachiy-koshelek">hot wallet</a>, as proof of ownership must be provided over the Internet at any time.</p>
-
-<p class="notice--warning">This is considered a potential risk for attacks. The validator undertakes to store coins from several months to several years. If the price rises or falls, validators will not be able to access their deposit and sell ETH.</p>
-
-<p><a href="/assets/images/guide/eth_staking/hack_2.png" class="image-popup"> <img src="/assets/images/guide/eth_staking/hack_2.png" alt="hack" /> </a></p>
-
-<p class="notice--ya">In the event of a sharp drop in price, the commission received will no longer be able to compensate for any losses, so staking turns into a loss-making business.</p>
-
-<p>In addition to the potential loss due to a temporary price drop, there is also the risk of losing a depositdue to breaking the rules.</p>
-
-<p>Validators who do not follow the rules can be fined<sup id="fnref:8" role="doc-noteref"><a href="#fn:8" class="footnote" rel="footnote">8</a></sup>. Staking Ethereum 2.0 has 2 potential penalties:</p>
-
-<ol>
-  <li>Reward reduction.</li>
-  <li>Partial loss of the deposit.</li>
-</ol>
-
-<p>The reduction of remuneration occurs even with minor violations. For example, if it is impossible to connect to the validator over the network. Partial loss of the deposit usually threatens only in case of serious violations.</p>
-
-<p>These risks include the constant generation of “bad” blocks or careless duplication of transactions.</p>
-
-<p><a href="/assets/images/guide/eth_staking/hack.png" class="image-popup"> <img src="/assets/images/guide/eth_staking/hack.png" alt="hack" /> </a></p>
-
-<p>Moreover, there is another danger, mainly at the initial stage of Ethereum 2.0. There is no absolute certainty that new protocols will be secure, error-free and hacker-proof smart contracts.</p>
-
-<p>To minimize this risk, the developers of the Ethereum Foundation reviewed their code several times with experts. Important components also went through an extensive testing phase.</p>
-
-<h2 id="pros-and-cons">Pros and cons</h2>
-
-<p>It’s time to decide if staking is good or bad?</p>
-
-<div class="notice--success">
-  <p><i class="fa fa-check-circle"></i> <b>Benefits</b>:</p>
-  <ul>
-    <li>Remuneration - from 3% to 15% per annum</li>
-    <li>Ideal for long-term HODL strategies<sup id="fnref:9" role="doc-noteref"><a href="#fn:9" class="footnote" rel="footnote">9</a></sup></li>
-    <li>You can start with a small deposit</li>
-  </ul>
-</div>
-
-<div class="notice--danger">
-  <p><i class="fa fa-times-circle"></i> <b>Risks</b>:</p>
-  <ul>
-    <li>Not an easy process, especially launching your own node</li>
-    <li>Network fines</li>
-    <li>The need to trust third parties if staking goes through exchanges</li>
-  </ul>
-
-</div>
-
-<h2 id="frequently-asked-questions">Frequently asked Questions</h2>
-
-<div class="schema-faq-code" itemscope="" itemtype="https://schema.org/FAQPage">
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <h3 itemprop="name" class="faq-q" id="Where does the income come from?">Where does the income come from?</h3>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">Validators collect fees from those who make transactions on the blockchain. </p>
-        </div>
-    </div>
-
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <h3 itemprop="name" class="faq-q" id="How much can I earn?">How much can I earn?</h3>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">As with any investment, staking offers the prospect of profit. However, it always depends on the crypto broker you end up choosing.</p>
-        </div>
-    </div>
-
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <h3 itemprop="name" class="faq-q" id="How many coins do you need?">How many coins do you need?</h3>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">The volume depends on the service. Depending on the online broker, you can stake with a minimum of 0.1 ETH.</p>
-        </div>
-    </div>
-
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <h3 itemprop="name" class="faq-q" id="Can I withdraw staked ETH?">Can I withdraw staked ETH?</h3>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">Depending on the provider, you can withdraw ETH from staking, but then you will have to expect the rewards to be lost.</p>
-        </div>
-    </div>
-
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <h3 itemprop="name" class="faq-q" id="Can I lose staked ETH?">Can I lose staked ETH?</h3>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">Yes you can. Due to network errors, hacks and exchange scams.</p>
-        </div>
-    </div>
-	<div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-         <h3 itemprop="name" class="faq-q" id="How long will ETH be staked?">How long will ETH be staked?</h3>
-         <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-              <p itemprop="text" class="faq-a">
-You will not be able to withdraw and exchange the rewards you earn through staking until the Ethereum 2.0 upgrade is completed. It should take place at the end of 2022 and end at the beginning of 2023.</p>
-         </div>
-     </div>
-</div>
-
-<h2 id="should-i-stake">Should I stake?</h2>
-
-<p>Investing in staking may be suitable for those investors who are looking for a reasonable investment strategy for the medium to long term. These investors can benefit from good returns comparable to dividends.</p>
-
-<p>For this type of investment, as for most others, a positive change in the price of the asset is a prerequisite for making a profit. However, you also need to take the risks that a token price drop can cause.</p>
-
-<p><a href="/assets/images/guide/eth_staking/eth_10.webp" class="image-popup"> <img src="/assets/images/guide/eth_staking/eth_10.webp" alt="eth_10" /> </a></p>
-
-<p>Opinion of the coindesk platform:</p>
-<blockquote>
-  <p>Standing up nodes in multiples of 32 ETH and running them with barely any downtime while the assets are locked up for what could be years won’t be for everyone – and it shouldn’t be.<sup id="fnref:10" role="doc-noteref"><a href="#fn:10" class="footnote" rel="footnote">10</a></sup></p>
-</blockquote>
-
-<p>On the other hand, traders whothose more focused on day trading or swing trading will not find it particularly advantageous to hold coins for an unpredictable period of time. Your profit is mainly determined by short-term price fluctuations.</p>
-
-<p class="notice--success">However, staking is a reflection of the true evolution in the blockchain network. Don’t you want to be a part of it and benefit at the same time?</p>
-
-<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<span itemprop="name" class="bold">The TRUTH About Ethereum Staking Rewards...EARN Passive Income?</span>
-<meta itemprop="duration" content="PT5M41S" />
-<meta itemprop="uploadDate" content="2022-10-25T19:00:19Z" />
-<meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/x4ias6jV-lI/default.jpg" />
-<meta itemprop="interactionCount" content="24430" />
-<meta itemprop="embedURL" content="https://youtube.googleapis.com/v/x4ias6jV-lI" />
-<div class="youtube-player" data-id="x4ias6jV-lI"></div>
-<span itemprop="description">A lot of people are saying ETH is due for a dump after the move to POS, but not only do I believe this to be untrue, I believe there is solid passive income to be made. In this video I give you the truth on Ethereum staking nodes, how they work, and what they mean for Ethereum and the crypto landscape as a whole.  </span>
-</div>
-
-<p>Thus, staking is always useful if you want to invest small amounts in a promising investment.</p>
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p><a href="https://www.coinbase.com/learn/crypto-basics/what-is-staking">What is staking</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:2" role="doc-endnote">
-      <p><a href="https://www.pcmag.com/encyclopedia/term/blockchain-validator">blockchain validator</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:3" role="doc-endnote">
-      <p><a href="https://www.coindesk.com/learn/what-is-a-node/">What Is a Node?</a> <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:4" role="doc-endnote">
-      <p><a href="https://ethereum.org/en/staking/">Ethereum Staking Profitability - ethereum.org</a> <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:5" role="doc-endnote">
-      <p><a href="https://medium.com/prysmatic-labs/introducing-topaz-testnet-8e8a4e00a700">System Requirements</a> <a href="#fnref:5" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:6" role="doc-endnote">
-      <p><a href="https://kb.beaconcha.in/staking-and-hardware">Staking and Hardware - Ethereum Knowledge Base 2.0</a> <a href="#fnref:6" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:7" role="doc-endnote">
-      <p><a href="https://www.investopedia.com/decentralized-finance-defi-5113835">What is DeFi (Ethereum) in cryptocurrency? (Decentralization Finance)</a> <a href="#fnref:7" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:8" role="doc-endnote">
-      <p><a href="https://notes.ethereum.org/@vbuterin/serenity_design_rationale">Slashing and anti-correlation penalties</a> <a href="#fnref:8" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:9" role="doc-endnote">
-      <p><a href="https://ru.wikipedia.org/wiki/Hodl">What is Hodl</a> <a href="#fnref:9" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:10" role="doc-endnote">
-      <p><a href="https://www.coindesk.com/tech/2020/11/06/to-stake-or-no-thats-the-eth-20-question/">To Stake or No? That’s the Eth 2.0 Question</a> <a href="#fnref:10" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="guide" /><summary type="html"><![CDATA[Is Ethereum Staking Profitable? In this beginner’s guide, you will learn all the details about Ethereum staking and which crypto exchanges and pools support it.]]></summary></entry></feed>
+<p>The complexity of the Ethereum PoW network is a problem solved in <a href="/en/articles/mining">mining</a> to find a block. The more miners mine Ethereum PoW, the harder it is to find a block to reward. <a href="https://2miners.com/en/ethw-network-difficulty">Track difficulty</a> here.</p>]]></content><author><name>Matthew Wood</name></author><category term="guide" /><summary type="html"><![CDATA[What is EthereumPoW and how to mine it? In this guide, you will learn about ETHW - a fork of Ethereum for mining on video cards and ASICs]]></summary></entry></feed>
