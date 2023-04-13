@@ -1,4 +1,501 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="ru" /><updated>2023-03-28T08:25:16-04:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="ru"><title type="html">Что такое криптовалюта? Простыми словами (2023)</title><link href="https://miningsoft.org/ru/articles/cryptocurrency/" rel="alternate" type="text/html" title="Что такое криптовалюта? Простыми словами (2023)" /><published>2023-02-22T00:00:00-04:00</published><updated>2023-02-22T00:00:00-04:00</updated><id>https://miningsoft.org/ru/articles/cryptocurrency</id><content type="html" xml:base="https://miningsoft.org/ru/articles/cryptocurrency/"><![CDATA[<div class="paper btc">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="ru" /><updated>2023-04-13T07:00:08-04:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="ru"><title type="html">Whatsminer tool: Скачать бесплатно, Настройка на русском</title><link href="https://miningsoft.org/ru/tools/whatsminertool/" rel="alternate" type="text/html" title="Whatsminer tool: Скачать бесплатно, Настройка на русском" /><published>2023-04-13T00:00:00-04:00</published><updated>2023-04-13T00:00:00-04:00</updated><id>https://miningsoft.org/ru/tools/whatsminertool</id><content type="html" xml:base="https://miningsoft.org/ru/tools/whatsminertool/"><![CDATA[<div class="paper wallet">
+  <div class="pattern">
+    <div class="note-cont">
+      WhatsMiner tool: как использовать - пользовательское руководство.
+    </div>
+  </div>
+</div>
+<p><em>Полный набор инструкций по настройке и обновлению WhatsMiner tool v8.1.34 и более ранним версиям.</em></p>
+
+<h2 id="скачать-для-windows--linux">Скачать для Windows / Linux</h2>
+
+<script async="" src="https://coinzillatag.com/lib/display.js"></script>
+
+<div class="coinzilla" data-zone="C-26960aca952082b4725"></div>
+<script>
+    window.coinzilla_display = window.coinzilla_display || [];
+    var c_display_preferences = {};
+    c_display_preferences.zone = "26960aca952082b4725";
+    c_display_preferences.width = "300";
+    c_display_preferences.height = "250";
+    coinzilla_display.push(c_display_preferences);
+</script>
+
+<p><a href="https://microbt-whatsminer.com/tools-download/" class="btn btn--info btn--x-large">Скачать с официального сайта</a>
+<a href="https://thanosmining.com/blog/whatsminer-tools-and-firmware-80" class="btn btn--facebook btn--x-large">Скачать с support center</a></p>
+
+<section>
+
+  <div class="imgcen">
+<iframe class="your-ad-position-style" src="https://mat.cryptox-ads.io/cxAdsAssets/banner-basic-v0.11/index.html?size=300*250&amp;app_id=10905748&amp;placement_id=20003615" loading="lazy" style="border:0;width:300px; height:250px"></iframe>
+</div>
+
+  <h2 id="whatsminer-tool-wmt">Что такое WhatsMiner tool (WMT)?</h2>
+
+  <p><dfn>WhatsMiner tool</dfn> - полезный бесплатный инструмент для настройки ASIC-майнеров. Утилита позволяет сканировать, отслеживать и управлять устройствами ASIC WhatsMiner.</p>
+</section>
+
+<p><b>Whatsminertool</b> - утилита, похожая на <a href="/ru/tools/btc-tool/">BTC Tools</a>. Используется для поиска IP-адреса, изменения конфигурации (включая пулы, сеть, ntp серверы и т. д.), обновления прошивки и определения информации/статуса вашего Асик-майнера. ПО разработано компанией Shenzhen MicroBT Electronics.<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
+
+<p>&nbsp;</p>
+
+<h3 id="обзор-возможностей-и-опций">Обзор возможностей и опций</h3>
+
+<section class="imp">
+  <p>Список опций дистанционного управления:
+<span class="par"><i class="fa fa-cog"></i> <span class="yel bold"><code class="language-plaintext highlighter-rouge">Mining Control</code></span>: «Пауза» или «Возобновление» работы майнеров.<br /></span>
+<span class="par"><i class="fa fa-cog"></i> <span class="yel bold"><code class="language-plaintext highlighter-rouge">Reboot</code></span>: перезагружает выбранные устройства.<br /></span>
+<span class="par"><i class="fa fa-cog"></i> <span class="yel bold"><code class="language-plaintext highlighter-rouge">Performance Mode</code></span>: переключает режим хешрейта на «Высокий», «Нормальный» или «Низкий».<br /></span>
+<span class="par"><i class="fa fa-cog"></i> <span class="yel bold"><code class="language-plaintext highlighter-rouge">Fastboot</code></span>: ускоряет запуск ASIC майнера.<br /></span>
+<span class="par"><i class="fa fa-cog"></i> <span class="yel bold"><code class="language-plaintext highlighter-rouge">Miner API Switch</code></span>: подключение к продуктам API, таким как Foreman.<br /></span>
+<span class="par"><i class="fa fa-cog"></i> <span class="yel bold"><code class="language-plaintext highlighter-rouge">Restore DHCP</code></span>: возвращает майнер к использованию <code class="language-plaintext highlighter-rouge">DHCP</code> - динамическому IP. Он может автоматически получить IP-адрес, но IP майнера будет изменяться.<br /></span>
+<span class="par"><i class="fa fa-cog"></i> <span class="yel bold"><code class="language-plaintext highlighter-rouge">Control LED Lights</code></span>:  включает или выключает светодиод, чтобы определить местонахождение майнера.<br /></span>
+<span class="par"><i class="fa fa-cog"></i> <span class="yel bold"><code class="language-plaintext highlighter-rouge">Protection Mode</code></span>: включает/отключает <code class="language-plaintext highlighter-rouge">SSH</code>.<br /></span>
+<span class="par"><i class="fa fa-cog"></i> <span class="yel bold"><code class="language-plaintext highlighter-rouge">Adjust Freq</code></span>: регулирует напряжение и частоту майнера (разгон или понижение частоты).<br /></span>
+<span class="par"><i class="fa fa-cog"></i> <span class="yel bold"><code class="language-plaintext highlighter-rouge">Export Log</code></span>: экспортирует журналы питания, журналы майнеров, журналы API, системные журналы и время работы майнера.<br /></span>
+<span class="par"><i class="fa fa-cog"></i> <span class="yel bold">Переключатель веб-пулов</span>: включает или отключает возможность настройки пулов через веб-страницу майнера.<br /></span></p>
+</section>
+
+<p>Чтобы использовать утилиту, вначале нужно подготовить сам ASIC Майнер и включить его в сеть.</p>
+
+<h2 id="настройка-асика">Настройка асика</h2>
+
+<p>К аппарату прилагаются кабели питания американского и китайского стандарта. Подключите устройство к сети.</p>
+
+<figure><a href="/assets/images/tools/whatsminertool/whatsminer_cables.webp" class="image-popup"> <img src="/assets/images/tools/whatsminertool/whatsminer_cables.webp" alt="Кабели питания whatsminer_cables" />
+<figcaption>Кабели питания.</figcaption></a></figure>
+
+<p><i class="fab fa-windows"></i> Системные требования:</p>
+
+<ul>
+  <li>WhatsMinerTool можно запускать в 64-битной системе на ПК с Windows 7-8-10-11.</li>
+  <li>Подходит для серий WhatsMiner M3, M1, M10 и D1, серии M20, M21, M30, D1, M50.</li>
+</ul>
+
+<p>Перед настройкой убедитесь, что вы подготовили все необходимое:</p>
+<ol>
+  <li>WhatsMiner - само устройство.</li>
+  <li>Электропитание (розетка): 220-240 В.</li>
+  <li>Адаптированный штекер и кабель блока питания (16A, 250V).</li>
+  <li>Сетевые кабели (Ethernet) и скорость интернета &gt; 10 Кбит/сек.</li>
+  <li>Компьютер с программным обеспечением WhatsMiner Tool.</li>
+  <li>Учетные записи пула майнинга.</li>
+</ol>
+
+<p>Подключите сетевой кабель и включите питание. Вы услышите очень громкий звук в течение первых нескольких секунд. Вентиляторы начнут проверку, работая на максимальной скорости.</p>
+
+<figure><a href="/assets/images/tools/whatsminertool/ru/plug.webp" class="image-popup"> <img src="/assets/images/tools/whatsminertool/ru/plug.webp" alt="Подключение асика" />
+<figcaption>Подключение асика.</figcaption></a></figure>
+
+<p>Переходим к настройке WhatsMiner Tool.</p>
+
+<section id="how-to-start" itemscope="itemscope" itemtype="http://schema.org/HowTo">
+<h2 itemprop="name" id="Как пользоваться WhatsMiner Tool?">Как пользоваться WhatsMiner Tool?</h2>
+	<div class="panel panel-default" id="step1" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
+	<link itemprop="url" href="#step1" />
+	<meta itemprop="image" content="/assets/images/tools/whatsminertool/whatsminertool_download.webp" />
+		<h3 class="panel-title" id="Шаг 1 - скачайте">Шаг 1 - скачайте</h3>
+		<meta itemprop="name" content="скачайте программу" />
+		<div class="panel-body" itemprop="text">
+		<p><a href="https://microbt-whatsminer.com/tools-download/">Скачайте программу с официального сайта whatsminer</a>. Либо с сайта Support center - <a href="https://thanosmining.com/blog/whatsminer-tools-and-firmware-80">WhatsMiner tools and firmware</a>
+		<a href="/assets/images/tools/whatsminertool/whatsminertool_download.webp" class="image-popup"> <img src="/assets/images/tools/whatsminertool/whatsminertool_download.webp" alt="whatsminertool download" /> </a>
+		</p>
+		<p>Извлеките архив WhatsMinerTool.zip и запустите исполняемый файл для Windows. Он называется <code>WhatsMinerTool.exe</code>.</p>
+		<a href="/assets/images/tools/whatsminertool/whatsminertool_files.webp" class="image-popup"> <img src="/assets/images/tools/whatsminertool/whatsminertool_files.webp" alt="whatsminertool files" /> </a>
+		</div>
+	</div>
+
+	<div class="panel panel-default" id="step2" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
+	<link itemprop="url" href="#step2" />
+	<meta itemprop="image" content="/assets/images/og.webp" />
+		<h3 class="panel-title" id="Шаг 2 - запустите поиск IP">Шаг 2 - запустите поиск IP</h3>
+		<meta itemprop="name" content="Запустите" />
+		<div class="panel-body" itemprop="text">
+		<div>
+<p>Откройте инструмент WhatsMiner Tool, нажмите <code>IP Monitor</code>, нажмите <code>Start</code>.</p>
+
+<a href="/assets/images/tools/whatsminertool/ru/ip_monitor.webp" class="image-popup"> <img src="/assets/images/tools/whatsminertool/ru/ip_monitor.webp" alt="поиск IP асика" /> </a>
+
+<p>Нажмите кнопку <code>IP-found</code> <b>на асике</b> и удерживайте ее в течение двух-трех секунд. Вы увидите IP устройства в окне программы.</p>
+
+<a href="/assets/images/tools/whatsminertool/ru/ip_found.webp" class="image-popup"> <img src="/assets/images/tools/whatsminertool/ru/ip_found.webp" alt="ip found" /> </a>
+
+<p>В окне <code>Detect and Bind IP</code> вы увидите найденный Ip адрес:</p>
+
+<a href="/assets/images/tools/whatsminertool/ru/ip_asic.webp" class="image-popup"> <img src="/assets/images/tools/whatsminertool/ru/ip_asic.webp" alt="Detect and Bind IP" /> </a>
+
+<p>Обратите внимание на графу Source IP (например, 192.168.88.96) — этот адрес необходимо скопировать.</p>
+<p>По умолчанию программное обеспечение находится в диапазоне IP-адресов от 192.168.2.1 до 255.</p>
+<p>Затем нажмите <code>Miner IP</code>.  Вы можете добавить конкретный адрес для мониторинга этой машины или диапазон ip-адресов для мониторинга группы машин.</p>
+
+
+<a href="/assets/images/tools/whatsminertool/ru/miner_ip.webp" class="image-popup"> <img src="/assets/images/tools/whatsminertool/ru/miner_ip.webp" alt="asic miner ip" /> </a>
+
+<p>Во вкладке <code>Miner IP Management</code> можно добавить диапазон IP, сделать импорт адресов, указать комментарий и отметить галочкой нужные адреса.</p>
+		</div>
+		</div>
+	</div>
+
+
+	<div class="panel panel-default" id="step3" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
+	<link itemprop="url" href="/#step3" />
+	<meta itemprop="image" content="/assets/images/og.jpg" />
+	<h3 class="panel-title" id="Шаг 3 - добавьте пулы">Шаг 3 - добавьте пулы</h3>
+	<meta itemprop="name" content="добавьте пулы" />
+	<div class="panel-body" itemprop="text">
+	
+<p>Нажмите кнопку <code>Pools</code>, чтобы добавить пулы майнинга. Здесь <code>worker</code> означает вашу учетную запись пула.  Лучше добавить как минимум два пула:</p>
+
+<a href="/assets/images/tools/whatsminertool/ru/pools.webp" class="image-popup"> <img src="/assets/images/tools/whatsminertool/ru/pools.webp" alt="asic miner pools" /> </a>
+
+<p>Нажмите кнопку "Start". Появится вкладка <code>Monitoring</code>. Здесь отображается хешрейт всех найденных устройств:</p>
+
+<a href="/assets/images/tools/whatsminertool/ru/hashrate.webp" class="image-popup"> <img src="/assets/images/tools/whatsminertool/ru/hashrate.webp" alt="hashrate" /> </a>
+<p>Скорость хеширования может колебаться, но она станет стабильной после работы около 30 минут.</p>
+
+<p>Посмотрите видео гайд:</p>
+
+
+	</div>
+	</div>
+<div class="panel panel-default" id="videoguide" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
+	<link itemprop="url" href="/#videoguide" />
+	<meta itemprop="image" content="/assets/images/og.webp" />
+	<div class="panel-body">
+	<meta itemprop="text" content="Как настроить асик WhatsMiner с помощью WhatsMiner tool" />
+<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+<span itemprop="name" class="bold">Как настроить асик WhatsMiner с помощью WhatsMiner tool</span>
+<meta itemprop="duration" content="PT1M33S" />
+<meta itemprop="uploadDate" content="2023-04-06T06:49:21Z" />
+<meta itemprop="thumbnailURL" content="https://lh3.googleusercontent.com/drive-viewer/AAOQEOTPYGLMPd9y5ha54Nyvd1PUivoZmY4cM7El_AQm6lQWQTOeQ1JjSBZb6_IEUCrJBJpW1J3pF5_iMk7j5yRlhdmPVHuZ5w=w1920-h1080-k-pd" />
+<meta itemprop="embedURL" content="https://drive.google.com/file/d/1wyIPXqdQaWeuOX9oZif1A_roc3ywA1Gt/preview" />
+<div id="schema-videoobject" class="video-container">
+<iframe class="video" width="853" height="480" src="https://drive.google.com/file/d/1wyIPXqdQaWeuOX9oZif1A_roc3ywA1Gt/preview" frameborder="0" allowfullscreen=""></iframe></div>
+<span itemprop="description">Это видео покажет вам, как настроить asicminer.</span>
+</div>
+</div>
+</div>
+</section>
+
+<p>&nbsp;</p>
+
+<p class="notice--success">Добавляйте MiningSoft.org в закладки чтобы получать актуальную информацию!</p>
+
+<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+<span itemprop="name" class="bold">WhatsMiner Tool - дополнительный мануал по быстрой настройке</span>
+<meta itemprop="duration" content="PT6M10S" />
+<meta itemprop="uploadDate" content="2020-09-11T06:56:09Z" />
+<meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/LfdASoCgVCU/default.jpg" />
+<meta itemprop="interactionCount" content="11230" />
+<meta itemprop="embedURL" content="https://youtube.googleapis.com/v/LfdASoCgVCU" />
+<div class="youtube-player" data-id="LfdASoCgVCU"></div>
+<span itemprop="description">Настройка Miner IP, конфигурации и обновления.</span>
+</div>
+
+<p>&nbsp;</p>
+
+<p>После того, как вы найдете IP-адрес майнера, вы можете начать этап настройки устройства.</p>
+
+<h2 id="прошивка">Прошивка</h2>
+
+<p>Прошивку WhatsMiner можно обновить как с помощью WhatsMiner Tool (WMT), так и с помощью SD-карты.</p>
+
+<p>Перед загрузкой и обновлением программного обеспечения устройств, обязательно следует убедиться в типе платы управления (основной платы) вашего устройства.</p>
+
+<p class="notice--danger"><strong>Внимание!</strong> Если в прошивке есть ошибка, обновление может не выполниться или у вашей платы управления могут возникнуть проблемы, которые в некоторых случаях крайне непросто устранить.</p>
+
+<p>Как определить тип платы управления майнером:</p>
+
+<p>Чтобы узнать тип управления платой через программное обеспечение Whatsminer Tools или панель устройства майнера - введите IP устройства в браузере. В раскрывающемся меню “Status” войдите в раздел “OverView”. Здесь будет отображена полная информация о вашем устройстве.</p>
+
+<figure><a href="/assets/images/tools/whatsminertool/control_board_type.webp" class="image-popup"> <img src="/assets/images/tools/whatsminertool/control_board_type.webp" alt="OverView" />
+<figcaption>Вкладка OverView и тип управления платой.</figcaption></a></figure>
+
+<p>Как вы можете видеть на скриншоте, на панели майнера отображается фраза <code class="language-plaintext highlighter-rouge">M21S.HB70.H3.</code> Вот что означает эта фраза:</p>
+
+<p class="notice--ya">Asic M21s версия 7.0 с платой управления H3</p>
+
+<p>Если эта фраза для вашего майнера выглядела бы так, <code class="language-plaintext highlighter-rouge">M21S.HB220.H6</code> то это означало бы, что:</p>
+
+<p class="notice--ya">Asic M21s версии 2.2 с платой управления H6</p>
+
+<p>Так же версия платы указана в утилите WhatsMinerTool, в колонке <code class="language-plaintext highlighter-rouge">Version Info</code>.</p>
+
+<p>Если вы хотите обновить свой майнер, вы должны сначала <a href="https://microbt-whatsminer.com/firmwares-download/">загрузить файл обновления прошивки майнера с веб-сайта WhatsMiner</a>, а затем обратиться к программному обеспечению «WhatsMiner Tools». Файл прошивки имеет расширение <code class="language-plaintext highlighter-rouge">.bin</code>.</p>
+
+<p>Чтобы обновить программное обеспечение, сначала нажмите на кнопку «Upgrade».</p>
+
+<figure><a href="/assets/images/tools/whatsminertool/ru/upgrade.webp" class="image-popup"> <img src="/assets/images/tools/whatsminertool/ru/upgrade.webp" alt="upgrade" />
+<figcaption>Вкладка "Обновление" для прошивки асиков.</figcaption></a></figure>
+
+<ol>
+  <li>На этом этапе вы должны выбрать ip устройств, которые хотите обновить.</li>
+  <li>Выбрать файл обновления, нажав кнопку <code class="language-plaintext highlighter-rouge">Select File</code>.</li>
+  <li>Нажать кнопку <code class="language-plaintext highlighter-rouge">Start Upgrade</code>.</li>
+</ol>
+
+<p>Вы можете так же нажать в утилите на кнопку “Firmware Download Link” чтобы перейти на официальный сайт для загрузки версий прошивок.</p>
+
+<p>После выбора файла обновления ничего делать не нужно. Вам нужно дождаться завершения процесса обновления майнера. Эти шаги занимают несколько минут.</p>
+
+<p class="notice--danger">Не выключайте устройство в процессе прошивки, иначе майнер может выйти из строя!<br />
+Во время обновления устройство может перезагрузиться!</p>
+
+<p class="notice--success">После завершения процесса обновления вы можете снова начать <a href="/ru/articles/mining/">майнинг</a> желаемой <a href="/ru/articles/cryptocurrency/">цифровой валюты</a>.</p>
+
+<p>В строке с выбранным майнером в графе “Status” будет отображаться ход выполнения операции:</p>
+<ul>
+  <li>Transferring,</li>
+  <li>Upgrading</li>
+  <li>Success</li>
+</ul>
+
+<p>Через некоторое время статус сменится на <code class="language-plaintext highlighter-rouge">Running</code> (обычный режим работы).</p>
+
+<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+<span itemprop="name" class="bold">Прошивка аcика Whatsminer без DevFee</span>
+<meta itemprop="duration" content="PT25M2S" />
+<meta itemprop="uploadDate" content="2023-02-20T14:43:12Z" />
+<meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/46zp5_kDYEI/default.jpg" />
+<meta itemprop="interactionCount" content="2076" />
+<meta itemprop="embedURL" content="https://youtube.googleapis.com/v/46zp5_kDYEI" />
+<div class="youtube-player" data-id="46zp5_kDYEI"></div>
+<span itemprop="description">Прошивка аcика Whatsminer через SD накопитель. </span>
+</div>
+
+<p>Здесь вы найдете мануал <a href="https://aws-microbt-com-bucket.s3.us-west-2.amazonaws.com/WhatsMinerTool%20Operating%20GuideV8.1.34.pdf">WhatsMinerTool OperationGuide</a></p>
+
+<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+<span itemprop="name" class="bold">Руководство по эксплуатации WhatsMinerTool：Обновление прошивки</span>
+<meta itemprop="duration" content="PT1M33S" />
+<meta itemprop="uploadDate" content="2023-04-06T06:49:21Z" />
+<meta itemprop="thumbnailURL" content="https://drive.google.com/file/d/17zQKYnwzMLW8frZel0lXXZbgx7fOPJIS/view?usp=share_link" />
+<meta itemprop="embedURL" content="https://drive.google.com/file/d/1olnULXcKpZj_ORyaeeOj6sSd110Y0pPM/preview" />
+<div id="schema-videoobject" class="video-container">
+<iframe class="video" width="853" height="480" src="https://drive.google.com/file/d/1olnULXcKpZj_ORyaeeOj6sSd110Y0pPM/preview" frameborder="0" allowfullscreen=""></iframe></div>
+<span itemprop="description">Смотрите руководство по эксплуатации WhatsMinerTool：Обновление прошивки</span>
+</div>
+
+<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+<span itemprop="name" class="bold">Прошиваем асик Whatsminer с помощью SD карты за несколько минут. Как прошить любой майнер от MicroBT?</span>
+<meta itemprop="duration" content="PT3M17S" />
+<meta itemprop="uploadDate" content="2023-03-23T16:00:19Z" />
+<meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/YizB7WqedgU/default.jpg" />
+<meta itemprop="interactionCount" content="2067" />
+<meta itemprop="embedURL" content="https://youtube.googleapis.com/v/YizB7WqedgU" />
+<div class="youtube-player" data-id="YizB7WqedgU"></div>
+<span itemprop="description">Как прошить любой Whatsminer за 3 минуты.</span>
+</div>
+
+<h2 id="настройки">Настройки</h2>
+
+<h3 id="ip-импорт">IP-импорт</h3>
+
+<p>Также можно импортировать IP-адрес из текстового файла, нажав кнопку «IP Import».
+Формат <code class="language-plaintext highlighter-rouge">.txt</code> файла таков, что в каждой строке помещается один IP-адрес.</p>
+
+<figure><a href="/assets/images/tools/whatsminertool/ip_import.webp" class="image-popup"> <img src="/assets/images/tools/whatsminertool/ip_import.webp" alt="ip import" />
+<figcaption>Импорт списка IP.</figcaption></a></figure>
+
+<p>Пример файла IP.txt:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>192.168.1.1
+192.168.1.2
+192.168.1.3
+</code></pre></div></div>
+
+<h3 id="экспорт">Экспорт</h3>
+
+<p>Можно сохранить данные текущей страницы в виде <code class="language-plaintext highlighter-rouge">.csv</code> файла, где каждый столбец разделен знаком (‘;’). Вы можете передавать данные в Excel и редактировать их.</p>
+
+<figure><a href="/assets/images/tools/whatsminertool/export.webp" class="image-popup"> <img src="/assets/images/tools/whatsminertool/export.webp" alt="export" />
+<figcaption>Экспорт данных.</figcaption></a></figure>
+
+<h3 id="удаленное-управление">Удаленное управление</h3>
+
+<p>Включение «Удаленного управления» позволяет полностью контролировать майнеры удаленно. Для этого выберите свой майнер в списке, нажмите кнопку «Remote Ctrl» и включите API. Вам также нужно будет включить «Power Fast Boot», чтобы майнер запускался быстро (важно, если вы занимаетесь майнингом).</p>
+
+<figure><a href="/assets/images/tools/whatsminertool/remote.webp" class="image-popup"> <img src="/assets/images/tools/whatsminertool/remote.webp" alt="remote control" />
+<figcaption>Удаленное управление.</figcaption></a></figure>
+
+<p>Здесь доступны следующие опции:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Reboot</code> - перезагрузить устройство.</li>
+  <li><code class="language-plaintext highlighter-rouge">Mining Control</code> -  начать/остановить майнинг.</li>
+  <li><code class="language-plaintext highlighter-rouge">Performance Mode</code> -  выбрать режим хешрейта
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">High</code> <code class="language-plaintext highlighter-rouge">Normal</code> и <code class="language-plaintext highlighter-rouge">Low</code>.</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">Fast Boot Switch</code> -  ускорить запуск.</li>
+  <li><code class="language-plaintext highlighter-rouge">Miner API Switch</code> -  использовать интерфейс API для получения различных состояний майнера и изменения параметров.</li>
+  <li><code class="language-plaintext highlighter-rouge">Restore DHCP</code> -  восстановить настройки динамического IP (DHCP).</li>
+  <li><code class="language-plaintext highlighter-rouge">Leds Control</code> -  определить местоположение майнера, подав световой сигнал.</li>
+  <li><code class="language-plaintext highlighter-rouge">Protection Mode</code> - режим SSH.</li>
+  <li><code class="language-plaintext highlighter-rouge">Restore Factory Setting</code> -  восстановить заводские настройки.</li>
+  <li><code class="language-plaintext highlighter-rouge">Adjust Freq</code> - управление разгоном майнера.</li>
+  <li><code class="language-plaintext highlighter-rouge">Export Log</code> - экспортировать журнал работы устройства. Лог включает файлы: <code class="language-plaintext highlighter-rouge">upfreq_test.log</code>, <code class="language-plaintext highlighter-rouge">power.log</code>, <code class="language-plaintext highlighter-rouge">Miner.log</code>, <code class="language-plaintext highlighter-rouge">system.log</code> и <code class="language-plaintext highlighter-rouge">api.log</code>.</li>
+  <li><code class="language-plaintext highlighter-rouge">Web Pools Switch</code> - настроить пулы через веб-страницу.</li>
+</ul>
+
+<h2 id="решение-ошибок">Решение ошибок</h2>
+
+<h3 id="не-видит-асик">Не видит асик</h3>
+
+<p>Попробуйте следующие шаги:</p>
+
+<ul>
+  <li>Переключите порт интернета, на котором стоит асик из 100 мегабит до 10.</li>
+  <li>Попробуйте другую версию приложения.</li>
+  <li>Смените роутер.</li>
+  <li>Если подключаете устройство напрямую к компьютеру, должна быть включена служба общего доступа к интернету. Тогда асик будет получать IP адрес от компьютера по DHCP.</li>
+</ul>
+
+<p>Так же проделайте следующие шаги:</p>
+
+<ol>
+  <li>Проверьте, находится ли работающий компьютер в той же сети, что и майнеры.</li>
+  <li>Проверьте состояние с помощью аварийного светодиода.
+    <ul>
+      <li>Сигнал сетевого порта: желтый всегда горит, зеленый мигает.</li>
+      <li>Перезапустите майнер и снова найдите IP-адрес.</li>
+      <li>Сбросьте майнер (нажмите кнопку «RESET» на 3 секунды, пока не замигает красно-зеленая лампочка). Затем снова найдите IP-адрес.</li>
+      <li>Замените плату управления майнером, чтобы определить, работает ли другая плата управления.</li>
+    </ul>
+  </li>
+  <li>Проверьте, включена ли функция DHCP маршрутизатора.</li>
+  <li>Разрешите устройству автоматически получать IP.</li>
+</ol>
+
+<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+<span itemprop="name" class="bold">WhatsMiner Common Error Code and Solutions</span>
+<meta itemprop="duration" content="PT2M5S" />
+<meta itemprop="uploadDate" content="2020-12-25T06:58:35Z" />
+<meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/D7oL1qAMK-c/default.jpg" />
+<meta itemprop="interactionCount" content="14950" />
+<meta itemprop="embedURL" content="https://youtube.googleapis.com/v/D7oL1qAMK-c" />
+<div class="youtube-player" data-id="D7oL1qAMK-c"></div>
+<span itemprop="description">Например, когда вы получаете код ошибки 540 на одном устройстве, это означает, что хеш-плата SM0 не может нормально работать. Вы можете сделать так: выключите питание, поменяйте местами SM0 и SM2 хеш-платы, затем перезагрузите майнер, чтобы проверить, действительно ли плата плохая, если код ошибки изменился на 542, это означает, что хеш-плата имеет проблему, если код ошибки не изменился, то это означает, что пластина адаптера имеет проблемы.
+Наилучший результат заключается в том, что код ошибки исчез, это означает только проблему с подключением.</span>
+</div>
+
+<p>&nbsp;</p>
+
+<p>Если ничего не помогло - используйте альтернативные программы.</p>
+
+<h2 id="альтернативы">Альтернативы</h2>
+
+<p><a href="https://miningsoft.org/ru/tools/btc-tool/">BTC Tools</a>
+<a href="https://miningsoft.org/ru/tools/ip-reporter/">IP Reporter</a></p>
+
+<p>Для MAC устройств используйте ASIC Hub.</p>
+
+<p><a href="https://foreman.mn/">Foreman</a> обладает всеми возможностями WhatsminerTool, а также позволяет управлять каждым майнером.</p>
+
+<p>Fing - мощный сетевой сканер с хорошим функционалом.</p>
+
+<h3 id="веб-версия-в-браузере">Веб версия в браузере</h3>
+
+<p>Вы можете производить настройки в веб версии прямо в браузере.</p>
+
+<p>Для первоначальной настройки просто запустите интернет-браузер (например, Chrome) и введите IP-адрес майнера.</p>
+
+<p>Если вы введете адрес правильно, вам будет показана страница, подобная приведенной ниже, и вам будет предложено ввести имя пользователя и пароль. Имя пользователя и пароль на устройствах Whatsminer по умолчанию «root».</p>
+
+<figure><a href="/assets/images/tools/whatsminertool/authorization.webp" class="image-popup"> <img src="/assets/images/tools/whatsminertool/authorization.webp" alt="web authorization" />
+<figcaption>Авторизация в Хроме.</figcaption></a></figure>
+
+<p>Сначала войдите на страницу настроек майнера и перейдите в раздел «CGMiner» с вкладки «Configuration».</p>
+
+<p>На этом шаге введите информацию о пуле, к которому вы хотите подключиться. Чтобы получить информацию о пуле, вам следует посетить веб-сайт желаемого пула.</p>
+
+<figure><a href="/assets/images/tools/whatsminertool/configuration.webp" class="image-popup"> <img src="/assets/images/tools/whatsminertool/configuration.webp" alt="Конфигурация" />
+<figcaption>Конфигурация.</figcaption></a></figure>
+
+<h2 id="ssh">SSH</h2>
+
+<p>Чтобы включить SSH, необходимо в окне <code class="language-plaintext highlighter-rouge">Remote Ctrl</code> включить Protection Mode.</p>
+
+<p>В ранних версиях утилиты была настройка <code class="language-plaintext highlighter-rouge">Enable SSH</code>. В новых версиях она отсутствует. Дело в том, что новые модели асиков  поставляются с отключенным SSH по умолчанию, поэтому маловероятно, что вы получите доступ по SSH к ним.</p>
+
+<p class="notice--danger">Когда SSH включен, возникает проблема безопасности.</p>
+
+<p>Большинство вирусов и хакерских атак происходит через SSH, поэтому большинство производителей начали отключать SSH, чтобы оказывать меньшую поддержку своим клиентам / жертвам SSH взломов.</p>
+
+<p><a href="/assets/images/mining/mining_rig_1934.jpg" class="image-popup"> <img src="/assets/images/mining/mining_rig_1934.jpg" alt="ферма асиков" /> </a></p>
+
+<h2 id="выводы">Выводы</h2>
+
+<p>WMT имеет следующие функции:</p>
+<ol>
+  <li>Возможность просмотра списка устройств Whatsminer в режиме реального времени.</li>
+  <li>Возможность установить диапазон IP для просмотра майнеров.</li>
+  <li>Возможность обновления прошивки (программного обеспечения) устройств.</li>
+  <li>Возможность смены групп майнеров.</li>
+  <li>Возможность групповой смены пароля всех майнеров одновременно для большей безопасности.</li>
+</ol>
+
+<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+<span itemprop="name" class="bold">Обзор и доход Microbt whatsminer m30s++ 108th</span>
+<meta itemprop="duration" content="PT13M25S" />
+<meta itemprop="uploadDate" content="2022-11-28T18:52:47Z" />
+<meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/0WxUD08eNA0/default.jpg" />
+<meta itemprop="interactionCount" content="7887" />
+<meta itemprop="embedURL" content="https://youtube.googleapis.com/v/0WxUD08eNA0" />
+<div class="youtube-player" data-id="0WxUD08eNA0"></div>
+<span itemprop="description">Microbt whatsminer m30s++ 108th краткий обзор и подключение асика. Сравниваем с Whatsminer M30S+ 104TH.</span>
+</div>
+
+<h2 id="релизы-и-версии">Релизы и версии</h2>
+
+<p><a href="https://www.whatsminerm50.com/wp-content/uploads/2023/01/WhatsMinerTool-8.1.34.zip">WhatsMinerTool-8.1.34.zip</a></p>
+
+<ul>
+  <li>Для мониторинга и обновления прошивки новому WhatsMiner требуется эта версия инструмента.</li>
+  <li>Серии M5x и M3x — единственные, которые могут поддерживать режим High и требуют входного напряжения более 230 В. Некоторые функции могут поддерживаться только новой прошивкой.</li>
+  <li>Инструмент имеет функцию ограничения мощности, которую можно установить вручную.</li>
+  <li>Поддерживаются прокси-серверы с несколькими DNS.</li>
+  <li>Совместимость и стабильность инструмента были улучшены, а проблема, обнаруженная антивирусным программным обеспечением, была решена.</li>
+</ul>
+
+<p>Старые версии программы:</p>
+
+<p><a href="https://aws-microbt-com-bucket.s3.us-west-2.amazonaws.com/WhatsMinerTool-8.1.30.zip">8.1.30</a></p>
+
+<p><a href="https://petahash.ru/uploads/asic/tools/microbt/WhatsMinerTool-8.0.7-EN.zip">8.0.7</a></p>
+
+<p><a href="http://whatsminertool-factory.whatsminer.com:8880/whatsminertool/WhatsMinerTool-Factory-8.1.17.exe">8.1.17</a></p>
+
+<p><a href="http://whatsminertool-factory.whatsminer.com:8880/whatsminertool/WhatsMinerTool-Factory-8.1.16.exe">8.1.16</a></p>
+
+<p><a href="http://whatsminertool-factory.whatsminer.com:8880/whatsminertool/WhatsMinerTool-Factory-8.1.9.exe">8.1.9</a></p>
+
+<p><a href="http://whatsminertool-factory.whatsminer.com:8880/whatsminertool/WhatsMinerTool-Factory-8.1.18.exe">8.1.18</a></p>
+
+<p><a href="http://whatsminertool-factory.whatsminer.com:8880/whatsminertool/WhatsMinerTool-Factory-8.1.19.exe">8.1.19</a></p>
+
+<p><a href="http://whatsminertool-factory.whatsminer.com:8880/whatsminertool/WhatsMinerTool-Factory-8.1.20.exe">8.1.20</a></p>
+
+<p><a href="http://whatsminertool-factory.whatsminer.com:8880/whatsminertool/WhatsMinerTool-Factory-8.1.21.exe">8.1.21</a></p>
+
+<p><a href="http://whatsminertool-factory.whatsminer.com:8880/whatsminertool/WhatsMinerTool-Factory-8.1.22.exe">8.1.22</a></p>
+
+<p><a href="http://whatsminertool-factory.whatsminer.com:8880/whatsminertool/WhatsMinerTool-Factory-8.1.23.exe">8.1.23</a></p>
+
+<p><a href="http://whatsminertool-factory.whatsminer.com:8880/whatsminertool/WhatsMinerTool-Factory-8.1.24.exe">8.1.24</a></p>
+
+<p><a href="http://whatsminertool-factory.whatsminer.com:8880/whatsminertool/WhatsMinerTool-Factory-8.1.25.exe">8.1.25</a></p>
+
+<p><a href="http://whatsminertool-factory.whatsminer.com:8880/whatsminertool/WhatsMinerTool-Factory-8.1.28.exe">8.1.28</a></p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p><a href="https://microbt-whatsminer.com/">WhatsMiner - Official Website</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Matthew Wood</name></author><category term="tools" /><summary type="html"><![CDATA[WhatsMiner tool: как использовать - пользовательское руководство. Полный набор инструкций по настройке и обновлению WhatsMiner tool v8.1.34 и более ранним версиям.]]></summary></entry><entry xml:lang="ru"><title type="html">Что такое криптовалюта? Простыми словами (2023)</title><link href="https://miningsoft.org/ru/articles/cryptocurrency/" rel="alternate" type="text/html" title="Что такое криптовалюта? Простыми словами (2023)" /><published>2023-02-22T00:00:00-04:00</published><updated>2023-02-22T00:00:00-04:00</updated><id>https://miningsoft.org/ru/articles/cryptocurrency</id><content type="html" xml:base="https://miningsoft.org/ru/articles/cryptocurrency/"><![CDATA[<div class="paper btc">
   <div class="pattern">
     <div class="note-cont">
       Криптовалюта: что такое, как работает и зачем нужна?
@@ -2737,415 +3234,4 @@ pause</code></p>
 
 <h2 id="сложность">Сложность</h2>
 
-<p>Сложность сети Ethereum PoW — задача, решаемая в <a href="/ru/articles/mining">майнинге</a>, для нахождения блока. Чем больше майнеров добывают Ethereum PoW, тем сложнее найти блок для вознаграждения. <a href="https://2miners.com/ru/ethw-network-difficulty">Отслеживать сложность</a> можно здесь.</p>]]></content><author><name>Matthew Wood</name></author><category term="guide" /><summary type="html"><![CDATA[Что такое EthereumPoW и как его майнить? В этом руководстве вы узнайте про ETHW - форк Ethereum для майнинга на видеокартах и асиках]]></summary></entry><entry xml:lang="ru"><title type="html">Как делать стейкинг Ethereum 2.0? Сколько можно заработать</title><link href="https://miningsoft.org/ru/guide/eth-staking/" rel="alternate" type="text/html" title="Как делать стейкинг Ethereum 2.0? Сколько можно заработать" /><published>2022-09-11T00:00:00-04:00</published><updated>2023-03-10T00:00:00-04:00</updated><id>https://miningsoft.org/ru/guide/eth-staking</id><content type="html" xml:base="https://miningsoft.org/ru/guide/eth-staking/"><![CDATA[<div class="paper wallet">
-  <div class="pattern">
-    <div class="note-cont">
-      Выгодно ли заниматься стейкингом и какова его доходность?
-    </div>
-  </div>
-</div>
-<p><em>В этом руководстве вы узнайте все подробности о стейкинге Ethereum и о том, какие криптобиржи и пулы его поддерживают.</em></p>
-
-<script async="" src="https://coinzillatag.com/lib/display.js"></script>
-
-<div class="coinzilla" data-zone="C-26960aca952082b4725"></div>
-<script>
-    window.coinzilla_display = window.coinzilla_display || [];
-    var c_display_preferences = {};
-    c_display_preferences.zone = "26960aca952082b4725";
-    c_display_preferences.width = "300";
-    c_display_preferences.height = "250";
-    coinzilla_display.push(c_display_preferences);
-</script>
-
-<p>&nbsp;</p>
-
-<p class="notice--info">Процесс <a href="/ru/guide/merge/">обновления Ethereum Merge или Ethereum 2.0</a> описывает переход ETH на новый алгоритм. Новые блоки блокчейна можно уже не майнить, а создавать по специальному контракту стейкинга.</p>
-
-<p>Упрощенно, стейкинг - это банковский депозит под проценты. Пользователь переводит средства на счет, хранит их и получает за это пассивный доход. Чем больше средств на счету, тем выше заработок. Однако и чем больше участников, тем меньше доход.</p>
-
-<p><a href="/assets/images/guide/eth_staking/eth_21.png" class="image-popup"> <img src="/assets/images/guide/eth_staking/eth_21.png" alt="eth_staking" /> </a></p>
-
-<div class="imgcen">
-<iframe class="your-ad-position-style" src="https://mat.cryptox-ads.io/cxAdsAssets/banner-basic-v0.11/index.html?size=300*250&amp;app_id=10905748&amp;placement_id=20003615" loading="lazy" style="border:0;width:300px; height:250px"></iframe>
-</div>
-
-<p>Кратко резюмируем основные определения, чтобы стать экспертом в этом и выбрать наименее рискованный способ стейкинга:</p>
-
-<dl>
-  <dt>Стейкинг<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></dt>
-  <dd>это размещение крипто-токенов, использующихся в процессе добычи новых монет. Как пользователь, вы сохраняете свои крипто-токены, но назначаете их стейкинг-узлу, принимающему участие в проверке транзакций в сети. Вы становитесь валидатором.</dd>
-  <dt>Валидаторы<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></dt>
-  <dd>это узлы блокчейна, поддерживающие его работу. Они отвечают за подтверждение и проверку транзакций, их регистрацию и добавление новых блоков. Проще говоря, валидаторы — это держатели криптовалюты, со специальным программным обеспечением, установленном на компьютере (ноде).</dd>
-  <dt>Ноды (узлы)<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup></dt>
-  <dd>это компьютеры, на которых запущена программа (например, кошелек Ethereum). Ноды связаны с другими компьютерами (с той же установленной программой) для создания криптовалютной сети.</dd>
-</dl>
-
-<h2 id="хорошие-и-плохие-способы-риски">Хорошие и плохие способы, риски</h2>
-
-<p><a href="/assets/images/guide/eth_staking/methods.png" class="image-popup"> <img src="/assets/images/guide/eth_staking/methods.png" alt="methods" /> </a></p>
-
-<p>Существует 4 способа, чтобы начать стейкинг:</p>
-<ol>
-  <li>Соло стейкинг (на вашем ПК). <span class="green">Безопасно</span> потому, что вы сами контролируете свои средства. Но <span class="red">не просто</span> настроить собственную ноду. Вы не делитесь наградами с другими сервисами.</li>
-  <li>Стейкинг как услуга. <span class="yel">Относительно безопасно</span>. Нужно доверять стороннему оператору ноды и отдавать процент за обслуживание. Средняя сложность настройки потому, что нода уже настроена оператором сервиса.</li>
-  <li>Стейкинг в пуле. <span class="yel">Относительно безопасно</span>. Нужно доверять владельцам стороннего пула и отдавать процент оператору пула. Однако можно размещать менее 32 монет.</li>
-  <li>Стейкинг на биржах. <span class="red">Не безопасно</span>. Биржи часто взламывают. Так же биржи могут заморозить средства. Можно размещать менее 32 монет. Крайне легко настроить.</li>
-</ol>
-
-<p>Когда мы разобрались с основными тезисами, можно переходить к практике. Но сначала посмотрим на доходность.</p>
-
-<h2 id="доходность">Доходность</h2>
-
-<p>Доходность можно узнать на официальном сайте Ethereum<sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote" rel="footnote">4</a></sup>. Показатель <code class="language-plaintext highlighter-rouge">CURRENT APR</code> означает годовой доход в процентах.</p>
-
-<p><a href="/assets/images/guide/eth_staking/rewards.png" class="image-popup"> <img src="/assets/images/guide/eth_staking/rewards.png" alt="rewards" /> </a></p>
-
-<p>Выгодно заниматься стейкингом или нет определяется количеством монет, участвующих в валидации - показателем <code class="language-plaintext highlighter-rouge">TOTAL ETH STAKED</code>. Простыми словами, доход зависит от того, сколько стейкеров внесут депозит в размере 32 ETH. Это определяет возможную комиссию, которую получает валидатор.</p>
-
-<h3 id="пример-расчета">Пример расчета</h3>
-
-<p>Рассчитаем какую прибыль приносит стейкинг в ETH 2.0.</p>
-
-<p class="notice--ya">Если в стейкинге участвует только 1 миллион ETH, то вы будете вознаграждены примерно 5,76 ETH в год (соответствует доходности 18,1%).<br />
-Но если в валидации будет участвовать 30 миллионов ETH, то доход составит около 1 ETH (3,3%) в год.</p>
-
-<p>Итого, если около одного миллиона пользователей ETH подтвердят валидацию, годовой доход составит около 18,1%, а при 30 миллионах ETH — всего 3,3%.</p>
-
-<p><a href="/assets/images/guide/eth_staking/stakefish.png" class="image-popup"> <img src="/assets/images/guide/eth_staking/stakefish.png" alt="stakefish" /> </a></p>
-
-<p>Поскольку фактическая доходность зависит от факторов, упомянутых выше, она также будет сильно варьироваться в ближайшие месяцы. Однако можно ожидать прибыль от 3 до 7 процентов ETH.</p>
-
-<p class="notice--danger">Также важно знать, что пока еще нет возможности вывести свои депозиты или прибыль. Это станет возможным только после <a href="/ru/guide/merge/">полной реализации Ethereum 2.0</a>, которая ожидается не раньше конца 2022 года.</p>
-
-<h3 id="калькуляторы">Калькуляторы</h3>
-
-<p>В Интернете есть различные калькуляторы, которые показывают возможную доходность.</p>
-
-<p class="notice--success">Список онлайн калькуляторов:<br />
-<i class="fa fa-calculator"></i> <a href="https://www.stakingrewards.com/earn/ethereum-2-0/">stakingrewards.com</a><br />
-<i class="fa fa-calculator"></i> <a href="https://beaconscan.com/staking-calculator">beaconscan.com</a><br />
-<i class="fa fa-calculator"></i> <a href="https://ethereumprice.org/eth-2-calculator/">ethereumprice.org</a><br />
-<i class="fa fa-calculator"></i> <a href="https://ethscan.org/calculator">ethscan.org</a> <br />
-<i class="fa fa-calculator"></i> <a href="https://walletburst.com/tools/ethereum-staking-calculator/">walletburst.com</a></p>
-
-<p>Подсчитайте, сколько вы можете заработать. Результаты варьируются в зависимости от выбранной суммы, срока и типа ставок.</p>
-
-<p><a href="/assets/images/guide/eth_staking/stakingrewards.png" class="image-popup"> <img src="/assets/images/guide/eth_staking/stakingrewards.png" alt="stakingrewards" /> </a></p>
-
-<h2 id="системные-требования">Системные требования</h2>
-
-<p>Обычный ПК с низкими затратами на электроэнергию — это все, что вам нужно, чтобы сократить расходы и максимизировать доход. Не нужно покупать дорогостоящее аппаратное оборудование.</p>
-
-<p>Согласно Prysmatic Labs<sup id="fnref:5" role="doc-noteref"><a href="#fn:5" class="footnote" rel="footnote">5</a></sup>, минимальными требованиями будут:</p>
-
-<p class="notice--primary">Память: 4 ГБ ОЗУ.<br />
-Хранилище: 20 ГБ свободного места на SSD. <br />
-ОС: Linux, Mac OS X 10.14+ или Windows. 64 разрядные.<br />
-Процессор: Intel Core i5–760, AMD FX-8100 или лучше.</p>
-
-<ul>
-  <li>Стабильное интернет-соединение. Ваш компьютер должен быть в сети 24/7<sup id="fnref:6" role="doc-noteref"><a href="#fn:6" class="footnote" rel="footnote">6</a></sup>.</li>
-  <li>Для валидатора Ethereum требуется 32 Ethereum. Однако есть и другие способы, которые требуют меньшего количества ETH для участия в процессе стейкинга.</li>
-</ul>
-
-<p>Выше мы писали про 4 возможных способа стейкинга. Рассмотрим их все. Начнем с самого простого - стейкинга на бирже.</p>
-
-<section id="how-to-start" itemscope="itemscope" itemtype="http://schema.org/HowTo">
-<h2 itemprop="name" id="Как делать стейкинг в Ethereum 2.0?">Как делать стейкинг в Ethereum 2.0?</h2>
-	<div class="panel panel-default" id="step1" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
-	<link itemprop="url" href="#step1" />
-	<meta itemprop="image" content="/assets/images/og.png" />
-		<h3 class="panel-title" itemprop="name" id="1. Зарегистрируйтесь на бирже или любом другом сервисе">1. Зарегистрируйтесь на бирже или любом другом сервисе</h3>
-		<div class="panel-body" itemprop="text">
-
-<p>Чтобы делать стейкинг, вы должны сначала зарегистрироваться на платформе, торгующей Ethereum.  Это можно сделать с помощью <a href="https://cutt.ly/JCUFdpG">формы регистрации на сайте</a>. Заполните регистрационную форму, указав свой адрес электронной почты и безопасный пароль.</p>
-<figure><a href="/assets/images/exchanges/binance/signup.png" class="image-popup"> <img src="/assets/images/exchanges/binance/signup.png" alt="signup" /> <figcaption>Регистрация.</figcaption></a></figure>
-<p>Вам также необходимо будет согласиться с условиями обслуживания и политикой конфиденциальности. Затем учетная запись будет активирована путем подтверждения по ссылке, которую вы получите по электронной почте.</p>
-<p>Платформа требует верификации личности. Если вы не хотите загружать свои документы, то <a href="https://cutt.ly/OHhRaKi">зарегистрируйтесь на AAX платформе</a>.</p>
-<figure><a href="/assets/images/exchanges/aax/signup.png" class="image-popup"> <img src="/assets/images/exchanges/aax/signup.png" alt="signup" /> <figcaption>Регистрация.</figcaption></a></figure> 
-
-		</div>
-	</div>
-	
-	<div class="panel panel-default" id="step2" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
-	<link itemprop="url" href="#step2" />
-	<meta itemprop="image" content="/assets/images/og.png" />
-		<h3 class="panel-title" itemprop="name" id="2. Пополните торговый счет">2. Пополните торговый счет</h3>
-		<div class="panel-body" itemprop="text">
-		<div>
-<p>Далее необходимо пополнить свой счет. У большинства рекомендуемых нами провайдеров депозиты бесплатны и могут быть сделаны с использованием обычных методов — кредитных карт, переводов SEPA, мгновенных переводов и электронных кошельков.</p>	
-
-<p>Однако, прежде чем сделать это, вам необходимо знать, сколько фиатной валюты или других криптовалют вам потребуется для покупки эквивалентного количества Эфириума. Таким образом, вы рассчитываете сумму депозита.</p>
-<a href="/assets/images/guide/eth_staking/calc.png" class="image-popup"> <img src="/assets/images/guide/eth_staking/calc.png" alt="calc" /> </a>
-<p class="notice--primary">Для этого мы рекомендуем вам использовать <a href="https://ethereumprice.org/eth-2-calculator/">калькулятор ставок Ethereum 2.0</a>. Его можно использовать для расчета дохода, зависящего от количества поставленных токенов.</p>
-	
-</div>
-</div>
-	</div>
-	<div class="panel panel-default" id="step3" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
-	<link itemprop="url" href="/#step3" />
-	<meta itemprop="image" content="/assets/images/og.jpg" />
-	<h3 class="panel-title" itemprop="name" id="3. Переведите ETH в стейкинг кошелек">3. Переведите ETH в стейкинг кошелек</h3>
-	<div class="panel-body" itemprop="text">
-<p>Для этого откройте вкладку "Earn" и выберите <a href="https://www.binance.com/en/eth2">ETH 2.0</a>. После этого нажмите «Stake now», и вы сможете участвовать.</p>
-<a href="/assets/images/exchanges/binance/staking.png" class="image-popup"> <img src="/assets/images/exchanges/binance/staking.png" alt="staking" /></a>
-<p>Платформа начислит вам BETH — токенизированный актив, представляющий ваш ETH в стейкинге в соотношении 1:1. Binance начислит BETH на ваш спотовый аккаунт.</p>
-<p>После завершения первого этапа вы можете обменять свои BETH на ETH в соотношении 1:1 и получить сумму, равную текущей сумме BETH с процентами.</p>
-
-	</div>
-	</div>
-<div class="panel panel-default" id="videoguide" itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
-	<link itemprop="url" href="/#videoguide" />
-	<meta itemprop="image" content="/assets/images/og.png" />
-	<div class="panel-body">
-	<meta itemprop="text" content="Как стейкать ETH 2.0 на Binance от 0.1$. Что делать с BETH" />
-<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<span itemprop="name" class="bold">Как стейкать ETH 2.0 на Binance от 0.1$. Что делать с BETH</span>
-	<meta itemprop="duration" content="PT4M59S" />
-	<meta itemprop="uploadDate" content="2020-12-02T14:38:17Z" />
-	<meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/qvwme0WSbjw/default.jpg" />
-	<meta itemprop="interactionCount" content="38106" />
-	<meta itemprop="embedURL" content="https://youtube.googleapis.com/v/qvwme0WSbjw" />
-<div class="youtube-player" data-id="qvwme0WSbjw"></div>
-	<div itemprop="description"><p>Подробный гайд на тему ETH 2.0 на Binance. Вы узнаете, как фармить Эфириум 2.0 на бирже Бинанс и что делать с BETH, которые будут раздавать 1 к 1 за ваши Эфиры.</p>
-	<p class="notice--info"><a href="https://cutt.ly/ECSoMux">20% скидка на комиссию Binance</a>.</p></div>
-  </div>
-</div>
-</div>
-</section>
-
-<p>К другим способам стейкинга относятся сервисы, например, DeFi.</p>
-
-<h2 id="defi-и-сервисы">DeFi и сервисы</h2>
-
-<p><dfn>DeFi</dfn> - это традиционные финансовые инструменты, построенные на блокчейне, в частности на Ethereum<sup id="fnref:7" role="doc-noteref"><a href="#fn:7" class="footnote" rel="footnote">7</a></sup>.</p>
-
-<p>Если у вас уже есть собственный кошелек и, например, вы храните часть своих монет на MetaMask, то у вас есть возможность размещать Ethereum через провайдеров DeFi.</p>
-
-<p class="notice--success">Самый известный пример — <a href="https://lido.fi/">Lido Finance</a>.</p>
-
-<p>Провайдер DeFi позволяет вам максимально легко застейкать Ethereum, не пренебрегая идеей децентрализации.</p>
-
-<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<span itemprop="name" class="bold">Фиксированный и DeFi стейкинг на Binance Earn</span>
-<meta itemprop="duration" content="PT4M51S" />
-<meta itemprop="uploadDate" content="2021-12-29T15:30:15Z" />
-<meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/jPfBrdnbdq8/default.jpg" />
-<meta itemprop="interactionCount" content="11250" />
-<meta itemprop="embedURL" content="https://youtube.googleapis.com/v/jPfBrdnbdq8" />
-<div class="youtube-player" data-id="jPfBrdnbdq8"></div>
-<span itemprop="description">Фиксированный и DeFi стейкинг на Бинанс позволяет зарабатывать на большем количестве монет, нежели фиксированные депозиты. Однако есть некоторые нюансы. О них в этом видео.</span>
-</div>
-
-<h2 id="пулы">Пулы</h2>
-
-<p>Работа в пуле включает в себя стейкинг через централизованных онлайн-брокеров.</p>
-
-<p><a href="/assets/images/guide/eth_staking/pools.png" class="image-popup"> <img src="/assets/images/guide/eth_staking/pools.png" alt="pools" /> </a></p>
-
-<p>К самым крупным пулам относят следующий список:</p>
-
-<ul>
-  <li>Lido</li>
-  <li>Coinbase</li>
-  <li>Kraken</li>
-  <li>Binance</li>
-  <li>Staked.us</li>
-  <li>Whale 0x5d7</li>
-  <li>Bitcoin suisse</li>
-  <li>Stakefish</li>
-</ul>
-
-<p><a href="/assets/images/guide/eth_staking/pools_1.png" class="image-popup"> <img src="/assets/images/guide/eth_staking/pools_1.png" alt="pools_1" /> </a></p>
-
-<p>Однако для работы в некоторых пулах вам нужно будет внести 32 ETH. Другие же работают с депозитом от 0.01 ETH</p>
-
-<p><a href="/assets/images/guide/eth_staking/pools_2.png" class="image-popup"> <img src="/assets/images/guide/eth_staking/pools_2.png" alt="pools_2" /> </a></p>
-
-<p class="notice--primary">С полным списком пулом вы можете ознакомиться на сайте <a href="https://beaconcha.in/pools">beaconcha.in</a>.</p>
-
-<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<span itemprop="name" class="bold">ETH 2.0 стейкинг на пуле Ethermine. Каковы риски?</span>
-<meta itemprop="duration" content="PT6M9S" />
-<meta itemprop="uploadDate" content="2022-08-21T14:51:49Z" />
-<meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/3FAGRUX_KLw/default.jpg" />
-<meta itemprop="interactionCount" content="389" />
-<meta itemprop="embedURL" content="https://youtube.googleapis.com/v/3FAGRUX_KLw" />
-<div class="youtube-player" data-id="3FAGRUX_KLw"></div>
-<div itemprop="description"><p>В этом видеоролике говорим о стейкинге Эфириума на одном из самых крупных пулов - Ethermine. Стоит ли вообще входить в стейкинг решать конечно Вам. Однако некоторые моменты при регистрации и изучении темы, откровенно говоря не очень нравятся.</p>
-</div>
-</div>
-
-<h2 id="самостоятельный-запуск-ноды">Самостоятельный запуск ноды</h2>
-
-<p>Если у вас есть 32 ETH, вы также можете самостоятельно участвовать в валидации блоков. Однако для этого вам понадобится специальный «<a href="https://academy.binance.com/ru/articles/custodial-vs-non-custodial-wallets-what-s-the-difference">некастодиальный кошелек</a>».</p>
-
-<p class="notice--danger">Такая система слишком сложна для новичков, а инвестиции становятся слишком рискованными. Кроме того, если вы не держите значительное количество ETH, вероятность нахождения блока для проверки крайне мала. Учитывая все эти нюансы, в следующих статьях рассмотрим самостоятельный запуск ноды.</p>
-
-<p>Поэтому не забудьте добавить miningsoft.org в закладки!</p>
-
-<h2 id="риски">Риски</h2>
-
-<p><a href="/assets/images/guide/eth_staking/eth_9.jpg" class="image-popup"> <img src="/assets/images/guide/eth_staking/eth_9.jpg" alt="eth_9" /> </a></p>
-
-<p>Как упоминалось ранее, для работы валидатора требуется неограниченная доступность сети. На биржах и некоторых сервисах ETH должен храниться в <a href="https://bytwork.com/articles/kholodnyy-goryachiy-koshelek">горячем кошельке</a>, так как подтверждение права собственности должно быть предоставлено через Интернет в любое время.</p>
-
-<p class="notice--warning">Это считается потенциальным риском для атак. Валидатор обязуется хранить монеты от нескольких месяцев до нескольких лет. Если цена вырастет или упадет, валидаторы не смогут получить доступ к своему депозиту и продать ETH.</p>
-
-<p><a href="/assets/images/guide/eth_staking/hack_2.png" class="image-popup"> <img src="/assets/images/guide/eth_staking/hack_2.png" alt="hack" /> </a></p>
-
-<p class="notice--ya">В случае резкого падения цены полученная комиссия больше не сможет компенсировать какие-либо убытки, поэтому ставки превращаются в убыточный бизнес.</p>
-
-<p>Кроме потенциального убытка из-за временного падения цены, есть еще и риск утери депозита из-за нарушения правил.</p>
-
-<p>Валидаторы, не соблюдающие правила, могут быть оштрафованы<sup id="fnref:8" role="doc-noteref"><a href="#fn:8" class="footnote" rel="footnote">8</a></sup>. Стейкинг Ethereum 2.0 имеет 2 потенциальных штрафа:</p>
-
-<ol>
-  <li>Уменьшение вознаграждения.</li>
-  <li>Частичная потеря депозита.</li>
-</ol>
-
-<p>Уменьшение вознаграждения происходит даже при незначительных нарушениях. Например, если невозможно соединиться с валидатором по сети. Частичная потеря депозита обычно грозит только в случае серьезных нарушений.</p>
-
-<p>Эти риски включают в себя постоянную генерацию “плохих” блоков или небрежное дублирование транзакций.</p>
-
-<p><a href="/assets/images/guide/eth_staking/hack.png" class="image-popup"> <img src="/assets/images/guide/eth_staking/hack.png" alt="hack" /> </a></p>
-
-<p>Более того, есть еще одна опасность, в основном на начальном этапе Ethereum 2.0. Нет абсолютной уверенности в том, что новые протоколы будут безопасными, безошибочными и защищенными от хакеров смарт-контрактами.</p>
-
-<p>Чтобы свести этот риск к минимуму, разработчики Ethereum Foundation несколько раз проверяли свой код экспертами. Важные компоненты также прошли обширную фазу испытаний.</p>
-
-<h2 id="плюсы-и-минусы">Плюсы и минусы</h2>
-
-<p>Пришло время решить, стейкинг - это хорошо или плохо?</p>
-
-<div class="notice--success">
-  <p><i class="fa fa-check-circle"></i> <b>Преимущества</b>:</p>
-  <ul>
-    <li>Вознаграждение - от 3% до 15% годовых</li>
-    <li>Идеально подходит для долгосрочных стратегий HODL<sup id="fnref:9" role="doc-noteref"><a href="#fn:9" class="footnote" rel="footnote">9</a></sup></li>
-    <li>Можно стартовать с небольшим депозитом</li>
-  </ul>
-</div>
-
-<div class="notice--danger">
-  <p><i class="fa fa-times-circle"></i> <b>Недостатки</b>:</p>
-  <ul>
-    <li>Не простой процесс, особенно запуска собственной ноды</li>
-    <li>Штрафы сети</li>
-    <li>Необходимость доверия третьим сторонам, если стейкинг идет через биржи</li>
-  </ul>
-
-</div>
-
-<h2 id="часто-задаваемые-вопросы">Часто задаваемые вопросы</h2>
-
-<div class="schema-faq-code" itemscope="" itemtype="https://schema.org/FAQPage">
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <h3 itemprop="name" class="faq-q" id="Откуда берется доход?">Откуда берется доход?</h3>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">Валидаторы собирают комиссию с тех, кто выполняет транзакции в блокчейне. </p>
-        </div>
-    </div>
-
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <h3 itemprop="name" class="faq-q" id="Сколько можно заработать?">Сколько можно заработать?</h3>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">Как и в случае любых инвестиций, стейкинг предлагает перспективу прибыли. Однако это всегда зависит от крипто-брокера, которого вы в конечном итоге выберете.</p>
-        </div>
-    </div>
-
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <h3 itemprop="name" class="faq-q" id="Сколько нужно монет?">Сколько нужно монет?</h3>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">Объем нужных активов зависит от сервиса. В зависимости от онлайн-брокера вы можете участвовать в стейкинге с минимумом от 0,1 ETH.</p>
-        </div>
-    </div>
-
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <h3 itemprop="name" class="faq-q" id="Можно ли вывести поставленный ETH?">Можно ли вывести поставленный ETH?</h3>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">В зависимости от провайдера вы можете вывести ETH из стейкинга, но тогда вам придется ожидать потери полученных вознаграждений.</p>
-        </div>
-    </div>
-
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <h3 itemprop="name" class="faq-q" id="Можно ли потерять поставленный ETH?">Можно ли потерять поставленный ETH?</h3>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">Да можно. Из-за ошибок сети, взломов и скамов бирж.</p>
-        </div>
-    </div>    
-	<div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <h3 itemprop="name" class="faq-q" id="Как долго ETH будет находиться в стейкинге??">Как долго ETH будет находиться в стейкинге?</h3>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">
-Вы не сможете снимать и обменивать вознаграждения, которые вы зарабатываете с помощью стейкинга, до тех пор, пока не будет завершено обновление Ethereum 2.0. Оно должно произойти в конце 2022 и завершиться в начале 2023 года.</p>
-        </div>
-    </div>
-</div>
-
-<h2 id="имеет-ли-смысл-стейкинг">Имеет ли смысл стейкинг?</h2>
-
-<p>Инвестиции в стейкинг могут подойти тем инвесторам, которые ищут разумную инвестиционную стратегию на среднесрочную или долгосрочную перспективу. Эти инвесторы могут извлечь выгоду из хорошей прибыли, сравнимой с дивидендами.</p>
-
-<p>Для этого вида инвестиций, как и для большинства других, обязательным условием получения прибыли является положительное изменение цены актива. Однако вам также необходимо принять на себя риски, которые может вызвать падение цены токена.</p>
-
-<p><a href="/assets/images/guide/eth_staking/eth_10.webp" class="image-popup"> <img src="/assets/images/guide/eth_staking/eth_10.webp" alt="eth_10" /> </a></p>
-
-<p>Мнение платформы coindesk:</p>
-<blockquote>
-  <p>Поддерживать узлы, кратные 32 ETH, и запускать их практически без простоев, в то время как активы заблокированы на несколько лет, - занятие не для всех.<sup id="fnref:10" role="doc-noteref"><a href="#fn:10" class="footnote" rel="footnote">10</a></sup></p>
-</blockquote>
-
-<p>С другой стороны, трейдеры, которые больше ориентированы на дневную торговлю или свинг-трейдинг, не найдут особо выгодным хранение монет в течение непредсказуемого периода времени. Ваша прибыль в основном определяется краткосрочными колебаниями цен.</p>
-
-<p class="notice--success">Тем не менее, стейкинг является отражением настоящей эволюции в сети блокчейнов. Разве вы не хотите быть частью этого и получать пользу одновременно?</p>
-
-<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<span itemprop="name" class="bold">Стейкинг ETH 2.0 VS Майнинг</span>
-<meta itemprop="duration" content="PT11M44S" />
-<meta itemprop="uploadDate" content="2021-11-09T05:00:15Z" />
-<meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/rx72jpOo15g/default.jpg" />
-<meta itemprop="interactionCount" content="7411" />
-<meta itemprop="embedURL" content="https://youtube.googleapis.com/v/rx72jpOo15g" />
-<div class="youtube-player" data-id="rx72jpOo15g"></div>
-<span itemprop="description">В этом видео мы расскажем что такое стейкинг криптовалюты- ведь это одна из возможностей работы с вашими намайнеными активами). А так же разберем на сколько это целесообразно. </span>
-</div>
-
-<p>Таким образом, стейкинг всегда полезен, если вы хотите вложить небольшие суммы в многообещающую инвестицию.</p>
-
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p><a href="https://bytwork.com/articles/staking">Что такое стейкинг</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:2" role="doc-endnote">
-      <p><a href="https://habr.com/ru/post/473174/">Что такое игра валидаторов или “как запустить proof-of-stake блокчейн”</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:3" role="doc-endnote">
-      <p><a href="https://bytwork.com/articles/nodes">Что такое ноды (узлы) в Ethereum и других криптовалютах?</a> <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:4" role="doc-endnote">
-      <p><a href="https://ethereum.org/ru/staking/">Доходность стейкинга Ethereum - ethereum.org</a> <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:5" role="doc-endnote">
-      <p><a href="https://medium.com/prysmatic-labs/introducing-topaz-testnet-8e8a4e00a700">System Requirements</a> <a href="#fnref:5" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:6" role="doc-endnote">
-      <p><a href="https://kb.beaconcha.in/staking-and-hardware">Стейкинг и оборудование - База знаний Ethereum 2.0</a> <a href="#fnref:6" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:7" role="doc-endnote">
-      <p><a href="https://bytwork.com/articles/defi">Что такое DeFi (Ethereum) в криптовалюте? (Decentralization Finance)</a> <a href="#fnref:7" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:8" role="doc-endnote">
-      <p><a href="https://notes.ethereum.org/@vbuterin/serenity_design_rationale">Slashing and anti-correlation penalties</a> <a href="#fnref:8" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:9" role="doc-endnote">
-      <p><a href="https://ru.wikipedia.org/wiki/Hodl">Что такое Hodl</a> <a href="#fnref:9" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:10" role="doc-endnote">
-      <p><a href="https://www.coindesk.com/tech/2020/11/06/to-stake-or-no-thats-the-eth-20-question/">To Stake or No? That’s the Eth 2.0 Question</a> <a href="#fnref:10" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="guide" /><summary type="html"><![CDATA[Выгодно ли заниматься стейкингом и какова его доходность? В этом руководстве вы узнайте все подробности о стейкинге Ethereum и о том, какие криптобиржи и пулы его поддерживают.]]></summary></entry></feed>
+<p>Сложность сети Ethereum PoW — задача, решаемая в <a href="/ru/articles/mining">майнинге</a>, для нахождения блока. Чем больше майнеров добывают Ethereum PoW, тем сложнее найти блок для вознаграждения. <a href="https://2miners.com/ru/ethw-network-difficulty">Отслеживать сложность</a> можно здесь.</p>]]></content><author><name>Matthew Wood</name></author><category term="guide" /><summary type="html"><![CDATA[Что такое EthereumPoW и как его майнить? В этом руководстве вы узнайте про ETHW - форк Ethereum для майнинга на видеокартах и асиках]]></summary></entry></feed>
