@@ -100,7 +100,7 @@
 <div class="page__inner-wrap"><section class="page__content" itemprop="text"><header><h1 id="page-title" class="page__title" itemprop="headline">SRBMiner multi: Download and configure for mining Ergo, Zil and other currencies</h1></header><aside class="sidebar__right sticky"><nav class="toc"><header><h4 class="nav__title"> <i class="fas fa-file-alt"></i> Contents</h4></header><ul class="toc__menu">
 <li><a href="#download-for-windows--linux">Download for Windows / Linux</a></li>
 <li><a href="#what-is-srbminer">What is SRBMiner?</a></li>
-<li><a href="#dual-mining">Dual mining</a></li>
+<li><a href="#supported-algorithms-and-fees">Supported algorithms and fees</a></li>
 <li><a href="#supported-devices">Supported devices</a></li>
 <li> <a href="#How%20to%20set%20up%20SRBMiner">How to set up SRBMiner</a><ul>
 <li><a href="#Step%201%20-%20Download%20the%20miner">Step 1 - Download the miner</a></li>
@@ -109,12 +109,11 @@
 <li><a href="#Video%20Guide">Video Guide</a></li>
 </ul>
 </li>
-<li><a href="#supported-algorithms-and-fees">Supported algorithms and fees</a></li>
 <li><a href="#setting-up-for-nicehash">Setting up for Nicehash</a></li>
 <li><a href="#How%20to%20enable%20Gpu%20boost">How to enable Gpu boost</a></li>
 <li><a href="#How%20to%20mine%20Monero%20-%20RandomX">How to mine Monero - RandomX</a></li>
 <li><a href="#command-line-arguments">Command line arguments</a></li>
-<li><a href="#dual-mining-1">Dual mining</a></li>
+<li><a href="#dual-mining">Dual mining</a></li>
 <li><a href="#conclusions">Conclusions</a></li>
 <li><a href="#alternatives">Alternatives</a></li>
 <li><a href="#releases-and-updates">Releases and updates</a></li>
@@ -126,7 +125,8 @@
 <section><h2 id="what-is-srbminer">What is SRBMiner?</h2>
 <div class="imgcen"> <iframe class="your-ad-position-style" src="https://mat.cryptox-ads.io/cxAdsAssets/banner-basic-v0.11/index.html?size=300*250&amp;app_id=10905748&amp;placement_id=20003615" loading="lazy" style="border:0;width:300px; height:250px" decoding="async"></iframe>
 </div>
-<p><dfn>SRBMiner</dfn> is a simple but highly functional software for Windows and Linux for mining cryptocurrencies based on the “kawpow” and “RandomX” algorithms. There are many different dual mining options and SRBMiner supports it!</p></section><table>
+<p><dfn>SRBMiner</dfn> is a simple but highly functional software for Windows and Linux for mining cryptocurrencies based on the “kawpow” and “RandomX” algorithms. There are many different dual mining options and SRBMiner supports it!</p></section><h2 id="supported-algorithms-and-fees">Supported algorithms and fees</h2>
+<table>
 <thead><tr>
 <th>Algorithm</th>
 <th>DevFee</th>
@@ -470,7 +470,7 @@
 </tr>
 </tbody>
 </table>
-<h2 id="dual-mining">Dual mining</h2>
+<p>Dual mining algorithms.</p>
 <p>Here’s a table listing the dual mineable algorithms along with their combinations:</p>
 <table>
 <thead><tr>
@@ -662,90 +662,6 @@
 </div>
 </div>
 </div></section><p>Mine on a processor? Read about <a href="/en/miners/xmrig/">setting up Xmrig miner</a> and <a href="/en/miners/cpuminer/">Cpuminer-Opt</a>.</p>
-<h2 id="supported-algorithms-and-fees">Supported algorithms and fees</h2>
-<div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">C</span> : <span class="kd">CPU</span>
-<span class="kd">A</span> : <span class="kd">AMD</span> <span class="kd">GPU</span>
-<span class="kd">N</span> : <span class="kd">NVIDIA</span> <span class="kd">GPU</span>
-<span class="kd">I</span> : <span class="kd">INTEL</span> <span class="kd">GPU</span>
-
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">argon2d_16000</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">argon2d_dynamic</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">argon2id_chukwa</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">argon2id_chukwa2</span>
-<span class="o">[</span><span class="m">1</span>.00<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="kd">N</span>  <span class="kd">I</span> <span class="o">]</span>   <span class="kd">autolykos2</span>
-<span class="o">[</span><span class="m">0</span>.00<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">blake2b</span>
-<span class="o">[</span><span class="m">0</span>.00<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">blake2s</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="kd">N</span>  <span class="kd">I</span> <span class="o">]</span>   <span class="kd">blake3_alephium</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="kd">N</span>  <span class="kd">I</span> <span class="o">]</span>   <span class="kd">blake3_ironfish</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="o">-</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">cpupower</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">cryptonight_ccx</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">cryptonight_gpu</span>
-<span class="o">[</span><span class="m">0</span>.00<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">cryptonight_talleo</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">cryptonight_turtle</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">cryptonight_upx</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">cryptonight_xhv</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">curvehash</span>
-<span class="o">[</span><span class="m">1</span>.00<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="kd">N</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">dynamo</span>
-<span class="o">[</span><span class="m">3</span>.00<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="o">-</span>  <span class="kd">A</span>  <span class="kd">N</span>  <span class="kd">I</span> <span class="o">]</span>   <span class="kd">dynex</span>
-<span class="o">[</span><span class="m">0</span>.65<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="kd">N</span>  <span class="kd">I</span> <span class="o">]</span>   <span class="kd">etchash</span>
-<span class="o">[</span><span class="m">0</span>.65<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="kd">N</span>  <span class="kd">I</span> <span class="o">]</span>   <span class="kd">ethash</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="kd">N</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">evrprogpow</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="kd">N</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">firopow</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="o">-</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">ghostrider</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="kd">N</span>  <span class="kd">I</span> <span class="o">]</span>   <span class="kd">heavyhash</span>
-<span class="o">[</span><span class="m">0</span>.00<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">k12</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="kd">N</span>  <span class="kd">I</span> <span class="o">]</span>   <span class="kd">kaspa</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="kd">N</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">kawpow</span>
-<span class="o">[</span><span class="m">0</span>.00<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">keccak</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="kd">N</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">lyra2v2_webchain</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="o">-</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">mike</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="o">-</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">minotaur</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="o">-</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">minotaurx</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="o">-</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">panthera</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="kd">N</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">progpow_epic</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="kd">N</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">progpow_sero</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="kd">N</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">progpow_veil</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="kd">N</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">progpow_veriblock</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="kd">N</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">progpow_zano</span>
-<span class="o">[</span><span class="m">1</span>.00<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">pufferfish2bmb</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="o">-</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">randomarq</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="o">-</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">randomepic</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="o">-</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">randomgrft</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="o">-</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">randomhash2</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="o">-</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">randomkeva</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="o">-</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">randoml</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="o">-</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">randomsfx</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="o">-</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">randomwow</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="o">-</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">randomx</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="o">-</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">randomxl</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="o">-</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">randomyada</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="o">-</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">scryptn2</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="kd">N</span>  <span class="kd">I</span> <span class="o">]</span>   <span class="kd">sha256dt</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">sha3d</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="kd">N</span>  <span class="kd">I</span> <span class="o">]</span>   <span class="kd">sha512_256d_radiant</span>
-<span class="o">[</span><span class="m">0</span>.65<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="kd">N</span>  <span class="kd">I</span> <span class="o">]</span>   <span class="kd">ubqhash</span>
-<span class="o">[</span><span class="m">1</span>.00<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">verthash</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">verushash</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="o">-</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">xdag</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">yescrypt</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">yescryptr16</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">yescryptr32</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="kd">A</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">yescryptr8</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="o">-</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">yespower</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="o">-</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">yespower2b</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="o">-</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">yespowerarwn</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="o">-</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">yespoweric</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="o">-</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">yespoweriots</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="o">-</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">yespoweritc</span>
-<span class="o">[</span><span class="m">0</span>.00<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="o">-</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">yespowerlitb</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="o">-</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">yespowerltncg</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="o">-</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">yespowermgpc</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="o">-</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">yespowerr16</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="o">-</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">yespowerres</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="o">-</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">yespowersugar</span>
-<span class="o">[</span><span class="m">0</span>.85<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="o">-</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">yespowertide</span>
-<span class="o">[</span><span class="m">0</span>.00<span class="err">%</span><span class="o">]</span>   <span class="o">[</span> <span class="kd">C</span>  <span class="o">-</span>  <span class="o">-</span>  <span class="o">-</span> <span class="o">]</span>   <span class="kd">yespowerurx</span>
-</code></pre></div></div>
 <div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject"> <span itemprop="name" class="bold">SRBminer 2.2.0 - AMD &amp; Intel can Mine Dynex</span><meta itemprop="duration" content="PT5M20S">
 <meta itemprop="uploadDate" content="2023-03-08T18:00:09Z">
 <meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/YXEUbAat7Xc/default.jpg">
@@ -773,11 +689,11 @@
 <link itemprop="contentUrl" content="https://www.youtube.com/embed/vMxKNauDfKU">
 <h2 class="panel-title" itemprop="name" id="How to enable Gpu boost">How to enable Gpu boost</h2>
 <div itemprop="description">
-<p>How to boost hashrate on Ethereum mining easily?&lt;/br&gt; Follow these steps and easily increase your Ethereum mining hashrate!</p>
+<p>How to boost hashrate mining easily? Follow these steps and easily increase your mining hashrate!</p>
 <ol>
 <li>Download SRBMiner-MULTI.</li>
 <li>Unzip the archive somewhere.</li>
-<li>You can find a file named <code>start-mining-ethereum.bat</code> in miner folder. It's a simple example to get started.</li>
+<li>You can find a file named <code>start-mining.bat</code> in miner folder. It's a simple example to get started.</li>
 <li>Edit that file, and find this line: <code>SRBMiner-MULTI.exe --disable-cpu --algorithm ethash --pool ethereum.herominers.com:10200 --wallet 0x74fb183Dfa951A9dC8C6de5ae4E1A8587fa6f371 --gpu-boost 5</code>
 </li>
 <li>The <code>--gpu-boost 5</code> part is used to increase the hashrate of your GPU. It is activated only if miner is run with administrator privileges.</li>
@@ -967,7 +883,7 @@
 </dd>
 </dd>
 </dl>
-<h2 id="dual-mining-1">Dual mining</h2>
+<h2 id="dual-mining">Dual mining</h2>
 <p>Algorithms for dual mining:</p>
 <div class="language-config highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">ethash</span> + <span class="n">kaspa</span>
 <span class="n">ethash</span> + <span class="n">blake3_alephium</span>
@@ -1253,7 +1169,7 @@
 </div>
 <footer class="page__meta"><p class="page__taxonomy"> <i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: <span itemprop="keywords"> <a href="/en/miners/" class="page__taxonomy-item" rel="tag">miners</a> </span></p>
 <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2024-05-07T00:00:00-04:00">07.05.2024</time></p>
-<p class="hide"><i class="far fa-clock" aria-hidden="true"></i> 26 minute read</p></footer><div class="mar author"><div itemscope itemtype="https://schema.org/Person">
+<p class="hide"><i class="far fa-clock" aria-hidden="true"></i> 23 minute read</p></footer><div class="mar author"><div itemscope itemtype="https://schema.org/Person">
 <div class="author__avatar"> <img width="97" height="97" src="/assets/images/matthewwood.webp" alt="Matthew Wood" itemprop="image" loading="lazy" decoding="async">
 </div>
 <div class="author__content"> <a href="/en/about/"><h3 class="author__name" itemprop="name">Matthew Wood</h3></a><p class="author__bio" itemprop="description"> Blockchain developer and crypto trader</p>
