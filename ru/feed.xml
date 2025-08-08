@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="ru" /><updated>2024-05-08T15:08:36-04:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="ru"><title type="html">5 Советов, которые помогут Вам найти надежную автоматизированную платформу для торговли криптовалютами</title><link href="https://miningsoft.org/ru/blog/auto-platform/" rel="alternate" type="text/html" title="5 Советов, которые помогут Вам найти надежную автоматизированную платформу для торговли криптовалютами" /><published>2023-10-12T00:00:00-04:00</published><updated>2023-10-12T00:00:00-04:00</updated><id>https://miningsoft.org/ru/blog/auto-platform</id><content type="html" xml:base="https://miningsoft.org/ru/blog/auto-platform/"><![CDATA[<div class="paper wallet">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="ru" /><updated>2025-08-08T09:13:29-04:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="ru"><title type="html">5 Советов, которые помогут Вам найти надежную автоматизированную платформу для торговли криптовалютами</title><link href="https://miningsoft.org/ru/blog/auto-platform/" rel="alternate" type="text/html" title="5 Советов, которые помогут Вам найти надежную автоматизированную платформу для торговли криптовалютами" /><published>2023-10-12T00:00:00-04:00</published><updated>2023-10-12T00:00:00-04:00</updated><id>https://miningsoft.org/ru/blog/auto-platform</id><content type="html" xml:base="https://miningsoft.org/ru/blog/auto-platform/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       Важные аспекты, которые следует учитывать при выборе торговой платформы
@@ -63,28 +63,16 @@
 
 <p class="notice--danger">Это безрисковый способ определить, соответствует ли платформа вашим торговым целям.</p>
 
-<p>Убедитесь, что вы учитываете вышеперечисленные факторы, чтобы выбрать лучшую автоматизированную платформу для торговли криптовалютами.</p>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Важные аспекты, которые следует учитывать при выборе торговой платформы Убедитесь, что вы учитываете вышеперечисленные факторы, чтобы выбрать лучшую автоматизированную платформу для торговли криптовалютами.]]></summary></entry><entry xml:lang="ru"><title type="html">Whatsminer tool: Скачать бесплатно, Настройка на русском</title><link href="https://miningsoft.org/ru/tools/whatsminertool/" rel="alternate" type="text/html" title="Whatsminer tool: Скачать бесплатно, Настройка на русском" /><published>2023-04-13T00:00:00-04:00</published><updated>2023-04-13T00:00:00-04:00</updated><id>https://miningsoft.org/ru/tools/whatsminertool</id><content type="html" xml:base="https://miningsoft.org/ru/tools/whatsminertool/"><![CDATA[<div class="paper wallet">
+<p>Убедитесь, что вы учитываете вышеперечисленные факторы, чтобы выбрать лучшую автоматизированную платформу для торговли криптовалютами.</p>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Важные аспекты, которые следует учитывать при выборе торговой платформы Убедитесь, что вы учитываете вышеперечисленные факторы, чтобы выбрать лучшую автоматизированную платформу для торговли криптовалютами.]]></summary></entry><entry xml:lang="ru"><title type="html">Whatsminer tool: Скачать бесплатно, Настройка на русском</title><link href="https://miningsoft.org/ru/tools/whatsminertool/" rel="alternate" type="text/html" title="Whatsminer tool: Скачать бесплатно, Настройка на русском" /><published>2023-04-13T00:00:00-04:00</published><updated>2025-08-08T00:00:00-04:00</updated><id>https://miningsoft.org/ru/tools/whatsminertool</id><content type="html" xml:base="https://miningsoft.org/ru/tools/whatsminertool/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       WhatsMiner tool: как использовать - пользовательское руководство.
     </div>
   </div>
 </div>
-<p><em>Полный набор инструкций по настройке и обновлению WhatsMiner tool v8.1.34 и более ранним версиям.</em></p>
+<p><em>Получите полный набор инструкций по настройке и обновлению WhatsMiner tool v8.1.34 и более ранним версиям.</em></p>
 
 <h2 id="скачать-для-windows--linux">Скачать для Windows / Linux</h2>
-
-<script async="" src="https://coinzillatag.com/lib/display.js"></script>
-
-<div class="coinzilla" data-zone="C-26960aca952082b4725"></div>
-<script>
-    window.coinzilla_display = window.coinzilla_display || [];
-    var c_display_preferences = {};
-    c_display_preferences.zone = "26960aca952082b4725";
-    c_display_preferences.width = "300";
-    c_display_preferences.height = "250";
-    coinzilla_display.push(c_display_preferences);
-</script>
 
 <p><a href="https://microbt-whatsminer.com/tools-download/" class="btn btn--info btn--x-large">Скачать с официального сайта</a>
 <a href="https://thanosmining.com/blog/whatsminer-tools-and-firmware-80" class="btn btn--facebook btn--x-large">Скачать с support center</a></p>
@@ -92,7 +80,7 @@
 <section>
 
   <div class="imgcen">
-<iframe class="your-ad-position-style" src="https://mat.cryptox-ads.io/cxAdsAssets/banner-basic-v0.11/index.html?size=300*250&amp;app_id=10905748&amp;placement_id=20003615" loading="lazy" style="border:0;width:300px; height:250px"></iframe>
+
 </div>
 
   <h2 id="whatsminer-tool-wmt">Что такое WhatsMiner tool (WMT)?</h2>
@@ -100,7 +88,7 @@
   <p><dfn>WhatsMiner tool</dfn> - полезный бесплатный инструмент для настройки ASIC-майнеров. Утилита позволяет сканировать, отслеживать и управлять устройствами ASIC WhatsMiner.</p>
 </section>
 
-<p><b>Whatsminertool</b> - утилита, похожая на <a href="/ru/tools/btc-tool/">BTC Tools</a>. Используется для поиска IP-адреса, изменения конфигурации (включая пулы, сеть, ntp серверы и т. д.), обновления прошивки и определения информации/статуса вашего Асик-майнера. ПО разработано компанией Shenzhen MicroBT Electronics.<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
+<p><b>Whatsminertool</b> - утилита, похожая на <a href="/ru/tools/btc-tool/">BTC Tools</a>. Используется для поиска IP-адреса, изменения конфигурации (включая пулы, сеть, ntp серверы и т. д.), обновления прошивки и определения информации/статуса вашего Асик-майнера. ПО разработано компанией Shenzhen MicroBT Electronics.<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup>.</p>
 
 <p>&nbsp;</p>
 
@@ -557,11 +545,11 @@
 <p><a href="http://whatsminertool-factory.whatsminer.com:8880/whatsminertool/WhatsMinerTool-Factory-8.1.28.exe">8.1.28</a></p>
 <div class="footnotes" role="doc-endnotes">
   <ol>
-    <li id="fn:1" role="doc-endnote">
+    <li id="fn:1">
       <p><a href="https://microbt-whatsminer.com/">WhatsMiner - Official Website</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="tools" /><summary type="html"><![CDATA[WhatsMiner tool: как использовать - пользовательское руководство. Полный набор инструкций по настройке и обновлению WhatsMiner tool v8.1.34 и более ранним версиям.]]></summary></entry><entry xml:lang="ru"><title type="html">Что такое криптовалюта? Простыми словами (2023)</title><link href="https://miningsoft.org/ru/articles/cryptocurrency/" rel="alternate" type="text/html" title="Что такое криптовалюта? Простыми словами (2023)" /><published>2023-02-22T00:00:00-04:00</published><updated>2023-02-22T00:00:00-04:00</updated><id>https://miningsoft.org/ru/articles/cryptocurrency</id><content type="html" xml:base="https://miningsoft.org/ru/articles/cryptocurrency/"><![CDATA[<div class="paper btc">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="tools" /><summary type="html"><![CDATA[WhatsMiner tool: как использовать - пользовательское руководство. Получите полный набор инструкций по настройке и обновлению WhatsMiner tool v8.1.34 и более ранним версиям.]]></summary></entry><entry xml:lang="ru"><title type="html">Что такое криптовалюта? Простыми словами (2023)</title><link href="https://miningsoft.org/ru/articles/cryptocurrency/" rel="alternate" type="text/html" title="Что такое криптовалюта? Простыми словами (2023)" /><published>2023-02-22T00:00:00-04:00</published><updated>2023-02-22T00:00:00-04:00</updated><id>https://miningsoft.org/ru/articles/cryptocurrency</id><content type="html" xml:base="https://miningsoft.org/ru/articles/cryptocurrency/"><![CDATA[<div class="paper btc">
   <div class="pattern">
     <div class="note-cont">
       Криптовалюта: что такое, как работает и зачем нужна?
@@ -622,7 +610,7 @@
 <p>Криптовалюты активно внедряют децентрализованные и распределенные системы в свою пользу. Такими характеристиками обладают все популярные цифровые активы.</p>
 
 <div class="imgcen">
-<iframe class="your-ad-position-style" src="https://mat.cryptox-ads.io/cxAdsAssets/banner-basic-v0.11/index.html?size=300*250&amp;app_id=10905748&amp;placement_id=20003615" loading="lazy" style="border:0;width:300px; height:250px"></iframe>
+
 </div>
 
 <h2 id="принцип-работы">Принцип работы</h2>
@@ -667,7 +655,7 @@
 <p>Криптовалюта нужна для:</p>
 <ul>
   <li>Доступа к личным финансам,</li>
-  <li>заключения смарт-контрактов,<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></li>
+  <li>заключения смарт-контрактов,<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></li>
   <li>использования <a href="https://habr.com/ru/company/otus/blog/549550/">Интернета вещей</a>,</li>
   <li>оцифровки металлов,</li>
   <li><a href="/ru/guide/usdt-works/">стейблкоинов</a>,</li>
@@ -699,14 +687,14 @@
 </div>
 <hr />
 
-<p>Биткоин является самой известной из виртуальных валют. Поскольку он был разработан в 2009 году, его стоимость резко возросла. Если бы вы тогда купили биткоины за небольшие деньги, сегодня вы были бы миллионером.<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></p>
+<p>Биткоин является самой известной из виртуальных валют. Поскольку он был разработан в 2009 году, его стоимость резко возросла. Если бы вы тогда купили биткоины за небольшие деньги, сегодня вы были бы миллионером.<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup></p>
 
 <section class="imp">
   <p><span class="par"><i class="fas fa-mug-hot"></i> <span class="bold">Виды и типы криптовалют:</span>  <br /></span>
 <span class="par"><i class="fas fa-lightbulb"></i> <span class="yel bold">Классические криптовалюты</span> на блокчейне, меняющие свою стоимость в результате взаимодействия спроса и предложения. Примеры: биткоин, эфириум.  <br /></span>
 <span class="par"><i class="fas fa-lightbulb"></i> <span class="yel bold">Стабильные монеты</span>  с определенной фиксированной стоимостью — курсы здесь никогда не меняются. Например, <a href="/ru/guide/usdt-works/">Tether USDT</a>.  <br /></span>
 <span class="par"><i class="fas fa-lightbulb"></i> <span class="yel bold">Токены</span> - монеты, не имеющие свой блокчейн. Они существуют как часть экосистемы другой сети.  <br /></span>
-<span class="par"><i class="fas fa-lightbulb"></i> <span class="yel bold">Мем монеты</span> - комики криптомира. Эти монеты набирают популярность благодаря мемам и социальным сетям.<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup><br /></span>
+<span class="par"><i class="fas fa-lightbulb"></i> <span class="yel bold">Мем монеты</span> - комики криптомира. Эти монеты набирают популярность благодаря мемам и социальным сетям.<sup id="fnref:3"><a href="#fn:3" class="footnote" rel="footnote" role="doc-noteref">3</a></sup><br /></span>
 <span class="par"><i class="fas fa-lightbulb"></i> <span class="yel bold">Альтернативные</span> монеты (альткоины).<br /></span></p>
 
 </section>
@@ -733,7 +721,7 @@
 
 <p>За годы, прошедшие после первой биткойн-транзакции в 2009 году, появились <a href="https://www.coingecko.com/ru">тысячи дополнительных криптовалют</a>, создав запутанную среду для инвесторов. Некоторые из этих альткойнов отличаются крупными техническими инновациями, которые отличают их от биткойна, в то время как другие просто стали популярными брендами цифровых валют и мемами в социальных сетях.</p>
 
-<p class="notice--danger">Инвестирование в криптовалюту остается чрезвычайно спекулятивным занятием, но оно может быть весьма прибыльным для инвесторов, готовых рисковать в надежде на большие выплаты.<sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote" rel="footnote">4</a></sup></p>
+<p class="notice--danger">Инвестирование в криптовалюту остается чрезвычайно спекулятивным занятием, но оно может быть весьма прибыльным для инвесторов, готовых рисковать в надежде на большие выплаты.<sup id="fnref:4"><a href="#fn:4" class="footnote" rel="footnote" role="doc-noteref">4</a></sup></p>
 
 <h4 id="эфириум-eth">Эфириум (ETH)</h4>
 
@@ -801,11 +789,11 @@
 
 <p>В качестве цифровых доказательств подлинности NFT могут отображать любой виртуальный или реальный объект в блокчейне.</p>
 
-<p class="notice--primary">NFT стали известны прежде всего благодаря шумихе вокруг цифрового искусства, такого как GIF-файлы и мемы. Переработанная версия популярного мультфильма о кошках «Nyan Cat» была продана с аукциона за сумму, эквивалентную примерно 500 000 евро.<sup id="fnref:5" role="doc-noteref"><a href="#fn:5" class="footnote" rel="footnote">5</a></sup></p>
+<p class="notice--primary">NFT стали известны прежде всего благодаря шумихе вокруг цифрового искусства, такого как GIF-файлы и мемы. Переработанная версия популярного мультфильма о кошках «Nyan Cat» была продана с аукциона за сумму, эквивалентную примерно 500 000 евро.<sup id="fnref:5"><a href="#fn:5" class="footnote" rel="footnote" role="doc-noteref">5</a></sup></p>
 
 <h3 id="мем-монеты">Мем монеты</h3>
 
-<p>Мем-монеты - криптовалюты, основанные на меме - интернет шутке, ставшей популярной. За ним не стоит цель, как за биткойном, который хочет сделать глобальную финансовую систему более справедливой.<sup id="fnref:6" role="doc-noteref"><a href="#fn:6" class="footnote" rel="footnote">6</a></sup> Они были придуманы для развлечения.</p>
+<p>Мем-монеты - криптовалюты, основанные на меме - интернет шутке, ставшей популярной. За ним не стоит цель, как за биткойном, который хочет сделать глобальную финансовую систему более справедливой.<sup id="fnref:6"><a href="#fn:6" class="footnote" rel="footnote" role="doc-noteref">6</a></sup> Они были придуманы для развлечения.</p>
 
 <p>Мем-монеты — это группа криптовалют, не имеющих внутренней полезности или функции, а просто действующие как своего рода <span class="yel">забавная валюта</span>. Первой монетой-мемом была Dogecoin, которая начиналась как пародия на Биткоин. Многие инвесторы проявили большой интерес к забавной валюте, и со временем цена значительно выросла.</p>
 
@@ -814,7 +802,7 @@
 
 <h3 id="стейблкоины">Стейблкоины</h3>
 
-<p>Стейблкоин — криптовалюта, стоимость которой привязана к цене другого актива, отсюда и термин «Стейбл». Например, при правильном функционировании стейблкоин, привязанный к доллару, всегда должен оцениваться в 1 USD.<sup id="fnref:7" role="doc-noteref"><a href="#fn:7" class="footnote" rel="footnote">7</a></sup></p>
+<p>Стейблкоин — криптовалюта, стоимость которой привязана к цене другого актива, отсюда и термин «Стейбл». Например, при правильном функционировании стейблкоин, привязанный к доллару, всегда должен оцениваться в 1 USD.<sup id="fnref:7"><a href="#fn:7" class="footnote" rel="footnote" role="doc-noteref">7</a></sup></p>
 
 <p><a href="/ru/guide/usdt-works/">Tether</a> — классический пример стабильной монеты. Курс остается всегда стабильным один к одному к доллару. Контроль обращения осуществляется со стороны выпускающей его компании - Tether Limited и биржи Bitfinex.</p>
 
@@ -924,7 +912,7 @@
 
 <h2 id="риски">Риски</h2>
 
-<p>Серьезный риск, который следует учитывать, заключается в том, что за последние несколько лет с криптовалютных бирж были украдены цифровые активы на миллиарды долларов.<sup id="fnref:8" role="doc-noteref"><a href="#fn:8" class="footnote" rel="footnote">8</a></sup></p>
+<p>Серьезный риск, который следует учитывать, заключается в том, что за последние несколько лет с криптовалютных бирж были украдены цифровые активы на миллиарды долларов.<sup id="fnref:8"><a href="#fn:8" class="footnote" rel="footnote" role="doc-noteref">8</a></sup></p>
 
 <figure><a href="/assets/images/articles/cryptocurrency/ru/cryptocurrency_risks.webp" class="image-popup"> <img src="/assets/images/articles/cryptocurrency/ru/cryptocurrency_risks.webp" alt="Риски криптовалют" />
 <figcaption>Риски</figcaption></a></figure>
@@ -971,7 +959,7 @@
 
 <p>Регулирование в большинстве стран, которое в основном только начинается, представляет собой риск, который нельзя недооценивать при инвестировании.</p>
 
-<p class="notice--danger">Помимо сторонников, есть ряд противников криптовалют. Такие государства, как Сальвадор, чувствуют свой шанс стать более независимыми от доллара. Другие государства, такие как Китай, возятся с собственными цифровыми деньгами и вытеснили из страны  майнинг и запретили торговлю.<sup id="fnref:9" role="doc-noteref"><a href="#fn:9" class="footnote" rel="footnote">9</a></sup></p>
+<p class="notice--danger">Помимо сторонников, есть ряд противников криптовалют. Такие государства, как Сальвадор, чувствуют свой шанс стать более независимыми от доллара. Другие государства, такие как Китай, возятся с собственными цифровыми деньгами и вытеснили из страны  майнинг и запретили торговлю.<sup id="fnref:9"><a href="#fn:9" class="footnote" rel="footnote" role="doc-noteref">9</a></sup></p>
 
 <p>Количество энергии или вычислительной мощности, необходимой для майнинга, включая необходимое оборудование, и высокое потребление энергии для каждой транзакции являются занозой для многих государственных чиновников по всему миру.</p>
 
@@ -988,7 +976,7 @@
 
 <h2 id="обеспечение">Обеспечение</h2>
 
-<p>Криптовалюты не обеспечены реальными активами или материальными ценными бумагами. Они торгуются между сторонами по соглашению без брокера и отслеживаются в цифровых реестрах.<sup id="fnref:10" role="doc-noteref"><a href="#fn:10" class="footnote" rel="footnote">10</a></sup> Курс ничем не подкреплен, кроме фактического спроса и предложения.</p>
+<p>Криптовалюты не обеспечены реальными активами или материальными ценными бумагами. Они торгуются между сторонами по соглашению без брокера и отслеживаются в цифровых реестрах.<sup id="fnref:10"><a href="#fn:10" class="footnote" rel="footnote" role="doc-noteref">10</a></sup> Курс ничем не подкреплен, кроме фактического спроса и предложения.</p>
 
 <p>Вместе с тем, криптовалюта обеспечивается ценностью, которую дают за нее пользователи Сети, надежностью, ограниченной эмиссией и рядом других факторов. По мнению многих аналитиков, они оказывают даже большее влияние на стабильность денежной системы, чем золотовалютные резервы.</p>
 
@@ -1049,7 +1037,7 @@
 
 <h3 id="майнинг">Майнинг</h3>
 
-<p>Крипто монеты генерируются в <a href="/ru/articles/mining/">процессе, называемом майнингом</a>. Этот процесс сложен, но, говоря простым языком, майнинг означает, что компьютеры решают математические уравнения и получают биткойны или другие криптовалюты в качестве вознаграждения.<sup id="fnref:11" role="doc-noteref"><a href="#fn:11" class="footnote" rel="footnote">11</a></sup></p>
+<p>Крипто монеты генерируются в <a href="/ru/articles/mining/">процессе, называемом майнингом</a>. Этот процесс сложен, но, говоря простым языком, майнинг означает, что компьютеры решают математические уравнения и получают биткойны или другие криптовалюты в качестве вознаграждения.<sup id="fnref:11"><a href="#fn:11" class="footnote" rel="footnote" role="doc-noteref">11</a></sup></p>
 
 <h3 id="аирдропы-и-форки">Аирдропы и форки</h3>
 
@@ -1082,37 +1070,37 @@
 
 <div class="footnotes" role="doc-endnotes">
   <ol>
-    <li id="fn:1" role="doc-endnote">
+    <li id="fn:1">
       <p><a href="https://cyberleninka.ru/article/n/smart-kontrakt-ponyatie-pravovaya-priroda-osobennosti-zaklyucheniya-i-ispolneniya">Смарт-контракт: понятие, правовая природа, особенности заключения и исполнения</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:2" role="doc-endnote">
+    <li id="fn:2">
       <p><a href="https://trends.rbc.ru/trends/industry/614b1d809a79476760b5a4b1">Криптовалютная лихорадка: кто успел заработать и есть ли шанс их догнать</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:3" role="doc-endnote">
+    <li id="fn:3">
       <p><a href="https://www.forbes.com/advisor/investing/cryptocurrency/different-types-of-cryptocurrencies/">Different Types of Cryptocurrencies – Forbes Advisor</a> <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:4" role="doc-endnote">
+    <li id="fn:4">
       <p><a href="https://money.usnews.com/investing/stock-market-news/slideshows/best-altcoins-to-buy">The Best Altcoins to Buy - Investing - U.S. News</a> <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:5" role="doc-endnote">
+    <li id="fn:5">
       <p><a href="https://www.coindesk.com/markets/2021/02/19/nyan-cat-nft-sells-for-300-eth-opening-door-to-the-meme-economy/">Nyan Cat NFT Sells for 300 ETH, Opening Door to the ‘Meme Economy’ - CoinDesk</a> <a href="#fnref:5" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:6" role="doc-endnote">
+    <li id="fn:6">
       <p><a href="https://bytwork.com/articles/mem-tokeny">Что такое Мем токен? Dogecoin, Shibu Inu. Почему они популярны?</a> <a href="#fnref:6" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:7" role="doc-endnote">
+    <li id="fn:7">
       <p><a href="https://www.forbes.com/advisor/investing/cryptocurrency/stablecoins/">What Are Stablecoins? – Forbes Advisor</a> <a href="#fnref:7" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:8" role="doc-endnote">
+    <li id="fn:8">
       <p><a href="https://bytwork.com/articles/krazha-btc">Кража Биткойнов: ТОП-50 крупнейших краж на биржах [2011-2023]</a> <a href="#fnref:8" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:9" role="doc-endnote">
+    <li id="fn:9">
       <p><a href="https://www.thomsonreuters.com/en-us/posts/wp-content/uploads/sites/20/2022/04/Cryptos-Report-Compendium-2022.pdf">Thomson Reuters 2023</a> <a href="#fnref:9" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:10" role="doc-endnote">
+    <li id="fn:10">
       <p><a href="https://www.investopedia.com/cryptocurrency-4427699">Investing in cryptocurrency</a> <a href="#fnref:10" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:11" role="doc-endnote">
+    <li id="fn:11">
       <p><a href="https://bitcoin.org/ru/how-it-works">Как работает Биткойн?</a> <a href="#fnref:11" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
@@ -1173,7 +1161,7 @@
 
 <p>Проектирование для блокчейна предполагает планирование создания услуги или приложения, на которое можно положиться, которое невозможно изменить и которое (почти) полностью прозрачно для всех пользователей и заинтересованных сторон.</p>
 
-<p class="notice--danger">Фундаментальной функцией блокчейна является обработка личных данных. Поэтому крайне важно сохранить доверие пользователя, когда дело доходит до этой информации.<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+<p class="notice--danger">Фундаментальной функцией блокчейна является обработка личных данных. Поэтому крайне важно сохранить доверие пользователя, когда дело доходит до этой информации.<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></p>
 
 <p>Это доверие в некоторой степени влияет на надежность и стабильность платформы. Чтобы сохранить доверие пользователей к вашему дизайну и продукту, обращайте внимание на отзывы клиентов и поддерживайте последовательность.</p>
 
@@ -1205,7 +1193,7 @@
 </ul>
 <div class="footnotes" role="doc-endnotes">
   <ol>
-    <li id="fn:1" role="doc-endnote">
+    <li id="fn:1">
       <p><a href="https://uxplanet.org/blockchain-and-its-applications-for-service-designers-7b6bfd9fec39">Blockchain and Its Applications for Service Designers</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
@@ -1223,7 +1211,7 @@
 <p><strong>Основание</strong>:</p>
 
 <blockquote>
-  <p>Основанием для включения в реестр сведений, указанных в ч. 2 настоящей статьи, является, в том числе вступившее в законную силу решение суда о признании информации, распространяемой посредством сети «Интернет», информацией, распространение которой в Российской Федерации запрещено (п. 2 ч. 5 ст. 15.1 Федерального закона № 149-ФЗ).<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+  <p>Основанием для включения в реестр сведений, указанных в ч. 2 настоящей статьи, является, в том числе вступившее в законную силу решение суда о признании информации, распространяемой посредством сети «Интернет», информацией, распространение которой в Российской Федерации запрещено (п. 2 ч. 5 ст. 15.1 Федерального закона № 149-ФЗ).<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></p>
 </blockquote>
 
 <p>Говоря понятным язком, основанием для блокировки являлась информация о Биткоине и его приобретении.</p>
@@ -1243,7 +1231,7 @@
 <h2 id="что-делать-после-блокировки-ркн">Что делать после блокировки РКН?</h2>
 
 <div class="imgcen">
-<iframe class="your-ad-position-style" src="https://mat.cryptox-ads.io/cxAdsAssets/banner-basic-v0.11/index.html?size=300*250&amp;app_id=10905748&amp;placement_id=20003615" loading="lazy" style="border:0;width:300px; height:250px"></iframe>
+
 </div>
 
 <p>Команда Bytwork изначально попыталась урегулировать весь процесс самостоятельно. Удалили страницу из-за которой был суд и уведомили об этом представителей ведомства.</p>
@@ -1270,7 +1258,7 @@
 
 <p>Команда DRC.law сразу же приступили к созданию апелляции на основании того, что Bytwork не уведомили о суде и были нарушены процессуальные сроки.</p>
 
-<p>Стоит сразу отметить, что DRC.law дает Вам на выбор 2 варианта работы с ними:<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></p>
+<p>Стоит сразу отметить, что DRC.law дает Вам на выбор 2 варианта работы с ними:<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup></p>
 
 <ol>
   <li>Вы лично ездите с адвокатами в суд;</li>
@@ -1407,10 +1395,10 @@
 
 <div class="footnotes" role="doc-endnotes">
   <ol>
-    <li id="fn:1" role="doc-endnote">
+    <li id="fn:1">
       <p><a href="https://onegasud--arh.sudrf.ru/modules.php?name=sud_delo&amp;srv_num=1&amp;name_op=doc&amp;number=122442559&amp;delo_id=41&amp;new=&amp;text_number=1">Решение по административному делу</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:2" role="doc-endnote">
+    <li id="fn:2">
       <p><a href="https://drc.law/uslugi/obzhalovanie-sudebnogo-resheniya-o-priznanii-informatsii-nezakonnoy/">Обжалование судебного решения о признании информации незаконной</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
@@ -1509,12 +1497,12 @@
 <span itemprop="description">Как блокчейн меняет деньги и бизнес? Интересная подача материала с множеством простых примеров применения блокчейна.</span>
 </div>
 
-<p><span class="nev">Дон Тапскотт, исполнительный председатель Исследовательского института блокчейна, является одним из ведущих мировых авторитетов в области влияния технологий на бизнес и общество. <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> </span></p>
+<p><span class="nev">Дон Тапскотт, исполнительный председатель Исследовательского института блокчейна, является одним из ведущих мировых авторитетов в области влияния технологий на бизнес и общество. <sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup> </span></p>
 
 <h2 id="принцип-работы-технологии">Принцип работы технологии</h2>
 
 <div class="imgcen">
-<iframe class="your-ad-position-style" src="https://mat.cryptox-ads.io/cxAdsAssets/banner-basic-v0.11/index.html?size=300*250&amp;app_id=10905748&amp;placement_id=20003615" loading="lazy" style="border:0;width:300px; height:250px"></iframe>
+
 </div>
 
 <p>Объясним на примере <a href="/ru/articles/bitcoin">Биткоина</a>. Думайте о блокчейне как о бухгалтерской книге. Пользователи криптовалюты Биткоин инициируют транзакции, покупая, продавая или расплачиваясь валютой. Как и в учетной записи, эти движения должны быть записаны, чтобы другие могли понять транзакции.</p>
@@ -1540,7 +1528,7 @@
 <p>Технология блокчейн является современной и лучшей формой ведения бизнеса. Она устраняет слои «бюрократии» и трения. 
 Блокчейн также устраняет необходимость в предприятиях, оказывающих услуги, связанные с проверкой и сертификацией товаров, гарантиями и регистрацией/записью сделки в публичный реестр.</p>
 
-<p>Это означает, что все сопутствующие рабочие места (бухгалтеры, торговые представители, юристы и другие работники офисной администрации) и предприятия, которые традиционно обслуживали эти потребности, уходят в прошлое.<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></p>
+<p>Это означает, что все сопутствующие рабочие места (бухгалтеры, торговые представители, юристы и другие работники офисной администрации) и предприятия, которые традиционно обслуживали эти потребности, уходят в прошлое.<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup></p>
 
 <figure><a href="/assets/images/articles/blockchain/ru/blockchain_use.webp" class="image-popup"> <img src="/assets/images/articles/blockchain/ru/blockchain_use.webp" alt="Сферы использования блокчейна" />
 <figcaption>Сферы использования.</figcaption></a></figure>
@@ -1613,7 +1601,7 @@
 <figure><a href="/assets/images/articles/blockchain/ru/blockchain_smart_contracts.webp" class="image-popup"> <img src="/assets/images/articles/blockchain/ru/blockchain_smart_contracts.webp" alt="Смарт-контракты в блокчейне." />
 <figcaption>Смарт-контракты в блокчейне.</figcaption></a></figure>
 
-<p>Результаты предопределены в контракте и зависят от действий сторон, участвующих в смарт-контракте. Когда обе стороны выполнят свои обязательства, смарт-контракт будет знать, какое действие предпринять дальше. <sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup></p>
+<p>Результаты предопределены в контракте и зависят от действий сторон, участвующих в смарт-контракте. Когда обе стороны выполнят свои обязательства, смарт-контракт будет знать, какое действие предпринять дальше. <sup id="fnref:3"><a href="#fn:3" class="footnote" rel="footnote" role="doc-noteref">3</a></sup></p>
 
 <p>Для страховых компаний смарт-контракты предлагает большую дополнительную ценность, поскольку, прежде всего, обработка требований о возмещении ущерба или страховых выплат может отображаться автоматически и безопасно.</p>
 
@@ -1704,7 +1692,7 @@
 <figure><a href="/assets/images/articles/blockchain/ru/blockchain_benefits.webp" class="image-popup"> <img src="/assets/images/articles/blockchain/ru/blockchain_benefits.webp" alt="Преимущества блокчейна" />
 <figcaption>Преимущества блокчейна.</figcaption></a></figure>
 
-<p>Таким образом, блокчейн может гарантировать точность и безопасность записей данных и создать необходимость использования сторонних сервисов.<sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote" rel="footnote">4</a></sup></p>
+<p>Таким образом, блокчейн может гарантировать точность и безопасность записей данных и создать необходимость использования сторонних сервисов.<sup id="fnref:4"><a href="#fn:4" class="footnote" rel="footnote" role="doc-noteref">4</a></sup></p>
 
 <h2 id="недостатки">Недостатки</h2>
 
@@ -1764,16 +1752,16 @@
 </div>
 <div class="footnotes" role="doc-endnotes">
   <ol>
-    <li id="fn:1" role="doc-endnote">
+    <li id="fn:1">
       <p><a href="https://www.ted.com/talks/don_tapscott_how_the_blockchain_is_changing_money_and_business">How the blockchain is changing money and business</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:2" role="doc-endnote">
+    <li id="fn:2">
       <p><a href="https://www.inc.com/chris-j-snook/4-small-business-verticals-artificial-intelligence-blockchain-will-destroy-in-coming-decade.html">Blockchain and Artificial Intelligence Are Coming to Kill These 4 Small Business Verticals</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:3" role="doc-endnote">
+    <li id="fn:3">
       <p><a href="https://medium.com/pactum/what-is-a-smart-contract-10312f4aa7de">What is a Smart Contract?</a> <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:4" role="doc-endnote">
+    <li id="fn:4">
       <p><a href="https://www.forbes.com/sites/forbestechcouncil/2022/10/20/advantages-and-disadvantages-of-blockchain-technology/">Advantages And Disadvantages Of Blockchain Technology</a> <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
@@ -1829,7 +1817,7 @@
 
 <h2 id="масштабируемость">Масштабируемость</h2>
 
-<p>Одной из ключевых проблем, стоящих перед Биткойном, является масштабируемость<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>, способность сети обрабатывать растущее число транзакций по мере того, как все больше людей осваивают эту технологию.</p>
+<p>Одной из ключевых проблем, стоящих перед Биткойном, является масштабируемость<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup>, способность сети обрабатывать растущее число транзакций по мере того, как все больше людей осваивают эту технологию.</p>
 
 <p>В течение следующих 10 лет вполне вероятно, что сети Биткойн придется продолжать развиваться и адаптироваться, чтобы справиться с растущим спросом.</p>
 
@@ -1840,10 +1828,10 @@
 <h2 id="регулирование">Регулирование</h2>
 
 <div class="imgcen">
-<iframe class="your-ad-position-style" src="https://mat.cryptox-ads.io/cxAdsAssets/banner-basic-v0.11/index.html?size=300*250&amp;app_id=10905748&amp;placement_id=20003615" loading="lazy" style="border:0;width:300px; height:250px"></iframe>
+
 </div>
 
-<p>Еще одним фактором, который может значительно повлиять на будущее Биткойна, является регулирование<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>.</p>
+<p>Еще одним фактором, который может значительно повлиять на будущее Биткойна, является регулирование<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup>.</p>
 
 <p class="notice--danger">В последние годы регулирующие органы по всему миру стали более внимательно относиться к криптовалютам, и многие страны ввели новые законы и правила, регулирующие их использование.</p>
 
@@ -1857,7 +1845,7 @@
 
 <p>В последние годы мы уже наблюдаем значительный рост институционального интереса к криптовалютам, особенно к биткойнам. От инвестиционных банков и хедж-фондов до пенсионных фондов и пожертвований все больше и больше традиционных финансовых игроков начинают выделять ресурсы на криптовалюты.</p>
 
-<p class="notice--info">Эта тенденция, вероятно, сохранится в ближайшие 10 лет, поскольку институциональные инвесторы привыкают к этому классу активов и стремятся диверсифицировать свои портфели.<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup></p>
+<p class="notice--info">Эта тенденция, вероятно, сохранится в ближайшие 10 лет, поскольку институциональные инвесторы привыкают к этому классу активов и стремятся диверсифицировать свои портфели.<sup id="fnref:3"><a href="#fn:3" class="footnote" rel="footnote" role="doc-noteref">3</a></sup></p>
 
 <p>Выход на рынок институциональных инвесторов может помочь повысить стабильность и доверие к рынку криптовалют и увеличить спрос на биткойны.</p>
 
@@ -1875,7 +1863,7 @@
 
 <p>Хотя биткойн в настоящее время является крупнейшей и наиболее известной криптовалютой, он далеко не единственный.</p>
 
-<p class="notice--primary">В течение следующих 10 лет мы можем ожидать продолжения конкуренции со стороны других криптовалют, включая новых участников и известных игроков.<sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote" rel="footnote">4</a></sup></p>
+<p class="notice--primary">В течение следующих 10 лет мы можем ожидать продолжения конкуренции со стороны других криптовалют, включая новых участников и известных игроков.<sup id="fnref:4"><a href="#fn:4" class="footnote" rel="footnote" role="doc-noteref">4</a></sup></p>
 
 <p>Некоторые из этих конкурентов могут предложить более быстрые, дешевые или более безопасные альтернативы Биткойну и потенциально могут бросить вызов его доминированию. Тем не менее, у Биткойна есть значительное преимущество и сильный сетевой эффект, который может дать ему конкурентное преимущество в ближайшие годы.</p>
 
@@ -1894,16 +1882,16 @@
 <p>Мир криптовалют быстро развивается, поэтому за ним стоит следить тем, кто имеет опыт или только начинает инвестировать. Правильный подход может привести к росту и созданию богатства в будущем.</p>
 <div class="footnotes" role="doc-endnotes">
   <ol>
-    <li id="fn:1" role="doc-endnote">
+    <li id="fn:1">
       <p><a href="https://en.wikipedia.org/wiki/Bitcoin_scalability_problem">Проблема масштабируемости Биткойна</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:2" role="doc-endnote">
+    <li id="fn:2">
       <p><a href="https://www.thebalancemoney.com/can-bitcoin-regulation-make-cryptocurrency-safe-4173836">Может ли регулирование Биткойна сделать криптовалюту более безопасной?</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:3" role="doc-endnote">
+    <li id="fn:3">
       <p><a href="https://www.coindesk.com/consensus-magazine/2022/12/28/the-next-wave-of-institutional-digital-asset- принятие/">Следующая волна принятия институциональных цифровых активов</a> <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:4" role="doc-endnote">
+    <li id="fn:4">
       <p><a href="https://www.econstor.eu/bitstream/10419/103022/1/791932281.pdf">Конкуренция на рынке криптовалют - EconStor</a> <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
@@ -1941,7 +1929,7 @@
 
 <dl>
   <dt>Майнинг</dt>
-  <dd>Процесс добычи криптовалюты с помощью мощностей вычислительных машин. Вычисления ведут с помощью специализированных интегральных схем (ASIC)<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> или видеокарт (GPU). Эти устройства решают сложные задачи (хэши). При этом находится новый блок биткойнов, за который майнеры получают вознаграждение.</dd>
+  <dd>Процесс добычи криптовалюты с помощью мощностей вычислительных машин. Вычисления ведут с помощью специализированных интегральных схем (ASIC)<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup> или видеокарт (GPU). Эти устройства решают сложные задачи (хэши). При этом находится новый блок биткойнов, за который майнеры получают вознаграждение.</dd>
   <dt>Майнинг-фермы (майнинг риг)</dt>
   <dd>Мощные высокопроизводительные вычислительные установки для майнинга, занимающие значительное пространство. Несколько устройств объединяют в фермы, чтобы их было проще обслуживать.</dd>
   <dt>Майнер</dt>
@@ -1963,7 +1951,7 @@
 <h2 id="как-работает">Как работает</h2>
 
 <div class="imgcen">
-<iframe class="your-ad-position-style" src="https://mat.cryptox-ads.io/cxAdsAssets/banner-basic-v0.11/index.html?size=300*250&amp;app_id=10905748&amp;placement_id=20003615" loading="lazy" style="border:0;width:300px; height:250px"></iframe>
+
 </div>
 
 <p>При использовании криптовалюты детали транзакции записываются в так называемый <a href="/ru/articles/blockchain/">блокчейн (реестр)</a>. Перед майнером стоит задание решить сложную задачу, стоящую за этой транзакцией. Процесс завершается, когда майнер подтверждает легитимность транзакции. Как только это будет сделано, транзакция станет видна всем в блокчейне.</p>
@@ -2034,7 +2022,7 @@
 <figure><a href="/assets/images/articles/mining/ru/difficulty.webp" class="image-popup"> <img src="/assets/images/articles/mining/ru/difficulty.webp" alt="Сложность сети" />
 <figcaption>Сложность сети</figcaption></a></figure>
 
-<p>По мере того, как скорость майнинга увеличивается, сложность майнинга тоже увеличивается. В результате чего скорость создания блоков снижается до желаемых 10 минут, как упоминалось ранее. Все это описано в алгоритме Proof of Work<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>.</p>
+<p>По мере того, как скорость майнинга увеличивается, сложность майнинга тоже увеличивается. В результате чего скорость создания блоков снижается до желаемых 10 минут, как упоминалось ранее. Все это описано в алгоритме Proof of Work<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup>.</p>
 
 <p>Как только сложность майнинга увеличивается, среднее время майнинга возвращается к норме, и цикл повторяется примерно каждые 2 недели.</p>
 
@@ -2100,7 +2088,7 @@
 <p>Для майнинга биткоина используются фермы с ASIC.</p>
 
 <p>Какая криптовалюта майнится?<br />
-Все монеты с алгоритмом <a href="https://coinmarketcap.com/ru/view/pow/">proof of work</a> можно майнить на фермах. А майнинг риг<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup> - это часть фермы.</p>
+Все монеты с алгоритмом <a href="https://coinmarketcap.com/ru/view/pow/">proof of work</a> можно майнить на фермах. А майнинг риг<sup id="fnref:3"><a href="#fn:3" class="footnote" rel="footnote" role="doc-noteref">3</a></sup> - это часть фермы.</p>
 
 <figure><a href="/assets/images/articles/mining/ru/mining_rig_2936.jpg" class="image-popup"> <img src="/assets/images/articles/mining/ru/mining_rig_2936.jpg" alt="Красный майнинг риг на 12 GPU." />
 <figcaption>Майнинг риг на 12 GPU</figcaption></a></figure>
@@ -2126,7 +2114,7 @@
 
 <h3 id="халвинги-и-вознаграждения">Халвинги и вознаграждения</h3>
 
-<p>Вознаграждение в биткоине уменьшается вдвое каждые четыре года — этот процесс известен как халвинг<sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote" rel="footnote">4</a></sup>. Поэтому майнеры должны становиться все эффективнее и быстрее, чтобы поддерживать постоянную прибыль.</p>
+<p>Вознаграждение в биткоине уменьшается вдвое каждые четыре года — этот процесс известен как халвинг<sup id="fnref:4"><a href="#fn:4" class="footnote" rel="footnote" role="doc-noteref">4</a></sup>. Поэтому майнеры должны становиться все эффективнее и быстрее, чтобы поддерживать постоянную прибыль.</p>
 
 <ul>
   <li>Когда Биткойн был впервые выпущен в 2009 году, майнер зарабатывал 50 BTC за блок.</li>
@@ -2149,21 +2137,21 @@
 <figure><a href="/assets/images/articles/mining/ru/energy.webp" class="image-popup"> <img src="/assets/images/articles/mining/ru/energy.webp" alt="Потребление электроэнергии Биткоином." />
 <figcaption>Потребление электроэнергии Биткоином</figcaption></a></figure>
 
-<p>BBC оценил потребление электроэнергии Биткойном выше, чем в Аргентине (121 ТВт-ч), Нидерландах (108,8 ТВт-ч) и Объединенных Арабских Эмиратах (113,20 ТВт-ч) и постепенно приближается к Норвегии (122,20 ТВт-ч).<sup id="fnref:5" role="doc-noteref"><a href="#fn:5" class="footnote" rel="footnote">5</a></sup></p>
+<p>BBC оценил потребление электроэнергии Биткойном выше, чем в Аргентине (121 ТВт-ч), Нидерландах (108,8 ТВт-ч) и Объединенных Арабских Эмиратах (113,20 ТВт-ч) и постепенно приближается к Норвегии (122,20 ТВт-ч).<sup id="fnref:5"><a href="#fn:5" class="footnote" rel="footnote" role="doc-noteref">5</a></sup></p>
 
 <p class="notice--success">Сторонники, с другой стороны, видят больше пользы в майнинге: они утверждают, что майнинг может защитить энергосистему от колебаний или сбоев. Для поддержания электросети всегда должно поддерживаться определенное напряжение.</p>
 
 <p>Да, потребность в энергии для майнинга Биткоина высока и будет продолжать расти с увеличением числа майнеров. Но также будет расти и безопасность сети.</p>
 
-<p>Согласно данным Bitcoin Mining Council<sup id="fnref:6" role="doc-noteref"><a href="#fn:6" class="footnote" rel="footnote">6</a></sup>, почти 60 процентов энергии, необходимой для глобального майнинга Биткоина, уже поступает из природных источников, таких как энергия ветра или солнца: в настоящее время эта доля составляет 58,9 процента.</p>
+<p>Согласно данным Bitcoin Mining Council<sup id="fnref:6"><a href="#fn:6" class="footnote" rel="footnote" role="doc-noteref">6</a></sup>, почти 60 процентов энергии, необходимой для глобального майнинга Биткоина, уже поступает из природных источников, таких как энергия ветра или солнца: в настоящее время эта доля составляет 58,9 процента.</p>
 
 <h3 id="что-произойдет-когда-закончится-майнинг">Что произойдет, когда закончится майнинг?</h3>
 
 <blockquote>
-  <p>Максимальный запас Биткоина жестко определен и никогда не превысит лимит в почти 21 миллион монет<sup id="fnref:7" role="doc-noteref"><a href="#fn:7" class="footnote" rel="footnote">7</a></sup>. Таким образом, предложение BTC не может быть расширено.</p>
+  <p>Максимальный запас Биткоина жестко определен и никогда не превысит лимит в почти 21 миллион монет<sup id="fnref:7"><a href="#fn:7" class="footnote" rel="footnote" role="doc-noteref">7</a></sup>. Таким образом, предложение BTC не может быть расширено.</p>
 </blockquote>
 
-<p>Из-за халвинга последний Биткоин не будет добыт примерно до 2140 года. По данным аналитической компании Coinmarketcap<sup id="fnref:8" role="doc-noteref"><a href="#fn:8" class="footnote" rel="footnote">8</a></sup>, в настоящее время в обращении находится чуть более 19 миллионов монет. Это означает, что майнерам потребуется как минимум 117 лет, чтобы добыть оставшиеся два миллиона монет — то есть на оставшиеся десять процентов.</p>
+<p>Из-за халвинга последний Биткоин не будет добыт примерно до 2140 года. По данным аналитической компании Coinmarketcap<sup id="fnref:8"><a href="#fn:8" class="footnote" rel="footnote" role="doc-noteref">8</a></sup>, в настоящее время в обращении находится чуть более 19 миллионов монет. Это означает, что майнерам потребуется как минимум 117 лет, чтобы добыть оставшиеся два миллиона монет — то есть на оставшиеся десять процентов.</p>
 
 <h2 id="закон">Закон</h2>
 
@@ -2218,28 +2206,28 @@
 
 <div class="footnotes" role="doc-endnotes">
   <ol>
-    <li id="fn:1" role="doc-endnote">
+    <li id="fn:1">
       <p><a href="https://bytwork.com/articles/what-is-asic">Все что нужно знать про Асики</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:2" role="doc-endnote">
+    <li id="fn:2">
       <p><a href="https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE_%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F_%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B">Доказательство выполнения работы (англ. proof-of-work, POW, PoW)</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:3" role="doc-endnote">
+    <li id="fn:3">
       <p><a href="https://expert.ru/2020/12/21/chto-takoe-rig-v-majninge-i-kak-ego-sobrat/#:~:text=%D0%9C%D0%B0%D0%B9%D0%BD%D0%B8%D0%BD%D0%B3%20%D0%A0%D0%B8%D0%B3%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D1%8F%D0%B5%D1%82%20%D1%81%D0%BE%D0%B1%D0%BE%D0%B9%20%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%BE,%D0%BE%D1%82%20%D1%87%D0%B5%D1%82%D1%8B%D1%80%D0%B5%D1%85%20%D0%B4%D0%BE%20%D1%88%D0%B5%D1%81%D1%82%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%D0%B0%D0%B4%D0%B0%D0%BF%D1%82%D0%B5%D1%80%D0%BE%D0%B2.">Что такое Риг в майнинге и как его собрать</a> <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:4" role="doc-endnote">
+    <li id="fn:4">
       <p><a href="https://www.tinkoff.ru/invest/social/profile/DogeDoge/785c0c63-790e-4564-9643-31368a725139/">Халвинг биткоина. Что это такое, и почему его все ждут</a> <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:5" role="doc-endnote">
+    <li id="fn:5">
       <p><a href="https://www.bbc.co.uk/news/technology-56012952">Bitcoin consumes ‘more electricity than Argentina’</a> <a href="#fnref:5" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:6" role="doc-endnote">
+    <li id="fn:6">
       <p><a href="https://bitcoinminingcouncil.com/">Bitcoin Mining Council</a> <a href="#fnref:6" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:7" role="doc-endnote">
+    <li id="fn:7">
       <p><a href="https://www.investopedia.com/tech/what-happens-bitcoin-after-21-million-mined/">Что происходит с биткойнами после того, как будет добыт 21 миллион?</a> <a href="#fnref:7" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:8" role="doc-endnote">
+    <li id="fn:8">
       <p><a href="https://coinmarketcap.com/ru/currencies/bitcoin/">Данные аналитической компании Coinmarketcap</a> <a href="#fnref:8" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
@@ -2258,7 +2246,7 @@
 
 <p class="notice--ya">Цифровые деньги можно обменять без привязки к реальному человеку. Математическая область криптографии является основой безопасности Биткоина.</p>
 
-<p>Биткоин — это электронная валюта, существующая только в виртуальном пространстве Интернета. Также часто используется аббревиатура BTC, — это денежная единица в системе биткоина, для которой имеется ограниченный запас в 21 миллион монет<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
+<p>Биткоин — это электронная валюта, существующая только в виртуальном пространстве Интернета. Также часто используется аббревиатура BTC, — это денежная единица в системе биткоина, для которой имеется ограниченный запас в 21 миллион монет<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup>.</p>
 
 <figure><a href="/assets/images/articles/bitcoin/ru/what-is-bitcoin.webp" class="image-popup"> <img src="/assets/images/articles/bitcoin/ru/what-is-bitcoin.webp" alt="Что такое Биткоин" />
 <figcaption>Биткоин — это тип цифровой валюты, известный как криптовалюта.</figcaption></a></figure>
@@ -2300,14 +2288,14 @@
   <dt>Майнер</dt>
   <dd>Участник сети Биткойн, проверяющий платежи и вычисляющий новые блоки на своем оборудовании.</dd>
   <dt>Майнинг</dt>
-  <dd>Английский <a href="/ru/articles/mining/">термин «майнинг» означает</a> копать, добывать. Когда майнеры, подтверждают платежи, они получают новые биткойны в качестве вознаграждения. Чтобы добавить новый блок в <a href="/ru/articles/blockchain/">блокчейн</a>, им необходимо передать информацию из старых блоков в новый с соответствующими шифрами. Это требует вычислительной мощности и огромного количества электроэнергии.<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>.</dd>
+  <dd>Английский <a href="/ru/articles/mining/">термин «майнинг» означает</a> копать, добывать. Когда майнеры, подтверждают платежи, они получают новые биткойны в качестве вознаграждения. Чтобы добавить новый блок в <a href="/ru/articles/blockchain/">блокчейн</a>, им необходимо передать информацию из старых блоков в новый с соответствующими шифрами. Это требует вычислительной мощности и огромного количества электроэнергии.<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup>.</dd>
 </dl>
 
 <figure><a href="/assets/images/articles/bitcoin/ru/how-mining.webp" class="image-popup"> <img src="/assets/images/articles/bitcoin/ru/how-mining.webp" alt="Майнинг Биткоина" /> 
 <figcaption>Принцип работы майнинга.</figcaption></a></figure>
 
 <div class="imgcen">
-<iframe class="your-ad-position-style" src="https://mat.cryptox-ads.io/cxAdsAssets/banner-basic-v0.11/index.html?size=300*250&amp;app_id=10905748&amp;placement_id=20003615" loading="lazy" style="border:0;width:300px; height:250px"></iframe>
+
 </div>
 
 <section class="imp">
@@ -2486,7 +2474,7 @@
 
 <h3 id="волатильность">Волатильность</h3>
 
-<p>Цена биткоина считается неустойчивой, волатильной<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>. Это означает, что она подвержена сильным колебаниям.</p>
+<p>Цена биткоина считается неустойчивой, волатильной<sup id="fnref:3"><a href="#fn:3" class="footnote" rel="footnote" role="doc-noteref">3</a></sup>. Это означает, что она подвержена сильным колебаниям.</p>
 
 <p>Цена биткоина колеблется гораздо больше, чем курсы акций. В ноябре 2021 года один биткоин стоил 69 000 долларов, в мае 2022 года он упал до 27 000 долларов. Это разница более 50 процентов.</p>
 
@@ -2528,13 +2516,13 @@
 </ul>
 <div class="footnotes" role="doc-endnotes">
   <ol>
-    <li id="fn:1" role="doc-endnote">
+    <li id="fn:1">
       <p><a href="https://learn.bybit.com/ru/crypto/21-million-bitcoin-limit-mined/">Лимит в 21 миллион биткоинов</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:2" role="doc-endnote">
+    <li id="fn:2">
       <p><a href="https://bitcoin.org/ru/how-it-works">Как работает Биткойн?</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:3" role="doc-endnote">
+    <li id="fn:3">
       <p><a href="https://bytwork.com/articles/volatility">Что такое волатильность в Биткоине и криптовалют</a> <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
@@ -2568,7 +2556,7 @@
 <p class="notice--warning">Знание того, какой маршрут используется, может помочь в устранении неполадок.</p>
 
 <div class="imgcen">
-<iframe class="your-ad-position-style" src="https://mat.cryptox-ads.io/cxAdsAssets/banner-basic-v0.11/index.html?size=300*250&amp;app_id=10905748&amp;placement_id=20003615" loading="lazy" style="border:0;width:300px; height:250px"></iframe>
+
 </div>
 
 <h2 id="как-выбрать-правильный-маршрут-для-определенного-домена-в-linux">Как выбрать правильный маршрут для определенного домена в Linux?</h2>
