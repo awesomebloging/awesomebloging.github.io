@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-11-12T14:06:00-05:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="en"><title type="html">Trezor Safe 7: A Quantum-Ready Hardware Wallet Review (2025)</title><link href="https://miningsoft.org/ru/wallets/trezor-safe-7/" rel="alternate" type="text/html" title="Trezor Safe 7: A Quantum-Ready Hardware Wallet Review (2025)" /><published>2025-11-12T00:00:00-05:00</published><updated>2025-11-12T00:00:00-05:00</updated><id>https://miningsoft.org/ru/wallets/trezor-safe-7</id><content type="html" xml:base="https://miningsoft.org/ru/wallets/trezor-safe-7/"><![CDATA[<div class="paper wallet">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-11-12T14:15:52-05:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="en"><title type="html">Trezor Safe 7: A Quantum-Ready Hardware Wallet Review (2025)</title><link href="https://miningsoft.org/ru/wallets/trezor-safe-7/" rel="alternate" type="text/html" title="Trezor Safe 7: A Quantum-Ready Hardware Wallet Review (2025)" /><published>2025-11-12T00:00:00-05:00</published><updated>2025-11-12T00:00:00-05:00</updated><id>https://miningsoft.org/ru/wallets/trezor-safe-7</id><content type="html" xml:base="https://miningsoft.org/ru/wallets/trezor-safe-7/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       Trezor Safe 7 Review and Comparison. Wallet Pros and Cons
@@ -38,7 +38,7 @@
   </ul>
 </div>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_38.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_38.PNG" alt="Safe 7" /> </a></p>
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_38.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_38.png" alt="Safe 7" /> </a></p>
 
 <p>Now let’s look at the advantages.</p>
 
@@ -70,7 +70,7 @@
 <h2 id="design-and-display">Design and Display</h2>
 <p>Let’s start with the design. The wallet is made of premium aluminum with a reinforced back panel. Its dimensions are 75.4 mm in height, 44.5 mm in width, and 8.3 mm in thickness, making it the largest wallet in the Trezor family.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_12.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_12.PNG" alt="Safe 7 and comparison" /> </a></p>
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_12.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_12.png" alt="Safe 7 and comparison" /> </a></p>
 
 <p>On the front panel, you’ll find a 2.5-inch full-color high-resolution touchscreen with haptic feedback that gently vibrates upon touch, much like your smartphone.</p>
 
@@ -83,51 +83,51 @@
 <h2 id="wireless-connectivity-and-security">Wireless Connectivity and Security</h2>
 <p>Safe 7 is Trezor’s first wallet with wireless operation. Connect it to a computer or mobile device via a secure Bluetooth connection. Since Trezor always prioritizes security, all Bluetooth connections are protected by the Trezor Host protocol, which encrypts every command and transaction, ensuring no one can intercept, alter, or inject malicious messages.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_17.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_17.PNG" alt="Safe 7" /> </a></p>
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_17.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_17.png" alt="Safe 7" /> </a></p>
 
 <p>The wallet remains invisible to unknown devices and only connects to trusted applications via open encryption. This allows you to enjoy secure and encrypted communication. Use it wirelessly with a smartphone or tablet, or simply disable Bluetooth and use a cable connection if you prefer.</p>
 
 <h2 id="battery-and-charging">Battery and Charging</h2>
 <p>Safe 7 is also the first Trezor wallet with a battery, specifically a Lithium Iron Phosphate (LiFePO4) one. This battery type offers an excellent balance between safety, longevity, and cost. It lasts 4 times longer than standard lithium batteries, discharges more slowly, and can be fully discharged without damage.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_19.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_19.PNG" alt="Safe 7" /> </a></p>
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_19.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_19.png" alt="Safe 7" /> </a></p>
 
 <p>Charging is simple: it features magnetic wireless charging. Just place the wallet on any Qi2-compatible base, and it will lock in for stable charging.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_20.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_20.PNG" alt="Safe 7" /> </a></p>
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_20.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_20.png" alt="Safe 7" /> </a></p>
 
 <p>Or, if you prefer, charge it via a USB-C cable.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_22.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_22.PNG" alt="Safe 7" /> </a></p>
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_22.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_22.png" alt="Safe 7" /> </a></p>
 
 <p>The wallet is available in three colors: Charcoal Black, Obsidian Green, and a special Bitcoin edition in bright orange.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_23.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_23.PNG" alt="Safe 7" /> </a></p>
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_23.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_23.png" alt="Safe 7" /> </a></p>
 
 <h2 id="security-architecture">Security Architecture</h2>
 <h3 id="secure-elements">Secure Elements</h3>
 <p>The wallet is equipped with advanced security features to protect your crypto. It includes 2 independent secure elements: Tropic01 and Optiga Trust M.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_27.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_27.PNG" alt="Safe 7" /> </a></p>
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_27.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_27.png" alt="Safe 7" /> </a></p>
 
 <p>Together, they create a dual-chip architecture that protects against hacking, brute-force PIN attacks, and counterfeit hardware. Each secure element provides its own layer of protection.</p>
 
 <h3 id="tropic01-chip">Tropic01 Chip</h3>
 <p>The first chip is the Tropic01. It was developed by Tropic Square, a company founded by Trezor’s parent group, Satoshi Labs, in 2020, solely to create secure chips that anyone can verify.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_24.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_24.PNG" alt="Safe 7" /> </a></p>
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_24.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_24.png" alt="Safe 7" /> </a></p>
 
 <p>Trezor worked on manufacturing this chip for 5 years. It handles PIN protection, device authentication, and secure random number generation for wallet creation.</p>
 
 <h3 id="optiga-trust-m-chip">Optiga Trust M Chip</h3>
 <p>The second is the Optiga Trust M chip. This is a certified microcontroller with an EAL6+ certification level, the highest in the crypto hardware industry. Both chips work together to secure your funds.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_26.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_26.PNG" alt="Safe 7" /> </a></p>
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_26.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_26.png" alt="Safe 7" /> </a></p>
 
 <h2 id="quantum-resistance">Quantum Resistance</h2>
 <p>And now for one of the biggest innovations. Trezor Safe 7 is the world’s first quantum-protected hardware wallet. It includes pre-installed hardware designed to support future post-quantum updates, meaning it’s already engineered to resist future quantum computer attacks.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_29.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_29.PNG" alt="Safe 7" /> </a></p>
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_29.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_29.png" alt="Safe 7" /> </a></p>
 
 <p>As quantum computing evolves in the coming years, the Safe 7 will be able to receive firmware updates designed for post-quantum cryptography. This is a huge advantage because only devices engineered with this hardware architecture can run these future updates.</p>
 
@@ -138,7 +138,7 @@
 
 <p>Through the app, you can connect to third-party wallets, DeFi platforms, DApps, and NFT marketplaces.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_32.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_32.PNG" alt="Safe 7" /> </a></p>
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_32.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_32.png" alt="Safe 7" /> </a></p>
 
 <p>Check your portfolio, send and receive cryptocurrency, and connect your Trezor to popular wallet apps.</p>
 
@@ -152,17 +152,17 @@
 
 <p>When creating a new wallet, Trezor Safe 7 by default generates a 20-word recovery seed.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_33.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_33.PNG" alt="Safe 7" /> </a></p>
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_33.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_33.png" alt="Safe 7" /> </a></p>
 
 <p>If you already have another hardware wallet, like a Ledger, Coldcard, or another Trezor model, you can safely restore your existing wallet here using standard 12 or 24-word seed phrases. And, like all Trezor wallets, protect your device with a PIN code of up to 50 digits.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_34.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_34.PNG" alt="Safe 7" /> </a></p>
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_34.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_34.png" alt="Safe 7" /> </a></p>
 
 <h2 id="package-contents">Package Contents</h2>
 
 <p>Finally, when purchasing the Trezor Safe 7, you will receive: the device itself, a USB-C cable, two seed phrase cards, a quick start guide, a security manual, and some stickers.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_36.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_36.PNG" alt="Safe 7" /> </a></p>
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_36.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_36.png" alt="Safe 7" /> </a></p>
 
 <h2 id="criticism">Criticism</h2>
 
@@ -176,32 +176,32 @@
 
 <p>Trezor is based in Prague and has always been based there. Considering over 50 years of suppression of freedoms by communists and World War II before that, a deep skepticism towards the government grew in the city. These skeptics naturally became interested in Bitcoin and its ethics. From this, the company Trezor grew.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_43.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_43.PNG" alt="Prague" /> </a></p>
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_43.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_43.png" alt="Prague" /> </a></p>
 
 <p>Trezor strictly adheres to an open-source approach.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_39.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_39.PNG" alt="Safe 7" /> </a></p>
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_39.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_39.png" alt="Safe 7" /> </a></p>
 
 <p>Anyone can view the source code on <a href="https://github.com/trezor">Github</a>.</p>
 
 <h2 id="photo-gallery">Photo Gallery</h2>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_40.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_40.PNG" alt="Safe 7 in my hands" /> </a></p>
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_40.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_40.png" alt="Safe 7 in my hands" /> </a></p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_41.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_41.PNG" alt="Safe 7 stand with the internal board" /> </a></p>
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_41.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_41.png" alt="Safe 7 stand with the internal board" /> </a></p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_42.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_42.PNG" alt="Safe 7 wallets lying in a row" /> </a></p>
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_42.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_42.png" alt="Safe 7 wallets lying in a row" /> </a></p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_6.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_6.PNG" alt="Safe 7" /> </a></p>
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_6.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_6.png" alt="Safe 7" /> </a></p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_7.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_7.PNG" alt="Safe 7" /> </a>
-<a href="/assets/images/wallets/trezor/safe_7/safe7_8.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_8.PNG" alt="Safe 7" /> </a></p>
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_7.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_7.png" alt="Safe 7" /> </a>
+<a href="/assets/images/wallets/trezor/safe_7/safe7_8.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_8.png" alt="Safe 7" /> </a></p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_4.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_4.PNG" alt="Safe 7" /> </a></p>
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_4.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_4.png" alt="Safe 7" /> </a></p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_10.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_10.PNG" alt="Safe 7" /> </a></p>
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_10.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_10.png" alt="Safe 7" /> </a></p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_11.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_11.PNG" alt="Safe 7" /> </a></p>
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_11.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_11.png" alt="Safe 7" /> </a></p>
 <div class="footnotes" role="doc-endnotes">
   <ol>
     <li id="fn:1">
