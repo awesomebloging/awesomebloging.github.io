@@ -1,4 +1,214 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="ru" /><updated>2025-08-08T09:13:29-04:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="ru"><title type="html">5 Советов, которые помогут Вам найти надежную автоматизированную платформу для торговли криптовалютами</title><link href="https://miningsoft.org/ru/blog/auto-platform/" rel="alternate" type="text/html" title="5 Советов, которые помогут Вам найти надежную автоматизированную платформу для торговли криптовалютами" /><published>2023-10-12T00:00:00-04:00</published><updated>2023-10-12T00:00:00-04:00</updated><id>https://miningsoft.org/ru/blog/auto-platform</id><content type="html" xml:base="https://miningsoft.org/ru/blog/auto-platform/"><![CDATA[<div class="paper wallet">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="ru" /><updated>2025-11-12T13:57:58-05:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="ru"><title type="html">Trezor Safe 7: Обзор аппаратного кошелька с квантовой готовностью (2025)</title><link href="https://miningsoft.org/ru/wallets/trezor-safe-7/" rel="alternate" type="text/html" title="Trezor Safe 7: Обзор аппаратного кошелька с квантовой готовностью (2025)" /><published>2025-11-12T00:00:00-05:00</published><updated>2025-11-12T00:00:00-05:00</updated><id>https://miningsoft.org/ru/wallets/trezor-safe-7</id><content type="html" xml:base="https://miningsoft.org/ru/wallets/trezor-safe-7/"><![CDATA[<div class="paper wallet">
+  <div class="pattern">
+    <div class="note-cont">
+      Обзор и сравнение Trezor Safe 7. Плюсы и недостатки кошелька
+    </div>
+  </div>
+</div>
+<p><em>В этом обзре вы узнаете все про аппаратный кошелек Trezor Safe 7</em></p>
+
+<p>Компания Trezor заявляет, что их модель кошелька Safe 7 навсегда переопределит безопасность в криптоиндустрии. Так ли это? Давайте разбираться!</p>
+
+<p>На разработку этого проекта ушло 5 лет, что говорит о высоком качестве продукта. Мы рассмотрим его основные функции, новые обновления и всё, что нужно знать об этом захватывающем релизе.</p>
+
+<p><a href="https://trezor.io/trezor-safe-7" class="btn btn--light-outline btn--x-large">Официальный сайт</a></p>
+
+<h2 id="что-такое-trezor-safe-7">Что такое Trezor Safe 7?</h2>
+
+<section>
+
+  <p><dfn>Кошелек Trezor Safe 7</dfn> это аппаратный кошелек с двумя чипами безопасности, поддержкой Bluetooth соединения и реализацией готовности к квантовой урозе.</p>
+
+  <p class="notice--primary">Он поддерживает тысчи криптовалют<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup> и десятки сетей. Среди них, Bitcoin, Ethereum, Ripple, Solana, Sui, Tron и др.</p>
+
+</section>
+
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_.png" alt="Кошелек Trezor Safe 7" loading="lazy" decoding="async" /><figcaption>Tresor Safe 7.</figcaption></a></figure>
+
+<p>Рассмотри кошелек с точки зрения безопасности.</p>
+
+<div class="notice--info">
+  <p><i class="fa fa-lock" aria-hidden="true"></i> <b>Безопасность</b>:</p>
+  <ul>
+    <li><strong>2 чипа</strong> Infineon + открытый TROPIC01 (CCEAL6+) - требуется взлом обоих одновременно</li>
+    <li><strong>Физ защита</strong> - датчики стирают ключ при вскрытии</li>
+    <li><strong>Открытый код</strong> дает быстрый аудит и устранение уязвимостей</li>
+    <li><strong>Безопасное соединение</strong> - собственный протокол Trezor Host, не зависит от Bluetooth</li>
+    <li><strong>Квантовая готовность</strong> -  обновляемая прошивка для будущих атак</li>
+  </ul>
+</div>
+
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_38.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_38.PNG" alt="Safe 7" /> </a></p>
+
+<p>Теперь посмотрим на преимущества.</p>
+
+<div class="notice--success">
+  <p><i class="fa fa-check-circle"></i> <b>Преимущества</b>:</p>
+  <ul>
+    <li><strong>Экран</strong> - 6,3 см, 700 нит, Gorilla Glass - самый яркий</li>
+    <li><strong>Корпус</strong> - алюминий, IP54, укрепленное стекло</li>
+    <li><strong>Батарея LiFePO4</strong> - в 4 раза больше циклов, сохраняет заряд годами</li>
+    <li><strong>Поддержка</strong> - 8000+ монет, 100+ сетей, NFT</li>
+    <li><strong>Связь</strong> - Bluetooth/USB-C, мультиплатформенность</li>
+    <li><strong>Экосистема</strong> - 70k+ dApps, совместим с MetaMask, Rabby</li>
+  </ul>
+</div>
+
+<p>Перейдем к недостаткам.</p>
+
+<div class="notice--danger">
+  <p><i class="fa fa-times-circle"></i> <b>Недостатки</b>:</p>
+  <ul>
+    <li>Цена в $249 - вдвое дороже базовых моделей.</li>
+    <li>Новый чип TROPIC01 не имеет долгой истории испытаний.</li>
+    <li>Условная квант. защита зависит от сетей, а не только от кошелька.</li>
+  </ul>
+</div>
+
+<p>Начнем обзор с изучения внешних характеристик, а затем перейдем к самому важному - новой технологии внутри.</p>
+
+<h2 id="дизайн-и-экран">Дизайн и экран</h2>
+<p>Давайте начнём с дизайна. Кошелёк выполнен из премиального алюминия с усиленной задней панелью. Его размеры составляют 75.4 мм в высоту, 44.5 мм в ширину и 8.3 мм в толщину, что делает его самым крупным кошельком в семействе Trezor.</p>
+
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_12.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_12.PNG" alt="Safe 7 и сравнение" /> </a></p>
+
+<p>На передней панели вы найдёте 2.5-дюймовый полноцветный сенсорный экран высокого разрешения с тактильной отдачей, который мягко вибрирует при прикосновении, как ваш смартфон.</p>
+
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_2.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_2.png" alt="Кошелек Trezor Safe 7" loading="lazy" decoding="async" /><figcaption>Внешний вид.</figcaption></a></figure>
+
+<p>Большой дисплей упрощает чтение деталей транзакций и обеспечивает более комфортный опыт.</p>
+
+<p class="notice--ya">Кроме того, экран имеет полностью усиленное стекло, в котором используется запатентованная технология Gorilla Glass 3, что делает его устойчивым к падениям, царапинам и даже брызгам. С правой стороны расположена кнопка питания, а в нижней части - порт USB-C.</p>
+
+<h2 id="беспроводная-связь-и-безопасность">Беспроводная связь и безопасность</h2>
+<p>Safe 7 - это первый кошелёк от Trezor с беспроводной работой. Подключайте его к компьютеру или мобильному устройству через безопасное Bluetooth-соединение. Поскольку компания Trezor всегда ставит безопасность на первое место, все Bluetooth-соединения защищены протоколом Trezor Host, который шифрует каждую команду и транзакцию, гарантируя, что никто не сможет перехватить, изменить или внедрить вредоносные сообщения.</p>
+
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_17.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_17.PNG" alt="Safe 7" /> </a></p>
+
+<p>Кошелёк остаётся невидимым для неизвестных устройств и подключается только к доверенным приложениям через открытое шифрование. Это позволяет вам наслаждаться безопасной и зашифрованной связью. Используйте его беспроводным способом со смартфоном или планшетом или просто отключите Bluetooth и используйте кабельное соединение, если предпочитаете его.</p>
+
+<h2 id="аккумулятор-и-зарядка">Аккумулятор и зарядка</h2>
+<p>Safe 7 - это так же первый кошелек Trezor с аккумулятором, а именно здесь литий-железо-фосфатный (LiFePO4). Этот тип аккумулятора предлагает отличный баланс между безопасностью, долговечностью и стоимостью. Он служит в 4 раза дольше, чем обычные литиевые батареи, медленнее разряжается и может быть полностью разряжен без повреждений.</p>
+
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_19.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_19.PNG" alt="Safe 7" /> </a></p>
+
+<p>Зарядка проста: для этого предусмотрена магнитная беспроводная зарядка. Просто поместите кошелёк на любую совместимую с Qi2 базу, и он зафиксируется для стабильной зарядки.</p>
+
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_20.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_20.PNG" alt="Safe 7" /> </a></p>
+
+<p>Или, если хотите, заряжайте его через кабель USB-C.</p>
+
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_22.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_22.PNG" alt="Safe 7" /> </a></p>
+
+<p>Кошелёк доступен в трёх цветах: угольно-чёрный, зеленый обсидиан и специальное Биткоин-издание в ярко-оранжевом цвете.</p>
+
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_23.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_23.PNG" alt="Safe 7" /> </a></p>
+
+<h2 id="архитектура-безопасности">Архитектура безопасности</h2>
+<h3 id="защищённые-элементы">Защищённые элементы</h3>
+<p>Кошелёк оснащён продвинутыми функциями безопасности для защиты вашей крипты. Он включает 2 независимых защищённых элемента: Tropic01 и Optiga Trust M.</p>
+
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_27.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_27.PNG" alt="Safe 7" /> </a></p>
+
+<p>Вместе они создают архитектуру с 2 чипами, которая защищает от взлома, атак методом грубой силы на PIN-код и поддельного оборудования. Каждый безопасный элемент обеспечивает свой уровень защиты.</p>
+
+<h3 id="чип-tropic01">Чип Tropic01</h3>
+<p>Первый чип - Tropic01. Он был разработан компанией Tropic Square, созданной материнской группой Trezor, Satoshi Labs, в 2020 году исключительно для создания безопасных чипов, которые любой может проверить.</p>
+
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_24.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_24.PNG" alt="Safe 7" /> </a></p>
+
+<p>Trezor работала над изготовлением этого чипа 5 лет. Он обрабатывает защиту PIN-кода, аутентификацию устройства и безопасную генерацию случайных чисел для создания кошелька.</p>
+
+<h3 id="чип-optigga-trust-m">Чип Optigga Trust M</h3>
+<p>Второй - чип Optigga Trust M. Это сертифицированный микроконтроллер с уровнем сертификации EAL6+, высшим в индустрии крипто-аппаратуры. Оба чипа работают вместе, чтобы обезопасить ваши средства.</p>
+
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_26.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_26.PNG" alt="Safe 7" /> </a></p>
+
+<h2 id="квантовая-устойчивость">Квантовая устойчивость</h2>
+<p>А теперь - одно из самых больших нововведений. Trezor Safe 7 - это первый в мире квантово-защищённый аппаратный кошелёк. Он включает в себя предустановленное аппаратное обеспечение, предназначенное для поддержки будущих постквантовых обновлений, то есть он уже спроектирован для сопротивления будущим атакам квантовых компьютеров.</p>
+
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_29.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_29.PNG" alt="Safe 7" /> </a></p>
+
+<p>По мере развития квантовых вычислений в ближайшие годы, Safe 7 сможет получать обновления прошивки, предназначенные для постквантовой криптографии. Это огромное преимущество, потому что только устройства, спроектированные с такой аппаратной архитектурой, могут запускать эти будущие обновления.</p>
+
+<p>Таким образом, Trezor Safe 7 уже подготовлен к следующему поколению безопасности.</p>
+
+<h2 id="программное-обеспечение-и-совместимость">Программное обеспечение и совместимость</h2>
+<p>Параллельно с этим запуском Trezor также обновила свой мобильный интерфейс, позволяя вам безопасно исследовать экосистему криптовалют.</p>
+
+<p>Через приложение вы можете подключаться к сторонним кошелькам, DeFi-платформам, DApps и NFT-маркетплейсам.</p>
+
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_32.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_32.PNG" alt="Safe 7" /> </a></p>
+
+<p>Проверяйте свой портфель, отправляйте и получайте криптовалюту, а также подключайте свой Trezor к популярным кошелькам-приложениям.</p>
+
+<p>Trezor также предлагает открытый SDK, чтобы другие программные кошельки могли легко интегрироваться с ним.</p>
+
+<h2 id="поддержка-монет">Поддержка монет</h2>
+
+<p>Trezor Safe 7 поддерживает Биткоин, Эфириум и тысячи других криптовалют и токенов.</p>
+
+<h2 id="сид-фраза-и-импорт-кошельков">Сид фраза и импорт кошельков</h2>
+
+<p>При создании нового кошелька Trezor Safe 7 по умолчанию генерирует 20 слов для восстановления.</p>
+
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_33.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_33.PNG" alt="Safe 7" /> </a></p>
+
+<p>Если у вас уже есть другой аппаратный кошелёк, например, Ledger, Coldcard или другая модель Trezor, вы можете безопасно восстановить свой существующий кошелёк здесь, используя стандартные сид-фразы из 12 или 24 слов. И, как и все кошельки Trezor, защищайте своё устройство с помощью PIN-кода длиной до 50 цифр.</p>
+
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_34.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_34.PNG" alt="Safe 7" /> </a></p>
+
+<h2 id="комплектация">Комплектация</h2>
+
+<p>И, наконец, при покупке Trezor Safe 7 вы получите: само устройство, кабель USB-C, две карточки для записи сид-фразы, краткое руководство по началу работы, руководство по безопасности и несколько стикеров.</p>
+
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_36.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_36.PNG" alt="Safe 7" /> </a></p>
+
+<h2 id="критика">Критика</h2>
+
+<p>Заявленная квантовая устойчивость кошелька на является скорее маркетинговым преимуществом, чем практической необходимостью. Угроза со стороны квантовых компьютеров для текущей криптографии остаётся гипотетической и отдалённой во времени. Пользователи платят за функцию, которая может стать актуальной лишь через много лет, в то время как сама технология постквантовой криптографии продолжает активно развиваться и меняться, что ставит под вопрос конечную эффективность готового “железного” решения.</p>
+
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_3.webp" class="image-popup small"> <img src="/assets/images/wallets/trezor/safe_7/safe7_3.webp" alt="Кошелек Trezor Safe 7 " /> </a></p>
+
+<p>Несмотря на премиальный дизайн и заявленную устойчивость к повреждениям, наличие большого сенсорного экрана и аккумулятора делает устройство более уязвимым по сравнению с более простыми моделями. Экран, будучи точкой физического контакта, остаётся самым хрупким элементом, а встроенный аккумулятор со временем деградирует, что может привести к необходимости замены всего устройства через несколько лет, в отличие от кошельков без батареи, которые работают только при подключении.</p>
+
+<h2 id="о-кмопании">О кмопании</h2>
+
+<p>Trezor базируется в Праге и всегда базировался там. С учетом более чем 50 лет подавления свобод коммунистами и Второй мировой войны до этого, в городе вырос глубокий скептицизм к правительству. Эти скептики естественно заинтересовались Bitcoin и его этикой. Из этого выоросла компания Трезор.</p>
+
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_43.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_43.PNG" alt="Прага" /> </a></p>
+
+<p>Трезор строго придерживается подхода с открытым исходным кодом.</p>
+
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_39.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_39.PNG" alt="Safe 7" /> </a></p>
+
+<p>Каждый может посмотреть исходный код на <a href="https://github.com/trezor">Github</a>.</p>
+
+<h2 id="фотогаллерея">Фотогаллерея</h2>
+
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_40.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_40.PNG" alt="Safe 7 в моих руках" /> </a></p>
+
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_41.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_41.PNG" alt="Safe 7 стенд с платой которая внутри" /> </a></p>
+
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_42.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_42.PNG" alt="Safe 7 коешльки лежат в ряд" /> </a></p>
+
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_6.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_6.PNG" alt="Safe 7" /> </a></p>
+
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_7.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_7.PNG" alt="Safe 7" /> </a>
+<a href="/assets/images/wallets/trezor/safe_7/safe7_8.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_8.PNG" alt="Safe 7" /> </a></p>
+
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_4.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_4.PNG" alt="Safe 7" /> </a></p>
+
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_10.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_10.PNG" alt="Safe 7" /> </a></p>
+
+<p><a href="/assets/images/wallets/trezor/safe_7/safe7_11.PNG" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_11.PNG" alt="Safe 7" /> </a></p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1">
+      <p><a href="https://trezor.io/coins">Официальный сайт</a>. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Matthew Wood</name></author><category term="wallets" /><summary type="html"><![CDATA[Обзор и сравнение Trezor Safe 7. Плюсы и недостатки кошелька В этом обзре вы узнаете все про аппаратный кошелек Trezor Safe 7]]></summary></entry><entry xml:lang="ru"><title type="html">5 Советов, которые помогут Вам найти надежную автоматизированную платформу для торговли криптовалютами</title><link href="https://miningsoft.org/ru/blog/auto-platform/" rel="alternate" type="text/html" title="5 Советов, которые помогут Вам найти надежную автоматизированную платформу для торговли криптовалютами" /><published>2023-10-12T00:00:00-05:00</published><updated>2023-10-12T00:00:00-05:00</updated><id>https://miningsoft.org/ru/blog/auto-platform</id><content type="html" xml:base="https://miningsoft.org/ru/blog/auto-platform/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       Важные аспекты, которые следует учитывать при выборе торговой платформы
@@ -63,7 +273,7 @@
 
 <p class="notice--danger">Это безрисковый способ определить, соответствует ли платформа вашим торговым целям.</p>
 
-<p>Убедитесь, что вы учитываете вышеперечисленные факторы, чтобы выбрать лучшую автоматизированную платформу для торговли криптовалютами.</p>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Важные аспекты, которые следует учитывать при выборе торговой платформы Убедитесь, что вы учитываете вышеперечисленные факторы, чтобы выбрать лучшую автоматизированную платформу для торговли криптовалютами.]]></summary></entry><entry xml:lang="ru"><title type="html">Whatsminer tool: Скачать бесплатно, Настройка на русском</title><link href="https://miningsoft.org/ru/tools/whatsminertool/" rel="alternate" type="text/html" title="Whatsminer tool: Скачать бесплатно, Настройка на русском" /><published>2023-04-13T00:00:00-04:00</published><updated>2025-08-08T00:00:00-04:00</updated><id>https://miningsoft.org/ru/tools/whatsminertool</id><content type="html" xml:base="https://miningsoft.org/ru/tools/whatsminertool/"><![CDATA[<div class="paper wallet">
+<p>Убедитесь, что вы учитываете вышеперечисленные факторы, чтобы выбрать лучшую автоматизированную платформу для торговли криптовалютами.</p>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Важные аспекты, которые следует учитывать при выборе торговой платформы Убедитесь, что вы учитываете вышеперечисленные факторы, чтобы выбрать лучшую автоматизированную платформу для торговли криптовалютами.]]></summary></entry><entry xml:lang="ru"><title type="html">Whatsminer tool: Скачать бесплатно, Настройка на русском</title><link href="https://miningsoft.org/ru/tools/whatsminertool/" rel="alternate" type="text/html" title="Whatsminer tool: Скачать бесплатно, Настройка на русском" /><published>2023-04-13T00:00:00-05:00</published><updated>2025-08-08T00:00:00-05:00</updated><id>https://miningsoft.org/ru/tools/whatsminertool</id><content type="html" xml:base="https://miningsoft.org/ru/tools/whatsminertool/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       WhatsMiner tool: как использовать - пользовательское руководство.
@@ -549,7 +759,7 @@
       <p><a href="https://microbt-whatsminer.com/">WhatsMiner - Official Website</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="tools" /><summary type="html"><![CDATA[WhatsMiner tool: как использовать - пользовательское руководство. Получите полный набор инструкций по настройке и обновлению WhatsMiner tool v8.1.34 и более ранним версиям.]]></summary></entry><entry xml:lang="ru"><title type="html">Что такое криптовалюта? Простыми словами (2023)</title><link href="https://miningsoft.org/ru/articles/cryptocurrency/" rel="alternate" type="text/html" title="Что такое криптовалюта? Простыми словами (2023)" /><published>2023-02-22T00:00:00-04:00</published><updated>2023-02-22T00:00:00-04:00</updated><id>https://miningsoft.org/ru/articles/cryptocurrency</id><content type="html" xml:base="https://miningsoft.org/ru/articles/cryptocurrency/"><![CDATA[<div class="paper btc">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="tools" /><summary type="html"><![CDATA[WhatsMiner tool: как использовать - пользовательское руководство. Получите полный набор инструкций по настройке и обновлению WhatsMiner tool v8.1.34 и более ранним версиям.]]></summary></entry><entry xml:lang="ru"><title type="html">Что такое криптовалюта? Простыми словами (2023)</title><link href="https://miningsoft.org/ru/articles/cryptocurrency/" rel="alternate" type="text/html" title="Что такое криптовалюта? Простыми словами (2023)" /><published>2023-02-22T00:00:00-05:00</published><updated>2023-02-22T00:00:00-05:00</updated><id>https://miningsoft.org/ru/articles/cryptocurrency</id><content type="html" xml:base="https://miningsoft.org/ru/articles/cryptocurrency/"><![CDATA[<div class="paper btc">
   <div class="pattern">
     <div class="note-cont">
       Криптовалюта: что такое, как работает и зачем нужна?
@@ -1104,7 +1314,7 @@
       <p><a href="https://bitcoin.org/ru/how-it-works">Как работает Биткойн?</a> <a href="#fnref:11" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Криптовалюта: что такое, как работает и зачем нужна? Простое объяснение криптовалюты для новичков и продвинутых пользователей.]]></summary></entry><entry xml:lang="ru"><title type="html">Дизайн Blockchain проектов: принципы, концепция и архитектура</title><link href="https://miningsoft.org/ru/blog/cex-design/" rel="alternate" type="text/html" title="Дизайн Blockchain проектов: принципы, концепция и архитектура" /><published>2023-02-22T00:00:00-04:00</published><updated>2023-02-22T00:00:00-04:00</updated><id>https://miningsoft.org/ru/blog/cex-design</id><content type="html" xml:base="https://miningsoft.org/ru/blog/cex-design/"><![CDATA[<div class="paper wallet">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Криптовалюта: что такое, как работает и зачем нужна? Простое объяснение криптовалюты для новичков и продвинутых пользователей.]]></summary></entry><entry xml:lang="ru"><title type="html">Дизайн Blockchain проектов: принципы, концепция и архитектура</title><link href="https://miningsoft.org/ru/blog/cex-design/" rel="alternate" type="text/html" title="Дизайн Blockchain проектов: принципы, концепция и архитектура" /><published>2023-02-22T00:00:00-05:00</published><updated>2023-02-22T00:00:00-05:00</updated><id>https://miningsoft.org/ru/blog/cex-design</id><content type="html" xml:base="https://miningsoft.org/ru/blog/cex-design/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       Ui дизайн, ориентированный на человека, доверие и простота
@@ -1197,7 +1407,7 @@
       <p><a href="https://uxplanet.org/blockchain-and-its-applications-for-service-designers-7b6bfd9fec39">Blockchain and Its Applications for Service Designers</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Ui дизайн, ориентированный на человека, доверие и простота Существует несколько вещей, о которых следует помнить при разработке блокчейна: простота, безопасность, прозрачность и др.]]></summary></entry><entry xml:lang="ru"><title type="html">Разблокировка сайта юристом - основания для Роскомнадзора</title><link href="https://miningsoft.org/ru/blog/rkn/" rel="alternate" type="text/html" title="Разблокировка сайта юристом - основания для Роскомнадзора" /><published>2023-02-17T00:00:00-04:00</published><updated>2023-02-17T00:00:00-04:00</updated><id>https://miningsoft.org/ru/blog/rkn</id><content type="html" xml:base="https://miningsoft.org/ru/blog/rkn/"><![CDATA[<div class="paper wallet">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Ui дизайн, ориентированный на человека, доверие и простота Существует несколько вещей, о которых следует помнить при разработке блокчейна: простота, безопасность, прозрачность и др.]]></summary></entry><entry xml:lang="ru"><title type="html">Разблокировка сайта юристом - основания для Роскомнадзора</title><link href="https://miningsoft.org/ru/blog/rkn/" rel="alternate" type="text/html" title="Разблокировка сайта юристом - основания для Роскомнадзора" /><published>2023-02-17T00:00:00-05:00</published><updated>2023-02-17T00:00:00-05:00</updated><id>https://miningsoft.org/ru/blog/rkn</id><content type="html" xml:base="https://miningsoft.org/ru/blog/rkn/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       Роскомнадзор, разблокируй! Как отстоять свой сайт?
@@ -1402,7 +1612,7 @@
       <p><a href="https://drc.law/uslugi/obzhalovanie-sudebnogo-resheniya-o-priznanii-informatsii-nezakonnoy/">Обжалование судебного решения о признании информации незаконной</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Роскомнадзор, разблокируй! Как отстоять свой сайт? В этой статье вы узнаете о блокировках РКН и как решить эту проблему.]]></summary></entry><entry xml:lang="ru"><title type="html">Что такое технология Блокчейн? Простыми словами (2023)</title><link href="https://miningsoft.org/ru/articles/blockchain/" rel="alternate" type="text/html" title="Что такое технология Блокчейн? Простыми словами (2023)" /><published>2023-02-10T00:00:00-04:00</published><updated>2023-02-14T00:00:00-04:00</updated><id>https://miningsoft.org/ru/articles/blockchain</id><content type="html" xml:base="https://miningsoft.org/ru/articles/blockchain/"><![CDATA[<div class="paper btc">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Роскомнадзор, разблокируй! Как отстоять свой сайт? В этой статье вы узнаете о блокировках РКН и как решить эту проблему.]]></summary></entry><entry xml:lang="ru"><title type="html">Что такое технология Блокчейн? Простыми словами (2023)</title><link href="https://miningsoft.org/ru/articles/blockchain/" rel="alternate" type="text/html" title="Что такое технология Блокчейн? Простыми словами (2023)" /><published>2023-02-10T00:00:00-05:00</published><updated>2023-02-14T00:00:00-05:00</updated><id>https://miningsoft.org/ru/articles/blockchain</id><content type="html" xml:base="https://miningsoft.org/ru/articles/blockchain/"><![CDATA[<div class="paper btc">
   <div class="pattern">
     <div class="note-cont">
       Блокчейн: что такое, как работает и зачем нужен?
@@ -1765,7 +1975,7 @@
       <p><a href="https://www.forbes.com/sites/forbestechcouncil/2022/10/20/advantages-and-disadvantages-of-blockchain-technology/">Advantages And Disadvantages Of Blockchain Technology</a> <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Блокчейн: что такое, как работает и зачем нужен? Простое объяснение блокчейн технологии для новичков и продвинутых пользователей.]]></summary></entry><entry xml:lang="ru"><title type="html">Взгляд в будущее Биткойна: что будет с криптой через 10 лет?</title><link href="https://miningsoft.org/ru/blog/btc-potencial/" rel="alternate" type="text/html" title="Взгляд в будущее Биткойна: что будет с криптой через 10 лет?" /><published>2023-02-09T00:00:00-04:00</published><updated>2023-02-28T00:00:00-04:00</updated><id>https://miningsoft.org/ru/blog/btc-potencial</id><content type="html" xml:base="https://miningsoft.org/ru/blog/btc-potencial/"><![CDATA[<div class="paper btc">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Блокчейн: что такое, как работает и зачем нужен? Простое объяснение блокчейн технологии для новичков и продвинутых пользователей.]]></summary></entry><entry xml:lang="ru"><title type="html">Взгляд в будущее Биткойна: что будет с криптой через 10 лет?</title><link href="https://miningsoft.org/ru/blog/btc-potencial/" rel="alternate" type="text/html" title="Взгляд в будущее Биткойна: что будет с криптой через 10 лет?" /><published>2023-02-09T00:00:00-05:00</published><updated>2023-02-28T00:00:00-05:00</updated><id>https://miningsoft.org/ru/blog/btc-potencial</id><content type="html" xml:base="https://miningsoft.org/ru/blog/btc-potencial/"><![CDATA[<div class="paper btc">
   <div class="pattern">
     <div class="note-cont">
       Будущее Биткойна
@@ -1895,7 +2105,7 @@
       <p><a href="https://www.econstor.eu/bitstream/10419/103022/1/791932281.pdf">Конкуренция на рынке криптовалют - EconStor</a> <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Будущее Биткойна В этой статье вы узнаете о перспективах биткойна.]]></summary></entry><entry xml:lang="ru"><title type="html">Майнинг - что это такое простыми словами? Кратко и понятно</title><link href="https://miningsoft.org/ru/articles/mining/" rel="alternate" type="text/html" title="Майнинг - что это такое простыми словами? Кратко и понятно" /><published>2023-02-07T00:00:00-04:00</published><updated>2023-02-14T00:00:00-04:00</updated><id>https://miningsoft.org/ru/articles/mining</id><content type="html" xml:base="https://miningsoft.org/ru/articles/mining/"><![CDATA[<div class="paper btc">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Будущее Биткойна В этой статье вы узнаете о перспективах биткойна.]]></summary></entry><entry xml:lang="ru"><title type="html">Майнинг - что это такое простыми словами? Кратко и понятно</title><link href="https://miningsoft.org/ru/articles/mining/" rel="alternate" type="text/html" title="Майнинг - что это такое простыми словами? Кратко и понятно" /><published>2023-02-07T00:00:00-05:00</published><updated>2023-02-14T00:00:00-05:00</updated><id>https://miningsoft.org/ru/articles/mining</id><content type="html" xml:base="https://miningsoft.org/ru/articles/mining/"><![CDATA[<div class="paper btc">
   <div class="pattern">
     <div class="note-cont">
       Что вычисляют майнинг фермы?
@@ -2231,7 +2441,7 @@
       <p><a href="https://coinmarketcap.com/ru/currencies/bitcoin/">Данные аналитической компании Coinmarketcap</a> <a href="#fnref:8" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Что вычисляют майнинг фермы? В этой статье вы узнаете, что означает майнинг криптовалюты.]]></summary></entry><entry xml:lang="ru"><title type="html">Биткоин: что это и как работает (простым языком) - 2023</title><link href="https://miningsoft.org/ru/articles/bitcoin/" rel="alternate" type="text/html" title="Биткоин: что это и как работает (простым языком) - 2023" /><published>2023-02-01T00:00:00-04:00</published><updated>2023-03-13T00:00:00-04:00</updated><id>https://miningsoft.org/ru/articles/bitcoin</id><content type="html" xml:base="https://miningsoft.org/ru/articles/bitcoin/"><![CDATA[<div class="paper btc">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Что вычисляют майнинг фермы? В этой статье вы узнаете, что означает майнинг криптовалюты.]]></summary></entry><entry xml:lang="ru"><title type="html">Биткоин: что это и как работает (простым языком) - 2023</title><link href="https://miningsoft.org/ru/articles/bitcoin/" rel="alternate" type="text/html" title="Биткоин: что это и как работает (простым языком) - 2023" /><published>2023-02-01T00:00:00-05:00</published><updated>2023-03-13T00:00:00-05:00</updated><id>https://miningsoft.org/ru/articles/bitcoin</id><content type="html" xml:base="https://miningsoft.org/ru/articles/bitcoin/"><![CDATA[<div class="paper btc">
   <div class="pattern">
     <div class="note-cont">
       Что такое Биткоин и зачем он нужен?
@@ -2526,174 +2736,4 @@
       <p><a href="https://bytwork.com/articles/volatility">Что такое волатильность в Биткоине и криптовалют</a> <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Что такое Биткоин и зачем он нужен? В этой статье вы узнаете все про BTC. Объясним, как работают виртуальные деньги?]]></summary></entry><entry xml:lang="ru"><title type="html">Как установить / Добавить статические маршруты в Linux? (static routes)</title><link href="https://miningsoft.org/ru/guide/specific-domain-linux/" rel="alternate" type="text/html" title="Как установить / Добавить статические маршруты в Linux? (static routes)" /><published>2022-12-12T00:00:00-04:00</published><updated>2022-12-27T00:00:00-04:00</updated><id>https://miningsoft.org/ru/guide/specific-domain-linux</id><content type="html" xml:base="https://miningsoft.org/ru/guide/specific-domain-linux/"><![CDATA[<div class="paper wallet">
-  <div class="pattern">
-    <div class="note-cont">
-      Как создавать собственные маршруты для доменов в Linux.
-    </div>
-  </div>
-</div>
-<p><em>Мы покажем вам, как использовать команду route, чтобы найти лучший DNS-маршрут для вашего веб-сервера.</em></p>
-
-<script async="" src="https://coinzillatag.com/lib/display.js"></script>
-
-<div class="coinzilla" data-zone="C-26960aca952082b4725"></div>
-<script>
-    window.coinzilla_display = window.coinzilla_display || [];
-    var c_display_preferences = {};
-    c_display_preferences.zone = "26960aca952082b4725";
-    c_display_preferences.width = "300";
-    c_display_preferences.height = "250";
-    coinzilla_display.push(c_display_preferences);
-</script>
-
-<p>Многие пользователи Linux знакомы с концепцией static routes - маршрута по умолчанию.</p>
-
-<p><em>Static routes</em> - это маршрут, который ваш компьютер автоматически использует, когда ему нужно направить трафик в определенное место назначения. Но что делать, если вам нужно использовать другой маршрут для определенных доменов? В этой статье мы покажем вам, как создавать собственные маршруты для определенных доменов в Linux.</p>
-
-<p>Некоторые системы предпочитают использовать определенные маршруты для связи между различными частями операционной системы. Например, в системе на основе Unix маршрут по умолчанию может использоваться для отправки трафика, предназначенного для карты сетевого интерфейса (NIC), в соответствующий модуль ядра.</p>
-
-<p class="notice--warning">Знание того, какой маршрут используется, может помочь в устранении неполадок.</p>
-
-<div class="imgcen">
-
-</div>
-
-<h2 id="как-выбрать-правильный-маршрут-для-определенного-домена-в-linux">Как выбрать правильный маршрут для определенного домена в Linux?</h2>
-
-<p>При выборе маршрута для определенного домена в Linux важно учитывать шаблоны трафика и требования вашей сети. Существует несколько различных маршрутов, которые можно выбрать в зависимости от потребностей вашей сети. Ниже приведены 2 различных способа, которые можно использовать при маршрутизации трафика в Linux:</p>
-
-<ul>
-  <li>
-    <p><strong>Статический маршрут</strong>: статический маршрут определяется один раз и никогда не меняется. Это наиболее распространенный тип маршрута, используемый в Linux, поскольку его легко настроить и он не требует настройки маршрутизаторов или брандмауэров.</p>
-  </li>
-  <li>
-    <p><strong>Динамический маршрут</strong>: динамический маршрут создается каждый раз, когда пакет проходит через систему. Этот тип маршрута может быть более сложным в настройке, но он обеспечивает большую гибкость, поскольку может автоматически обновляться в зависимости от изменений в сети.</p>
-  </li>
-</ul>
-
-<p>Чтобы вывести текущую таблицу маршрутизации в Linux выполните команду:</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># ip route</span>
-</code></pre></div></div>
-
-<ul>
-  <li><code class="language-plaintext highlighter-rouge">default via 192.168.1.1 dev enp0s3</code> – шлюз по умолчанию, в данном примере работающий через интерфейс <code class="language-plaintext highlighter-rouge">enp0s3</code>. Если для <code class="language-plaintext highlighter-rouge">target</code> адреса в таблице маршрутизации отсутствует маршрут, то такой пакет отправляется через данный шлюз (маршрут по умолчанию)</li>
-  <li><code class="language-plaintext highlighter-rouge">192.168.1.0/24 dev enp0s3 proto kernel scope link src 192.168.1.201</code> — статический маршрут для сети <code class="language-plaintext highlighter-rouge">192.168.1.0/24</code> через адрес <code class="language-plaintext highlighter-rouge">192.168.1.201</code>, который прописан на интерфейсе</li>
-  <li><code class="language-plaintext highlighter-rouge">proto kernel</code> – маршрут создан ядром ( proto static – маршрут добавлен администратором)</li>
-  <li><code class="language-plaintext highlighter-rouge">metric</code> – приоритет маршрута (чем меньше значение <code class="language-plaintext highlighter-rouge">metric</code>, тем выше приоритет). При наличии двух маршрутов с одинаковой метрикой (не стоит так делать!), ядро начинает выбирать маршруты случайным образом.
-Чтобы узнать через какой интерфейс (шлюз) должен маршрутизироваться трафик к определенному IP адресу используется команда:</li>
-</ul>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># ip route get 192.168.2.45</span>
-</code></pre></div></div>
-
-<h2 id="как-найти-лучший-маршрут-dns-для-вашего-веб-сервера-в-linux">Как найти лучший маршрут DNS для вашего веб-сервера в Linux?</h2>
-
-<p>Мы покажем вам, как использовать команду route для поиска наилучшего DNS-маршрута для вашего веб-сервера.</p>
-
-<p class="notice--success">Команда routed — это мощный инструмент, который можно использовать для управления сетевым трафиком в Linux.</p>
-
-<p>С помощью команды route вы можете определить, какие пакеты следует пересылать через ваш сервер, исходя из их адресов назначения. Это может быть полезно, если вам нужно настроить свой сервер определенным образом, например, направить весь трафик для определенного домена через ваш веб-сервер.</p>
-
-<p>Чтобы использовать команду route, вам сначала нужно знать, для какого доменного имени вы хотите направить трафик. Вы можете найти эту информацию, обратившись к своему провайдеру DNS или заглянув в файл <code class="language-plaintext highlighter-rouge">/etc/hosts</code>.</p>
-
-<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<span itemprop="name" class="bold">Команда linux route add - linux static routing</span>
-<meta itemprop="duration" content="PT3M24S" />
-<meta itemprop="uploadDate" content="2013-06-30T20:11:35Z" />
-<meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/EUSNTbJA5fI/default.jpg" />
-<meta itemprop="interactionCount" content="34941" />
-<meta itemprop="embedURL" content="https://youtube.googleapis.com/v/EUSNTbJA5fI" />
-<div class="youtube-player" data-id="EUSNTbJA5fI"></div>
-<span itemprop="description">Route манипулирует таблицами IP-маршрутизации ядра. Его основное применение — установка статических маршрутов к определенным хостам или сетям через интерфейс после того, как он был сконфигурирован с помощью программы ifconfig(8). Когда используются опции add или del, route изменяет таблицы маршрутизации. Без этих опций route отображает текущее содержимое таблиц маршрутизации.</span>
-</div>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>route <span class="nt">-n</span>
-route add <span class="nt">-net</span> 192.168.7.0 netmask 255.255.255.0 gw 192.168.1.2 dev eth0
-</code></pre></div></div>
-
-<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<span itemprop="name" class="bold">Linux Route Add Command with examples</span>
-<meta itemprop="duration" content="PT3M10S" />
-<meta itemprop="uploadDate" content="2016-07-22T08:26:42Z" />
-<meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/3JtGTIlTsn0/default.jpg" />
-<meta itemprop="interactionCount" content="26333" />
-<meta itemprop="embedURL" content="https://youtube.googleapis.com/v/3JtGTIlTsn0" />
-<div class="youtube-player" data-id="3JtGTIlTsn0"></div>
-<div itemprop="description">
-<p>В этом видео рассказывается о команде добавления маршрута в Linux. Это базовый дизайн для интернет-протокола. Этот протокол помогает передавать пакеты на нужные машины.</p>
-<p class="notice--ya">Дополнительные пояснения к этому видео: <a href="https://www.linuxhelp.com/route-command-in-linux-with-examples">https://www.linuxhelp.com/route-command-in-linux-with-examples</a></p></div>
-</div>
-
-<p>Синтаксис команды route</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>route add <span class="o">[</span><span class="nt">-net</span>|-host] &lt;IP/Net&gt; netmask gw &lt;Gateway IP&gt; dev &lt;Int&gt;X
-</code></pre></div></div>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">[</span>root@miningsoft ~]# route
-Kernel IP routing table
-Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
-default         192.168.5.1     0.0.0.0         UG    1024   0        0 eno16777736
-192.168.5.0     0.0.0.0         255.255.255.0   U     0      0        0 eno16777736
-</code></pre></div></div>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">[</span>root@miningsoft ~]# route add <span class="nt">-net</span> 192.168.5.0 netmask 255.255.255.0 gw 192.168.5.1 eno16777736
-<span class="o">[</span>root@miningsoft ~]# route
-Kernel IP routing table
-Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
-default         192.168.5.1     0.0.0.0         UG    1024   0        0 eno16777736
-192.168.5.0     192.168.5.1     255.255.255.0   UG    0      0        0 eno16777736
-192.168.5.0     0.0.0.0         255.255.255.0   U     0      0        0 eno16777736
-</code></pre></div></div>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">[</span>root@miningsoft ~]# route add <span class="nt">-host</span> 192.168.5.191 gw 192.168.5.1 eno16777736
-<span class="o">[</span>root@miningsoft ~]# route
-Kernel IP routing table
-Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
-default         192.168.5.1     0.0.0.0         UG    1024   0        0 eno16777736
-192.168.5.0     192.168.5.1     255.255.255.0   UG    0      0        0 eno16777736
-192.168.5.0     0.0.0.0         255.255.255.0   U     0      0        0 eno16777736
-192.168.5.191   192.168.5.1     255.255.255.255 UGH   0      0        0 eno16777736
-</code></pre></div></div>
-
-<h2 id="какой-маршрут-linux-подходит-для-вашего-сайта">Какой маршрут Linux подходит для вашего сайта?</h2>
-<p>Linux предлагает множество способов маршрутизации трафика на определенные сайты. Это может быть полезно, когда вам нужно контролировать, как пользователи получают доступ к определенным частям вашего сайта, или когда вы хотите управлять нагрузкой трафика на определенные разделы вашего сайта.</p>
-
-<p>В Linux есть три основных способа маршрутизации трафика:</p>
-
-<ol>
-  <li>по прямому маршруту,</li>
-  <li>непрямым путем,</li>
-  <li>и через прокси-сервер.</li>
-</ol>
-
-<p><strong>Прямая маршрутизация</strong> — самый простой тип маршрутизации, использующий IP-адрес сайта назначения в качестве исходного адреса для исходящих пакетов.</p>
-
-<p>Этот подход лучше всего подходит для сайтов, которым требуется постоянный уровень безопасности и надежности.</p>
-
-<p><strong>Косвенная маршрутизация</strong> предполагает отправку пакетов через один или несколько промежуточных узлов до того, как они достигнут пункта назначения.</p>
-
-<p>Этот подход может повысить производительность, поскольку он уменьшает количество запросов, необходимых для достижения целевого сайта. Однако непрямая маршрутизация также может создавать уязвимости, если промежуточные узлы скомпрометированы.</p>
-
-<h2 id="как-оптимизировать-трафик-linux-для-экономии-пропусканой-способности">Как оптимизировать трафик Linux для экономии пропусканой способности?</h2>
-
-<p>Linux — мощная операционная система, которую можно использовать для оптимизации трафика в сети. Можно направить трафик для определенных доменов через сервер Linux, чтобы сэкономить пропускную способность. Этот тип оптимизации может быть полезен, если у вас много трафика, поступающего с одного домена, и вы хотите перенаправить его через свой сервер.</p>
-
-<h2 id="как-проверить-работает-ли-сайт-в-linux">Как проверить, работает ли сайт в Linux?</h2>
-
-<p>Запуск веб-сайта в Linux может быть отличным вариантом для тех, кто хочет сэкономить на расходах на хостинг или хочет запустить свой сайт, не полагаясь на стороннее доменное имя и имя хоста вашего веб-сайта.</p>
-
-<p>Если вы используете собственное доменное имя, вы можете использовать команду route для доступа к <code class="language-plaintext highlighter-rouge">Queervices</code>. Однако, чтобы убедиться, что ваш веб-сайт работает в Linux, важно проверить DNS-сервер на наличие имени хоста вашего сайта.</p>
-
-<p>Если вы используете размещенное доменное имя, вы можете связаться с вашим хостинг-провайдером, чтобы узнать имя хоста вашего сайта. Кроме того, вы можете использовать расширение веб-браузера, например WhoIsHostingThis, чтобы определить имя хоста вашего сайта.</p>
-
-<h2 id="стриминг-hulu-с-помощью-vpn-сохраняйте-конфиденциальность">Стриминг Hulu с помощью VPN: сохраняйте конфиденциальность</h2>
-
-<p>Если вы хотите <a href="https://www.vpnblade.com/vpn-for-hulu/">получить доступ к Hulu через VPN</a>, сохраните конфиденциальность. Hulu принадлежит Disney, и поэтому на него распространяется ряд ограничений и правил. Они варьируются от требования к зрителям соблюдать законы об авторском праве до блокировки определенных типов рекламы.</p>
-
-<p class="notice--success">Кроме того, известно, что Hulu занимается отслеживанием данных. Используя VPN, вы можете защитить свою конфиденциальность и сохранить приватность своих действий в Интернете.</p>
-
-<h2 id="заключительные-слова">Заключительные слова</h2>
-
-<p>Важно знать, какой маршрут для конкретного домена будет наиболее эффективным для ваших нужд. У вас есть много вариантов, поэтому важно провести исследование, чтобы найти лучший вариант для ваших нужд.</p>]]></content><author><name>Matthew Wood</name></author><category term="guide" /><summary type="html"><![CDATA[Как создавать собственные маршруты для доменов в Linux. Мы покажем вам, как использовать команду route, чтобы найти лучший DNS-маршрут для вашего веб-сервера.]]></summary></entry></feed>
+</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Что такое Биткоин и зачем он нужен? В этой статье вы узнаете все про BTC. Объясним, как работают виртуальные деньги?]]></summary></entry></feed>
