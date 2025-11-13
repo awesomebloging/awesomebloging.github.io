@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-11-12T14:20:45-05:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="en"><title type="html">Trezor Safe 7: A Quantum-Ready Hardware Wallet Review (2025)</title><link href="https://miningsoft.org/ru/wallets/trezor-safe-7/" rel="alternate" type="text/html" title="Trezor Safe 7: A Quantum-Ready Hardware Wallet Review (2025)" /><published>2025-11-12T00:00:00-05:00</published><updated>2025-11-12T00:00:00-05:00</updated><id>https://miningsoft.org/ru/wallets/trezor-safe-7</id><content type="html" xml:base="https://miningsoft.org/ru/wallets/trezor-safe-7/"><![CDATA[<div class="paper wallet">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-11-13T05:54:05-05:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="en"><title type="html">Trezor Safe 7: A Quantum-Ready Hardware Wallet Review (2025)</title><link href="https://miningsoft.org/ru/wallets/trezor-safe-7/" rel="alternate" type="text/html" title="Trezor Safe 7: A Quantum-Ready Hardware Wallet Review (2025)" /><published>2025-11-12T00:00:00-05:00</published><updated>2025-11-13T00:00:00-05:00</updated><id>https://miningsoft.org/ru/wallets/trezor-safe-7</id><content type="html" xml:base="https://miningsoft.org/ru/wallets/trezor-safe-7/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       Trezor Safe 7 Review and Comparison. Wallet Pros and Cons
@@ -131,7 +131,20 @@
 
 <p>As quantum computing evolves in the coming years, the Safe 7 will be able to receive firmware updates designed for post-quantum cryptography. This is a huge advantage because only devices engineered with this hardware architecture can run these future updates.</p>
 
-<p>Thus, the Trezor Safe 7 is already prepared for the next generation of security.</p>
+<p>Post-quantum cryptography already exists, which is why Trezor has implemented two key modifications to Safe 7 to future-proof it.</p>
+
+<ol>
+  <li>
+    <p>The first change concerns the <code class="language-plaintext highlighter-rouge">bootloader</code> —the small piece of code responsible for running the device’s firmware. The <code class="language-plaintext highlighter-rouge">bootloader</code> is now signed with a post-quantum algorithm, which is immune to quantum computers. If quantum computers ever become a real threat, Trezor will be able to securely deliver quantum-protected updates to Safe 7 via a simple firmware update.</p>
+  </li>
+  <li>
+    <p>The second modification concerns the authenticity check, which confirms that the device is genuine. This check is now also signed with a post-quantum algorithm, so even if quantum computers become a threat sooner than expected, Trezor will always be able to confirm the device’s authenticity.</p>
+  </li>
+</ol>
+
+<p class="notice--danger">However, the truth is that Safe 7 is not quantum-protected. There is a huge difference between quantum protection and quantum readiness. Trezor says that once post-quantum algorithms are released, they will be easily implemented in Safe 7, whereas for other wallets this may be much more difficult or even impossible. This is more of a preventative measure.</p>
+
+<p>Therefore, Trezor Safe 7 is already prepared for the next generation of security.</p>
 
 <h2 id="software-and-compatibility">Software and Compatibility</h2>
 <p>Alongside this launch, Trezor has also updated its mobile interface, allowing you to securely explore the crypto ecosystem.</p>
@@ -145,6 +158,8 @@
 <p>Trezor also offers an open SDK so other software wallets can easily integrate with it.</p>
 
 <h2 id="supported-coins">Supported Coins</h2>
+
+<p>There’s no such thing as a perfect hardware wallet. Safe 7, while Trezor’s best, retains the limited coin support of previous models. This may be important for those who like new, high-risk coins. However, it supports popular networks—Bitcoin, Ethereum, BNB, Solana, XRP, and others. Compared to Tengem or Ledger, Safe 7 is less versatile, but it’s suitable for us because it supports all popular cryptocurrencies. Solana support was previously missing, but it has now been added.</p>
 
 <p>Trezor Safe 7 supports Bitcoin, Ethereum, and thousands of other cryptocurrencies and tokens.</p>
 

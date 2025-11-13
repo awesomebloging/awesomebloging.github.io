@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="ru" /><updated>2025-11-12T14:20:23-05:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="ru"><title type="html">Trezor Safe 7: Обзор аппаратного кошелька с квантовой готовностью (2025)</title><link href="https://miningsoft.org/ru/wallets/trezor-safe-7/" rel="alternate" type="text/html" title="Trezor Safe 7: Обзор аппаратного кошелька с квантовой готовностью (2025)" /><published>2025-11-12T00:00:00-05:00</published><updated>2025-11-12T00:00:00-05:00</updated><id>https://miningsoft.org/ru/wallets/trezor-safe-7</id><content type="html" xml:base="https://miningsoft.org/ru/wallets/trezor-safe-7/"><![CDATA[<div class="paper wallet">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="ru" /><updated>2025-11-13T05:53:42-05:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="ru"><title type="html">Trezor Safe 7: Обзор аппаратного кошелька с квантовой готовностью (2025)</title><link href="https://miningsoft.org/ru/wallets/trezor-safe-7/" rel="alternate" type="text/html" title="Trezor Safe 7: Обзор аппаратного кошелька с квантовой готовностью (2025)" /><published>2025-11-12T00:00:00-05:00</published><updated>2025-11-13T00:00:00-05:00</updated><id>https://miningsoft.org/ru/wallets/trezor-safe-7</id><content type="html" xml:base="https://miningsoft.org/ru/wallets/trezor-safe-7/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       Обзор и сравнение Trezor Safe 7. Плюсы и недостатки кошелька
@@ -131,6 +131,19 @@
 
 <p>По мере развития квантовых вычислений в ближайшие годы, Safe 7 сможет получать обновления прошивки, предназначенные для постквантовой криптографии. Это огромное преимущество, потому что только устройства, спроектированные с такой аппаратной архитектурой, могут запускать эти будущие обновления.</p>
 
+<p>Постквантовая криптография уже существует, и именно поэтому Trezor внедрили две ключевые модификации в Safe 7 для защиты будущему.</p>
+
+<ol>
+  <li>
+    <p>Первое изменение касается загрузчика (<code class="language-plaintext highlighter-rouge">bootloader</code>) - небольшого фрагмента кода, отвечающего за запуск прошивки устройства. Теперь <code class="language-plaintext highlighter-rouge">bootloader</code> подписан постквантовым алгоритмом, невосприимчивым к квантовым компьютерам. Если квантовые компьютеры когда-нибудь станут реальной угрозой, Trezor сможет безопасно передавать квантово-защищенные обновления для Safe 7 через простое обновление прошивки.</p>
+  </li>
+  <li>
+    <p>Вторая модификация касается проверки подлинности, которая подтверждает, что устройство настоящее. Эта проверка теперь также подписана постквантовым алгоритмом, поэтому даже если квантовые компьютеры станут угрозой раньше ожидаемого, Trezor всегда сможет подтвердить подлинность устройства.</p>
+  </li>
+</ol>
+
+<p class="notice--danger">Однако правда в том, что Safe 7 не является квантово-защищенным. Есть огромная разница между квантовой защитой и квантовой готовностью. Trezor говорит, что после выхода постквантовых алгоритмов их можно будет легко внедрить в Safe 7, тогда как для других кошельков это может быть намного сложнее или даже невозможно. Это скорее профилактическая мера.</p>
+
 <p>Таким образом, Trezor Safe 7 уже подготовлен к следующему поколению безопасности.</p>
 
 <h2 id="программное-обеспечение-и-совместимость">Программное обеспечение и совместимость</h2>
@@ -145,6 +158,8 @@
 <p>Trezor также предлагает открытый SDK, чтобы другие программные кошельки могли легко интегрироваться с ним.</p>
 
 <h2 id="поддержка-монет">Поддержка монет</h2>
+
+<p>Идеальных аппаратных кошельков не существует. Safe 7, хоть и лучший от Trezor, сохраняет ограниченную поддержку монет, как и предыдущие модели. Это может быть важным для любителей новых монет с высокими рисками. Однако он поддерживает популярные сети — Bitcoin, Ethereum, BNB, Solana, XRP и другие. По сравнению с Tengem или Ledger, Safe 7 менее универсален, но нам подходит, так как включает все популярные криптовалюты. Раньше не было поддержки Solana, но её уже добавили.</p>
 
 <p>Trezor Safe 7 поддерживает Биткоин, Эфириум и тысячи других криптовалют и токенов.</p>
 
