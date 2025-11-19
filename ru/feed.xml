@@ -1,4 +1,216 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="ru" /><updated>2025-11-13T05:59:55-05:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="ru"><title type="html">Trezor Safe 7: Обзор аппаратного кошелька с квантовой готовностью (2025)</title><link href="https://miningsoft.org/ru/wallets/trezor-safe-7/" rel="alternate" type="text/html" title="Trezor Safe 7: Обзор аппаратного кошелька с квантовой готовностью (2025)" /><published>2025-11-12T00:00:00-05:00</published><updated>2025-11-13T00:00:00-05:00</updated><id>https://miningsoft.org/ru/wallets/trezor-safe-7</id><content type="html" xml:base="https://miningsoft.org/ru/wallets/trezor-safe-7/"><![CDATA[<div class="paper wallet">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="ru" /><updated>2025-11-19T05:33:58-05:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="ru"><title type="html">Ethereum Fusaka – хардфорк о котором нужно знать держателям ETH</title><link href="https://miningsoft.org/ru/blog/fusaka/" rel="alternate" type="text/html" title="Ethereum Fusaka – хардфорк о котором нужно знать держателям ETH" /><published>2025-11-19T00:00:00-05:00</published><updated>2025-11-19T00:00:00-05:00</updated><id>https://miningsoft.org/ru/blog/fusaka</id><content type="html" xml:base="https://miningsoft.org/ru/blog/fusaka/"><![CDATA[<div class="paper wallet">
+  <div class="pattern">
+    <div class="note-cont">
+      Несмотря на риск краткосрочной коррекции, обновление Fusaka закладывает фундамент для долгосрочного роста Ethereum и его криптовалюты ETH.
+    </div>
+  </div>
+</div>
+<p><em>Узнайте как грядущее обновление Ethereum Fusaka, нацеленное на повышение масштабируемости и безопасности сети за счет 12 технических улучшений, может стать катализатором для роста цены ETH.</em></p>
+
+<h2 id="введение">Введение</h2>
+<p><a href="https://bytwork.com/events/fusaka">Дата выхода Fusaka</a>, крупного обновления Ethereum, назначена. Цена ETH обычно растет вокруг таких событий, особенно в бычьем рынке. В 4-м квартале 4-летнего цикла крипторынка исторически сильный рост, поэтому цена ETH может взлететь!
+Источник: <a href="https://bytwork.com/trade/cycles">4 летние циклы роста криптовалюты</a>.</p>
+
+<figure><a href="/assets/images/blog/fusaka/fusaka1.png" class="image-popup"> <img src="/assets/images/blog/fusaka/fusaka1.png" alt="ETH fusaka" /></a></figure>
+
+<p>Именно поэтому мы подробно разберем все, что вам нужно знать о Fusaka, включая вносимые изменения, их значение для будущего Ethereum и потенциальное влияние на цену ETH.</p>
+
+<h2 id="что-такое-fusaka">Что такое Fusaka?</h2>
+
+<p>Fusaka - это крупное обновление блокчейна Ethereum в виде хард-форка, запланированное на 3 декабря. Оно обновит консенсусный и исполнительный уровни.</p>
+
+<p class="notice--success"><strong>Забавный факт</strong>: каждое обновление консенсусного уровня носит название звезды, в данном случае - Фулу, а каждое обновление исполнительного уровня названо в честь места проведения Devcon, в данном случае - Осака. Fusaka - это просто объединение этих 2 имен.</p>
+
+<h3 id="статус-развертывания">Статус развертывания</h3>
+
+<p>Fusaka успешно развернута в 3 тестовых сетях: Hlesi (1 октября), Seapoleia (14 октября), Hoody (28 октября). Все развертывания прошли гладко. Запуск в основной сети <a href="https://www.coindesk.com/tech/2025/10/30/ethereum-developers-lock-in-fusaka-upgrade-for-dec-3-with-peerdas-rollout">перенесен с начала ноября на 3 декабря</a>. Переносы - это тоже традиция в Ethereum!</p>
+
+<figure><a href="/assets/images/blog/fusaka/fusaka2.png" class="image-popup"> <img src="/assets/images/blog/fusaka/fusaka2.png" alt="ETH fusaka" /></a></figure>
+
+<h2 id="технические-детали-обновления">Технические детали обновления</h2>
+
+<p>Короче говоря, Fusaka - это реализация <strong>12 улучшений</strong>, называемых предложениями по улучшению Ethereum или <code class="language-plaintext highlighter-rouge">EIP</code>. Каждый <code class="language-plaintext highlighter-rouge">EIP</code> - это определенный технический аспект сети Ethereum, преследуя общую цель - повышение масштабируемости на уровне 1, т.е. масштабирование самого Ethereum.</p>
+
+<p>Давайте рассмотрим каждый EIP и его вклад. Предупреждаем, это может быть немного технично, но мы постараемся упростить. Для простоты будем двигаться в числовом порядке.</p>
+
+<h2 id="значение-fusaka-для-будущего-ethereum">Значение Fusaka для будущего Ethereum</h2>
+<p>В отличие от предыдущих обновлений с видимыми улучшениями, такими как умные кошельки, Fusaka улучшает внутреннюю обработку данных Ethereum.</p>
+
+<p class="notice--ya">Пока это может показаться незаметным, но в долгосрочной перспективе улучшит масштабируемость и безопасность - ключевые факторы для институционального принятия ETH. Fusaka также приближает Ethereum к решению блокчейн-трилеммы Виталика Бутерина, балансируя безопасность, децентрализацию и масштабируемость.</p>
+
+<figure><a href="/assets/images/blog/fusaka/fusaka24.png" class="image-popup"> <img src="/assets/images/blog/fusaka/fusaka24.png" alt="ETH fusaka" /></a></figure>
+
+<h3 id="12-обновлений-eip">12 Обновлений EIP</h3>
+
+<figure><a href="/assets/images/blog/fusaka/fusaka6.png" class="image-popup"> <img src="/assets/images/blog/fusaka/fusaka6.png" alt="ETH fusaka" /></a></figure>
+
+<h4 id="eip-7594-peerdas">EIP-7594 (PeerDAS)</h4>
+<p>Первое обновление - это EIP-7594, известный как PeerDAS. Это “звезда шоу”. PeerDAS позволяет узлам Ethereum хранить лишь часть данных при проверке транзакции. Это увеличивает пропускную способность данных для <a href="https://bytwork.com/articles/rollups-ethereum">роллапов</a>, снижает стоимость транзакций и закладывает основу для конкуренции Ethereum с более скоростными блокчейнами. Например с Solana.<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></p>
+
+<h4 id="eip-7642">EIP-7642</h4>
+<p>Оптимизирует способ передачи данных и хранения их в сети. Это делает процесс более эффективным за счет избавления от устаревших и ненужных данных. <sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup></p>
+
+<h4 id="eip-7823">EIP-7823</h4>
+<p>Педотвращает определенные атаки типа отказ в обслуживании (DOS) и также вводит более согласованное ценообразование на газ и предсказуемые затраты для смарт-контрактов второго уровня.<sup id="fnref:3"><a href="#fn:3" class="footnote" rel="footnote" role="doc-noteref">3</a></sup></p>
+
+<h4 id="eip-7825">EIP-7825</h4>
+<p>Вводит лимит газа на транзакцию, чтобы предотвратить ситуацию, когда одна транзакция занимает большую часть места в блоке, что повышает справедливость, стабильность сети и предсказуемость времени проверки блоков.<sup id="fnref:4"><a href="#fn:4" class="footnote" rel="footnote" role="doc-noteref">4</a></sup></p>
+
+<h4 id="eip-7883">EIP-7883</h4>
+<p>Делает сеть более экономически устойчивой и предотвращает злоупотребление со стороны злоумышленников, использующих недооцененные операции.<sup id="fnref:5"><a href="#fn:5" class="footnote" rel="footnote" role="doc-noteref">5</a></sup></p>
+
+<h4 id="eip-7892">EIP-7892</h4>
+<p>Дает Ethereum больше гибкости для удовлетворения растущего спроса на данные второго уровня и помогает разработчикам более предсказуемо планировать масштабирование.<sup id="fnref:6"><a href="#fn:6" class="footnote" rel="footnote" role="doc-noteref">6</a></sup></p>
+
+<h4 id="eip-7917">EIP-7917</h4>
+<p>Позволяет валидаторам заранее знать, кто будет предлагать будущие блоки, вместо того чтобы узнавать об этом в начале каждой эпохи, повышая эффективность.<sup id="fnref:7"><a href="#fn:7" class="footnote" rel="footnote" role="doc-noteref">7</a></sup></p>
+
+<h4 id="eip-7918">EIP-7918</h4>
+<p>Снижает резкие скачки комиссий и предотвращает коллапс рынка <a href="https://ethresear.ch/t/understanding-minimum-blob-base-fees/20489">blob-комиссий</a>.<sup id="fnref:8"><a href="#fn:8" class="footnote" rel="footnote" role="doc-noteref">8</a></sup></p>
+
+<figure><a href="/assets/images/blog/fusaka/fusaka39.png" class="image-popup"> <img src="/assets/images/blog/fusaka/fusaka39.png" alt="ETH fusaka" /></a></figure>
+
+<h4 id="eip-7934">EIP-7934</h4>
+<p>Защищает сеть от чрезмерно больших блоков, которые могут вызвать перегрузку или нестабильность, и обеспечивает согласованность с лимитами консенсусного уровня.<sup id="fnref:9"><a href="#fn:9" class="footnote" rel="footnote" role="doc-noteref">9</a></sup></p>
+
+<h4 id="eip-7935">EIP-7935</h4>
+<p>Напрямую увеличивает пропускную способность основной сети, сокращая очереди транзакций и ускоряя подтверждения.<sup id="fnref:10"><a href="#fn:10" class="footnote" rel="footnote" role="doc-noteref">10</a></sup></p>
+
+<h4 id="eip-7939">EIP-7939</h4>
+<p>Делает Ethereum быстрее и дешевле в использовании и особенно благоприятствует функциям с нулевым разглашением. <sup id="fnref:11"><a href="#fn:11" class="footnote" rel="footnote" role="doc-noteref">11</a></sup></p>
+
+<h4 id="eip-7951">EIP-7951</h4>
+<p>Наконец, 12е обновление позволяет Ethereum проверять подписи с таких устройств, как iPhone, Android и аппаратные кошельки, улучшая интеграцию Ethereum с существующей веб-2 инфраструктурой. <sup id="fnref:12"><a href="#fn:12" class="footnote" rel="footnote" role="doc-noteref">12</a></sup></p>
+
+<h3 id="роль-eip-7594-peerdas">Роль EIP-7594 (PeerDAS)</h3>
+
+<p><strong>PeerDAS решает проблему доступности данных для роллапов уровня 2</strong>. Роллапы объединяют транзакции в пакеты, но узлы все равно должны загружать все данные для проверки, создавая узкое место и угрозу децентрализации. PeerDAS позволяет узлам проверять случайные фрагменты данных вместо полного набора, устраняя узкое место и делая запуск узлов доступнее.</p>
+
+<figure><a href="/assets/images/blog/fusaka/fusaka11.png" class="image-popup"> <img src="/assets/images/blog/fusaka/fusaka11.png" alt="ETH fusaka" /></a></figure>
+
+<p class="notice--danger">Однако создается 3 уровневая система с суперузлами (полные данные), которые могут концентрироваться у крупных операторов.</p>
+
+<p>Некоторые разработчики Ethereum выразили опасения, что это концентрирует уровень полных данных в руках нескольких крупных игроков, в то время как другие утверждают, что дизайн безопасен, поскольку система зависит только от их доступности, а не от доверия к ним.</p>
+
+<h3 id="дополнительные-преимущества">Дополнительные преимущества</h3>
+<p>Помимо PeerDAS, Fusaka также вносит изменения, которые делают транзакции первого уровня быстрее и дешевле. Это означает больше активности в Ethereum и, следовательно, больший спрос на ETH.</p>
+
+<p class="notice--success">Фокус Fusaka на масштабируемости может даже снизить потребность некоторых пользователей полагаться на решения второго уровня, что дополнительно стимулирует спрос на ETH на уровне 1.</p>
+
+<figure><a href="/assets/images/blog/fusaka/fusaka33.png" class="image-popup"> <img src="/assets/images/blog/fusaka/fusaka33.png" alt="ETH fusaka" /></a></figure>
+
+<p>Fusaka также делает более эффективной разработку приложений, обеспечивая большую гибкость и снижение затрат, стимулируя долгосрочные инновации в Ethereum. Это также улучшает пользовательский опыт Ethereum, что будет способствовать его долгосрочному принятию.</p>
+
+<p>В конце концов, подписывать транзакции с помощью Face ID или биометрии телефона намного проще, чем вручную подтверждать транзакции с нечитаемыми строками кода. Таким образом, в совокупности Fusaka делает будущее Ethereum светлым и, потенциально, позитивным для цены ETH.</p>
+
+<h2 id="влияние-форков-на-цену-eth-исторический-контекст">Влияние форков на цену ETH: исторический контекст</h2>
+
+<p>Теперь возникает вопрос: как Fusaka может повлиять на цену ETH? Ответ можно найти, посмотрев на реакцию цены ETH на предыдущие обновления. В конце концов, история не повторяется, но она рифмуется.</p>
+
+<figure><a href="/assets/images/blog/fusaka/fusaka25.png" class="image-popup"> <img src="/assets/images/blog/fusaka/fusaka25.png" alt="ETH fusaka" /></a></figure>
+
+<p>Судя по реакции цены на прошлые обновления, перед The Merge цена ETH выросла на 57%, но после него упала на 24%.</p>
+
+<figure><a href="/assets/images/blog/fusaka/fusaka27.png" class="image-popup"> <img src="/assets/images/blog/fusaka/fusaka27.png" alt="ETH fusaka" /></a></figure>
+
+<p>Перед обновлением Шапелла, цена подскочила на 35%, затем выросла на 11% после запуска, но упала на 13%.</p>
+
+<figure><a href="/assets/images/blog/fusaka/fusaka28.png" class="image-popup"> <img src="/assets/images/blog/fusaka/fusaka28.png" alt="ETH fusaka" /></a></figure>
+
+<p>До форка Денкуна, цена выросла на 84%, а после обновления упала на 25%.</p>
+
+<p>Пектра последовала за падением цены более чем на 60%, но за месяц до развертывания ETH вырос на 23%, а потом на 50% после запуска. Fusaka может повторить этот паттерн с ростом до и возможной коррекцией после, влияя на цену через улучшения и увеличенный стейкинг.</p>
+
+<figure><a href="/assets/images/blog/fusaka/fusaka3.png" class="image-popup"> <img src="/assets/images/blog/fusaka/fusaka3.png" alt="ETH fusaka" /></a></figure>
+
+<h3 id="прогноз-по-fusaka">Прогноз по Fusaka</h3>
+<p>Итак, что это означает для Fusaka? Проще говоря, похоже, что Fusaka может стать переломным моментом и помочь запустить солидное восстановительное ралли для ETH.</p>
+
+<p class="notice--danger">Вопрос о том, сможет ли это подтолкнуть ETH к новым историческим максимумам, остается предметом споров, и, давайте смотреть правде в глаза, в текущих рыночных условиях это маловероятно!</p>
+
+<p>Если история чему-то учит, то более вероятно, что мы увидим небольшое восстановление ETH, поскольку Fusaka возвращает оптимизм энтузиастам Ethereum, а затем очередную распродажу, когда хайп утихнет.</p>
+
+<p>Однако на этот раз есть разница, и она заключается просто в том, что ETH хорошо позиционирован для того, чтобы обогнать BTC и большинство альткойнов в краткосрочной и среднесрочной перспективе, независимо от того, что произойдет с Fusaka. Тем не менее, мы не удивимся, если Fusaka станет катализатором, который запустит восходящую траекторию ETH, или катализатором, который отметит конец предстоящего ралли.</p>
+
+<h2 id="альтернативные-катализаторы-роста">Альтернативные катализаторы роста</h2>
+<p>Итак, Fusaka, вероятно, станет бычьим фактором для Ethereum и может вызвать ралли ETH. Скептицизм тже понимаем из-за недавней волатильности цены.</p>
+
+<p>Но еще одно главное ожидаемое событие - стейкинг-ETF на Ethereum, которые позволят институциональным инвесторам получать дополнительную доходность.</p>
+
+<figure><a href="/assets/images/blog/fusaka/fusaka32.png" class="image-popup"> <img src="/assets/images/blog/fusaka/fusaka32.png" alt="ETH fusaka" /></a></figure>
+
+<p>Крупные управляющие активами, такие как BlackRock и Fidelity, уже подали заявки на такие ETF. В принципе, эти ETF могут быстро получить одобрение и привлечь значительный капитал.</p>
+
+<h3 id="фокус-на-институциональное-принятие">Фокус на институциональное принятие</h3>
+<p>Ethereum сосредоточен на институциональном принятии. В январе прошлого года запустили Ether Realized для продвижения Ethereum на Уолл-стрит, а недавно Фонд <a href="https://institutions.ethereum.org/">Ethereum создал сайт для крупных инвесторов</a>, позиционируя Ethereum как надежный блокчейн для токенизации активов, DeFi и стейблкоинов. Это усиливает хайп вокруг ETH и влияет на цену.</p>
+
+<figure><a href="/assets/images/blog/fusaka/fusaka38.png" class="image-popup"> <img src="/assets/images/blog/fusaka/fusaka38.png" alt="ETH fusaka" /></a></figure>
+
+<p>После Fusaka будет <a href="https://iq.wiki/wiki/ethereum-glamsterdam-upgrade">обновление Глэмстердам</a> в первой половине 2026 года для улучшения устойчивости и масштабируемости.</p>
+
+<p>Также ожидается инициатива SEC по созданию регулируемой песочницы для криптобизнеса, что принесет дополнительные инновации и поддержит доминирование Ethereum на рынке.</p>
+
+<h2 id="потенциальные-вызовы-и-риски">Потенциальные вызовы и риски</h2>
+<p>Ethereum готов к росту <strong>и без Fusaka</strong>, но успех зависит от бычьей крипто- и макросреды. Главный риск - возможные баги и технические проблемы при запуске Fusaka, что может подорвать доверие инвесторов.</p>
+
+<figure><a href="/assets/images/blog/fusaka/fusaka35.png" class="image-popup"> <img src="/assets/images/blog/fusaka/fusaka35.png" alt="ETH fusaka" /></a></figure>
+
+<p>Обновление работает “под капотом” и может не вызвать достаточного хайпа для новых рекордов. Если возникнут проблемы с PeerDAS или координацией клиентов, это может задержать масштабирование и снизить надежность сети. В целом Fusaka - важный шаг, но его успех не гарантирован.</p>
+
+<h3 id="дополнительные-факторы-давления">Дополнительные факторы давления</h3>
+<p>Ethereum сталкивается с давлением из-за казначейских компаний, которые недавно продали часть своих резервов ETH после крупной ликвидации на $20 млрд 10 октября, усилив нисходящее давление.</p>
+
+<p>Однако ETH, вероятно, достиг дна и может обогнать в росте Bitcoin и альткойны.</p>
+
+<p>Доминирование Bitcoin снижается с июля, что указывает на растущий интерес к альткойнам, где ETH будет лидером. Fusaka может стать бычьим катализатором, поддерживая позитивный настрой на ETH несмотря на недавнюю волатильность.</p>
+
+<figure><a href="/assets/images/blog/fusaka/fusaka37.png" class="image-popup"> <img src="/assets/images/blog/fusaka/fusaka37.png" alt="ETH fusaka" /></a></figure>
+
+<h2 id="критика">Критика</h2>
+<p>Реализация такого сложного обновления, как хард-форк Fusaka, сопряжена с техническими рисками. Любые невыявленные ошибки (баги) в коде или проблемы при развертывании в основной сети могут привести к сбоям в работе сети, что немедленно подорвет доверие как розничных инвесторов, так и институциональных партнеров, для которых надежность является ключевым критерием.</p>
+
+<p>Несмотря на значительные технические улучшения, Fusaka является в основном апгрейдом под капотом, не предлагающим мгновенных заметных изменений для обычного пользователя. Это создает риск того, что обновление не сможет сгенерировать достаточный рыночный ажиотаж, необходимый для устойчивого роста цены, и окажется ничего не значащим событием в краткосрочной перспективе, особенно на фоне возможных неблагоприятных макроэкономических условий.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1">
+      <p><a href="https://eips.ethereum.org/EIPS/eip-7594">EIP-7594</a>. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p><a href="https://eips.ethereum.org/EIPS/eip-7642">EIP-7642</a>. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p><a href="https://eips.ethereum.org/EIPS/eip-7823">EIP-7823</a>. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:4">
+      <p><a href="https://eips.ethereum.org/EIPS/eip-7825">EIP-7825</a>. <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:5">
+      <p><a href="https://eips.ethereum.org/EIPS/eip-7883">EIP-7883</a>. <a href="#fnref:5" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:6">
+      <p><a href="https://eips.ethereum.org/EIPS/eip-7892">EIP-7892</a>. <a href="#fnref:6" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:7">
+      <p><a href="https://eips.ethereum.org/EIPS/eip-7917">EIP-7917</a>. <a href="#fnref:7" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:8">
+      <p><a href="https://eips.ethereum.org/EIPS/eip-7918">EIP-7918</a>. <a href="#fnref:8" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:9">
+      <p><a href="https://eips.ethereum.org/EIPS/eip-7934">EIP-7934</a>. <a href="#fnref:9" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:10">
+      <p><a href="https://eips.ethereum.org/EIPS/eip-7935">EIP-7935</a>. <a href="#fnref:10" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:11">
+      <p><a href="https://eips.ethereum.org/EIPS/eip-7939">EIP-7939</a>. <a href="#fnref:11" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:12">
+      <p><a href="https://eips.ethereum.org/EIPS/eip-7551">EIP-7951</a>. <a href="#fnref:12" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Несмотря на риск краткосрочной коррекции, обновление Fusaka закладывает фундамент для долгосрочного роста Ethereum и его криптовалюты ETH. Узнайте как грядущее обновление Ethereum Fusaka, нацеленное на повышение масштабируемости и безопасности сети за счет 12 технических улучшений, может стать катализатором для роста цены ETH.]]></summary></entry><entry xml:lang="ru"><title type="html">Trezor Safe 7: Обзор аппаратного кошелька с квантовой готовностью (2025)</title><link href="https://miningsoft.org/ru/wallets/trezor-safe-7/" rel="alternate" type="text/html" title="Trezor Safe 7: Обзор аппаратного кошелька с квантовой готовностью (2025)" /><published>2025-11-12T00:00:00-05:00</published><updated>2025-11-13T00:00:00-05:00</updated><id>https://miningsoft.org/ru/wallets/trezor-safe-7</id><content type="html" xml:base="https://miningsoft.org/ru/wallets/trezor-safe-7/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       Обзор и сравнение Trezor Safe 7. Плюсы и недостатки кошелька
@@ -2456,299 +2668,4 @@
       <p><a href="https://coinmarketcap.com/ru/currencies/bitcoin/">Данные аналитической компании Coinmarketcap</a> <a href="#fnref:8" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Что вычисляют майнинг фермы? В этой статье вы узнаете, что означает майнинг криптовалюты.]]></summary></entry><entry xml:lang="ru"><title type="html">Биткоин: что это и как работает (простым языком) - 2023</title><link href="https://miningsoft.org/ru/articles/bitcoin/" rel="alternate" type="text/html" title="Биткоин: что это и как работает (простым языком) - 2023" /><published>2023-02-01T00:00:00-05:00</published><updated>2023-03-13T00:00:00-05:00</updated><id>https://miningsoft.org/ru/articles/bitcoin</id><content type="html" xml:base="https://miningsoft.org/ru/articles/bitcoin/"><![CDATA[<div class="paper btc">
-  <div class="pattern">
-    <div class="note-cont">
-      Что такое Биткоин и зачем он нужен?
-    </div>
-  </div>
-</div>
-<p><em>В этой статье вы узнаете все про BTC. Объясним, как работают виртуальные деньги?</em></p>
-
-<h2 id="что-такое-биткоин">Что такое биткоин?</h2>
-
-<p>Биткоин — цифровая и глобальная денежная система, криптовалюта. Она позволяет людям отправлять или получать деньги через Интернет даже от тех, кого они не знают или не доверяют. Это первая в своем роде технология, позволяющая передавать цифровой актив через Интернет без вмешательства третьей стороны.</p>
-
-<p class="notice--ya">Цифровые деньги можно обменять без привязки к реальному человеку. Математическая область криптографии является основой безопасности Биткоина.</p>
-
-<p>Биткоин — это электронная валюта, существующая только в виртуальном пространстве Интернета. Также часто используется аббревиатура BTC, — это денежная единица в системе биткоина, для которой имеется ограниченный запас в 21 миллион монет<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup>.</p>
-
-<figure><a href="/assets/images/articles/bitcoin/ru/what-is-bitcoin.webp" class="image-popup"> <img src="/assets/images/articles/bitcoin/ru/what-is-bitcoin.webp" alt="Что такое Биткоин" />
-<figcaption>Биткоин — это тип цифровой валюты, известный как криптовалюта.</figcaption></a></figure>
-
-<p>Биткоин - старейшая и ведущая криптовалюта в мире. Термин биткоин состоит из английских слов «бит» (цифровая единица) и «коин» (монета) и означает цифровую монету. В отличие от традиционных валют, BTC не зависит от государств и банков.</p>
-
-<figure><a href="/assets/images/articles/bitcoin/ru/about_btc.webp" class="image-popup"> <img src="/assets/images/articles/bitcoin/ru/about_btc.webp" alt="Описание биткоина" /> 
-<figcaption>Просто о биткоине.</figcaption></a></figure>
-
-<p class="notice--primary">Чтобы лучше понять технологию BTC, важно понимать основные термины.</p>
-
-<h2 id="важные-термины-и-понятные-объяснения">Важные термины и понятные объяснения</h2>
-
-<script async="" src="https://coinzillatag.com/lib/display.js"></script>
-
-<div class="coinzilla" data-zone="C-26960aca952082b4725"></div>
-<script>
-    window.coinzilla_display = window.coinzilla_display || [];
-    var c_display_preferences = {};
-    c_display_preferences.zone = "26960aca952082b4725";
-    c_display_preferences.width = "300";
-    c_display_preferences.height = "250";
-    coinzilla_display.push(c_display_preferences);
-</script>
-
-<dl>
-  <dt>Биткоин</dt>
-  <dd>Цифровые деньги, предназначенные для децентрализованных платежей, то есть транзакций без посредников, таких как банки.</dd>
-  <dt>Блокчейн</dt>
-  <dd>Цифровая цепочка записей (блоков). Записи о биткойн-платежах хранятся в каждом блоке (блокчейне).</dd>
-  <dt>Криптовалюта</dt>
-  <dd>Биткойн также называется криптовалютой. Платежная система Биткойн использует криптографические методы для хранения содержащейся в ней информации. Криптография происходит от греческого и означает секретное письмо.</dd>
-</dl>
-
-<figure><a href="/assets/images/articles/bitcoin/ru/btc_transaction.webp" class="image-popup"> <img src="/assets/images/articles/bitcoin/ru/btc_transaction.webp" alt="Транзакция Биткоина" /> 
-<figcaption>Принцип работы Биткоина.</figcaption></a></figure>
-
-<dl>
-  <dt>Майнер</dt>
-  <dd>Участник сети Биткойн, проверяющий платежи и вычисляющий новые блоки на своем оборудовании.</dd>
-  <dt>Майнинг</dt>
-  <dd>Английский <a href="/ru/articles/mining/">термин «майнинг» означает</a> копать, добывать. Когда майнеры, подтверждают платежи, они получают новые биткойны в качестве вознаграждения. Чтобы добавить новый блок в <a href="/ru/articles/blockchain/">блокчейн</a>, им необходимо передать информацию из старых блоков в новый с соответствующими шифрами. Это требует вычислительной мощности и огромного количества электроэнергии.<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup>.</dd>
-</dl>
-
-<figure><a href="/assets/images/articles/bitcoin/ru/how-mining.webp" class="image-popup"> <img src="/assets/images/articles/bitcoin/ru/how-mining.webp" alt="Майнинг Биткоина" /> 
-<figcaption>Принцип работы майнинга.</figcaption></a></figure>
-
-<div class="imgcen">
-
-</div>
-
-<section class="imp">
-  <p><span class="par"><i class="fas fa-mug-hot"></i> <span class="bold">Слишком сложно? Простое объяснение:</span>  <br /></span>
-<span class="par"><i class="fas fa-lightbulb"></i> <b class="yel">Биткоин</b> - это деньги. Он имеет ценность. Он также похож на акции, потому, что его стоимость колеблется в зависимости от спроса и предложения. <br /></span>
-<span class="par"><i class="fas fa-lightbulb"></i> <b class="yel">Я могу пощупать биткоины?</b> Нет, BTC похож на деньги, которые у вас есть в банке и на кредитных картах. Деньги переходят из одного места в другое, даже не касаясь человеческих рук.  <br /></span>
-<span class="par"><i class="fas fa-lightbulb"></i> <b class="yel">Кто “печатает” монеты?</b> Чтобы получить BTC, нужно сначала его добыть (майнить). Это как в шахте с золотом, только шахтеры - это программы в интернете.  <br /></span>
-<span class="par"><i class="fas fa-lightbulb"></i> <b class="yel">Как увидеть сколько у меня монет?</b> Никто не может видеть, что вы имеете, тратите или получаете, но сама система (блокчейн) отслеживает балансы. Это как большая бухгалтерская книга.  <br /></span>
-<span class="par"><i class="fas fa-lightbulb"></i> <b class="yel">Как тогда хранить BTC?</b> В цифровом кошельке. Это как приложение в вашем смартфоне. Только вместо цифр кредитной карточки у вас цифровой ключ доступа. Вы даже можете записать эти ключи и хранить их в своем реальном кошельке.  <br /></span></p>
-
-</section>
-
-<p>На первый взгляд кажется, что BTC отличаются от обычных денег, но на самом деле есть множество сходств. Просто биткоин более современный и функциональный, чем дебетовые карты.</p>
-
-<p>Биткойн — это цифровая валюта, использующая технологию блокчейна для обеспечения своей безопасности.</p>
-
-<h2 id="блокчейн">Блокчейн</h2>
-
-<p>Физически криптовалюты не существует, есть только специальные реестры, отслеживающие, сколько у кого биткоинов и кто куда их переводит. Эти реестры называют блокчейнами.</p>
-
-<figure><a href="/assets/images/articles/bitcoin/ru/blockchain-works.webp" class="image-popup"> <img src="/assets/images/articles/bitcoin/ru/blockchain-works.webp" alt="Технология блокчейн" /> 
-<figcaption>Принцип работы блокчейна.</figcaption></a></figure>
-
-<p>Все покупки, продажи и платежи в криптовалюте хранятся в блоках данных, связанных друг с другом в цепочку. Это и есть блокчейн (см. термины выше). Существует сеть людей, которые используют свои компьютеры, чтобы убедиться, что все сделано правильно. Это майнеры.</p>
-
-<p class="notice--warning">За свою работу майнеры получают новые биткойны. У каждого участника есть копия блокчейна, хранящаяся на его компьютере. Поэтому подделки практически невозможны.</p>
-
-<p>Блокчейн — это сложная база данных, похожая на гигантскую бухгалтерскую книгу, состоящую из отдельных блоков информации. Хитрость в том, что информация делится и хранится в цепочке взаимосвязанных блоков. Это обеспечивает его безопасность и предотвращает несанкционированный доступ.</p>
-
-<p class="notice--info">Информация, записанная в блокчейне, остается там навсегда. Никто не может ее изменить.</p>
-
-<p>Биткойн — не единственное, что использует технологию блокчейна — ее используют и многие другие криптовалюты. И различные компании используют базовую технологию для целей, не связанных с криптовалютой.</p>
-
-<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<span itemprop="name" class="bold">Что такое Bitcoin? Простое объяснение для новичков</span>
-<meta itemprop="duration" content="PT3M20S" />
-<meta itemprop="uploadDate" content="2020-08-20T10:46:05Z" />
-<meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/sq7yGozBreo/default.jpg" />
-<meta itemprop="interactionCount" content="54801" />
-<meta itemprop="embedURL" content="https://youtube.googleapis.com/v/sq7yGozBreo" />
-<div class="youtube-player" data-id="sq7yGozBreo"></div>
-<span itemprop="description">Биткоин — это цифровая валюта, то есть виртуальные деньги. BTC был изобретен как реакция на финансовый кризис 2008 года. Все активы в биткоине, а также все платежные операции анонимны.</span>
-</div>
-
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-
-<h2 id="история">История</h2>
-
-<p>Изобретатель BTC -  Сатоши Накамото (псевдоним неизвестного разработчика программного обеспечения или команды разработчиков). Ввиду глобального экономического кризиса 2007 года, он хотел предоставить мировой общественности независимую систему транзакций, которая была бы криптографически защищена, проверяема и неизменна.</p>
-
-<p class="notice--ya">Концепция и программное обеспечение с открытым исходным кодом были опубликованы между 2008 и 2009 годами человеком или группой лиц под псевдонимом Сатоши Накамото. До сих пор не ясно, кто за этим стоит.</p>
-
-<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<span itemprop="name" class="bold">Почему создатель биткоина скрывается 15 лет?</span>
-<meta itemprop="duration" content="PT42M20S" />
-<meta itemprop="uploadDate" content="2022-11-10T11:39:22Z" />
-<meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/8snOqB1_3L4/default.jpg" />
-<meta itemprop="interactionCount" content="78470" />
-<meta itemprop="embedURL" content="https://youtube.googleapis.com/v/8snOqB1_3L4" />
-<div class="youtube-player" data-id="8snOqB1_3L4"></div>
-<span itemprop="description">Биткоин самая популярная криптовалюта, её создал анонимный гений, но кто же он? Кто такой Сатоши Накамото?  А также как он связан с цикадой 3301 - организацией, публикующей загадки в Интернете?</span>
-</div>
-
-<p>Однако несомненно то, что Накамото выпустил первую версию эталонной реализации Bitcoin Core в 2009 году, тем самым положив начало Биткоину, который был первой криптовалютой в истории.</p>
-
-<p class="notice--warning">Первыми товарами, оплаченными Биткоинами, стали две пиццы в 2010 году, которые стоили 10 000 BTC. 10 лет спустя владельцы Биткоина могли бы купить мегаяхту или частный самолет за ту же сумму.</p>
-
-<h3 id="история-стоимости">История стоимости</h3>
-
-<p>В 2009 году курс одного Биткоина составлял около одного доллара. В ноябре 2021 года стоимость криптовалюты превысила 69 000 долларов, что является рекордным показателем.</p>
-
-<figure><a href="/assets/images/articles/bitcoin/ru/history_price_btc.webp" class="image-popup"> <img src="/assets/images/articles/bitcoin/ru/history_price_btc.webp" alt="История цен BTC 2009-2023" /> 
-<figcaption>История стоимости BTC.</figcaption></a></figure>
-
-<p class="notice--warning"><i class="fab fa-bitcoin"></i> История стоимости:<br />
-2009 -  1$,<br />
-2021 — около 69 000$,<br />
-май 2022 — всего 27 000$.<br />
-сентябрь 2022 - ниже 19 000$.</p>
-
-<p>Волатильность одновременно означает большие награды и большие риски для всех, кто владеет Биткоинами.</p>
-
-<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<span itemprop="name" class="bold">Вся история Биткоин 2008-2023</span>
-<meta itemprop="duration" content="PT25M19S" />
-<meta itemprop="uploadDate" content="2022-07-27T13:01:30Z" />
-<meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/4uxZbIyLq_c/default.jpg" />
-<meta itemprop="interactionCount" content="41690" />
-<meta itemprop="embedURL" content="https://youtube.googleapis.com/v/4uxZbIyLq_c" />
-<div class="youtube-player" data-id="4uxZbIyLq_c"></div>
-<span itemprop="description">Почему история Биткоин началась 40 лет назад? Как появился Биткоин? Кто его создал? Ответы узнаете в видео.</span>
-</div>
-
-<h3 id="почему-вокруг-биткоина-столько-шума">Почему вокруг Биткоина столько шума?</h3>
-
-<p>Стоимость Биткоина резко возросла за последние годы. Только за последние пять лет стоимость увеличилась примерно в сто раз.</p>
-
-<p class="notice--success">Любой, кто купил BTC за 100 евро в 2009 году, теперь является мультимиллионером. Это пробуждает желания.</p>
-
-<p>В последнее время институциональные инвесторы и международные корпорации все чаще вкладывают часть своих активов в Биткоин. Это привело к дальнейшему росту цены. Но никто не может сказать, будет ли это продолжаться.</p>
-
-<p>Стоимость цифровых активов подвержена резким колебаниям. Поэтому сбережения, которые вам срочно нужны, никогда не должны инвестироваться в цифровые активы, потому что ценовой риск огромен. BTC не является безопасной инвестицией.</p>
-
-<h3 id="интересные-факты">Интересные факты</h3>
-
-<ul>
-  <li>Биткоин был запущен в 2009 году и достиг своего исторического максимума в 2021 году.</li>
-  <li>Уже было совершено 668 миллионов транзакций.</li>
-  <li>Последняя монета будет добыта в 2140 году.</li>
-  <li>Около 20% биткоинов утеряно навсегда. Пользователи потеряли свои приватные ключи к ним.</li>
-</ul>
-
-<dl>
-  <dt>Приватный ключ</dt>
-  <dd>— это безопасный код, позволяющий его владельцу проводить криптовалютные транзакции и подтверждать право собственности на свое имущество. Биткойн-ключи содержат 256-битную строку, отображаемую в виде комбинации букв и цифр.</dd>
-</dl>
-
-<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<span itemprop="name" class="bold">10 интересных фактов про биткойн и криптовалюту</span>
-<meta itemprop="duration" content="PT11M" />
-<meta itemprop="uploadDate" content="2019-03-24T16:00:02Z" />
-<meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/MNqmMzzAOqI/default.jpg" />
-<meta itemprop="interactionCount" content="104030" />
-<meta itemprop="embedURL" content="https://youtube.googleapis.com/v/MNqmMzzAOqI" />
-<div class="youtube-player" data-id="MNqmMzzAOqI"></div>
-<span itemprop="description">Почему биткойнами очень любят пользоваться преступники? Сколько стоит биткойн и сколько он будет стоить в будущем? Какие есть ещё криптовалюты, кроме биткойна? Чем криптовалюта отличается от обычной валюты и в чём её преимущества? Сколько биткойнов оставил себе Сатоши Накомото?</span>
-</div>
-
-<ul>
-  <li>Покупка пиццы была первой коммерческой биткоин-транзакцией.</li>
-  <li>Биткойн-миллионеров насчитывается почти 100 000 человек.</li>
-  <li>Биткоины можно купить и положить в цифровые кошельки.</li>
-</ul>
-
-<dl>
-  <dt>Биткоин-кошелек</dt>
-  <dd>Программное обеспечение представляет собой <a href="/ru/wallets/">цифровой кошелек</a>. Здесь хранятся биткойны.</dd>
-</dl>
-
-<p class="notice--success">На практике BTC находится в так называемом кошельке на ПК или мобильном телефоне. Они защищены очень длинным паролем. Хранение криптовалюты на собственном устройстве называют “холодным хранением”. Это наиболее безопасный способ хранения.</p>
-
-<p class="notice--danger">Онлайн-платформы или биржи криптовалют также предлагают кошельки, связанные с учетной записью пользователя. Это так называемые “горячие кошельки”, доступ к которым можно получить с помощью компьютера или смартфона. Это наименее безопасный способ хранения потому, что биржу могут взломать.</p>
-
-<h2 id="как-выглядит-биткоин">Как выглядит биткоин?</h2>
-
-<p>Биткойн не имеет ни монет, ни купюр. Криптовалюта существует только виртуально, как строка цифровых символов в компьютерной программе.</p>
-
-<figure><a href="/assets/images/articles/bitcoin/ru/btc_look.webp" class="image-popup"> <img src="/assets/images/articles/bitcoin/ru/btc_look.webp" alt="Как выглядит биткоин" /> 
-<figcaption>Как выглядит биткоин.</figcaption></a></figure>
-
-<p>Виртуальная валюта принципиально отличается от таких валют, как евро или доллар. За последними стоят экономические державы и центральные банки, обеспечивающие безопасность и стабильность. У биткоина такого нет, что гарантирует, что его не отслеживают и не защищают.</p>
-
-<h2 id="преимущества">Преимущества</h2>
-
-<ul>
-  <li>Криптовалюты доступны по всему миру и действуют независимо от государств.</li>
-  <li>Технология блокчейн считается очень безопасной.</li>
-  <li>Основой является децентрализованная база данных, - блокчейн, хранящийся на нескольких компьютерах и управляемый совместно участниками. Все транзакции защищены от подделки с помощью криптографических методов.</li>
-  <li>В отличие от классических денег, новые монеты не выпускаются и не контролируются центральным органом, таким как центральный банк, а создаются и управляются децентрализовано посредством криптографических вычислений в сети.</li>
-  <li>В отличие от классических валют, таких как доллары или евро, неограниченное количество BTC не может быть создано. Существует ограничение в 21 миллион. Большинство монет уже создано.</li>
-</ul>
-
-<p><a href="/assets/images/articles/bitcoin/btc_1.jpg" class="image-popup"> <img src="/assets/images/articles/bitcoin/btc_1.jpg" alt="криптовалюта" /> </a></p>
-
-<p>Кроме того, интернет-валюта считается устойчивой к инфляции, поскольку ее абсолютная сумма ограничена 21 миллионом. 
-Это также было целью изобретателя Сатоши Накамото (псевдоним неизвестного разработчика программного обеспечения или команды разработчиков программного обеспечения).</p>
-
-<p>Ввиду глобального экономического кризиса 2007 года создатель хотел предоставить мировой общественности независимую систему транзакций, которая была бы криптографически защищена, проверяема и неизменна.</p>
-
-<h3 id="безопасность">Безопасность</h3>
-
-<p>Платежные транзакции осуществляются и защищаются с помощью блокчейна. Это означает, что другие участники сети Биткоин имеют центральное значение. Многие другие компьютеры в сети участвуют в платежной транзакции, что делает шифрование очень безопасным от манипуляций. За обеспечение вычислительной мощности остальные участники снова получают биткоины — так создаются новые биткоины.</p>
-
-<h2 id="критика">Критика</h2>
-
-<h3 id="волатильность">Волатильность</h3>
-
-<p>Цена биткоина считается неустойчивой, волатильной<sup id="fnref:3"><a href="#fn:3" class="footnote" rel="footnote" role="doc-noteref">3</a></sup>. Это означает, что она подвержена сильным колебаниям.</p>
-
-<p>Цена биткоина колеблется гораздо больше, чем курсы акций. В ноябре 2021 года один биткоин стоил 69 000 долларов, в мае 2022 года он упал до 27 000 долларов. Это разница более 50 процентов.</p>
-
-<p>Биткоин представляет собой цифровую валюту, за ним нет реальной ценности, как, например, в случае с золотом. Кроме того, BTC не является национальной валютой.</p>
-
-<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<span itemprop="name" class="bold">Новые риски криптовалюты USDT и почему он стоит $1</span>
-<meta itemprop="duration" content="PT21M49S" />
-<meta itemprop="uploadDate" content="2022-07-27T08:55:02Z" />
-<meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/Y9ZHr2rbC7s/default.jpg" />
-<meta itemprop="interactionCount" content="651764" />
-<meta itemprop="embedURL" content="https://youtube.googleapis.com/v/Y9ZHr2rbC7s" />
-<div class="youtube-player" data-id="Y9ZHr2rbC7s"></div>
-<span itemprop="description">Разберем, что такое риски криптовалют на примере USDT. Как они печатаются? Как Tether отчитываются? С чего вообще чей-то фантик стоит 1 доллар? И, конечно, покажем ряд вопросиков к этому «банку». А риски тут есть. </span>
-</div>
-
-<h3 id="теневой-рынок">Теневой рынок</h3>
-
-<p>Критики считают, что криминогенные элементы используют биткоин для торговли наркотиками или оружием. Хакеры шантажируют компании, отключая компьютерные системы и требуя выкуп в биткоине. Вы можете покупать биткоины анонимно. Вот почему цифровая валюта всегда была так популярна среди преступников.</p>
-
-<p class="notice--primary">Однако, следуя этой логике, наличные деньги тоже используют для торговли наркотиками или оружием. Это не означает, что следует запретить наличные деньги.</p>
-
-<h3 id="высокие-риски">Высокие риски</h3>
-
-<p>Биткоин имеет репутацию непрозрачного объекта спекуляций, а не удобного, независимого и распространенного платежного средства. Некоторые люди стали очень богатыми благодаря этому — в фиатных деньгах, таких как евро и доллары, — другие потеряли много денег.</p>
-
-<p>Если законопослушные граждане хотят использовать Биткоин, это невозможно анонимно из-за правительственных постановлений, и обычно требуется обычный банковский счет, поэтому Биткоин не является независимым от банков и правительств.</p>
-
-<h3 id="прочие-недостатки">Прочие недостатки</h3>
-
-<ul>
-  <li>В результате хакерских атак на крупные криптоплатформы исчезли суммы в несколько миллионов евро.</li>
-  <li>Криптографическая проверка транзакций в блокчейне и создание новых монет требует гигантского энергопотребления.</li>
-  <li>Подсчитано, что глобальная сеть биткоина потребляет столько же электроэнергии, сколько Швеция в 2022 году.</li>
-  <li>Если вы потеряете приватный ключ к своему виртуальному кошельку, то цифровые деньги пропадут.</li>
-  <li>Нельзя полностью исключить будущие хакерские атаки.</li>
-  <li>Нет договоров и юридических гарантий.</li>
-  <li>Если бы Интернет рухнул, то цифровую валюту больше нельзя было бы использовать.</li>
-</ul>
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1">
-      <p><a href="https://learn.bybit.com/ru/crypto/21-million-bitcoin-limit-mined/">Лимит в 21 миллион биткоинов</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:2">
-      <p><a href="https://bitcoin.org/ru/how-it-works">Как работает Биткойн?</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:3">
-      <p><a href="https://bytwork.com/articles/volatility">Что такое волатильность в Биткоине и криптовалют</a> <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Что такое Биткоин и зачем он нужен? В этой статье вы узнаете все про BTC. Объясним, как работают виртуальные деньги?]]></summary></entry></feed>
+</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Что вычисляют майнинг фермы? В этой статье вы узнаете, что означает майнинг криптовалюты.]]></summary></entry></feed>
