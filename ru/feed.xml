@@ -1,4 +1,143 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="ru" /><updated>2025-11-19T05:40:16-05:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="ru"><title type="html">Ethereum Fusaka – хардфорк о котором нужно знать держателям ETH</title><link href="https://miningsoft.org/ru/blog/fusaka/" rel="alternate" type="text/html" title="Ethereum Fusaka – хардфорк о котором нужно знать держателям ETH" /><published>2025-11-19T00:00:00-05:00</published><updated>2025-11-19T00:00:00-05:00</updated><id>https://miningsoft.org/ru/blog/fusaka</id><content type="html" xml:base="https://miningsoft.org/ru/blog/fusaka/"><![CDATA[<div class="paper wallet">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="ru" /><updated>2025-11-20T05:57:15-05:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="ru"><title type="html">8 DePIN-проектов с аирдропом: как получить токены и способы участия</title><link href="https://miningsoft.org/ru/blog/depin-airdrops/" rel="alternate" type="text/html" title="8 DePIN-проектов с аирдропом: как получить токены и способы участия" /><published>2025-11-20T00:00:00-05:00</published><updated>2025-11-20T00:00:00-05:00</updated><id>https://miningsoft.org/ru/blog/depin-airdrops</id><content type="html" xml:base="https://miningsoft.org/ru/blog/depin-airdrops/"><![CDATA[<div class="paper wallet">
+  <div class="pattern">
+    <div class="note-cont">
+      Большинство проектов можно запускать бесплатно, но для максимальной доходности часто требуется оборудование.
+    </div>
+  </div>
+</div>
+<p><em>Вы узнаете про  8 уникальных крипто-эйрдропов в пространстве DePIN.</em></p>
+
+<h2 id="введение-в-крипто-эйрдропы-и-depin">Введение в крипто-эйрдропы и DePIN</h2>
+<p>Для получения крипто-эйрдропов требуются разные действия: запускать ноды, участвовать в тестнетах, вносить капитал или просто быть активным в Discord и соцсетях. Вы узнаете про 8 проектов, но в начале напомним что такое DePIN.</p>
+
+<h2 id="что-такое-depin">Что такое DePIN?</h2>
+<p>DePIN расшифровывается как децентрализованная физическая инфраструктурная сеть. Простыми словами, DePIN - это когда люди по всему миру делятся своими реальными вещами (интернет, жесткие диски, электричество) и получают за это криптовалюту.<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></p>
+
+<p class="notice--danger">Важное предупреждение: все проекты относятся к DePIN - децентрализованным сетям физической инфраструктуры, <strong>требующим ресурсов</strong> компьютера, телефона или устройств для работы.</p>
+
+<p>Некоторые проекты бесплатно дают эйрдропы, но обычно вложения приносят больше дохода.</p>
+
+<h2 id="проект-1-grass">Проект 1: Grass</h2>
+<p>У <a href="https://www.grass.io/">Grass уже есть токен</a>, но ходит много слухов о будущих эйрдропах, поскольку теперь они разделили 2 системы вознаграждений.</p>
+
+<h3 id="как-зарабатывать-в-grass">Как зарабатывать в Grass</h3>
+<p>Вы получаете очки Grass за время онлайн-работы (аптайм), и вам даже начисляется множитель, если вы используете мобильное устройство, а не просто ПК-ноду. Но также есть калькулятор сетевых очков, который позволяет зарабатывать не только за аптайм, но и за активное использование вашей пропускной способности сетью Grass для обработки веб-запросов.</p>
+
+<p>Зайдите в свою <a href="https://app.grass.io/">панель управления Grass</a> на мобильном или настольном устройстве - это полностью бесплатно. Мы учавствуем в проекте очень давно и успели поучаствовать в самом первом эйрдропе. Токен уже вышел, но слухи о будущих эйрдропах ходят, так что следите за обновлениями.</p>
+
+<figure><a href="/assets/images/blog/depin-airdrops/grass.png" class="image-popup"> <img src="/assets/images/blog/depin-airdrops/grass.png" alt="grass" /></a></figure>
+
+<h3 id="технические-аспекты-запуска">Технические аспекты запуска</h3>
+<p>Прелесть многих таких проектов в том, что это расширения для Chrome, и их количество практически не ограничено; вы можете запускать множество расширений на одном устройстве. Мы выделили отдельный компьютер, на котором работает около 10 таких протоколов DePIN в разных браузерах, и это не мешает основной работе.</p>
+
+<h2 id="проект-2-depined">Проект 2: DePINed</h2>
+<p>Теперь перейдем к <a href="https://www.depined.org/">DePINed</a>. Это еще один проект, где вы можете начать раннее предмайнинг-фермерство очков для эйрдропа. Иэто еще одно <a href="https://chromewebstore.google.com/detail/depined/pjlappmodaidbdjhmhifbnnmmkkicjoc">расширение для Chrome</a>, очень простое в использовании и установке, во многом похожее на Grass.</p>
+
+<figure><a href="/assets/images/blog/depin-airdrops/depined.png" class="image-popup"> <img src="/assets/images/blog/depin-airdrops/depined.png" alt="depined" /></a></figure>
+
+<h3 id="суть-проекта-depined">Суть проекта DePINed</h3>
+<p>Оно связано с децентрализованным ИИ и позволяет делиться частью вашей пропускной способности и инфраструктуры для выполнения определенных задач. Так что DePINed довольно прост для понимания. Просто установите расширение для Chrome - и готово.</p>
+
+<h2 id="проект-3-nubila">Проект 3: Nubila</h2>
+<p>Второй проект - <a href="https://nubila.ai/">Nubila</a>, децентрализованный оракул погоды с глобальной сетью метеостанций. Мы уже установили свою станцию, накопив около 1,3 млн баллов. Ожидается предстоящее событие генерации токенов (TGE).</p>
+
+<h3 id="примеры-использования-nubila">Примеры использования Nubila</h3>
+<p>Основные варианты использования - рынки прогнозов и страхование. Например, в США страховщики дают скидки за установку устройств, собирающих данные о вождении. Локальные погодные данные важны для страхования рисков и прогнозных рынков с объемом около $100 млн.</p>
+
+<h3 id="рост-nubila">Рост Nubila</h3>
+<p>Проект недавно привлек $10,5 млн в раундах финансирвоания и имеет большой потенциал.<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup>:</p>
+
+<figure><a href="/assets/images/blog/depin-airdrops/depin_marco.png" class="image-popup"> <img src="/assets/images/blog/depin-airdrops/depin_marco.png" alt="depin_marco" /></a></figure>
+
+<h3 id="способы-участия-в-nubila">Способы участия в Nubila</h3>
+<p>Это один из немногих проектов с <strong>обязательным оборудованием</strong>.</p>
+
+<p>Есть 2 пути: приобрести <a href="https://nubila.ai/device">устройство Macro</a> для накопления очков или запустить <a href="https://heliumdeploy.com/products/nubila-cloud-node">облачную ноду-валидатор</a>. Ноды приносят больше вознаграждений в преддверии эйрдропа. Облачных нод меньше, чем физических устройств (20 000+), но обе дают токены , конвертируемые после TGE. Запуск возможен самостоятельно или через сервис NodeOps.</p>
+
+<h2 id="проект-4-375ai">Проект 4: 375AI</h2>
+<p>Следующий проект - <a href="https://www.375.ai/">375AI</a>. Мы так же давно учавствуем в нем и готовимся к эйрдропу. Проект 375 AI (ранее известный как Zeppelin) занимается сбором и анализом данных о реальном мире, в первую очередь о дорожном движении и перемещении людей, с помощью децентрализованной сети устройств и мобильного приложения. Эти данные преобразуются в мета-информацию с помощью AI и продаются коммерческим клиентам.</p>
+
+<figure><a href="/assets/images/blog/depin-airdrops/375ai.png" class="image-popup"> <img src="/assets/images/blog/depin-airdrops/375ai.png" alt="375ai" /></a></figure>
+
+<h3 id="tge-и-финансирование-375ai">TGE и финансирование 375AI</h3>
+<p>Проект недавно привлек $10 млн; у них был раунд ICO, где токен оценивался примерно в $7,5, и мы ожидаем, что после TGE цена будет выше. Настоятельно рекомендуем обратить на него внимание. Его красота в том, что он полностью бесплатный.</p>
+
+<h3 id="как-учавствовать-в-375ai">Как учавствовать в 375AI</h3>
+<p>Вы можете запустить его на Android или iOS; он основан на сборе локальных данных и требует вашего присутствия в различных локациях.</p>
+
+<p>Необходимо подключить <a href="https://bytwork.com/wallets/phantom-solana">кошелек Phantom</a> от сети Solana, переведенный в тестовый режим (testnet). После подключения приложение работает в фоновом режиме. Оно пассивно собирает данные о силе сетевого сигнала, пока вы перемещаетесь (ходите, едете и т.д.).</p>
+
+<p class="notice--ya">По сути, нужно охватывать области, где еще не ступала нога других пользователей, чтобы зарабатывать вознаграждения. Основная идея в том, что чем ближе вы к источнику данных, тем ценнее они.</p>
+
+<h2 id="проект-5-acurast">Проект 5: Acurast</h2>
+<p>Следующий проект - <a href="https://acurast.com/">Acurast</a>. Он представляет собой децентрализованную вычислительную сеть, которая использует мощность  смартфонов по всему миру вместо традиционных централизованных дата-центров.</p>
+
+<h3 id="масштабы-и-возможности-acurast">Масштабы и возможности Acurast</h3>
+<p>Он полностью бесплатен и работает на iOS и Android. В сети можно найти множество так называемых Acurast phone farms - просто введите этот запрос, и вы увидите множество людей, преданных этому протоколу, которые, вероятно, будут щедро вознаграждены после эйрдропа.</p>
+
+<figure><a href="/assets/images/blog/depin-airdrops/acurast.png" class="image-popup"> <img src="/assets/images/blog/depin-airdrops/acurast.png" alt="acurast" /></a></figure>
+
+<p>Acurast значительно вырос: к нему уже подключено почти 153 000 телефонов, и все они обладают некоторыми вычислительными возможностями. Очень интересно наблюдать за таким явлением, как майнинг на смартфонах. И главное - это полностью бесплатно. Так что если вы запускаете 375AI, вы можете одновременно запускать и Acurast на одном телефоне - ситуация беспроигрышная.</p>
+
+<h2 id="проект-6-pipe-network">Проект 6: Pipe Network</h2>
+<p><a href="https://pipe.network/">Pipe Network</a> - это децентрализованная CDN (сеть доставки контента), которая совершенствует способы доставки данных. Основное внимание уделяется пропускной способности и совместному использованию этой пропускной способности.</p>
+
+<h3 id="настройка-pipe-network">Настройка Pipe Network</h3>
+<p>Настройка и использование требуют средний уровень усилий, но никакого оборудования не требуется. По сути, вы <a href="https://docs.pipe.network/docs/nodes/mainnet.md">запускаете точку присутствия (<code class="language-plaintext highlighter-rouge">pop node</code>)</a>, направляете трафик через Pipe и получаете за это вознаграждение. Нужны знания CMD и терминала Linux.</p>
+
+<figure><a href="/assets/images/blog/depin-airdrops/pipe.png" class="image-popup"> <img src="/assets/images/blog/depin-airdrops/pipe.png" alt="pipe" /></a></figure>
+
+<p>Этот проект немного сложнее, требует немного больше вовлеченности и действий для запуска. Мы подготовим руководство для тех, кто захочет разобраться.</p>
+
+<h2 id="проект-7-doublezero">Проект 7: DoubleZero</h2>
+
+<p><a href="https://doublezero.xyz/">DoubleZero</a> технически уже запустил свой токен, но ходят слухи о потенциальных будущих раздачах для активных участников, поскольку проект очень вырос.</p>
+
+<h3 id="стейкинг-в-doublezero">Стейкинг в DoubleZero</h3>
+<p>Одна из возможностей - это <a href="https://doublezero.xyz/staking">стейкинг DzSOL</a>. Вы можете стейкать его и получать DzSOL - ликвидный токен DoubleZero, который приносит вознаграждения и способствует децентрализации валидаторов. По сути, DoubleZero ориентирован на децентрализацию валидаторов, в частности, в экосистеме Solana.</p>
+
+<figure><a href="/assets/images/blog/depin-airdrops/dzsol.png" class="image-popup"> <img src="/assets/images/blog/depin-airdrops/dzsol.png" alt="dzsol" /></a></figure>
+
+<h3 id="участие-и-перспективы-doublezero">Участие и перспективы DoubleZero</h3>
+<p>Есть несколько способов участия; настройка также немного сложнее, но таковы базовые принципы после запуска токена и потенциальные возможности в будущем, включая эйрдропы.</p>
+
+<p>Гарантий будущих эйрдропов нет, но многие возможности для потенциальных будущих раздач существуют в рамках этого протокола DePIN.</p>
+
+<h2 id="проект-8-dawn">Проект 8: Dawn</h2>
+<p>Следующий проект - <a href="https://www.dawninternet.com/">Dawn</a>. Dawn связан с аппаратным обеспечением, но есть и бесплатная версия.</p>
+
+<h3 id="аппаратное-обеспечение-dawn">Аппаратное обеспечение Dawn</h3>
+<p>Уникальность в том, что при покупке оборудования (подробно описанного как blackbox) есть разные размеры; больший размер, очевидно, значительно дороже, но вы также получаете очки за покупку. Вы можете получить до 519 800 очков-вознаграждений, введя реферальный код на кассе. Так что есть стимулы и преимущества для покупки аппаратного устройства. Но, очевидно, не у всех есть $2600  в запасах.</p>
+
+<figure><a href="/assets/images/blog/depin-airdrops/dawn.png" class="image-popup"> <img src="/assets/images/blog/depin-airdrops/dawn.png" alt="dawn" /></a></figure>
+
+<p>Внимание! Расширения больше нет в CHrome - возможно по причине мошенничества.</p>
+
+<h3 id="бесплатная-версия-dawn">Бесплатная версия Dawn</h3>
+<p>Преимущество в том, что есть и бесплатная версия: вы можете получить расширение-валидатор для Chrome и просто запустить его. Это очень просто и, что важнее, бесплатно. Однако учтите, что подавляющая часть очков будет начисляться тем, кто реально инвестирует капитал.</p>
+
+<h3 id="партнеры-dawn">Партнеры Dawn</h3>
+<p>Среди их партнеров очень впечатляющие имена: Pipe Network, Helium и Archium. Так что у Dawn много возможностей.</p>
+
+<h2 id="критика-и-риски">Критика и риски</h2>
+
+<p>Дорогостоящее оборудование (ноды Nubila, боксы Dawn) и неизвестные до TGE цена токенов и условия эйрдропа делают DePIN-вложения высокорискованными.</p>
+
+<p>Долгосрочная устойчивость также под вопросом: децентрализованно собранные данные (погода, трафик) могут оказаться низкого качества и без коммерческого спроса, обесценив токены после завершения этапа стимулирования.</p>
+
+<p>
+«MiningSoft» не предоставляет инвестиционных консультаций; материалы публикуются исключительно в ознакомительных целях. Криптовалюта - волатильный актив, способный привести к финансовым потерям.
+</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1">
+      <p><a href="https://bytwork.com/articles/depin">Что такое DePIN в криптовалюте? Объясняем просто за 3 минуты</a>. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p><a href="https://x.com/nubilanetwork/status/1980277921412784326">Nubila Secures $8M Seed Round to Accelerate the Prediction Market Oracle Frontier</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Большинство проектов можно запускать бесплатно, но для максимальной доходности часто требуется оборудование. Вы узнаете про 8 уникальных крипто-эйрдропов в пространстве DePIN.]]></summary></entry><entry xml:lang="ru"><title type="html">Ethereum Fusaka – хардфорк о котором нужно знать держателям ETH</title><link href="https://miningsoft.org/ru/blog/fusaka/" rel="alternate" type="text/html" title="Ethereum Fusaka – хардфорк о котором нужно знать держателям ETH" /><published>2025-11-19T00:00:00-05:00</published><updated>2025-11-19T00:00:00-05:00</updated><id>https://miningsoft.org/ru/blog/fusaka</id><content type="html" xml:base="https://miningsoft.org/ru/blog/fusaka/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       Несмотря на риск краткосрочной коррекции, обновление Fusaka закладывает фундамент для долгосрочного роста ETH.
@@ -250,7 +389,7 @@
   </ul>
 </div>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_38.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_38.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_38.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_38.png" alt="Safe 7" /> </a></figure>
 
 <p>Теперь посмотрим на преимущества.</p>
 
@@ -282,7 +421,7 @@
 <h2 id="дизайн-и-экран">Дизайн и экран</h2>
 <p>Давайте начнём с дизайна. Кошелёк выполнен из премиального алюминия с усиленной задней панелью. Его размеры составляют 75.4 мм в высоту, 44.5 мм в ширину и 8.3 мм в толщину, что делает его самым крупным кошельком в семействе Trezor.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_12.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_12.png" alt="Safe 7 и сравнение" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_12.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_12.png" alt="Safe 7 и сравнение" /> </a></figure>
 
 <p>На передней панели вы найдёте 2.5-дюймовый полноцветный сенсорный экран высокого разрешения с тактильной отдачей, который мягко вибрирует при прикосновении, как ваш смартфон.</p>
 
@@ -295,51 +434,51 @@
 <h2 id="беспроводная-связь-и-безопасность">Беспроводная связь и безопасность</h2>
 <p>Safe 7 - это первый кошелёк от Trezor с беспроводной работой. Подключайте его к компьютеру или мобильному устройству через безопасное Bluetooth-соединение. Поскольку компания Trezor всегда ставит безопасность на первое место, все Bluetooth-соединения защищены протоколом Trezor Host, который шифрует каждую команду и транзакцию, гарантируя, что никто не сможет перехватить, изменить или внедрить вредоносные сообщения.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_17.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_17.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_17.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_17.png" alt="Safe 7" /> </a></figure>
 
 <p>Кошелёк остаётся невидимым для неизвестных устройств и подключается только к доверенным приложениям через открытое шифрование. Это позволяет вам наслаждаться безопасной и зашифрованной связью. Используйте его беспроводным способом со смартфоном или планшетом или просто отключите Bluetooth и используйте кабельное соединение, если предпочитаете его.</p>
 
 <h2 id="аккумулятор-и-зарядка">Аккумулятор и зарядка</h2>
 <p>Safe 7 - это так же первый кошелек Trezor с аккумулятором, а именно здесь литий-железо-фосфатный (LiFePO4). Этот тип аккумулятора предлагает отличный баланс между безопасностью, долговечностью и стоимостью. Он служит в 4 раза дольше, чем обычные литиевые батареи, медленнее разряжается и может быть полностью разряжен без повреждений.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_19.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_19.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_19.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_19.png" alt="Safe 7" /> </a></figure>
 
 <p>Зарядка проста: для этого предусмотрена магнитная беспроводная зарядка. Просто поместите кошелёк на любую совместимую с Qi2 базу, и он зафиксируется для стабильной зарядки.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_20.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_20.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_20.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_20.png" alt="Safe 7" /> </a></figure>
 
 <p>Или, если хотите, заряжайте его через кабель USB-C.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_22.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_22.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_22.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_22.png" alt="Safe 7" /> </a></figure>
 
 <p>Кошелёк доступен в трёх цветах: угольно-чёрный, зеленый обсидиан и специальное Биткоин-издание в ярко-оранжевом цвете.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_23.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_23.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_23.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_23.png" alt="Safe 7" /> </a></figure>
 
 <h2 id="архитектура-безопасности">Архитектура безопасности</h2>
 <h3 id="защищённые-элементы">Защищённые элементы</h3>
 <p>Кошелёк оснащён продвинутыми функциями безопасности для защиты вашей крипты. Он включает 2 независимых защищённых элемента: Tropic01 и Optiga Trust M.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_27.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_27.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_27.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_27.png" alt="Safe 7" /> </a></figure>
 
 <p>Вместе они создают архитектуру с 2 чипами, которая защищает от взлома, атак методом грубой силы на PIN-код и поддельного оборудования. Каждый безопасный элемент обеспечивает свой уровень защиты.</p>
 
 <h3 id="чип-tropic01">Чип Tropic01</h3>
 <p>Первый чип - Tropic01. Он был разработан компанией Tropic Square, созданной материнской группой Trezor, Satoshi Labs, в 2020 году исключительно для создания безопасных чипов, которые любой может проверить.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_24.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_24.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_24.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_24.png" alt="Safe 7" /> </a></figure>
 
 <p>Trezor работала над изготовлением этого чипа 5 лет. Он обрабатывает защиту PIN-кода, аутентификацию устройства и безопасную генерацию случайных чисел для создания кошелька.</p>
 
 <h3 id="чип-optigga-trust-m">Чип Optigga Trust M</h3>
 <p>Второй - чип Optigga Trust M. Это сертифицированный микроконтроллер с уровнем сертификации EAL6+, высшим в индустрии крипто-аппаратуры. Оба чипа работают вместе, чтобы обезопасить ваши средства.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_26.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_26.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_26.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_26.png" alt="Safe 7" /> </a></figure>
 
 <h2 id="квантовая-устойчивость">Квантовая устойчивость</h2>
 <p>А теперь - одно из самых больших нововведений. Trezor Safe 7 - это первый в мире квантово-защищённый аппаратный кошелёк. Он включает в себя предустановленное аппаратное обеспечение, предназначенное для поддержки будущих постквантовых обновлений, то есть он уже спроектирован для сопротивления будущим атакам квантовых компьютеров.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_29.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_29.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_29.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_29.png" alt="Safe 7" /> </a></figure>
 
 <p>По мере развития квантовых вычислений в ближайшие годы, Safe 7 сможет получать обновления прошивки, предназначенные для постквантовой криптографии. Это огромное преимущество, потому что только устройства, спроектированные с такой аппаратной архитектурой, могут запускать эти будущие обновления.</p>
 
@@ -363,7 +502,7 @@
 
 <p>Через приложение вы можете подключаться к сторонним кошелькам, DeFi-платформам, DApps и NFT-маркетплейсам.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_32.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_32.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_32.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_32.png" alt="Safe 7" /> </a></figure>
 
 <p>Проверяйте свой портфель, отправляйте и получайте криптовалюту, а также подключайте свой Trezor к популярным кошелькам-приложениям.</p>
 
@@ -379,23 +518,23 @@
 
 <p>При создании нового кошелька Trezor Safe 7 по умолчанию генерирует 20 слов для восстановления.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_33.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_33.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_33.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_33.png" alt="Safe 7" /> </a></figure>
 
 <p>Если у вас уже есть другой аппаратный кошелёк, например, Ledger, Coldcard или другая модель Trezor, вы можете безопасно восстановить свой существующий кошелёк здесь, используя стандартные сид-фразы из 12 или 24 слов. И, как и все кошельки Trezor, защищайте своё устройство с помощью PIN-кода длиной до 50 цифр.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_34.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_34.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_34.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_34.png" alt="Safe 7" /> </a></figure>
 
 <h2 id="комплектация">Комплектация</h2>
 
 <p>И, наконец, при покупке Trezor Safe 7 вы получите: само устройство, кабель USB-C, две карточки для записи сид-фразы, краткое руководство по началу работы, руководство по безопасности и несколько стикеров.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_36.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_36.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_36.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_36.png" alt="Safe 7" /> </a></figure>
 
 <h2 id="критика">Критика</h2>
 
 <p>Заявленная квантовая устойчивость кошелька на является скорее маркетинговым преимуществом, чем практической необходимостью. Угроза со стороны квантовых компьютеров для текущей криптографии остаётся гипотетической и отдалённой во времени. Пользователи платят за функцию, которая может стать актуальной лишь через много лет, в то время как сама технология постквантовой криптографии продолжает активно развиваться и меняться, что ставит под вопрос конечную эффективность готового “железного” решения.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_3.webp" class="image-popup small"> <img src="/assets/images/wallets/trezor/safe_7/safe7_3.webp" alt="Кошелек Trezor Safe 7 " /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_3.webp" class="image-popup small"> <img src="/assets/images/wallets/trezor/safe_7/safe7_3.webp" alt="Кошелек Trezor Safe 7 " /> </a></figure>
 
 <p>Несмотря на премиальный дизайн и заявленную устойчивость к повреждениям, наличие большого сенсорного экрана и аккумулятора делает устройство более уязвимым по сравнению с более простыми моделями. Экран, будучи точкой физического контакта, остаётся самым хрупким элементом, а встроенный аккумулятор со временем деградирует, что может привести к необходимости замены всего устройства через несколько лет, в отличие от кошельков без батареи, которые работают только при подключении.</p>
 
@@ -403,32 +542,33 @@
 
 <p>Trezor базируется в Праге и всегда базировался там. С учетом более чем 50 лет подавления свобод коммунистами и Второй мировой войны до этого, в городе вырос глубокий скептицизм к правительству. Эти скептики естественно заинтересовались Bitcoin и его этикой. Из этого выоросла компания Трезор.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_43.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_43.png" alt="Прага" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_43.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_43.png" alt="Прага" /> </a></figure>
 
 <p>Трезор строго придерживается подхода с открытым исходным кодом.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_39.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_39.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_39.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_39.png" alt="Safe 7" /> </a></figure>
 
 <p>Каждый может посмотреть исходный код на <a href="https://github.com/trezor">Github</a>.</p>
 
 <h2 id="фотогаллерея">Фотогаллерея</h2>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_40.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_40.png" alt="Safe 7 в моих руках" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_40.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_40.png" alt="Safe 7 в моих руках" /> </a></figure>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_41.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_41.png" alt="Safe 7 стенд с платой которая внутри" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_41.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_41.png" alt="Safe 7 стенд с платой которая внутри" /> </a></figure>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_42.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_42.png" alt="Safe 7 коешльки лежат в ряд" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_42.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_42.png" alt="Safe 7 коешльки лежат в ряд" /> </a></figure>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_6.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_6.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_6.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_6.png" alt="Safe 7" /> </a></figure>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_7.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_7.png" alt="Safe 7" /> </a>
-<a href="/assets/images/wallets/trezor/safe_7/safe7_8.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_8.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_7.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_7.png" alt="Safe 7" /> </a></figure>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_8.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_8.png" alt="Safe 7" /> </a></figure>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_4.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_4.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_4.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_4.png" alt="Safe 7" /> </a></figure>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_10.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_10.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_10.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_10.png" alt="Safe 7" /> </a></figure>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_11.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_11.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_11.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_11.png" alt="Safe 7" /> </a></figure>
+
 <div class="footnotes" role="doc-endnotes">
   <ol>
     <li id="fn:1">
@@ -2332,340 +2472,4 @@
       <p><a href="https://www.econstor.eu/bitstream/10419/103022/1/791932281.pdf">Конкуренция на рынке криптовалют - EconStor</a> <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Будущее Биткойна В этой статье вы узнаете о перспективах биткойна.]]></summary></entry><entry xml:lang="ru"><title type="html">Майнинг - что это такое простыми словами? Кратко и понятно</title><link href="https://miningsoft.org/ru/articles/mining/" rel="alternate" type="text/html" title="Майнинг - что это такое простыми словами? Кратко и понятно" /><published>2023-02-07T00:00:00-05:00</published><updated>2023-02-14T00:00:00-05:00</updated><id>https://miningsoft.org/ru/articles/mining</id><content type="html" xml:base="https://miningsoft.org/ru/articles/mining/"><![CDATA[<div class="paper btc">
-  <div class="pattern">
-    <div class="note-cont">
-      Что вычисляют майнинг фермы?
-    </div>
-  </div>
-</div>
-<p><em>В этой статье вы узнаете, что означает майнинг криптовалюты.</em></p>
-
-<h2 id="что-такое-майнинг">Что такое майнинг?</h2>
-
-<p>Новые <a href="/ru/articles/bitcoin">биткоины</a> генерируются в процессе, называемом майнингом. Этот процесс сложен, но, говоря простым языком, майнинг — это когда компьютеры решают математические уравнения, а в награду они получают биткоин или другие криптовалюты.</p>
-
-<p>Термин «майнинг» означает «копание», т.е. создание новых монет. Этим занимаются так называемые майнеры, которые, в случае с биткойнами, добавляют очередной блок в блокчейн и собирают за это вознаграждение. Блокчейн - это реестр, отслеживающий, сколько у кого биткоинов и кто куда их переводит.</p>
-
-<figure><a href="/assets/images/articles/mining/ru/what_is_mining_simple.webp" class="image-popup"> <img src="/assets/images/articles/mining/ru/what_is_mining_simple.webp" alt="Майнинг простыми словами" />
-<figcaption>Что такое майнинг простыми словами.</figcaption></a></figure>
-
-<h2 id="важные-термины-и-понятные-объяснения">Важные термины и понятные объяснения</h2>
-
-<script async="" src="https://coinzillatag.com/lib/display.js"></script>
-
-<div class="coinzilla" data-zone="C-26960aca952082b4725"></div>
-<script>
-    window.coinzilla_display = window.coinzilla_display || [];
-    var c_display_preferences = {};
-    c_display_preferences.zone = "26960aca952082b4725";
-    c_display_preferences.width = "300";
-    c_display_preferences.height = "250";
-    coinzilla_display.push(c_display_preferences);
-</script>
-
-<dl>
-  <dt>Майнинг</dt>
-  <dd>Процесс добычи криптовалюты с помощью мощностей вычислительных машин. Вычисления ведут с помощью специализированных интегральных схем (ASIC)<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup> или видеокарт (GPU). Эти устройства решают сложные задачи (хэши). При этом находится новый блок биткойнов, за который майнеры получают вознаграждение.</dd>
-  <dt>Майнинг-фермы (майнинг риг)</dt>
-  <dd>Мощные высокопроизводительные вычислительные установки для майнинга, занимающие значительное пространство. Несколько устройств объединяют в фермы, чтобы их было проще обслуживать.</dd>
-  <dt>Майнер</dt>
-  <dd>Человек, занимающийся добычей криптовалюты. Так же майнером иногда называют само <a href="/ru/miners">ПО для добычи криптовалют</a>.</dd>
-</dl>
-
-<figure><a href="/assets/images/articles/mining/ru/mining_definiton.webp" class="image-popup"> <img src="/assets/images/articles/mining/ru/mining_definiton.webp" alt="Процесс майнинга" />
-<figcaption>Определение майнинга.</figcaption></a></figure>
-
-<p class="notice--warning">Идея названия процесса создания новых криптомонет возникла из сравнения с золотоискателями, ищущими золото в шахтах.</p>
-
-<p>В английском языке термин «добыча» больше указывает на добычу и извлечение ценных металлов в шахтах и ​​туннелях.</p>
-
-<p>Сравнивая добычу криптовалюты с добычей золота, название становится понятным. В обеих формах добычи майнеры выполняют работу и получают вознаграждение в виде актива, не находящегося в обращении. Наравне с цифровым золотом, природное так же добывается из земли и становится частью экономики.</p>
-
-<figure><a href="/assets/images/articles/mining/ru/mining_gold.webp" class="image-popup"> <img src="/assets/images/articles/mining/ru/mining_gold.webp" alt="майнинг" />
-<figcaption>Сравнение добычи криптовалюты с добычей золота.</figcaption></a></figure>
-
-<h2 id="как-работает">Как работает</h2>
-
-<div class="imgcen">
-
-</div>
-
-<p>При использовании криптовалюты детали транзакции записываются в так называемый <a href="/ru/articles/blockchain/">блокчейн (реестр)</a>. Перед майнером стоит задание решить сложную задачу, стоящую за этой транзакцией. Процесс завершается, когда майнер подтверждает легитимность транзакции. Как только это будет сделано, транзакция станет видна всем в блокчейне.</p>
-
-<figure><a href="/assets/images/articles/mining/ru/what_is_mining.webp" class="image-popup"> <img src="/assets/images/articles/mining/ru/what_is_mining.webp" alt="Как происходит майнинг" />
-<figcaption>Как происходит майнинг.</figcaption></a></figure>
-
-<p>Проще говоря, речь идет о решении сложных математических задач. Поэтому процесс проверки транзакций требует, чтобы майнеры использовали высокую вычислительную мощность.</p>
-
-<p>Чем больше майнеров участвует в процессе проверки, тем быстрее подтверждается транзакция. За проведение такой транзакции майнеры получают часть транзакции в качестве комиссии. Каждая успешная транзакция генерирует дополнительные новые монеты, которые поступают в обращение в сети блокчейн.</p>
-
-<figure><a href="/assets/images/articles/mining/ru/bitcoin_mining_process.webp" class="image-popup"> <img src="/assets/images/articles/mining/ru/bitcoin_mining_process.webp" alt="Процесс майнинга и транзакции" />
-<figcaption>Процесс майнинга и транзакции.</figcaption></a></figure>
-
-<h2 id="что-вычисляют">Что вычисляют?</h2>
-
-<p>Майнинг фермы занимаются вычислением «хэшей» по заданному алгоритму для криптовалюты. Эти хэши представляют собой математически рассчитанные последовательности букв и цифр, хранящиеся в блоках.</p>
-
-<p class="notice--ya">Наиболее известные криптографические хеш-функции, используемые в алгоритмах криптовалюты, включают «SHA-256» в биткоине, «Ethash» в Ethereum Classic, «Scrypt» в Litecoin.</p>
-
-<figure><a href="/assets/images/articles/mining/ru/how_mining.webp" class="image-popup"> <img src="/assets/images/articles/mining/ru/how_mining.webp" alt="Процесс майнинга" />
-<figcaption>Процесс майнинга.</figcaption></a></figure>
-
-<h3 id="вычисление-хешей">Вычисление хешей</h3>
-
-<p>Блок Биткоина содержит хэши, в которых хранятся хэши предыдущих блоков, а также детали транзакции.</p>
-
-<dl>
-  <dt>Хэш</dt>
-  <dd>Хэш в блокчейне Биткоин — это фиксированная длина уникальной последовательности случайных цифр, содержащая данные любого размера. Каждый хеш уникален, поэтому нельзя посмотреть на хэш и угадать, какие данные он содержит.</dd>
-</dl>
-
-<p>Чтобы понять сложную природу хэша, рассмотрите аналогию: каждый Биткоин-хеш — это то же самое, что попросить кого-то подбросить монету 160 раз и записать либо орел, либо решку. В случае орла или решки на монете есть только две переменные. Однако с цифрами и буквами возможности 160-символьного Биткоин-хэша безграничны. Никогда не будет двух одинаковых значений.</p>
-
-<figure><a href="/assets/images/articles/mining/ru/mining_hash.webp" class="image-popup"> <img src="/assets/images/articles/mining/ru/mining_hash.webp" alt="Что такое хеш" />
-<figcaption>Что такое хеш.</figcaption></a></figure>
-
-<p>В хеш-головоломке полученный отпечаток представляет собой список символов (назовем его словом), например, «кошка», после чего ваша задача найти нужный “отпечаток пальца” этого слова. Для этого все, что вы можете сделать, это попробовать все возможные комбинации чисел (определенной длины), одну за другой.</p>
-
-<h3 id="хешрейт-и-хеширование">Хешрейт и хеширование</h3>
-
-<p>Резюмируя информацию выше, хэш — это случайно сгенерированный буквенно-цифровой код, а хеширование — это процесс угадывания этого кода. Хешрейт здесь - скорость майнинга, хеширования (разгадывания головоломки).</p>
-
-<figure><a href="/assets/images/articles/mining/ru/hashing.webp" class="image-popup"> <img src="/assets/images/articles/mining/ru/hashing.webp" alt="Хеширование" />
-<figcaption>Хеширование — метод создания выходных данных фиксированного размера из входных данных переменного размера.</figcaption></a></figure>
-
-<dl>
-  <dt>Хеширование</dt>
-  <dd>преобразование и генерация входных данных любой длины в строку фиксированного размера, которое выполняется по определенному алгоритму. В частности, алгоритм хэширования биткоина — это SHA-256 или 256-битный безопасный алгоритм хеширования.</dd>
-  <dt>Хешрейт</dt>
-  <dd>показатель вычислительной мощности в секунду, используемой при майнинге. Проще говоря, это скорость майнинга. Он измеряется в хеш-единицах в секунду, что означает, сколько вычислений может быть выполнено в секунду. Машины с высокой мощностью хеширования очень эффективны и могут обрабатывать большой объем данных за секунду.</dd>
-</dl>
-
-<p class="notice--warning">Здесь становится очевидно, что чем мощнее наша машина для хеширования (она же майнинг ферма), тем быстрее мы найдем решение алгоритма и получим доход.</p>
-
-<p>Но ведь мощные устройства сразу найдут все Биткоины? Нет, для этого в алгоритме существует параметр сложности.</p>
-
-<h3 id="сложность-сети">Сложность сети</h3>
-
-<p>Сложность майнинга — это степень сложности нахождения заданного хэша ниже <span class="yel">целевого значения</span>.</p>
-
-<p>Целевое значение пересчитывается каждые 2016 блоков, при этом сложность майнинга обратно пропорциональна <span class="yel">целевому значению</span>.</p>
-
-<p>По мере увеличения сложности майнинга <span class="yel">целевое значение</span> снижается, и наоборот.</p>
-
-<p class="notice--ya">Проще говоря, чем больше майнеров присоединяется к сети, тем выше скорость создания блоков, что приводит к ускорению хеширования и увеличению сложности.</p>
-
-<figure><a href="/assets/images/articles/mining/ru/difficulty.webp" class="image-popup"> <img src="/assets/images/articles/mining/ru/difficulty.webp" alt="Сложность сети" />
-<figcaption>Сложность сети</figcaption></a></figure>
-
-<p>По мере того, как скорость майнинга увеличивается, сложность майнинга тоже увеличивается. В результате чего скорость создания блоков снижается до желаемых 10 минут, как упоминалось ранее. Все это описано в алгоритме Proof of Work<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup>.</p>
-
-<p>Как только сложность майнинга увеличивается, среднее время майнинга возвращается к норме, и цикл повторяется примерно каждые 2 недели.</p>
-
-<h2 id="оборудование-и-требования">Оборудование и требования</h2>
-
-<p>В майнинге используется вычислительная мощность видеокарты (для некоторых криптовалют - процессор) для добычи монет, таких как  Монеро или Эфириум Классик.</p>
-
-<p>Есть так же специально разработанные для этого устройства - ASIC, такие как Bitmain и Antminer.</p>
-
-<figure><a href="/assets/images/articles/mining/ru/asic.webp" class="image-popup"> <img src="/assets/images/articles/mining/ru/asic.webp" alt="асики для майнинга." />
-<figcaption>Чип ASIC в 1000 раз эффективнее в майнинге, чем чип в домашнем ПК.</figcaption></a></figure>
-
-<p>Для майнинга криптовалюты требуется специальный GPU (Graphic Processor Unit), предназначенный для решения сложных уравнений за маленькое время. Если вы хотите начать крипто-майнинг без собственного оборудования, доступны так называемые фермы облачного майнинга.</p>
-
-<h3 id="что-лучше-асик-или-майнинг-ферма">Что лучше асик или майнинг ферма</h3>
-
-<p>Первоначально создатели Биткойна планировали майнить его на центральных процессорах (ЦП) широко используемых ноутбуков или настольных компьютеров. Тем не менее, ASIC превзошли как процессоры, так и видеокарты (GPU) из-за их более низкого энергопотребления и более высокой вычислительной мощности.</p>
-
-<p class="notice--ya">Таким образом, ASIC лучше процессоров и видеокарт в майнинге. Они более мощные с точки зрения вычислительной мощности. Они могут обрабатывать гораздо больше данных в единицу времени.</p>
-
-<p>В конечном счете, все больше и больше майнеров, обладающих высокой вычислительной мощностью, будут более успешными, чем более мелкие домашние майнеры.</p>
-
-<figure><a href="/assets/images/articles/mining/ru/fpga_vs_gpu.webp" class="image-popup"> <img src="/assets/images/articles/mining/ru/fpga_vs_gpu.webp" alt="Таблица производительности устройств" />
-<figcaption>Таблица производительности устройств.</figcaption></a></figure>
-
-<p>Иерархия производительности следующая:</p>
-
-<ul>
-  <li>CPU - Центральный процессор компьютера. Самая низкая эффективность.</li>
-  <li>GPU - Графический процессор (видеокарта). Средняя эффективность.</li>
-  <li><a href="https://bytwork.com/articles/fpga">FPGA - Интегральная схема</a>. Высокая производительность.</li>
-  <li>ASIC - Интегральная схема для конкретного приложения. Высочайшая производительность.</li>
-</ul>
-
-<dl>
-  <dt>Пулы</dt>
-  <dd>Майнинговые установки позволяют майнерам использовать объединенную вычислительную мощность нескольких машин, направлять ее в пулы майнинга и распределять вознаграждение (share) за каждый успешно добытый блок.</dd>
-</dl>
-
-<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<span itemprop="name" class="bold">Как осуществляется майнинг биткоинов? Три способа майнинга</span>
-<meta itemprop="duration" content="PT8M29S" />
-<meta itemprop="uploadDate" content="2020-08-04T11:59:30Z" />
-<meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/Cqre-F6SjTQ/default.jpg" />
-<meta itemprop="interactionCount" content="878045" />
-<meta itemprop="embedURL" content="https://youtube.googleapis.com/v/Cqre-F6SjTQ" />
-<div class="youtube-player" data-id="Cqre-F6SjTQ"></div>
-<span itemprop="description">В этом видео также: Биткоин и блокчейн и как они связаны с майнингом?</span>
-</div>
-
-<h3 id="методы-майнинга">Методы майнинга</h3>
-
-<p>Существуют разные подходы к майнингу криптовалют. Здесь описаны 4 самых популярных вида, ранжированные по степени простоты.</p>
-
-<section class="imp">
-  <p><span class="par"><i class="fas fa-mug-hot"></i> <span class="bold">Методы майнинга:</span>  <br /></span>
-<span class="par"><i class="fas fa-lightbulb"></i> <b class="yel">Облачный майнинг</b>. Поскольку стоимость приобретения майнеров на GPU или ASIC становится все выше по сравнению с доходами, облачные майнинг-фермы становятся все более популярными. Облачный майнинг позволяет отдельным майнерам пользоваться преимуществами крупных корпораций и специализированных мощностей. С помощью облачного решения вы можете арендовать облачное оборудование на определенный период времени. <br /></span>
-<span class="par"><i class="fas fa-lightbulb"></i> <b class="yel">Майнинг на процессоре (CPU)</b>. На заре технологий майнинг на процессоре был самым простым способом начать добычу. Для запуска криптомайнинга было достаточно простого домашнего ПК с хорошим процессором. Однако майнинг на процессорах слишком медленный и уже не приносит столько прибыли, если учесть затраты на электроэнергию и охлаждение.  <br /></span>
-<span class="par"><i class="fas fa-lightbulb"></i> <b class="yel">GPU-майнинг</b>. Несколько графических процессоров, так называемых видеокарт, объединяются в большую ферму для майнинга, что увеличивает используемую вычислительную мощность.  <br /></span>
-<span class="par"><i class="fas fa-lightbulb"></i> <b class="yel">ASIC-майнинг</b>. В отличие от майнеров на GPU, ASIC майнеры специально разработаны для майнинга криптовалюты, поэтому они могут производить больше единиц криптовалюты, чем GPU. Однако затраты на приобретение таких ASIC-майнеров во много раз выше, чем у майнеров на GPU или CPU. <br /></span></p>
-</section>
-
-<p>Для майнинга биткоина используются фермы с ASIC.</p>
-
-<p>Какая криптовалюта майнится?<br />
-Все монеты с алгоритмом <a href="https://coinmarketcap.com/ru/view/pow/">proof of work</a> можно майнить на фермах. А майнинг риг<sup id="fnref:3"><a href="#fn:3" class="footnote" rel="footnote" role="doc-noteref">3</a></sup> - это часть фермы.</p>
-
-<figure><a href="/assets/images/articles/mining/ru/mining_rig_2936.jpg" class="image-popup"> <img src="/assets/images/articles/mining/ru/mining_rig_2936.jpg" alt="Красный майнинг риг на 12 GPU." />
-<figcaption>Майнинг риг на 12 GPU</figcaption></a></figure>
-
-<h2 id="майнинг-не-выгоден">Майнинг не выгоден?</h2>
-
-<p>Время от времени говорят, что майнинг мертв. Здесь действуют несколько факторов. Даже если майнеры выгодны, вы должны учитывать первоначальные затраты, такие как покупка оборудования и текущие расходы на электроэнергию. Только когда все затраты подсчитаны, можно увидеть, выгодно ли это.</p>
-
-<p>Выгода так же зависит от типа оборудования. Например, согласно отчету Исследовательской службы Конгресса, скорость хеширования 14 терахэшей в секунду может быть получена либо от одного ASIC-майнера, мощностью всего 1800 Вт, либо от более чем полумиллиона игровых приставок Sony мощностью 40 мегаватт.</p>
-
-<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<span itemprop="name" class="bold nev">Самые прибыльные АСИКИ в 2023 для майнинга</span>
-<meta itemprop="duration" content="PT12M49S" />
-<meta itemprop="uploadDate" content="2022-12-21T04:00:16Z" />
-<meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/z5XJZcoQupI/default.jpg" />
-<meta itemprop="interactionCount" content="8512" />
-<meta itemprop="embedURL" content="https://youtube.googleapis.com/v/z5XJZcoQupI" />
-<div class="youtube-player" data-id="z5XJZcoQupI"></div>
-<span itemprop="description">Исследуем, какие асики приносят наибольший доход в 2023. Поговорим о характеристиках, монетах и окупаемости этих майнеров. Оборудование для майнинга в этом ролике: - Antminer KA3 - Antminer K7 - Antminer L7 - Antminer D7 - Antminer Z15</span>
-</div>
-
-<p>&nbsp;</p>
-
-<h3 id="халвинги-и-вознаграждения">Халвинги и вознаграждения</h3>
-
-<p>Вознаграждение в биткоине уменьшается вдвое каждые четыре года — этот процесс известен как халвинг<sup id="fnref:4"><a href="#fn:4" class="footnote" rel="footnote" role="doc-noteref">4</a></sup>. Поэтому майнеры должны становиться все эффективнее и быстрее, чтобы поддерживать постоянную прибыль.</p>
-
-<ul>
-  <li>Когда Биткойн был впервые выпущен в 2009 году, майнер зарабатывал 50 BTC за блок.</li>
-  <li>К 2012 году вознаграждение составляло 25 BTC за блок.</li>
-  <li>После того, как Биткойн совершил халвинг в 2016 году, вознаграждение снова сократилось вдвое до 12,5 монет.</li>
-  <li>В настоящее время вознаграждение составляет 6,25 BTC за блок.</li>
-  <li>Следующий халвинг ожидается в конце мая 2024 года. Затем награда за блок для майнеров уменьшиться вдвое до 3,125 BTC.</li>
-</ul>
-
-<p class="notice--info">В протоколах многих криптомонет введена формула халвинга. Это важно учитывать при расчетах.</p>
-
-<h2 id="потребление-энергии">Потребление энергии</h2>
-
-<p>Вы можете использовать различные <a href="https://whattomine.com/">онлайн-калькуляторы прибыльности</a>, чтобы решить, будет ли майнинг выгодным для вас, исходя из стоимости электроэнергии, эффективности устройства, времени майнинга и стоимости валюты.</p>
-
-<p>Согласно данным Кембриджского центра альтернативных финансов, потребность в энергии глобальной сети Биткоин составляет около 90 тераватт-часов. В настоящее время это соответствует примерно 0,4 процента электроэнергии, производимой в мире.</p>
-
-<p>Для сравнения: системы кондиционирования воздуха в одних только США в последний раз потребляли около 2199 тераватт-часов. Это более чем в 24 раза превышает потребность в энергии для глобального майнинга Биткоина.</p>
-
-<figure><a href="/assets/images/articles/mining/ru/energy.webp" class="image-popup"> <img src="/assets/images/articles/mining/ru/energy.webp" alt="Потребление электроэнергии Биткоином." />
-<figcaption>Потребление электроэнергии Биткоином</figcaption></a></figure>
-
-<p>BBC оценил потребление электроэнергии Биткойном выше, чем в Аргентине (121 ТВт-ч), Нидерландах (108,8 ТВт-ч) и Объединенных Арабских Эмиратах (113,20 ТВт-ч) и постепенно приближается к Норвегии (122,20 ТВт-ч).<sup id="fnref:5"><a href="#fn:5" class="footnote" rel="footnote" role="doc-noteref">5</a></sup></p>
-
-<p class="notice--success">Сторонники, с другой стороны, видят больше пользы в майнинге: они утверждают, что майнинг может защитить энергосистему от колебаний или сбоев. Для поддержания электросети всегда должно поддерживаться определенное напряжение.</p>
-
-<p>Да, потребность в энергии для майнинга Биткоина высока и будет продолжать расти с увеличением числа майнеров. Но также будет расти и безопасность сети.</p>
-
-<p>Согласно данным Bitcoin Mining Council<sup id="fnref:6"><a href="#fn:6" class="footnote" rel="footnote" role="doc-noteref">6</a></sup>, почти 60 процентов энергии, необходимой для глобального майнинга Биткоина, уже поступает из природных источников, таких как энергия ветра или солнца: в настоящее время эта доля составляет 58,9 процента.</p>
-
-<h3 id="что-произойдет-когда-закончится-майнинг">Что произойдет, когда закончится майнинг?</h3>
-
-<blockquote>
-  <p>Максимальный запас Биткоина жестко определен и никогда не превысит лимит в почти 21 миллион монет<sup id="fnref:7"><a href="#fn:7" class="footnote" rel="footnote" role="doc-noteref">7</a></sup>. Таким образом, предложение BTC не может быть расширено.</p>
-</blockquote>
-
-<p>Из-за халвинга последний Биткоин не будет добыт примерно до 2140 года. По данным аналитической компании Coinmarketcap<sup id="fnref:8"><a href="#fn:8" class="footnote" rel="footnote" role="doc-noteref">8</a></sup>, в настоящее время в обращении находится чуть более 19 миллионов монет. Это означает, что майнерам потребуется как минимум 117 лет, чтобы добыть оставшиеся два миллиона монет — то есть на оставшиеся десять процентов.</p>
-
-<h2 id="закон">Закон</h2>
-
-<p>Криптомайнинг сам по себе полностью легален, но некоторые криптомайнеры используют вредоносное ПО для получения криптовалют незаконным способом.</p>
-
-<p>Это мошенничество называется криптоджекинг. Это программы, используемые для скрытого поиска цифровой валюты на взломанных компьютерах.</p>
-
-<h2 id="выводы">Выводы</h2>
-
-<p>Криптовалюты децентрализованы, то есть ни центральный банк, ни центральная база данных, ни единый центральный орган не управляет валютной сетью. Криптовалюты не имеют центральной власти. Скорее, ими управляет криптовалютное сообщество и, в частности, майнеры криптовалюты.</p>
-
-<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<span itemprop="name" class="bold">Майнинг умер? Доход от майнинга 2022 [моя история]</span>
-<meta itemprop="duration" content="PT5M3S" />
-<meta itemprop="uploadDate" content="2022-11-08T13:28:20Z" />
-<meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/CFRItPw0oL0/default.jpg" />
-<meta itemprop="interactionCount" content="13881" />
-<meta itemprop="embedURL" content="https://youtube.googleapis.com/v/CFRItPw0oL0" />
-<div class="youtube-player" data-id="CFRItPw0oL0"></div>
-<span itemprop="description">Не смотря на объективные данные свидетельствующие о том, что майнинг не приносит доход, люди продолжают спрашивать стоит ли входить в майнинг, приносит ли он прибыль и в целом не перестают интересоваться данной нишей. Я расскажу про свой опыт, и что я думаю. </span>
-</div>
-
-<p>&nbsp;</p>
-
-<p>Майнеры добавляют транзакции в блокчейн. Разные криптовалюты используют разные методы генерации, если криптовалюта вообще использует майнинг. (Большинство криптовалют не используют майнинг.)</p>
-
-<p>Различные методы майнинга и консенсуса используются для определения того, кто создает новые блоки транзакций и как именно блоки добавляются в блокчейн.</p>
-
-<h3 id="вопрос-ответ">Вопрос-ответ</h3>
-
-<div class="schema-faq-code" itemscope="" itemtype="https://schema.org/FAQPage">
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <span itemprop="name" class="faq-q">Какую криптовалюту стоит майнить?  </span>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">
-			Многообещающий исторический курс монеты и  низкая сложность майнинга являются наиболее важными критериями, если вы хотите майнить криптовалюту.</p>
-        </div>
-    </div>
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-		 <span itemprop="name" class="faq-q">Кто изобрел майнинг?</span>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">Первым майнером был создатель биткойнов Сатоши Накамото. В Интернете циркулирует информация, что перед стартом ему удалось тайно добыть большое состояние. Однако это всего лишь слухи. По официальной информации, Сатоши смог добыть только 750 монет. Первопроходцы добывали «крипто», используя центральный процессор компьютера.</p>
-        </div>
-    </div>
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-		<span itemprop="name" class="faq-q">Какие лучшие майнинг программы?</span>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">Лучшие программы для майнинга: <a href="/ru/miners/phoenixminer/">PhoenixMiner</a>, <a href="/ru/miners/nicehash/">NiceHash</a>, <a href="/ru/miners/xmrig/">XMRig</a>, <a href="/ru/miners/gminer/">Gminer</a>, <a href="/ru/miners/lolminer/">Lolminer</a>, <a href="/ru/miners/teamredminer/">TeamRedMiner</a> и <a href="/ru/miners/trexminer/">T-rex Miner</a>.</p>
-        </div>
-    </div>
-</div>
-
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1">
-      <p><a href="https://bytwork.com/articles/what-is-asic">Все что нужно знать про Асики</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:2">
-      <p><a href="https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE_%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F_%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B">Доказательство выполнения работы (англ. proof-of-work, POW, PoW)</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:3">
-      <p><a href="https://expert.ru/2020/12/21/chto-takoe-rig-v-majninge-i-kak-ego-sobrat/#:~:text=%D0%9C%D0%B0%D0%B9%D0%BD%D0%B8%D0%BD%D0%B3%20%D0%A0%D0%B8%D0%B3%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D1%8F%D0%B5%D1%82%20%D1%81%D0%BE%D0%B1%D0%BE%D0%B9%20%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%BE,%D0%BE%D1%82%20%D1%87%D0%B5%D1%82%D1%8B%D1%80%D0%B5%D1%85%20%D0%B4%D0%BE%20%D1%88%D0%B5%D1%81%D1%82%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%D0%B0%D0%B4%D0%B0%D0%BF%D1%82%D0%B5%D1%80%D0%BE%D0%B2.">Что такое Риг в майнинге и как его собрать</a> <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:4">
-      <p><a href="https://www.tinkoff.ru/invest/social/profile/DogeDoge/785c0c63-790e-4564-9643-31368a725139/">Халвинг биткоина. Что это такое, и почему его все ждут</a> <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:5">
-      <p><a href="https://www.bbc.co.uk/news/technology-56012952">Bitcoin consumes ‘more electricity than Argentina’</a> <a href="#fnref:5" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:6">
-      <p><a href="https://bitcoinminingcouncil.com/">Bitcoin Mining Council</a> <a href="#fnref:6" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:7">
-      <p><a href="https://www.investopedia.com/tech/what-happens-bitcoin-after-21-million-mined/">Что происходит с биткойнами после того, как будет добыт 21 миллион?</a> <a href="#fnref:7" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:8">
-      <p><a href="https://coinmarketcap.com/ru/currencies/bitcoin/">Данные аналитической компании Coinmarketcap</a> <a href="#fnref:8" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Что вычисляют майнинг фермы? В этой статье вы узнаете, что означает майнинг криптовалюты.]]></summary></entry></feed>
+</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Будущее Биткойна В этой статье вы узнаете о перспективах биткойна.]]></summary></entry></feed>

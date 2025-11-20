@@ -1,4 +1,144 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-11-19T05:40:38-05:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="en"><title type="html">Ethereum Fusaka – A Hard Fork ETH Holders Need to Know About</title><link href="https://miningsoft.org/ru/blog/fusaka/" rel="alternate" type="text/html" title="Ethereum Fusaka – A Hard Fork ETH Holders Need to Know About" /><published>2025-11-19T00:00:00-05:00</published><updated>2025-11-19T00:00:00-05:00</updated><id>https://miningsoft.org/ru/blog/fusaka</id><content type="html" xml:base="https://miningsoft.org/ru/blog/fusaka/"><![CDATA[<div class="paper wallet">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-11-20T05:57:38-05:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="en"><title type="html">8 DePIN Projects with Airdrops: How to Get Tokens and Ways to Participate</title><link href="https://miningsoft.org/ru/blog/depin-airdrops/" rel="alternate" type="text/html" title="8 DePIN Projects with Airdrops: How to Get Tokens and Ways to Participate" /><published>2025-11-20T00:00:00-05:00</published><updated>2025-11-20T00:00:00-05:00</updated><id>https://miningsoft.org/ru/blog/depin-airdrops</id><content type="html" xml:base="https://miningsoft.org/ru/blog/depin-airdrops/"><![CDATA[<div class="paper wallet">
+  <div class="pattern">
+    <div class="note-cont">
+      Most projects are free to start, but often require hardware to maximize profitability.
+    </div>
+  </div>
+</div>
+<p><em>You will learn about 8 unique crypto airdrops in the DePIN space.</em></p>
+
+<h2 id="introduction-to-crypto-airdrops-and-depin">Introduction to Crypto Airdrops and DePIN</h2>
+<p>Different actions are required to receive crypto airdrops: running nodes, participating in testnets, providing capital, or simply being active on Discord and social media. You will learn about 8 projects, but let’s first recap what DePIN is.</p>
+
+<h2 id="what-is-depin">What is DePIN?</h2>
+<p>DePIN stands for Decentralized Physical Infrastructure Network. In simple terms, DePIN is when people worldwide share their real-world assets (internet, hard drives, electricity) and receive cryptocurrency in return.<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></p>
+
+<p class="notice--danger">Important Warning: All projects belong to the DePIN category - decentralized physical infrastructure networks that <strong>require resources</strong> from your computer, phone, or other devices to operate.</p>
+
+<p>Some projects offer airdrops for free, but investments usually yield higher returns.</p>
+
+<h2 id="project-1-grass">Project 1: Grass</h2>
+<p><a href="https://www.grass.io/">Grass already has a token</a>, but there are many rumors about future airdrops, as they have now split their reward system into two parts.</p>
+
+<h3 id="how-to-earn-with-grass">How to Earn with Grass</h3>
+<p>You earn Grass points for uptime, and you even get a multiplier for using a mobile device instead of just a PC node. There’s also a network points calculator that allows you to earn not just for uptime but for Grass actively using your bandwidth to process web requests.</p>
+
+<p>Go to your <a href="https://app.grass.io/">Grass dashboard</a> on a mobile or desktop device - it’s completely free. We have been participating in the project for a very long time and managed to participate in the very first airdrop. The token has already launched, but rumors about future airdrops persist, so keep an eye on updates.</p>
+
+<figure><a href="/assets/images/blog/depin-airdrops/grass.png" class="image-popup"> <img src="/assets/images/blog/depin-airdrops/grass.png" alt="grass" /></a></figure>
+
+<h3 id="technical-aspects-of-running">Technical Aspects of Running</h3>
+<p>The beauty of many such projects is that they are Chrome extensions, and the number you can run is virtually unlimited; you can run many such DePIN protocols on one device. We have a dedicated computer running about 10 of these DePIN protocols across different browsers, and it doesn’t interfere with primary work.</p>
+
+<h2 id="project-2-depined">Project 2: DePINed</h2>
+<p>Now let’s move on to <a href="https://www.depined.org/">DePINed</a>. This is another project where you can start early pre-mining farming of points for an airdrop. It’s another <a href="https://chromewebstore.google.com/detail/depined/pjlappmodaidbdjhmhifbnnmmkkicjoc">Chrome extension</a>, very simple to use and install, very similar to Grass in many ways.</p>
+
+<figure><a href="/assets/images/blog/depin-airdrops/depined.png" class="image-popup"> <img src="/assets/images/blog/depin-airdrops/depined.png" alt="depined" /></a></figure>
+
+<h3 id="the-essence-of-depined">The Essence of DePINed</h3>
+<p>It is connected to decentralized AI and allows you to share part of your bandwidth and infrastructure to perform certain tasks. So DePINed is quite straightforward. Just install the Chrome extension and you’re done.</p>
+
+<h2 id="project-3-nubila">Project 3: Nubila</h2>
+<p>The next project is <a href="https://nubila.ai/">Nubila</a>, a decentralized weather oracle with a global network of weather stations. We have already installed our station, accumulating about 1.3 million points. An upcoming Token Generation Event (TGE) is expected.</p>
+
+<h3 id="use-cases-for-nubila">Use Cases for Nubila</h3>
+<p>The main use cases are prediction markets and insurance. For example, in the US, insurers give discounts for installing devices that collect driving data. Local weather data is crucial for risk insurance and prediction markets with a volume of around $100 million.</p>
+
+<h3 id="nubilas-growth">Nubila’s Growth</h3>
+<p>The project recently raised $10.5 million in funding rounds and has significant potential.<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup>:</p>
+
+<figure><a href="/assets/images/blog/depin-airdrops/depin_marco.png" class="image-popup"> <img src="/assets/images/blog/depin-airdrops/depin_marco.png" alt="depin_marco" /></a></figure>
+
+<h3 id="ways-to-participate-in-nubila">Ways to Participate in Nubila</h3>
+<p>This is one of the few projects with <strong>mandatory hardware</strong>.</p>
+
+<p>There are 2 paths: purchase a <a href="https://nubila.ai/device">Macro device</a> to accumulate points or run a <a href="https://heliumdeploy.com/products/nubila-cloud-node">cloud validator node</a>. Nodes yield higher rewards leading up to the airdrop. There are fewer cloud nodes than physical devices (20,000+), but both grant tokens convertible after TGE. Setup can be done independently or via services like NodeOps.</p>
+
+<h2 id="project-4-375ai">Project 4: 375AI</h2>
+<p>The next project is <a href="https://www.375.ai/">375AI</a>. We have also been participating in it for a long time and are preparing for the airdrop. Project 375 AI (formerly known as Zeppelin) collects and analyzes real-world data, primarily on road traffic and human movement, via a decentralized network of devices and a mobile app. This data is transformed into meta-information using AI and sold to commercial clients.</p>
+
+<figure><a href="/assets/images/blog/depin-airdrops/375ai.png" class="image-popup"> <img src="/assets/images/blog/depin-airdrops/375ai.png" alt="375ai" /></a></figure>
+
+<h3 id="tge-and-funding-for-375ai">TGE and Funding for 375AI</h3>
+<p>The project recently raised $10 million; they had an ICO round where the token was valued at approximately $7.5, and we expect the price to be higher after TGE. We highly recommend paying attention to it. Its beauty is that it’s completely free.</p>
+
+<h3 id="how-to-participate-in-375ai">How to Participate in 375AI</h3>
+<p>You can run it on Android or iOS; it’s based on collecting local data and requires your presence in various locations.</p>
+
+<p>You need to connect a <a href="https://bytwork.com/wallets/phantom-solana">Phantom wallet</a> from the Solana network, switched to testnet mode. After connecting, the app runs in the background. It passively collects data on network signal strength as you move around (walking, driving, etc.).</p>
+
+<p class="notice--ya">Essentially, you need to cover areas not yet frequented by other users to earn rewards. The core idea is that the closer you are to the data source, the more valuable the data is.</p>
+
+<h2 id="project-5-acurast">Project 5: Acurast</h2>
+<p>The next project is <a href="https://acurast.com/">Acurast</a>. It is a decentralized computation network that utilizes the power of smartphones worldwide instead of traditional centralized data centers.</p>
+
+<h3 id="scale-and-capabilities-of-acurast">Scale and Capabilities of Acurast</h3>
+<p>It is completely free and works on iOS and Android. You can find many so-called Acurast phone farms online - just search for this term, and you’ll see many people dedicated to this protocol who will likely be generously rewarded after the airdrop.</p>
+
+<figure><a href="/assets/images/blog/depin-airdrops/acurast.png" class="image-popup"> <img src="/assets/images/blog/depin-airdrops/acurast.png" alt="acurast" /></a></figure>
+
+<p>Acurast has grown significantly: nearly 153,000 phones are already connected, all possessing some computational capability. It’s fascinating to observe such a phenomenon as smartphone mining. And the main thing is - it’s completely free. So if you’re running 375AI, you can run Acurast simultaneously on the same phone - it’s a win-win situation.</p>
+
+<h2 id="project-6-pipe-network">Project 6: Pipe Network</h2>
+<p><a href="https://pipe.network/">Pipe Network</a> is a decentralized CDN (Content Delivery Network) that improves data delivery methods. The main focus is on bandwidth and sharing that bandwidth.</p>
+
+<h3 id="setting-up-pipe-network">Setting Up Pipe Network</h3>
+<p>Setup and usage require a medium level of effort, but no hardware is needed. Essentially, you <a href="https://docs.pipe.network/docs/nodes/mainnet.md">run a point of presence (<code class="language-plaintext highlighter-rouge">pop node</code>)</a>, route traffic through Pipe, and get rewarded for it. Knowledge of CMD and Linux terminal is required.</p>
+
+<figure><a href="/assets/images/blog/depin-airdrops/pipe.png" class="image-popup"> <img src="/assets/images/blog/depin-airdrops/pipe.png" alt="pipe" /></a></figure>
+
+<p>This project is a bit more complex, requiring slightly more involvement and steps to set up. We will prepare a guide for those who want to figure it out.</p>
+
+<h2 id="project-7-doublezero">Project 7: DoubleZero</h2>
+
+<p><a href="https://doublezero.xyz/">DoubleZero</a> has technically already launched its token, but rumors persist about potential future distributions for active participants, as the project has grown significantly.</p>
+
+<h3 id="staking-in-doublezero">Staking in DoubleZero</h3>
+<p>One opportunity is <a href="https://doublezero.xyz/staking">staking DzSOL</a>. You can stake it and receive DzSOL - DoubleZero’s liquid token, which yields rewards and promotes validator decentralization. Essentially, DoubleZero focuses on validator decentralization, specifically within the Solana ecosystem.</p>
+
+<figure><a href="/assets/images/blog/depin-airdrops/dzsol.png" class="image-popup"> <img src="/assets/images/blog/depin-airdrops/dzsol.png" alt="dzsol" /></a></figure>
+
+<h3 id="participation-and-prospects-of-doublezero">Participation and Prospects of DoubleZero</h3>
+<p>There are several ways to participate; the setup is also a bit more complex, but these are the basic principles post-token launch and potential future opportunities, including airdrops.</p>
+
+<p>There are no guarantees of future airdrops, but many opportunities for potential future distributions exist within this DePIN protocol.</p>
+
+<h2 id="project-8-dawn">Project 8: Dawn</h2>
+<p>The next project is <a href="https://www.dawninternet.com/">Dawn</a>. Dawn is associated with hardware, but there is also a free version.</p>
+
+<h3 id="dawn-hardware">Dawn Hardware</h3>
+<p>The uniqueness is that when purchasing hardware (detailed as a blackbox), there are different sizes; a larger size is obviously significantly more expensive, but you also get points for the purchase. You can get up to 519,800 reward points by entering a referral code at checkout. So there are incentives and benefits to purchasing a hardware device. But obviously, not everyone has $2600 readily available.</p>
+
+<figure><a href="/assets/images/blog/depin-airdrops/dawn.png" class="image-popup"> <img src="/assets/images/blog/depin-airdrops/dawn.png" alt="dawn" /></a></figure>
+
+<p>Attention! The extension is no longer available on the Chrome Web Store - possibly due to fraudulent activity.</p>
+
+<h3 id="dawn-free-version">Dawn Free Version</h3>
+<p>The advantage is that there is also a free version: you can get the validator extension for Chrome and just run it. It’s very simple and, more importantly, free. However, note that the overwhelming majority of points will be awarded to those who actually invest capital.</p>
+
+<h3 id="dawn-partners">Dawn Partners</h3>
+<p>Their partners include very impressive names: Pipe Network, Helium, and Archium. So Dawn has many opportunities.</p>
+
+<h2 id="criticism-and-risks">Criticism and Risks</h2>
+
+<p>Expensive hardware (Nubila nodes, Dawn boxes) and the unknown token price and airdrop conditions until the TGE make DePIN investments high-risk.</p>
+
+<p>Long-term sustainability is also questionable: decentrally collected data (weather, traffic) might be of low quality and lack commercial demand, devaluing the tokens after the incentive phase ends.</p>
+
+<p>
+"MiningSoft" does not provide investment advice; the material is published for informational purposes only. Cryptocurrency is a volatile asset capable of causing financial losses.
+</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1">
+      <p><a href="https://bytwork.com/articles/depin">What is DePIN in Cryptocurrency? Explained Simply in 3 Minutes</a>. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p><a href="https://x.com/nubilanetwork/status/1980277921412784326">Nubila Secures $8M Seed Round to Accelerate the Prediction Market Oracle Frontier</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Most projects are free to start, but often require hardware to maximize profitability. You will learn about 8 unique crypto airdrops in the DePIN space.]]></summary></entry><entry xml:lang="en"><title type="html">Ethereum Fusaka – A Hard Fork ETH Holders Need to Know About</title><link href="https://miningsoft.org/ru/blog/fusaka/" rel="alternate" type="text/html" title="Ethereum Fusaka – A Hard Fork ETH Holders Need to Know About" /><published>2025-11-19T00:00:00-05:00</published><updated>2025-11-19T00:00:00-05:00</updated><id>https://miningsoft.org/ru/blog/fusaka</id><content type="html" xml:base="https://miningsoft.org/ru/blog/fusaka/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       Despite the risk of a short-term correction, the Fusaka update lays the foundation for long-term growth for ETH.
@@ -249,7 +389,7 @@ Source: <a href="https://bytwork.com/en/trade/cycles">4-Year Crypto Growth Cycle
   </ul>
 </div>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_38.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_38.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_38.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_38.png" alt="Safe 7" /> </a></figure>
 
 <p>Now let’s look at the advantages.</p>
 
@@ -281,7 +421,7 @@ Source: <a href="https://bytwork.com/en/trade/cycles">4-Year Crypto Growth Cycle
 <h2 id="design-and-display">Design and Display</h2>
 <p>Let’s start with the design. The wallet is made of premium aluminum with a reinforced back panel. Its dimensions are 75.4 mm in height, 44.5 mm in width, and 8.3 mm in thickness, making it the largest wallet in the Trezor family.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_12.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_12.png" alt="Safe 7 and comparison" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_12.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_12.png" alt="Safe 7 and comparison" /> </a></figure>
 
 <p>On the front panel, you’ll find a 2.5-inch full-color high-resolution touchscreen with haptic feedback that gently vibrates upon touch, much like your smartphone.</p>
 
@@ -294,51 +434,51 @@ Source: <a href="https://bytwork.com/en/trade/cycles">4-Year Crypto Growth Cycle
 <h2 id="wireless-connectivity-and-security">Wireless Connectivity and Security</h2>
 <p>Safe 7 is Trezor’s first wallet with wireless operation. Connect it to a computer or mobile device via a secure Bluetooth connection. Since Trezor always prioritizes security, all Bluetooth connections are protected by the Trezor Host protocol, which encrypts every command and transaction, ensuring no one can intercept, alter, or inject malicious messages.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_17.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_17.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_17.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_17.png" alt="Safe 7" /> </a></figure>
 
 <p>The wallet remains invisible to unknown devices and only connects to trusted applications via open encryption. This allows you to enjoy secure and encrypted communication. Use it wirelessly with a smartphone or tablet, or simply disable Bluetooth and use a cable connection if you prefer.</p>
 
 <h2 id="battery-and-charging">Battery and Charging</h2>
 <p>Safe 7 is also the first Trezor wallet with a battery, specifically a Lithium Iron Phosphate (LiFePO4) one. This battery type offers an excellent balance between safety, longevity, and cost. It lasts 4 times longer than standard lithium batteries, discharges more slowly, and can be fully discharged without damage.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_19.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_19.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_19.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_19.png" alt="Safe 7" /> </a></figure>
 
 <p>Charging is simple: it features magnetic wireless charging. Just place the wallet on any Qi2-compatible base, and it will lock in for stable charging.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_20.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_20.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_20.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_20.png" alt="Safe 7" /> </a></figure>
 
 <p>Or, if you prefer, charge it via a USB-C cable.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_22.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_22.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_22.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_22.png" alt="Safe 7" /> </a></figure>
 
 <p>The wallet is available in three colors: Charcoal Black, Obsidian Green, and a special Bitcoin edition in bright orange.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_23.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_23.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_23.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_23.png" alt="Safe 7" /> </a></figure>
 
 <h2 id="security-architecture">Security Architecture</h2>
 <h3 id="secure-elements">Secure Elements</h3>
 <p>The wallet is equipped with advanced security features to protect your crypto. It includes 2 independent secure elements: Tropic01 and Optiga Trust M.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_27.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_27.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_27.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_27.png" alt="Safe 7" /> </a></figure>
 
 <p>Together, they create a dual-chip architecture that protects against hacking, brute-force PIN attacks, and counterfeit hardware. Each secure element provides its own layer of protection.</p>
 
 <h3 id="tropic01-chip">Tropic01 Chip</h3>
 <p>The first chip is the Tropic01. It was developed by Tropic Square, a company founded by Trezor’s parent group, Satoshi Labs, in 2020, solely to create secure chips that anyone can verify.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_24.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_24.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_24.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_24.png" alt="Safe 7" /> </a></figure>
 
 <p>Trezor worked on manufacturing this chip for 5 years. It handles PIN protection, device authentication, and secure random number generation for wallet creation.</p>
 
 <h3 id="optiga-trust-m-chip">Optiga Trust M Chip</h3>
 <p>The second is the Optiga Trust M chip. This is a certified microcontroller with an EAL6+ certification level, the highest in the crypto hardware industry. Both chips work together to secure your funds.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_26.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_26.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_26.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_26.png" alt="Safe 7" /> </a></figure>
 
 <h2 id="quantum-resistance">Quantum Resistance</h2>
 <p>And now for one of the biggest innovations. Trezor Safe 7 is the world’s first quantum-protected hardware wallet. It includes pre-installed hardware designed to support future post-quantum updates, meaning it’s already engineered to resist future quantum computer attacks.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_29.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_29.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_29.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_29.png" alt="Safe 7" /> </a></figure>
 
 <p>As quantum computing evolves in the coming years, the Safe 7 will be able to receive firmware updates designed for post-quantum cryptography. This is a huge advantage because only devices engineered with this hardware architecture can run these future updates.</p>
 
@@ -362,7 +502,7 @@ Source: <a href="https://bytwork.com/en/trade/cycles">4-Year Crypto Growth Cycle
 
 <p>Through the app, you can connect to third-party wallets, DeFi platforms, DApps, and NFT marketplaces.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_32.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_32.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_32.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_32.png" alt="Safe 7" /> </a></figure>
 
 <p>Check your portfolio, send and receive cryptocurrency, and connect your Trezor to popular wallet apps.</p>
 
@@ -378,23 +518,23 @@ Source: <a href="https://bytwork.com/en/trade/cycles">4-Year Crypto Growth Cycle
 
 <p>When creating a new wallet, Trezor Safe 7 by default generates a 20-word recovery seed.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_33.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_33.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_33.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_33.png" alt="Safe 7" /> </a></figure>
 
 <p>If you already have another hardware wallet, like a Ledger, Coldcard, or another Trezor model, you can safely restore your existing wallet here using standard 12 or 24-word seed phrases. And, like all Trezor wallets, protect your device with a PIN code of up to 50 digits.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_34.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_34.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_34.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_34.png" alt="Safe 7" /> </a></figure>
 
 <h2 id="package-contents">Package Contents</h2>
 
 <p>Finally, when purchasing the Trezor Safe 7, you will receive: the device itself, a USB-C cable, two seed phrase cards, a quick start guide, a security manual, and some stickers.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_36.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_36.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_36.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_36.png" alt="Safe 7" /> </a></figure>
 
 <h2 id="criticism">Criticism</h2>
 
 <p>The claimed quantum resistance of the wallet is more of a marketing advantage than a practical necessity. The threat from quantum computers to current cryptography remains hypothetical and distant in time. Users are paying for a feature that might only become relevant many years from now, while post-quantum cryptography technology itself continues to actively evolve and change, questioning the ultimate effectiveness of a ready-made “hardware” solution.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_3.webp" class="image-popup small"> <img src="/assets/images/wallets/trezor/safe_7/safe7_3.webp" alt="Trezor Safe 7 Wallet" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_3.webp" class="image-popup small"> <img src="/assets/images/wallets/trezor/safe_7/safe7_3.webp" alt="Trezor Safe 7 Wallet" /> </a></figure>
 
 <p>Despite the premium design and claimed damage resistance, the presence of a large touchscreen and a battery makes the device more vulnerable compared to simpler models. The screen, being a point of physical contact, remains the most fragile element, and the built-in battery degrades over time, potentially leading to the need to replace the entire device after a few years, unlike wallets without a battery that only operate when connected.</p>
 
@@ -402,32 +542,32 @@ Source: <a href="https://bytwork.com/en/trade/cycles">4-Year Crypto Growth Cycle
 
 <p>Trezor is based in Prague and has always been based there. Considering over 50 years of suppression of freedoms by communists and World War II before that, a deep skepticism towards the government grew in the city. These skeptics naturally became interested in Bitcoin and its ethics. From this, the company Trezor grew.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_43.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_43.png" alt="Prague" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_43.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_43.png" alt="Prague" /> </a></figure>
 
 <p>Trezor strictly adheres to an open-source approach.</p>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_39.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_39.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_39.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_39.png" alt="Safe 7" /> </a></figure>
 
 <p>Anyone can view the source code on <a href="https://github.com/trezor">Github</a>.</p>
 
 <h2 id="photo-gallery">Photo Gallery</h2>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_40.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_40.png" alt="Safe 7 in my hands" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_40.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_40.png" alt="Safe 7 in my hands" /> </a></figure>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_41.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_41.png" alt="Safe 7 stand with the internal board" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_41.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_41.png" alt="Safe 7 stand with the internal board" /> </a></figure>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_42.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_42.png" alt="Safe 7 wallets lying in a row" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_42.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_42.png" alt="Safe 7 wallets lying in a row" /> </a></figure>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_6.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_6.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_6.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_6.png" alt="Safe 7" /> </a></figure>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_7.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_7.png" alt="Safe 7" /> </a>
-<a href="/assets/images/wallets/trezor/safe_7/safe7_8.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_8.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_7.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_7.png" alt="Safe 7" /> </a></figure>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_8.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_8.png" alt="Safe 7" /> </a></figure>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_4.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_4.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_4.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_4.png" alt="Safe 7" /> </a></figure>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_10.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_10.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_10.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_10.png" alt="Safe 7" /> </a></figure>
 
-<p><a href="/assets/images/wallets/trezor/safe_7/safe7_11.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_11.png" alt="Safe 7" /> </a></p>
+<figure><a href="/assets/images/wallets/trezor/safe_7/safe7_11.png" class="image-popup"> <img src="/assets/images/wallets/trezor/safe_7/safe7_11.png" alt="Safe 7" /> </a></figure>
 <div class="footnotes" role="doc-endnotes">
   <ol>
     <li id="fn:1">
@@ -2384,340 +2524,4 @@ It uses encryption. This is done using the <a href="/en/articles/mining/#calcula
       <p><a href="https://www.econstor.eu/bitstream/10419/103022/1/791932281.pdf">Competition in the cryptocurrency market - EconStor</a> <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[The future of Bitcoin In this article, you will learn about the prospects of bitcoin.]]></summary></entry><entry xml:lang="en"><title type="html">What is Crypto Mining? How Does It Work [explained simply]</title><link href="https://miningsoft.org/ru/articles/mining/" rel="alternate" type="text/html" title="What is Crypto Mining? How Does It Work [explained simply]" /><published>2023-02-07T00:00:00-05:00</published><updated>2023-02-14T00:00:00-05:00</updated><id>https://miningsoft.org/ru/articles/mining</id><content type="html" xml:base="https://miningsoft.org/ru/articles/mining/"><![CDATA[<div class="paper btc">
-  <div class="pattern">
-    <div class="note-cont">
-      What do mining farms calculate?
-    </div>
-  </div>
-</div>
-<p><em>In this article, you will learn what cryptocurrency mining means.</em></p>
-
-<h2 id="what-is-mining">What is mining?</h2>
-
-<p>New <a href="/en/articles/bitcoin">bitcoins</a> are generated in a process called mining. This process is complicated, but in simple terms, mining is when computers solve mathematical equations, and as a reward they receive bitcoin or other cryptocurrencies.</p>
-
-<p>The term “mining” means “digging”, i.e. creation of new coins. This is done by the so-called miners, who, in the case of bitcoins, add the next block to the blockchain and collect a reward for this. <a href="/en/articles/blockchain/">Blockchain is a ledger</a> that keeps track of how many bitcoins someone has and who transfers them to where.</p>
-
-<figure><a href="/assets/images/articles/mining/en/what_is_mining_simple.webp" class="image-popup"> <img src="/assets/images/articles/mining/en/what_is_mining_simple.webp" alt="Mining in simple words" />
-<figcaption>What is mining in simple words.</figcaption></a></figure>
-
-<h2 id="important-terms-and-clear-explanations">Important terms and clear explanations</h2>
-
-<script async="" src="https://coinzillatag.com/lib/display.js"></script>
-
-<div class="coinzilla" data-zone="C-26960aca952082b4725"></div>
-<script>
-    window.coinzilla_display = window.coinzilla_display || [];
-    var c_display_preferences = {};
-    c_display_preferences.zone = "26960aca952082b4725";
-    c_display_preferences.width = "300";
-    c_display_preferences.height = "250";
-    coinzilla_display.push(c_display_preferences);
-</script>
-
-<dl>
-  <dt>Mining</dt>
-  <dd>The process of mining cryptocurrency using the power of computers. Calculations are carried out using specialized integrated circuits (ASIC)<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup> or video cards (GPU). These devices solve complex problems (hashes). At the same time, a new block of bitcoins is found, for which miners receive a reward.</dd>
-  <dt>Mining farms (mining rig)</dt>
-  <dd>Powerful high-performance computing rigs for mining, occupying a significant amount of space. Several devices are combined into farms to make them easier to maintain.</dd>
-  <dt>Miner</dt>
-  <dd>A person who mines cryptocurrency. The <a href="/en/miners">cryptocurrency mining software</a> itself is also sometimes called a miner.</dd>
-</dl>
-
-<figure><a href="/assets/images/articles/mining/en/mining_definiton.webp" class="image-popup"> <img src="/assets/images/articles/mining/en/mining_definiton.webp" alt="Mining process" />
-<figcaption>Mining definition.</figcaption></a></figure>
-
-<p class="notice--warning">The idea for the name of the process of creating new cryptocoins arose from a comparison with gold miners looking for gold in mines.</p>
-
-<p>In English, the term “mining” refers more to the extraction and extraction of valuable metals in mines and tunnels.</p>
-
-<p>Comparing cryptocurrency mining with gold mining, the name becomes clear. In both forms of mining, miners perform work and are rewarded in the form of an uncirculated asset. Along with digital gold, natural gold is also mined from the ground and becomes part of the economy.</p>
-
-<figure><a href="/assets/images/articles/mining/en/mining_gold.webp" class="image-popup"> <img src="/assets/images/articles/mining/en/mining_gold.webp" alt="mining" />
-<figcaption>Comparing cryptocurrency mining to gold mining.</figcaption></a></figure>
-
-<h2 id="how-does-it-work">How does it work</h2>
-
-<div class="imgcen">
-
-</div>
-
-<p>When using cryptocurrency, transaction details are recorded in the so-called blockchain (registry). The miner is tasked with solving the complex problem behind this transaction. The process ends when the miner confirms the legitimacy of the transaction. Once this is done, the transaction will be visible to everyone on the blockchain.</p>
-
-<figure><a href="/assets/images/articles/mining/en/what_is_mining.webp" class="image-popup"> <img src="/assets/images/articles/mining/en/what_is_mining.webp" alt="How mining works" />
-<figcaption>How mining works.</figcaption></a></figure>
-
-<p>Simply put, it is about solving complex mathematical problems. Therefore, the transaction verification process requires miners to use high processing power.</p>
-
-<p>The more miners involved in the verification process, the faster the transaction is confirmed. For conducting such a transaction, the miners receive a part of the transaction as a commission. Each successful transaction generates additional new coins that are put into circulation on the blockchain network.</p>
-
-<figure><a href="/assets/images/articles/mining/en/bitcoin_mining_process.webp" class="image-popup"> <img src="/assets/images/articles/mining/en/bitcoin_mining_process.webp" alt="Mining process and transactions" />
-<figcaption>The mining process and transactions.</figcaption></a></figure>
-
-<h2 id="what-is-calculated">What is calculated?</h2>
-
-<p>Mining farms are engaged in the calculation of “hashes” according to a given algorithm for cryptocurrency. These hashes are mathematically calculated sequences of letters and numbers stored in blocks.</p>
-
-<p class="notice--ya">The most famous cryptographic hash functions used in cryptocurrency algorithms include “SHA-256” in Bitcoin, “Ethash” in Ethereum Classic, “Scrypt” in Litecoin.</p>
-
-<figure><a href="/assets/images/articles/mining/en/how_mining.webp" class="image-popup"> <img src="/assets/images/articles/mining/en/how_mining.webp" alt="Mining process" />
-<figcaption>Mining process.</figcaption></a></figure>
-
-<h3 id="calculating-hashes">Calculating hashes</h3>
-
-<p>A Bitcoin block contains hashes, which store the hashes of previous blocks, as well as transaction details.</p>
-
-<dl>
-  <dt>hash</dt>
-  <dd>A hash in the Bitcoin blockchain is a fixed length of a unique sequence of random numbers containing data of any size. Each hash is unique, so you can’t look at a hash and guess what data it contains.</dd>
-</dl>
-
-<p>To understand the complex nature of a hash, consider an analogy: every Bitcoin hash is like asking someone to flip a coin 160 times and write it either heads or tails. In the case of heads or tails, there are only two variables on the coin. However, with numbers and letters, the possibilities of a 160-character Bitcoin hash are endless. There will never be two identical values.</p>
-
-<figure><a href="/assets/images/articles/mining/en/mining_hash.webp" class="image-popup"> <img src="/assets/images/articles/mining/en/mining_hash.webp" alt="What is a hash" />
-<figcaption>What is a hash.</figcaption></a></figure>
-
-<p>In a hash puzzle, the resulting fingerprint is a list of characters (let’s call it a word), for example, “cat”, after which your task is to find the desired “fingerprint” of this word. To do this, all you can do is try all possible combinations of numbers (of a certain length), one by one.</p>
-
-<h3 id="hashrate-and-hashing">Hashrate and hashing</h3>
-
-<p>To summarize the information above, a hash is a randomly generated alphanumeric code, and hashing is the process of guessing that code. Hashrate here is the speed of mining, hashing (solving the puzzle).</p>
-
-<figure><a href="/assets/images/articles/mining/en/hashing.webp" class="image-popup"> <img src="/assets/images/articles/mining/en/hashing.webp" alt="Hashing" />
-<figcaption>Hashing is a method of generating a fixed size output from a variable size input.</figcaption></a></figure>
-
-<dl>
-  <dt>Hashing</dt>
-  <dd>transformation and generation of input data of any length into a fixed-size string, which is performed according to a certain algorithm. Specifically, the Bitcoin hashing algorithm is SHA-256 or 256-bit Secure Hashing Algorithm.</dd>
-  <dt>Hashrate</dt>
-  <dd>A measure of the processing power per second used in mining. Simply put, this is the speed of mining. It is measured in hash units per second, which means how many calculations can be performed per second. Machines with high hashing power are very efficient and can process a large amount of data per second.</dd>
-</dl>
-
-<p class="notice--warning">Here it becomes obvious that the more powerful our hashing machine (aka mining farm), the faster we will find a solution to the algorithm and get income.</p>
-
-<p>But powerful devices will immediately find all Bitcoins, right? No, there is a complexity parameter in the algorithm for this.</p>
-
-<h3 id="network-complexity">Network complexity</h3>
-
-<p>Mining difficulty is how difficult it is to find a given hash below the <span class="yel">target value</span>.</p>
-
-<p>The target value is recalculated every 2016 blocks, with the mining difficulty being inversely proportional to the <span class="yel">target value</span>.</p>
-
-<p>As mining difficulty increases, the <span class="yel">target value</span> decreases, and vice versa.</p>
-
-<p class="notice--ya">In simple terms, for beginners, it is about solving complex mathematical problems. Therefore, the transaction verification process requires miners to use high processing power.</p>
-
-<figure><a href="/assets/images/articles/mining/en/difficulty.webp" class="image-popup"> <img src="/assets/images/articles/mining/en/difficulty.webp" alt="Network complexity" />
-<figcaption>Network complexity</figcaption></a></figure>
-
-<p>As mining speed increases, mining difficulty also increases. As a result, the speed of block creation is reduced to the desired 10 minutes, as mentioned earlier. All this is described in the Proof of Work<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup> algorithm.</p>
-
-<p>Once the mining difficulty increases, the average mining time returns to normal and the cycle repeats approximately every 2 weeks.</p>
-
-<h2 id="equipment-and-requirements">Equipment and Requirements</h2>
-
-<p>Mining uses the processing power of a video card (for some cryptocurrencies, a processor) to mine coins such as Monero or Ethereum Classic.</p>
-
-<p>There are also ASICs specially designed devices, such as Bitmain and Antminer.</p>
-
-<figure><a href="/assets/images/articles/mining/en/asic.webp" class="image-popup"> <img src="/assets/images/articles/mining/en/asic.webp" alt="asics for mining." />
-<figcaption>An ASIC chip is 1000 times more efficient at mining than a chip in a home PC.</figcaption></a></figure>
-
-<p>Cryptocurrency mining requires a special GPU (Graphic Processor Unit) designed to solve complex equations inlittle time. If you want to start crypto mining without your own hardware, so-called cloud mining farms are available.</p>
-
-<h3 id="what-is-better-asic-or-mining-farm">What is better ASIC or mining farm</h3>
-
-<p>Initially, the creators of Bitcoin planned to mine it on the central processing units (CPUs) of widely used laptops or desktop computers. However, ASICs have outperformed both processors and graphics cards (GPUs) due to their lower power consumption and higher processing power.</p>
-
-<p class="notice--ya">Thus, ASICs are better than processors and video cards in mining. They are more powerful in terms of processing power. They can process much more data per unit of time.</p>
-
-<p>Ultimately, more and more miners with high computing power will be more successful than smaller home miners.</p>
-
-<figure><a href="/assets/images/articles/mining/en/fpga_vs_gpu.webp" class="image-popup"> <img src="/assets/images/articles/mining/en/fpga_vs_gpu.webp" alt="Device Performance Table" />
-<figcaption>Device performance table.</figcaption></a></figure>
-
-<p>The performance hierarchy is as follows:</p>
-
-<ul>
-  <li>CPU - The central processing unit of the computer. The lowest efficiency.</li>
-  <li>GPU - Graphics processor (video card). Average efficiency.</li>
-  <li><a href="https://en.wikipedia.org/wiki/Field-programmable_gate_array">FPGA - Integrated Circuit</a>. High performance.</li>
-  <li>ASIC - Application Specific Integrated Circuit. Top performance.</li>
-</ul>
-
-<dl>
-  <dt>Pools</dt>
-  <dd>Mining rigs allow miners to harness the combined processing power of multiple machines, channel it into mining pools, and distribute a reward (share) for each successfully mined block.</dd>
-</dl>
-
-<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<span itemprop="name" class="bold">What is Bitcoin Mining? How Does It Work?</span>
-<meta itemprop="duration" content="PT16M1S" />
-<meta itemprop="uploadDate" content="2018-07-12T13:01:07Z" />
-<meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/BODyqM-V71E/default.jpg" />
-<meta itemprop="interactionCount" content="3516032" />
-<meta itemprop="embedURL" content="https://youtube.googleapis.com/v/BODyqM-V71E" />
-<div class="youtube-player" data-id="BODyqM-V71E"></div>
-<span itemprop="description">Mining is done by running extremely powerful computers (known as ASICs) that race against other miners in an attempt to guess a specific number.   The first miner to guess the number gets to update the ledger of transactions and also receives a reward of newly minted Bitcoins (currently the reward is 6.25 Bitcoins). </span>
-</div>
-
-<h3 id="mining-methods">Mining methods</h3>
-
-<p>There are different approaches to cryptocurrency mining. Here are the 4 most popular types, ranked by the degree of simplicity.</p>
-
-<section class="imp">
-  <p><span class="par"><i class="fas fa-mug-hot"></i> <span class="bold">Mining methods:</span> <br /></span>
-<span class="par"><i class="fas fa-lightbulb"></i> <b class="yel">Cloud mining</b>. As the cost of acquiring GPU or ASIC miners is getting higher compared to revenues, cloud mining farms are becoming more and more popular. Cloud mining allows individual miners to take advantage of large corporations and specialized facilities. With a cloud solution, you can rent cloud hardware for a specific period of time. <br /></span>
-<span class="par"><i class="fas fa-lightbulb"></i> <b class="yel">CPU mining</b>. In the early days of technology, CPU mining was the easiest way to start mining. To start cryptomining, a simple home PC with a good processor was enough. However, mining on processors is too slow and does not bring that much profit, if you take into account the costs of electricity and cooling. <br /></span>
-<span class="par"><i class="fas fa-lightbulb"></i> <b class="yel">GPU mining</b>. Several GPUs, so-called video cards, are combined into a large mining farm, which increases the processing power used. <br /></span>
-<span class="par"><i class="fas fa-lightbulb"></i> <b class="yel">ASIC mining</b>. Unlike GPU miners, ASIC miners are specifically designed for cryptocurrency mining, so they can produce more units of cryptocurrency than GPUs. However, the acquisition costs of such ASIC miners are many times higher than those of GPU or CPU miners. <br /></span></p>
-</section>
-
-<p>ASIC farms are used for bitcoin mining.</p>
-
-<p>What cryptocurrency is being mined?
-All coins with the <a href="https://coinmarketcap.com/en/view/pow/">proof of work algorithm</a> can be mined on farms. And mining rig<sup id="fnref:3"><a href="#fn:3" class="footnote" rel="footnote" role="doc-noteref">3</a></sup> is part of the farm.</p>
-
-<figure><a href="/assets/images/articles/mining/en/mining_rig_2936.jpg" class="image-popup"> <img src="/assets/images/articles/mining/en/mining_rig_2936.jpg" alt="12 GPU red mining rig." />
-<figcaption>12 GPU mining rig</figcaption></a></figure>
-
-<h2 id="mining-is-not-profitable">Mining is not profitable?</h2>
-
-<p>It is said from time to time that mining is dead. There are several factors at work here. Even if the miners are profitable, you must consider upfront costs such as hardware purchases and ongoing electricity costs. Only when all the costs are calculated can one see if it is profitable.</p>
-
-<p>The benefit also depends on the type of equipment. For example, according to a report by the Congressional Research Service, a hash rate of 14 terahashes per second can be obtained either from a single ASIC miner with a power of only 1800 watts, or from more than half a million 40 megawatt Sony game consoles.</p>
-
-<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<span itemprop="name" class="bold">Best ASIC Miners For Mining Cryptocurrency In 2023</span>
-<meta itemprop="duration" content="PT13M29S" />
-<meta itemprop="uploadDate" content="2022-09-23T20:02:45Z" />
-<meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/HQnNqneME-c/default.jpg" />
-<meta itemprop="interactionCount" content="8580" />
-<meta itemprop="embedURL" content="https://youtube.googleapis.com/v/HQnNqneME-c" />
-<div class="youtube-player" data-id="HQnNqneME-c"></div>
-<span itemprop="description">ASIC miners are specialized computers that only mine crypto, they are oftentimes as powerful as 100 or more GPUs?!</span>
-</div>
-
-<p>&nbsp;</p>
-
-<h3 id="halvings-and-rewards">Halvings and rewards</h3>
-
-<p>Bitcoin rewards are halved every four years. This is a process known as halving<sup id="fnref:4"><a href="#fn:4" class="footnote" rel="footnote" role="doc-noteref">4</a></sup>. Therefore, miners must become more efficient and faster in order to maintain a constant profit.</p>
-
-<ul>
-  <li>When Bitcoin was first released in 2009, a miner was earning 50 BTC per block.</li>
-  <li>By 2012, the reward was 25 BTC per block.</li>
-  <li>After Bitcoin halved in 2016, the reward was halved again to 12.5 coins.</li>
-  <li>The reward is currently 6.25 BTC per block.</li>
-  <li>The next halving is expected at the end of May 2024. Then the block reward for miners will be halved to 3.125 BTC.</li>
-</ul>
-
-<p class="notice--info">In the protocols of many cryptocoins, a halving formula has been introduced. This is important to take into account when calculating.</p>
-
-<h2 id="power-consumption">Power consumption</h2>
-
-<p>You can use various <a href="https://whattomine.com/">online profitability calculators</a> to decide if mining is profitable for you based on electricity cost, device efficiency, mining time and currency value.</p>
-
-<p>According to the Cambridge Center for Alternative Finance, the energy demand of the global Bitcoin network is about 90 terawatt-hours. This currently corresponds to about 0.4 percent of the world’s electricity.</p>
-
-<p>By comparison, air conditioning systems in the US alone last consumed about 2,199 terawatt-hours. This is more than 24 times the energy requirement for global bitcoin mining.</p>
-
-<figure><a href="/assets/images/articles/mining/en/energy.webp" class="image-popup"> <img src="/assets/images/articles/mining/en/energy.webp" alt="Bitcoin electricity consumption." />
-<figcaption>Bitcoin electricity consumption</figcaption></a></figure>
-
-<p>The BBC estimated Bitcoin’s electricity consumption to be higher than in Argentina (121 TWh), the Netherlands (108.8 TWh) and the United Arab Emirates (113.20 TWh) and is gradually approaching Norway (122.20 TWh). ).<sup id="fnref:5"><a href="#fn:5" class="footnote" rel="footnote" role="doc-noteref">5</a></sup></p>
-
-<p class="notice--success">Proponents, on the other hand, see more benefit in mining: they argue that mining can protect the power grid from fluctuations or failures. To maintain the power grid, a certain voltage must always be maintained.</p>
-
-<p>Yes, the energy demand for bitcoin mining is high and will continue to rise as the number of miners increases. But network security will also grow.</p>
-
-<p>According to the Bitcoin Mining Council<sup id="fnref:6"><a href="#fn:6" class="footnote" rel="footnote" role="doc-noteref">6</a></sup>, almost 60 percent of the energy needed for global Bitcoin mining already comes from natural sources such as wind or solar energy: this share currently stands at 58.9 percent.</p>
-
-<h3 id="what-happens-when-mining-ends">What happens when mining ends?</h3>
-
-<blockquote>
-  <p>The maximum supply of Bitcoin is rigidly defined and will never exceed the limit of almost 21 million coins<sup id="fnref:7"><a href="#fn:7" class="footnote" rel="footnote" role="doc-noteref">7</a></sup>. Thus, the supply of BTC cannot be expanded.</p>
-</blockquote>
-
-<p>Because of the halving, the last bitcoin won’t be mined until around 2140. According to the analytical company Coinmarketcap<sup id="fnref:8"><a href="#fn:8" class="footnote" rel="footnote" role="doc-noteref">8</a></sup>, there are currently just over 19 million coins in circulation. This means that it will take miners at least 117 years to mine the remaining two million coins - that is, for the remaining ten percent.</p>
-
-<h2 id="law">Law</h2>
-
-<p>Crypto mining itself is completely legal, but some crypto miners use malware to obtain cryptocurrencies in an illegal way.</p>
-
-<p>This scam is called cryptojacking. These are programs used to covertly search for digital currency on hacked computers.</p>
-
-<h2 id="conclusions">Conclusions</h2>
-
-<p>Cryptocurrencies are decentralized, that is, neither a central bank, nor a central database, nor a single central authority manages the monetary network. Cryptocurrencies do not have a central authority. Rather, they are run by the cryptocurrency community and, in particular, by cryptocurrency miners.</p>
-
-<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
-<span itemprop="name" class="bold">GPU mining is dead?</span>
-<meta itemprop="duration" content="PT13M50S" />
-<meta itemprop="uploadDate" content="2022-11-13T14:00:11Z" />
-<meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/RjJcFpJ6snE/default.jpg" />
-<meta itemprop="interactionCount" content="29954" />
-<meta itemprop="embedURL" content="https://youtube.googleapis.com/v/RjJcFpJ6snE" />
-<div class="youtube-player" data-id="RjJcFpJ6snE"></div>
-<span itemprop="description">The yield isn't there to compensate for the price declination. Its pretty much a nail in the coffin for home miners.</span>
-</div>
-
-<p>&nbsp;</p>
-
-<p>Miners add transactions to the blockchain. Different cryptocurrencies use different generation methods, if cryptocurrencies use mining at all. (Most cryptocurrencies do not use mining.)</p>
-
-<p>Various mining and consensus methods are used to determine who creates new blocks of transactions and exactly how blocks are added to the blockchain.</p>
-
-<h3 id="question-answer">Question answer</h3>
-
-<div class="schema-faq-code" itemscope="" itemtype="https://schema.org/FAQPage">
-     <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-         <span itemprop="name" class="faq-q">Which cryptocurrency should I mine? </span>
-         <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-              <p itemprop="text" class="faq-a">
-A promising historical coin rate and low mining difficulty are the most important criteria if you want to mine cryptocurrency.</p>
-         </div>
-     </div>
-	 <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-<span itemprop="name" class="faq-q">Who Invented Mining?</span>
-         <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-              <p itemprop="text" class="faq-a">Bitcoin creator Satoshi Nakamoto was the first miner. Information is circulating on the Internet that before the start, he managed to secretly get a big fortune. However, these are just rumors. According to official information, Satoshi was only able to mine 750 coins. The pioneers mined "crypto" using the computer's central processing unit.</p>
-         </div>
-     </div>
-	 <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-<span itemprop="name" class="faq-q">What are the best mining programs?</span>
-         <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-              <p itemprop="text" class="faq-a">Best mining software: <a href="/en/miners/phoenixminer/">PhoenixMiner</a>, <a href="/en/miners/nicehash/">NiceHash</a>, <a href="/en/miners/xmrig/">XMRig</a>, <a href="/en/miners/gminer/">Gminer</a>, <a href="/en/miners/lolminer/">Lolminer</a>, <a href="/en/miners/teamredminer/">TeamRedMiner</a> and <a href="/en/miners/trexminer/">T-rex Miner</a>.</p>
-         </div>
-     </div>
-</div>
-
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1">
-      <p><a href="https://bytwork.com/en/komplektujushhie_dlja_majninga/asic">ASIC: TOP list, Comparicon</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:2">
-      <p><a href="https://en.wikipedia.org/wiki/Proof_of_work">Proof of Work (POW, PoW)</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:3">
-      <p><a href="https://cointelegraph.com/news/how-to-build-a-cryptocurrency-mining-rig">What is a mining rig and how to build it</a> <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:4">
-      <p><a href="https://www.forbes.com/uk/advisor/investing/cryptocurrency/bitcoin-halving/">Bitcoin halving. What is it and why is everyone waiting for it</a> <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:5">
-      <p><a href="https://www.bbc.co.uk/news/technology-56012952">Bitcoin consumes ‘more electricity than Argentina’</a> <a href="#fnref:5" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:6">
-      <p><a href="https://bitcoinminingcouncil.com/">Bitcoin Mining Council</a> <a href="#fnref:6" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:7">
-      <p><a href="https://www.investopedia.com/tech/what-happens-bitcoin-after-21-million-mined/">What happens to bitcoins after 21 million is mined?</a> <a href="#fnref:7" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:8">
-      <p><a href="https://coinmarketcap.com/en/currencies/bitcoin/">Data from the analytical company Coinmarketcap</a> <a href="#fnref:8" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[What do mining farms calculate? In this article, you will learn what cryptocurrency mining means.]]></summary></entry></feed>
+</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[The future of Bitcoin In this article, you will learn about the prospects of bitcoin.]]></summary></entry></feed>
