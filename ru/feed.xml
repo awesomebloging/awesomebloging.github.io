@@ -1,4 +1,359 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="ru" /><updated>2025-11-20T05:57:15-05:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="ru"><title type="html">8 DePIN-проектов с аирдропом: как получить токены и способы участия</title><link href="https://miningsoft.org/ru/blog/depin-airdrops/" rel="alternate" type="text/html" title="8 DePIN-проектов с аирдропом: как получить токены и способы участия" /><published>2025-11-20T00:00:00-05:00</published><updated>2025-11-20T00:00:00-05:00</updated><id>https://miningsoft.org/ru/blog/depin-airdrops</id><content type="html" xml:base="https://miningsoft.org/ru/blog/depin-airdrops/"><![CDATA[<div class="paper wallet">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="ru" /><updated>2025-11-23T06:47:26-05:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="ru"><title type="html">6 лучших крипто дебетовых карт - сравнение условий и комиссий</title><link href="https://miningsoft.org/ru/articles/cards/" rel="alternate" type="text/html" title="6 лучших крипто дебетовых карт - сравнение условий и комиссий" /><published>2025-11-21T00:00:00-05:00</published><updated>2025-11-23T00:00:00-05:00</updated><id>https://miningsoft.org/ru/articles/cards</id><content type="html" xml:base="https://miningsoft.org/ru/articles/cards/"><![CDATA[<div class="paper wallet">
+  <div class="pattern">
+    <div class="note-cont">
+       Карты позволяют тратить криптовалюту везде, где принимаются Visa/Mastercard, часто с поддержкой Apple/Google Pay.
+    </div>
+  </div>
+</div>
+<p><em>Узнайте какая крипто дебетовая карта лучше? 6 вариантов для сравнения</em></p>
+
+<p>Все больше криптопроектов выпускают собственные карты, и даже некоторые <a href="https://bytwork.com/markets">популярные криптобиржи</a> и <a href="https://bytwork.com/wallets">кастодиальные кошельки</a> теперь присоединяются к этой тенденции.</p>
+
+<figure><a href="/assets/images/articles/cards/miningsoft_org_explained_cards.jpg" class="image-popup"> <img src="/assets/images/articles/cards/miningsoft_org_explained_cards.jpg" alt=" карта" /></a></figure>
+
+<p>Для <strong>пользователей из РФ</strong> по сути подходит только 2 решения:</p>
+
+<ol>
+  <li>Карта Volet (ранее Advcash) - через другой регион на свой страх и риск.</li>
+  <li>Карта Байбит (через манипуляции со сменой номера и региона на Казахстан)</li>
+</ol>
+
+<p>Делать подмену номера и ригона на Bybit тяжело и карту могут заблокировать, поэтому единственаня рабочая карта для РФ - это Volet.</p>
+
+<p>В <a href="https://volet.com/cards">Volet</a> вы пополняете счет криптовалютой (USDT, USDC, BTC, ETH и др.), конвертируете в фиат (USD/EUR) и создаете карту для онлайн/офлайн-платежей.</p>
+
+<p><strong>Общие условия и комиссии Volet</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Параметр</th>
+      <th style="text-align: left">Условия</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><strong>Пополнение</strong></td>
+      <td style="text-align: left">Криптовалюта → Фиатный кошелек Volet (USD/EUR) → Карта. Не напрямую криптой.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Комиссия за пополнение</strong></td>
+      <td style="text-align: left">Пример: 1 USD + 1.45%</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Плата за обслуживание</strong></td>
+      <td style="text-align: left">Отсутствует, если картой пользоваться.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Комиссия за неактивность</strong></td>
+      <td style="text-align: left">1 USD/мес., если нет операций 6 месяцев подряд.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Комиссия за снятие наличных</strong></td>
+      <td style="text-align: left">Зависит от карты: 2-3 USD.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Верификация (KYC)</strong></td>
+      <td style="text-align: left">Обязательна для постоянных карт. Гражданам РФ и ряда других стран (США, Иран и др.) в целом запрещена. Есть возможность обхода при наличии документов из разрешенной страны (аренда, водительские права).</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Важное</strong></td>
+      <td style="text-align: left">• AML-политика: принимается только чистая крипта.<br />• Смена адреса доставки требует подтверждения документов.<br />• Запрос PIN-кода после активации: 2 USD.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Виды карт Volet</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Тип карты</th>
+      <th style="text-align: left">Валюта</th>
+      <th style="text-align: left">Регион / Особенности</th>
+      <th style="text-align: left">Стоимость выпуска</th>
+      <th style="text-align: left">Примерные лимиты</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><strong>Digital Card</strong> (Виртуальная)</td>
+      <td style="text-align: left">USD</td>
+      <td style="text-align: left">По всему миру, Apple/Google Pay</td>
+      <td style="text-align: left">Не указана</td>
+      <td style="text-align: left">Покупки: до 50 000 USD</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Spend Virtual Card</strong> (Виртуальная)</td>
+      <td style="text-align: left">EUR</td>
+      <td style="text-align: left">Европейская экономическая зона, Apple/Google Pay</td>
+      <td style="text-align: left">Не указана</td>
+      <td style="text-align: left">Не указаны</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Asia-Pacific</strong> (Физическая)</td>
+      <td style="text-align: left">USD</td>
+      <td style="text-align: left">Азиатско-Тихоокеанский регион</td>
+      <td style="text-align: left">20 USD</td>
+      <td style="text-align: left">Пополнение: 6 500 USD/день<br />Транзакция: до 22 000 USD<br />Снятие: 1 650 USD/день</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Europe Plastic Card</strong> (Физическая)</td>
+      <td style="text-align: left">EUR, USD</td>
+      <td style="text-align: left">ЕС, Visa/Mastercard</td>
+      <td style="text-align: left">20 EUR/USD</td>
+      <td style="text-align: left">Пополнение: 5 000/день<br />Покупки: 20 000/день<br />Снятие: 2 500/день</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Europe Virtual Card</strong> (Виртуальная)</td>
+      <td style="text-align: left">EUR, USD</td>
+      <td style="text-align: left">ЕС, Visa/Mastercard</td>
+      <td style="text-align: left">Не указана</td>
+      <td style="text-align: left">Аналогичны Euro Plastic Card</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Гражданам РФ и ряда других стран (Афганистан, Иран, США и др.) в целом <strong>запрещено проходить верификацию</strong>. Однако есть возможность обхода, если вы проживаете в разрешенной стране и можете предоставить локальные документы (аренда, ВУ и т.д.).</p>
+
+<figure><a href="/assets/images/articles/cards/crypto_cards28.png" class="image-popup"> <img src="/assets/images/articles/cards/crypto_cards28.png" alt="Volet карта" /></a></figure>
+
+<p class="notice--danger">Система требует при создании карты реальные персональные данные (ФИО, адрес, телефон) для добавления в Google Pay, даже если верификация заявлена как необязательная. Использование адреса или телефона другой страны может привести к блокировке или запросу дополнительной проверки из-за несоответствия данных и стандартов AML.</p>
+
+<h2 id="сравнение-всех-криптодебетовых-карт">Сравнение всех криптодебетовых карт</h2>
+
+<p>В таблице ниже собраны условия по каждой из карт для быстрого сравнения.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"><strong>Карта</strong></th>
+      <th style="text-align: left"><strong>Поддерживаемые активы</strong></th>
+      <th style="text-align: left"><strong>Комиссии</strong></th>
+      <th style="text-align: left"><strong>Кешбэк</strong></th>
+      <th style="text-align: left"><strong>География</strong></th>
+      <th style="text-align: left"><strong>Особенности</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><strong>Bybit Card</strong></td>
+      <td style="text-align: left">BTC, ETH, XRP, USDT, USDC, TON</td>
+      <td style="text-align: left">Конвертация крипты: 0,9%<br />Обмен валют: 1%<br />Выпуск и обслуживание: 0€</td>
+      <td style="text-align: left"><strong>2% - 10%</strong> (зависит от VIP-уровня)</td>
+      <td style="text-align: left">Европа, Азиатско-Тихоокеанский регион, СНГ</td>
+      <td style="text-align: left">Автопополнение из крипто-кошелька, совместима с Apple/Google/Samsung Pay</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>MetaMask Card</strong></td>
+      <td style="text-align: left">USDC, USDT, AUSDC, WE, Yuri, GBPE (в сети Linea)</td>
+      <td style="text-align: left">Газ (~0,02$)<br />Своп нестаб. монет: 0,875%<br />Обслуживание: 0€</td>
+      <td style="text-align: left"><strong>1%</strong> (3% с металлической картой)<br /><strong>До 8%</strong> Coinmunity Cashback</td>
+      <td style="text-align: left">США, Великобритания, Европа, Аргентина, Бразилия, Мексика, Швейцария</td>
+      <td style="text-align: left">Прямая интеграция с кошельком MetaMask, наличие собственного IBAN</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Spend (Mercurio)</strong></td>
+      <td style="text-align: left">BTC, ETH, USDC</td>
+      <td style="text-align: left">Неактивность (3 мес.): 1€/мес.<br />Остальные комиссии: 0€</td>
+      <td style="text-align: left">Информация отсутствует</td>
+      <td style="text-align: left">Европейская экономическая зона (ЕЭЗ)</td>
+      <td style="text-align: left">Интеграция с кошельком Ledger через Ledger Live</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>WhiteBit Nova Card</strong></td>
+      <td style="text-align: left">BTC, ETH, SOL, USDC</td>
+      <td style="text-align: left">Выпуск вирт. карты: 0€<br />Физ. карта: 12€<br />Обслуживание: 0€</td>
+      <td style="text-align: left"><strong>До 10%</strong> (лимит 25€/мес.)</td>
+      <td style="text-align: left">Европейский союз (ЕС)</td>
+      <td style="text-align: left">Выбор 3 категорий для кешбэка (можно менять ежедневно)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Choice.com</strong></td>
+      <td style="text-align: left">Более 30 активов (BTC, ETH, BNB, USDT, USDC)</td>
+      <td style="text-align: left">Выпуск физ. карты: 15€<br />Обслуживание: 3€/мес.*<br />Доп. вирт. карта: 1€</td>
+      <td style="text-align: left">Возврат 3€ при пополнении от 299€/мес.</td>
+      <td style="text-align: left">Информация отсутствует</td>
+      <td style="text-align: left"><strong>Предоплаченная карта</strong><br />Конвертация при пополнении, а не при оплате</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>1inch Card</strong></td>
+      <td style="text-align: left">BTC, ETH, USDT, USDC</td>
+      <td style="text-align: left">Комиссия за транзакцию: 2%<br />Конвертация: 1,75%<br />Выпуск и обслуживание: 0€</td>
+      <td style="text-align: left"><strong>До 2%</strong> (в BTC или USDT)</td>
+      <td style="text-align: left">Неизвестно</td>
+      <td style="text-align: left">Разработана  протоколом 1inch</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p><strong>Выводы:</strong></p>
+<ul>
+  <li><strong>Самый высокий кэшбэк</strong> у Bybit (до 10%) и WhiteBit Nova (до 10%, но с ограничениями)</li>
+  <li><strong>Самые низкие комиссии</strong> у MetaMask (без обслуживания, минимальные газовые сборы)</li>
+  <li><strong>Уникальные особенности</strong> у Bybit - автосбережение, MetaMask - IBAN и ончейн-вознаграждения, Choice - конвертация при пополнении</li>
+  <li><strong>Для владельцев Ledger</strong> карта Spend интегрирована с Ledger Live</li>
+</ul>
+
+<p>Ниже раскроем все подробности и условия.</p>
+
+<h2 id="карта-bybit">Карта Bybit</h2>
+
+<h3 id="поддерживаемые-активы-и-платежи">Поддерживаемые активы и платежи</h3>
+
+<p><a href="https://www.bybit.com/ru-RU/cards">Карта Bybit</a> поддерживает как Mastercard, так и Visa в зависимости от вашего региона. Она доступна в таких регионах, как Европа, Азиатско-Тихоокеанский регион и странах СНГ (Казахстан). Она подключается напрямую к вашему кошельку на бирже и поддерживает Биткоин, Эфириум, XRP, USDT, USDC и TON.</p>
+
+<figure><a href="/assets/images/articles/cards/crypto_cards7.png" class="image-popup"> <img src="/assets/images/articles/cards/crypto_cards7.png" alt="Bybit карта" /></a></figure>
+
+<p>При совершении платежа сначала используется ваш <a href="https://bytwork.com/articles/fiat">фиатный баланс</a>. Если его недостаточно, система автоматически задействует выбранную криптовалюту, и в этом случае взимается комиссия за конвертацию в размере 0,9%. Также взимается комиссия за иностранные операции в размере 1%, если вы тратите в валюте, отличной от установленной для вашей карты.</p>
+
+<h3 id="кэшбэк-и-доп-функции">Кэшбэк и доп функции</h3>
+
+<p>Кешбэк начинается с 2% и достигает 10% в зависимости от вашего <a href="https://www.bybit.com/ru-RU/help-center/article/Benefits-of-the-VIP-Program">VIP-уровня</a>. Также доступна функция автоматического сбережения, которую можно активировать, чтобы получать до 8% годовых на любой незадействованный баланс на карте.</p>
+
+<figure><a href="/assets/images/articles/cards/crypto_cards27.png" class="image-popup"> <img src="/assets/images/articles/cards/crypto_cards27.png" alt="Bybit карта" /></a></figure>
+
+<p>Выбирайте между виртуальной или физической картой; она работает с Apple Pay, Google Pay и Samsung Pay. Начать использование можно бесплатно: выпуск карты не требует оплаты, ежегодные взносы также отсутствуют.</p>
+
+<p class="notice--info">Источник: <a href="https://www.bybit.com/ru-RU/cards">Биржа Bybit</a></p>
+
+<h2 id="карта-metamask">Карта MetaMask</h2>
+
+<p>Начнем с <a href="https://metamask.io/ru/card">карты MetaMask</a>, которая подключается напрямую к вашему <a href="https://bytwork.com/wallets/metamask">кошельку MetaMask</a> и позволяет тратить криптовалюту везде, где принимается Mastercard.</p>
+
+<h3 id="функции-и-поддержка">Функции и поддержка</h3>
+<p>Карту можно использовать с Apple Pay и Google Pay для мобильных платежей.</p>
+
+<figure><a href="/assets/images/articles/cards/crypto_cards2.png" class="image-popup"> <img src="/assets/images/articles/cards/crypto_cards2.png" alt="MetaMask карта" /></a></figure>
+
+<p>Карта поддерживает такие активы, как USDC, USDT, AUSDC, WE, Yuri и GBPE в сети Linea.</p>
+
+<h3 id="финансовые-условия-и-кэшбэки">Финансовые условия и кэшбэки</h3>
+
+<p>Благодаря интеграции MetaMask с <a href="https://monerium.com/">Monerium</a> теперь можно получить номер счета <a href="https://www.investopedia.com/terms/i/iban.asp">(IBAN)</a>, привязанный напрямую к вашему кошельку. Это означает, что вы можете переводить евро на этот IBAN и получать их прямо в MetaMask.</p>
+
+<p>При оплате ваша криптовалюта конвертируется в местную валюту. За каждую транзакцию взимается небольшая комиссия: обычно около 2 центов за газ в сети Linea при использовании стейблкоинов и комиссия за своп в размере 0,875% для нестабильных монет, таких как WETH.</p>
+
+<figure><a href="/assets/images/articles/cards/crypto_cards20.png" class="image-popup"> <img src="/assets/images/articles/cards/crypto_cards20.png" alt="MetaMask карта" /></a></figure>
+
+<p class="notice--success">Но помимо этого, ежегодных сборов или платы за обслуживание нет!</p>
+
+<p>Карта также поставляется с несколькими системами вознаграждений. Для обычных пользователей предусмотрен 1% кешбэка за каждую транзакцию, совершенную с использованием USDC, который увеличивается до 3% при использовании металлической версии карты.</p>
+
+<p>Также существует отдельная программа лояльности под названием <a href="https://linea.build/hub/events/coinmunity-cashback">Coinmunity Cashback</a>, запущенная совместно с Linea, которая предлагает до 8% возврата в ончейн-активах, включая DeFi-токены, стейблкоины, мемкоины и даже NFT!</p>
+
+<figure><a href="/assets/images/articles/cards/crypto_cards1.png" class="image-popup"> <img src="/assets/images/articles/cards/crypto_cards1.png" alt="MetaMask карта" /></a></figure>
+
+<h3 id="география-доступности">География доступности</h3>
+<p>Карта находится в пилотном режиме и доступна лишь в нескольких регионах: в большинстве штатов США, Великобритании, большей части Европы, Аргентине, Бразилии, Колумбии, Мексике и Швейцарии.</p>
+
+<p class="notice--info">Источник: <a href="https://metamask.io/ru/card">Кошелек MetaMask</a></p>
+
+<h2 id="карта-spend-mercurio-и-ledger">Карта Spend (Mercurio и Ledger)</h2>
+
+<h3 id="принцип-работы-и-совместимость">Принцип работы и совместимость</h3>
+
+<p>Далее рассмотрим <a href="https://mercuryo.io/spend">карту Spend, выпущенную Mercurio</a> в партнерстве с Ledger, которую можно найти в приложении Ledger Live.</p>
+
+<figure><a href="/assets/images/articles/cards/crypto_cards5.png" class="image-popup"> <img src="/assets/images/articles/cards/crypto_cards5.png" alt="Spend карта" /></a></figure>
+
+<p>Она работает путем конвертации криптовалюты, такой как Биткоин, Эфириум и USDC, в фиат в момент покупки. Это позволяет тратить средства прямо из вашего кошелька Ledger везде, где принимается Mastercard. Карта также поддерживает Apple Pay и Google Pay для мобильных платежей.</p>
+
+<h3 id="стоимость-обслуживания-и-доступность">Стоимость обслуживания и доступность</h3>
+<p>Взимается ежемесячная плата за обслуживание в размере €1, но только если карта была неактивна в течение 3 месяцев подряд. В остальном, платежи отсутствуют. Карта доступна только в Европейской экономической зоне, но планируется более широкий запуск.</p>
+
+<figure><a href="/assets/images/articles/cards/crypto_cards21.png" class="image-popup"> <img src="/assets/images/articles/cards/crypto_cards21.png" alt="Spend карта" /></a></figure>
+
+<p class="notice--info">Источник: <a href="https://mercuryo.io/spend">Spend</a></p>
+
+<h2 id="карта-whitebit-nova">Карта WhiteBit Nova</h2>
+
+<h3 id="общие-характеристики">Общие характеристики</h3>
+
+<p>Следующей в списке находится карта <a href="https://whitebit.com/crypto-card">WhiteBit Nova Card</a>, выпущенная <a href="https://bytwork.com/markets/whitebit">биржей WhiteBit</a> в партнерстве с Visa.</p>
+
+<figure><a href="/assets/images/articles/cards/crypto_cards6.png" class="image-popup"> <img src="/assets/images/articles/cards/crypto_cards6.png" alt="WhiteBit карта" /></a></figure>
+
+<p>Карта пока доступна для резидентов стран Европейского союза. Эта карта позволяет тратить такие активы, как Биткоин, Эфириум, SOL и USDC, напрямую с вашего биржевого баланса на WhiteBit.</p>
+
+<h3 id="условия-и-кешбэк">Условия и кешбэк</h3>
+
+<p>Не взимается плата за открытие или обслуживание карты. Если вы хотите физическую карту, это будет стоить €12, либо можно использовать виртуальную версию с Apple Pay или Google Pay.<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></p>
+
+<figure><a href="/assets/images/articles/cards/crypto_cards23.png" class="image-popup"> <img src="/assets/images/articles/cards/crypto_cards23.png" alt="WhiteBit карта" /></a></figure>
+
+<p class="notice--success">Также действует система кешбэка, которая достигает 10% в зависимости от категории. Выбирайте до 3 категорий в день и меняйте их по мере необходимости!</p>
+
+<p>Кешбэк ограничен суммой €25 в месяц, и для его получения необходимо набрать как минимум €5.</p>
+
+<p class="notice--info">Источник: <a href="https://whitebit.com/crypto-card">Биржа WhiteBIT</a></p>
+
+<h2 id="карта-choicecom-бывшая-crypterium">Карта Choice.com (бывшая Crypterium)</h2>
+
+<h3 id="особенности-пополнения-и-типы-карт">Особенности пополнения и типы карт</h3>
+
+<p>Возможно, вы знаете следующую карту под ее старым названием Crypterium, прежде чем платформа была переименована в <a href="Choice.com">Choice</a>. Карта Choice.com Visa - это предоплаченная дебетовая карта, которая связывается с вашим кошельком через приложение Choice. После выпуска она привязывается к выделенному счету IBAN.</p>
+
+<figure><a href="/assets/images/articles/cards/crypto_cards10.png" class="image-popup"> <img src="/assets/images/articles/cards/crypto_cards10.png" alt="Choice карта" /></a></figure>
+
+<p>При пополнении карты криптовалютой, эта крипта конвертируется в евро и зачисляется на IBAN. То есть конвертация происходит при пополнении, а не в момент оплаты, как у большинства криптодебетовых карт.</p>
+
+<p>Выбирайте между виртуальной или физической картой. Физическая карта обойдется в €15, первая виртуальная карта бесплатна, а каждая последующая будет стоить €1.</p>
+
+<figure><a href="/assets/images/articles/cards/crypto_cards11.png" class="image-popup"> <img src="/assets/images/articles/cards/crypto_cards11.png" alt="Choice карта" /></a></figure>
+
+<h3 id="комиссии-и-поддерживаемые-активы">Комиссии и поддерживаемые активы</h3>
+<p>Ежемесячная плата за обслуживание составляет €3, но если вы пополните счет как минимум на €299 в месяц, эта сумма возвращается через кешбэк. Карта поддерживает пополнение более чем 30 криптовалютами, включая Биткоин, Эфириум, BNB, USDT и USDC.</p>
+
+<p class="notice--info">Источник: <a href="https://choise.com/">Choice</a></p>
+
+<h2 id="карта-1inch-card">Карта 1inch Card</h2>
+
+<figure><a href="/assets/images/articles/cards/crypto_cards13.png" class="image-popup"> <img src="/assets/images/articles/cards/crypto_cards13.png" alt="1inch карта" /></a></figure>
+
+<h3 id="технические-характеристики">Технические характеристики</h3>
+
+<p>1inch Card - это продукт от протокола 1inch, которая работает в сети Mastercard. Она поддерживает активы, такие как Биткоин, Эфириум, USDT и USDC. Карта совместима с Apple Pay и Google Pay для мобильных платежей и работает по принципу конвертации криптовалюты в фиат при оплате.</p>
+
+<h3 id="система-комиссий-и-кешбэк">Система комиссий и кешбэк</h3>
+<p>Как и у большинства других карт, здесь действует система кешбэка, которая предлагает до 2% возврата за каждую покупку, обычно выплачиваемую в таких токенах, как Биткоин или USDT.</p>
+
+<p class="notice--danger">Карта не взимает плату за выпуск или обслуживание, но с каждой транзакции по карте взимается комиссия в 2%, а также комиссия в 1,75% при конвертации криптовалюты в фиат или другую криптовалюту.</p>
+
+<h2 id="предстоящие-новинки">Предстоящие новинки</h2>
+
+<h3 id="карта-kraken">Карта Kraken</h3>
+<p>Стоит отметить несколько других примечательных криптодебетовых карт, которые скоро должны быть запущены. Первая - Kraken, которая совместно с Mastercard выпустит криптодебетовую карту как в физическом, так и в цифровом форматах. Ожидается, что сначала она будет запущена в Великобритании и Европе и будет интегрирована с Kraken Pay, кросс-бордерной платежной платформой биржи, которая уже поддерживает более 300 крипто и фиатных валют.</p>
+
+<figure><a href="/assets/images/articles/cards/crypto_cards15.png" class="image-popup"> <img src="/assets/images/articles/cards/crypto_cards15.png" alt="Kraken карта" /></a></figure>
+
+<h3 id="карта-okx">Карта OKX</h3>
+<p>Другая биржа, присоединяющаяся к этому направлению, - OKX, которая совместно с Mastercard работает над предстоящим выпуском карты OKX. Она будет поддерживать платежи в стейблкоинах и позволит мерчантам получать расчет напрямую в таких активах, как USDC и USDP.</p>
+
+<figure><a href="/assets/images/articles/cards/crypto_cards16.png" class="image-popup"> <img src="/assets/images/articles/cards/crypto_cards16.png" alt="OKX карта" /></a></figure>
+
+<h3 id="exodus">Exodus</h3>
+
+<p>И, наконец, <a href="https://bytwork.com/wallets/exodus/app">кошелек Exodus</a> также выпускает собственную карту, которая позволит тратить криптовалюту прямо из кошелька Exodus.</p>
+
+<figure><a href="/assets/images/articles/cards/crypto_cards17.png" class="image-popup"> <img src="/assets/images/articles/cards/crypto_cards17.png" alt="Exodus карта" /></a></figure>
+
+<h2 id="риски-и-критика">Риски и критика</h2>
+
+<p>Регуляторная неопределенность создает риск блокировки криптокарт в некоторых странах, что может привести к заморозке средств и прекращению обслуживания без быстрого вывода активов. При этом, скрытые комиссии и волатильность курса криптовалюты могут вызвать дополнительные финансовые потери даже при отсутствии годовых комиссий.</p>
+
+<p>
+«MiningSoft» не предоставляет инвестиционных консультаций; материалы публикуются исключительно в ознакомительных целях. Криптовалюта - волатильный актив, способный привести к финансовым потерям.
+</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1">
+      <p><a href="https://help.whitebit.com/hc/ru/articles/23273438576925-%D0%94%D0%B5%D0%B1%D0%B5%D1%82%D0%BE%D0%B2%D0%B0%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B0-WhiteBIT-N%C3%B3va">Дебетовая карта WhiteBIT Nóva</a>. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Карты позволяют тратить криптовалюту везде, где принимаются Visa/Mastercard, часто с поддержкой Apple/Google Pay. Узнайте какая крипто дебетовая карта лучше? 6 вариантов для сравнения]]></summary></entry><entry xml:lang="ru"><title type="html">8 DePIN-проектов с аирдропом: как получить токены и способы участия</title><link href="https://miningsoft.org/ru/blog/depin-airdrops/" rel="alternate" type="text/html" title="8 DePIN-проектов с аирдропом: как получить токены и способы участия" /><published>2025-11-20T00:00:00-05:00</published><updated>2025-11-20T00:00:00-05:00</updated><id>https://miningsoft.org/ru/blog/depin-airdrops</id><content type="html" xml:base="https://miningsoft.org/ru/blog/depin-airdrops/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       Большинство проектов можно запускать бесплатно, но для максимальной доходности часто требуется оборудование.
@@ -137,7 +492,7 @@
       <p><a href="https://x.com/nubilanetwork/status/1980277921412784326">Nubila Secures $8M Seed Round to Accelerate the Prediction Market Oracle Frontier</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Большинство проектов можно запускать бесплатно, но для максимальной доходности часто требуется оборудование. Вы узнаете про 8 уникальных крипто-эйрдропов в пространстве DePIN.]]></summary></entry><entry xml:lang="ru"><title type="html">Ethereum Fusaka – хардфорк о котором нужно знать держателям ETH</title><link href="https://miningsoft.org/ru/blog/fusaka/" rel="alternate" type="text/html" title="Ethereum Fusaka – хардфорк о котором нужно знать держателям ETH" /><published>2025-11-19T00:00:00-05:00</published><updated>2025-11-19T00:00:00-05:00</updated><id>https://miningsoft.org/ru/blog/fusaka</id><content type="html" xml:base="https://miningsoft.org/ru/blog/fusaka/"><![CDATA[<div class="paper wallet">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Большинство проектов можно запускать бесплатно, но для максимальной доходности часто требуется оборудование. Вы узнаете про 8 уникальных крипто-эйрдропов в пространстве DePIN.]]></summary></entry><entry xml:lang="ru"><title type="html">Ethereum Fusaka – хардфорк о котором нужно знать держателям ETH</title><link href="https://miningsoft.org/ru/blog/fusaka/" rel="alternate" type="text/html" title="Ethereum Fusaka – хардфорк о котором нужно знать держателям ETH" /><published>2025-11-19T00:00:00-05:00</published><updated>2025-11-23T00:00:00-05:00</updated><id>https://miningsoft.org/ru/blog/fusaka</id><content type="html" xml:base="https://miningsoft.org/ru/blog/fusaka/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       Несмотря на риск краткосрочной коррекции, обновление Fusaka закладывает фундамент для долгосрочного роста ETH.
@@ -145,6 +500,9 @@
   </div>
 </div>
 <p><em>Узнайте как грядущее обновление Ethereum Fusaka, нацеленное на повышение масштабируемости и безопасности сети за счет 12 технических улучшений, может стать катализатором для роста цены ETH.</em></p>
+
+<p>Что сделает обновление Fusaka?<br />
+Аналогия проста: раньше каждому приходилось проверять всю книгу на ошибки, а теперь каждый просто смотрит одну случайную страницу. Это делает процесс невероятно эффективным!</p>
 
 <h2 id="введение">Введение</h2>
 <p><a href="https://bytwork.com/events/fusaka">Дата выхода Fusaka</a>, крупного обновления Ethereum, назначена. Цена ETH обычно растет вокруг таких событий, особенно в бычьем рынке. В 4-м квартале 4-летнего цикла крипторынка исторически сильный рост, поэтому цена ETH может взлететь!
@@ -1126,7 +1484,100 @@
       <p><a href="https://microbt-whatsminer.com/">WhatsMiner - Official Website</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="tools" /><summary type="html"><![CDATA[WhatsMiner tool: как использовать - пользовательское руководство. Получите полный набор инструкций по настройке и обновлению WhatsMiner tool v8.1.34 и более ранним версиям.]]></summary></entry><entry xml:lang="ru"><title type="html">Что такое криптовалюта? Простыми словами (2023)</title><link href="https://miningsoft.org/ru/articles/cryptocurrency/" rel="alternate" type="text/html" title="Что такое криптовалюта? Простыми словами (2023)" /><published>2023-02-22T00:00:00-05:00</published><updated>2023-02-22T00:00:00-05:00</updated><id>https://miningsoft.org/ru/articles/cryptocurrency</id><content type="html" xml:base="https://miningsoft.org/ru/articles/cryptocurrency/"><![CDATA[<div class="paper btc">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="tools" /><summary type="html"><![CDATA[WhatsMiner tool: как использовать - пользовательское руководство. Получите полный набор инструкций по настройке и обновлению WhatsMiner tool v8.1.34 и более ранним версиям.]]></summary></entry><entry xml:lang="ru"><title type="html">Дизайн Blockchain проектов: принципы, концепция и архитектура</title><link href="https://miningsoft.org/ru/blog/cex-design/" rel="alternate" type="text/html" title="Дизайн Blockchain проектов: принципы, концепция и архитектура" /><published>2023-02-22T00:00:00-05:00</published><updated>2023-02-22T00:00:00-05:00</updated><id>https://miningsoft.org/ru/blog/cex-design</id><content type="html" xml:base="https://miningsoft.org/ru/blog/cex-design/"><![CDATA[<div class="paper wallet">
+  <div class="pattern">
+    <div class="note-cont">
+      Ui дизайн, ориентированный на человека, доверие и простота
+    </div>
+  </div>
+</div>
+<p><em>Существует несколько вещей, о которых следует помнить при разработке блокчейна: простота, безопасность, прозрачность и др.</em></p>
+
+<h2 id="введение">Введение</h2>
+
+<p>Блокчейн. Даже простое его название вызывает в воображении картины математики, криптографии и узлов, цифровой валюты, обеспечивающие плавные, быстрые и безопасные транзакции.</p>
+
+<p class="notice--success">Но какое отношение все это имеет к дизайну? Вы должны сначала понять основные идеи блокчейна, чтобы проектировать его. Здесь мы перечисляем четыре основных принципа проектирования блокчейна.</p>
+
+<h2 id="что-такое-блокчейн">Что такое блокчейн?</h2>
+
+<p>Вы должны <a href="/ru/articles/blockchain/">понимать блокчейн</a>, чтобы хорошо проектировать его. Существование <a href="/ru/articles/cryptocurrency">криптовалют</a>, таких как Биткойн и Эфириум, стало возможным благодаря технологии блокчейн.</p>
+
+<p class="notice--info">По сути, это распределенный реестр, в котором транзакции записываются открыто и в хронологическом порядке. Затем каждая транзакция сохраняется в блоке данных, который трудно подделать после криптографического подтверждения сетевыми узлами.</p>
+
+<p>Несмотря на то, что <a href="/ru/articles/bitcoin">Биткойн</a> и Эфириум используют разные формы технологии блокчейна, у них есть несколько общих черт.</p>
+
+<p>Децентрализованная природа блокчейна — самое яркое сравнение. Он хранит информацию о транзакциях независимо от какого-либо центрального органа. Группа взаимосвязанных компьютеров образует сеть блокчейна, которая получает копии блокчейна и проверяет транзакции для сохранения целостности реестра.</p>
+
+<p class="notice--ya">В результате не может быть единой точки отказа, и система не может быть изменена или управляема одним лицом.</p>
+
+<p>Технология Blockchain чаще всего используется в криптографии, и, вероятно, именно так вы впервые услышали этот термин. Однако эту технологию можно использовать для всего: от финансовых транзакций до отслеживания медицинской информации и многого другого.</p>
+
+<p class="notice--primary">Название «блокчейн» относится к системе, в которой хранятся данные, которые нельзя изменить.</p>
+
+<p>Способность технологии блокчейн поддерживать децентрализацию — это другая ее сторона, помимо того, что она делает возможным существования криптовалюты.</p>
+
+<p>Децентрализация блокчейна отодвигает принятие решений от централизованного места или органа.</p>
+
+<p class="notice--ya"><a href="https://en.wikipedia.org/wiki/Децентрализация">Децентрализация</a> повышает эффективность и результативность организации за счет избавления от бесполезных компонентов, сокращения дублирования и предотвращения единых точек отказа. Члены децентрализованных сетей должны действовать независимо, не запрашивая одобрения централизованной сети.</p>
+
+<p>Три основные сетевые структуры — централизованная, децентрализованная и распределенная — часто используются при рассмотрении технологической установки.</p>
+
+<p>Хотя децентрализованные сети обычно используются блокчейн-технологией, приложение блокчейна может быть, а может и не быть децентрализованным. Поэтому децентрализацию следует осуществлять дальше по сети, как на технологическом, так и на административном уровнях.</p>
+
+<p class="notice--warning">Поэтому крайне важно помнить о принципах проектирования при работе над продуктом, поддерживающим децентрализацию.</p>
+
+<h2 id="принципы-проектирования-блокчейна-которым-нужно-следовать">Принципы проектирования блокчейна, которым нужно следовать</h2>
+
+<p>Дизайн и разработка финтех-приложений быстро набирают популярность. Вот три принципа дизайна блокчейна, которые вы должны соблюдать. Мы ограничили их тремя, потому что проектирование проектов блокчейна и криптовалюты больше связано с пониманием технологии, ее целевой аудитории и будущего блокчейна, чем с соблюдением правил.</p>
+
+<h3 id="дизайн-ориентированный-на-человека">Дизайн, ориентированный на человека</h3>
+
+<p>Наиболее важным аспектом блокчейна является то, что пользователи должны верить в него. Блокчейн должен быть создан таким образом, чтобы он был понятен всем пользователям, чтобы завоевать их доверие. Таким образом, одним из наиболее важных аспектов дизайна блокчейна является то, насколько он удобен для пользователя.</p>
+
+<p class="notice--success">Предоставление людям, которые могут быть не очень технически подкованными, базовых, интуитивно понятных пользовательских интерфейсов, является одним из способов сделать это. Если вы ищете пример, <a href="https://cex.io/mobile">вы можете скачать приложение для торговли биткойнами для iPhone</a>, созданное CEX.iO.</p>
+
+<h3 id="доверие">Доверие</h3>
+
+<p>Проектирование для блокчейна предполагает планирование создания услуги или приложения, на которое можно положиться, которое невозможно изменить и которое (почти) полностью прозрачно для всех пользователей и заинтересованных сторон.</p>
+
+<p class="notice--danger">Фундаментальной функцией блокчейна является обработка личных данных. Поэтому крайне важно сохранить доверие пользователя, когда дело доходит до этой информации.<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></p>
+
+<p>Это доверие в некоторой степени влияет на надежность и стабильность платформы. Чтобы сохранить доверие пользователей к вашему дизайну и продукту, обращайте внимание на отзывы клиентов и поддерживайте последовательность.</p>
+
+<h3 id="простота">Простота</h3>
+
+<p>Сделайте ваше приложение максимально простым и удобным в использовании. Блокчейн создает почти бесконечный поток данных и информации, поэтому простой интерфейс облегчит работу людей. Это также помогает уменьшить входные барьеры на вашу платформу. Чем меньше пользователю нужно разобраться, тем легче начать его использовать.</p>
+
+<p>С учетом сказанного, есть несколько принципов, о которых следует помнить при разработке для блокчейна, сохраняя при этом простоту.</p>
+
+<ul>
+  <li><strong>Безопасность</strong> – Даже с <a href="https://www.investopedia.com/terms/t/twofactor-authentication-2fa.asp">2FA</a>, у пользователей не должно возникнуть проблем с вводом данных для входа (безопасный пароль или биометрические данные). Что еще более важно, каждая страница, файл и транзакция должны обеспечивать чувство безопасности, сохраняя при этом простоту дизайна и удобство навигации.</li>
+</ul>
+
+<p>Кроме того, безопасность не следует приравнивать к сопротивлению. Вам нужна платформа, которая делает каждое взаимодействие надежным и безопасным.</p>
+
+<ul>
+  <li>
+    <p><strong>Конфиденциальность</strong> – Некоторая степень конфиденциальности необходима для приватной информации. Пользователи хотят конфиденциальности своей личности, а также своей деятельности на вашей платформе. Независимо от того, что делает ваш продукт, псевдонимы и закрытые ключи являются двумя краеугольными камнями технологии блокчейна, которые вы должны использовать.</p>
+  </li>
+  <li>
+    <p><strong>Прозрачность</strong> — для завершения транзакции в блокчейне требуется время, но мы редко знаем точно, сколько этого времени нужно в загруженной сети. Пользователи должны видеть о своих транзакциях, потому что данные конфиденциальны. Держите пользователей в курсе при разработке и помните о прозрачности.</p>
+  </li>
+</ul>
+
+<p class="notice">Чтобы люди понимали, как работает ваш продукт и чем он отличается от продуктов ваших конкурентов, также крайне важен прозрачный подход к управлению.</p>
+
+<ul>
+  <li><strong>Согласованность</strong>. Установите один язык дизайна и используйте его как можно чаще. Это позволяет потребителям легко перемещаться по вашему продукту, определять свое местоположение в любой момент и решать, какие шаги делать дальше. Если пользовательский интерфейс вашего блокчейн-проекта ясен, лаконичен и придерживается единого языка дизайна, он будет более успешным.</li>
+</ul>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1">
+      <p><a href="https://uxplanet.org/blockchain-and-its-applications-for-service-designers-7b6bfd9fec39">Blockchain and Its Applications for Service Designers</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Ui дизайн, ориентированный на человека, доверие и простота Существует несколько вещей, о которых следует помнить при разработке блокчейна: простота, безопасность, прозрачность и др.]]></summary></entry><entry xml:lang="ru"><title type="html">Что такое криптовалюта? Простыми словами (2023)</title><link href="https://miningsoft.org/ru/articles/cryptocurrency/" rel="alternate" type="text/html" title="Что такое криптовалюта? Простыми словами (2023)" /><published>2023-02-22T00:00:00-05:00</published><updated>2023-02-22T00:00:00-05:00</updated><id>https://miningsoft.org/ru/articles/cryptocurrency</id><content type="html" xml:base="https://miningsoft.org/ru/articles/cryptocurrency/"><![CDATA[<div class="paper btc">
   <div class="pattern">
     <div class="note-cont">
       Криптовалюта: что такое, как работает и зачем нужна?
@@ -1681,100 +2132,7 @@
       <p><a href="https://bitcoin.org/ru/how-it-works">Как работает Биткойн?</a> <a href="#fnref:11" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Криптовалюта: что такое, как работает и зачем нужна? Простое объяснение криптовалюты для новичков и продвинутых пользователей.]]></summary></entry><entry xml:lang="ru"><title type="html">Дизайн Blockchain проектов: принципы, концепция и архитектура</title><link href="https://miningsoft.org/ru/blog/cex-design/" rel="alternate" type="text/html" title="Дизайн Blockchain проектов: принципы, концепция и архитектура" /><published>2023-02-22T00:00:00-05:00</published><updated>2023-02-22T00:00:00-05:00</updated><id>https://miningsoft.org/ru/blog/cex-design</id><content type="html" xml:base="https://miningsoft.org/ru/blog/cex-design/"><![CDATA[<div class="paper wallet">
-  <div class="pattern">
-    <div class="note-cont">
-      Ui дизайн, ориентированный на человека, доверие и простота
-    </div>
-  </div>
-</div>
-<p><em>Существует несколько вещей, о которых следует помнить при разработке блокчейна: простота, безопасность, прозрачность и др.</em></p>
-
-<h2 id="введение">Введение</h2>
-
-<p>Блокчейн. Даже простое его название вызывает в воображении картины математики, криптографии и узлов, цифровой валюты, обеспечивающие плавные, быстрые и безопасные транзакции.</p>
-
-<p class="notice--success">Но какое отношение все это имеет к дизайну? Вы должны сначала понять основные идеи блокчейна, чтобы проектировать его. Здесь мы перечисляем четыре основных принципа проектирования блокчейна.</p>
-
-<h2 id="что-такое-блокчейн">Что такое блокчейн?</h2>
-
-<p>Вы должны <a href="/ru/articles/blockchain/">понимать блокчейн</a>, чтобы хорошо проектировать его. Существование <a href="/ru/articles/cryptocurrency">криптовалют</a>, таких как Биткойн и Эфириум, стало возможным благодаря технологии блокчейн.</p>
-
-<p class="notice--info">По сути, это распределенный реестр, в котором транзакции записываются открыто и в хронологическом порядке. Затем каждая транзакция сохраняется в блоке данных, который трудно подделать после криптографического подтверждения сетевыми узлами.</p>
-
-<p>Несмотря на то, что <a href="/ru/articles/bitcoin">Биткойн</a> и Эфириум используют разные формы технологии блокчейна, у них есть несколько общих черт.</p>
-
-<p>Децентрализованная природа блокчейна — самое яркое сравнение. Он хранит информацию о транзакциях независимо от какого-либо центрального органа. Группа взаимосвязанных компьютеров образует сеть блокчейна, которая получает копии блокчейна и проверяет транзакции для сохранения целостности реестра.</p>
-
-<p class="notice--ya">В результате не может быть единой точки отказа, и система не может быть изменена или управляема одним лицом.</p>
-
-<p>Технология Blockchain чаще всего используется в криптографии, и, вероятно, именно так вы впервые услышали этот термин. Однако эту технологию можно использовать для всего: от финансовых транзакций до отслеживания медицинской информации и многого другого.</p>
-
-<p class="notice--primary">Название «блокчейн» относится к системе, в которой хранятся данные, которые нельзя изменить.</p>
-
-<p>Способность технологии блокчейн поддерживать децентрализацию — это другая ее сторона, помимо того, что она делает возможным существования криптовалюты.</p>
-
-<p>Децентрализация блокчейна отодвигает принятие решений от централизованного места или органа.</p>
-
-<p class="notice--ya"><a href="https://en.wikipedia.org/wiki/Децентрализация">Децентрализация</a> повышает эффективность и результативность организации за счет избавления от бесполезных компонентов, сокращения дублирования и предотвращения единых точек отказа. Члены децентрализованных сетей должны действовать независимо, не запрашивая одобрения централизованной сети.</p>
-
-<p>Три основные сетевые структуры — централизованная, децентрализованная и распределенная — часто используются при рассмотрении технологической установки.</p>
-
-<p>Хотя децентрализованные сети обычно используются блокчейн-технологией, приложение блокчейна может быть, а может и не быть децентрализованным. Поэтому децентрализацию следует осуществлять дальше по сети, как на технологическом, так и на административном уровнях.</p>
-
-<p class="notice--warning">Поэтому крайне важно помнить о принципах проектирования при работе над продуктом, поддерживающим децентрализацию.</p>
-
-<h2 id="принципы-проектирования-блокчейна-которым-нужно-следовать">Принципы проектирования блокчейна, которым нужно следовать</h2>
-
-<p>Дизайн и разработка финтех-приложений быстро набирают популярность. Вот три принципа дизайна блокчейна, которые вы должны соблюдать. Мы ограничили их тремя, потому что проектирование проектов блокчейна и криптовалюты больше связано с пониманием технологии, ее целевой аудитории и будущего блокчейна, чем с соблюдением правил.</p>
-
-<h3 id="дизайн-ориентированный-на-человека">Дизайн, ориентированный на человека</h3>
-
-<p>Наиболее важным аспектом блокчейна является то, что пользователи должны верить в него. Блокчейн должен быть создан таким образом, чтобы он был понятен всем пользователям, чтобы завоевать их доверие. Таким образом, одним из наиболее важных аспектов дизайна блокчейна является то, насколько он удобен для пользователя.</p>
-
-<p class="notice--success">Предоставление людям, которые могут быть не очень технически подкованными, базовых, интуитивно понятных пользовательских интерфейсов, является одним из способов сделать это. Если вы ищете пример, <a href="https://cex.io/mobile">вы можете скачать приложение для торговли биткойнами для iPhone</a>, созданное CEX.iO.</p>
-
-<h3 id="доверие">Доверие</h3>
-
-<p>Проектирование для блокчейна предполагает планирование создания услуги или приложения, на которое можно положиться, которое невозможно изменить и которое (почти) полностью прозрачно для всех пользователей и заинтересованных сторон.</p>
-
-<p class="notice--danger">Фундаментальной функцией блокчейна является обработка личных данных. Поэтому крайне важно сохранить доверие пользователя, когда дело доходит до этой информации.<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></p>
-
-<p>Это доверие в некоторой степени влияет на надежность и стабильность платформы. Чтобы сохранить доверие пользователей к вашему дизайну и продукту, обращайте внимание на отзывы клиентов и поддерживайте последовательность.</p>
-
-<h3 id="простота">Простота</h3>
-
-<p>Сделайте ваше приложение максимально простым и удобным в использовании. Блокчейн создает почти бесконечный поток данных и информации, поэтому простой интерфейс облегчит работу людей. Это также помогает уменьшить входные барьеры на вашу платформу. Чем меньше пользователю нужно разобраться, тем легче начать его использовать.</p>
-
-<p>С учетом сказанного, есть несколько принципов, о которых следует помнить при разработке для блокчейна, сохраняя при этом простоту.</p>
-
-<ul>
-  <li><strong>Безопасность</strong> – Даже с <a href="https://www.investopedia.com/terms/t/twofactor-authentication-2fa.asp">2FA</a>, у пользователей не должно возникнуть проблем с вводом данных для входа (безопасный пароль или биометрические данные). Что еще более важно, каждая страница, файл и транзакция должны обеспечивать чувство безопасности, сохраняя при этом простоту дизайна и удобство навигации.</li>
-</ul>
-
-<p>Кроме того, безопасность не следует приравнивать к сопротивлению. Вам нужна платформа, которая делает каждое взаимодействие надежным и безопасным.</p>
-
-<ul>
-  <li>
-    <p><strong>Конфиденциальность</strong> – Некоторая степень конфиденциальности необходима для приватной информации. Пользователи хотят конфиденциальности своей личности, а также своей деятельности на вашей платформе. Независимо от того, что делает ваш продукт, псевдонимы и закрытые ключи являются двумя краеугольными камнями технологии блокчейна, которые вы должны использовать.</p>
-  </li>
-  <li>
-    <p><strong>Прозрачность</strong> — для завершения транзакции в блокчейне требуется время, но мы редко знаем точно, сколько этого времени нужно в загруженной сети. Пользователи должны видеть о своих транзакциях, потому что данные конфиденциальны. Держите пользователей в курсе при разработке и помните о прозрачности.</p>
-  </li>
-</ul>
-
-<p class="notice">Чтобы люди понимали, как работает ваш продукт и чем он отличается от продуктов ваших конкурентов, также крайне важен прозрачный подход к управлению.</p>
-
-<ul>
-  <li><strong>Согласованность</strong>. Установите один язык дизайна и используйте его как можно чаще. Это позволяет потребителям легко перемещаться по вашему продукту, определять свое местоположение в любой момент и решать, какие шаги делать дальше. Если пользовательский интерфейс вашего блокчейн-проекта ясен, лаконичен и придерживается единого языка дизайна, он будет более успешным.</li>
-</ul>
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1">
-      <p><a href="https://uxplanet.org/blockchain-and-its-applications-for-service-designers-7b6bfd9fec39">Blockchain and Its Applications for Service Designers</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Ui дизайн, ориентированный на человека, доверие и простота Существует несколько вещей, о которых следует помнить при разработке блокчейна: простота, безопасность, прозрачность и др.]]></summary></entry><entry xml:lang="ru"><title type="html">Разблокировка сайта юристом - основания для Роскомнадзора</title><link href="https://miningsoft.org/ru/blog/rkn/" rel="alternate" type="text/html" title="Разблокировка сайта юристом - основания для Роскомнадзора" /><published>2023-02-17T00:00:00-05:00</published><updated>2023-02-17T00:00:00-05:00</updated><id>https://miningsoft.org/ru/blog/rkn</id><content type="html" xml:base="https://miningsoft.org/ru/blog/rkn/"><![CDATA[<div class="paper wallet">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Криптовалюта: что такое, как работает и зачем нужна? Простое объяснение криптовалюты для новичков и продвинутых пользователей.]]></summary></entry><entry xml:lang="ru"><title type="html">Разблокировка сайта юристом - основания для Роскомнадзора</title><link href="https://miningsoft.org/ru/blog/rkn/" rel="alternate" type="text/html" title="Разблокировка сайта юристом - основания для Роскомнадзора" /><published>2023-02-17T00:00:00-05:00</published><updated>2023-02-17T00:00:00-05:00</updated><id>https://miningsoft.org/ru/blog/rkn</id><content type="html" xml:base="https://miningsoft.org/ru/blog/rkn/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       Роскомнадзор, разблокируй! Как отстоять свой сайт?
@@ -2342,134 +2700,4 @@
       <p><a href="https://www.forbes.com/sites/forbestechcouncil/2022/10/20/advantages-and-disadvantages-of-blockchain-technology/">Advantages And Disadvantages Of Blockchain Technology</a> <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Блокчейн: что такое, как работает и зачем нужен? Простое объяснение блокчейн технологии для новичков и продвинутых пользователей.]]></summary></entry><entry xml:lang="ru"><title type="html">Взгляд в будущее Биткойна: что будет с криптой через 10 лет?</title><link href="https://miningsoft.org/ru/blog/btc-potencial/" rel="alternate" type="text/html" title="Взгляд в будущее Биткойна: что будет с криптой через 10 лет?" /><published>2023-02-09T00:00:00-05:00</published><updated>2023-02-28T00:00:00-05:00</updated><id>https://miningsoft.org/ru/blog/btc-potencial</id><content type="html" xml:base="https://miningsoft.org/ru/blog/btc-potencial/"><![CDATA[<div class="paper btc">
-  <div class="pattern">
-    <div class="note-cont">
-      Будущее Биткойна
-    </div>
-  </div>
-</div>
-<p><em>В этой статье вы узнаете о перспективах биткойна.</em></p>
-
-<p>Будущее <a href="/ru/articles/bitcoin">биткойна, первой и крупнейшей в мире криптовалюты</a>, является предметом многочисленных спекуляций и споров. За десятилетие, прошедшее с момента его создания, Биткойн превратился из нишевого актива в имя нарицательное, но что ждет эту инновационную технологию в следующие 10 лет?</p>
-
-<p class="notice--warning">Рассмотрим ключевые факторы, которые могут повлиять на будущее <a href="/ru/articles/bitcoin">Биткойн</a>, и предоставим сведения о том, что мы можем ожидать в ближайшие годы.</p>
-
-<figure><a href="/assets/images/articles/pic/btc_1.webp" class="image-popup"> <img src="/assets/images/articles/pic/btc_1.webp" alt=" btc img" /></a></figure>
-
-<table>
-  <thead>
-    <tr>
-      <th>Основатель</th>
-      <th>Сатоши Накамото</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>💰 Монета</td>
-      <td>BTC</td>
-    </tr>
-    <tr>
-      <td>🎬 Старт</td>
-      <td>03.01.2009</td>
-    </tr>
-    <tr>
-      <td>🛍️ Макс. количество</td>
-      <td>21 000 000 биткойнов</td>
-    </tr>
-    <tr>
-      <td>🔮 Эмиссия</td>
-      <td>18.925.00 BTC</td>
-    </tr>
-    <tr>
-      <td>🥇 Текущий ранг</td>
-      <td>#1</td>
-    </tr>
-    <tr>
-      <td>📝 Белая книга</td>
-      <td><a href="https://www.ussc.gov/sites/default/files/pdf/training/annual-national-training-seminar/2018/Emerging_Tech_Bitcoin_Crypto.pdf">BTC whitepaper</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="масштабируемость">Масштабируемость</h2>
-
-<p>Одной из ключевых проблем, стоящих перед Биткойном, является масштабируемость<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup>, способность сети обрабатывать растущее число транзакций по мере того, как все больше людей осваивают эту технологию.</p>
-
-<p>В течение следующих 10 лет вполне вероятно, что сети Биткойн придется продолжать развиваться и адаптироваться, чтобы справиться с растущим спросом.</p>
-
-<p class="notice--success">Одним из возможных решений является реализация Lightning Network, платежного протокола второго уровня, который обеспечивает быстрые и недорогие транзакции, не перегружая основную сеть Биткойн.</p>
-
-<p>Если это и другие решения масштабируемости будут успешно реализованы, это может в значительной степени проложить путь для более широкого внедрения и роста Биткойн.</p>
-
-<h2 id="регулирование">Регулирование</h2>
-
-<div class="imgcen">
-
-</div>
-
-<p>Еще одним фактором, который может значительно повлиять на будущее Биткойна, является регулирование<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup>.</p>
-
-<p class="notice--danger">В последние годы регулирующие органы по всему миру стали более внимательно относиться к криптовалютам, и многие страны ввели новые законы и правила, регулирующие их использование.</p>
-
-<p>В то время как некоторые утверждают, что чрезмерное регулирование может задушить инновации и ограничить потенциал криптовалют, другие считают, что разумное регулирование поможет защитить потребителей и предотвратить преступную деятельность.</p>
-
-<p>В следующие 10 лет, скорее всего, будут продолжаться дебаты о том, как лучше всего регулировать криптовалюты, и исход этих дебатов окажет значительное влияние на будущее Биткойна.</p>
-
-<figure><a href="/assets/images/articles/pic/btc_2.webp" class="image-popup"> <img src="/assets/images/articles/pic/btc_2.webp" alt=" btc img" /></a></figure>
-
-<h2 id="институциональное-принятие">Институциональное принятие</h2>
-
-<p>В последние годы мы уже наблюдаем значительный рост институционального интереса к криптовалютам, особенно к биткойнам. От инвестиционных банков и хедж-фондов до пенсионных фондов и пожертвований все больше и больше традиционных финансовых игроков начинают выделять ресурсы на криптовалюты.</p>
-
-<p class="notice--info">Эта тенденция, вероятно, сохранится в ближайшие 10 лет, поскольку институциональные инвесторы привыкают к этому классу активов и стремятся диверсифицировать свои портфели.<sup id="fnref:3"><a href="#fn:3" class="footnote" rel="footnote" role="doc-noteref">3</a></sup></p>
-
-<p>Выход на рынок институциональных инвесторов может помочь повысить стабильность и доверие к рынку криптовалют и увеличить спрос на биткойны.</p>
-
-<h2 id="технологические-разработки">Технологические разработки</h2>
-
-<p>Мир технологий постоянно развивается, и криптовалюты не исключение. В течение следующих 10 лет мы можем ожидать продолжения инноваций и развития в сфере криптовалют, включая появление новых технологий и вариантов использования.</p>
-
-<p class="notice--ya">Например, рост децентрализованных финансов (DeFi) и невзаимозаменяемых токенов (NFT) уже оказывает большое влияние на рынок криптовалют, и эта тенденция, вероятно, сохранится.</p>
-
-<p>По мере того, как технологии продолжают развиваться, они могут открыть новые возможности для Биткойна и способствовать его росту и внедрению.</p>
-
-<figure><a href="/assets/images/articles/pic/btc_3.webp" class="image-popup"> <img src="/assets/images/articles/pic/btc_3.webp" alt=" btc img" /></a></figure>
-
-<h2 id="соревнование">Соревнование</h2>
-
-<p>Хотя биткойн в настоящее время является крупнейшей и наиболее известной криптовалютой, он далеко не единственный.</p>
-
-<p class="notice--primary">В течение следующих 10 лет мы можем ожидать продолжения конкуренции со стороны других криптовалют, включая новых участников и известных игроков.<sup id="fnref:4"><a href="#fn:4" class="footnote" rel="footnote" role="doc-noteref">4</a></sup></p>
-
-<p>Некоторые из этих конкурентов могут предложить более быстрые, дешевые или более безопасные альтернативы Биткойну и потенциально могут бросить вызов его доминированию. Тем не менее, у Биткойна есть значительное преимущество и сильный сетевой эффект, который может дать ему конкурентное преимущество в ближайшие годы.</p>
-
-<h2 id="заключение">Заключение</h2>
-
-<p>Будущее Биткойна неопределено, но есть несколько ключевых факторов, которыеизменить свою траекторию в ближайшие годы, включая масштабируемость, регулирование, институциональное внедрение и технологические разработки.</p>
-
-<p>Следующие 10 лет, вероятно, станут периодом роста и развития Биткойна и более широкого рынка криптовалют.</p>
-
-<p>Хотя невозможно точно предсказать, что ждет его в будущем, Биткойн уже прошел долгий путь с момента своего создания в 2009 году и может продолжать играть значительную роль в финансовом мире.</p>
-
-<p class="notice--success">Прежде чем инвестировать в Биткойн, важно провести исследование и понять риски и потенциальные выгоды. Вам также следует прочитать <a href="https://coinwire.com/price-predictions/">статьи о прогнозировании цен</a>, чтобы вооружиться необходимыми знаниями.</p>
-
-<p>С рассчитанным риском Биткойн может предложить потенциал роста и уникальную возможность участвовать в развивающемся мире криптовалют.</p>
-
-<p>Мир криптовалют быстро развивается, поэтому за ним стоит следить тем, кто имеет опыт или только начинает инвестировать. Правильный подход может привести к росту и созданию богатства в будущем.</p>
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1">
-      <p><a href="https://en.wikipedia.org/wiki/Bitcoin_scalability_problem">Проблема масштабируемости Биткойна</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:2">
-      <p><a href="https://www.thebalancemoney.com/can-bitcoin-regulation-make-cryptocurrency-safe-4173836">Может ли регулирование Биткойна сделать криптовалюту более безопасной?</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:3">
-      <p><a href="https://www.coindesk.com/consensus-magazine/2022/12/28/the-next-wave-of-institutional-digital-asset- принятие/">Следующая волна принятия институциональных цифровых активов</a> <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:4">
-      <p><a href="https://www.econstor.eu/bitstream/10419/103022/1/791932281.pdf">Конкуренция на рынке криптовалют - EconStor</a> <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Будущее Биткойна В этой статье вы узнаете о перспективах биткойна.]]></summary></entry></feed>
+</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Блокчейн: что такое, как работает и зачем нужен? Простое объяснение блокчейн технологии для новичков и продвинутых пользователей.]]></summary></entry></feed>
