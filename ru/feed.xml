@@ -1,4 +1,239 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="ru" /><updated>2025-12-09T09:28:38-05:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="ru"><title type="html">CryptoEasily запускает бесплатные сервисы майнинга Bitcoin (BTC), Dogecoin (DOGE) и Litecoin (LTC)</title><link href="https://miningsoft.org/ru/blog/easily/" rel="alternate" type="text/html" title="CryptoEasily запускает бесплатные сервисы майнинга Bitcoin (BTC), Dogecoin (DOGE) и Litecoin (LTC)" /><published>2025-12-09T00:00:00-05:00</published><updated>2025-12-09T00:00:00-05:00</updated><id>https://miningsoft.org/ru/blog/easily</id><content type="html" xml:base="https://miningsoft.org/ru/blog/easily/"><![CDATA[<div class="paper wallet">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="ru" /><updated>2026-10-16T10:20:52-04:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="ru"><title type="html">OneKey Pro 2: честный отзыв, баги safeOS и стоит ли $299</title><link href="https://miningsoft.org/ru/wallets/onekey-pro2/" rel="alternate" type="text/html" title="OneKey Pro 2: честный отзыв, баги safeOS и стоит ли $299" /><published>2026-10-16T00:00:00-04:00</published><updated>2026-10-16T00:00:00-04:00</updated><id>https://miningsoft.org/ru/wallets/onekey-pro2</id><content type="html" xml:base="https://miningsoft.org/ru/wallets/onekey-pro2/"><![CDATA[<div class="paper wallet">
+  <div class="pattern">
+    <div class="note-cont">
+      Проверил AMOLED на 50 FPS, 4 чипа EAL6+, как работает Air-Gap, батарею 700 мАч, косяки прошивки по Bluetooth и подписку Prime.
+    </div>
+  </div>
+</div>
+<p><em>В этом обзре вы узнаете все про аппаратный кошелек OneKey Pro 2</em></p>
+
+<p><a href="https://onekey.so/products/onekey-pro-2/" class="btn btn--light-outline btn--x-large">Официальный сайт</a></p>
+
+<h2 id="что-такое-onekey-pro-2">Что такое OneKey Pro 2?</h2>
+
+<section>
+
+  <p><dfn>Кошелек OneKey Pro 2</dfn> - это флагманский аппаратный криптокошелек с 3,54-дюймовым AMOLED-экраном, сканером пальца и опциональным режимом подписи через QR-коды через встроенную камеру.</p>
+
+  <p class="notice--primary">Он поддерживает тысчи криптовалют<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup> и десятки сетей. Среди них, Bitcoin, Ethereum, EVM-сети, Ripple, Solana, Sui, Tron и др.</p>
+
+</section>
+
+<h2 id="вердикт-за-30-сек">Вердикт за 30 сек</h2>
+
+<p>Впервые взяв в руки OneKey Pro 2, я поймал стойкое ощущение, будто держу миниатюрный Айфончик. Корпус всего 6,2 мм, шикарный AMOLED на 3,54 дюйма. Роскошь.</p>
+
+<p>По удобству проверки транзакций перед подписью (Clear Signing) и защите от фишинга аппарат реально обходит конкурентов.</p>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/image1.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/image1.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>Но фасад красивый, а за ним - суровые реалии:</p>
+
+<ul>
+  <li>Батарея 700 мАч тает на глазах при ярком экране.</li>
+  <li>Прошивка по Bluetooth сбоит.</li>
+  <li>А через полгода вам мягко предложат платить по $29,99 в месяц за подписку Prime.</li>
+</ul>
+
+<h2 id="обзор-onekey-pro-2">Обзор OneKey Pro 2</h2>
+
+<h3 id="эргономика-и-экран-за-что-я-полюбил-это-железо">Эргономика и экран. За что я полюбил это железо</h3>
+
+<p>По сборке OneKey Pro 2 на порядок монолитнее и премиальнее пластиковых собратьев вроде Ledger Flex.</p>
+
+<p>В корпусе:</p>
+
+<ul>
+  <li>матовая стеклянная спинка.</li>
+  <li>Алюминиевый фрейм G3 толщиной 6,2 мм.</li>
+  <li>И Corning Gorilla Glass 5.</li>
+</ul>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/image2.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/image2.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>AMOLED-матрица 3,54 имеет пиковую яркость 800 нит и плотность 336 PPI. Четкость невероятная. В отличие от рваных E-Ink экранов у Ledger, новая safeOS 2 работает с частотой до 50–60 FPS - прокрутка списков и меню идеально плавная.</p>
+
+<p>В коробке:</p>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/image3.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/image3.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<ul>
+  <li>Непосредственно сам OneKey Pro 2.</li>
+  <li>Зашифрованная NFC-карта SeedCard предназначеная для резервной копии мнемоники и имеющая отдельный PIN-код; ее номинал составляет $39.</li>
+  <li>Магнитный тканевый чехол-книжка Fabric Folio Case имеющий номинал $39.</li>
+  <li>Плетеный кабель USB-C - USB-C высокой прочности предназначенный для связи и зарядки.</li>
+  <li>3 бумажные брендированные карточки Recovery Sheets для сид-фразы из 12, 18 или 24 слов.</li>
+  <li>Документация и стикеры, включающие руководство Quick Start / Getting Started и фирменные наклейки.</li>
+  <li>Подписка 6 месяцев OneKey App Prime, дающая доступ к SignGuard (симуляция транзакций, проверка сайтов, риск-сканер); ее номинал составляет $179.</li>
+</ul>
+
+<p class="notice--success">Чехол Fabric Folio Case держится на корпусе благодаря 4 сильным магнитам в нижней части. Сам чехол не мешает беспроводной зарядке Qi. И прикрывает стекла 2.5D Gorilla Glass 5 при падении.</p>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/image4.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/image4.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>Датчик отпечатков Touch ID 508 DPI прячется в боковой кнопке питания. 1 легкое касание - и кошелек мгновенно разблокирован.</p>
+
+<p>Мой лайфхак при настройке - не давите на кнопку пальцем изо всех сил! Калибруйте сканер легкими прикосновениями подушечки под разными углами. Если зарегистрировать отпечаток с сильным нажатием, аппарат будет постоянно сыпать ошибками при повседневной разблокировке.</p>
+
+<h3 id="прочность-и-сколькость">Прочность и сколькость</h3>
+
+<p class="notice--ya">Задняя панель из матового стекла Gorilla Glass 5 стойко переносит царапины от стальных ключей. Настоятельно советую сразу упаковать его в комплектный магнитный чехол Fabric Folio Case чтобы кошелек не падал.</p>
+
+<h3 id="реальные-баги-и-нюансы-safeos-2-из-личного-опыта">Реальные баги и нюансы safeOS 2 из личного опыта</h3>
+
+<p>В рекламных роликах блогеры нахваливают девайс. Но в реале я нарыл кучу косяков:</p>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/image5.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/image5.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<ul>
+  <li><strong>Обновление прошивки по Bluetooth виснет</strong>. Попробуете перекинуть систему с v1.01 на v1.03 с телефона - процесс намертво застревает на 90% и выдает Failed.</li>
+  <li><strong>Забудьте про беспроводное обновление</strong>. Подсоедините кошелек по кабелю USB-C к приложению на компе или Mac - так прошивка встает за пару минут без нервов.</li>
+  <li><strong>Если кошелек полностью выключен, готовьтесь ждать секунд 7-8</strong> от нажатия кнопки питания до рабочего стола. Когда надо срочно подтвердить DeFi-сделку, пока не улетела цена газа, эти секунды - вечность.</li>
+</ul>
+
+<p>Из-за долгой первоначальной загрузки, Вас быстро станет раздражать экран Hello.</p>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/image6.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/image6.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>Далее - жор батареи. Внутри стоит литий-полимерный аккум на 700 мАч. Выкрутите яркость AMOLED на максимум (800 нит) - и % заряда утекает на глазах за несколько минут брожения по настройкам. Хотя для редких подписей по 15 сек его хватит на пару дней.</p>
+
+<p class="notice--warning">Козырная фича - показ баланса на дисплее кошелька. По факту это просто застывший снимок данных на момент последней синхронизации с телефоном. Оффлайн он сам не обновляется, так что особого толку от него я не заметил.</p>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/image7.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/image7.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>Разрешение у задней камеры скромное, кадровая частота низкая - картинка заметно тормозит. Для сканирования QR-кодов хватает, но до эстетики смартфона далеко.</p>
+
+<h2 id="функции-безопасности">Функции безопасности</h2>
+
+<p>Насчет защиты средств OneKey Pro 2 реально заслуживает высокой оценки.</p>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/image8.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/image8.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>Упрощенная схема такая:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[ Вредоносный DApp / Фишинг ] --&gt; [ Модуль кошелька SignGuard (симуляция рисков) ]
+А после - передача данных оффлайн. Никаких сетей. Только QR-коды.
+[ Подтверждение слайдером ] &lt;-- [ Декодирование Clear Signing на экране AMOLED 3,54 ]
+</code></pre></div></div>
+
+<h3 id="clear-signing-против-слепой-подписи">Clear Signing против слепой подписи</h3>
+
+<p>Большой экран раскладывает смарт-контракт по полочкам. Вы четко видите адрес, сумму, комиссию и запрашиваемые разрешения.</p>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/image9.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/image9.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>Приложение и кошелек так же удобно подсвечивают начало и окончание адресов для быстрой сверки.</p>
+
+<h3 id="режим-air-gap-qr-подпись">Режим Air-Gap (QR-подпись)</h3>
+
+<p>Из коробки в кошельке включены Bluetooth, USB и NFC. Параноик? Зайдите в <code class="language-plaintext highlighter-rouge">Settings</code> -&gt; <code class="language-plaintext highlighter-rouge">Wallet</code> -&gt; <code class="language-plaintext highlighter-rouge">Air-Gap Mode</code> и щелкните тумблер.</p>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/image10.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/image10.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>Кабель и радиоэфир мгновенно обесточиваются, а подпись уходит строго на обмен QR-кодами через камеру.</p>
+
+<h3 id="4-чипа-eal6-thd89">4 чипа EAL6+ (THD89)</h3>
+
+<p>Ключи и биометрия изолированы в каскаде из 4 чипов.</p>
+
+<p>А чтобы прикрыть дыры от слабых генераторов энтропии, safeOS 2 дает выгрузить сырые физические значения <code class="language-plaintext highlighter-rouge">int_entropy</code> и <code class="language-plaintext highlighter-rouge">ext_entropy</code>.</p>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/image11.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/image11.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>Качество математической случайности можно проверить сторонним оффлайн-софтом еще до деривации приватных ключей.</p>
+
+<h3 id="nfc-карта-seedcard">NFC-карта SeedCard</h3>
+
+<p>В коробке лежит зашифрованная пластиковая карта. Прикладываете ее к кошельку, задаете отдельный PIN - и резервная копия готова. Восстановление с карты занимает всего полминуты.</p>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/image12.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/image12.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>Карта сама стирает ключ после 5 неверных вводов PIN-кода подряд. Так подобрать пароль не выйдет.</p>
+
+<p>Но SeedCard не заменяет сид-фразу BIP-39! После 10 неверных вводов PIN карта сама стирается. Бумажный или титановый бэкап 24 слов по-прежнему ОБЯЗАТЕЛЕН.</p>
+
+<h3 id="двухуровневая-защита-от-подмены-железа">Двухуровневая защита от подмены железа</h3>
+
+<p>Проверка подлинности стартует с протокола <code class="language-plaintext highlighter-rouge">Genuine Check</code> при связке с приложением OneKey. Он валидирует цифровой сертификат чипов EAL6+.</p>
+
+<p>Так же проверяются Dapps-приложения:</p>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/image13.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/image13.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>Плюс при каждом холодном запуске бутлоадер сверяет цифровую подпись прошивки. Неоригинальное ПО не загрузится.</p>
+
+<h3 id="безопасное-использование-общественной-зарядки-qi">Безопасное использование общественной зарядки Qi</h3>
+
+<p>Модуль беспроводной зарядки Qi позволяет пополнять аккумулятор на 700 мА·ч от пауэрбанков без кабелей USB-C. Это на 100% снимает риск аппаратных атак Juice Jacking через скомпрометированные публичные провода в поездках.</p>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/image14.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/image14.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>Так же кошелек поддерживает FIDO2 и оффлайн-аутентификации.</p>
+
+<h3 id="скрытые-кошельки-и-алгоритм-passphrase">Скрытые кошельки и алгоритм Passphrase</h3>
+
+<p>В софте safeOS 2 есть полноценная поддержка 25-го слова (Passphrase) для скрытых кошельков. Вводите альтернативную фразу или другой PIN-код - открывается абсолютно пустой счет.</p>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/image15.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/image15.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>Наличия основного баланса не видно. Это прикрывает владельца от атак физического принуждения.</p>
+
+<h2 id="материалы-прочность-чипов-и-корпуса">Материалы: прочность чипов и корпуса</h2>
+
+<h3 id="автомобильный-стандарт-aec-q100-и-влагозащита-ip56">Автомобильный стандарт AEC-Q100 и влагозащита IP56</h3>
+
+<p>Плата и внутренние микросхемы Pro 2 прошли проверку по автомобильному стандарту надежности AEC-Q100.</p>
+
+<p class="notice--info">Корпус из алюминия и матового стекла держит удар по стандарту IP56 - пыль и прямые брызги ему не страшны. Но топить его в воде нельзя!</p>
+
+<h3 id="прочность-стеклянного-корпуса-gorilla-glass-5">Прочность стеклянного корпуса Gorilla Glass 5</h3>
+
+<p>Задняя панель кошелька сделана из матового закаленного стекла Corning Gorilla Glass 5, а дисплей прикрыт антибликовым стеклом AG. Твердость материала 6–7 по шкале Мооса не дает появляться царапинам при контакте со стальными ключами.</p>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/image16.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/image16.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>Алюминиевая рама с кривизной G3 вдобавок добавляет жесткости на изгиб.</p>
+
+<h3 id="особенности-индивидуальной-лазерной-гравировки">Особенности индивидуальной лазерной гравировки</h3>
+
+<p>Производитель предлагает опцию нанесения индивидуальной лазерной гравировки на боковую грань алюминиевого фрейма. Можно выгравировать текст, имя или памятную дату.</p>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/image17.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/image17.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>Так стандартный девайс становится уникальным экземпляром и получает дополнительный маркер физической подлинности. Хотя на самом деле это мало кому надо.</p>
+
+<h2 id="стоит-ли-платить-299">Стоит ли платить $299?</h2>
+
+<p>Pro 2 выходит заметно дороже чем Trezor Safe 7 ($249) и Ledger Flex ($249).</p>
+
+<p>За что вы платите:</p>
+
+<ul>
+  <li>OneKey Pro 2 - ультратонкий девайс. 4 чипа EAL6+, AMOLED-экран.</li>
+  <li>SeedCard - $39. Полезная приблуда для быстрой настройки.</li>
+  <li>Чехол Fabric Folio Case - $39. Без него никак. Скользкое стекло выскользнет из рук.</li>
+  <li>6 месяцев подписки OneKey Prime - $179. Проактивный антифишинг SignGuard и симуляция контрактов.</li>
+</ul>
+
+<p class="notice--danger">Но вот подвох с подпиской Prime. Заявленная ценность комплекта в $257 - просто маркетинговая наценка по прайсу. Через полгода бесплатный период Prime закончится. За продвинутый антифишинг и симуляцию транзакций попросят $29,99 в месяц ($239 в год). Базовое хранение, переводы и декодирование Clear Signing останутся бесплатными. Но осадочек от подписки все равно есть.</p>
+
+<h2 id="итоговый-вердикт">Итоговый вердикт</h2>
+
+<p>Перед нами самый технологичный и удобный кошелек. Берите смело, если вы активно вертитесь в DeFi/Web3, хотите видеть транзакции на большом AMOLED-экране, цените разблокировку пальцем и ищете гибкий девайс с опциональным Air-Gap.</p>
+
+<p>Блютуз удобный, но менее безопасный чем QR оффлайн транзакции.</p>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/image18.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/image18.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>Обходите Pro 2 стороной, если вы упертый биткоин-максималист (на старте нет прошивки Bitcoin-only и поддержки Sparrow Wallet), вам нужна батарея на месяц работы или вы категорически против любых платных подписок в экосистеме кошелька.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1">
+      <p><a href="https://onekey.so/ru/products/onekey-pro-2/">Официальный сайт</a>. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Matthew Wood</name></author><category term="wallets" /><summary type="html"><![CDATA[Проверил AMOLED на 50 FPS, 4 чипа EAL6+, как работает Air-Gap, батарею 700 мАч, косяки прошивки по Bluetooth и подписку Prime. В этом обзре вы узнаете все про аппаратный кошелек OneKey Pro 2]]></summary></entry><entry xml:lang="ru"><title type="html">CryptoEasily запускает бесплатные сервисы майнинга Bitcoin (BTC), Dogecoin (DOGE) и Litecoin (LTC)</title><link href="https://miningsoft.org/ru/blog/easily/" rel="alternate" type="text/html" title="CryptoEasily запускает бесплатные сервисы майнинга Bitcoin (BTC), Dogecoin (DOGE) и Litecoin (LTC)" /><published>2025-12-09T00:00:00-04:00</published><updated>2025-12-09T00:00:00-04:00</updated><id>https://miningsoft.org/ru/blog/easily</id><content type="html" xml:base="https://miningsoft.org/ru/blog/easily/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       Британская платформа CryptoEasily запустила новое мобильное приложение для бесплатного облачного майнинга криптовалют - Bitcoin, Litecoin и Dogecoin.
@@ -81,7 +316,7 @@
 
 <p>
 «MiningSoft» не предоставляет инвестиционных консультаций; материалы публикуются исключительно в ознакомительных целях. Криптовалюта - волатильный актив, способный привести к финансовым потерям.
-</p>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Британская платформа CryptoEasily запустила новое мобильное приложение для бесплатного облачного майнинга криптовалют - Bitcoin, Litecoin и Dogecoin. Вы узнаете облачный майнинг на CryptoEasily.]]></summary></entry><entry xml:lang="ru"><title type="html">6 лучших крипто дебетовых карт - сравнение условий и комиссий</title><link href="https://miningsoft.org/ru/articles/cards/" rel="alternate" type="text/html" title="6 лучших крипто дебетовых карт - сравнение условий и комиссий" /><published>2025-11-21T00:00:00-05:00</published><updated>2025-11-23T00:00:00-05:00</updated><id>https://miningsoft.org/ru/articles/cards</id><content type="html" xml:base="https://miningsoft.org/ru/articles/cards/"><![CDATA[<div class="paper wallet">
+</p>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Британская платформа CryptoEasily запустила новое мобильное приложение для бесплатного облачного майнинга криптовалют - Bitcoin, Litecoin и Dogecoin. Вы узнаете облачный майнинг на CryptoEasily.]]></summary></entry><entry xml:lang="ru"><title type="html">6 лучших крипто дебетовых карт - сравнение условий и комиссий</title><link href="https://miningsoft.org/ru/articles/cards/" rel="alternate" type="text/html" title="6 лучших крипто дебетовых карт - сравнение условий и комиссий" /><published>2025-11-21T00:00:00-04:00</published><updated>2025-11-23T00:00:00-04:00</updated><id>https://miningsoft.org/ru/articles/cards</id><content type="html" xml:base="https://miningsoft.org/ru/articles/cards/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
        Карты позволяют тратить криптовалюту везде, где принимаются Visa/Mastercard, часто с поддержкой Apple/Google Pay.
@@ -436,7 +671,7 @@
       <p><a href="https://help.whitebit.com/hc/ru/articles/23273438576925-%D0%94%D0%B5%D0%B1%D0%B5%D1%82%D0%BE%D0%B2%D0%B0%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B0-WhiteBIT-N%C3%B3va">Дебетовая карта WhiteBIT Nóva</a>. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Карты позволяют тратить криптовалюту везде, где принимаются Visa/Mastercard, часто с поддержкой Apple/Google Pay. Узнайте какая крипто дебетовая карта лучше? 6 вариантов для сравнения]]></summary></entry><entry xml:lang="ru"><title type="html">8 DePIN-проектов с аирдропом: как получить токены и способы участия</title><link href="https://miningsoft.org/ru/blog/depin-airdrops/" rel="alternate" type="text/html" title="8 DePIN-проектов с аирдропом: как получить токены и способы участия" /><published>2025-11-20T00:00:00-05:00</published><updated>2025-11-20T00:00:00-05:00</updated><id>https://miningsoft.org/ru/blog/depin-airdrops</id><content type="html" xml:base="https://miningsoft.org/ru/blog/depin-airdrops/"><![CDATA[<div class="paper wallet">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Карты позволяют тратить криптовалюту везде, где принимаются Visa/Mastercard, часто с поддержкой Apple/Google Pay. Узнайте какая крипто дебетовая карта лучше? 6 вариантов для сравнения]]></summary></entry><entry xml:lang="ru"><title type="html">8 DePIN-проектов с аирдропом: как получить токены и способы участия</title><link href="https://miningsoft.org/ru/blog/depin-airdrops/" rel="alternate" type="text/html" title="8 DePIN-проектов с аирдропом: как получить токены и способы участия" /><published>2025-11-20T00:00:00-04:00</published><updated>2025-11-20T00:00:00-04:00</updated><id>https://miningsoft.org/ru/blog/depin-airdrops</id><content type="html" xml:base="https://miningsoft.org/ru/blog/depin-airdrops/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       Большинство проектов можно запускать бесплатно, но для максимальной доходности часто требуется оборудование.
@@ -575,7 +810,7 @@
       <p><a href="https://x.com/nubilanetwork/status/1980277921412784326">Nubila Secures $8M Seed Round to Accelerate the Prediction Market Oracle Frontier</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Большинство проектов можно запускать бесплатно, но для максимальной доходности часто требуется оборудование. Вы узнаете про 8 уникальных крипто-эйрдропов в пространстве DePIN.]]></summary></entry><entry xml:lang="ru"><title type="html">Ethereum Fusaka – хардфорк о котором нужно знать держателям ETH</title><link href="https://miningsoft.org/ru/blog/fusaka/" rel="alternate" type="text/html" title="Ethereum Fusaka – хардфорк о котором нужно знать держателям ETH" /><published>2025-11-19T00:00:00-05:00</published><updated>2025-11-23T00:00:00-05:00</updated><id>https://miningsoft.org/ru/blog/fusaka</id><content type="html" xml:base="https://miningsoft.org/ru/blog/fusaka/"><![CDATA[<div class="paper wallet">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Большинство проектов можно запускать бесплатно, но для максимальной доходности часто требуется оборудование. Вы узнаете про 8 уникальных крипто-эйрдропов в пространстве DePIN.]]></summary></entry><entry xml:lang="ru"><title type="html">Ethereum Fusaka – хардфорк о котором нужно знать держателям ETH</title><link href="https://miningsoft.org/ru/blog/fusaka/" rel="alternate" type="text/html" title="Ethereum Fusaka – хардфорк о котором нужно знать держателям ETH" /><published>2025-11-19T00:00:00-04:00</published><updated>2025-11-23T00:00:00-04:00</updated><id>https://miningsoft.org/ru/blog/fusaka</id><content type="html" xml:base="https://miningsoft.org/ru/blog/fusaka/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       Несмотря на риск краткосрочной коррекции, обновление Fusaka закладывает фундамент для долгосрочного роста ETH.
@@ -790,7 +1025,7 @@
       <p><a href="https://eips.ethereum.org/EIPS/eip-7551">EIP-7951</a>. <a href="#fnref:12" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Несмотря на риск краткосрочной коррекции, обновление Fusaka закладывает фундамент для долгосрочного роста ETH. Узнайте как грядущее обновление Ethereum Fusaka, нацеленное на повышение масштабируемости и безопасности сети за счет 12 технических улучшений, может стать катализатором для роста цены ETH.]]></summary></entry><entry xml:lang="ru"><title type="html">Trezor Safe 7: Обзор аппаратного кошелька с квантовой готовностью (2025)</title><link href="https://miningsoft.org/ru/wallets/trezor-safe-7/" rel="alternate" type="text/html" title="Trezor Safe 7: Обзор аппаратного кошелька с квантовой готовностью (2025)" /><published>2025-11-12T00:00:00-05:00</published><updated>2025-11-13T00:00:00-05:00</updated><id>https://miningsoft.org/ru/wallets/trezor-safe-7</id><content type="html" xml:base="https://miningsoft.org/ru/wallets/trezor-safe-7/"><![CDATA[<div class="paper wallet">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Несмотря на риск краткосрочной коррекции, обновление Fusaka закладывает фундамент для долгосрочного роста ETH. Узнайте как грядущее обновление Ethereum Fusaka, нацеленное на повышение масштабируемости и безопасности сети за счет 12 технических улучшений, может стать катализатором для роста цены ETH.]]></summary></entry><entry xml:lang="ru"><title type="html">Trezor Safe 7: Обзор аппаратного кошелька с квантовой готовностью (2025)</title><link href="https://miningsoft.org/ru/wallets/trezor-safe-7/" rel="alternate" type="text/html" title="Trezor Safe 7: Обзор аппаратного кошелька с квантовой готовностью (2025)" /><published>2025-11-12T00:00:00-04:00</published><updated>2025-11-13T00:00:00-04:00</updated><id>https://miningsoft.org/ru/wallets/trezor-safe-7</id><content type="html" xml:base="https://miningsoft.org/ru/wallets/trezor-safe-7/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       Обзор и сравнение Trezor Safe 7. Плюсы и недостатки кошелька
@@ -1016,7 +1251,7 @@
       <p><a href="https://trezor.io/coins">Официальный сайт</a>. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="wallets" /><summary type="html"><![CDATA[Обзор и сравнение Trezor Safe 7. Плюсы и недостатки кошелька В этом обзре вы узнаете все про аппаратный кошелек Trezor Safe 7]]></summary></entry><entry xml:lang="ru"><title type="html">5 Советов, которые помогут Вам найти надежную автоматизированную платформу для торговли криптовалютами</title><link href="https://miningsoft.org/ru/blog/auto-platform/" rel="alternate" type="text/html" title="5 Советов, которые помогут Вам найти надежную автоматизированную платформу для торговли криптовалютами" /><published>2023-10-12T00:00:00-05:00</published><updated>2023-10-12T00:00:00-05:00</updated><id>https://miningsoft.org/ru/blog/auto-platform</id><content type="html" xml:base="https://miningsoft.org/ru/blog/auto-platform/"><![CDATA[<div class="paper wallet">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="wallets" /><summary type="html"><![CDATA[Обзор и сравнение Trezor Safe 7. Плюсы и недостатки кошелька В этом обзре вы узнаете все про аппаратный кошелек Trezor Safe 7]]></summary></entry><entry xml:lang="ru"><title type="html">5 Советов, которые помогут Вам найти надежную автоматизированную платформу для торговли криптовалютами</title><link href="https://miningsoft.org/ru/blog/auto-platform/" rel="alternate" type="text/html" title="5 Советов, которые помогут Вам найти надежную автоматизированную платформу для торговли криптовалютами" /><published>2023-10-12T00:00:00-04:00</published><updated>2023-10-12T00:00:00-04:00</updated><id>https://miningsoft.org/ru/blog/auto-platform</id><content type="html" xml:base="https://miningsoft.org/ru/blog/auto-platform/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       Важные аспекты, которые следует учитывать при выборе торговой платформы
@@ -1081,7 +1316,7 @@
 
 <p class="notice--danger">Это безрисковый способ определить, соответствует ли платформа вашим торговым целям.</p>
 
-<p>Убедитесь, что вы учитываете вышеперечисленные факторы, чтобы выбрать лучшую автоматизированную платформу для торговли криптовалютами.</p>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Важные аспекты, которые следует учитывать при выборе торговой платформы Убедитесь, что вы учитываете вышеперечисленные факторы, чтобы выбрать лучшую автоматизированную платформу для торговли криптовалютами.]]></summary></entry><entry xml:lang="ru"><title type="html">Whatsminer tool: Скачать бесплатно, Настройка на русском</title><link href="https://miningsoft.org/ru/tools/whatsminertool/" rel="alternate" type="text/html" title="Whatsminer tool: Скачать бесплатно, Настройка на русском" /><published>2023-04-13T00:00:00-05:00</published><updated>2025-08-08T00:00:00-05:00</updated><id>https://miningsoft.org/ru/tools/whatsminertool</id><content type="html" xml:base="https://miningsoft.org/ru/tools/whatsminertool/"><![CDATA[<div class="paper wallet">
+<p>Убедитесь, что вы учитываете вышеперечисленные факторы, чтобы выбрать лучшую автоматизированную платформу для торговли криптовалютами.</p>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Важные аспекты, которые следует учитывать при выборе торговой платформы Убедитесь, что вы учитываете вышеперечисленные факторы, чтобы выбрать лучшую автоматизированную платформу для торговли криптовалютами.]]></summary></entry><entry xml:lang="ru"><title type="html">Whatsminer tool: Скачать бесплатно, Настройка на русском</title><link href="https://miningsoft.org/ru/tools/whatsminertool/" rel="alternate" type="text/html" title="Whatsminer tool: Скачать бесплатно, Настройка на русском" /><published>2023-04-13T00:00:00-04:00</published><updated>2025-08-08T00:00:00-04:00</updated><id>https://miningsoft.org/ru/tools/whatsminertool</id><content type="html" xml:base="https://miningsoft.org/ru/tools/whatsminertool/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       WhatsMiner tool: как использовать - пользовательское руководство.
@@ -1567,100 +1802,7 @@
       <p><a href="https://microbt-whatsminer.com/">WhatsMiner - Official Website</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="tools" /><summary type="html"><![CDATA[WhatsMiner tool: как использовать - пользовательское руководство. Получите полный набор инструкций по настройке и обновлению WhatsMiner tool v8.1.34 и более ранним версиям.]]></summary></entry><entry xml:lang="ru"><title type="html">Дизайн Blockchain проектов: принципы, концепция и архитектура</title><link href="https://miningsoft.org/ru/blog/cex-design/" rel="alternate" type="text/html" title="Дизайн Blockchain проектов: принципы, концепция и архитектура" /><published>2023-02-22T00:00:00-05:00</published><updated>2023-02-22T00:00:00-05:00</updated><id>https://miningsoft.org/ru/blog/cex-design</id><content type="html" xml:base="https://miningsoft.org/ru/blog/cex-design/"><![CDATA[<div class="paper wallet">
-  <div class="pattern">
-    <div class="note-cont">
-      Ui дизайн, ориентированный на человека, доверие и простота
-    </div>
-  </div>
-</div>
-<p><em>Существует несколько вещей, о которых следует помнить при разработке блокчейна: простота, безопасность, прозрачность и др.</em></p>
-
-<h2 id="введение">Введение</h2>
-
-<p>Блокчейн. Даже простое его название вызывает в воображении картины математики, криптографии и узлов, цифровой валюты, обеспечивающие плавные, быстрые и безопасные транзакции.</p>
-
-<p class="notice--success">Но какое отношение все это имеет к дизайну? Вы должны сначала понять основные идеи блокчейна, чтобы проектировать его. Здесь мы перечисляем четыре основных принципа проектирования блокчейна.</p>
-
-<h2 id="что-такое-блокчейн">Что такое блокчейн?</h2>
-
-<p>Вы должны <a href="/ru/articles/blockchain/">понимать блокчейн</a>, чтобы хорошо проектировать его. Существование <a href="/ru/articles/cryptocurrency">криптовалют</a>, таких как Биткойн и Эфириум, стало возможным благодаря технологии блокчейн.</p>
-
-<p class="notice--info">По сути, это распределенный реестр, в котором транзакции записываются открыто и в хронологическом порядке. Затем каждая транзакция сохраняется в блоке данных, который трудно подделать после криптографического подтверждения сетевыми узлами.</p>
-
-<p>Несмотря на то, что <a href="/ru/articles/bitcoin">Биткойн</a> и Эфириум используют разные формы технологии блокчейна, у них есть несколько общих черт.</p>
-
-<p>Децентрализованная природа блокчейна — самое яркое сравнение. Он хранит информацию о транзакциях независимо от какого-либо центрального органа. Группа взаимосвязанных компьютеров образует сеть блокчейна, которая получает копии блокчейна и проверяет транзакции для сохранения целостности реестра.</p>
-
-<p class="notice--ya">В результате не может быть единой точки отказа, и система не может быть изменена или управляема одним лицом.</p>
-
-<p>Технология Blockchain чаще всего используется в криптографии, и, вероятно, именно так вы впервые услышали этот термин. Однако эту технологию можно использовать для всего: от финансовых транзакций до отслеживания медицинской информации и многого другого.</p>
-
-<p class="notice--primary">Название «блокчейн» относится к системе, в которой хранятся данные, которые нельзя изменить.</p>
-
-<p>Способность технологии блокчейн поддерживать децентрализацию — это другая ее сторона, помимо того, что она делает возможным существования криптовалюты.</p>
-
-<p>Децентрализация блокчейна отодвигает принятие решений от централизованного места или органа.</p>
-
-<p class="notice--ya"><a href="https://en.wikipedia.org/wiki/Децентрализация">Децентрализация</a> повышает эффективность и результативность организации за счет избавления от бесполезных компонентов, сокращения дублирования и предотвращения единых точек отказа. Члены децентрализованных сетей должны действовать независимо, не запрашивая одобрения централизованной сети.</p>
-
-<p>Три основные сетевые структуры — централизованная, децентрализованная и распределенная — часто используются при рассмотрении технологической установки.</p>
-
-<p>Хотя децентрализованные сети обычно используются блокчейн-технологией, приложение блокчейна может быть, а может и не быть децентрализованным. Поэтому децентрализацию следует осуществлять дальше по сети, как на технологическом, так и на административном уровнях.</p>
-
-<p class="notice--warning">Поэтому крайне важно помнить о принципах проектирования при работе над продуктом, поддерживающим децентрализацию.</p>
-
-<h2 id="принципы-проектирования-блокчейна-которым-нужно-следовать">Принципы проектирования блокчейна, которым нужно следовать</h2>
-
-<p>Дизайн и разработка финтех-приложений быстро набирают популярность. Вот три принципа дизайна блокчейна, которые вы должны соблюдать. Мы ограничили их тремя, потому что проектирование проектов блокчейна и криптовалюты больше связано с пониманием технологии, ее целевой аудитории и будущего блокчейна, чем с соблюдением правил.</p>
-
-<h3 id="дизайн-ориентированный-на-человека">Дизайн, ориентированный на человека</h3>
-
-<p>Наиболее важным аспектом блокчейна является то, что пользователи должны верить в него. Блокчейн должен быть создан таким образом, чтобы он был понятен всем пользователям, чтобы завоевать их доверие. Таким образом, одним из наиболее важных аспектов дизайна блокчейна является то, насколько он удобен для пользователя.</p>
-
-<p class="notice--success">Предоставление людям, которые могут быть не очень технически подкованными, базовых, интуитивно понятных пользовательских интерфейсов, является одним из способов сделать это. Если вы ищете пример, <a href="https://cex.io/mobile">вы можете скачать приложение для торговли биткойнами для iPhone</a>, созданное CEX.iO.</p>
-
-<h3 id="доверие">Доверие</h3>
-
-<p>Проектирование для блокчейна предполагает планирование создания услуги или приложения, на которое можно положиться, которое невозможно изменить и которое (почти) полностью прозрачно для всех пользователей и заинтересованных сторон.</p>
-
-<p class="notice--danger">Фундаментальной функцией блокчейна является обработка личных данных. Поэтому крайне важно сохранить доверие пользователя, когда дело доходит до этой информации.<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></p>
-
-<p>Это доверие в некоторой степени влияет на надежность и стабильность платформы. Чтобы сохранить доверие пользователей к вашему дизайну и продукту, обращайте внимание на отзывы клиентов и поддерживайте последовательность.</p>
-
-<h3 id="простота">Простота</h3>
-
-<p>Сделайте ваше приложение максимально простым и удобным в использовании. Блокчейн создает почти бесконечный поток данных и информации, поэтому простой интерфейс облегчит работу людей. Это также помогает уменьшить входные барьеры на вашу платформу. Чем меньше пользователю нужно разобраться, тем легче начать его использовать.</p>
-
-<p>С учетом сказанного, есть несколько принципов, о которых следует помнить при разработке для блокчейна, сохраняя при этом простоту.</p>
-
-<ul>
-  <li><strong>Безопасность</strong> – Даже с <a href="https://www.investopedia.com/terms/t/twofactor-authentication-2fa.asp">2FA</a>, у пользователей не должно возникнуть проблем с вводом данных для входа (безопасный пароль или биометрические данные). Что еще более важно, каждая страница, файл и транзакция должны обеспечивать чувство безопасности, сохраняя при этом простоту дизайна и удобство навигации.</li>
-</ul>
-
-<p>Кроме того, безопасность не следует приравнивать к сопротивлению. Вам нужна платформа, которая делает каждое взаимодействие надежным и безопасным.</p>
-
-<ul>
-  <li>
-    <p><strong>Конфиденциальность</strong> – Некоторая степень конфиденциальности необходима для приватной информации. Пользователи хотят конфиденциальности своей личности, а также своей деятельности на вашей платформе. Независимо от того, что делает ваш продукт, псевдонимы и закрытые ключи являются двумя краеугольными камнями технологии блокчейна, которые вы должны использовать.</p>
-  </li>
-  <li>
-    <p><strong>Прозрачность</strong> — для завершения транзакции в блокчейне требуется время, но мы редко знаем точно, сколько этого времени нужно в загруженной сети. Пользователи должны видеть о своих транзакциях, потому что данные конфиденциальны. Держите пользователей в курсе при разработке и помните о прозрачности.</p>
-  </li>
-</ul>
-
-<p class="notice">Чтобы люди понимали, как работает ваш продукт и чем он отличается от продуктов ваших конкурентов, также крайне важен прозрачный подход к управлению.</p>
-
-<ul>
-  <li><strong>Согласованность</strong>. Установите один язык дизайна и используйте его как можно чаще. Это позволяет потребителям легко перемещаться по вашему продукту, определять свое местоположение в любой момент и решать, какие шаги делать дальше. Если пользовательский интерфейс вашего блокчейн-проекта ясен, лаконичен и придерживается единого языка дизайна, он будет более успешным.</li>
-</ul>
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1">
-      <p><a href="https://uxplanet.org/blockchain-and-its-applications-for-service-designers-7b6bfd9fec39">Blockchain and Its Applications for Service Designers</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Ui дизайн, ориентированный на человека, доверие и простота Существует несколько вещей, о которых следует помнить при разработке блокчейна: простота, безопасность, прозрачность и др.]]></summary></entry><entry xml:lang="ru"><title type="html">Что такое криптовалюта? Простыми словами (2023)</title><link href="https://miningsoft.org/ru/articles/cryptocurrency/" rel="alternate" type="text/html" title="Что такое криптовалюта? Простыми словами (2023)" /><published>2023-02-22T00:00:00-05:00</published><updated>2023-02-22T00:00:00-05:00</updated><id>https://miningsoft.org/ru/articles/cryptocurrency</id><content type="html" xml:base="https://miningsoft.org/ru/articles/cryptocurrency/"><![CDATA[<div class="paper btc">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="tools" /><summary type="html"><![CDATA[WhatsMiner tool: как использовать - пользовательское руководство. Получите полный набор инструкций по настройке и обновлению WhatsMiner tool v8.1.34 и более ранним версиям.]]></summary></entry><entry xml:lang="ru"><title type="html">Что такое криптовалюта? Простыми словами (2023)</title><link href="https://miningsoft.org/ru/articles/cryptocurrency/" rel="alternate" type="text/html" title="Что такое криптовалюта? Простыми словами (2023)" /><published>2023-02-22T00:00:00-04:00</published><updated>2023-02-22T00:00:00-04:00</updated><id>https://miningsoft.org/ru/articles/cryptocurrency</id><content type="html" xml:base="https://miningsoft.org/ru/articles/cryptocurrency/"><![CDATA[<div class="paper btc">
   <div class="pattern">
     <div class="note-cont">
       Криптовалюта: что такое, как работает и зачем нужна?
@@ -2215,209 +2357,97 @@
       <p><a href="https://bitcoin.org/ru/how-it-works">Как работает Биткойн?</a> <a href="#fnref:11" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Криптовалюта: что такое, как работает и зачем нужна? Простое объяснение криптовалюты для новичков и продвинутых пользователей.]]></summary></entry><entry xml:lang="ru"><title type="html">Разблокировка сайта юристом - основания для Роскомнадзора</title><link href="https://miningsoft.org/ru/blog/rkn/" rel="alternate" type="text/html" title="Разблокировка сайта юристом - основания для Роскомнадзора" /><published>2023-02-17T00:00:00-05:00</published><updated>2023-02-17T00:00:00-05:00</updated><id>https://miningsoft.org/ru/blog/rkn</id><content type="html" xml:base="https://miningsoft.org/ru/blog/rkn/"><![CDATA[<div class="paper wallet">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Криптовалюта: что такое, как работает и зачем нужна? Простое объяснение криптовалюты для новичков и продвинутых пользователей.]]></summary></entry><entry xml:lang="ru"><title type="html">Дизайн Blockchain проектов: принципы, концепция и архитектура</title><link href="https://miningsoft.org/ru/blog/cex-design/" rel="alternate" type="text/html" title="Дизайн Blockchain проектов: принципы, концепция и архитектура" /><published>2023-02-22T00:00:00-04:00</published><updated>2023-02-22T00:00:00-04:00</updated><id>https://miningsoft.org/ru/blog/cex-design</id><content type="html" xml:base="https://miningsoft.org/ru/blog/cex-design/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
-      Роскомнадзор, разблокируй! Как отстоять свой сайт?
+      Ui дизайн, ориентированный на человека, доверие и простота
     </div>
   </div>
 </div>
-<p><em>В этой статье вы узнаете о блокировках РКН и как решить эту проблему.</em></p>
+<p><em>Существует несколько вещей, о которых следует помнить при разработке блокчейна: простота, безопасность, прозрачность и др.</em></p>
 
-<p>В августе 2022 году крупнейший сайт о криптовалютах, майнинге и блокчейне – <a href="https://bytwork.com/">bytwork.com</a> был заблокирован РКН.</p>
+<h2 id="введение">Введение</h2>
 
-<p><strong>Основание</strong>:</p>
+<p>Блокчейн. Даже простое его название вызывает в воображении картины математики, криптографии и узлов, цифровой валюты, обеспечивающие плавные, быстрые и безопасные транзакции.</p>
 
-<blockquote>
-  <p>Основанием для включения в реестр сведений, указанных в ч. 2 настоящей статьи, является, в том числе вступившее в законную силу решение суда о признании информации, распространяемой посредством сети «Интернет», информацией, распространение которой в Российской Федерации запрещено (п. 2 ч. 5 ст. 15.1 Федерального закона № 149-ФЗ).<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></p>
-</blockquote>
+<p class="notice--success">Но какое отношение все это имеет к дизайну? Вы должны сначала понять основные идеи блокчейна, чтобы проектировать его. Здесь мы перечисляем четыре основных принципа проектирования блокчейна.</p>
 
-<p>Говоря понятным язком, основанием для блокировки являлась информация о Биткоине и его приобретении.</p>
+<h2 id="что-такое-блокчейн">Что такое блокчейн?</h2>
 
-<p><em>Суть блокировки</em>: в 2020 году Онежский городской суд вынес решение о блокировке сайта bytwork.com, не уведомив о суде администраторов сайта, хотя такая возможность была (почта была указана в футере сайта).</p>
+<p>Вы должны <a href="/ru/articles/blockchain/">понимать блокчейн</a>, чтобы хорошо проектировать его. Существование <a href="/ru/articles/cryptocurrency">криптовалют</a>, таких как Биткойн и Эфириум, стало возможным благодаря технологии блокчейн.</p>
 
-<p class="notice--warning">2 года (с 2020 по 2022) дело шло до Роскомнадзора и лишь в августе 2022 ведомство заблокировало сайт.</p>
+<p class="notice--info">По сути, это распределенный реестр, в котором транзакции записываются открыто и в хронологическом порядке. Затем каждая транзакция сохраняется в блоке данных, который трудно подделать после криптографического подтверждения сетевыми узлами.</p>
 
-<p>&nbsp;</p>
+<p>Несмотря на то, что <a href="/ru/articles/bitcoin">Биткойн</a> и Эфириум используют разные формы технологии блокчейна, у них есть несколько общих черт.</p>
 
-<p>Пришло уведомление от представителей ведомства:</p>
+<p>Децентрализованная природа блокчейна — самое яркое сравнение. Он хранит информацию о транзакциях независимо от какого-либо центрального органа. Группа взаимосвязанных компьютеров образует сеть блокчейна, которая получает копии блокчейна и проверяет транзакции для сохранения целостности реестра.</p>
 
-<figure><a href="/assets/images/blog/rkn/uvedomlenie_rkn.webp" class="image-popup"> <img src="/assets/images/blog/rkn/uvedomlenie_rkn.webp" alt="уведомление" /></a></figure>
+<p class="notice--ya">В результате не может быть единой точки отказа, и система не может быть изменена или управляема одним лицом.</p>
 
-<p>В уведомлении предлагается удалить материал, предположительно нарушающий законодательство. В противном случае он попадет в список запрещенной информации.</p>
+<p>Технология Blockchain чаще всего используется в криптографии, и, вероятно, именно так вы впервые услышали этот термин. Однако эту технологию можно использовать для всего: от финансовых транзакций до отслеживания медицинской информации и многого другого.</p>
 
-<h2 id="что-делать-после-блокировки-ркн">Что делать после блокировки РКН?</h2>
+<p class="notice--primary">Название «блокчейн» относится к системе, в которой хранятся данные, которые нельзя изменить.</p>
 
-<div class="imgcen">
+<p>Способность технологии блокчейн поддерживать децентрализацию — это другая ее сторона, помимо того, что она делает возможным существования криптовалюты.</p>
 
-</div>
+<p>Децентрализация блокчейна отодвигает принятие решений от централизованного места или органа.</p>
 
-<p>Команда Bytwork изначально попыталась урегулировать весь процесс самостоятельно. Удалили страницу из-за которой был суд и уведомили об этом представителей ведомства.</p>
+<p class="notice--ya"><a href="https://en.wikipedia.org/wiki/Децентрализация">Децентрализация</a> повышает эффективность и результативность организации за счет избавления от бесполезных компонентов, сокращения дублирования и предотвращения единых точек отказа. Члены децентрализованных сетей должны действовать независимо, не запрашивая одобрения централизованной сети.</p>
 
-<p class="notice--danger">Однако Роскомнадзор посчитал, что блокировке подлежит весь домен. И несмотря на то, что администраторы сайта Bytwork удалили страницу, в отношении которой было вынесено судебное решение, <strong>РКН оставил весь домен заблокированным</strong>.</p>
+<p>Три основные сетевые структуры — централизованная, децентрализованная и распределенная — часто используются при рассмотрении технологической установки.</p>
 
-<figure><a href="/assets/images/blog/rkn/rkn_block.webp" class="image-popup"> <img src="/assets/images/blog/rkn/rkn_block.webp" alt="Roskomnadzor blocking" /><figcaption>Тип блокировки: весь домен, а не статья.</figcaption></a></figure>
+<p>Хотя децентрализованные сети обычно используются блокчейн-технологией, приложение блокчейна может быть, а может и не быть децентрализованным. Поэтому децентрализацию следует осуществлять дальше по сети, как на технологическом, так и на административном уровнях.</p>
 
-<p>Далее Bytwork обратились к адвокатам. Далеко не все адвокаты понимают, как вести такого рода дела, более того многие не понимали, что такое блокировка от РКН и кто блокирует доступ к сайтам?</p>
+<p class="notice--warning">Поэтому крайне важно помнить о принципах проектирования при работе над продуктом, поддерживающим децентрализацию.</p>
 
-<p>Команда Bytwork поняла, что необходимо искать специализирующихся на таких делах адвокатов!</p>
+<h2 id="принципы-проектирования-блокчейна-которым-нужно-следовать">Принципы проектирования блокчейна, которым нужно следовать</h2>
 
-<p>По многочисленным отзывам и советам администраторов и владельцев других сайтов-коллег, была найдена компания DRC.law.</p>
+<p>Дизайн и разработка финтех-приложений быстро набирают популярность. Вот три принципа дизайна блокчейна, которые вы должны соблюдать. Мы ограничили их тремя, потому что проектирование проектов блокчейна и криптовалюты больше связано с пониманием технологии, ее целевой аудитории и будущего блокчейна, чем с соблюдением правил.</p>
 
-<p><a href="https://drc.law/">DRC.law</a> – это крупная компания IT юристов. Они решают все вопросы правового характера для пользователей, владельцев веб-сайтов, IT и Телеком бизнесов!</p>
+<h3 id="дизайн-ориентированный-на-человека">Дизайн, ориентированный на человека</h3>
 
-<figure><a href="/assets/images/blog/rkn/drc.webp" class="image-popup"> <img src="/assets/images/blog/rkn/drc.webp" alt="DRC.law" /></a></figure>
+<p>Наиболее важным аспектом блокчейна является то, что пользователи должны верить в него. Блокчейн должен быть создан таким образом, чтобы он был понятен всем пользователям, чтобы завоевать их доверие. Таким образом, одним из наиболее важных аспектов дизайна блокчейна является то, насколько он удобен для пользователя.</p>
 
-<p>Обратившись в <a href="https://drc.law/">DRC.law</a>, Bytwork сразу же обрисовали проблему. Адвокаты мгновенно, благодаря огромному опыту ведения таких дел, описали возможное решение проблемы, связанной с блокировкой, составили план действий и честно обозначили сроки (сразу скажем, DRC.law все выполняли быстро и качественно, все сроки зависели только от Суда, почтовых отделений и прочего, связанного с этим).</p>
+<p class="notice--success">Предоставление людям, которые могут быть не очень технически подкованными, базовых, интуитивно понятных пользовательских интерфейсов, является одним из способов сделать это. Если вы ищете пример, <a href="https://cex.io/mobile">вы можете скачать приложение для торговли биткойнами для iPhone</a>, созданное CEX.iO.</p>
 
-<p>Выслушав план действий, команда Bytwork приняла решение о сотрудничестве с DRC.law.</p>
+<h3 id="доверие">Доверие</h3>
 
-<h2 id="решение-проблемы">Решение проблемы</h2>
+<p>Проектирование для блокчейна предполагает планирование создания услуги или приложения, на которое можно положиться, которое невозможно изменить и которое (почти) полностью прозрачно для всех пользователей и заинтересованных сторон.</p>
 
-<p>Команда DRC.law сразу же приступили к созданию апелляции на основании того, что Bytwork не уведомили о суде и были нарушены процессуальные сроки.</p>
+<p class="notice--danger">Фундаментальной функцией блокчейна является обработка личных данных. Поэтому крайне важно сохранить доверие пользователя, когда дело доходит до этой информации.<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></p>
 
-<p>Стоит сразу отметить, что DRC.law дает Вам на выбор 2 варианта работы с ними:<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup></p>
+<p>Это доверие в некоторой степени влияет на надежность и стабильность платформы. Чтобы сохранить доверие пользователей к вашему дизайну и продукту, обращайте внимание на отзывы клиентов и поддерживайте последовательность.</p>
 
-<ol>
-  <li>Вы лично ездите с адвокатами в суд;</li>
-  <li>Вы составляете доверенность на компанию (она только для суда), и адвокат от Вашего имени сам ездит в суд. Bytwork выбрали именно 2 вариант!</li>
-</ol>
+<h3 id="простота">Простота</h3>
 
-<p>Так как суд был очень далеко, то было проще и выгоднее оформить доверенность.</p>
+<p>Сделайте ваше приложение максимально простым и удобным в использовании. Блокчейн создает почти бесконечный поток данных и информации, поэтому простой интерфейс облегчит работу людей. Это также помогает уменьшить входные барьеры на вашу платформу. Чем меньше пользователю нужно разобраться, тем легче начать его использовать.</p>
 
-<p>После того, как апелляция была составлена, ее отправили в суд (все было сделано очень оперативно). Отправлена апелляция была в <strong>августе 2022 года</strong>! А ответ от Онежского городского суда пришел уже <strong>10 октября 2022</strong>.</p>
+<p>С учетом сказанного, есть несколько принципов, о которых следует помнить при разработке для блокчейна, сохраняя при этом простоту.</p>
 
-<p>Отметим, что письмо пришло команде Bytwork на указанный домашний адрес и параллельно на юридический адрес drc.law.</p>
-
-<figure><a href="/assets/images/blog/rkn/appelyacia.webp" class="image-popup"> <img src="/assets/images/blog/rkn/appelyacia.webp" alt="Апелляция в роскомнадзор" /><figcaption>Извещение о принятии апелляционной жалобы.</figcaption></a></figure>
-
-<p class="notice--primary">Далее лишь только <strong>1 ноября 2022 года</strong> дело попадает в суд!</p>
-
-<p>Апелляцию рассматривали около 2 месяцев, после чего назначали дату нового слушания на <strong>21.12.2022 года</strong>!</p>
-
-<h3 id="второе-слушание">Второе слушание?</h3>
-
-<p>1 декабря 2022 года, прямо перед новым годом, команда Bytwork получает отличное сообщение от адвокатов:</p>
-
-<blockquote>
-  <p>«Здравствуйте! Адвокат написал, что решение Онежского городского суда отменили в части сайта bytwork и направили дело на новое рассмотрение в суд первой инстанции. Далее мы ждём направления дела в суд первой инстанции и назначения судебного заседания»</p>
-</blockquote>
-
-<p>И:</p>
-
-<blockquote>
-  <p>«Важный момент, на данном этапе, после получения апелляционного определения мы можем подать запрос в РКН и сайт разблокируют»</p>
-</blockquote>
-
-<p>Все супер, и мы очень благодарны drc.law за проделанную работу, но дело все еще не до конца решено, так как:</p>
-
-<blockquote>
-  <p>«Однако кейс не закрыт, т.к. вопрос блокировки зависит от повторного заседания первой инстанции»</p>
-</blockquote>
-
-<p>Итак, новое слушание состоится 3 февраля 2023 года!</p>
-
-<p class="notice--ya">Но до этого момента адвокаты из <a href="https://drc.law/">DRC.law</a> составили письмо в РКН, для разблокировки сайта (так как дело, по которому нас заблокировал РКН больше не существовало). И благодаря их письму в Роскомнадзор 23 января сайт bytwork.com был уже разблокирован!</p>
-
-<h3 id="победа">Победа!</h3>
-
-<p>3 февраля 2023 года, команда Bytwork получает следующее письмо от адвокатов:</p>
-
-<blockquote>
-  <p>«Здравствуйте! У меня прекрасные новости: в ходе заседания после перерыва прокурор заявил об отказе от иска в части требований к bytwork. Отказ судом принят, производство по делу прекратили. Так что все хорошо закончилось»</p>
-</blockquote>
-
-<p>На этом ВСЕ! Команда Bytwork выиграли дело благодаря адвокатам из drc.law! Они консультировали и сопровождали Bytwork на протяжении всего дела!</p>
-
-<p>Огромная благодарность:</p>
-
-<p>Инне Тверезовской.</p>
-
-<figure><a href="/assets/images/blog/rkn/urist_1.webp" class="image-popup"> <img src="/assets/images/blog/rkn/urist_1.webp" alt="Юрист Инна Тверезовская" /></a></figure>
-
-<p>И Анне Кузнецовой</p>
-
-<figure><a href="/assets/images/blog/rkn/urist_2.webp" class="image-popup"> <img src="/assets/images/blog/rkn/urist_2.webp" alt="Юрист Анна Кузнецова" /></a></figure>
-
-<p>Они вели наше дело и подробно отвечали на все наши вопросы!</p>
-
-<h2 id="вопрос-ответ">Вопрос-ответ</h2>
-
-<div class="schema-faq-code" itemscope="" itemtype="https://schema.org/FAQPage">
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <span itemprop="name" class="faq-q">Что делать если сайт заблокирован Роскомнадзором?</span>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">Подаем заявление об устранении нарушений контента в Роскомнадзор через <a href="https://77.rkn.gov.ru/p3852/p8958/">официальный сайт ведомства</a> или написав письмо на адрес zapret-info@rkn.gov.ru. Либо сразу <a href="https://drc.law/">обратитесь к юристам</a>.</p>
-        </div>
-    </div>
-
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <span itemprop="name" class="faq-q">Кто блокирует доступ к сайтам?</span>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">Роскомнадзор непосредственно занимается ведением Реестра запрещенных сайтов. Он направляет списки запрещенных ресурсов провайдерам связи. Если доступ к сайту ограничен в России, оборудование, поставляемое операторами связи Роскомнадзора, обнаружит и заблокирует этот запрос.</p>
-        </div>
-    </div>
-
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <span itemprop="name" class="faq-q">Как государство блокирует сайты?</span>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">Роскомнадзор вносит доменное имя, IP-адрес сайта или адрес конкретной страницы в свой реестр — «черный список». Данные из этого реестра регулярно скачивают на свое оборудование все российские интернет-провайдеры. При этом агентство обязано уведомить администратора домена о блокировке.</p>
-        </div>
-    </div>
-
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <span itemprop="name" class="faq-q">Какие сайты может блокировать роскомнадзор?</span>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">По собственной инициативе Роскомнадзор может заблокировать сайты, по следующим основаниям:
 <ul>
-<li>порнография;</li>
-<li>информация о том, как производятся и потребляются наркотики;</li>
-<li>сведения о способах самоубийства и призывах к нему;</li>
-<li>незаконная информация о нарушениях в отношении детей;</li>
-<li>информация о незаконных азартных играх;</li>
-<li>информация о том, как купить алкоголь и наркотики удаленно;</li>
-<li>вредная для детей информация.</li>
-</ul></p><p>Источник: <a href="https://rkn.gov.ru/treatments/p459/p750/">Основания блокировки интернет-страниц</a>.</p>
-        </div>
-    </div>
-
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <span itemprop="name" class="faq-q">Как проверить  домен на блокировку?</span>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">Проверить блокировку можно через <a href="https://blocklist.rkn.gov.ru/">форму на официальном сайте ведомства</a>.</p>
-        </div>
-    </div>
-
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <span itemprop="name" class="faq-q">Где посмотреть посмотреть последние блокировки?</span>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">Сайт <a href="https://reestr.rublacklist.net/ru/">Роскомсвобода ведет собственный реестр</a> заблокированных сайтов. </p>
-        </div>
-    </div>
-
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <span itemprop="name" class="faq-q">Каков порядок блокировки сайтов?</span>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">
-			 <ul>
-<li>Подача заявки. Роскомнадзор, как оператор реестра запрещенных сайтов, принимает запросы от граждан о ресурсах, содержащих запрещенную информацию. ...</li>
-<li>Направление заявки в уполномоченный орган. ...</li>
-<li>Рассмотрение заявления уполномоченным органом. ...</li>
-<li>Внесение записи в реестр. ...</li>
-<li>Проверка и блокировка.</li>
+  <li><strong>Безопасность</strong> – Даже с <a href="https://www.investopedia.com/terms/t/twofactor-authentication-2fa.asp">2FA</a>, у пользователей не должно возникнуть проблем с вводом данных для входа (безопасный пароль или биометрические данные). Что еще более важно, каждая страница, файл и транзакция должны обеспечивать чувство безопасности, сохраняя при этом простоту дизайна и удобство навигации.</li>
 </ul>
-			 </p>
-        </div>
-    </div>
-</div>
 
+<p>Кроме того, безопасность не следует приравнивать к сопротивлению. Вам нужна платформа, которая делает каждое взаимодействие надежным и безопасным.</p>
+
+<ul>
+  <li>
+    <p><strong>Конфиденциальность</strong> – Некоторая степень конфиденциальности необходима для приватной информации. Пользователи хотят конфиденциальности своей личности, а также своей деятельности на вашей платформе. Независимо от того, что делает ваш продукт, псевдонимы и закрытые ключи являются двумя краеугольными камнями технологии блокчейна, которые вы должны использовать.</p>
+  </li>
+  <li>
+    <p><strong>Прозрачность</strong> — для завершения транзакции в блокчейне требуется время, но мы редко знаем точно, сколько этого времени нужно в загруженной сети. Пользователи должны видеть о своих транзакциях, потому что данные конфиденциальны. Держите пользователей в курсе при разработке и помните о прозрачности.</p>
+  </li>
+</ul>
+
+<p class="notice">Чтобы люди понимали, как работает ваш продукт и чем он отличается от продуктов ваших конкурентов, также крайне важен прозрачный подход к управлению.</p>
+
+<ul>
+  <li><strong>Согласованность</strong>. Установите один язык дизайна и используйте его как можно чаще. Это позволяет потребителям легко перемещаться по вашему продукту, определять свое местоположение в любой момент и решать, какие шаги делать дальше. Если пользовательский интерфейс вашего блокчейн-проекта ясен, лаконичен и придерживается единого языка дизайна, он будет более успешным.</li>
+</ul>
 <div class="footnotes" role="doc-endnotes">
   <ol>
     <li id="fn:1">
-      <p><a href="https://onegasud--arh.sudrf.ru/modules.php?name=sud_delo&amp;srv_num=1&amp;name_op=doc&amp;number=122442559&amp;delo_id=41&amp;new=&amp;text_number=1">Решение по административному делу</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:2">
-      <p><a href="https://drc.law/uslugi/obzhalovanie-sudebnogo-resheniya-o-priznanii-informatsii-nezakonnoy/">Обжалование судебного решения о признании информации незаконной</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+      <p><a href="https://uxplanet.org/blockchain-and-its-applications-for-service-designers-7b6bfd9fec39">Blockchain and Its Applications for Service Designers</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Роскомнадзор, разблокируй! Как отстоять свой сайт? В этой статье вы узнаете о блокировках РКН и как решить эту проблему.]]></summary></entry></feed>
+</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Ui дизайн, ориентированный на человека, доверие и простота Существует несколько вещей, о которых следует помнить при разработке блокчейна: простота, безопасность, прозрачность и др.]]></summary></entry></feed>
