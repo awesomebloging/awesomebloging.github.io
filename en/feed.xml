@@ -1,4 +1,238 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-10-16T11:09:37-04:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="en"><title type="html">CryptoEasily Launches Free Mining Services for Bitcoin (BTC), Dogecoin (DOGE), and Litecoin (LTC)</title><link href="https://miningsoft.org/ru/blog/easily/" rel="alternate" type="text/html" title="CryptoEasily Launches Free Mining Services for Bitcoin (BTC), Dogecoin (DOGE), and Litecoin (LTC)" /><published>2025-12-09T00:00:00-04:00</published><updated>2025-12-09T00:00:00-04:00</updated><id>https://miningsoft.org/ru/blog/easily</id><content type="html" xml:base="https://miningsoft.org/ru/blog/easily/"><![CDATA[<div class="paper wallet">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-10-19T06:09:26-04:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="en"><title type="html">OneKey Pro 2: honest review, safeOS bugs, and is it worth $299</title><link href="https://miningsoft.org/ru/wallets/onekey-pro2/" rel="alternate" type="text/html" title="OneKey Pro 2: honest review, safeOS bugs, and is it worth $299" /><published>2026-10-19T00:00:00-04:00</published><updated>2026-10-19T00:00:00-04:00</updated><id>https://miningsoft.org/ru/wallets/onekey-pro2</id><content type="html" xml:base="https://miningsoft.org/ru/wallets/onekey-pro2/"><![CDATA[<div class="paper wallet">
+  <div class="pattern">
+    <div class="note-cont">
+      Tested the AMOLED at 50 FPS, 4 EAL6+ chips, how Air-Gap works, the 700 mAh battery, the firmware's Bluetooth screw-ups, and the Prime subscription.
+    </div>
+  </div>
+</div>
+<p><em>In this review, you’ll learn everything about the OneKey Pro 2 hardware wallet</em></p>
+
+<p><a href="https://onekey.so/products/onekey-pro-2/" class="btn btn--light-outline btn--x-large">Official website</a></p>
+
+<h2 id="what-is-onekey-pro-2">What is OneKey Pro 2?</h2>
+
+<section>
+
+  <p><dfn>The OneKey Pro 2 wallet</dfn> is a flagship hardware crypto wallet with a 3.54-inch AMOLED screen, a fingerprint scanner, and an optional QR-code signing mode via the built-in camera.</p>
+
+  <p class="notice--primary">It supports thousands of cryptocurrencies<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup> and dozens of networks. Among them: Bitcoin, Ethereum, EVM networks, Ripple, Solana, Sui, Tron, etc.</p>
+
+</section>
+
+<h2 id="the-30-second-verdict">The 30-second verdict</h2>
+
+<p>The first time I held the OneKey Pro 2, I got the distinct feeling that I was holding a miniature iPhone. The body is just 6.2 mm thin, with a gorgeous 3.54-inch AMOLED. Luxury.</p>
+
+<p>In terms of convenience for verifying transactions before signing (Clear Signing) and phishing protection, the device genuinely beats its competitors.</p>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/image1.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/image1.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>But the facade is beautiful, and behind it are harsh realities:</p>
+
+<ul>
+  <li>The 700 mAh battery drains before your eyes at high brightness.</li>
+  <li>Bluetooth firmware is glitchy.</li>
+  <li>And in six months, you’ll be gently asked to pay $29.99 per month for the Prime subscription.</li>
+</ul>
+
+<h2 id="onekey-pro-2-review">OneKey Pro 2 review</h2>
+
+<h3 id="ergonomics-and-screen-why-i-fell-in-love-with-this-hardware">Ergonomics and screen. Why I fell in love with this hardware</h3>
+
+<p>In terms of build, the OneKey Pro 2 is an order of magnitude more monolithic and premium than plastic counterparts like the Ledger Flex.</p>
+
+<p>The body has:</p>
+
+<ul>
+  <li>a matte glass back.</li>
+  <li>a 6.2 mm G3 aluminum frame.</li>
+  <li>and Corning Gorilla Glass 5.</li>
+</ul>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/image2.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/image2.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>The 3.54 AMOLED matrix has a peak brightness of 800 nits and a density of 336 PPI. The sharpness is incredible. Unlike the choppy E-Ink screens on Ledger, the new safeOS 2 runs at up to 50–60 FPS — scrolling through lists and menus is perfectly smooth.</p>
+
+<p>In the box:</p>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/image3.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/image3.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<ul>
+  <li>The OneKey Pro 2 itself.</li>
+  <li>An encrypted NFC SeedCard designed for mnemonic backup and with a separate PIN code; its listed value is $39.</li>
+  <li>A magnetic fabric folio case, the Fabric Folio Case, with a listed value of $39.</li>
+  <li>A high-durability braided USB-C to USB-C cable intended for connectivity and charging.</li>
+  <li>3 branded paper Recovery Sheets for a 12-, 18-, or 24-word seed phrase.</li>
+  <li>Documentation and stickers, including a Quick Start / Getting Started guide and branded stickers.</li>
+  <li>A 6-month OneKey App Prime subscription giving access to SignGuard (transaction simulation, website checks, risk scanner); its listed value is $179.</li>
+</ul>
+
+<p class="notice--success">The Fabric Folio Case attaches to the body thanks to 4 strong magnets in the lower part. The case itself doesn’t interfere with Qi wireless charging. And it covers the 2.5D Gorilla Glass 5 glass if dropped.</p>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/image4.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/image4.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>The Touch ID fingerprint sensor, 508 DPI, is hidden in the side power button. One light touch — and the wallet is instantly unlocked.</p>
+
+<p>My setup lifehack: don’t press the button with all your finger strength! Calibrate the scanner with light touches of your fingertip at different angles. If you register a fingerprint with a hard press, the device will constantly throw errors during everyday unlocking.</p>
+
+<h3 id="durability-and-slipperiness">Durability and slipperiness</h3>
+
+<p class="notice--ya">The matte Gorilla Glass 5 back panel resists scratches from steel keys. I strongly recommend immediately putting it in the included magnetic Fabric Folio Case so the wallet doesn’t fall.</p>
+
+<h3 id="real-bugs-and-quirks-of-safeos-2-from-personal-experience">Real bugs and quirks of safeOS 2 from personal experience</h3>
+
+<p>In promo videos, bloggers praise the device. But in reality, I dug up a bunch of issues:</p>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/image5.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/image5.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<ul>
+  <li><strong>Bluetooth firmware update hangs</strong>. If you try to push the system from v1.01 to v1.03 from your phone, the process gets stuck at 90% and shows Failed.</li>
+  <li><strong>Forget wireless updates</strong>. Connect the wallet via USB-C cable to the app on a PC or Mac — that way the firmware installs in a couple of minutes without the stress.</li>
+  <li><strong>If the wallet is fully off, be ready to wait 7–8 seconds</strong> from pressing the power button to the home screen. When you need to urgently confirm a DeFi trade before the gas price flies away, those seconds feel like an eternity.</li>
+</ul>
+
+<p>Because of the long initial boot, the Hello screen will quickly start to annoy you.</p>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/image6.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/image6.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>Next is battery drain. Inside is a 700 mAh lithium-polymer battery. Turn the AMOLED brightness to maximum (800 nits) — and the charge percentage leaks before your eyes within a few minutes of wandering through the settings. Although for rare 15-second signatures, it’ll last a couple of days.</p>
+
+<p class="notice--warning">A trump-card feature is showing the balance on the wallet display. In reality, it’s just a frozen snapshot of data from the last sync with the phone. Offline, it doesn’t update by itself, so I didn’t notice much benefit from it.</p>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/image7.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/image7.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>The rear camera’s resolution is modest, the frame rate is low — the image noticeably lags. It’s enough for scanning QR codes, but it’s far from smartphone-level aesthetics.</p>
+
+<h2 id="security-features">Security features</h2>
+
+<p>When it comes to protecting funds, the OneKey Pro 2 really deserves high marks.</p>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/en_image8.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/en_image8.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>The simplified scheme is this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[ Malicious DApp / Phishing ] --&gt; [ SignGuard wallet module (risk simulation) ]
+And after that — offline data transfer. No networks. Only QR codes.
+[ Confirmation via slider ] &lt;-- [ Clear Signing decoding on the 3.54 AMOLED screen ]
+</code></pre></div></div>
+
+<h3 id="clear-signing-vs-blind-signing">Clear Signing vs blind signing</h3>
+
+<p>The large screen lays out the smart contract piece by piece. You clearly see the address, amount, fee, and requested permissions.</p>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/image9.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/image9.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>The app and wallet also conveniently highlight the beginning and end of addresses for quick verification.</p>
+
+<h3 id="air-gap-mode-qr-signing">Air-Gap mode (QR signing)</h3>
+
+<p>Out of the box, Bluetooth, USB, and NFC are enabled on the wallet. Paranoid? Go to <code class="language-plaintext highlighter-rouge">Settings</code> -&gt; <code class="language-plaintext highlighter-rouge">Wallet</code> -&gt; <code class="language-plaintext highlighter-rouge">Air-Gap Mode</code> and flip the toggle.</p>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/image10.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/image10.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>The cable and radio waves are instantly cut off, and signing happens strictly via QR-code exchange through the camera.</p>
+
+<h3 id="4-eal6-chips-thd89">4 EAL6+ chips (THD89)</h3>
+
+<p>Keys and biometrics are isolated in a cascade of 4 chips.</p>
+
+<p>And to cover the holes from weak entropy generators, safeOS 2 lets you export the raw physical values <code class="language-plaintext highlighter-rouge">int_entropy</code> and <code class="language-plaintext highlighter-rouge">ext_entropy</code>.</p>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/image11.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/image11.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>The quality of mathematical randomness can be checked with third-party offline software even before deriving private keys.</p>
+
+<h3 id="nfc-seedcard">NFC SeedCard</h3>
+
+<p>There’s an encrypted plastic card in the box. Tap it to the wallet, set a separate PIN — and the backup is ready. Recovery from the card takes only half a minute.</p>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/image12.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/image12.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>The card wipes the key itself after 5 incorrect PIN entries in a row. That way, you can’t brute-force the password.</p>
+
+<p>But SeedCard does not replace the BIP-39 seed phrase! After 10 incorrect PIN entries, the card erases itself. A paper or titanium backup of 24 words is still MANDATORY.</p>
+
+<h3 id="two-layer-protection-against-hardware-tampering">Two-layer protection against hardware tampering</h3>
+
+<p>Authenticity verification starts with the <code class="language-plaintext highlighter-rouge">Genuine Check</code> protocol when paired with the OneKey app. It validates the digital certificate of the EAL6+ chips.</p>
+
+<p>DApp applications are also checked:</p>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/image13.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/image13.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>Plus, on every cold boot, the bootloader verifies the firmware’s digital signature. Non-original software won’t load.</p>
+
+<h3 id="safe-use-of-public-qi-charging">Safe use of public Qi charging</h3>
+
+<p>The Qi wireless charging module lets you top up the 700 mAh battery from power banks without USB-C cables. This 100% removes the risk of hardware Juice Jacking attacks via compromised public cables while traveling.</p>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/image14.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/image14.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>The wallet also supports FIDO2 and offline authentication.</p>
+
+<h3 id="hidden-wallets-and-the-passphrase-algorithm">Hidden wallets and the Passphrase algorithm</h3>
+
+<p>safeOS 2 software has full support for the 25th word (Passphrase) for hidden wallets. Enter an alternative phrase or a different PIN — and an absolutely empty account opens.</p>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/image15.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/image15.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>The presence of the main balance is not visible. This shields the owner from physical coercion attacks.</p>
+
+<h2 id="materials-chip-and-body-durability">Materials: chip and body durability</h2>
+
+<h3 id="automotive-standard-aec-q100-and-ip56-water-resistance">Automotive standard AEC-Q100 and IP56 water resistance</h3>
+
+<p>The Pro 2 board and internal microchips have passed testing under the automotive reliability standard AEC-Q100.</p>
+
+<p class="notice--info">The aluminum and matte glass body withstands impact to the IP56 standard — dust and direct splashes are no problem. But you can’t submerge it in water!</p>
+
+<h3 id="durability-of-the-gorilla-glass-5-body">Durability of the Gorilla Glass 5 body</h3>
+
+<p>The wallet’s back panel is made of matte tempered Corning Gorilla Glass 5, and the display is covered with anti-glare AG glass. The material’s Mohs hardness of 6–7 prevents scratches from appearing on contact with steel keys.</p>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/image16.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/image16.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>The aluminum frame with G3 curvature also adds rigidity against bending.</p>
+
+<h3 id="custom-laser-engraving-features">Custom laser engraving features</h3>
+
+<p>The manufacturer offers an optional custom laser engraving on the side edge of the aluminum frame. You can engrave text, a name, or a memorable date.</p>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/image17.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/image17.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>That way, a standard device becomes a unique specimen and gets an additional physical authenticity marker. Although, in reality, few people need it.</p>
+
+<h2 id="is-it-worth-paying-299">Is it worth paying $299?</h2>
+
+<p>The Pro 2 comes out noticeably more expensive than the Trezor Safe 7 ($249) and Ledger Flex ($249).</p>
+
+<p>What you’re paying for:</p>
+
+<ul>
+  <li>OneKey Pro 2 - an ultra-thin device. 4 EAL6+ chips, AMOLED screen.</li>
+  <li>SeedCard - $39. A useful gadget for quick setup.</li>
+  <li>Fabric Folio Case — $39. You can’t do without it. The slippery glass will slip out of your hands.</li>
+  <li>6 months of OneKey Prime subscription — $179. Proactive SignGuard anti-phishing and contract simulation.</li>
+</ul>
+
+<p class="notice--danger">But here’s the catch with the Prime subscription. The stated bundle value of $257 is just a marketing markup at list price. In six months, the free Prime period will end. For advanced anti-phishing and transaction simulation, they’ll ask $29.99 per month ($239 per year). Basic storage, transfers, and Clear Signing decoding will remain free. But the subscription still leaves a bad aftertaste.</p>
+
+<h2 id="final-verdict">Final verdict</h2>
+
+<p>This is the most technologically advanced and convenient wallet. Buy it confidently if you’re actively involved in DeFi/Web3, want to see transactions on a large AMOLED screen, value fingerprint unlocking, and are looking for a flexible device with optional Air-Gap.</p>
+
+<p>Bluetooth is convenient, but less secure than offline QR transactions.</p>
+
+<figure><a href="/assets/images/wallets/onekey/pro2/image18.png" class="image-popup"> <img src="/assets/images/wallets/onekey/pro2/image18.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>Steer clear of the Pro 2 if you’re a stubborn Bitcoin maximalist (at launch there’s no Bitcoin-only firmware or Sparrow Wallet support), you need a battery that lasts a month, or you’re categorically against any paid subscriptions in the wallet ecosystem.</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1">
+      <p><a href="https://onekey.so/ru/products/onekey-pro-2/">Official website</a>. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Matthew Wood</name></author><category term="wallets" /><summary type="html"><![CDATA[Tested the AMOLED at 50 FPS, 4 EAL6+ chips, how Air-Gap works, the 700 mAh battery, the firmware's Bluetooth screw-ups, and the Prime subscription. In this review, you’ll learn everything about the OneKey Pro 2 hardware wallet]]></summary></entry><entry xml:lang="en"><title type="html">CryptoEasily Launches Free Mining Services for Bitcoin (BTC), Dogecoin (DOGE), and Litecoin (LTC)</title><link href="https://miningsoft.org/ru/blog/easily/" rel="alternate" type="text/html" title="CryptoEasily Launches Free Mining Services for Bitcoin (BTC), Dogecoin (DOGE), and Litecoin (LTC)" /><published>2025-12-09T00:00:00-04:00</published><updated>2025-12-09T00:00:00-04:00</updated><id>https://miningsoft.org/ru/blog/easily</id><content type="html" xml:base="https://miningsoft.org/ru/blog/easily/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       The British platform CryptoEasily has launched a new mobile application for free cloud mining of cryptocurrencies - Bitcoin, Litecoin, and Dogecoin.
@@ -1452,101 +1686,7 @@ The best result is that the error code is gone, this means only a connection pro
       <p><a href="https://microbt-whatsminer.com/">WhatsMiner - Official Website</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="tools" /><summary type="html"><![CDATA[WhatsMiner Tools: Download the latest version and access the full manual Explore the many features of Whatsminer Tools 8.1.34 and learn how to use them for MicroBT Whatsminer!]]></summary></entry><entry xml:lang="en"><title type="html">Blockchain project design: principles, concept and architecture</title><link href="https://miningsoft.org/ru/blog/cex-design/" rel="alternate" type="text/html" title="Blockchain project design: principles, concept and architecture" /><published>2023-02-22T00:00:00-04:00</published><updated>2023-02-22T00:00:00-04:00</updated><id>https://miningsoft.org/ru/blog/cex-design</id><content type="html" xml:base="https://miningsoft.org/ru/blog/cex-design/"><![CDATA[<div class="paper wallet">
-  <div class="pattern">
-    <div class="note-cont">
-     Human-Centered Design: trust, simplicity at the Core
-    </div>
-  </div>
-</div>
-<p><em>There are a few things to keep in mind when designing for blockchain while keeping it simple.</em></p>
-
-<h2 id="introduction">Introduction</h2>
-
-<p>Blockchain. Even the mere name of it brings up mental pictures of mathematics, cryptography, and nodes, the digital currency that enables smooth, quick, and safe transactions.</p>
-
-<p class="notice--success">But how does any of this relate to design? You must first understand the underlying ideas of blockchain in order to design for it. Here, we list the four main guidelines for blockchain design.</p>
-
-<h2 id="what-is-blockchain">What is Blockchain?</h2>
-
-<p>You must <a href="/en/articles/blockchain/">comprehend blockchain</a> in order to design for it. The existence of <a href="/en/articles/cryptocurrency">cryptocurrencies</a> like Bitcoin and Ethereum is made possible by blockchain technology.</p>
-
-<p class="notice--info">It is fundamentally a distributed ledger where transactions are openly and chronologically recorded. Each transaction is then saved on a block of data that is difficult to tamper with after being cryptographically confirmed by network nodes.</p>
-
-<p>Even though <a href="/en/articles/bitcoin">Bitcoin</a> and Ethereum employ different forms of blockchain technology, they have several things in common. The decentralized nature of blockchain is the most striking comparison. It stores transaction information independently of any central authority.</p>
-
-<p>A group of interconnected computers form the blockchain network, which receives copies of the blockchain and verifies transactions to preserve the integrity of the ledger.</p>
-
-<p class="notice--ya">As a result, there can be no single point of failure, and the system cannot be altered or controlled by a single entity.</p>
-
-<p>Blockchain technology is most often used by Crypto, which is presumably how you first heard of the term. However, the technology can be used for everything from financial transactions to keeping track of medical information and more.</p>
-
-<p class="notice--primary">The name “blockchain” refers to a system where data is stored that cannot be altered.</p>
-
-<p>The ability of blockchain technology to support decentralization is its other side, in addition to the fact that it makes cryptocurrencies possible.</p>
-
-<p>Blockchain decentralization moves decision-making away from a centralized place or authority.</p>
-
-<p class="notice--ya"><a href="https://en.wikipedia.org/wiki/Decentralization">Decentralization</a> increases an organization’s efficiency and effectiveness by getting rid of pointless components, cutting down on duplication, and preventing single points of failure. Members of decentralized networks are meant to act independently without seeking approval from the centralized grid.</p>
-
-<p>Three fundamental network structures—centralized, decentralized, and disseminated—are frequently employed when considering a technology setup.</p>
-
-<p>Although decentralized networks are typically used by blockchain technology, a blockchain application may or may not be decentralized. Decentralization should therefore be implemented further up the grid and at both the technological and administrative levels.</p>
-
-<p class="notice--warning">Therefore, it is crucial to keep design principles in mind when working on a product that supports decentralization.</p>
-
-<h2 id="blockchain-design-principles-to-follow">Blockchain Design Principles to Follow</h2>
-
-<p>Design and development of fintech apps has been gaining ground quickly. Here are the three blockchain design tenets that you ought to abide by. We’ve limited it to just three because designing for blockchain and cryptocurrency projects is more about understanding the technology, its intended audience, and the future blockchain brings than it is about adhering to the rules.</p>
-
-<h3 id="human-centered-design">Human-Centered Design</h3>
-
-<p>The most important aspect of blockchain is that users must have faith in it. Blockchain must be created in a way that is clear to all users in order to gain their trust.</p>
-
-<p class="notice--success">Therefore, one of the most crucial aspects of blockchain design is how user-friendly it is. Giving people who may not be extremely tech-savvy basic, intuitive user interfaces is one method to do this. If you are looking for an example, <a href="https://cex.io/mobile">you can download bitcoin trading app for iPhone</a> made by CEX.iO</p>
-
-<h3 id="designing-for-trust">Designing for Trust</h3>
-
-<p>Designing for the blockchain entails planning to create a service or application that can be relied upon, is unchangeable, and is (nearly) completely transparent to all users and stakeholders.</p>
-
-<p class="notice--danger">The fundamental function of blockchain is the handling of private data. Therefore, it’s crucial to keep the user’s trust when it comes to that information<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup>.</p>
-
-<p>Reliability and stability of the platform are affected in some way by that trust. To preserve user confidence in your design and product, pay attention to customer feedback and maintain consistency.</p>
-
-<h3 id="simplicity-at-the-core">Simplicity at the Core</h3>
-
-<p>Make your application as simple and easy to use as possible. Blockchain creates an almost endless stream of data and information, so keeping your interface simple will make it easier for people. This also helps diminish entrance barriers to your platform. The less a user has to figure out, the easier it is to start using.</p>
-
-<p>With that said, there are a few things to keep in mind when designing for blockchain while keeping it simple.</p>
-
-<ul>
-  <li><strong>Security</strong> –Even with <a href="https://www.investopedia.com/terms/t/twofactor-authentication-2fa.asp">2FA</a>, users should have no trouble entering their login information (a secure password or biometrics). More importantly, every page, file, and transaction must encourage a sense of security while maintaining the design’s simplicity and navigability.</li>
-</ul>
-
-<p>Additionally, security shouldn’t be equated with resistance. You want a platform that makes every interaction feel safe and secure.</p>
-
-<ul>
-  <li>
-    <p><strong>Privacy</strong> –Some degree of privacy is necessary for sensitive information. Users desire privacy for their identities as well as for their activities on your platform. No matter what your product does, pseudonyms and private keys are two blockchain technology cornerstones that you should incorporate.</p>
-  </li>
-  <li>
-    <p><strong>Transparency</strong> –It takes time to complete a blockchain transaction, but we rarely know exactly how much of that time is related to network utilization. Users ought to know about their own transactions because the data is sensitive. Maintain your users informed when designing and keep transparency in mind.</p>
-  </li>
-</ul>
-
-<p class="notice">For people to understand how your product functions and how it differs from those of your competitors, a transparent governance approach is also crucial.</p>
-
-<ul>
-  <li><strong>Consistency</strong> – Establish one design language, and use it as much as you can. It enables consumers to move through your product with ease, pinpoint their location at any given moment, and decide what steps to do next. If the user interface of your blockchain project is clear, uncluttered, and adheres to a single design language throughout, it will be more successful.</li>
-</ul>
-
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1">
-      <p><a href="https://uxplanet.org/blockchain-and-its-applications-for-service-designers-7b6bfd9fec39">Blockchain and Its Applications for Service Designers</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Human-Centered Design: trust, simplicity at the Core There are a few things to keep in mind when designing for blockchain while keeping it simple.]]></summary></entry><entry xml:lang="en"><title type="html">Cryptocurrency Explained - What is It, Types, Pros &amp;amp; Cons [2023]</title><link href="https://miningsoft.org/ru/articles/cryptocurrency/" rel="alternate" type="text/html" title="Cryptocurrency Explained - What is It, Types, Pros &amp;amp; Cons [2023]" /><published>2023-02-22T00:00:00-04:00</published><updated>2023-02-22T00:00:00-04:00</updated><id>https://miningsoft.org/ru/articles/cryptocurrency</id><content type="html" xml:base="https://miningsoft.org/ru/articles/cryptocurrency/"><![CDATA[<div class="paper btc">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="tools" /><summary type="html"><![CDATA[WhatsMiner Tools: Download the latest version and access the full manual Explore the many features of Whatsminer Tools 8.1.34 and learn how to use them for MicroBT Whatsminer!]]></summary></entry><entry xml:lang="en"><title type="html">Cryptocurrency Explained - What is It, Types, Pros &amp;amp; Cons [2023]</title><link href="https://miningsoft.org/ru/articles/cryptocurrency/" rel="alternate" type="text/html" title="Cryptocurrency Explained - What is It, Types, Pros &amp;amp; Cons [2023]" /><published>2023-02-22T00:00:00-04:00</published><updated>2023-02-22T00:00:00-04:00</updated><id>https://miningsoft.org/ru/articles/cryptocurrency</id><content type="html" xml:base="https://miningsoft.org/ru/articles/cryptocurrency/"><![CDATA[<div class="paper btc">
   <div class="pattern">
     <div class="note-cont">
       Learn all about the potential of cryptocurrency and what it means for the future.
@@ -2141,208 +2281,98 @@ Think of cryptocurrency like owning a piece of land. You may not physically own 
       <p><a href="https://bitcoin.org/en/how-it-works">How does Bitcoin work?</a> <a href="#fnref:11" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Learn all about the potential of cryptocurrency and what it means for the future. This article breaks down what it is, how it works, what types of cryptocurrency exist, the pros and cons, and use cases. Learn the basics and understand cryptocurrency simply!]]></summary></entry><entry xml:lang="en"><title type="html">What is banned content in Russia? (Censorship)</title><link href="https://miningsoft.org/ru/blog/rkn/" rel="alternate" type="text/html" title="What is banned content in Russia? (Censorship)" /><published>2023-02-17T00:00:00-04:00</published><updated>2023-02-17T00:00:00-04:00</updated><id>https://miningsoft.org/en/blog/rkn</id><content type="html" xml:base="https://miningsoft.org/ru/blog/rkn/"><![CDATA[<div class="paper wallet">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Learn all about the potential of cryptocurrency and what it means for the future. This article breaks down what it is, how it works, what types of cryptocurrency exist, the pros and cons, and use cases. Learn the basics and understand cryptocurrency simply!]]></summary></entry><entry xml:lang="en"><title type="html">Blockchain project design: principles, concept and architecture</title><link href="https://miningsoft.org/ru/blog/cex-design/" rel="alternate" type="text/html" title="Blockchain project design: principles, concept and architecture" /><published>2023-02-22T00:00:00-04:00</published><updated>2023-02-22T00:00:00-04:00</updated><id>https://miningsoft.org/ru/blog/cex-design</id><content type="html" xml:base="https://miningsoft.org/ru/blog/cex-design/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
-     Roskomnadzor censorship on the example of bitcoin.
+     Human-Centered Design: trust, simplicity at the Core
     </div>
   </div>
 </div>
-<p><em>In this article, you will learn about government blocking and how to solve this problem.</em></p>
+<p><em>There are a few things to keep in mind when designing for blockchain while keeping it simple.</em></p>
 
-<p>In August 2022, the largest website about cryptocurrencies, mining and blockchain - <a href="https://bytwork.com/en/">bytwork.com</a> was blocked by the Roskomnadzor (RKN), the Federal Service for Supervision of Communications, Information Technology and Mass Media.</p>
+<h2 id="introduction">Introduction</h2>
 
-<p><strong>Legal</strong>:</p>
+<p>Blockchain. Even the mere name of it brings up mental pictures of mathematics, cryptography, and nodes, the digital currency that enables smooth, quick, and safe transactions.</p>
 
-<blockquote>
-  <p>The basis for inclusion in the register of the information specified in paragraph 2 of this article is, among other things, a court decision that has entered into force on recognizing information disseminated via the Internet as information whose distribution is prohibited in the Russian Federation (paragraph 2 Part 5, Article 15.1 of Federal Law No. 149-FZ).<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></p>
-</blockquote>
+<p class="notice--success">But how does any of this relate to design? You must first understand the underlying ideas of blockchain in order to design for it. Here, we list the four main guidelines for blockchain design.</p>
 
-<p>In plain language, the basis for blocking was information about Bitcoin and its acquisition.</p>
+<h2 id="what-is-blockchain">What is Blockchain?</h2>
 
-<p><em>The essence of the blocking</em>: in 2020, the Onega City Court ruled to block the site bytwork.com without notifying the site administrators about the court, although there was such a possibility (the mail was indicated in the site footer).</p>
+<p>You must <a href="/en/articles/blockchain/">comprehend blockchain</a> in order to design for it. The existence of <a href="/en/articles/cryptocurrency">cryptocurrencies</a> like Bitcoin and Ethereum is made possible by blockchain technology.</p>
 
-<p class="notice--warning">For 2 years (from 2020 to 2022), the matter went to Roskomnadzor, and only in August 2022 the department blocked the site.</p>
+<p class="notice--info">It is fundamentally a distributed ledger where transactions are openly and chronologically recorded. Each transaction is then saved on a block of data that is difficult to tamper with after being cryptographically confirmed by network nodes.</p>
 
-<p>&nbsp;</p>
+<p>Even though <a href="/en/articles/bitcoin">Bitcoin</a> and Ethereum employ different forms of blockchain technology, they have several things in common. The decentralized nature of blockchain is the most striking comparison. It stores transaction information independently of any central authority.</p>
 
-<p>Received a notification from representatives of the department:</p>
+<p>A group of interconnected computers form the blockchain network, which receives copies of the blockchain and verifies transactions to preserve the integrity of the ledger.</p>
 
-<figure><a href="/assets/images/blog/rkn/uvedomlenie_rkn.webp" class="image-popup"> <img src="/assets/images/blog/rkn/uvedomlenie_rkn.webp" alt=" notification" /></a></figure>
+<p class="notice--ya">As a result, there can be no single point of failure, and the system cannot be altered or controlled by a single entity.</p>
 
-<p>The government notice proposes to remove material allegedly infringing the law. Otherwise, it will be included in the list of prohibited information.</p>
+<p>Blockchain technology is most often used by Crypto, which is presumably how you first heard of the term. However, the technology can be used for everything from financial transactions to keeping track of medical information and more.</p>
 
-<h2 id="what-to-do-after-blocking">What to do after blocking?</h2>
+<p class="notice--primary">The name “blockchain” refers to a system where data is stored that cannot be altered.</p>
 
-<div class="imgcen">
+<p>The ability of blockchain technology to support decentralization is its other side, in addition to the fact that it makes cryptocurrencies possible.</p>
 
-</div>
+<p>Blockchain decentralization moves decision-making away from a centralized place or authority.</p>
 
-<p>The Bytwork team initially tried to handle the whole process on their own. They removed the page because of which there was a court and notified representatives of the department about it.</p>
+<p class="notice--ya"><a href="https://en.wikipedia.org/wiki/Decentralization">Decentralization</a> increases an organization’s efficiency and effectiveness by getting rid of pointless components, cutting down on duplication, and preventing single points of failure. Members of decentralized networks are meant to act independently without seeking approval from the centralized grid.</p>
 
-<p class="notice--danger">However, Roskomnadzor considered that the entire domain is subject to blocking. And despite the fact that the administrators of the Bytwork site removed the page against which the judgment was issued, <strong>RKN left the entire domain blocked</strong>.</p>
+<p>Three fundamental network structures—centralized, decentralized, and disseminated—are frequently employed when considering a technology setup.</p>
 
-<figure><a href="/assets/images/blog/rkn/rkn_block.webp" class="image-popup"> <img src="/assets/images/blog/rkn/rkn_block.webp" alt="Roskomnadzor blocking" /><figcaption>Block type: entire domain, not article.</figcaption></a></figure>
+<p>Although decentralized networks are typically used by blockchain technology, a blockchain application may or may not be decentralized. Decentralization should therefore be implemented further up the grid and at both the technological and administrative levels.</p>
 
-<p>Next, Bytwork turned to lawyers. Not all lawyers understand how to conduct such cases, moreover, many did not understand what blocking from the RKN is and who blocks access to sites in Russia?</p>
+<p class="notice--warning">Therefore, it is crucial to keep design principles in mind when working on a product that supports decentralization.</p>
 
-<p>The Bytwork team realized that it was necessary to look for lawyers specializing in such cases!</p>
+<h2 id="blockchain-design-principles-to-follow">Blockchain Design Principles to Follow</h2>
 
-<p>According to numerous reviews and advice from administrators and owners of other sites-colleagues, the company DRC.law was found.</p>
+<p>Design and development of fintech apps has been gaining ground quickly. Here are the three blockchain design tenets that you ought to abide by. We’ve limited it to just three because designing for blockchain and cryptocurrency projects is more about understanding the technology, its intended audience, and the future blockchain brings than it is about adhering to the rules.</p>
 
-<p><a href="https://drc.law/">DRC.law</a> is a large company of IT lawyers. They solve all legal issues for users, website owners, IT and Telecom businesses!</p>
+<h3 id="human-centered-design">Human-Centered Design</h3>
 
-<figure><a href="/assets/images/blog/rkn/drc.webp" class="image-popup"> <img src="/assets/images/blog/rkn/drc.webp" alt=" DRC.law" /></a></figure>
+<p>The most important aspect of blockchain is that users must have faith in it. Blockchain must be created in a way that is clear to all users in order to gain their trust.</p>
 
-<p>Contacting <a href="https://drc.law/">DRC.law</a>, Bytwork immediately outlined the issue. The lawyers instantly, thanks to their vast experience in handling such cases, described a possible solution to the blocking problem, drew up an action plan and honestly set the deadlines (let’s say right away that DRC.law did everything quickly and efficiently, all the deadlines depended only on the Court, post offices and other related to this).</p>
+<p class="notice--success">Therefore, one of the most crucial aspects of blockchain design is how user-friendly it is. Giving people who may not be extremely tech-savvy basic, intuitive user interfaces is one method to do this. If you are looking for an example, <a href="https://cex.io/mobile">you can download bitcoin trading app for iPhone</a> made by CEX.iO</p>
 
-<p>After listening to the action plan, the Bytwork team decided to cooperate with DRC.law.</p>
+<h3 id="designing-for-trust">Designing for Trust</h3>
 
-<h2 id="solution">Solution</h2>
+<p>Designing for the blockchain entails planning to create a service or application that can be relied upon, is unchangeable, and is (nearly) completely transparent to all users and stakeholders.</p>
 
-<p>The DRC.law team immediately proceeded to create an appeal based on the fact that Bytwork was not notified of the trial and the procedural deadlines were violated.</p>
+<p class="notice--danger">The fundamental function of blockchain is the handling of private data. Therefore, it’s crucial to keep the user’s trust when it comes to that information<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup>.</p>
 
-<p>It should be noted right away that DRC.law gives you a choice of 2 options for working with them:<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup></p>
+<p>Reliability and stability of the platform are affected in some way by that trust. To preserve user confidence in your design and product, pay attention to customer feedback and maintain consistency.</p>
 
-<ol>
-  <li>You personally go to court with lawyers;</li>
-  <li>You draw up a power of attorney for the company (it is only for the court), and the lawyer himself goes to court on your behalf. Bytwork chose option 2!</li>
-</ol>
+<h3 id="simplicity-at-the-core">Simplicity at the Core</h3>
 
-<p>Since the court was very far away, it was easier and more profitable to issue a power of attorney.</p>
+<p>Make your application as simple and easy to use as possible. Blockchain creates an almost endless stream of data and information, so keeping your interface simple will make it easier for people. This also helps diminish entrance barriers to your platform. The less a user has to figure out, the easier it is to start using.</p>
 
-<p>After the appeal was drawn up, it was sent to court (everything was done very quickly). The appeal was sent in <strong>August 2022</strong>! And the answer from the Onega City Court came already <strong>October 10, 2022</strong>.</p>
+<p>With that said, there are a few things to keep in mind when designing for blockchain while keeping it simple.</p>
 
-<p>Note that the letter came to the Bytwork team at the specified home address and in parallel to the legal address drc.law.</p>
-
-<figure><a href="/assets/images/blog/rkn/appelyacia.webp" class="image-popup"> <img src="/assets/images/blog/rkn/appelyacia.webp" alt=" Appeal to Roskomnadzor" /><figcaption>Notice that the state has accepted the appeal.</figcaption></a></figure>
-
-<p class="notice--primary">Further, only <strong>November 1, 2022</strong> the case goes to court!</p>
-
-<p>The appeal was considered for about 2 months, after which the date of the new hearing was set for <strong>12/21/2022</strong>!</p>
-
-<h3 id="second-hearing">Second hearing?</h3>
-
-<p>On December 1, 2022, right before the new year, the Bytwork team gets a great message from the lawyers:</p>
-
-<blockquote>
-  <p>“Hello! The lawyer wrote that the decision of the Onega city court was canceled in the part of the bytwork website and the case was sent for a new trial to the court of first instance. Next, we are waiting for the case to be sent to the court of first instance and the appointment of a court session.”</p>
-</blockquote>
-
-<p>AND:</p>
-
-<blockquote>
-  <p>“An important point, at this stage, after receiving the appealsionic determination, we can submit a request to the RKN and the site will be unblocked “</p>
-</blockquote>
-
-<p>Everything is great, and we are very grateful to drc.law for the work done, but the matter is still not fully resolved, because:</p>
-
-<blockquote>
-  <p>“However, the case is not closed, because the issue of blocking depends on the second session of the first instance”</p>
-</blockquote>
-
-<p>So, the new hearing will take place on February 3, 2023!</p>
-
-<p class="notice--ya">But until that moment, lawyers from <a href="https://drc.law/">DRC.law</a> wrote a letter to the RKN to unblock the site (since the case in which we were blocked by the RKN no longer existed). And thanks to their letter to Roskomnadzor on January 23, bytwork.com was already unblocked!</p>
-
-<h3 id="victory">Victory!</h3>
-
-<p>On February 3, 2023, the Bytwork team receives the following letter from attorneys:</p>
-
-<blockquote>
-  <p>“Hello! I have great news: during the meeting after the break, the prosecutor announced that he was dropping his claim regarding the requirements for bytwork. The refusal was accepted by the court, the proceedings were terminated. So everything ended well.”</p>
-</blockquote>
-
-<p>That’s all! The Bytwork team won the case thanks to the lawyers from drc.law! They advised and accompanied Bytwork throughout the case!</p>
-
-<p>Huge thanks to:</p>
-
-<p>Inna Tverezovskaya.</p>
-
-<figure><a href="/assets/images/blog/rkn/urist_1.webp" class="image-popup"> <img src="/assets/images/blog/rkn/urist_1.webp" alt=" Lawyer Inna Tverezovskaya" /></a></figure>
-
-<p>And Anna Kuznetsova</p>
-
-<figure><a href="/assets/images/blog/rkn/urist_2.webp" class="image-popup"> <img src="/assets/images/blog/rkn/urist_2.webp" alt=" Lawyer Anna Kuznetsova" /></a></figure>
-
-<p>They handled our case and answered all our questions in detail!</p>
-
-<h2 id="question-answering">Question Answering</h2>
-
-<div class="schema-faq-code" itemscope="" itemtype="https://schema.org/FAQPage">
-     <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-         <span itemprop="name" class="faq-q">What should I do if the site is blocked by Roskomnadzor?</span>
-         <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-              <p itemprop="text" class="faq-a">Submit an application to eliminate content violations to Roskomnadzor via <a href="https://77.rkn.gov.ru/p3852/p8958/">the official website of the department </a> or by writing a letter to zapret-info@rkn.gov.ru. Or just <a href="https://drc.law/">contact lawyers</a>.</p>
-         </div>
-     </div>
-
-     <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-         <span itemprop="name" class="faq-q">What is banned content in Russia?</span>
-         <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-              <p itemprop="text" class="faq-a">All content that, in the opinion of the authorities, is contrary to local law. Roskomnadzor is directly involved in maintaining the Register of banned sites. It sends lists of prohibited resources to communication providers. If access to the site is restricted in Russia, equipment supplied by Roskomnadzor telecom operators will detect and block this request.</p>
-         </div>
-     </div>
-
-     <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-         <span itemprop="name" class="faq-q">How does the government block websites?</span>
-         <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-              <p itemprop="text" class="faq-a">Roskomnadzor enters a domain name, website IP address or address of a specific page into its registry - a “black list”. Data from this registry is regularly downloaded to their equipment by all Russian Internet providers. In this case, the agency is obliged to notify the domain administrator about the blocking.</p>
-         </div>
-     </div>
-
-     <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-         <span itemprop="name" class="faq-q">list of things banned in Russia</span>
-         <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-              <p itemprop="text" class="faq-a">On its own initiative, Roskomnadzor can block websites for the following reasons:
 <ul>
-<li>pornography;</li>
-<li>information about how drugs are produced and consumed;</li>
-<li>information about methods of suicide and calls for it;</li>
-<li>illegal information about violations against children;</li>
-<li>information about illegal gambling;</li>
-<li>information on how to buy alcohol and drugs remotely;</li>
-<li>information harmful to children.</li>
-</ul></p><p>Source: <a href="https://rkn.gov.ru/treatments/p459/p750/">Bases for blocking web pages</a>.</p>
-         </div>
-     </div>
-
-     <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-         <span itemprop="name" class="faq-q">How do you check which websites are blocked?</span>
-         <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-              <p itemprop="text" class="faq-a">You can check the blocking through <a href="https://blocklist.rkn.gov.ru/">a form on the department's official website</a>.</p>
-         </div>
-     </div>
-
-     <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-         <span itemprop="name" class="faq-q">List of websites blocked in Russia</span>
-         <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-              <p itemprop="text" class="faq-a">Website <a href="https://reestr.rublacklist.net/ru/">Roskomsvoboda maintains its own register</a> of blocked websites. </p>
-         </div>
-     </div>
-
-     <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-         <span itemprop="name" class="faq-q">What is the procedure for blocking sites?</span>
-         <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-              <p itemprop="text" class="faq-a">
-<ul>
-<li>Applying requests. Roskomnadzor, as the operator of the registry of prohibited sites, accepts requests from citizens about resources containing prohibited information. ...</li>
-<li>Submission of the application to the authorized body. ...</li>
-<li>Consideration of the application by the authorized body. ...</li>
-<li>Making an entry in the registry. ...</li>
-<li>Check and block.</li>
+  <li><strong>Security</strong> –Even with <a href="https://www.investopedia.com/terms/t/twofactor-authentication-2fa.asp">2FA</a>, users should have no trouble entering their login information (a secure password or biometrics). More importantly, every page, file, and transaction must encourage a sense of security while maintaining the design’s simplicity and navigability.</li>
 </ul>
-</p>
-         </div>
-     </div>
-</div>
+
+<p>Additionally, security shouldn’t be equated with resistance. You want a platform that makes every interaction feel safe and secure.</p>
+
+<ul>
+  <li>
+    <p><strong>Privacy</strong> –Some degree of privacy is necessary for sensitive information. Users desire privacy for their identities as well as for their activities on your platform. No matter what your product does, pseudonyms and private keys are two blockchain technology cornerstones that you should incorporate.</p>
+  </li>
+  <li>
+    <p><strong>Transparency</strong> –It takes time to complete a blockchain transaction, but we rarely know exactly how much of that time is related to network utilization. Users ought to know about their own transactions because the data is sensitive. Maintain your users informed when designing and keep transparency in mind.</p>
+  </li>
+</ul>
+
+<p class="notice">For people to understand how your product functions and how it differs from those of your competitors, a transparent governance approach is also crucial.</p>
+
+<ul>
+  <li><strong>Consistency</strong> – Establish one design language, and use it as much as you can. It enables consumers to move through your product with ease, pinpoint their location at any given moment, and decide what steps to do next. If the user interface of your blockchain project is clear, uncluttered, and adheres to a single design language throughout, it will be more successful.</li>
+</ul>
+
 <div class="footnotes" role="doc-endnotes">
   <ol>
     <li id="fn:1">
-      <p><a href="https://onegasud--arh.sudrf.ru/modules.php?name=sud_delo&amp;srv_num=1&amp;name_op=doc&amp;number=122442559&amp;delo_id=41&amp;new=&amp;text_number=1">Administrative case decision</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:2">
-      <p><a href="https://drc.law/uslugi/obzhalovanie-sudebnogo-resheniya-o-priznanii-informatsii-nezakonnoy/">Appeal against a court decision on declaring information illegal</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+      <p><a href="https://uxplanet.org/blockchain-and-its-applications-for-service-designers-7b6bfd9fec39">Blockchain and Its Applications for Service Designers</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Roskomnadzor censorship on the example of bitcoin. In this article, you will learn about government blocking and how to solve this problem.]]></summary></entry></feed>
+</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Human-Centered Design: trust, simplicity at the Core There are a few things to keep in mind when designing for blockchain while keeping it simple.]]></summary></entry></feed>
