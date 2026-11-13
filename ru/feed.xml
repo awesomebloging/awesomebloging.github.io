@@ -1,4 +1,257 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="ru" /><updated>2026-10-19T06:09:09-04:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="ru"><title type="html">OneKey Pro 2: честный отзыв, баги safeOS и стоит ли $299</title><link href="https://miningsoft.org/ru/wallets/onekey-pro2/" rel="alternate" type="text/html" title="OneKey Pro 2: честный отзыв, баги safeOS и стоит ли $299" /><published>2026-10-16T00:00:00-04:00</published><updated>2026-10-16T00:00:00-04:00</updated><id>https://miningsoft.org/ru/wallets/onekey-pro2</id><content type="html" xml:base="https://miningsoft.org/ru/wallets/onekey-pro2/"><![CDATA[<div class="paper wallet">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://miningsoft.org/ru/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miningsoft.org/ru/" rel="alternate" type="text/html" hreflang="ru" /><updated>2026-11-13T14:47:52-05:00</updated><id>https://miningsoft.org/ru/feed.xml</id><title type="html">MiningSoft</title><subtitle>Miners developer</subtitle><author><name>Matthew Wood</name></author><entry xml:lang="ru"><title type="html">OneKey Neo: честный вердикт и разбор за $179</title><link href="https://miningsoft.org/ru/wallets/onekey-neo/" rel="alternate" type="text/html" title="OneKey Neo: честный вердикт и разбор за $179" /><published>2026-11-13T00:00:00-05:00</published><updated>2026-11-13T00:00:00-05:00</updated><id>https://miningsoft.org/ru/wallets/onekey-neo</id><content type="html" xml:base="https://miningsoft.org/ru/wallets/onekey-neo/"><![CDATA[<div class="paper wallet">
+  <div class="pattern">
+    <div class="note-cont">
+      OneKey Neo - честный вердикт и разбор за $179
+    </div>
+  </div>
+</div>
+<p><em>Честный разбор OneKey Neo за $179 - экран AMOLED, 2 чипа EAL6+ и 5 скрытых минусов, что на деле скрывает маркетинг</em></p>
+
+<p><a href="https://onekey.so/products/onekey-neo/" class="btn btn--light-outline btn--x-large">Официальный сайт</a></p>
+
+<h2 id="что-такое-onekey-neo">Что такое OneKey Neo?</h2>
+
+<section>
+
+  <p><dfn>Кошелек OneKey Neo</dfn> - это некастодиальный аппаратный криптокошелек с открытым исходным кодом для автономного хранения монет, оснащенный 2 чипами безопасности стандарта EAL6+, 3,54-дюймовым AMOLED-экраном и верификацией транзакций Clear Signing на базе safeOS 2.</p>
+
+  <p class="notice--primary">Neo - это, по сути, облегченная версия Pro 2. Размер тот же, плата та же, процессор тот же… Единственное различие внутри - это количество защищенных чипов<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></p>
+
+</section>
+
+<p>Если выкинуть рекламную шелуху, OneKey Neo - это первый <strong>бюджетный</strong> кошелек, который воспринимается не как дешевый пластиковый свисток или архаичная флешка, а как современный гаджет потребительской электроники.</p>
+
+<figure><a href="/assets/images/wallets/onekey/neo/image1.png" class="image-popup"> <img src="/assets/images/wallets/onekey/neo/image1.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<h2 id="экспресс-оценка">Экспресс оценка</h2>
+
+<p>Мой вывод после тестов в том, что производитель сделал умный ход. Вместо того чтобы резать качество экрана или тормозить интерфейс, OneKey взяли платформу их флагманского Pro 2 и выкинули из нее вторичные игрушки - сканер отпечатков, камеру для QR-кодов и экосистему Apple Find My.</p>
+
+<p class="notice--warning">Функционально кошелек богат. Это по сути сенсорный мини смартфон с понятным подписанием транзакций и беспроводной зарядкой.</p>
+
+<p>На выходе за $179 Вы получаете 90% реальных возможностей флагмана.</p>
+
+<h2 id="обзор-onekey-neo">Обзор OneKey Neo</h2>
+
+<h3 id="железо-и-эргономика">Железо и эргономика</h3>
+
+<p>По внешнему виду и ощущению в руке, Neo оставляет приятное впечатление, а в трех местах даже обходит флагман.</p>
+
+<ol>
+  <li><strong>Стекловолокно лучше стекла.</strong> Задняя панель Neo - матовое композитное стекловолокно. По мне, это практичнее стеклянной спинки Pro 2. Пальцы не собирает и не рискует расколоться при первом падении на плитку.</li>
+  <li><strong>Большой экран.</strong> Тачскрин AMOLED на 3.54 дюйма с 60 Гц и 800 нит делает взаимодействие плавным. Вы больше не прячете кошелек в сейф на полгода. Аппарат превращается в эстетичный рабочий девайс для ежедневного мониторинга портфеля и подписи dApp-транзакций.</li>
+  <li><strong>Нюанс хвата.</strong> Из-за прямоугольных граней алюминиевой рамки без скруглений держать девайс 2 руками менее удобно, чем округлый Pro 2. Но при весе 51 грамм дискомфорта не доставляет.</li>
+</ol>
+
+<figure><a href="/assets/images/wallets/onekey/neo/image2.png" class="image-popup"> <img src="/assets/images/wallets/onekey/neo/image2.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<h3 id="анализ-безопасности">Анализ безопасности</h3>
+
+<p class="notice--info">В вопросах защиты OneKey Neo держит разумный баланс. Тут <a href="https://bytwork.com/wallets/onekey-neo">Максим Анисимов, известный редактор bytwork.com вскрыл Onekey Neo</a> и посмотрел что внутри. Вскрытие OneKey Neo показало, что системная плата идентична Pro 2 и несет двухъядерный STM32H747XIH6 с интерфейсом 50–60 кадров/с.</p>
+
+<p>На плате 2 изолированных чипа THD89 с EAL6+ вместо 4 у Pro 2; 1 хранит приватные ключи и подписывает транзакции, второй проверяет ПИН-код и системные ключи. Стоят аккумулятор 700 мАч с Qi и компоненты AEC-Q100. Корпус из анодированного алюминия, 3.54-дюймовый AMOLED под Gorilla Glass 5, защита IP56.</p>
+
+<figure><a href="/assets/images/wallets/onekey/neo/image3.png" class="image-popup"> <img src="/assets/images/wallets/onekey/neo/image3.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>И хотя отказ от части функций вызовет споры:</p>
+
+<ul>
+  <li><strong>2 чипа EAL6+ вместо 4</strong>. Разборка показывает, что в Neo стоят 2 банковских THD89. По мне, стойкость к взлому от этого вообще не падает. 2 чипа полностью закрывают генерацию ключей и изоляцию ПИН-кода. Еще пара чипов в Pro 2 нужна была только под биометрию и камеру.</li>
+  <li><strong>Потеря Air-Gap (камеры)</strong>. Без камеры автономную подпись через QR-коды не сделать. Для параноиков минус. Но для 95% владельцев связка Bluetooth, USB-C и NFC устраивает. Это комфортный баланс с сохранением аппаратной изоляции ключей.</li>
+  <li><strong>Clear Signing</strong>. Вот что реально вытягивает безопасность Neo. И нет, не чипы, а читаемость экрана. Когда видишь полный декомпилированный текст транзакции и адреса без бесконечной прокрутки, вопрос слепого подписания закрывается наглухо.</li>
+</ul>
+
+<h3 id="5-слабых-мест-и-подводных-камней">5 слабых мест и подводных камней</h3>
+
+<p>Не буду делать вид, что девайс идеален. У Neo хватает минусов. Их 6.</p>
+
+<figure><a href="/assets/images/wallets/onekey/neo/image4.png" class="image-popup"> <img src="/assets/images/wallets/onekey/neo/image4.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<ol>
+  <li><strong>Пустая коробка за $179.</strong> В комплекте только кошелек и кабель. Силиконовый чехол, NFC-карту SeedCard за $39 и металлические пластины придется брать отдельно.</li>
+  <li><strong>Медленное обновление по Bluetooth.</strong> Прошивка по воздуху может тянуться 30–40 мин и потрепать нервы при обрыве связи. Обновляйтесь строго по кабелю через ПК.</li>
+  <li><strong>Игнорирование биткоин-ортодоксов.</strong> На старте нет чистой прошивки Bitcoin-Only и нет интеграции со Sparrow Wallet.</li>
+  <li><strong>Скрытые затраты на SignGuard.</strong> Полный антифишинговый функционал приложения (глубокий анализ контрактов) требует платной подписки за $29.99/мес.</li>
+  <li><strong>Разблокировка только по ПИН.</strong> Без отпечатка пальца придется постоянно вводить ПИН-код на экране, а это повышает риск подглядывания в публичных местах.</li>
+  <li>Наконец, зависимость от приложения.</li>
+</ol>
+
+<figure><a href="/assets/images/wallets/onekey/neo/image5.png" class="image-popup"> <img src="/assets/images/wallets/onekey/neo/image5.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>Так же интерфейс местами странный и иопулярный промах - выбрать опцию <code class="language-plaintext highlighter-rouge">Импортировать мнемонику</code> прямо в мобильное приложение OneKey. А там есть функция программного горячего кошелька. Ключи попадают на устройство в сети, и холодное хранение аннулируется полностью.</p>
+
+<p class="notice--danger">Вдобавок полная антифишинговая защита и симуляция транзакций просят подписку $29.99 в месяц или $239 в год. Для Биткоина сервис почти бесполезен - он заточен под смарт-контракты в EVM-сетях.</p>
+
+<p>Помните, что кошелек изолирует ключи в чипе EAL6+, но не спасет от подписания вредоносных разрешений или утечки сидов при кривом хранении.</p>
+
+<h2 id="сравнение-onekey-neo-с-ledger-trezor-и-tangem">Сравнение OneKey Neo с Ledger, Trezor и Tangem</h2>
+
+<p>Ниже сравнение аппаратного криптокошелька <strong>OneKey Neo</strong> с популярными альтернативами от <strong>Ledger</strong>, <strong>Trezor</strong> и <strong>Tangem</strong>.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Параметр</strong></th>
+      <th><strong>OneKey Neo</strong></th>
+      <th><strong>Ledger (Flex / Nano X)</strong></th>
+      <th><strong>Trezor (Safe 5 / 7)</strong></th>
+      <th><strong>Tangem</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Официальная цена</strong></td>
+      <td><strong>$179</strong> (~169€)</td>
+      <td>От $79 (Nano S+) до $249 (Flex) и $399 (Stax)</td>
+      <td>От $99–$169 (Safe 3/5) до $249+ (Safe 7)</td>
+      <td><strong>~$50–$70</strong> за комплект карт</td>
+    </tr>
+    <tr>
+      <td><strong>Экран и дисплей</strong></td>
+      <td><strong>3.54 цветной AMOLED</strong> (800 нит, 60 Гц, 336 PPI, Gorilla Glass 5)</td>
+      <td>Электронные чернила (E-ink) у Flex/Stax или компактный OLED (Nano X/S+). E-ink без цвета и с более медленным откликом</td>
+      <td>Компактный цветной или монохромный экран (уступает по размеру и разрешению)</td>
+      <td><strong>Отсутствует</strong> (экрана нет вообще)</td>
+    </tr>
+    <tr>
+      <td><strong>Чипы безопасности</strong></td>
+      <td><strong>2 × EAL6+</strong> (чипы THD89)</td>
+      <td>1 × EAL5+ или EAL6+</td>
+      <td>1 × EAL6+</td>
+      <td>1x EAL6+ (чип Samsung)</td>
+    </tr>
+    <tr>
+      <td><strong>Подключение</strong></td>
+      <td>Bluetooth, USB-C, NFC (без камеры / QR Air-Gap)</td>
+      <td>USB-C, Bluetooth (Nano X, Flex), NFC (Flex, Stax)</td>
+      <td>В основном USB-C кабель (в базовых моделях нет аккумулятора)</td>
+      <td><strong>Только NFC</strong> (работает исключительно в связке со смартфоном)</td>
+    </tr>
+    <tr>
+      <td><strong>Способ разблокировки</strong></td>
+      <td><strong>ПИН-код</strong> (без сканера отпечатков пальцев)</td>
+      <td>ПИН-код / кнопочный ввод</td>
+      <td>ПИН-код / сенсор или физические кнопки</td>
+      <td>Код доступа / биометрия смартфона</td>
+    </tr>
+    <tr>
+      <td><strong>Открытость исходного кода</strong></td>
+      <td><strong>100% Open Source</strong> (safeOS 2 и OneKey App на GitHub; аудиты SlowMist и Keylabs)</td>
+      <td>Частично закрытый (чип Secure Element закрыт из-за лицензий) / 95% open source</td>
+      <td><strong>100% Open Source</strong></td>
+      <td>Открытый исходный код мобильного приложения на GitHub</td>
+    </tr>
+    <tr>
+      <td><strong>Отображение баланса и транзакций</strong></td>
+      <td><strong>Локальный просмотр портфеля на экране</strong> (safeOS 2), <strong>Clear Signing</strong> и защита <strong>SignGuard</strong></td>
+      <td>Clear Signing через чип Secure Screen и приложение Ledger Live</td>
+      <td>Clear Signing и десктопное приложение Trezor Suite</td>
+      <td>Отображение и подтверждение только на экране смартфона</td>
+    </tr>
+    <tr>
+      <td><strong>Дополнительные функции</strong></td>
+      <td><strong>FIDO2 Passkey</strong>, офлайн-генерация 2FA TOTP, беспроводная зарядка Qi, защита IP56</td>
+      <td>Passkey через NFC (Flex/Stax)</td>
+      <td>Поддержка прошивок Bitcoin-Only и сторонних кошельков (Sparrow)</td>
+      <td>Нет аккумулятора и проводов, защита IP68</td>
+    </tr>
+    <tr>
+      <td><strong>Материалы корпуса</strong></td>
+      <td>Рама из алюминия + задняя панель из стекловолокна (51 г, 6.2 мм)</td>
+      <td>Пластик / металлическая крышка (Nano) или пластиковый E-ink корпус (Flex)</td>
+      <td>Пластик / изумрудное стекло (Safe 7)</td>
+      <td>Устойчивый к внешним воздействиям пластик (формат банковской карты)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Расклад сравнения такой. В OneKey Neo бросается в глаза ярким сенсорным AMOLED-дисплеем (3.54 дюйма, 60 Гц, 800 нит). Навигация плавная, а 42-символьные адреса читаются четко. У E-ink (например, в Ledger Flex) частота обновления заметно ниже и цвета нет. У Trezor дисплей ощутимо меньше, а у Tangem экрана нет вовсе.</p>
+
+<h2 id="быстрый-старт-и-настройка-onekey-neo">Быстрый старт и настройка OneKey Neo</h2>
+
+<p><strong>Проверка:</strong></p>
+
+<figure><a href="/assets/images/wallets/onekey/neo/image6.png" class="image-popup"> <img src="/assets/images/wallets/onekey/neo/image6.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<ol>
+  <li><strong>Проверьте</strong> коробку и устройство</li>
+  <li><strong>Осмотрите</strong> защитные пломбы на коробке и стикер защиты от вскрытия на самом устройстве.</li>
+  <li><strong>Если стикер отклеен</strong> или на нем проявилась надпись VOID - не активируйте кошелек и сразу обратитесь в официальную поддержку.</li>
+</ol>
+
+<p><strong>Первичная настройка:</strong></p>
+
+<ol>
+  <li><strong>Зажмите боковую кнопку</strong> питания, чтобы включить OneKey Neo.</li>
+  <li><strong>Выберите язык</strong> интерфейса. Среди доступных есть и русский.</li>
+  <li><strong>Выберите Ручная настройка</strong> (Manual Setup). Так приватные ключи сгенерируются полностью офлайн, без сети и приложения.</li>
+  <li><strong>Задайте имя</strong> устройства.</li>
+  <li><strong>Задайте и подтвердите надежный PIN-код</strong> для ежедневного доступа.</li>
+</ol>
+
+<figure><a href="/assets/images/wallets/onekey/neo/image7.png" class="image-popup"> <img src="/assets/images/wallets/onekey/neo/image7.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p><strong>Безопасность сид фразы:</strong></p>
+
+<ol>
+  <li><strong>Нажмите Создать новый кошелек</strong> (Create Wallet).</li>
+  <li>По умолчанию вам предложат <strong>12 слов</strong>. Через меню 3 точек в правом верхнем углу экрана можно выбрать 18 или 24 слова (BIP-39) либо SLIP-39 (Shamir Backup из 20 слов).</li>
+  <li><strong>Запишите слова</strong> строго по порядку на бумажную карту из комплекта или выбейте на металлической пластине. Никогда не фотографируйте фразу и не вводите ее в интернет.</li>
+  <li><strong>Пройдите проверку</strong> записанных слов на экране устройства.</li>
+</ol>
+
+<figure><a href="/assets/images/wallets/onekey/neo/image8.png" class="image-popup"> <img src="/assets/images/wallets/onekey/neo/image8.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>Далее соедините устройство с приложением:</p>
+
+<ol>
+  <li><strong>Скачайте OneKey App</strong> только с официального сайта onekey.so.</li>
+  <li><strong>Подключите OneKey Neo к ПК</strong> или смартфону по USB-C или Bluetooth.</li>
+  <li><strong>Приложение само выполнит</strong> криптографическую проверку подлинности чипов и прошивки (Genuine Check).</li>
+  <li><strong>Обновите ОС</strong> до актуальной версии.</li>
+</ol>
+
+<figure><a href="/assets/images/wallets/onekey/neo/image9.png" class="image-popup"> <img src="/assets/images/wallets/onekey/neo/image9.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<p>Обновляйтесь через ПК по кабелю USB-C. Это займет 2–3 минуты вместо 15–40 минут по Bluetooth и убережет от сбоев соединения.</p>
+
+<h2 id="итоговая-оценка-кому-брать-а-кому-пройти-мимо">Итоговая оценка. Кому брать, а кому пройти мимо</h2>
+
+<p><strong>Мой вердикт.</strong> OneKey Neo - лучшая покупка в сегменте до $200 для активных Web3-пользователей, DeFi-трейдеров и тех, кто ищет аккуратный первый холодный кошелек.</p>
+
+<ul>
+  <li><strong>Берите Neo, если</strong> нужен яркий экран, быстрая подпись контрактов и надежное хранение без переплаты $120 за биометрию и камеру.</li>
+  <li><strong>Проходите мимо, если</strong> Вы биткоин-максималист и признаете только физический Air-Gap по QR-коду, прошивку Bitcoin-Only и работу через Sparrow Wallet.</li>
+</ul>
+
+<figure><a href="/assets/images/wallets/onekey/neo/image10.png" class="image-popup"> <img src="/assets/images/wallets/onekey/neo/image10.png" alt="" loading="lazy" decoding="async" /></a></figure>
+
+<h3 id="баланс-плюсов-и-минусов">Баланс плюсов и минусов</h3>
+
+<p><strong>Сильные стороны:</strong></p>
+
+<ol>
+  <li>Читаемость контрактов на высоте, а интерфейс шустрый - 60 FPS.</li>
+  <li>В наличии <strong>FIDO2 Passkey</strong> - физический USB-ключ для Google, GitHub и бирж.</li>
+  <li>Интерфейсы универсальные - <strong>USB-C, Bluetooth, NFC</strong> плюс беспроводная зарядка <strong>Qi</strong> (IP56).</li>
+</ol>
+
+<p><strong>Слабые места:</strong></p>
+<ol>
+  <li><strong>Камеры нет (QR Air-Gap).</strong> Автономную подпись через сканирование QR-кодов девайс не умеет - связь только по Bluetooth, USB-C или NFC.</li>
+  <li><strong>Сканера отпечатков и Find My нет.</strong> Разблокировка только по ПИН-коду, геолокация Apple убрана.</li>
+  <li><strong>Комплектация Device Only.</strong> В коробке за $179 нет NFC-карты SeedCard и чехла - докупайте отдельно.</li>
+  <li><strong>Софт для Bitcoin ограничен.</strong> На старте нет прошивки Bitcoin-Only и поддержки стороннего софта (Sparrow Wallet) для мультисиг-схем.</li>
+  <li><strong>Обновления медленные.</strong> safeOS 2 по Bluetooth ставится от 10 до 40 минут - по опыту, лучше обновляться только по кабелю USB-C (2–3 мин).</li>
+</ol>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1">
+      <p><a href="https://onekey.so/products/onekey-neo/">Официальный сайт</a>. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Matthew Wood</name></author><category term="wallets" /><summary type="html"><![CDATA[OneKey Neo - честный вердикт и разбор за $179 Честный разбор OneKey Neo за $179 - экран AMOLED, 2 чипа EAL6+ и 5 скрытых минусов, что на деле скрывает маркетинг]]></summary></entry><entry xml:lang="ru"><title type="html">OneKey Pro 2: честный отзыв, баги safeOS и стоит ли $299</title><link href="https://miningsoft.org/ru/wallets/onekey-pro2/" rel="alternate" type="text/html" title="OneKey Pro 2: честный отзыв, баги safeOS и стоит ли $299" /><published>2026-10-16T00:00:00-05:00</published><updated>2026-10-16T00:00:00-05:00</updated><id>https://miningsoft.org/ru/wallets/onekey-pro2</id><content type="html" xml:base="https://miningsoft.org/ru/wallets/onekey-pro2/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       Проверил AMOLED на 50 FPS, 4 чипа EAL6+, как работает Air-Gap, батарею 700 мАч, косяки прошивки по Bluetooth и подписку Prime.
@@ -233,7 +486,7 @@
       <p><a href="https://onekey.so/ru/products/onekey-pro-2/">Официальный сайт</a>. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="wallets" /><summary type="html"><![CDATA[Проверил AMOLED на 50 FPS, 4 чипа EAL6+, как работает Air-Gap, батарею 700 мАч, косяки прошивки по Bluetooth и подписку Prime. В этом обзре вы узнаете все про аппаратный кошелек OneKey Pro 2]]></summary></entry><entry xml:lang="ru"><title type="html">CryptoEasily запускает бесплатные сервисы майнинга Bitcoin (BTC), Dogecoin (DOGE) и Litecoin (LTC)</title><link href="https://miningsoft.org/ru/blog/easily/" rel="alternate" type="text/html" title="CryptoEasily запускает бесплатные сервисы майнинга Bitcoin (BTC), Dogecoin (DOGE) и Litecoin (LTC)" /><published>2025-12-09T00:00:00-04:00</published><updated>2025-12-09T00:00:00-04:00</updated><id>https://miningsoft.org/ru/blog/easily</id><content type="html" xml:base="https://miningsoft.org/ru/blog/easily/"><![CDATA[<div class="paper wallet">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="wallets" /><summary type="html"><![CDATA[Проверил AMOLED на 50 FPS, 4 чипа EAL6+, как работает Air-Gap, батарею 700 мАч, косяки прошивки по Bluetooth и подписку Prime. В этом обзре вы узнаете все про аппаратный кошелек OneKey Pro 2]]></summary></entry><entry xml:lang="ru"><title type="html">CryptoEasily запускает бесплатные сервисы майнинга Bitcoin (BTC), Dogecoin (DOGE) и Litecoin (LTC)</title><link href="https://miningsoft.org/ru/blog/easily/" rel="alternate" type="text/html" title="CryptoEasily запускает бесплатные сервисы майнинга Bitcoin (BTC), Dogecoin (DOGE) и Litecoin (LTC)" /><published>2025-12-09T00:00:00-05:00</published><updated>2025-12-09T00:00:00-05:00</updated><id>https://miningsoft.org/ru/blog/easily</id><content type="html" xml:base="https://miningsoft.org/ru/blog/easily/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       Британская платформа CryptoEasily запустила новое мобильное приложение для бесплатного облачного майнинга криптовалют - Bitcoin, Litecoin и Dogecoin.
@@ -316,7 +569,7 @@
 
 <p>
 «MiningSoft» не предоставляет инвестиционных консультаций; материалы публикуются исключительно в ознакомительных целях. Криптовалюта - волатильный актив, способный привести к финансовым потерям.
-</p>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Британская платформа CryptoEasily запустила новое мобильное приложение для бесплатного облачного майнинга криптовалют - Bitcoin, Litecoin и Dogecoin. Вы узнаете облачный майнинг на CryptoEasily.]]></summary></entry><entry xml:lang="ru"><title type="html">6 лучших крипто дебетовых карт - сравнение условий и комиссий</title><link href="https://miningsoft.org/ru/articles/cards/" rel="alternate" type="text/html" title="6 лучших крипто дебетовых карт - сравнение условий и комиссий" /><published>2025-11-21T00:00:00-04:00</published><updated>2025-11-23T00:00:00-04:00</updated><id>https://miningsoft.org/ru/articles/cards</id><content type="html" xml:base="https://miningsoft.org/ru/articles/cards/"><![CDATA[<div class="paper wallet">
+</p>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Британская платформа CryptoEasily запустила новое мобильное приложение для бесплатного облачного майнинга криптовалют - Bitcoin, Litecoin и Dogecoin. Вы узнаете облачный майнинг на CryptoEasily.]]></summary></entry><entry xml:lang="ru"><title type="html">6 лучших крипто дебетовых карт - сравнение условий и комиссий</title><link href="https://miningsoft.org/ru/articles/cards/" rel="alternate" type="text/html" title="6 лучших крипто дебетовых карт - сравнение условий и комиссий" /><published>2025-11-21T00:00:00-05:00</published><updated>2025-11-23T00:00:00-05:00</updated><id>https://miningsoft.org/ru/articles/cards</id><content type="html" xml:base="https://miningsoft.org/ru/articles/cards/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
        Карты позволяют тратить криптовалюту везде, где принимаются Visa/Mastercard, часто с поддержкой Apple/Google Pay.
@@ -671,7 +924,7 @@
       <p><a href="https://help.whitebit.com/hc/ru/articles/23273438576925-%D0%94%D0%B5%D0%B1%D0%B5%D1%82%D0%BE%D0%B2%D0%B0%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B0-WhiteBIT-N%C3%B3va">Дебетовая карта WhiteBIT Nóva</a>. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Карты позволяют тратить криптовалюту везде, где принимаются Visa/Mastercard, часто с поддержкой Apple/Google Pay. Узнайте какая крипто дебетовая карта лучше? 6 вариантов для сравнения]]></summary></entry><entry xml:lang="ru"><title type="html">8 DePIN-проектов с аирдропом: как получить токены и способы участия</title><link href="https://miningsoft.org/ru/blog/depin-airdrops/" rel="alternate" type="text/html" title="8 DePIN-проектов с аирдропом: как получить токены и способы участия" /><published>2025-11-20T00:00:00-04:00</published><updated>2025-11-20T00:00:00-04:00</updated><id>https://miningsoft.org/ru/blog/depin-airdrops</id><content type="html" xml:base="https://miningsoft.org/ru/blog/depin-airdrops/"><![CDATA[<div class="paper wallet">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Карты позволяют тратить криптовалюту везде, где принимаются Visa/Mastercard, часто с поддержкой Apple/Google Pay. Узнайте какая крипто дебетовая карта лучше? 6 вариантов для сравнения]]></summary></entry><entry xml:lang="ru"><title type="html">8 DePIN-проектов с аирдропом: как получить токены и способы участия</title><link href="https://miningsoft.org/ru/blog/depin-airdrops/" rel="alternate" type="text/html" title="8 DePIN-проектов с аирдропом: как получить токены и способы участия" /><published>2025-11-20T00:00:00-05:00</published><updated>2025-11-20T00:00:00-05:00</updated><id>https://miningsoft.org/ru/blog/depin-airdrops</id><content type="html" xml:base="https://miningsoft.org/ru/blog/depin-airdrops/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       Большинство проектов можно запускать бесплатно, но для максимальной доходности часто требуется оборудование.
@@ -810,7 +1063,7 @@
       <p><a href="https://x.com/nubilanetwork/status/1980277921412784326">Nubila Secures $8M Seed Round to Accelerate the Prediction Market Oracle Frontier</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Большинство проектов можно запускать бесплатно, но для максимальной доходности часто требуется оборудование. Вы узнаете про 8 уникальных крипто-эйрдропов в пространстве DePIN.]]></summary></entry><entry xml:lang="ru"><title type="html">Ethereum Fusaka – хардфорк о котором нужно знать держателям ETH</title><link href="https://miningsoft.org/ru/blog/fusaka/" rel="alternate" type="text/html" title="Ethereum Fusaka – хардфорк о котором нужно знать держателям ETH" /><published>2025-11-19T00:00:00-04:00</published><updated>2025-11-23T00:00:00-04:00</updated><id>https://miningsoft.org/ru/blog/fusaka</id><content type="html" xml:base="https://miningsoft.org/ru/blog/fusaka/"><![CDATA[<div class="paper wallet">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Большинство проектов можно запускать бесплатно, но для максимальной доходности часто требуется оборудование. Вы узнаете про 8 уникальных крипто-эйрдропов в пространстве DePIN.]]></summary></entry><entry xml:lang="ru"><title type="html">Ethereum Fusaka – хардфорк о котором нужно знать держателям ETH</title><link href="https://miningsoft.org/ru/blog/fusaka/" rel="alternate" type="text/html" title="Ethereum Fusaka – хардфорк о котором нужно знать держателям ETH" /><published>2025-11-19T00:00:00-05:00</published><updated>2025-11-23T00:00:00-05:00</updated><id>https://miningsoft.org/ru/blog/fusaka</id><content type="html" xml:base="https://miningsoft.org/ru/blog/fusaka/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       Несмотря на риск краткосрочной коррекции, обновление Fusaka закладывает фундамент для долгосрочного роста ETH.
@@ -1025,7 +1278,7 @@
       <p><a href="https://eips.ethereum.org/EIPS/eip-7551">EIP-7951</a>. <a href="#fnref:12" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Несмотря на риск краткосрочной коррекции, обновление Fusaka закладывает фундамент для долгосрочного роста ETH. Узнайте как грядущее обновление Ethereum Fusaka, нацеленное на повышение масштабируемости и безопасности сети за счет 12 технических улучшений, может стать катализатором для роста цены ETH.]]></summary></entry><entry xml:lang="ru"><title type="html">Trezor Safe 7: Обзор аппаратного кошелька с квантовой готовностью (2025)</title><link href="https://miningsoft.org/ru/wallets/trezor-safe-7/" rel="alternate" type="text/html" title="Trezor Safe 7: Обзор аппаратного кошелька с квантовой готовностью (2025)" /><published>2025-11-12T00:00:00-04:00</published><updated>2025-11-13T00:00:00-04:00</updated><id>https://miningsoft.org/ru/wallets/trezor-safe-7</id><content type="html" xml:base="https://miningsoft.org/ru/wallets/trezor-safe-7/"><![CDATA[<div class="paper wallet">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Несмотря на риск краткосрочной коррекции, обновление Fusaka закладывает фундамент для долгосрочного роста ETH. Узнайте как грядущее обновление Ethereum Fusaka, нацеленное на повышение масштабируемости и безопасности сети за счет 12 технических улучшений, может стать катализатором для роста цены ETH.]]></summary></entry><entry xml:lang="ru"><title type="html">Trezor Safe 7: Обзор аппаратного кошелька с квантовой готовностью (2025)</title><link href="https://miningsoft.org/ru/wallets/trezor-safe-7/" rel="alternate" type="text/html" title="Trezor Safe 7: Обзор аппаратного кошелька с квантовой готовностью (2025)" /><published>2025-11-12T00:00:00-05:00</published><updated>2025-11-13T00:00:00-05:00</updated><id>https://miningsoft.org/ru/wallets/trezor-safe-7</id><content type="html" xml:base="https://miningsoft.org/ru/wallets/trezor-safe-7/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       Обзор и сравнение Trezor Safe 7. Плюсы и недостатки кошелька
@@ -1251,7 +1504,7 @@
       <p><a href="https://trezor.io/coins">Официальный сайт</a>. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="wallets" /><summary type="html"><![CDATA[Обзор и сравнение Trezor Safe 7. Плюсы и недостатки кошелька В этом обзре вы узнаете все про аппаратный кошелек Trezor Safe 7]]></summary></entry><entry xml:lang="ru"><title type="html">5 Советов, которые помогут Вам найти надежную автоматизированную платформу для торговли криптовалютами</title><link href="https://miningsoft.org/ru/blog/auto-platform/" rel="alternate" type="text/html" title="5 Советов, которые помогут Вам найти надежную автоматизированную платформу для торговли криптовалютами" /><published>2023-10-12T00:00:00-04:00</published><updated>2023-10-12T00:00:00-04:00</updated><id>https://miningsoft.org/ru/blog/auto-platform</id><content type="html" xml:base="https://miningsoft.org/ru/blog/auto-platform/"><![CDATA[<div class="paper wallet">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="wallets" /><summary type="html"><![CDATA[Обзор и сравнение Trezor Safe 7. Плюсы и недостатки кошелька В этом обзре вы узнаете все про аппаратный кошелек Trezor Safe 7]]></summary></entry><entry xml:lang="ru"><title type="html">5 Советов, которые помогут Вам найти надежную автоматизированную платформу для торговли криптовалютами</title><link href="https://miningsoft.org/ru/blog/auto-platform/" rel="alternate" type="text/html" title="5 Советов, которые помогут Вам найти надежную автоматизированную платформу для торговли криптовалютами" /><published>2023-10-12T00:00:00-05:00</published><updated>2023-10-12T00:00:00-05:00</updated><id>https://miningsoft.org/ru/blog/auto-platform</id><content type="html" xml:base="https://miningsoft.org/ru/blog/auto-platform/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       Важные аспекты, которые следует учитывать при выборе торговой платформы
@@ -1316,7 +1569,7 @@
 
 <p class="notice--danger">Это безрисковый способ определить, соответствует ли платформа вашим торговым целям.</p>
 
-<p>Убедитесь, что вы учитываете вышеперечисленные факторы, чтобы выбрать лучшую автоматизированную платформу для торговли криптовалютами.</p>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Важные аспекты, которые следует учитывать при выборе торговой платформы Убедитесь, что вы учитываете вышеперечисленные факторы, чтобы выбрать лучшую автоматизированную платформу для торговли криптовалютами.]]></summary></entry><entry xml:lang="ru"><title type="html">Whatsminer tool: Скачать бесплатно, Настройка на русском</title><link href="https://miningsoft.org/ru/tools/whatsminertool/" rel="alternate" type="text/html" title="Whatsminer tool: Скачать бесплатно, Настройка на русском" /><published>2023-04-13T00:00:00-04:00</published><updated>2025-08-08T00:00:00-04:00</updated><id>https://miningsoft.org/ru/tools/whatsminertool</id><content type="html" xml:base="https://miningsoft.org/ru/tools/whatsminertool/"><![CDATA[<div class="paper wallet">
+<p>Убедитесь, что вы учитываете вышеперечисленные факторы, чтобы выбрать лучшую автоматизированную платформу для торговли криптовалютами.</p>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Важные аспекты, которые следует учитывать при выборе торговой платформы Убедитесь, что вы учитываете вышеперечисленные факторы, чтобы выбрать лучшую автоматизированную платформу для торговли криптовалютами.]]></summary></entry><entry xml:lang="ru"><title type="html">Whatsminer tool: Скачать бесплатно, Настройка на русском</title><link href="https://miningsoft.org/ru/tools/whatsminertool/" rel="alternate" type="text/html" title="Whatsminer tool: Скачать бесплатно, Настройка на русском" /><published>2023-04-13T00:00:00-05:00</published><updated>2025-08-08T00:00:00-05:00</updated><id>https://miningsoft.org/ru/tools/whatsminertool</id><content type="html" xml:base="https://miningsoft.org/ru/tools/whatsminertool/"><![CDATA[<div class="paper wallet">
   <div class="pattern">
     <div class="note-cont">
       WhatsMiner tool: как использовать - пользовательское руководство.
@@ -1802,7 +2055,7 @@
       <p><a href="https://microbt-whatsminer.com/">WhatsMiner - Official Website</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="tools" /><summary type="html"><![CDATA[WhatsMiner tool: как использовать - пользовательское руководство. Получите полный набор инструкций по настройке и обновлению WhatsMiner tool v8.1.34 и более ранним версиям.]]></summary></entry><entry xml:lang="ru"><title type="html">Что такое криптовалюта? Простыми словами (2023)</title><link href="https://miningsoft.org/ru/articles/cryptocurrency/" rel="alternate" type="text/html" title="Что такое криптовалюта? Простыми словами (2023)" /><published>2023-02-22T00:00:00-04:00</published><updated>2023-02-22T00:00:00-04:00</updated><id>https://miningsoft.org/ru/articles/cryptocurrency</id><content type="html" xml:base="https://miningsoft.org/ru/articles/cryptocurrency/"><![CDATA[<div class="paper btc">
+</div>]]></content><author><name>Matthew Wood</name></author><category term="tools" /><summary type="html"><![CDATA[WhatsMiner tool: как использовать - пользовательское руководство. Получите полный набор инструкций по настройке и обновлению WhatsMiner tool v8.1.34 и более ранним версиям.]]></summary></entry><entry xml:lang="ru"><title type="html">Что такое криптовалюта? Простыми словами (2023)</title><link href="https://miningsoft.org/ru/articles/cryptocurrency/" rel="alternate" type="text/html" title="Что такое криптовалюта? Простыми словами (2023)" /><published>2023-02-22T00:00:00-05:00</published><updated>2023-02-22T00:00:00-05:00</updated><id>https://miningsoft.org/ru/articles/cryptocurrency</id><content type="html" xml:base="https://miningsoft.org/ru/articles/cryptocurrency/"><![CDATA[<div class="paper btc">
   <div class="pattern">
     <div class="note-cont">
       Криптовалюта: что такое, как работает и зачем нужна?
@@ -2357,97 +2610,4 @@
       <p><a href="https://bitcoin.org/ru/how-it-works">Как работает Биткойн?</a> <a href="#fnref:11" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Криптовалюта: что такое, как работает и зачем нужна? Простое объяснение криптовалюты для новичков и продвинутых пользователей.]]></summary></entry><entry xml:lang="ru"><title type="html">Дизайн Blockchain проектов: принципы, концепция и архитектура</title><link href="https://miningsoft.org/ru/blog/cex-design/" rel="alternate" type="text/html" title="Дизайн Blockchain проектов: принципы, концепция и архитектура" /><published>2023-02-22T00:00:00-04:00</published><updated>2023-02-22T00:00:00-04:00</updated><id>https://miningsoft.org/ru/blog/cex-design</id><content type="html" xml:base="https://miningsoft.org/ru/blog/cex-design/"><![CDATA[<div class="paper wallet">
-  <div class="pattern">
-    <div class="note-cont">
-      Ui дизайн, ориентированный на человека, доверие и простота
-    </div>
-  </div>
-</div>
-<p><em>Существует несколько вещей, о которых следует помнить при разработке блокчейна: простота, безопасность, прозрачность и др.</em></p>
-
-<h2 id="введение">Введение</h2>
-
-<p>Блокчейн. Даже простое его название вызывает в воображении картины математики, криптографии и узлов, цифровой валюты, обеспечивающие плавные, быстрые и безопасные транзакции.</p>
-
-<p class="notice--success">Но какое отношение все это имеет к дизайну? Вы должны сначала понять основные идеи блокчейна, чтобы проектировать его. Здесь мы перечисляем четыре основных принципа проектирования блокчейна.</p>
-
-<h2 id="что-такое-блокчейн">Что такое блокчейн?</h2>
-
-<p>Вы должны <a href="/ru/articles/blockchain/">понимать блокчейн</a>, чтобы хорошо проектировать его. Существование <a href="/ru/articles/cryptocurrency">криптовалют</a>, таких как Биткойн и Эфириум, стало возможным благодаря технологии блокчейн.</p>
-
-<p class="notice--info">По сути, это распределенный реестр, в котором транзакции записываются открыто и в хронологическом порядке. Затем каждая транзакция сохраняется в блоке данных, который трудно подделать после криптографического подтверждения сетевыми узлами.</p>
-
-<p>Несмотря на то, что <a href="/ru/articles/bitcoin">Биткойн</a> и Эфириум используют разные формы технологии блокчейна, у них есть несколько общих черт.</p>
-
-<p>Децентрализованная природа блокчейна — самое яркое сравнение. Он хранит информацию о транзакциях независимо от какого-либо центрального органа. Группа взаимосвязанных компьютеров образует сеть блокчейна, которая получает копии блокчейна и проверяет транзакции для сохранения целостности реестра.</p>
-
-<p class="notice--ya">В результате не может быть единой точки отказа, и система не может быть изменена или управляема одним лицом.</p>
-
-<p>Технология Blockchain чаще всего используется в криптографии, и, вероятно, именно так вы впервые услышали этот термин. Однако эту технологию можно использовать для всего: от финансовых транзакций до отслеживания медицинской информации и многого другого.</p>
-
-<p class="notice--primary">Название «блокчейн» относится к системе, в которой хранятся данные, которые нельзя изменить.</p>
-
-<p>Способность технологии блокчейн поддерживать децентрализацию — это другая ее сторона, помимо того, что она делает возможным существования криптовалюты.</p>
-
-<p>Децентрализация блокчейна отодвигает принятие решений от централизованного места или органа.</p>
-
-<p class="notice--ya"><a href="https://en.wikipedia.org/wiki/Децентрализация">Децентрализация</a> повышает эффективность и результативность организации за счет избавления от бесполезных компонентов, сокращения дублирования и предотвращения единых точек отказа. Члены децентрализованных сетей должны действовать независимо, не запрашивая одобрения централизованной сети.</p>
-
-<p>Три основные сетевые структуры — централизованная, децентрализованная и распределенная — часто используются при рассмотрении технологической установки.</p>
-
-<p>Хотя децентрализованные сети обычно используются блокчейн-технологией, приложение блокчейна может быть, а может и не быть децентрализованным. Поэтому децентрализацию следует осуществлять дальше по сети, как на технологическом, так и на административном уровнях.</p>
-
-<p class="notice--warning">Поэтому крайне важно помнить о принципах проектирования при работе над продуктом, поддерживающим децентрализацию.</p>
-
-<h2 id="принципы-проектирования-блокчейна-которым-нужно-следовать">Принципы проектирования блокчейна, которым нужно следовать</h2>
-
-<p>Дизайн и разработка финтех-приложений быстро набирают популярность. Вот три принципа дизайна блокчейна, которые вы должны соблюдать. Мы ограничили их тремя, потому что проектирование проектов блокчейна и криптовалюты больше связано с пониманием технологии, ее целевой аудитории и будущего блокчейна, чем с соблюдением правил.</p>
-
-<h3 id="дизайн-ориентированный-на-человека">Дизайн, ориентированный на человека</h3>
-
-<p>Наиболее важным аспектом блокчейна является то, что пользователи должны верить в него. Блокчейн должен быть создан таким образом, чтобы он был понятен всем пользователям, чтобы завоевать их доверие. Таким образом, одним из наиболее важных аспектов дизайна блокчейна является то, насколько он удобен для пользователя.</p>
-
-<p class="notice--success">Предоставление людям, которые могут быть не очень технически подкованными, базовых, интуитивно понятных пользовательских интерфейсов, является одним из способов сделать это. Если вы ищете пример, <a href="https://cex.io/mobile">вы можете скачать приложение для торговли биткойнами для iPhone</a>, созданное CEX.iO.</p>
-
-<h3 id="доверие">Доверие</h3>
-
-<p>Проектирование для блокчейна предполагает планирование создания услуги или приложения, на которое можно положиться, которое невозможно изменить и которое (почти) полностью прозрачно для всех пользователей и заинтересованных сторон.</p>
-
-<p class="notice--danger">Фундаментальной функцией блокчейна является обработка личных данных. Поэтому крайне важно сохранить доверие пользователя, когда дело доходит до этой информации.<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></p>
-
-<p>Это доверие в некоторой степени влияет на надежность и стабильность платформы. Чтобы сохранить доверие пользователей к вашему дизайну и продукту, обращайте внимание на отзывы клиентов и поддерживайте последовательность.</p>
-
-<h3 id="простота">Простота</h3>
-
-<p>Сделайте ваше приложение максимально простым и удобным в использовании. Блокчейн создает почти бесконечный поток данных и информации, поэтому простой интерфейс облегчит работу людей. Это также помогает уменьшить входные барьеры на вашу платформу. Чем меньше пользователю нужно разобраться, тем легче начать его использовать.</p>
-
-<p>С учетом сказанного, есть несколько принципов, о которых следует помнить при разработке для блокчейна, сохраняя при этом простоту.</p>
-
-<ul>
-  <li><strong>Безопасность</strong> – Даже с <a href="https://www.investopedia.com/terms/t/twofactor-authentication-2fa.asp">2FA</a>, у пользователей не должно возникнуть проблем с вводом данных для входа (безопасный пароль или биометрические данные). Что еще более важно, каждая страница, файл и транзакция должны обеспечивать чувство безопасности, сохраняя при этом простоту дизайна и удобство навигации.</li>
-</ul>
-
-<p>Кроме того, безопасность не следует приравнивать к сопротивлению. Вам нужна платформа, которая делает каждое взаимодействие надежным и безопасным.</p>
-
-<ul>
-  <li>
-    <p><strong>Конфиденциальность</strong> – Некоторая степень конфиденциальности необходима для приватной информации. Пользователи хотят конфиденциальности своей личности, а также своей деятельности на вашей платформе. Независимо от того, что делает ваш продукт, псевдонимы и закрытые ключи являются двумя краеугольными камнями технологии блокчейна, которые вы должны использовать.</p>
-  </li>
-  <li>
-    <p><strong>Прозрачность</strong> — для завершения транзакции в блокчейне требуется время, но мы редко знаем точно, сколько этого времени нужно в загруженной сети. Пользователи должны видеть о своих транзакциях, потому что данные конфиденциальны. Держите пользователей в курсе при разработке и помните о прозрачности.</p>
-  </li>
-</ul>
-
-<p class="notice">Чтобы люди понимали, как работает ваш продукт и чем он отличается от продуктов ваших конкурентов, также крайне важен прозрачный подход к управлению.</p>
-
-<ul>
-  <li><strong>Согласованность</strong>. Установите один язык дизайна и используйте его как можно чаще. Это позволяет потребителям легко перемещаться по вашему продукту, определять свое местоположение в любой момент и решать, какие шаги делать дальше. Если пользовательский интерфейс вашего блокчейн-проекта ясен, лаконичен и придерживается единого языка дизайна, он будет более успешным.</li>
-</ul>
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1">
-      <p><a href="https://uxplanet.org/blockchain-and-its-applications-for-service-designers-7b6bfd9fec39">Blockchain and Its Applications for Service Designers</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>]]></content><author><name>Matthew Wood</name></author><category term="blog" /><summary type="html"><![CDATA[Ui дизайн, ориентированный на человека, доверие и простота Существует несколько вещей, о которых следует помнить при разработке блокчейна: простота, безопасность, прозрачность и др.]]></summary></entry></feed>
+</div>]]></content><author><name>Matthew Wood</name></author><category term="articles" /><summary type="html"><![CDATA[Криптовалюта: что такое, как работает и зачем нужна? Простое объяснение криптовалюты для новичков и продвинутых пользователей.]]></summary></entry></feed>
