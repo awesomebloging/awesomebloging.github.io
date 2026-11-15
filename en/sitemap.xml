@@ -2,607 +2,22 @@
 <urlset xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9 https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://miningsoft.org/en/wallets/onekey-pro2/</loc>
+    <loc>http://localhost:4000/en/wallets/onekey-neo/</loc>
     
-    <lastmod>2026-10-19T00:00:00-05:00</lastmod>
+    <lastmod>2026-11-13T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
-  <url>
-    <loc>https://miningsoft.org/en/blog/easily/</loc>
-    
-    <lastmod>2025-12-09T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/articles/cards/</loc>
-    
-    <lastmod>2025-11-21T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/blog/depin-airdrops/</loc>
-    
-    <lastmod>2025-11-20T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/blog/fusaka/</loc>
-    
-    <lastmod>2025-11-19T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/wallets/trezor-safe-7/</loc>
-    
-    <lastmod>2025-11-12T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/blog/auto-platform/</loc>
-    
-    <lastmod>2023-10-12T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/tools/whatsminertool/</loc>
-    
-    <lastmod>2023-04-13T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/blog/cex-design/</loc>
-    
-    <lastmod>2023-02-22T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/articles/cryptocurrency/</loc>
-    
-    <lastmod>2023-02-22T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/blog/rkn/</loc>
-    
-    <lastmod>2023-02-17T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/articles/blockchain/</loc>
-    
-    <lastmod>2023-02-10T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/blog/btc-potencial/</loc>
-    
-    <lastmod>2023-02-09T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/articles/mining/</loc>
-    
-    <lastmod>2023-02-07T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/articles/bitcoin/</loc>
-    
-    <lastmod>2023-02-01T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/guide/specific-domain-linux/</loc>
-    
-    <lastmod>2022-12-12T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/guide/ethw/</loc>
-    
-    <lastmod>2022-09-20T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/guide/eth-staking/</loc>
-    
-    <lastmod>2022-09-11T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/guide/merge/</loc>
-    
-    <lastmod>2022-09-09T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/guide/usdt-works/</loc>
-    
-    <lastmod>2022-09-04T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/wallets/multidoge/</loc>
-    
-    <lastmod>2022-08-31T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/guide/multidoge/</loc>
-    
-    <lastmod>2022-08-30T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/wallets/dogecoin-core/</loc>
-    
-    <lastmod>2022-08-11T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/wallets/electrum/</loc>
-    
-    <lastmod>2022-08-02T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/miners/teamblackminer/</loc>
-    
-    <lastmod>2021-11-19T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/miners/bzminer/</loc>
-    
-    <lastmod>2021-11-14T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/miners/bminer/</loc>
-    
-    <lastmod>2021-09-14T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/miners/miniz/</loc>
-    
-    <lastmod>2021-08-29T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/miners/nanominer/</loc>
-    
-    <lastmod>2021-08-27T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/tools/amdmemorytweak/</loc>
-    
-    <lastmod>2021-08-24T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/miners/cryptodredge/</loc>
-    
-    <lastmod>2021-08-23T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/miners/srbminer/</loc>
-    
-    <lastmod>2021-08-20T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/tools/real-temp/</loc>
-    
-    <lastmod>2021-08-19T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/tools/nodevfee/</loc>
-    
-    <lastmod>2021-08-19T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/tools/morepowertool/</loc>
-    
-    <lastmod>2021-08-18T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/tools/rbe/</loc>
-    
-    <lastmod>2021-08-15T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/miners/xmrig/</loc>
-    
-    <lastmod>2021-08-14T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/tools/apminertool/</loc>
-    
-    <lastmod>2021-08-13T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/tools/ip-reporter/</loc>
-    
-    <lastmod>2021-08-12T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/tools/btc-tool/</loc>
-    
-    <lastmod>2021-08-12T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/tools/watttool/</loc>
-    
-    <lastmod>2021-08-10T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/tools/overdriventool/</loc>
-    
-    <lastmod>2021-08-10T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/tools/amd-driver/</loc>
-    
-    <lastmod>2021-08-10T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/tools/atiflash/</loc>
-    
-    <lastmod>2021-08-06T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/tools/nvflash/</loc>
-    
-    <lastmod>2021-08-05T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/tools/ohgodanethlargementpill/</loc>
-    
-    <lastmod>2021-07-26T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/tools/atikmdag/</loc>
-    
-    <lastmod>2021-07-25T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/miners/cgminer/</loc>
-    
-    <lastmod>2021-07-24T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/wallets/exodus/</loc>
-    
-    <lastmod>2021-07-19T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/wallets/myetherwallet/</loc>
-    
-    <lastmod>2021-07-18T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/wallets/mycrypto/</loc>
-    
-    <lastmod>2021-07-18T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/wallets/trust/</loc>
-    
-    <lastmod>2021-07-17T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/tools/polaris-bios-editor/</loc>
-    
-    <lastmod>2021-07-16T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/miners/ethminer/</loc>
-    
-    <lastmod>2021-07-16T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/tools/nvidia-inspector/</loc>
-    
-    <lastmod>2021-07-15T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/miners/nicehash/</loc>
-    
-    <lastmod>2021-07-13T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/miners/phoenixminer/</loc>
-    
-    <lastmod>2021-06-11T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/miners/cpuminer/</loc>
-    
-    <lastmod>2021-04-08T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/miners/trexminer/</loc>
-    
-    <lastmod>2021-04-02T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/miners/wildrig/</loc>
-    
-    <lastmod>2021-03-31T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/miners/nbminer/</loc>
-    
-    <lastmod>2021-03-25T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/miners/ccminer/</loc>
-    
-    <lastmod>2021-03-25T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/miners/teamredminer/</loc>
-    
-    <lastmod>2021-03-24T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/miners/gminer/</loc>
-    
-    <lastmod>2021-03-20T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/miners/srbpolaris/</loc>
-    
-    <lastmod>2021-03-19T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://miningsoft.org/en/miners/lolminer/</loc>
-    
-    <lastmod>2021-03-18T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
   
   
   
   
   <url>
-    <loc>https://miningsoft.org/en/about/</loc>
+    <loc>http://localhost:4000/en/about/</loc>
       
-        <lastmod>2026-11-13T14:48:10-05:00</lastmod>
+        <lastmod>2026-11-13T15:05:24-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -612,9 +27,9 @@
   
   
   <url>
-    <loc>https://miningsoft.org/en/advertising/</loc>
+    <loc>http://localhost:4000/en/advertising/</loc>
       
-        <lastmod>2026-11-13T14:48:10-05:00</lastmod>
+        <lastmod>2026-11-13T15:05:24-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -624,9 +39,9 @@
   
   
   <url>
-    <loc>https://miningsoft.org/en/contact/</loc>
+    <loc>http://localhost:4000/en/contact/</loc>
       
-        <lastmod>2026-11-13T14:48:10-05:00</lastmod>
+        <lastmod>2026-11-13T15:05:24-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -636,9 +51,9 @@
   
   
   <url>
-    <loc>https://miningsoft.org/en/legal/cookie/</loc>
+    <loc>http://localhost:4000/en/legal/cookie/</loc>
       
-        <lastmod>2026-11-13T14:48:10-05:00</lastmod>
+        <lastmod>2026-11-13T15:05:24-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -648,9 +63,9 @@
   
   
   <url>
-    <loc>https://miningsoft.org/en/legal/disclaimer/</loc>
+    <loc>http://localhost:4000/en/legal/disclaimer/</loc>
       
-        <lastmod>2026-11-13T14:48:10-05:00</lastmod>
+        <lastmod>2026-11-13T15:05:24-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -660,9 +75,9 @@
   
   
   <url>
-    <loc>https://miningsoft.org/en/</loc>
+    <loc>http://localhost:4000/en/</loc>
       
-        <lastmod>2026-11-13T14:48:10-05:00</lastmod>
+        <lastmod>2026-11-13T15:05:24-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -684,9 +99,9 @@
   
   
   <url>
-    <loc>https://miningsoft.org/en/legal/privacy/</loc>
+    <loc>http://localhost:4000/en/legal/privacy/</loc>
       
-        <lastmod>2026-11-13T14:48:10-05:00</lastmod>
+        <lastmod>2026-11-13T15:05:24-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -698,9 +113,9 @@
   
   
   <url>
-    <loc>https://miningsoft.org/en/legal/terms/</loc>
+    <loc>http://localhost:4000/en/legal/terms/</loc>
       
-        <lastmod>2026-11-13T14:48:10-05:00</lastmod>
+        <lastmod>2026-11-13T15:05:24-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -712,9 +127,9 @@
   
   
   <url>
-    <loc>https://miningsoft.org/en/articles/</loc>
+    <loc>http://localhost:4000/en/articles/</loc>
       
-        <lastmod>2026-11-13T14:48:10-05:00</lastmod>
+        <lastmod>2026-11-13T15:05:24-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -724,9 +139,9 @@
   
   
   <url>
-    <loc>https://miningsoft.org/en/blog/</loc>
+    <loc>http://localhost:4000/en/blog/</loc>
       
-        <lastmod>2026-11-13T14:48:10-05:00</lastmod>
+        <lastmod>2026-11-13T15:05:24-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -736,9 +151,9 @@
   
   
   <url>
-    <loc>https://miningsoft.org/en/guide/</loc>
+    <loc>http://localhost:4000/en/guide/</loc>
       
-        <lastmod>2026-11-13T14:48:10-05:00</lastmod>
+        <lastmod>2026-11-13T15:05:24-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -748,9 +163,9 @@
   
   
   <url>
-    <loc>https://miningsoft.org/en/miners/</loc>
+    <loc>http://localhost:4000/en/miners/</loc>
       
-        <lastmod>2026-11-13T14:48:10-05:00</lastmod>
+        <lastmod>2026-11-13T15:05:24-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -760,9 +175,9 @@
   
   
   <url>
-    <loc>https://miningsoft.org/en/miners/page2/</loc>
+    <loc>http://localhost:4000/en/tools/</loc>
       
-        <lastmod>2026-11-13T14:48:10-05:00</lastmod>
+        <lastmod>2026-11-13T15:05:24-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -772,21 +187,9 @@
   
   
   <url>
-    <loc>https://miningsoft.org/en/tools/</loc>
+    <loc>http://localhost:4000/en/wallets/</loc>
       
-        <lastmod>2026-11-13T14:48:10-05:00</lastmod>
-       
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  
-  
-  
-  <url>
-    <loc>https://miningsoft.org/en/wallets/</loc>
-      
-        <lastmod>2026-11-13T14:48:10-05:00</lastmod>
+        <lastmod>2026-11-13T15:05:24-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
